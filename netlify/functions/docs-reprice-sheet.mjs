@@ -10,10 +10,9 @@
  * Returns base64-encoded DOCX for client-side download.
  */
 
-import {
 import { handleCors, corsHeaders } from './cors.mjs';
 import { validateApiKey } from './auth.mjs';
-
+import {
     Document, Packer, Paragraph, Table, TableRow, TableCell,
     TextRun, WidthType, AlignmentType, BorderStyle,
     convertInchesToTwip, Footer, Header, ImageRun
