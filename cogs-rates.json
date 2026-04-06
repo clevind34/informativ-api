@@ -1,0 +1,60 @@
+{
+  "bureau_rates": {
+    "EFX_HP": 7.06,
+    "EXP_HP": 5.33,
+    "TU_HP": 7.48,
+    "EFX_SP": 7.06,
+    "EXP_SP": 4.78,
+    "TU_SP": 7.59
+  },
+  "product_rates": {
+    "synthetic_id": 0.16,
+    "compliance_suite": 80,
+    "informativ_payments_base": 208.25,
+    "smartpencils": 0.50,
+    "dl_fraud_check": 120,
+    "dealertrack": 150
+  },
+  "subcode_fees": {
+    "EFX_HP_subcode": 40,
+    "EFX_HP_sms": 15,
+    "EFX_SP_subcode": 40,
+    "EFX_SP_sms": 15,
+    "TU_HP_subcode": 15.95,
+    "EXP_HP_subcode": 20,
+    "EXP_SP_subcode": 20
+  },
+  "verified_stips_lookup": [
+    { "min": 0, "max": 5, "cost": 40 },
+    { "min": 6, "max": 20, "cost": 99 },
+    { "min": 21, "max": 35, "cost": 139 },
+    { "min": 36, "max": 50, "cost": 174 },
+    { "min": 51, "max": 100, "cost": 295 },
+    { "min": 101, "max": 250, "cost": 695 },
+    { "min": 251, "max": 400, "cost": 1025 }
+  ],
+  "gm_thresholds": {
+    "Protect":  { "target": 0.475, "manager": 0.425, "floor": 0.395 },
+    "Enrich":   { "target": 0.525, "manager": 0.475, "floor": 0.445 },
+    "Elevate":  { "target": 0.600, "manager": 0.550, "floor": 0.520 },
+    "Control":  { "target": 0.500, "manager": 0.450, "floor": 0.420 }
+  },
+  "roi_assumptions": {
+    "cost_per_hard_pull": 5.77,
+    "cost_per_soft_pull": 3.18,
+    "pct_pulls_switched_to_soft": 0.67,
+    "fraud_events_per_rooftop_per_year": 1,
+    "avg_cost_per_fraud_event": 48699,
+    "fraud_event_source": "Cox Automotive, 2024 avg. new vehicle transaction price",
+    "compliance_violations_per_group": 1,
+    "ftc_fine_per_violation": 46517,
+    "ftc_fine_source": "FTC.gov, adjusted civil penalty amount (2024)",
+    "prequal_complete_app_rate": 0.44,
+    "prequal_show_rate": 0.40,
+    "prequal_close_rate": 0.09,
+    "avg_profit_per_unit": 2500,
+    "conversion_source": "NADA Workforce Study; Informativ internal pre-qualification data",
+    "smartpencil_pvr_lift_per_deal": 100,
+    "smartpencil_source": "JD Power 2024 F&I Study; NADA average back-end gross benchmarks"
+  }
+}

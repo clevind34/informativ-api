@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "Informativ Tier Certification \u2014 Protect | Enrich | Elevate | Control",
+    "program_id": "tier_cert",
+    "created": "2026-03-16",
+    "organization": "Informativ",
+    "description": "4-module certification teaching reps to differentiate Informativ's four package tiers, map customer pain to the right tier, and articulate tier-specific value. Built from the Value Selling Training Outline, Tiered Product Story, and Feature-Advantage-Benefit framework.",
+    "target_audience": "Sales representatives",
+    "product": "Informativ Platform (All Tiers)",
+    "passing_score": 80,
+    "total_modules": 4
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "Protect \u2014 Compliance-First Credit Access",
+      "description": "The baseline tier. Every customer enters the platform on Protect. This module covers what Protect includes, who it's built for, and how to position compliance as the floor \u2014 not the ceiling.",
+      "key_concepts": [
+        "Protect is the mandatory starting point \u2014 no customer enters without compliance embedded",
+        "Core features: FCRA, OFAC, Red Flags, Privacy Notices, credit report access, adverse action automation, audit-ready deal documentation",
+        "Value message: Every credit pull is compliant, every deal is protected from day one",
+        "Who it's for: Every dealership \u2014 this is the baseline",
+        "Protect starts at 75 vehicles sold per month",
+        "Never position credit-only \u2014 always lead with compliance as the floor",
+        "Key value driver: Stay Safe \u2014 protect from regulatory, legal, and reputational risk"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the primary positioning of the Protect tier?",
+            "options": {
+              "A": "A low-cost credit-only package",
+              "B": "Compliance-first credit access \u2014 every customer starts here",
+              "C": "A premium enterprise solution",
+              "D": "A fraud detection package"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Some customers can enter the Informativ platform without the compliance baseline included in Protect.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which compliance components are included in Protect?",
+            "options": {
+              "A": "FCRA, OFAC, Red Flags, and Privacy Notices",
+              "B": "Only OFAC and Red Flags",
+              "C": "Only credit report access",
+              "D": "Fraud detection and identity scanning"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What is the value message for Protect?",
+            "options": {
+              "A": "Enterprise-grade compliance and revenue acceleration",
+              "B": "Stronger fraud defense without workflow friction",
+              "C": "Every credit pull is compliant, every deal is protected from day one",
+              "D": "Consistency, compliance, and speed in one automated flow"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the minimum vehicle threshold where Protect is typically positioned?",
+            "options": {
+              "A": "25 vehicles/month",
+              "B": "50 vehicles/month",
+              "C": "75 vehicles/month",
+              "D": "100 vehicles/month"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "When positioning Informativ to a prospect, what should a rep always lead with?",
+            "options": {
+              "A": "Credit report pricing",
+              "B": "SmartPencil features",
+              "C": "Compliance as the floor \u2014 then sell up based on discovered pain",
+              "D": "The full Control package"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which of Informativ's three primary value drivers is most aligned with Protect?",
+            "options": {
+              "A": "Make More \u2014 increase revenue per vehicle",
+              "B": "Save More \u2014 reduce fraud losses and operational waste",
+              "C": "Stay Safe \u2014 protect from regulatory, legal, and reputational risk",
+              "D": "All three equally"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What automation does Protect include for adverse action?",
+            "options": {
+              "A": "None \u2014 adverse action is manual",
+              "B": "Automated adverse action notices",
+              "C": "Only email notifications",
+              "D": "Adverse action is only in Control"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer says they only need credit reports. How should a rep respond?",
+            "options": {
+              "A": "Decline the deal \u2014 Informativ doesn't sell credit-only packages",
+              "B": "Sell them credit access and move on",
+              "C": "Acknowledge where they are today, sell them Credit stand alone, and let them know their needs may change over time \u2014 Informativ can grow with them as their business evolves",
+              "D": "Recommend they use a competitor until they need more features"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What does audit-ready deal documentation mean in the context of Protect?",
+            "options": {
+              "A": "Documents are printed and filed manually",
+              "B": "Every deal has compliant, defensible documentation stored digitally and ready for regulatory review",
+              "C": "Audits are handled by Informativ's legal team",
+              "D": "Documentation is optional"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "Enrich \u2014 Fraud Defense + Enhanced Credit Intelligence",
+      "description": "The step up from Protect for dealers who need fraud defense and compliance but are new to Informativ and not quite ready for soft-pull-only with Elevate. Covers Enrich-specific features, the Enrich credit display difference (no visible credit score), SmartPencil introduction, and how to identify dealers who fit the Enrich profile.",
+      "key_concepts": [
+        "Enrich is for dealers who need fraud defense and compliance but are new to Informativ and not quite ready for soft-pull-only with Elevate",
+        "Ideal for dealers experiencing slowdown at the desk who want a robust offering but face sticker shock when they see the price of Control (hard pulls and soft pulls combined)",
+        "Value message: Compliance, fraud defense, and faster throughput at the desk without added workflow friction",
+        "Multi-layer fraud detection: ID scanning, synthetic ID checks, Out-of-Wallet, MLA",
+        "Key difference: In Enrich, the credit score and bureau are NOT shown to the desk manager",
+        "The system still uses credit data to calculate payments \u2014 it is just hidden from the user. Dealers see lender programs the consumer qualifies for in SmartPencil",
+        "SmartPencil is the first tier that includes SmartPencil for deal structuring",
+        "100 vehicles/month is the threshold where Enrich or higher becomes appropriate",
+        "Value drivers: All three \u2014 Stay Safe, Save More, and Make More"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Who is the Enrich tier built for?",
+            "options": {
+              "A": "Dealers who only need baseline credit and compliance coverage at the lowest cost",
+              "B": "Dealers who need fraud and compliance but are new to Informativ and not quite ready for soft-pull-only with Elevate",
+              "C": "Enterprise dealer groups with 500+ vehicles per month who need custom integrations",
+              "D": "Dealers who are already on Elevate but want to add hard pull credit reports back into their workflow"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is unique about how credit data is displayed in Enrich compared to Elevate and Control?",
+            "options": {
+              "A": "Enrich shows more credit detail",
+              "B": "Credit score and bureau are NOT shown to the desk manager in Enrich",
+              "C": "Enrich does not use credit data at all",
+              "D": "There is no difference"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: In Enrich, the system still uses credit data to calculate SmartPencil payments even though the score is hidden.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "After the prequal consent form is completed in Enrich, where does the dealership see the soft pull credit information?",
+            "options": {
+              "A": "The desk manager reviews the full soft pull credit report and score",
+              "B": "The credit data is emailed to the F&I manager for review",
+              "C": "They go to SmartPencil, where they don't see the score or report but do see the lender programs the consumer qualifies for",
+              "D": "The soft pull results are displayed in the compliance dashboard"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which fraud detection layers are included in Enrich?",
+            "options": {
+              "A": "Only OFAC checks",
+              "B": "ID scanning, synthetic ID checks, Out-of-Wallet, and MLA",
+              "C": "Only driver's license scanning",
+              "D": "Red Flags and OFAC only"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the value message for Enrich?",
+            "options": {
+              "A": "Every credit pull is compliant from day one",
+              "B": "Enterprise-grade compliance and revenue acceleration",
+              "C": "Compliance, fraud defense, and faster throughput at the desk without added workflow friction",
+              "D": "Consistency, compliance, and speed in one automated flow"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "At what vehicle volume threshold does Enrich or higher become the appropriate package fit?",
+            "options": {
+              "A": "50 vehicles/month",
+              "B": "75 vehicles/month",
+              "C": "100 vehicles/month",
+              "D": "200 vehicles/month"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the first Informativ tier that includes SmartPencil?",
+            "options": {
+              "A": "Protect \u2014 SmartPencil is included in every tier as part of the baseline",
+              "B": "Enrich \u2014 the first tier that introduces SmartPencil for deal structuring",
+              "C": "Elevate \u2014 SmartPencil is only available with soft-pull-only packages",
+              "D": "Control \u2014 SmartPencil requires both hard pull and soft pull to function"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the primary feature Enrich adds beyond Protect?",
+            "options": {
+              "A": "Full credit report and score visibility for the desk manager",
+              "B": "SmartPencil \u2014 enabling deal structuring with lender programs the consumer qualifies for",
+              "C": "Automated CRM integration and lead scoring capabilities",
+              "D": "Direct lender submission and deal push functionality"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which value driver is most aligned with Enrich?",
+            "options": {
+              "A": "Make More \u2014 increase revenue per vehicle",
+              "B": "Save More \u2014 reduce fraud losses and operational waste",
+              "C": "Stay Safe \u2014 regulatory protection only",
+              "D": "All three \u2014 Stay Safe, Save More, and Make More"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "Elevate \u2014 Compliance Automation + Operational Efficiency",
+      "description": "Elevate is for dealers willing to go soft-pull-only who require all the features Informativ has to offer. Essentially the same as Control minus the hard pull baseline. A great fit for current Control customers impacted by credit bureau price increases, and for dealers ready to adopt the soft-pull-only model.",
+      "key_concepts": [
+        "Elevate is built for dealers willing to go soft-pull-only who require all the features Informativ has to offer",
+        "Great package for current Control customers to downgrade to when credit bureau price increases impact them",
+        "Value message: Full access to every Informativ feature with reduced compliance risk by moving to soft pulls only",
+        "Elevate includes everything \u2014 all three value drivers: Stay Safe, Save More, and Make More",
+        "In Elevate, the desk manager CAN see the customer's credit score and bureau information",
+        "The Risk Based Pricing Notice is generated off the soft pull, unlike other packages where it comes off the hard pull",
+        "Credit Guardrails put control in the dealer's hands on when, how often, and how much credit is utilized in the showroom",
+        "Hard pulls can still be offered transactionally in Elevate",
+        "Elevate is essentially the same as Control except it is soft-pull-only",
+        "eZ Form Fill automates form completion to reduce manual data entry"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Who is the Elevate tier built for?",
+            "options": {
+              "A": "Every dealership as a baseline compliance solution",
+              "B": "Dealers needing only fraud protection without SmartPencil",
+              "C": "Dealers willing to go soft-pull-only who require all the features Informativ has to offer",
+              "D": "Enterprise groups with 500+ vehicles requiring custom integrations"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the value message for Elevate?",
+            "options": {
+              "A": "Every credit pull is compliant from day one",
+              "B": "Full access to every Informativ feature with reduced compliance risk by moving to soft pulls only",
+              "C": "Stronger fraud defense without workflow friction",
+              "D": "Enterprise-grade revenue acceleration with hard pull and soft pull combined"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which feature automates form completion to reduce manual data entry?",
+            "options": {
+              "A": "SmartPencil",
+              "B": "Credit Guardrails",
+              "C": "eZ Form Fill",
+              "D": "Digital Deal Jacket"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: In Elevate, the desk manager CAN see the customer's credit score and bureau information.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What do Credit Guardrails do in the showroom?",
+            "options": {
+              "A": "Block all credit pulls from being processed",
+              "B": "Put control in the dealer's hands on when, how often, and how much credit is utilized in the showroom",
+              "C": "Generate SmartPencil payments automatically",
+              "D": "Manage lender submissions and deal routing"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "In Elevate, how is the Risk Based Pricing Notice generated differently than in other packages?",
+            "options": {
+              "A": "The Risk Based Pricing Notice is not required in Elevate",
+              "B": "It is generated off the soft pull, whereas in other packages it is generated off the hard pull",
+              "C": "It is generated manually by the F&I manager after deal submission",
+              "D": "It is generated off the hard pull, same as every other package"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the primary difference between Elevate and Control?",
+            "options": {
+              "A": "Elevate includes more features than Control",
+              "B": "Control is soft-pull-only while Elevate uses hard pulls",
+              "C": "Elevate is soft-pull-only while Control includes both hard pull and soft pull",
+              "D": "Elevate does not include Customer Insights while Control does"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: In Elevate, hard pulls can still be offered transactionally.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "How does Elevate differ from Enrich on credit visibility?",
+            "options": {
+              "A": "Both hide the soft pull credit score from the desk manager",
+              "B": "Elevate shows the soft pull credit score and bureau to desk managers; Enrich hides them",
+              "C": "Enrich shows more credit detail than Elevate",
+              "D": "There is no difference in credit visibility between the two"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which value driver combination best describes Elevate?",
+            "options": {
+              "A": "Make More only",
+              "B": "Save More + Stay Safe \u2014 operational efficiency and compliance automation",
+              "C": "Stay Safe only",
+              "D": "Make More + Save More + Stay Safe equally"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Control \u2014 Full-Platform Optimization + Revenue Acceleration",
+      "description": "The enterprise tier. Full-funnel automation, SmartPencil prequalification, income and employment verification, customer insights, complete fraud suite, and digital retailing optimization. Covers how to position Control for enterprise groups and high-volume rooftops.",
+      "key_concepts": [
+        "Built for enterprise groups and high-volume rooftops seeking full-funnel automation and marketing ROI",
+        "Value message: Enterprise-grade compliance, funding speed, and customer intelligence that drives revenue",
+        "Includes everything in Protect + Enrich + Elevate PLUS:",
+        "Soft-pull prequalification (SmartPencil)",
+        "Income and employment verification",
+        "Customer insights and lead scoring",
+        "Complete fraud suite",
+        "Full compliance guardrails",
+        "Digital retailing optimization",
+        "Legacy name: Total Solution maps to Control",
+        "Hits all three value drivers: Make More + Save More + Stay Safe"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Who is the Control tier built for?",
+            "options": {
+              "A": "Small independent dealers",
+              "B": "Enterprise groups and high-volume rooftops seeking full-funnel automation and marketing ROI",
+              "C": "Dealers who only need compliance",
+              "D": "Dealers with fewer than 75 vehicles/month"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the value message for Control?",
+            "options": {
+              "A": "Compliance-first credit access",
+              "B": "Stronger fraud defense without friction",
+              "C": "Enterprise-grade compliance, funding speed, and customer intelligence that drives revenue",
+              "D": "Consistency and speed in one automated flow"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which feature is unique to Control and not available in lower tiers?",
+            "options": {
+              "A": "SmartPencil deal structuring",
+              "B": "Customer Insights for marketing and retention",
+              "C": "Full access to both hard pulls and soft pulls together",
+              "D": "Fraud detection and synthetic ID checks"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What legacy tier name maps to Control?",
+            "options": {
+              "A": "Protect",
+              "B": "Enrich",
+              "C": "Total Solution",
+              "D": "Elevate"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "A Control customer says their pricing is now too high due to credit bureau cost increases. What is the ideal package to move them to without compromising features?",
+            "options": {
+              "A": "Protect \u2014 the lowest cost entry point to reduce their spend immediately",
+              "B": "Enrich \u2014 removes the soft pull to cut costs while keeping fraud protection",
+              "C": "Elevate \u2014 delivers every Informativ feature at a lower cost by moving to soft-pull-only",
+              "D": "There is no alternative \u2014 Control is the only tier with full feature access"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "If you move a customer from Control to a less expensive package, that opportunity is considered what?",
+            "options": {
+              "A": "New \u2014 full quota and booking credit",
+              "B": "Cross-Sell \u2014 full quota and booking credit",
+              "C": "Reprice \u2014 quota credit but no booking credit",
+              "D": "Downgrade \u2014 no quota or booking credit"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Which of Informativ's three value drivers does Control deliver on?",
+            "options": {
+              "A": "Make More only",
+              "B": "Save More only",
+              "C": "Stay Safe only",
+              "D": "All three: Make More, Save More, and Stay Safe"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "A 15-rooftop enterprise group wants full-funnel automation, prequalification, customer intelligence, and traditional hard pull credit access. Which tier fits?",
+            "options": {
+              "A": "Protect",
+              "B": "Enrich",
+              "C": "Elevate",
+              "D": "Control"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "What is the main value add that Control provides vs all other packages?",
+            "options": {
+              "A": "Control is the only package with SmartPencil and fraud detection",
+              "B": "Control is the only package that blends traditional credit access with the full Informativ feature set and Credit Guardrails",
+              "C": "Control is the only package that includes compliance automation",
+              "D": "Control is the only package available for multi-rooftop dealer groups"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer that sells 250 vehicles a month is on Protect. They are acquired by an enterprise-level auto group that needs more robust features and is unfamiliar with soft pulls. What should the rep recommend?",
+            "options": {
+              "A": "Stay on Protect \u2014 it covers everything they need at their volume",
+              "B": "Enrich \u2014 adds fraud protection and SmartPencil at a lower cost than Control",
+              "C": "Elevate \u2014 gives them full features with soft-pull-only access",
+              "D": "Control \u2014 full feature set with traditional hard pull credit access the group is familiar with"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "How does digital retailing optimization in Control benefit the dealer?",
+            "options": {
+              "A": "It replaces the dealership website",
+              "B": "It optimizes the online-to-showroom customer journey with prequalification and lead intelligence",
+              "C": "It automates vehicle pricing",
+              "D": "It manages social media"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When should a rep use the Compliance Risk and Opportunity Audit to help steer a customer toward Control?",
+            "options": {
+              "A": "Never \u2014 let the customer decide",
+              "B": "Only after they sign a contract",
+              "C": "During discovery \u2014 to surface compliance gaps, fraud exposure, and operational inefficiencies that justify the full platform",
+              "D": "Only if the competitor mentions it"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    }
+  ]
+}

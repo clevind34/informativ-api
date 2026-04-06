@@ -1,0 +1,742 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "Informativ Total Solutions \u2014 Manager Certification",
+    "program_id": "total_solutions_manager_cert",
+    "created": "2026-03-16",
+    "organization": "Informativ",
+    "description": "Product fluency certification for sellers engaging manager-level buyers. Know the compliance dashboards, fraud flags, user controls, and reporting tools your prospects use daily — so you can speak their language, handle technical objections, and sell to F&I directors and compliance officers with credibility.",
+    "target_audience": "Sales representatives selling to dealership managers",
+    "product": "Total Solutions Platform",
+    "passing_score": 80,
+    "total_modules": 8
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "Manager Platform Overview",
+      "description": "Informativ goals, compliance framework, core values, fraud prevention capabilities, and management oversight benefits.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is one of the main goals your Dealer Principal and GM have in implementing Informativ?",
+            "options": {
+              "A": "Increase paperwork",
+              "B": "Simplify workflow and improve customer experience",
+              "C": "Eliminate digital tools",
+              "D": "Reduce staffing"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Informativ helps dealerships stay compliant with regulations like the FTC Safeguards Rule.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which of the following is NOT one of the four core values supported by Informativ?",
+            "options": {
+              "A": "Compliance with regulations",
+              "B": "Preventing fraud",
+              "C": "Increasing advertising spend",
+              "D": "Saving money through soft pulls"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Soft pulls impact the customer\u2019s credit score.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What benefit does digitizing compliance documents provide for desk managers?",
+            "options": {
+              "A": "Increases paperwork",
+              "B": "Reduces time spent on paperwork",
+              "C": "Removes their ability to control the process",
+              "D": "Disables reporting features"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When is the Informativ technology typically engaged?",
+            "options": {
+              "A": "After financing is finalized",
+              "B": "After the test drive",
+              "C": "After the driver\u2019s license is scanned",
+              "D": "After the paperwork is printed"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What happens when a new customer's driver's license is scanned into the system?",
+            "options": {
+              "A": "They are signed out of the system",
+              "B": "The sale is finalized automatically",
+              "C": "Their info is sent to the CRM as a showroom visit",
+              "D": "Their credit is pulled immediately"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Digital Deal Jackets may be created before the customer even visits the dealership.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What is the name used in the training exercise to practice scanning and storing documents?",
+            "options": {
+              "A": "Joe Consumer",
+              "B": "John Consumer",
+              "C": "Clark Kent",
+              "D": "Jane Smith"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "Prequalification & Soft Pulls (Manager)",
+      "description": "Soft pull benefits from management perspective, SSN requirements, real-time data, compliance officer role.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the primary benefit of using soft pulls during the prequalification process?",
+            "options": {
+              "A": "To finalize deals immediately",
+              "B": "To replace the need for credit checks",
+              "C": "To offer financing options without impacting credit",
+              "D": "To gather personal information"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: A Social Security number is required to complete a soft pull.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When is the in-store prequalification process typically initiated?",
+            "options": {
+              "A": "After the financing is finalized",
+              "B": "When the customer signs the purchase order",
+              "C": "After scanning the driver's license",
+              "D": "When the trade-in is evaluated"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Soft pull data is displayed in real time in the Compliance Center dashboard.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which mobile tool is used by the salesperson to initiate the prequalification?",
+            "options": {
+              "A": "RouteOne",
+              "B": "Informativ mobile app",
+              "C": "CreditSafe",
+              "D": "Dealertrack"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The desk manager prepares the second pencil using the soft pull data.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the impact of soft pulls on the overall deal process?",
+            "options": {
+              "A": "Slows it down significantly",
+              "B": "Speeds it up and improves compliance",
+              "C": "Removes the need for salesperson interaction",
+              "D": "Increases delays during financing"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Prequalification must always occur before the test drive.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "Compliance Center Dashboard",
+      "description": "Co-buyer indicators, red flags, fraud detection, hard pull requirements, and dashboard features.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What does the Co-Buyer column indicate on the Compliance Center dashboard?",
+            "options": {
+              "A": "If the customer has a spouse",
+              "B": "The number of credit pulls completed",
+              "C": "If there are one or more co-buyers linked to the deal",
+              "D": "If the customer has a trade-in vehicle"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: A yellow row in the Compliance Center indicates a confirmed fraud detection.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What must be completed before a hard pull can be performed?",
+            "options": {
+              "A": "A test drive",
+              "B": "All compliance steps with no issues",
+              "C": "Vehicle inspection",
+              "D": "Trade-in value entry"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: You can manually create a new customer if needed.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which dashboard feature allows you to view deals submitted to Route One?",
+            "options": {
+              "A": "Compliance Monitor",
+              "B": "Credit Tracker",
+              "C": "Deal Manager",
+              "D": "Pre-Qual Viewer"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Managing dashboard columns changes the display for all users.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What should you do if 'Cannot Pull' appears in the Hard Pull column?",
+            "options": {
+              "A": "Ignore the warning",
+              "B": "Contact the customer",
+              "C": "Review the dashboard for incomplete steps",
+              "D": "Manually override the system"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What action confirms a customer has moved from the shopping phase to the deal finalization phase?",
+            "options": {
+              "A": "License scan",
+              "B": "Hard pull completion",
+              "C": "Trade-in evaluation",
+              "D": "Sales manager approval"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The Compliance Center dashboard gives real-time visibility into showroom and website activity.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Digital Deal Jacket Management",
+      "description": "Deal jacket functions, document storage, Activity Log, STIPs requests, and rate sheets.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the main function of the Digital Deal Jacket?",
+            "options": {
+              "A": "Tracking sales commission",
+              "B": "Storing all customer documents and actions",
+              "C": "Emailing customers directly",
+              "D": "Managing showroom inventory"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The Notes feature in the Digital Deal Jacket is only visible to salespeople.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which tab contains scanned driver's licenses, proof of income, and compliance paperwork?",
+            "options": {
+              "A": "Notes",
+              "B": "Docs",
+              "C": "Documents",
+              "D": "Audit Trail"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Driver's license scans appear in the License column after remote verification.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What action sends a request to a customer for additional documentation like proof of income?",
+            "options": {
+              "A": "Verify Customer",
+              "B": "Request STIPS",
+              "C": "Send Update Lead",
+              "D": "Document Upload"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The Run Credit Quick Qualify feature performs a hard pull.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following is only available if your dealership uses Dealertrack?",
+            "options": {
+              "A": "Run Credit",
+              "B": "Request Steps",
+              "C": "Send Update Lead to Dealertrack",
+              "D": "Driver's License Verification"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What happens after a remote license verification is completed?",
+            "options": {
+              "A": "The customer must return to the store",
+              "B": "The system deletes the temporary record",
+              "C": "The dashboard updates automatically",
+              "D": "The system disables further actions"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Customer actions help ensure compliance is completed before lender submission.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 5,
+      "title": "Red Flags & OFAC Checks",
+      "description": "Red flag types, OFAC verification, document uploads, compliance documentation, and deal halting.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What does the CBC Hide Bureau permission control?",
+            "options": {
+              "A": "Access to Route One",
+              "B": "The ability to clear red flags",
+              "C": "Credit report visibility before compliance is complete",
+              "D": "Driver\u2019s license verification"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Red flags are triggered by consistent and accurate customer information.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What document upload tool helps retain proof when clearing red flags?",
+            "options": {
+              "A": "Upload Wizard",
+              "B": "Scan Labels",
+              "C": "Verification Console",
+              "D": "Compliance Tools"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The comments section within the credit report is the best place to document red flag resolutions.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What is the main purpose of an OFAC check?",
+            "options": {
+              "A": "To verify employment status",
+              "B": "To ensure a customer isn\u2019t on the U.S. sanctions list",
+              "C": "To verify driver\u2019s license expiration",
+              "D": "To determine loan eligibility"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: You can ignore an OFAC warning if the customer is paying with cash.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What type of documents might be required to resolve an OFAC warning?",
+            "options": {
+              "A": "Sales contracts",
+              "B": "Proof of employment",
+              "C": "SSN, full name, passport",
+              "D": "Driver insurance documents"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: OFAC and red flag checks are always bundled into hard credit pulls.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How do desk managers benefit from clearing red flags and running OFAC checks?",
+            "options": {
+              "A": "They increase sales quotas",
+              "B": "They ensure regulatory compliance and fraud prevention",
+              "C": "They avoid interacting with compliance officers",
+              "D": "They bypass customer engagement"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: You must halt the deal if an OFAC warning is encountered.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 6,
+      "title": "STIPs & Lender Submission",
+      "description": "File completeness, document requests, system management, lender submission, and digital handling.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Before submitting a customer to Route One or Dealertrack, what should you do first?",
+            "options": {
+              "A": "Request a trade-in inspection",
+              "B": "Confirm F&I approval",
+              "C": "Review the customer file for completeness",
+              "D": "Print the customer documents"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Proof of residence and proof of income must be uploaded before lender submission.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which system allows you to digitally manage and store all STIP documents?",
+            "options": {
+              "A": "Salesforce",
+              "B": "Informativ Compliance Center",
+              "C": "DealerSocket",
+              "D": "CRM Hub"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Once documents are uploaded by the customer, they must be manually scanned into the Digital Deal Jacket.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How can sales staff send step requests directly from their mobile devices?",
+            "options": {
+              "A": "Through email",
+              "B": "By calling the customer",
+              "C": "Via Informativ mobile app or digital showroom",
+              "D": "With a paper checklist"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Handling steps digitally increases the chance of losing important documents.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What happens when a lender requests additional documentation after the deal is submitted?",
+            "options": {
+              "A": "You restart the credit application",
+              "B": "You delete the customer's file",
+              "C": "You upload the documents using Informativ Steps feature",
+              "D": "You ask the customer to return to the dealership"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Digital document handling eliminates the need for physical storage of STIPs.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 7,
+      "title": "Multi-Department Access & Permissions",
+      "description": "F&I access levels, read access, Admin Functions, document viewing, and digital workflows.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What type of access should be granted to F&I and Accounting teams in the Compliance Center?",
+            "options": {
+              "A": "Full access",
+              "B": "Edit access",
+              "C": "Read access",
+              "D": "Admin access"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: F&I must request paper documents from sales to complete their approvals.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Where can F&I view supporting materials like driver\u2019s licenses and stips?",
+            "options": {
+              "A": "Credit Report tab",
+              "B": "Customer Summary panel",
+              "C": "Documents tab in the Digital Deal Jacket",
+              "D": "Email history tab"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Admins are responsible for assigning user access permissions in the Compliance Center.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which function allows admins to set access permissions for roles like F&I, desk managers, and salespeople?",
+            "options": {
+              "A": "User Templates",
+              "B": "Admin Functions",
+              "C": "Profile Manager",
+              "D": "Access Tools"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Documents reviewed in the Digital Deal Jacket cannot be filtered using advanced search.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the purpose of reviewing documents digitally instead of using paper files?",
+            "options": {
+              "A": "It makes the deal legal",
+              "B": "It avoids customer contact",
+              "C": "It streamlines communication and avoids paper requests",
+              "D": "It enables commissions to be paid"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Admins can create user profiles for roles beyond F&I, like salespersons and managers.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 8,
+      "title": "User Management & System Configuration",
+      "description": "User roles, IP restrictions, MFA, credit overrides, user tracking, and archived documents.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Which user role typically has access to deal approvals, overrides, and full customer interaction visibility?",
+            "options": {
+              "A": "Salesperson",
+              "B": "Manager",
+              "C": "Internet Admin",
+              "D": "Administrator"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Internet Admins have full access to deal approvals and user management.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What action should be taken to add a new user in the Compliance Center?",
+            "options": {
+              "A": "Go to User Management and click 'Add New User'",
+              "B": "Send an email to the helpdesk",
+              "C": "Ask the F&I Manager",
+              "D": "Click 'Settings' under Dashboard"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What configuration prevents a user from logging in outside of the dealership IP range?",
+            "options": {
+              "A": "Enable Multi Factor Authentication",
+              "B": "View All Deals",
+              "C": "Ignore IP Restrictions",
+              "D": "Disable Credit Override"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: MFA should be disabled for administrators to reduce login delays.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is 'Exclude Credit Scores' an important setting for Internet sales or customer service roles?",
+            "options": {
+              "A": "It prevents them from viewing OFAC results",
+              "B": "It restricts access to sensitive credit information",
+              "C": "It hides the dashboard entirely",
+              "D": "It blocks deal approvals"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which configuration setting prevents a user from changing the credit decision logic for a deal?",
+            "options": {
+              "A": "CPC Hide Bureau",
+              "B": "Disable Credit Overrides",
+              "C": "View Archived Documents",
+              "D": "User Termination"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: User history and activity logs remain accessible after a user is terminated.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What user configuration allows grouping users for reporting and deal flow tracking?",
+            "options": {
+              "A": "Ignore IP Restrictions",
+              "B": "View All Deals",
+              "C": "Dealer Team",
+              "D": "Disable Overrides"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Only administrators can view archived documents for audit purposes.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    }
+  ]
+}

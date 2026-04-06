@@ -1,0 +1,11 @@
+{
+  "name": "informativ-api",
+  "version": "1.0.0",
+  "description": "Unified API Gateway for Informativ platform",
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "docx": "^9.1.0"
+  }
+}

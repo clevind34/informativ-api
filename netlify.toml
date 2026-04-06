@@ -1,0 +1,126 @@
+[build]
+  command = "npm install"
+  publish = "."
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "18"
+
+[functions]
+  node_bundler = "esbuild"
+  included_files = [
+    "cogs-rates.json",
+    "knowledge-base.json",
+    "mobile-knowledge-base.json",
+    "informativ-logo.png",
+    "rep-performance.json",
+    "training-progress.json",
+    "coaching-intelligence.json",
+    "informativ-method-curriculum.json",
+    "informativ-method-manager-curriculum.json",
+    "payments-channel-certification.json",
+    "smartpencil-certification.json",
+    "tier-certification.json",
+    "value-selling-certification.json",
+    "total-solutions-sales-certification.json",
+    "total-solutions-manager-certification.json",
+    "informativ-method-certification.json"
+  ]
+
+# === Route Rewrites ===
+# Maps /api/<domain>-<action> to /.netlify/functions/<domain>-<action>
+
+# Pricing
+[[redirects]]
+  from = "/api/pricing/calculate"
+  to = "/.netlify/functions/pricing-calculate"
+  status = 200
+
+[[redirects]]
+  from = "/api/pricing/reprice"
+  to = "/.netlify/functions/pricing-reprice"
+  status = 200
+
+# Document Generation
+[[redirects]]
+  from = "/api/docs/price-sheet"
+  to = "/.netlify/functions/docs-price-sheet"
+  status = 200
+
+[[redirects]]
+  from = "/api/docs/reprice-sheet"
+  to = "/.netlify/functions/docs-reprice-sheet"
+  status = 200
+
+[[redirects]]
+  from = "/api/docs/group-reprice-sheet"
+  to = "/.netlify/functions/docs-group-reprice-sheet"
+  status = 200
+
+# Customer Success
+[[redirects]]
+  from = "/api/cs/assignments"
+  to = "/.netlify/functions/cs-assignments"
+  status = 200
+
+[[redirects]]
+  from = "/api/cs/dispositions"
+  to = "/.netlify/functions/cs-dispositions"
+  status = 200
+
+[[redirects]]
+  from = "/api/cs/contacts"
+  to = "/.netlify/functions/cs-contacts"
+  status = 200
+
+# Analytics / Tracking
+[[redirects]]
+  from = "/api/analytics/pie-usage"
+  to = "/.netlify/functions/analytics-pie-usage"
+  status = 200
+
+[[redirects]]
+  from = "/api/analytics/pricing-activity"
+  to = "/.netlify/functions/analytics-pricing-activity"
+  status = 200
+
+[[redirects]]
+  from = "/api/analytics/coaching-events"
+  to = "/.netlify/functions/analytics-coaching-events"
+  status = 200
+
+[[redirects]]
+  from = "/api/analytics/field-activity"
+  to = "/.netlify/functions/analytics-field-activity"
+  status = 200
+
+# AI / Chat
+[[redirects]]
+  from = "/api/ai/chat"
+  to = "/.netlify/functions/ai-chat"
+  status = 200
+
+[[redirects]]
+  from = "/api/ai/mobile"
+  to = "/.netlify/functions/ai-mobile"
+  status = 200
+
+# Training / Certifications
+[[redirects]]
+  from = "/api/training/certifications"
+  to = "/.netlify/functions/training-certifications"
+  status = 200
+
+[[redirects]]
+  from = "/api/training/progress"
+  to = "/.netlify/functions/training-progress"
+  status = 200
+
+# Security Headers
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "SAMEORIGIN"
+    X-Content-Type-Options = "nosniff"
+    X-XSS-Protection = "1; mode=block"
+    Referrer-Policy = "no-referrer-when-downgrade"

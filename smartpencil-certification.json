@@ -1,0 +1,1495 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "SmartPencil Product Certification",
+    "program_id": "smartpencil_cert",
+    "created": "2026-03-16",
+    "organization": "Informativ",
+    "description": "6-module product certification covering SmartPencil buttonology, deal structure, and workflow mastery. Reps must score 80% or higher on each module quiz to earn SmartPencil certification.",
+    "target_audience": "Sales representatives and customer success managers",
+    "product": "SmartPencil",
+    "passing_score": 80,
+    "total_modules": 6
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "Mobile App & Digital Showroom Input",
+      "description": "How to access SmartPencil through the mobile app, create Digital Deal Jackets, scan licenses, scan VINs, and complete Privacy Notices and Prequalifications. The five requirements for generating a SmartPencil: Digital Deal Jacket, ZIP code, Privacy Notice, Prequal/Soft Pull Consent, and VIN.",
+      "key_concepts": [
+        "Digital Deal Jacket creation",
+        "license scan vs manual entry",
+        "VIN scanning via Mobile App",
+        "Privacy Notice completion",
+        "Prequal/Soft Pull Consent",
+        "5 SmartPencil requirements",
+        "ZIP code for tax/fee accuracy",
+        "package differences (Enrich vs Elevate/Control)"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the primary purpose of Smart Pencil?",
+            "options": {
+              "A": "To replace credit bureaus",
+              "B": "To generate accurate payment options based on customer credit and specific vehicle information",
+              "C": "To print contracts",
+              "D": "To submit deals to lenders"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Smart Pencil payments are generated primarily based on what customer data points?",
+            "options": {
+              "A": "Vehicle color, Vehicle age",
+              "B": "Customer credit score, Customer Zip Code",
+              "C": "Customer email address, and Mobile Number",
+              "D": "Salesperson preference, Salesperson Commission"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is the customer ZIP code critical in the Smart Pencil process?",
+            "options": {
+              "A": "To determine dealership location",
+              "B": "To calculate taxes fees and OEM rebates",
+              "C": "To verify identity",
+              "D": "To send marketing emails"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following BEST describes a Digital Deal Jacket?",
+            "options": {
+              "A": "A printed contract packet",
+              "B": "A folder on the salesperson computer",
+              "C": "The customer profile created in the Compliance Center",
+              "D": "A physical file in the dealership"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which FIVE items are required to build a Smart Pencil?",
+            "options": {
+              "A": "Email phone co-buyer VIN stock number",
+              "B": "Digital Deal Jacket ZIP code Privacy Notice Prequal VIN",
+              "C": "Drivers license insurance pay stubs trade title VIN",
+              "D": "Manager approval prequal vehicle color VIN ZIP"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "In the Digital Showroom, Which document should be completed FIRST because it is easy to forget?",
+            "options": {
+              "A": "Credit Application",
+              "B": "Buyers Order",
+              "C": "Privacy Notice",
+              "D": "Vehicle Information"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "In Control, and Elevate a Soft Pull Consent Form is required in order to generate what?",
+            "options": {
+              "A": "Interest rate",
+              "B": "Customer credit score",
+              "C": "Vehicle value",
+              "D": "Lender approval"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the definitive FIRST step in the informativ Process?",
+            "options": {
+              "A": "Run a full credit application",
+              "B": "Create the Digital Deal Jacket with a license scan or manual input of customer information",
+              "C": "Print a worksheet",
+              "D": "Select a vehicle"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The VIN scanning tile is located in which platform?",
+            "options": {
+              "A": "Compliance Center",
+              "B": "Digital Showroom",
+              "C": "Mobile App",
+              "D": "Email Portal"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: You can scan a drivers license OR manually add a customer to create the Digital Deal Jacket.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: A valid customer ZIP code is required to calculate accurate taxes, fees, and rebates in Smart Pencil.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Put these steps in order: Create Profile Scan VIN Sign Privacy Sign Prequal",
+            "options": {
+              "A": "Create Profile Scan VIN Sign Privacy Sign Prequal",
+              "B": "Scan VIN Create Profile Sign Prequal Sign Privacy",
+              "C": "Sign Prequal Sign Privacy Scan VIN Create Profile",
+              "D": "Sign Privacy Sign Prequal Create Profile Scan VIN"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: In The Enrich Package, a Credit Score and Customer Bureau are shown to the Desk Manager.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Where does vehicle pricing information come from?",
+            "options": {
+              "A": "Typed by Sales Manager",
+              "B": "Dealership Inventory File via ICC",
+              "C": "Kelley Blue Book",
+              "D": "The CRM system"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The VIN number is required to calculate accurate Smart Pencil payments",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "If a customer changes vehicles after creating a smart pencil what must a Sales Person do to reflect the change?",
+            "options": {
+              "A": "Start over completely",
+              "B": "Update the VIN in the Digital Showroom Vehicle Information tile",
+              "C": "Delete the customer",
+              "D": "Print a new privacy notice"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Once a Smart Pencil is created, you can return to the Mobile App to add or change a VIN to update the Smart Pencil",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Entering vehicle information on the Privacy Notice screen will:",
+            "options": {
+              "A": "Push the VIN to the Compliance Center",
+              "B": "Create a new deal",
+              "C": "NOT currently push to the Compliance Center",
+              "D": "Automatically run a prequal"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "If you did NOT enter a vehicle in the Mobile App where can it be added later?",
+            "options": {
+              "A": "Only in the CRM",
+              "B": "Vehicle Information tile in Digital Showroom",
+              "C": "Customer Profile screen",
+              "D": "Credit Application screen"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Scenario: DDJ, Privacy Prequal are done but no vehicle added. What is next?",
+            "options": {
+              "A": "Re-run the prequal",
+              "B": "Use Vehicle Information tile in Digital Showroom to enter the VIN",
+              "C": "Delete the customer and start over",
+              "D": "Print a worksheet"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: All packages with Smart Pencil require some form of Soft Pull Consent to be completed in order to generate the payments?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: In both the Elevate and Control Packages, users are able to view the customer\u2019s credit score and bureau information upon receiving the Soft Pull consent?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: In the Enrich Package, the Smart Pencil process does NOT use credit data at all?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Soft Pull Consent is required before running the Soft Pull in ANY package?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "SmartPencil Top of Screen & Navigation",
+      "description": "Navigation controls, Customer Details, Notes, Save Deal vs Print Deal functionality, VIN changes, vehicle pricing from ICC inventory data, Retail vs MSRP pricing, dealer profit calculations, F&I modal, and Pay All Fees Up Front toggle.",
+      "key_concepts": [
+        "Customers button navigation",
+        "Customer Details toggle",
+        "Save Deal vs Print Deal difference",
+        "VIN change recalculation",
+        "ICC inventory pricing",
+        "MSRP vs Retail Price",
+        "dealer profit calculation",
+        "F&I Gear modal",
+        "Pay All Fees Up Front toggle",
+        "trade payoff vs trade value vs trade allowance",
+        "Enrich package credit display differences"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What does the \u201cCustomers\u201d button at the top Left of Smart Pencil do?",
+            "options": {
+              "A": "Prints the deal",
+              "B": "Returns the user to the main dashboard",
+              "C": "Saves the deal",
+              "D": "Changes the vehicle"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which top navigation button hides or reveals the customer\u2019s Contact Information?",
+            "options": {
+              "A": "Home",
+              "B": "Customer Details",
+              "C": "Documents",
+              "D": "Notes"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: The Customer Details button allows you to verify you are working on the correct customer.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: The Notes section allows users to add internal deal comments.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What happens when a user clicks Save Deal?",
+            "options": {
+              "A": "It prints the worksheet",
+              "B": "It saves the current deal configuration to the Smart Pencil dashboard",
+              "C": "It sends the deal to lenders",
+              "D": "It adds the deal to the Digital Deal Jacket"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What happens when a user clicks Print Deal?",
+            "options": {
+              "A": "It only prints a paper copy",
+              "B": "It saves the Smart Pencil worksheet into the Digital Deal Jacket",
+              "C": "It deletes the current deal",
+              "D": "It sends the deal to the CRM"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Save Deal and Print Deal perform the same function.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why does printing the Smart Pencil worksheet save it to the Digital Deal Jacket?",
+            "options": {
+              "A": "To submit to lenders",
+              "B": "To create a paper trail of what was presented to the customer",
+              "C": "To update inventory",
+              "D": "To generate a credit application"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The VIN can be changed directly from the top of the Smart Pencil screen.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "If the vehicle VIN is changed inside Smart Pencil what happens to the deal?",
+            "options": {
+              "A": "A completely new customer is created",
+              "B": "The deal recalculates using the new vehicle information",
+              "C": "The deal is deleted",
+              "D": "The system blocks the change"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Where does vehicle pricing information originate?",
+            "options": {
+              "A": "Entered manually by salespeople",
+              "B": "From syndicated inventory data ICC",
+              "C": "From the CRM",
+              "D": "From credit bureaus"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Adjusting MSRP or Retail Price inside Smart Pencil primarily affects which value?",
+            "options": {
+              "A": "Customer credit score",
+              "B": "Salesperson Split Commissions",
+              "C": "Dealer Profit",
+              "D": "Trade value"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Retail Price and MSRP can be different amounts inside Smart Pencil.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "If Retail Price is increased what happens to Dealer Profit?",
+            "options": {
+              "A": "It decreases",
+              "B": "It increases",
+              "C": "It stays the same",
+              "D": "The system prevents the change"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When first logging into the Compliance Center where are the Loan and Lease columns located?",
+            "options": {
+              "A": "Already active on the main screen",
+              "B": "In the Available Columns bench",
+              "C": "Inside the compliance center",
+              "D": "In customer details"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Lease options will only generate when the selected vehicle qualifies for leasing.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What does the F&I Gear modal allow a manager to adjust?",
+            "options": {
+              "A": "Customer name",
+              "B": "Lender reserve and markup options",
+              "C": "Vehicle color",
+              "D": "ZIP code"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The system automatically knows lender rules and will not allow markups that violate those rules.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What does the Pay All Fees Up Front toggle control?",
+            "options": {
+              "A": "Whether taxes and fees are included in the out of pocket calculation.",
+              "B": "Whether the deal can be printed",
+              "C": "Whether the deal can be saved",
+              "D": "Whether credit is required"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Turning OFF Pay All Fees Up Front will result in:",
+            "options": {
+              "A": "Higher amount due at signing",
+              "B": "Max Out of Pocket due at signing and more fees rolled into the payment",
+              "C": "No taxes being charged",
+              "D": "The deal being reset"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Entering trade payoff trade value and trade allowance will directly affect the profit calculation.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which value represents what the dealership is showing the customer for their trade?",
+            "options": {
+              "A": "Trade Payoff",
+              "B": "Trade Value",
+              "C": "Trade Allowance",
+              "D": "Invoice Price"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "In the Enrich package what is different on the Smart Pencil screen compared to Elevate or Control?",
+            "options": {
+              "A": "No VIN is required",
+              "B": "No privacy notice is required",
+              "C": "The credit score and bureau are not displayed",
+              "D": "Trade fields are removed"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Even in Enrich the system still uses credit data to calculate payments it is simply hidden from the user.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which action creates a permanent record of a Smart Pencil presentation in the customer file?",
+            "options": {
+              "A": "Clicking Save Deal",
+              "B": "Clicking Print Deal",
+              "C": "Changing the VIN",
+              "D": "Adjusting Retail Price"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which action saves the current Smart Pencil configuration so it will appear the same when you return later?",
+            "options": {
+              "A": "Clicking Print Deal",
+              "B": "Clicking Save Deal",
+              "C": "Changing the VIN",
+              "D": "Refreshing the page"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The profit amount in Smart Pencil updates automatically whenever pricing or trade values are changed.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: Adjusting the Invoice price inside Smart Pencil will directly affect the calculated dealer profit.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: The Loan or Lease columns are defaulted as the \u201cAvailable Columns\u201d on the Compliance Center Dashboard",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why would Smart Pencil not generate a Lease Option?",
+            "options": {
+              "A": "There are no programs",
+              "B": "The profit is too low",
+              "C": "It is a Used Vehicle",
+              "D": "The vehicle is too old"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which field allows a user to adjust how much money the dealership is putting into the trade? (Maybe this is shown to the client or not?)",
+            "options": {
+              "A": "Trade Payoff",
+              "B": "Trade Value",
+              "C": "Trade Allowance",
+              "D": "Retail Price"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "When reviewing a Smart Pencil deal, which button allows a manager to see lender reserve and markup rules?",
+            "options": {
+              "A": "Save Deal",
+              "B": "Print Deal",
+              "C": "F&I Modal",
+              "D": "Documents"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the most accurate effect of turning OFF \u201cPay All Fees Up Front\u201d?",
+            "options": {
+              "A": "It removes taxes and fees entirely",
+              "B": "It lowers due at signing/Max out of Pocket by rolling more fees/taxes into the payment",
+              "C": "It prevents printing the Smart Pencil",
+              "D": "It locks the deal from edits"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Click the Profit Arrow has what effect?",
+            "options": {
+              "A": "It shows full profit, front and back, along with multiple deal permutations",
+              "B": "It shows trade Values for different regions",
+              "C": "It submits the deal to the lender",
+              "D": "It refreshes the Smart Pencil"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "Loan Deal Structure",
+      "description": "Loan payment grids, captive lenders vs show all lenders, term-based negotiation strategy, profit breakdown (front end vs back end), reserve split, incentive programs, add-ons, trade calculations, taxes/titling/licensing, and the Best tag indicator.",
+      "key_concepts": [
+        "Loan tab payment grids",
+        "captive lender definition",
+        "Show All Lenders option",
+        "term negotiation over price",
+        "Best tag meaning",
+        "front end vs back end profit",
+        "reserve split",
+        "custom incentives as discounts",
+        "add-ons configuration",
+        "Pay All Fees Up Front on loans",
+        "trade payoff vs allowance",
+        "tax calculation API"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "In Smart Pencil clicking the Loan tab displays:",
+            "options": {
+              "A": "Lease payment options",
+              "B": "Only trade information",
+              "C": "Loan payment grids and options",
+              "D": "Customer details"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Switching from Loan to Lease changes the payment calculation shown at the bottom of the screen.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Lease options will typically only appear when:",
+            "options": {
+              "A": "A used vehicle is selected",
+              "B": "A new vehicle that qualifies for leasing is selected",
+              "C": "The user clicks Save Deal",
+              "D": "Captive lenders are turned off"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is a captive lender?",
+            "options": {
+              "A": "Any local credit union",
+              "B": "The OEM financing arm such as GM Financial for Chevrolet",
+              "C": "A subprime bank",
+              "D": "A third party lender"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The Captive Lenders Only toggle limits payment options to the manufacturer financing programs.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "When the Show All Lenders option is selected the system will:",
+            "options": {
+              "A": "Display every configured lender option",
+              "B": "Only show the best lender",
+              "C": "Hide captive lenders",
+              "D": "Reset the deal"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: Dealers can add their own lenders such as a local credit union as long as rate sheets are provided.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Smart Pencil encourages negotiation on which element instead of price or trade?",
+            "options": {
+              "A": "Vehicle color",
+              "B": "Interest rate",
+              "C": "Term",
+              "D": "Add ons"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why is negotiating on term preferred over negotiating on price?",
+            "options": {
+              "A": "It hides fees",
+              "B": "It keeps dealership profit intact while adjusting payment",
+              "C": "It removes taxes",
+              "D": "It requires no approvals"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The green Best tag represents:",
+            "options": {
+              "A": "The lowest interest rate",
+              "B": "The option that best balances customer payment and dealer profit",
+              "C": "The longest term",
+              "D": "The highest rebate"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The profit breakdown panel shows which two main categories of profit?",
+            "options": {
+              "A": "Taxes and fees",
+              "B": "Front end profit and back end profit",
+              "C": "MSRP and retail",
+              "D": "Loan and lease"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Adjusting the invoice price will directly change the displayed dealer profit.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Reserve Split refers to:",
+            "options": {
+              "A": "Splitting profit between salespeople",
+              "B": "Splitting finance profit between the dealership and the bank",
+              "C": "Splitting trade value",
+              "D": "Splitting taxes"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following is considered BACK END profit?",
+            "options": {
+              "A": "Vehicle selling price",
+              "B": "Trade allowance",
+              "C": "F&I products like warranty or GAP",
+              "D": "Retail price"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Incentive programs in Smart Pencil are refreshed from data providers approximately:",
+            "options": {
+              "A": "Once per day",
+              "B": "Every two hours",
+              "C": "Once per week",
+              "D": "Only at the beginning of the month"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Users can manually add custom incentives in addition to system loaded incentives.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Custom Incentives in Smart Pencil can also be treated as:",
+            "options": {
+              "A": "Add ons",
+              "B": "Discounts",
+              "C": "Taxes",
+              "D": "Fees"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The Add Ons section is used for:",
+            "options": {
+              "A": "Adjusting interest rates",
+              "B": "Adding optional products like wheels tires or packages",
+              "C": "Changing customer information",
+              "D": "Updating VIN numbers"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Add ons can be preconfigured to appear on every deal by the implementations team.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "The Pay All Fees Up Front toggle controls:",
+            "options": {
+              "A": "Whether taxes and fees are included in the monthly payment",
+              "B": "Whether the deal can be printed",
+              "C": "Whether lenders are shown",
+              "D": "Whether incentives are applied"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Turning ON Pay All Fees Up Front will generally result in:",
+            "options": {
+              "A": "Lower monthly payment and higher due at signing/out of pocket.",
+              "B": "Higher monthly payment and lower due at signing",
+              "C": "No change to payments",
+              "D": "Removal of taxes"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which field represents what the customer still owes on their trade?",
+            "options": {
+              "A": "Trade Value",
+              "B": "Trade Allowance",
+              "C": "Trade Payoff",
+              "D": "Invoice"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which field represents what the dealership is actually offering the customer for their trade?",
+            "options": {
+              "A": "Trade Payoff",
+              "B": "Trade Allowance",
+              "C": "Trade Value",
+              "D": "Retail Price"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Updating trade value vs allowance will immediately recalculate profit and payment.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Taxes titling and licensing amounts in Smart Pencil are generated by:",
+            "options": {
+              "A": "Manual entry",
+              "B": "A tax calculation API, Dealer provided fees",
+              "C": "The CRM system",
+              "D": "The lender"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Each Smart Pencil deal requires a Zip Code to ensure accurate Tax and Rebate Information.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Clicking Save Deal in the Loan screen will:",
+            "options": {
+              "A": "Add the worksheet to the Digital Deal Jacket",
+              "B": "Save current changes for later viewing",
+              "C": "Print the deal",
+              "D": "Reset all fields"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Clicking Print Deal will:",
+            "options": {
+              "A": "Save the worksheet into the Digital Deal Jacket",
+              "B": "Submit the deal to lenders",
+              "C": "Delete the current configuration",
+              "D": "Only create a paper copy"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Lease Deal Structure",
+      "description": "Lease tab mechanics, money factor, new vehicle lease qualification, captive lender leasing, mileage and term options, lease-specific Pay All Fees Up Front behavior, conquest/loyalty incentives, add-ons on leases, and Max Out-of-Pocket.",
+      "key_concepts": [
+        "Lease tab vehicle qualification",
+        "money factor definition",
+        "captive lender leasing",
+        "mileage/term dealer configurations",
+        "Pay All Fees Up Front on leases",
+        "Pay 1st Lease Payment Upfront button",
+        "conquest/loyalty incentives",
+        "lease add-ons",
+        "Max Out-of-Pocket",
+        "SmartPencil Consent Form (Enrich)",
+        "used vehicle lease restrictions"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "In the Enrich package the document used instead of a prequal is called:",
+            "options": {
+              "A": "Credit Application",
+              "B": "Smart Pencil Consent Form",
+              "C": "Soft Pull Authorization",
+              "D": "Finance Worksheet"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: A vehicle must qualify for leasing in order for lease options to appear in Smart Pencil.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "When the Lease tab is opened the highlighted month and mileage options represent:",
+            "options": {
+              "A": "Random system defaults",
+              "B": "The dealership preferred configurations set with implementations",
+              "C": "Only the longest term available",
+              "D": "Government mandated options"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Longer lease terms generally result in lower monthly payments.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Money Factor in a lease most closely represents:",
+            "options": {
+              "A": "Down payment amount",
+              "B": "Estimated interest cost for the lease",
+              "C": "Vehicle MSRP",
+              "D": "Trade allowance"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "If a used vehicle is selected what will typically happen on the Lease tab?",
+            "options": {
+              "A": "Lease options will still display normally",
+              "B": "Lease options will usually not appear",
+              "C": "Payments will double",
+              "D": "Nothing changes"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Smart Pencil is designed to automatically present the best deal for both the dealership and the customer.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "The Pay All Fees Up Front toggle on a lease controls:",
+            "options": {
+              "A": "Whether taxes, fees, add ons and First Month\u2019s lease are paid at signing or rolled into payments",
+              "B": "Whether incentives apply",
+              "C": "Whether the deal can be saved",
+              "D": "Whether money factor can be edited"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Turning OFF Pay All Fees Up Front will:",
+            "options": {
+              "A": "Increase due at signing",
+              "B": "Generate the \u201cPay 1st Lease Payment Upfront\u201d button",
+              "C": "Remove all taxes",
+              "D": "Delete add-ons"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Clicking Save Deal stores the current configuration for later use but does not add a document to the Digital Deal Jacket.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Clicking Print Deal on a lease worksheet will:",
+            "options": {
+              "A": "Submit the deal to lenders",
+              "B": "Save the worksheet into the Digital Deal Jacket",
+              "C": "Change the vehicle",
+              "D": "Lock the customer record"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Leasing typically uses the OEM captive lender rather than multiple outside banks.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Incentives shown on the Lease screen are updated approximately:",
+            "options": {
+              "A": "Once per day",
+              "B": "Multiple times per day",
+              "C": "Once per month only",
+              "D": "Manually by the user"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which type of incentives can often appear on leases?",
+            "options": {
+              "A": "Totaled Car incentive",
+              "B": "Conquest or loyalty incentives",
+              "C": "Trade equity incentives",
+              "D": "Interest rate incentives only"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Users can add custom incentives to a lease deal if needed.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Add-ons in a lease deal are typically used for:",
+            "options": {
+              "A": "Changing the VIN",
+              "B": "Adding F&I products such as wheel and tire protection",
+              "C": "Adjusting money factor",
+              "D": "Changing mileage allowance"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Add-ons can be pre-built and automatically included on every lease deal by implementations.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Max Out-of-Pocket on a lease represents:",
+            "options": {
+              "A": "Total amount financed",
+              "B": "Only the customer down payment due at signing",
+              "C": "Total vehicle price",
+              "D": "Residual value"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Taxes, titling and licensing on leases are calculated based on state specific rules.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "If an additional dealership fee is missing from the Taxes and Fees section what should be done?",
+            "options": {
+              "A": "Ignore it",
+              "B": "Ask implementations to add the fee to the configuration",
+              "C": "Manually type it into every deal",
+              "D": "Remove all other fees"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Recommended Vehicles allows a user to:",
+            "options": {
+              "A": "Delete the current customer",
+              "B": "Pivot to a different vehicle without starting over",
+              "C": "Change lenders only",
+              "D": "Modify credit score"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Leasing is considered beneficial for dealerships because customers must return in a few years to make another decision.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which action saves the worksheet as part of the customer paper trail?",
+            "options": {
+              "A": "Save Deal",
+              "B": "Print Deal",
+              "C": "Change VIN",
+              "D": "Toggle Captive Lenders"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 5,
+      "title": "Recommendations & LMS Push",
+      "description": "Using the Recommendations rail to find alternate vehicles, Build New Deal functionality, sorting options (Best Payment, Days on Lot, Profit), pushing deals to RouteOne/DealerTrack/CUDLE, Save Deal before LMS push, and deal structure field locking.",
+      "key_concepts": [
+        "Recommendations rail purpose",
+        "alternate vehicle search",
+        "Build New Deal from Recommendations",
+        "sorting options",
+        "Send Update Lead to RouteOne",
+        "Save Deal before LMS push",
+        "deal structure field locking",
+        "trade data carryover",
+        "LMS integration workflow"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "The Recommendations rail is primarily used for:",
+            "options": {
+              "A": "Changing customer information",
+              "B": "Finding alternate vehicles in dealer inventory, based on specific parameters",
+              "C": "Submitting the deal to lenders",
+              "D": "Printing the deal"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The Recommendations feature can be helpful when the original vehicle sells out from underneath the salesperson.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which of the following sorting options is available in the Recommendations section?",
+            "options": {
+              "A": "Best Payment",
+              "B": "Days on Lot",
+              "C": "Profit",
+              "D": "All of the above"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "When a user selects Build New Deal from the Recommendations rail what happens?",
+            "options": {
+              "A": "The customer record is deleted",
+              "B": "A new deal is created using the selected vehicle while keeping previous deal configurations",
+              "C": "The system logs out",
+              "D": "The original deal is printed"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Using Recommendations allows a desk manager to pivot to another vehicle without rebuilding the entire deal from scratch.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "The Send Update Lead to RouteOne button is used to:",
+            "options": {
+              "A": "Save the deal in the Digital Deal Jacket",
+              "B": "Push the Smart Pencil deal structure to the RouteOne lender management system",
+              "C": "Change the VIN number",
+              "D": "Add incentives"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "If a user changes the down payment in Smart Pencil what must be done before pushing to RouteOne?",
+            "options": {
+              "A": "Print the deal",
+              "B": "Save Deal to update the structure",
+              "C": "Delete the customer",
+              "D": "Refresh the browser"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Before a deal is pushed to the LMS, the deal structure fields on that screen are locked because they are controlled by Smart Pencil.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which of the following most accurately describes the information is carried over when building a new deal from Recommendations?",
+            "options": {
+              "A": "Customer trade payoff and trade value",
+              "B": "Previous incentives ONLY",
+              "C": "Loan term ONLY",
+              "D": "None of the above"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: Pushing a deal from Smart Pencil to the LMS reduces the need to completely rebuild the deal in RouteOne or Dealertrack.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "The Recommendations feature pulls vehicles from:",
+            "options": {
+              "A": "National inventory listings",
+              "B": "Only OEM websites",
+              "C": "The dealership\u2019s own inventory feed",
+              "D": "Customer saved searches"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which action updates the LMS screen after a change is made in Smart Pencil?",
+            "options": {
+              "A": "Send Update Lead to RouteOne/CUDLE/DealerTrack",
+              "B": "Print Deal",
+              "C": "Add an add-on",
+              "D": "Toggle captive lenders"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 6,
+      "title": "Quick Quote & Process Foundations",
+      "description": "Quick Quote as default deal entry point, the complete SmartPencil process from Digital Deal Jacket through payment generation, package-level consent requirements, and process review covering all foundational concepts.",
+      "key_concepts": [
+        "Quick Quote default entry",
+        "complete SmartPencil workflow",
+        "Digital Deal Jacket first step",
+        "Privacy Notice importance",
+        "Soft Pull Consent requirements by package",
+        "Enrich credit data handling",
+        "Elevate/Control credit score visibility",
+        "process order validation"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the primary purpose of Smart Pencil?",
+            "options": {
+              "A": "To replace credit bureaus",
+              "B": "To generate accurate payment options based on customer credit and specific vehicle information",
+              "C": "To print contracts",
+              "D": "To submit deals to lenders"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Smart Pencil payments are generated primarily based on what customer data points?",
+            "options": {
+              "A": "Vehicle color, Vehicle age",
+              "B": "Customer credit score, Customer Zip Code",
+              "C": "Customer email address, and Mobile Number",
+              "D": "Salesperson preference, Salesperson Commission"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is the customer ZIP code critical in the Smart Pencil process?",
+            "options": {
+              "A": "To determine dealership location",
+              "B": "To calculate taxes fees and OEM rebates",
+              "C": "To verify identity",
+              "D": "To send marketing emails"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following BEST describes a Digital Deal Jacket?",
+            "options": {
+              "A": "A printed contract packet",
+              "B": "A folder on the salesperson computer",
+              "C": "The customer profile created in the Compliance Center",
+              "D": "A physical file in the dealership"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which FIVE items are required to build a Smart Pencil?",
+            "options": {
+              "A": "Email phone co-buyer VIN stock number",
+              "B": "Digital Deal Jacket ZIP code Privacy Notice Prequal VIN",
+              "C": "Drivers license insurance pay stubs trade title VIN",
+              "D": "Manager approval prequal vehicle color VIN ZIP"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "In the Digital Showroom, Which document should be completed FIRST because it is easy to forget?",
+            "options": {
+              "A": "Credit Application",
+              "B": "Buyers Order",
+              "C": "Privacy Notice",
+              "D": "Vehicle Information"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "In Control, and Elevate a Soft Pull Consent Form is required in order to generate what?",
+            "options": {
+              "A": "Interest rate",
+              "B": "Customer credit score",
+              "C": "Vehicle value",
+              "D": "Lender approval"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the definitive FIRST step in the informativ Process?",
+            "options": {
+              "A": "Run a full credit application",
+              "B": "Create the Digital Deal Jacket with a license scan or manual input of customer information",
+              "C": "Print a worksheet",
+              "D": "Select a vehicle"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The VIN scanning tile is located in which platform?",
+            "options": {
+              "A": "Compliance Center",
+              "B": "Digital Showroom",
+              "C": "Mobile App",
+              "D": "Email Portal"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: You can scan a drivers license OR manually add a customer to create the Digital Deal Jacket.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: A valid customer ZIP code is required to calculate accurate taxes, fees, and rebates in Smart Pencil.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Put these steps in order: Create Profile Scan VIN Sign Privacy Sign Prequal",
+            "options": {
+              "A": "Create Profile Scan VIN Sign Privacy Sign Prequal",
+              "B": "Scan VIN Create Profile Sign Prequal Sign Privacy",
+              "C": "Sign Prequal Sign Privacy Scan VIN Create Profile",
+              "D": "Sign Privacy Sign Prequal Create Profile Scan VIN"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: In The Enrich Package, a Credit Score and Customer Bureau are shown to the Desk Manager.",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Where does vehicle pricing information come from?",
+            "options": {
+              "A": "Typed by Sales Manager",
+              "B": "Dealership Inventory File via ICC",
+              "C": "Kelley Blue Book",
+              "D": "The CRM system"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: The VIN number is required to calculate accurate Smart Pencil payments",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "If a customer changes vehicles after creating a smart pencil what must a Sales Person do to reflect the change?",
+            "options": {
+              "A": "Start over completely",
+              "B": "Update the VIN in the Digital Showroom Vehicle Information tile",
+              "C": "Delete the customer",
+              "D": "Print a new privacy notice"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Once a Smart Pencil is created, you can return to the Mobile App to add or change a VIN to update the Smart Pencil",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Entering vehicle information on the Privacy Notice screen will:",
+            "options": {
+              "A": "Push the VIN to the Compliance Center",
+              "B": "Create a new deal",
+              "C": "NOT currently push to the Compliance Center",
+              "D": "Automatically run a prequal"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "If you did NOT enter a vehicle in the Mobile App where can it be added later?",
+            "options": {
+              "A": "Only in the CRM",
+              "B": "Vehicle Information tile in Digital Showroom",
+              "C": "Customer Profile screen",
+              "D": "Credit Application screen"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Scenario: DDJ, Privacy Prequal are done but no vehicle added. What is next?",
+            "options": {
+              "A": "Re-run the prequal",
+              "B": "Use Vehicle Information tile in Digital Showroom to enter the VIN",
+              "C": "Delete the customer and start over",
+              "D": "Print a worksheet"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: All packages with Smart Pencil require some form of Soft Pull Consent to be completed in order to generate the payments?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: In both the Elevate and Control Packages, users are able to view the customer\u2019s credit score and bureau information upon receiving the Soft Pull consent?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "True or False: In the Enrich Package, the Smart Pencil process does NOT use credit data at all?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Soft Pull Consent is required before running the Soft Pull in ANY package?",
+            "options": {
+              "A": "TRUE",
+              "B": "FALSE"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    }
+  ]
+}

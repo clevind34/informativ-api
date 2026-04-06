@@ -1,0 +1,513 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "12-Week Informativ Method \u2014 Manager Track",
+    "created": "2026-03-07",
+    "organization": "Informativ",
+    "description": "Manager-specific training track. Each week includes the core Informativ Method lesson plus a coaching overlay: what to listen for on rep calls, how to run a 1:1 coaching conversation, common mistakes to correct, and field observation guides.",
+    "target_audience": "Sales managers coaching teams on the Informativ Method",
+    "products_covered": [
+      "Total Solution",
+      "SmartPencil",
+      "Credit",
+      "Compliance",
+      "Payments",
+      "Verified STIPs",
+      "eZ Form Fill"
+    ],
+    "packages_covered": [
+      "Protect",
+      "Enrich",
+      "Elevate",
+      "Control"
+    ],
+    "manager_names": [
+      "Michael Byrd",
+      "Joel Carlucci",
+      "Curtis Knievel"
+    ]
+  },
+  "weeks": [
+    {
+      "week": 1,
+      "title": "What Makes Insight Leaders Different",
+      "theme": "FOUNDATION",
+      "key_concepts": [
+        "5 rep profiles",
+        "why Insight Leader wins",
+        "commercial insight definition",
+        "complex deal dynamics"
+      ],
+      "lesson_content": "In automotive dealership sales, three forces converge: sophisticated buyers with competing vendors, complex buying committees with conflicting priorities, and relationships that matter far less than you think. The Insight Leader rep understands this. Rather than building rapport alone, Insight Leaders teach. Rather than exploring what dealers already know, Insight Leaders bring new perspective. Rather than following the buyer's process, Insight Leaders lead it. Research shows Insight Leaders win 39% of complex deals compared to Relationship Builders at 22%. The five profiles: Insight Leaders teach, tailor, and take control. Relationship Builders rely on likability. Hard Workers execute endless activity without insight. Lone Wolves trust instinct over process. Problem Solvers dig deep into details but react rather than lead. For Informativ's enterprise buyers\u2014dealer principals concerned with competitive positioning, GMs focused on velocity, F&I directors managing compliance risk\u2014the Insight Leader approach creates permission to lead, differentiation versus cheaper alternatives, and urgency around solvable problems.",
+      "coaching_overlay": {
+        "week_objective": "Diagnose where each rep sits on the five-profile spectrum and identify which profiles are underrepresented on your team.",
+        "what_to_listen_for": [
+          "Does the rep open with rapport or insight? ('Good to hear from you' vs. 'I saw something in your data')",
+          "Does the rep ask questions that dig deeper or questions that confirm what the dealer already knows?",
+          "When the dealer says 'we're happy with our current vendor,' does the rep pivot to teaching or retreat?",
+          "Does the rep set a clear next step or leave it open-ended?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'We're spending the next few weeks building a shared language around how top performers actually sell. Today's focus: What separates reps who consistently hit quota from those who grind hard but don't get there. The answer isn't activity. It's not personality. It's a specific selling approach we call the Insight Leader profile \u2014 and it's learnable.'\n\nWhy This Matters: 'The five profiles we're about to walk through aren't personality types. They're selling behaviors. Most of you are probably a mix \u2014 but the reps winning deals are the ones who consistently operate in Insight Leader mode. That's what we're building toward.'\n\n## TEAM DISCUSSION: THE FIVE PROFILES (10 minutes)\nWalk through each profile briefly, then pause for team reaction: Insight Leader \u2014 Teaches customers new perspectives, tailors messaging to the stakeholder in the room, takes control with constructive tension. Relationship Builder \u2014 High trust, but often underperforms because they avoid tension. Hard Worker \u2014 High activity, but activity alone doesn't close complex deals. Lone Wolf \u2014 Independent and instinct-driven, but doesn't scale. Problem Solver \u2014 Detail-oriented post-sale, but reactive instead of leading with insights.\n\nQUESTION FOR THE ROOM: 'Looking at these five profiles, which one do you see yourself in most? And be honest \u2014 what's the risk of staying in that profile?'\n\nListen for: Do they recognize themselves accurately or get defensive? Do they understand the cost of their natural profile? Can they articulate what Insight Leader behavior would look like for them personally?\n\n## THE INSIGHT LEADER BEHAVIOR SET (10 minutes)\nPresent the three core behaviors as non-negotiable: (1) TEACH \u2014 Lead with commercial insight. You don't lead with product. You lead with something the dealer doesn't know about their own business. (2) TAILOR \u2014 Customize to the stakeholder. The dealer principal cares about enterprise value. The F&I director cares about deal profitability. Same solution, different conversation. (3) TAKE CONTROL \u2014 Drive with constructive tension. Setting agendas, naming next steps with dates, and asking for the business when the moment is right.\n\nQUESTION FOR THE ROOM: 'Which of these three behaviors feels most natural to you? Which one makes you uncomfortable \u2014 and why?'\n\nListen for: Who's comfortable with tension vs. who avoids it? Who can articulate an insight they've actually used vs. who's still thinking in features? Who understands tailoring vs. who gives the same pitch to everyone?",
+        "common_mistakes": [
+          "Relationship Builders who spend 80% of the call building rapport and 20% teaching\u2014nothing sticks",
+          "Hard Workers who jump to demo without discovery or insight\u2014burning activity for low ROI",
+          "Lone Wolves who say 'I trust my gut; I don't need a process'\u2014they close some, but inconsistently",
+          "Reps who confuse 'being helpful' with 'teaching'\u2014answering questions is not the same as creating insight"
+        ],
+        "field_observation": "Sit in on a call and note how the rep opens. Does the first 3 minutes set an agenda and name the objective, or does it meander into small talk? Watch where the rep exerts influence\u2014early (setting agenda) or late (during proposal). Notice if the dealer challenges the rep or just listens passively. Passive listening usually means low insight.",
+        "coaching_questions": [
+          "Of your five reps, which two are natural Insight Leaders and which two are you most concerned about?",
+          "If a rep is a strong Relationship Builder but weak at teaching, what's the first teaching behavior you'd have them practice?",
+          "How will you track this week whether your team is moving toward Insight Leader behaviors?"
+        ]
+      },
+      "practice_exercise": "Think of one rep on your team who you suspect defaults to a profile other than Insight Leader \u2014 maybe Relationship Builder or Hard Worker. Tell me the rep's name and what you've observed. We'll talk through how to coach them toward Insight Leader behaviors without changing their personality.",
+      "coaching_questions_from_chuck": [
+        "Of your five reps, which two are natural Insight Leaders and which two are you most concerned about?",
+        "If a rep is a strong Relationship Builder but weak at teaching, what's the first teaching behavior you'd have them practice?",
+        "How will you track this week whether your team is moving toward Insight Leader behaviors?"
+      ]
+    },
+    {
+      "week": 2,
+      "title": "Lead with Commercial Insights",
+      "theme": "TEACH",
+      "key_concepts": [
+        "commercial insight structure",
+        "data-to-pain framework",
+        "positioning as teacher",
+        "creating permission to lead"
+      ],
+      "lesson_content": "A commercial insight is something a dealer doesn't know about their own business that changes how they think and creates permission for you to lead. The structure is: Data \u2192 Pain Connection \u2192 Solvable Problem. Examples: 'Average dealership pulls credit 3 times per deal versus 1.2 times at top performers. That extra friction means higher F&I fallout and wasted bureau fees.' 'Dealers without integrated compliance document management see 18% lower F&I attachment rates.' 'Dealerships misclassifying loans spend 4-6 hours per week on rework\u2014that's $15K-25K annually in hidden productivity loss.' Each insight follows: data \u2192 pain \u2192 solvable. The insight proves you've done homework, creates tension around a problem they didn't know they had, and positions Informativ as a teacher, not a vendor.",
+      "coaching_overlay": {
+        "week_objective": "Ensure each rep has at least three owned, dealer-specific insights ready to deploy and can articulate the data-pain-solvable structure without stumbling.",
+        "what_to_listen_for": [
+          "Does the rep cite specific data before connecting to pain? (Numbers build credibility)",
+          "Does the rep personalize the insight to this specific dealer or use generic examples?",
+          "When the dealer responds, does the rep lean further into teaching or retreat into product talk?",
+          "Can the rep stay in the insight narrative without jumping to solution?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'Last week we talked about what makes Insight Leaders different. This week we're going tactical \u2014 how do you actually build and deploy commercial insights? An insight isn't a feature. It's something a dealer doesn't know about their own business that changes how they think.'\n\nWhy This Matters: 'If you can't teach a dealer something new in the first five minutes of a call, you're just another vendor. Insights create permission to lead the conversation.'\n\n## TEAM DISCUSSION: BUILDING INSIGHTS (10 minutes)\nAsk each rep to share one insight they've used or could use with a current prospect. The structure should be: Data \u2192 Pain Connection \u2192 Solvable with Us.\n\nQUESTION FOR THE ROOM: 'Give me your best insight for a deal you're working right now. What's the data point, what pain does it connect to, and why can only we solve it?'\n\nListen for: Are they citing specific data or being generic? Are they personalizing to a specific dealer or recycling the same line? Can they stay in the insight narrative without jumping to product features?\n\n## APPLICATION EXERCISE (10 minutes)\nPick two or three live deals from the team's pipeline. As a group, build insights together \u2014 what data could we use, what pain does it expose, and how does it connect to our solution?\n\nQUESTION FOR THE ROOM: 'Where in the call do you deploy your insight? Before discovery? During? After?' Push for specifics \u2014 the best reps lead with insight before traditional discovery.\n\nListen for: Who's been actually using insights on calls this week vs. who's still defaulting to feature talk? Who can improve their insight with input from teammates?",
+        "common_mistakes": [
+          "Reps who lead with solution before insight\u2014dealers tune out because no one taught them why they should care",
+          "Insights that are company benefits disguised as dealer insights\u2014'Informativ saves time' is not a dealer insight",
+          "Insights without data\u2014'Most dealers have this problem' doesn't carry the same weight as '73% of franchised dealers'",
+          "Reps who cite insights from their training but haven't customized them to this specific dealer's metrics or behavior"
+        ],
+        "field_observation": "Listen for the opening 90 seconds. If the rep opens with insight and data, the dealer typically leans in. If the rep opens with rapport or product, the dealer is often passive. Watch the dealer's body language or tone when you hear a true insight\u2014it usually triggers questions, defensiveness, or engagement. That's the moment of teaching permission.",
+        "coaching_questions": [
+          "What are the top three insights you're coaching your reps to use, and are they data-backed or generic?",
+          "If a rep deploys an insight and the dealer says 'we don't have that problem,' how would you coach the rep to respond?",
+          "How are you tracking whether reps are customizing insights or recycling the same three every call?"
+        ]
+      },
+      "practice_exercise": "Pick one rep who tends to lead with product features instead of insights. Tell me their name and describe a recent call or deal where you noticed this. We'll build a coaching conversation together \u2014 how you'd help that rep develop a commercial insight for their next meeting.",
+      "coaching_questions_from_chuck": [
+        "What are the top three insights you're coaching your reps to use, and are they data-backed or generic?",
+        "If a rep deploys an insight and the dealer says 'we don't have that problem,' how would you coach the rep to respond?",
+        "How are you tracking whether reps are customizing insights or recycling the same three every call?"
+      ]
+    },
+    {
+      "week": 3,
+      "title": "Know Your Buyers \u2014 Stakeholder Personas",
+      "theme": "TAILOR",
+      "key_concepts": [
+        "stakeholder mapping",
+        "multi-stakeholder selling",
+        "role-specific pain points",
+        "building tailored value propositions"
+      ],
+      "lesson_content": "Tailoring starts with mapping everyone who can say 'yes' or 'no'. Dealer Principal/Owner cares about competitive positioning, enterprise margin impact, risk exposure. GM owns deal velocity, staff adoption, operational friction. F&I Director manages compliance liability, product penetration, lender relationships. IT/CTO evaluates integration complexity, data security, vendor consolidation. Controller/CFO quantifies cost reduction, audit readiness, ROI transparency. Key diagnostic: 'Who else needs to be comfortable with this change?' Most reps undersell to all but one stakeholder and wonder why deals stall.",
+      "coaching_overlay": {
+        "week_objective": "Validate that each rep has identified all five stakeholder personas for their top three deals and can articulate one reason each stakeholder should care.",
+        "what_to_listen_for": [
+          "Does the rep name the stakeholder by role before talking to them? ('This is for the F&I Director because...')",
+          "Does the rep tailor the value conversation to this stakeholder's pain or use a generic pitch to everyone?",
+          "When a rep gets objections, do they know which stakeholder objects and why, or do they treat objections as uniform?",
+          "Does the rep ask 'Who else should we involve in this conversation?' or assume the deal is locked after one stakeholder says yes?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'This week is about knowing who's in the room and what they care about. Most deals don't fail because of price \u2014 they fail because we sold the wrong person or gave the right person the wrong message.'\n\nWhy This Matters: 'Every stakeholder in a dealership has a different pain point. If you pitch enterprise value to an F&I director or deal profitability to an owner, you've lost before you started.'\n\n## TEAM DISCUSSION: STAKEHOLDER MAPPING (10 minutes)\nHave each rep pick their top deal and map the stakeholders: Dealer Principal, GM, F&I Director, Compliance, IT. For each, name one reason they should care about what we sell.\n\nQUESTION FOR THE ROOM: 'For your top deal, how many stakeholders have you actually had a conversation with? If it's just one, what's the risk?'\n\nListen for: Can they name at least three stakeholders? Do they know each stakeholder's unique pain, or are they giving everyone the same pitch? Are they actively pursuing multi-stakeholder engagement or hoping one contact sells internally for them?\n\n## APPLICATION EXERCISE (10 minutes)\nPick one deal as a team and role-play tailoring the same solution to two different stakeholders. How does the conversation change between a Dealer Principal and an F&I Director?\n\nQUESTION FOR THE ROOM: 'When you get an objection, do you know which stakeholder it's coming from and why? Or do you treat all objections the same?'\n\nListen for: Who understands that the same product solves different problems for different people? Who's still defaulting to a one-size-fits-all pitch?",
+        "common_mistakes": [
+          "Reps who map only the ultimate decision-maker and ignore blocking stakeholders\u2014deals stall when the IT Director hasn't bought in",
+          "Tailoring that's actually just changing the same pitch\u2014all stakeholders hear identical value, just with different words",
+          "Reps who never ask 'Who else?' and then are shocked when a deal stalls because the Controller didn't see ROI",
+          "Underselling to implementation/operations stakeholders\u2014GMs and IT Directors kill deals if adoption friction isn't addressed"
+        ],
+        "field_observation": "In a call, watch which stakeholder the rep addresses most and which they ignore or rush through. Listen for whether the rep changes the conversation based on stakeholder role or delivers a canned pitch. Notice if the rep gets permission from one stakeholder and assumes the deal is done, or if they explicitly name next stakeholder conversations. Multi-stakeholder deals require sequential tailoring, not a group conversation in week one.",
+        "coaching_questions": [
+          "For your top three deals, can you name all five stakeholder personas and one unique pain point for each?",
+          "If a rep has sold the principal but the F&I Director is blocking, what's the first coaching move you'd make?",
+          "How do you track in your pipeline whether all stakeholders have been tailored to, or do you only track the primary contact?"
+        ]
+      },
+      "practice_exercise": "Think of a deal on your team where you suspect the rep is single-threaded \u2014 only talking to one stakeholder. Tell me the rep, the account, and who they've engaged. We'll map out who's missing and how you'd coach the rep to expand their reach.",
+      "coaching_questions_from_chuck": [
+        "For your top three deals, can you name all five stakeholder personas and one unique pain point for each?",
+        "If a rep has sold the principal but the F&I Director is blocking, what's the first coaching move you'd make?",
+        "How do you track in your pipeline whether all stakeholders have been tailored to, or do you only track the primary contact?"
+      ]
+    },
+    {
+      "week": 4,
+      "title": "Dealer Archetypes and Tailoring",
+      "theme": "TAILOR",
+      "key_concepts": [
+        "dealer segmentation",
+        "archetype-specific selling",
+        "product-market fit by dealer type",
+        "scaling tailoring across portfolio"
+      ],
+      "lesson_content": "Not all dealers are built the same. Franchised dealerships prioritize premium support, DMS integration, regulatory compliance. Independent used car dealers are cost-sensitive, want quick ROI. Dealer groups require governance frameworks, consolidated architecture. Large franchise groups buy enterprise contracts with corporate oversight. eCommerce-first dealers stack digital tools, need API flexibility. Tailoring adapts: franchised = Total Solution compliance, independent = SmartPencil ROI, groups = cross-location reporting, enterprise = vendor consolidation, eCommerce = API integrations.",
+      "coaching_overlay": {
+        "week_objective": "Ensure each rep can identify the dealer archetype for their top five accounts and has a tailored positioning statement for each type.",
+        "what_to_listen_for": [
+          "Does the rep know what type of dealer they're talking to before the call, or do they discover it mid-conversation?",
+          "When selling to a franchised dealer, does the rep emphasize compliance and DMS integration, or generic features?",
+          "When selling to an independent, does the rep lead with ROI and speed to value, or enterprise benefits?",
+          "Does the rep adjust their timeline and success metrics based on dealer archetype, or use the same close pattern for all?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'Not all dealers are the same, and if you're selling the same way to a franchised dealer and an independent, you're leaving deals on the table. This week is about recognizing dealer archetypes and adjusting your approach.'\n\nWhy This Matters: 'A franchised dealer cares about compliance, DMS integration, and premium support. An independent cares about ROI, speed to value, and cost. If you lead with the wrong value prop, you lose credibility fast.'\n\n## TEAM DISCUSSION: SEGMENTING YOUR PIPELINE (10 minutes)\nAsk each rep to classify their top five prospects: franchised, independent, dealer group, or eCommerce-focused.\n\nQUESTION FOR THE ROOM: 'Of your top five prospects, how many are franchised vs. independent? And is your pitch actually different for each type, or are you running the same playbook?'\n\nListen for: Can they classify their prospects? Do they adjust their positioning by archetype? Are they leading with the right value prop \u2014 compliance for franchised, ROI for independent, scalability for groups?\n\n## APPLICATION EXERCISE (10 minutes)\nTake one deal from each archetype on the board. As a team, build the opening positioning for each \u2014 what's the lead insight, what stakeholder do you target first, what's the timeline expectation?\n\nQUESTION FOR THE ROOM: 'If you're strong at selling franchised dealers but struggling with independents, what's the first thing you'd change about your approach?'\n\nListen for: Are reps adjusting their product mix and timeline expectations by archetype, or just their opening line? Who's recognizing that deal velocity looks different across dealer types?",
+        "common_mistakes": [
+          "Reps who treat all dealers as the same and wonder why their pitch doesn't land\u2014a used car lot owner has zero interest in enterprise reporting",
+          "Franchised dealer reps who oversell compliance; independent reps who oversell features they can't use",
+          "Not discovering dealer archetype early enough\u2014reps waste time on products that don't fit their dealer type",
+          "Reps who know the archetype but don't adjust close timeline or success metrics\u2014franchised groups close slower than independents"
+        ],
+        "field_observation": "In calls, listen for whether the rep references the dealer's ownership model, store count, or eCommerce strategy early. This signals they've done pre-call research. Notice if they talk about Protect for franchised dealers and SmartPencil for independents, or if it's random. Watch which products the rep leads with\u2014does it match the dealer's archetype, or are they selling what they're comfortable with?",
+        "coaching_questions": [
+          "Can you segment your team's pipeline by dealer archetype and tell me which reps are strongest at selling each type?",
+          "If one of your reps is closing franchised dealers but struggling with independents, what's the first pitch or positioning element you'd coach them to change?",
+          "How do you ensure your reps are tailoring their product mix and timeline to dealer archetype, not just their comfort level?"
+        ]
+      },
+      "practice_exercise": "Pick a rep who recently pitched the same way to two very different dealer types. Tell me what happened. We'll work through how you'd coach them to tailor their approach by archetype.",
+      "coaching_questions_from_chuck": [
+        "Can you segment your team's pipeline by dealer archetype and tell me which reps are strongest at selling each type?",
+        "If one of your reps is closing franchised dealers but struggling with independents, what's the first pitch or positioning element you'd coach them to change?",
+        "How do you ensure your reps are tailoring their product mix and timeline to dealer archetype, not just their comfort level?"
+      ]
+    },
+    {
+      "week": 5,
+      "title": "Constructive Tension \u2014 Taking Control Part 1",
+      "theme": "CONTROL",
+      "key_concepts": [
+        "tension as clarity",
+        "agenda-setting discipline",
+        "timeline negotiation",
+        "explicit next steps"
+      ],
+      "lesson_content": "Tension is clarity plus urgency. It's not aggression; it's naming what's real. Constructive tension levers: (1) Set agendas upfront. (2) Name next steps explicitly. (3) Push back on vague timelines. (4) Reframe price conversations. (5) Ask for the business directly. Common mistake: Avoiding tension because you fear rejection. Reality: Deals without tension drift forever.",
+      "coaching_overlay": {
+        "week_objective": "Coach your reps to set explicit agendas in the first call and establish clear next-step commitments before hanging up\u2014no vague 'We'll circle back' endings.",
+        "what_to_listen_for": [
+          "Does the rep open the call with an agenda? ('I want to show you three things and get your feedback on timeline')",
+          "When the dealer says 'Let me think about it,' does the rep nail down a specific callback date/time, or accept 'we'll be in touch'?",
+          "Does the rep push back on slow timelines? ('Q3 is six months away\u2014what needs to happen by next month for us to move faster?')",
+          "When the dealer hints at price objections, does the rep stay in discovery or jump to discount?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'This is the week most reps get uncomfortable \u2014 and that's exactly the point. Constructive tension isn't being aggressive. It's being clear about timelines, next steps, and what needs to happen to move a deal forward.'\n\nWhy This Matters: 'Every deal that dies in your pipeline probably died because someone avoided tension. They accepted a vague timeline, didn't push back on stalls, or let the dealer set the pace instead of the rep.'\n\n## TEAM DISCUSSION: WHERE TENSION BREAKS DOWN (10 minutes)\nAsk each rep to think about a deal that stalled or went dark in the last 60 days.\n\nQUESTION FOR THE ROOM: 'Think about a deal you lost or that went dark. At what point did you lose control? Was there a moment where you could have pushed harder on timeline, next steps, or a decision \u2014 and didn't?'\n\nListen for: Are they honest about where they backed off? Do they recognize the difference between being pushy and being disciplined? Can they identify the specific moment tension was needed but wasn't applied?\n\n## APPLICATION EXERCISE (10 minutes)\nRole-play a common scenario: The dealer says 'Let me think about it' or 'We'll revisit next quarter.' Have two or three reps practice responding with constructive tension \u2014 naming a specific next step, pushing back on vague timelines, and setting an agenda for the follow-up.\n\nQUESTION FOR THE ROOM: 'How many of your current deals have a specific next step with a date? If the answer is less than 80%, what does that tell you?'\n\nListen for: Who's comfortable applying tension in the role-play vs. who folds? Who has real next steps in their pipeline vs. vague follow-ups?",
+        "common_mistakes": [
+          "Reps who set agendas but don't stick to them\u2014they get pulled off-topic and lose control of the conversation",
+          "Reps who avoid naming timeline 'because I don't want to pressure them'\u2014this is actually the opposite; it's lazy",
+          "Reps who accept every delay as acceptable\u2014'They're busy in Q2, we'll try Q3' means the deal will never close",
+          "Reps who get defensive when the dealer hesitates\u2014they should lean into tension, not retreat"
+        ],
+        "field_observation": "Sit in on a call and time the opening. If the rep doesn't set agenda in the first 60 seconds, that's a red flag. Listen for the closing\u2014does the rep say 'Let me schedule a follow-up' (weak) or 'Let me get you on the calendar for Wednesday at 2pm' (strong)? Notice if the rep lets the dealer own the timeline or if the rep asserts it. Tension is not angry; it's confident and specific.",
+        "coaching_questions": [
+          "Think of one rep who avoids tension\u2014what's the underlying belief? Fear of rejection? Fear they'll lose the deal? How would you address it?",
+          "If a rep sets an agenda but the dealer pivots mid-call, how would you coach them to regain control without being aggressive?",
+          "How many of your deals this month ended with a vague 'we'll be in touch' vs. a booked next step? If it's more than 20%, you have a process issue."
+        ]
+      },
+      "practice_exercise": "Think of a rep who avoids tension \u2014 someone who lets deals drift without pushing for next steps or timelines. Tell me their name and a deal where you've seen this. We'll draft the coaching conversation you'd have with them.",
+      "coaching_questions_from_chuck": [
+        "Think of one rep who avoids tension\u2014what's the underlying belief? Fear of rejection? Fear they'll lose the deal? How would you address it?",
+        "If a rep sets an agenda but the dealer pivots mid-call, how would you coach them to regain control without being aggressive?",
+        "How many of your deals this month ended with a vague 'we'll be in touch' vs. a booked next step? If it's more than 20%, you have a process issue."
+      ]
+    },
+    {
+      "week": 6,
+      "title": "Process Discipline \u2014 Taking Control Part 2",
+      "theme": "CONTROL",
+      "key_concepts": [
+        "three-phase sales process",
+        "red flags for lost control",
+        "process rigor and compound effect",
+        "deal velocity"
+      ],
+      "lesson_content": "Process discipline is the operational backbone of taking control. Informativ's sales process has three phases: Discovery (Set Objectives \u2192 Stakeholder Mapping \u2192 Timeline \u2192 Decision Criteria). Demo (Warmer \u2192 Teaching Insight \u2192 Value-Focused Demonstration \u2192 Concrete Next Step). Proposal (48 hours to present \u2192 3-day review period \u2192 Explicit decision date). Red flags you've lost control: 'We'll circle back next month,' 'We'll present to our committee,' 'Let's revisit in Q2.' Discipline compounds: structured discovery = faster movement, teaching demos = higher attach rates, firm proposals = 20% more closes.",
+      "coaching_overlay": {
+        "week_objective": "Audit your pipeline and ensure every deal follows the three-phase structure; move deals stuck in 'committee review limbo' back to active control.",
+        "what_to_listen_for": [
+          "Does the rep talk about where deals are in the three-phase structure, or do they use vague stage names?",
+          "When a deal stalls in 'We'll present to our committee,' does the rep push back or accept defeat?",
+          "Does the rep set explicit timelines for each phase (Discovery = 2 weeks, Demo = 1 week, Proposal = 1 week)?",
+          "When a dealer says 'we'll revisit in Q3,' does the rep name what needs to happen in Q2 to accelerate, or do they accept the delay?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'Last week was about the mindset of constructive tension. This week is about the operational backbone \u2014 process discipline. If you don't have a repeatable process for moving deals through Discovery, Demo, and Proposal, you're relying on feel instead of structure.'\n\nWhy This Matters: 'Process isn't about being rigid. It's about knowing where every deal stands and having a clear path to close. Reps who follow the three-phase structure close faster and lose fewer deals to stalls.'\n\n## TEAM DISCUSSION: DIAGNOSING YOUR PIPELINE (10 minutes)\nAsk each rep to pick their top three deals and place them in one of the three phases: Discovery, Demo, or Proposal.\n\nQUESTION FOR THE ROOM: 'For your top three deals, which phase are they in? And when I say phase, I mean Discovery, Demo, or Proposal \u2014 not \"pending approval\" or \"waiting on their committee.\" If you can't place a deal in one of those three, you've lost control of it.'\n\nListen for: Are reps using the three-phase language or vague stage names? Do they know what needs to happen to advance each deal to the next phase? Are there deals sitting in no-man's-land between phases?\n\n## APPLICATION EXERCISE (10 minutes)\nPick two or three stalled deals from the team's pipeline and diagnose as a group: Which phase did it stall in? What's the red flag? What would it take to get it moving again?\n\nQUESTION FOR THE ROOM: 'How many of your deals have been in the same stage for more than two weeks? What does that tell you about your process discipline?'\n\nListen for: Who can diagnose their own pipeline accurately? Who's been letting deals sit without explicit timelines for advancement?",
+        "common_mistakes": [
+          "Reps who let deals linger in 'pending approval' for three weeks without pushing for a decision\u2014this is where most deals die",
+          "Reps who confuse 'we sent the proposal' with a closed deal\u2014if there's no decision date, there's no deal",
+          "Reps who skip stakeholder mapping in Discovery and then wonder why deals stall in Proposal when the IT Director hasn't signed off",
+          "Reps who treat the 48-hour proposal window as optional\u2014discipline creates urgency"
+        ],
+        "field_observation": "In your Friday deal review, ask each rep to walk the three phases for their top five deals. If a deal has been in 'pending approval' for 10 days, ask: 'What's the next blocking action?' If the rep doesn't have a clear answer, that's a coaching moment. You should see: Discovery deals moving to Demo in 1-2 weeks, Demo deals moving to Proposal in 1 week, Proposal deals getting explicit decision dates within 3 days of presentation.",
+        "coaching_questions": [
+          "How many deals in your pipeline have been 'pending approval' or 'waiting on their committee' for more than two weeks?",
+          "If a rep has a deal that's been stalled for three weeks, how would you coach them to diagnose whether they've lost control or just lost focus?",
+          "What's your Friday deal review format, and are you auditing process discipline or just tracking deal status?"
+        ]
+      },
+      "practice_exercise": "Pick one rep whose deals tend to stall between discovery and proposal. Tell me the rep and a specific deal. We'll diagnose where their process discipline breaks down and how you'd coach them to tighten it.",
+      "coaching_questions_from_chuck": [
+        "How many deals in your pipeline have been 'pending approval' or 'waiting on their committee' for more than two weeks?",
+        "If a rep has a deal that's been stalled for three weeks, how would you coach them to diagnose whether they've lost control or just lost focus?",
+        "What's your Friday deal review format, and are you auditing process discipline or just tracking deal status?"
+      ]
+    },
+    {
+      "week": 7,
+      "title": "Teaching Pitch Part 1 \u2014 Warmer, Reframe, Rational Drowning",
+      "theme": "TEACH",
+      "key_concepts": [
+        "warmer opening",
+        "reframe moment",
+        "rational drowning",
+        "four-step demo structure"
+      ],
+      "lesson_content": "The teaching pitch has four moves (first three this week). The Warmer (30 sec) opens with dealer agreement. The Reframe (30 sec) delivers the aha moment. Rational Drowning (2 min) stacks data to build unquestionable truth. Then check: 'Does that resonate?' \u2014 permission to continue.",
+      "coaching_overlay": {
+        "week_objective": "Each rep should deliver the first three moves of the teaching pitch (Warmer, Reframe, Rational Drowning) without rushing; the goal is building credibility, not speed.",
+        "what_to_listen_for": [
+          "Does the rep open with agreement ('Most dealers we work with...') or a generic question?",
+          "In the Reframe, does the rep deliver a clear aha moment that the dealer didn't expect, or is it a product feature?",
+          "In Rational Drowning, is the rep stacking specific data (credit pulls, F&I attachment, compliance metrics) or generic talking points?",
+          "After Rational Drowning, does the rep pause and ask 'Does that resonate?' or keep talking?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'This week and next, we're building the teaching pitch \u2014 the structure that turns insights into deal movement. Today is the first three moves: the Warmer, the Reframe, and Rational Drowning. These are the moves that set up the aha moment.'\n\nWhy This Matters: 'Most reps open with product or rapport. The teaching pitch opens with agreement, delivers surprise, and stacks evidence. It's the difference between a demo and a conversation that changes how a dealer thinks.'\n\n## TEAM DISCUSSION: THE FIRST THREE MOVES (10 minutes)\nWalk the team through Warmer (30 sec \u2014 dealer agreement), Reframe (30 sec \u2014 the aha moment), and Rational Drowning (2 min \u2014 stack data to build urgency).\n\nQUESTION FOR THE ROOM: 'What's your current opening on a first call or demo? Walk me through it. Now \u2014 does it start with agreement, or does it start with product?'\n\nListen for: Who's already opening with some version of agreement vs. who jumps straight to features? Can they articulate what makes a good Reframe \u2014 something the dealer didn't expect? Are they stacking specific data points in Rational Drowning or using generic talking points?\n\n## APPLICATION EXERCISE (10 minutes)\nHave two or three reps deliver their Warmer-Reframe-Rational Drowning for a specific product (Total Solution, SmartPencil, etc.) to the group. Team scores each on: Did the Warmer land? Was the Reframe a real aha? Were the data points specific and stacked?\n\nQUESTION FOR THE ROOM: 'After hearing those, what separated the strong deliveries from the ones that need work? What made you sit up and listen?'\n\nListen for: Peer feedback quality \u2014 are they identifying the right strengths and gaps? Can they distinguish between a teaching moment and a product pitch?",
+        "common_mistakes": [
+          "Reps who rush the Warmer\u2014it should establish common ground, not just say 'Hi'",
+          "Reps who skip the Reframe entirely and go straight to 'Here's what SmartPencil does'\u2014no aha moment, no differentiation",
+          "Reps who cite three data points in Rational Drowning but don't connect them to pain\u2014numbers without context bounce off",
+          "Reps who don't pause after Rational Drowning\u2014the 'Does that resonate?' check is sacred; without it, you lose permission to continue"
+        ],
+        "field_observation": "Sit in on a live demo and time each section. Warmer should be 30 seconds (not five minutes of rapport). Reframe should be 30 seconds (one clear aha). Rational Drowning should be 2-3 minutes (three stacked data points with pain connection). After Rational Drowning, the rep should pause and ask the permission question. If they skip this or rush it, they're missing the diagnostic moment.",
+        "coaching_questions": [
+          "What's your current pitch structure\u2014do all reps follow the Warmer-Reframe-Rational Drowning arc, or does each one improvise?",
+          "If a rep's Rational Drowning section is weak (weak data points or no pain connection), how would you coach them to strengthen it?",
+          "How are you tracking whether reps are pausing for permission checks, or do they just monologue through?"
+        ]
+      },
+      "practice_exercise": "Think about a rep who needs work on their opening \u2014 they jump to product too fast or don't create enough curiosity. Tell me the rep and what you've heard. We'll build a coaching plan to help them develop a stronger Warmer, Reframe, and Rational Drowning.",
+      "coaching_questions_from_chuck": [
+        "What's your current pitch structure\u2014do all reps follow the Warmer-Reframe-Rational Drowning arc, or does each one improvise?",
+        "If a rep's Rational Drowning section is weak (weak data points or no pain connection), how would you coach them to strengthen it?",
+        "How are you tracking whether reps are pausing for permission checks, or do they just monologue through?"
+      ]
+    },
+    {
+      "week": 8,
+      "title": "Teaching Pitch Part 2 \u2014 Emotional Impact, New Way, Your Solution",
+      "theme": "TEACH",
+      "key_concepts": [
+        "emotional impact personalization",
+        "new way narrative",
+        "solution positioning",
+        "complete six-step pitch"
+      ],
+      "lesson_content": "After stacking rational data, Emotional Impact personalizes the consequence. A New Way paints vision WITHOUT naming your product. Then Your Solution names Informativ. The complete six-step pitch takes 8-10 minutes and ends with: 'Does this approach make sense to you?'",
+      "coaching_overlay": {
+        "week_objective": "Ensure each rep can complete the full six-step teaching pitch (moves 4-6 this week: Emotional Impact, New Way, Your Solution) and transition to next steps with confidence.",
+        "what_to_listen_for": [
+          "In Emotional Impact, does the rep personalize consequences to THIS dealer (their staff, their margins, their risk), or generic consequences?",
+          "In New Way, does the rep describe vision without naming Informativ, or does the rep jump straight to product?",
+          "When naming Your Solution, does the rep explain why it fits THIS dealer's archetype, or just list features?",
+          "At the close of the pitch, does the rep ask 'Does this approach make sense?' or assume the dealer is sold?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'Last week we built the first three moves of the teaching pitch. This week we complete it: Emotional Impact, New Way, and Your Solution. These are the moves that turn the aha moment into a decision.'\n\nWhy This Matters: 'Rational Drowning stacks the data. Emotional Impact makes it personal. New Way paints vision without naming your product. Your Solution is the reveal. If you skip the middle steps, you're just demoing \u2014 not teaching.'\n\n## TEAM DISCUSSION: THE COMPLETE SIX-STEP PITCH (10 minutes)\nReview the full arc: Warmer \u2192 Reframe \u2192 Rational Drowning \u2192 Emotional Impact \u2192 New Way \u2192 Your Solution.\n\nQUESTION FOR THE ROOM: 'When you get to the point in a demo where you're naming our solution \u2014 have you earned that moment? Or are you naming Informativ before the dealer has felt the pain?'\n\nListen for: Do they understand the importance of Emotional Impact being personal to THIS dealer? Can they describe a New Way without naming the product? Are they rushing to solution too fast?\n\n## APPLICATION EXERCISE (10 minutes)\nHave reps extend their pitch from last week with the final three moves. Practice the full six-step flow. Team evaluates: Does Emotional Impact feel personal to a specific dealer? Does New Way paint vision without naming Informativ? Does the solution feel like a natural conclusion?\n\nQUESTION FOR THE ROOM: 'Can you deliver the full six-step pitch in under 10 minutes? If it's taking 15-20, where are you repeating yourself or getting stuck?'\n\nListen for: Pitch efficiency \u2014 are they tight and structured, or rambling? Is the team giving each other actionable feedback?",
+        "common_mistakes": [
+          "Reps who make Emotional Impact too generic\u2014'Dealers like you...' isn't as powerful as 'In your operation, compliance rework costs...'",
+          "Reps who can't separate New Way from Your Solution\u2014they should paint vision first, name the product second",
+          "Reps who oversell features in Your Solution instead of positioning\u2014'Our API integrates with your DMS' is feature talk, not positioning",
+          "Reps who don't end with 'Does this approach make sense?'\u2014this gives the dealer permission to say yes or no, which is necessary for momentum"
+        ],
+        "field_observation": "In a live demo, listen for the transition moments between Emotional Impact and New Way\u2014is it smooth or jarring? Watch the dealer's reaction when you name Informativ in Your Solution\u2014do they nod, or do they look surprised? Notice if the rep sits silent after 'Does this approach make sense?' (good, waiting for response) or fills the silence (bad, losing control). The strongest demos have clear beat breaks between steps.",
+        "coaching_questions": [
+          "Can each of your reps deliver the six-step pitch in under 10 minutes, or are they taking 15-20 because they're repeating themselves?",
+          "If a rep's New Way section feels generic, what's the coaching intervention\u2014is it about customization, storytelling, or vision clarity?",
+          "How do you measure whether the six-step pitch is actually creating deal movement vs. just sounding good?"
+        ]
+      },
+      "practice_exercise": "Pick a rep who's strong on data but struggles to make the emotional connection in their pitch. Tell me their name and what you've observed. We'll work through how you'd coach them to build Emotional Impact and A New Way into their presentation.",
+      "coaching_questions_from_chuck": [
+        "Can each of your reps deliver the six-step pitch in under 10 minutes, or are they taking 15-20 because they're repeating themselves?",
+        "If a rep's New Way section feels generic, what's the coaching intervention\u2014is it about customization, storytelling, or vision clarity?",
+        "How do you measure whether the six-step pitch is actually creating deal movement vs. just sounding good?"
+      ]
+    },
+    {
+      "week": 9,
+      "title": "Objections as Teaching Opportunities",
+      "theme": "TEACH",
+      "key_concepts": [
+        "objection reframe",
+        "Hear-Validate-Reframe-Teach framework",
+        "price objections",
+        "scope and timing objections"
+      ],
+      "lesson_content": "Objections are your most valuable moments. Never defend. Reframe. Framework: Hear \u2192 Validate \u2192 Reframe \u2192 Teach \u2192 Next Step. Covers price, timing, no-need, and scope objections. Each reframe proves you're not defensive, creates a teaching moment, and moves forward.",
+      "coaching_overlay": {
+        "week_objective": "Coach reps to welcome objections and convert them into teaching moments; an unanswered objection is a stalled deal.",
+        "what_to_listen_for": [
+          "When a dealer objects, does the rep defend ('No, our price is actually competitive') or reframe ('I hear cost is a concern; let me show you the ROI')?",
+          "After reframing, does the rep teach (new perspective on the objection) or just repeat the pitch?",
+          "Does the rep move forward after reframing, or do they get stuck arguing the same point?",
+          "When a dealer says 'We don't need this,' does the rep validate the feeling before reframing, or jump straight to counter?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'Every rep dreads objections. But the best reps treat them as their most valuable selling moments. This week is about reframing objections \u2014 using the Hear, Validate, Reframe, Teach framework to turn resistance into deal movement.'\n\nWhy This Matters: 'When a dealer objects, most reps defend or discount. Insight Leaders validate and then teach. That's how you turn a \"no\" into a deeper conversation.'\n\n## TEAM DISCUSSION: TOP OBJECTIONS (10 minutes)\nAsk the team to name their three most common objections. Write them on the board (or share screen).\n\nQUESTION FOR THE ROOM: 'What are the three objections you hear most? And when you hear them, what's your gut reaction \u2014 do you defend, discount, or reframe?'\n\nListen for: Honesty about default reactions. Are they defending ('No, our price is actually competitive') or reframing ('I hear cost is a concern \u2014 let me show you the ROI')? Can they name their top objections quickly, or do they struggle \u2014 which means they haven't been listening?\n\n## APPLICATION EXERCISE (10 minutes)\nPick the top two objections and role-play as a team. One rep plays the dealer, another responds using Hear \u2192 Validate \u2192 Reframe \u2192 Teach. Team evaluates: Did they validate before reframing? Did the reframe teach something new? Did they move forward after reframing or get stuck arguing?\n\nQUESTION FOR THE ROOM: 'After the reframe, what's the next move? If you're still arguing the same point, you haven't actually reframed \u2014 you've just restated.'\n\nListen for: Who can execute the framework naturally vs. who reverts to defend mode? Are they teaching after reframing or just pivoting back to features?",
+        "common_mistakes": [
+          "Reps who get defensive when objected to\u2014this is the moment to prove you're teaching, not selling",
+          "Reps who reframe but don't teach\u2014just restating the pitch isn't reframing",
+          "Reps who skip validation ('I hear you') and go straight to counter\u2014this feels dismissive",
+          "Reps who don't move forward after reframing\u2014they should ask 'Does that make sense?' and move to the next step"
+        ],
+        "field_observation": "Sit in on a call and wait for the objection\u2014they always come. When one does, listen intently to the rep's response. Is it reflexive and defensive, or thoughtful and reframing? Notice the dealer's body language after the reframe\u2014do they engage or disengage? The strongest reps use objections to prove they're not pushy; they welcome pushback because it's a teaching opportunity.",
+        "coaching_questions": [
+          "What are the three most common objections your reps face, and do they have a consistent reframe for each?",
+          "If a rep gets an objection and freezes, how do you coach them to recover in the moment vs. just accepting the objection?",
+          "How do you track whether your reps are converting objections into closed deals or leaving money on the table?"
+        ]
+      },
+      "practice_exercise": "Think of a rep who gets defensive when dealers push back on price or timing. Tell me the rep and a recent objection they handled poorly. We'll build a coaching approach to help them reframe objections as teaching moments.",
+      "coaching_questions_from_chuck": [
+        "What are the three most common objections your reps face, and do they have a consistent reframe for each?",
+        "If a rep gets an objection and freezes, how do you coach them to recover in the moment vs. just accepting the objection?",
+        "How do you track whether your reps are converting objections into closed deals or leaving money on the table?"
+      ]
+    },
+    {
+      "week": 10,
+      "title": "Your Rep Profile and Gaps \u2014 Self-Assessment",
+      "theme": "FOUNDATION",
+      "key_concepts": [
+        "five rep profiles",
+        "identifying personal gaps",
+        "pressure fallback patterns",
+        "deliberate practice"
+      ],
+      "lesson_content": "Knowing your profile is knowing where you excel and where you fail under pressure. Everyone has a default profile and a pressure fallback. Development plan: Pick one Informativ Method behavior that doesn't come naturally. Practice it deliberately for two weeks.",
+      "coaching_overlay": {
+        "week_objective": "Assess each rep's profile and pressure fallback; design one micro-improvement for each rep to practice deliberately over the next month.",
+        "what_to_listen_for": [
+          "Which profile does each rep naturally gravitate toward? (Listen to their calls and map them to Insight Leader, Relationship Builder, Hard Worker, Lone Wolf, Problem Solver)",
+          "When does their behavior change? (Under deadline pressure, objections, competitive threats)",
+          "What's the rep's pressure fallback? (Does the Insight Leader default to Relationship Builder under stress? Does the Hard Worker get even more frenetic?)",
+          "Which Informativ behaviors come naturally to them (teaching, tailoring, tension) and which feel forced?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'We've spent nine weeks building the Informativ Method. This week is about self-awareness \u2014 knowing your profile, your strengths, and where you break down under pressure. Everyone has a default profile and a pressure fallback. The goal isn't to change who you are \u2014 it's to know when your default is helping and when it's hurting.'\n\nWhy This Matters: 'If you don't know your pressure fallback, you can't control it. And in the critical moments of a deal \u2014 objections, negotiations, competitive threats \u2014 your fallback is what shows up.'\n\n## TEAM DISCUSSION: PROFILE SELF-ASSESSMENT (10 minutes)\nAsk each rep to declare their primary profile and their pressure fallback.\n\nQUESTION FOR THE ROOM: 'Of the five profiles, which one are you most of the time? And when you're under pressure \u2014 a big deal on the line, a tough objection, a competitive threat \u2014 which profile do you revert to?'\n\nListen for: Are they honest about their fallback? Do they understand the cost? (The Insight Leader who reverts to Relationship Builder under pressure stops teaching. The Hard Worker who gets more frenetic under stress burns energy without results.)\n\n## APPLICATION EXERCISE (10 minutes)\nHave the team share a real moment in the last month where they felt their pressure fallback kick in. What happened? What would the Insight Leader move have been?\n\nQUESTION FOR THE ROOM: 'If you could change one behavior under pressure, what would it be? And what would that look like on your next tough call?'\n\nListen for: Specific, honest answers vs. vague aspirations. Can they connect their fallback to a real deal outcome? Are they identifying one concrete behavior to change?",
+        "common_mistakes": [
+          "Managers who don't diagnose profile\u2014they just tell reps 'be more like an Insight Leader' without knowing their starting point",
+          "Reps who think they're Insight Leaders but are actually Relationship Builders in disguise\u2014this is why listening matters",
+          "Coaches who try to fix everything\u2014picking one behavior to improve is more powerful than attacking five",
+          "Managers who don't revisit\u2014deliberate practice needs accountability; you have to check in on week three"
+        ],
+        "field_observation": "This is about understanding the rep, not just auditing behavior. Sit in on calls with different reps and notice: How do they open (teaching or rapport)? How do they handle objections (stay in teaching or retreat)? How do they close (push for next step or leave it open)? When a deal goes sideways (objection, competitive threat), does the rep stay in character or shift? This is where you see pressure fallback most clearly.",
+        "coaching_questions": [
+          "If you had to pick one profile for each of your reps, could you do it? If not, you haven't listened enough.",
+          "For each rep, what's one Informativ behavior that doesn't come naturally to them, and what's your plan to coach them deliberately?",
+          "How do your reps behave under pressure\u2014do they stick to Informativ or do they revert to old patterns?"
+        ]
+      },
+      "practice_exercise": "Pick the rep on your team with the most untapped potential. Tell me their name and what you see in them. We'll identify their profile tendencies and design a two-week coaching focus to close their biggest gap.",
+      "coaching_questions_from_chuck": [
+        "If you had to pick one profile for each of your reps, could you do it? If not, you haven't listened enough.",
+        "For each rep, what's one Informativ behavior that doesn't come naturally to them, and what's your plan to coach them deliberately?",
+        "How do your reps behave under pressure\u2014do they stick to Informativ or do they revert to old patterns?"
+      ]
+    },
+    {
+      "week": 11,
+      "title": "Pipeline Through the Informativ Method Lens",
+      "theme": "CONTROL",
+      "key_concepts": [
+        "diagnostic for stalled deals",
+        "Teach-Tailor-Control diagnostic",
+        "deal movement metrics",
+        "unstalling methodology"
+      ],
+      "lesson_content": "Every stuck deal fails on Teach, Tailor, or Control. No Teaching = no differentiation. No Tailoring = key stakeholders don't see relevance. No Control = no timeline. The diagnostic: What did I teach? Who have I tailored to? What happens next and when?",
+      "coaching_overlay": {
+        "week_objective": "Audit your pipeline for stuck deals and diagnose whether the block is Teaching, Tailoring, or Control; unstall each with targeted coaching.",
+        "what_to_listen_for": [
+          "For each stalled deal, can the rep articulate what insight they taught? If no, it's a Teaching gap.",
+          "Can the rep name all stakeholders they've tailored to? If they've only sold the principal, it's a Tailoring gap.",
+          "Is there an explicit next step with a date? If not or if it's vague ('next month'), it's a Control gap.",
+          "Which gap is most common across your pipeline? That's where your coaching focus should be."
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'This week we put the Informativ Method lens on your actual pipeline. Every stuck deal fails on Teach, Tailor, or Control. The diagnostic is simple: What did I teach? Who did I tailor to? What's my next step and when?'\n\nWhy This Matters: 'If you can't answer those three questions for every deal in your pipeline, you don't have a pipeline \u2014 you have a wish list.'\n\n## TEAM DISCUSSION: PIPELINE DIAGNOSTIC (10 minutes)\nHave each rep pick their most stalled deal \u2014 the one that's been sitting for two or more weeks.\n\nQUESTION FOR THE ROOM: 'Pick your most stuck deal. Answer three questions: (1) What insight did you teach this dealer? (2) Which stakeholders have you tailored to? (3) What's the next step and when? If you can't answer one of those, that's where the deal is stuck.'\n\nListen for: Which of the three gaps is most common across the team? (Teaching gap = no differentiation. Tailoring gap = only sold one person. Control gap = no timeline.) Are reps being honest about where their deals actually stand?\n\n## APPLICATION EXERCISE (10 minutes)\nPick two or three stalled deals and diagnose them as a team. For each, identify the gap and build a specific recovery plan: What insight will you teach on the next call? Which stakeholder do you need to reach? What's the explicit next step you'll set?\n\nQUESTION FOR THE ROOM: 'Looking at the deals we just diagnosed \u2014 what's the pattern? Is this a team-wide Teaching problem, a Tailoring problem, or a Control problem?'\n\nListen for: Can they see the pattern across the team, not just their individual deals? Are recovery plans specific and actionable, or vague?",
+        "common_mistakes": [
+          "Managers who don't diagnose\u2014they just say 'This deal is stuck; fix it' without naming which lever isn't working",
+          "Reps who stack all three gaps (no teaching, no tailoring, no timeline) and blame the dealer for being slow",
+          "Coaches who try to fix the deal themselves\u2014this should be coaching the rep, not direct selling",
+          "Managers who don't follow up\u2014they assign coaching action and don't check in on the next call to see if it moved"
+        ],
+        "field_observation": "In your Friday deal review, ask every rep with a stuck deal: 'Walk me through the last call. What did you teach? Who did you talk to? What's booked next?' If they can't answer clearly, that's visible diagnosis. The best managers go back to the CRM notes and compare: Did the rep actually do the coaching actions from the previous week, or did they just take another general call?",
+        "coaching_questions": [
+          "Of your deals that have been in stage 3 or 4 for more than two weeks, how many lack a clear teaching moment?",
+          "For a deal that's stuck because of Tailoring gap, what's your coaching play\u2014is it in-call coaching or do you need to get on the call yourself?",
+          "How do you prevent deals from getting stuck in the first place\u2014is it process discipline or coaching intensity?"
+        ]
+      },
+      "practice_exercise": "Look across your team's pipeline. Pick one deal that's been stuck too long. Tell me the rep, the account, and what you know about it. We'll diagnose the Teach-Tailor-Control gap together and plan how you'd coach the rep to re-engage.",
+      "coaching_questions_from_chuck": [
+        "Of your deals that have been in stage 3 or 4 for more than two weeks, how many lack a clear teaching moment?",
+        "For a deal that's stuck because of Tailoring gap, what's your coaching play\u2014is it in-call coaching or do you need to get on the call yourself?",
+        "How do you prevent deals from getting stuck in the first place\u2014is it process discipline or coaching intensity?"
+      ]
+    },
+    {
+      "week": 12,
+      "title": "90-Day Informativ Method Action Plan \u2014 Capstone",
+      "theme": "FOUNDATION",
+      "key_concepts": [
+        "owned insights library",
+        "stakeholder tailor templates",
+        "teaching pitch mastery",
+        "objection response library",
+        "weekly and monthly rhythms"
+      ],
+      "lesson_content": "By now you have the framework. Week 12 operationalizes it. Toolkit: Owned Insights, Stakeholder Tailor Templates, Teaching Pitches Per Product, Objection Response Library, Red-Flag List. Weekly rhythm: Friday deal review. Monthly rhythm: 1-on-1 coaching on single skill. Quarterly: refresh insights, update pitches, track profile development. Metrics: % deals with teaching, % deals with multi-stakeholder tailoring, % deals with named next steps.",
+      "coaching_overlay": {
+        "week_objective": "Institutionalize the Informativ Method as your team's operating system\u2014create repeatable processes, define metrics, and schedule coaching cadence for the next 90 days.",
+        "what_to_listen_for": [
+          "Are reps deploying insights consistently, or just in the initial pitch?",
+          "Are they tailoring to multiple stakeholders on every deal, or just when reminded?",
+          "Are they setting explicit next steps on every call, or still drifting into 'we'll touch base'?",
+          "Is there a team-wide understanding that this is THE way you sell, or does it feel like a flavor-of-the-month training?"
+        ],
+        "one_on_one_guide": "## OPENING (5 minutes)\nSet the Frame: 'This is the capstone. We've built the framework over 11 weeks. This week is about operationalizing it \u2014 making it the way you sell every day, not just something you learned in training.'\n\nWhy This Matters: 'The difference between a training program and a transformation is sustainability. Your toolkit \u2014 Owned Insights, Stakeholder Templates, Teaching Pitches, Objection Responses, Red-Flag List \u2014 needs to be something you use every week, not something you forget by next month.'\n\n## TEAM DISCUSSION: WHAT STUCK AND WHAT DIDN'T (10 minutes)\nGo around the room and ask each rep to share the one behavior from the program that's had the most impact on their selling and one they're still struggling with.\n\nQUESTION FOR THE ROOM: 'Over the last 11 weeks, what's the one thing that's changed how you sell? And what's the one thing you know you should be doing but haven't made a habit yet?'\n\nListen for: Specific behavior changes vs. vague statements like 'I'm selling better.' Are they naming real impact (e.g., 'I started leading with insights and my demo conversion went up') or just saying what they think you want to hear?\n\n## 90-DAY COMMITMENT (10 minutes)\nHave each rep commit to three things: (1) Their deliberate practice focus for the next 90 days (the one behavior they're improving). (2) Their weekly rhythm (Friday deal review using Teach-Tailor-Control diagnostic). (3) Their accountability metric (% of deals with teaching moments, % with multi-stakeholder tailoring, % with explicit next steps).\n\nQUESTION FOR THE ROOM: 'What does it look like if we're all operating in Insight Leader mode 90 days from now? What's different about our pipeline, our win rate, our deal velocity?'\n\nListen for: Realistic commitments vs. overpromises. Are they thinking about sustainability or just finishing the program? Is there energy and ownership around making this permanent?",
+        "common_mistakes": [
+          "Managers who end training and assume reps will just do it\u2014without accountability structure, change doesn't stick",
+          "Coaches who don't define team-wide metrics\u2014'improving' is vague; '70% of deals with teaching' is measurable",
+          "Managers who don't schedule the coaching rhythm\u2014if you don't block Friday deal reviews, they won't happen",
+          "Coaches who treat one-off training as the solution\u2014Informativ is a system, not a class; it needs to be reinforced constantly"
+        ],
+        "field_observation": "Over the next 90 days, you're observing to ensure adoption. Listen in on calls (at least two per rep per month). Score: Was teaching deployed? Were multiple stakeholders engaged? Was there an explicit next step? If a rep scores 80% or higher across all three over 30 days, they're adopting. If below 60%, you need more direct coaching. This is where you separate who's in and who's coasting.",
+        "coaching_questions": [
+          "What does Informativ adoption look like to you\u2014what are your team-wide metrics for success?",
+          "How will you track whether your reps are mastering Informativ or just going through the motions?",
+          "If a rep resists the method or says 'This isn't how I sell,' how will you coach them toward adoption vs. letting them opt out?"
+        ]
+      },
+      "practice_exercise": "Let's design your ongoing coaching rhythm. Tell me: how are you currently running 1:1s with your reps? We'll build a framework that embeds the Informativ Method into your weekly coaching cadence.",
+      "coaching_questions_from_chuck": [
+        "What does Informativ adoption look like to you\u2014what are your team-wide metrics for success?",
+        "How will you track whether your reps are mastering Informativ or just going through the motions?",
+        "If a rep resists the method or says 'This isn't how I sell,' how will you coach them toward adoption vs. letting them opt out?"
+      ]
+    }
+  ]
+}

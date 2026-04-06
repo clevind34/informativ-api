@@ -1,0 +1,936 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "Informativ Total Solutions \u2014 Sales Certification",
+    "program_id": "total_solutions_sales_cert",
+    "created": "2026-03-16",
+    "organization": "Informativ",
+    "description": "Product fluency certification for sellers. Master every screen, workflow, and feature of the Informativ platform so you can demo confidently, answer technical questions from F&I directors and GMs, and position the Total Solution as a must-have — not just describe it.",
+    "target_audience": "Sales representatives",
+    "product": "Total Solutions Platform",
+    "passing_score": 80,
+    "total_modules": 9
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "Informativ Platform Overview",
+      "description": "Introduction to Informativ's compliance-first platform, core benefits, and how the Total Solution improves the dealership experience.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is one *key benefit* of using Informativ\u2019s digital signature and license scanning technology?",
+            "options": {
+              "A": "It eliminates the need for a finance manager",
+              "B": "It verifies income statements automatically",
+              "C": "It reduces errors and prevents fraud",
+              "D": "It auto-generates inventory updates"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What does pre-qualification help accomplish?",
+            "options": {
+              "A": "It replaces the need for credit checks",
+              "B": "It shows buying ability before a hard pull, protecting credit",
+              "C": "It locks in an interest rate for 60 days",
+              "D": "It guarantees loan approval"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following is NOT one of Informativ\u2019s four core focus areas?",
+            "options": {
+              "A": "Compliance with regulations",
+              "B": "Preventing fraud",
+              "C": "Increasing ad spend for the dealership",
+              "D": "Saving time and money by reducing paperwork"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What federal regulation is specifically mentioned in the training as requiring compliance?",
+            "options": {
+              "A": "Gramm-Leach-Bliley Act",
+              "B": "FTC Safeguards Rule",
+              "C": "HIPAA",
+              "D": "Fair Credit Reporting Act"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is it important to confirm that the driver\u2019s license information is current during a scan?",
+            "options": {
+              "A": "Outdated licenses slow down the app",
+              "B": "It\u2019s required by Informativ\u2019s terms of service",
+              "C": "Accurate information is essential to prevent errors in paperwork",
+              "D": "It lets the customer skip the next step"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the primary reason your dealership has partnered with Informativ?",
+            "options": {
+              "A": "To completely change your sales process",
+              "B": "To test out new technology temporarily",
+              "C": "To streamline workflow and improve efficiency without disrupting success",
+              "D": "To monitor employees more closely"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What message does the training emphasize about Informativ\u2019s impact on the current sales process?",
+            "options": {
+              "A": "It will require completely relearning your job",
+              "B": "It will eliminate most existing steps",
+              "C": "It will enhance and speed up what you already do well",
+              "D": "It will require legal certification"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How does Informativ improve the customer experience in the showroom?",
+            "options": {
+              "A": "By offering online car purchases only",
+              "B": "By taking control away from the salesperson",
+              "C": "By giving salespeople more control with digital tools",
+              "D": "By limiting the sales conversation to digital forms"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "Mobile App Fundamentals",
+      "description": "Driver's license scanning, buyer information population, co-buyer management, and mobile app workflow for customer intake.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the primary benefit of using the Informativ mobile app to scan a driver's license?",
+            "options": {
+              "A": "To upload license images directly to your personal device",
+              "B": "To generate a physical copy for your records",
+              "C": "To avoid speaking with the customer",
+              "D": "To instantly populate buyer information into the digital deal jacket and reduce manual errors"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Why should you ask if the driver's license information is current during the scan?",
+            "options": {
+              "A": "To ensure that all customer data is accurate from the beginning",
+              "B": "To appear more thorough in front of the desk manager",
+              "C": "It is required by state law",
+              "D": "So you can verify it against the CRM manually later"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Where is the customer\u2019s scanned license data stored after using the mobile app?",
+            "options": {
+              "A": "In the car\u2019s internal system",
+              "B": "On the salesperson\u2019s phone",
+              "C": "In a printable PDF saved to the desktop",
+              "D": "Encrypted and securely transmitted to the cloud"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "If you're unable to get a clear image using the mobile app, what should you do?",
+            "options": {
+              "A": "Manually write the license information",
+              "B": "Take a picture with your phone camera",
+              "C": "Skip the scan entirely",
+              "D": "Use the desktop scanner as an alternative method"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "When should you typically scan the buyer\u2019s license?",
+            "options": {
+              "A": "Only if the customer is financing",
+              "B": "After the test drive and price negotiation",
+              "C": "At the beginning of the interaction, before the test drive",
+              "D": "Before delivery, during final paperwork"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How can you reassure customers that their information isn\u2019t saved on your personal device?",
+            "options": {
+              "A": "By turning your phone off after the scan",
+              "B": "By reading them a legal disclaimer",
+              "C": "You can\u2019t reassure them; it\u2019s a risk they have to take",
+              "D": "The app includes a built-in disclaimer about data storage"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Why is it important to confirm the scanned information after scanning both sides of a license?",
+            "options": {
+              "A": "The app sometimes randomly deletes data",
+              "B": "The buyer's credit score won't update otherwise",
+              "C": "Customers may have outdated or incorrect information that needs correction",
+              "D": "The dealership won't get paid unless it\u2019s reviewed"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the first step when adding a Co-Buyer in the mobile app?",
+            "options": {
+              "A": "Call the desk for approval",
+              "B": "Start a new buyer record from scratch",
+              "C": "Find the buyer\u2019s record to attach the Co-Buyer",
+              "D": "Scan the Co-Buyer\u2019s license directly"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What\u2019s the easiest way to find a buyer in the mobile app before attaching a Co-Buyer?",
+            "options": {
+              "A": "Scanning the original contract",
+              "B": "Typing their birthdate",
+              "C": "Typing the first three letters of their last name",
+              "D": "Searching by their phone number"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What happens if a deal has more than one Co-Buyer?",
+            "options": {
+              "A": "It disqualifies the customer from digital verification",
+              "B": "Each Co-Buyer must be added separately using the same process",
+              "C": "Only the primary Co-Buyer can be added",
+              "D": "You must use the desktop app instead"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "Digital Deal Jacket Matching",
+      "description": "Matching suggestions, duplicate prevention, CRM integration, and deal jacket organization.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the main purpose of the matching suggestions that appear after scanning a driver's license?",
+            "options": {
+              "A": "To offer special discounts to repeat customers",
+              "B": "To eliminate the creation of duplicate digital deal jackets",
+              "C": "To allow you to merge records with other dealerships",
+              "D": "To verify the customer's insurance provider"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following may automatically create a digital deal jacket before the customer arrives at the store?",
+            "options": {
+              "A": "Filling out a paper form in-store",
+              "B": "Completing a pre-qualification on the Customer Insights Platform",
+              "C": "Test driving a vehicle",
+              "D": "Speaking to a salesperson on the phone"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which digital retail platforms mentioned can integrate with Informativ to create a digital deal jacket?",
+            "options": {
+              "A": "Dealertrack and eLeads",
+              "B": "AutoTrader and Facebook Marketplace",
+              "C": "Autofy and Roadster",
+              "D": "Google and Apple Maps"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What should you do when the system shows multiple matching digital deal jacket suggestions?",
+            "options": {
+              "A": "Always create a new one to be safe",
+              "B": "Pick the first one on the list",
+              "C": "Thoroughly review them and select the correct existing one",
+              "D": "Ask the desk to choose for you"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How does selecting the correct existing digital deal jacket benefit the desk manager?",
+            "options": {
+              "A": "It saves them from having to print any documents",
+              "B": "It improves their ability to monitor deal progress and ensures documentation is organized",
+              "C": "It sends a notification to the customer automatically",
+              "D": "It activates warranty coverage"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is consolidating customer information into one digital deal jacket important for the customer?",
+            "options": {
+              "A": "It builds trust and ensures a smooth, efficient experience",
+              "B": "It allows them to see the car's full accident history",
+              "C": "It automatically sends their info to banks",
+              "D": "It qualifies them for extended test drives"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "If your dealership has integrated CRM support, what happens when you scan a driver\u2019s license?",
+            "options": {
+              "A": "It creates a new lead in the CRM",
+              "B": "It automatically emails the customer",
+              "C": "It completes the sale without approval",
+              "D": "It syncs to the finance department"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "How can you communicate professionalism during the matching suggestion process?",
+            "options": {
+              "A": "Tell the customer their information may be lost",
+              "B": "Avoid showing them the screen to keep control",
+              "C": "Explain you're ensuring all their info is accurate and secure",
+              "D": "Tell them to wait outside until you finish"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What kind of information is used to generate matching suggestions for existing digital deal jackets?",
+            "options": {
+              "A": "Credit score and loan status",
+              "B": "Name and address",
+              "C": "Social media account",
+              "D": "Purchase history"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is a *mechanical benefit* of using the digital deal jacket matching system correctly?",
+            "options": {
+              "A": "Avoids syncing with finance tools",
+              "B": "Minimizes duplicate entry errors and improves workflow speed",
+              "C": "Increases customer insurance coverage",
+              "D": "Removes the need for signatures"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Pre-Qualification & Soft Pulls",
+      "description": "Soft pull benefits, credit score impact, compliance requirements, and how prequalification accelerates the sales process.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the purpose of collecting a customer\u2019s phone number before the test drive?",
+            "options": {
+              "A": "To send marketing promotions",
+              "B": "To text them a link for pre-qualification (soft pull consent)",
+              "C": "To register their vehicle preferences",
+              "D": "To enroll them in a loyalty program"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is a soft pull and how does it differ from a hard credit pull?",
+            "options": {
+              "A": "A soft pull affects your credit score temporarily",
+              "B": "A soft pull reveals income information only",
+              "C": "A soft pull doesn't affect your credit score or create obligations",
+              "D": "A soft pull is required for loan approval"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "If a customer hasn't completed a pre-qualification before the test drive, when should you offer it?",
+            "options": {
+              "A": "Only after deal paperwork is printed",
+              "B": "Right before delivery of the vehicle",
+              "C": "After the test drive, before discussing financing options",
+              "D": "During the service walkaround"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What must be obtained from the customer before processing a soft pull in-store?",
+            "options": {
+              "A": "Phone number and vehicle of interest",
+              "B": "Driver's license and insurance card",
+              "C": "Verbal consent and birth date",
+              "D": "Their signature on the soft pull consent form"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "What is the main customer benefit of completing a soft pull early in the process?",
+            "options": {
+              "A": "It allows them to skip financing entirely",
+              "B": "They can be pre-qualified and receive financing options faster",
+              "C": "It locks in the APR for 90 days",
+              "D": "It removes the need for a co-signer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is a good response if a customer says, 'I don\u2019t want to give my phone number'?",
+            "options": {
+              "A": "We need it to send the link, but it's optional to use",
+              "B": "We won\u2019t move forward without it",
+              "C": "You can provide an email instead",
+              "D": "That\u2019s fine, but you\u2019ll lose your deal"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Which statement best reflects how to handle a customer who says, 'I\u2019m not ready to think about financing yet'?",
+            "options": {
+              "A": "That\u2019s okay, it\u2019s just an option for when you're ready",
+              "B": "Then we\u2019ll skip it entirely",
+              "C": "It\u2019s mandatory for a test drive",
+              "D": "We\u2019ll do a hard pull later instead"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What\u2019s the purpose of using the digital showroom with an iPad if a customer doesn\u2019t pre-qualify via their phone?",
+            "options": {
+              "A": "To show the inventory slideshow",
+              "B": "To complete the soft pull consent form in-store",
+              "C": "To print vehicle specs",
+              "D": "To compare service plans"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is it important to explain that a soft pull doesn\u2019t affect credit or commit the customer to anything?",
+            "options": {
+              "A": "Because it builds trust and helps address common concerns",
+              "B": "Because soft pulls are confusing",
+              "C": "Because all customers have poor credit",
+              "D": "Because the finance office requires it"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What message does offering a soft pull early send to the customer?",
+            "options": {
+              "A": "You want to upsell them quickly",
+              "B": "You're being proactive and transparent in helping them",
+              "C": "You're avoiding price negotiation",
+              "D": "You\u2019re rushing the process"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 5,
+      "title": "Privacy Notice & Compliance",
+      "description": "Privacy notice timing, FTC Safeguards Rule, permissible purpose, and compliance workflow.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Why is completing the digital privacy notice before a credit application important?",
+            "options": {
+              "A": "It helps determine the customer\u2019s down payment",
+              "B": "It provides legally required disclosure of privacy rights before collecting sensitive information",
+              "C": "It speeds up the contract signing",
+              "D": "It is required only for cash buyers"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What regulation is emphasized as a key reason to handle privacy and compliance steps correctly?",
+            "options": {
+              "A": "Fair Credit Reporting Act",
+              "B": "Consumer Privacy Act",
+              "C": "FTC Safeguards Rule",
+              "D": "Dodd-Frank Act"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "When should the privacy notice be completed in the sales process?",
+            "options": {
+              "A": "After the credit application is approved",
+              "B": "Before a credit check and after obtaining soft pull consent",
+              "C": "Only if the customer requests it",
+              "D": "When the deal is finalized"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What are the three documents required to achieve 'permissible purpose'?",
+            "options": {
+              "A": "Credit score, insurance info, trade-in value",
+              "B": "Government ID, signed privacy notice, signed credit application",
+              "C": "Customer phone number, soft pull consent, purchase order",
+              "D": "Signed purchase agreement, bank approval, privacy disclaimer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What happens if you skip the privacy notice and go straight to the credit app?",
+            "options": {
+              "A": "The credit app is auto-approved",
+              "B": "The customer receives a discount",
+              "C": "You\u2019ll be sent back to complete the privacy notice",
+              "D": "The deal closes faster"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is one major benefit of completing the privacy notice digitally on an iPad?",
+            "options": {
+              "A": "It automatically emails the customer",
+              "B": "It fulfills FTC loan guidelines",
+              "C": "It offers convenience to the customer and ensures secure data storage",
+              "D": "It allows you to skip verification steps"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How does properly handling the privacy notice impact your relationship with the customer?",
+            "options": {
+              "A": "It makes the customer feel rushed",
+              "B": "It builds trust and professionalism",
+              "C": "It prevents the customer from asking questions",
+              "D": "It reduces the need for negotiation"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the proper order for collecting documents to meet compliance standards?",
+            "options": {
+              "A": "Signed credit application, privacy notice, government ID",
+              "B": "Privacy notice, credit application, trade-in form",
+              "C": "Driver\u2019s license or ID, privacy notice, credit application",
+              "D": "Government ID, down payment, employment verification"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why is it important that the desk manager sees the privacy notice has been completed?",
+            "options": {
+              "A": "It ensures they know the customer qualifies",
+              "B": "It confirms that compliance steps have been followed before any credit checks",
+              "C": "It speeds up title processing",
+              "D": "It triggers inventory matching"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What message does a properly completed privacy notice send to the customer?",
+            "options": {
+              "A": "That the process will take longer than expected",
+              "B": "That their information is being taken for marketing use",
+              "C": "That their data is secure and the dealership is professional",
+              "D": "That they must sign immediately"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 6,
+      "title": "Credit Application on iPad",
+      "description": "iPad credit application process, data security, joint applications, and mobile platform capabilities.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Why is using an iPad to complete the credit application beneficial for the customer?",
+            "options": {
+              "A": "It connects them directly to the bank",
+              "B": "It allows for a faster, more secure, and customer-friendly experience",
+              "C": "It bypasses the need for signatures",
+              "D": "It sends a physical copy to their home"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What happens to the customer\u2019s personal information when using the iPad for the credit application?",
+            "options": {
+              "A": "It\u2019s stored locally on the device",
+              "B": "It is encrypted and securely transmitted, not stored on the device",
+              "C": "It is sent to marketing teams",
+              "D": "It is saved on the desktop for printing later"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When completing a joint application, when should both applicants sign?",
+            "options": {
+              "A": "One signs at delivery, the other later",
+              "B": "Only the primary applicant signs",
+              "C": "They sign together at the same time",
+              "D": "One signs the credit app, the other signs the privacy notice"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What should be entered in the 'Other Income' field if the customer has no additional income?",
+            "options": {
+              "A": "Leave it blank",
+              "B": "Type N/A or skip",
+              "C": "Enter none or zero (or $1.00 for Dealertrack)",
+              "D": "Ask the customer to sign off"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which section will automatically require additional information if the applicant has less than 2 years employment/residency?",
+            "options": {
+              "A": "Co-buyer section",
+              "B": "Trade-in form",
+              "C": "Previous employment/residence sections",
+              "D": "Banking section"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What will happen if 'NA' is left as the default in the 'Arrangement' section?",
+            "options": {
+              "A": "The app will auto-correct it",
+              "B": "It will trigger a warning only after submission",
+              "C": "It will result in an error",
+              "D": "It\u2019s acceptable if the buyer has no prior arrangement"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the final step before submitting the completed credit application?",
+            "options": {
+              "A": "Scanning the vehicle's VIN",
+              "B": "Having the customer review all fields for accuracy",
+              "C": "Printing the application for review",
+              "D": "Requesting a signature from the sales manager"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What three steps are required to achieve permissible purpose?",
+            "options": {
+              "A": "Test drive, customer ID, digital signature",
+              "B": "Driver\u2019s license, privacy notice, credit application",
+              "C": "Credit check, trade-in estimate, prequal consent",
+              "D": "App store login, signature, appointment setting"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What\u2019s a good response if a customer says, 'I\u2019m worried about giving my personal information'?",
+            "options": {
+              "A": "We only ask for basic details",
+              "B": "The information is encrypted and securely stored, never on the iPad",
+              "C": "We\u2019ve never had a problem before",
+              "D": "It\u2019s required by law, just sign here"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What\u2019s a good response to a customer who doesn\u2019t want to use the iPad for personal data?",
+            "options": {
+              "A": "We can fill it out later if needed",
+              "B": "The iPad helps avoid errors and ensures secure entry; we can walk through it together",
+              "C": "That\u2019s fine, but it will delay the process",
+              "D": "Just sign the printed version instead"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is it important to complete the credit app early if the customer is ready?",
+            "options": {
+              "A": "To bypass F&I altogether",
+              "B": "It allows you to match them with a vehicle before a test drive",
+              "C": "It speeds up the financing process and reduces wait time",
+              "D": "So the app can calculate taxes sooner"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What platform do you use to fill out the credit application on the iPad?",
+            "options": {
+              "A": "DealerCRM",
+              "B": "digitalshowroom@sales.dsgss.com",
+              "C": "InformativConnect",
+              "D": "SalesDesk360"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 7,
+      "title": "Remote Pre-Qualifications & Credit Apps",
+      "description": "Remote engagement features, desk manager benefits, and extending the dealership experience beyond the showroom.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the main advantage of sending remote pre-qualifications or credit applications?",
+            "options": {
+              "A": "It allows customers to apply for warranties online",
+              "B": "It keeps the sales process moving even if the customer isn\u2019t on-site",
+              "C": "It generates leads for third-party vendors",
+              "D": "It removes the need for privacy notices"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Where can you access the remote prequal or credit app request feature?",
+            "options": {
+              "A": "From your CRM system",
+              "B": "From the dealership\u2019s main website",
+              "C": "From the digital showroom at sales.dsgss.com",
+              "D": "Only through the mobile app"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What happens after the customer completes and submits their remote application?",
+            "options": {
+              "A": "The system prints a paper copy for signing",
+              "B": "Their profile is updated in the digital deal jacket",
+              "C": "They must schedule an appointment",
+              "D": "They receive an automatic loan decision"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is remote access to soft pull and credit apps helpful for the desk manager?",
+            "options": {
+              "A": "They can conduct financing over the phone",
+              "B": "They get real-time access to results, improving efficiency",
+              "C": "They avoid needing to verify identity",
+              "D": "They can skip compliance steps"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which customer types benefit most from remote engagement features?",
+            "options": {
+              "A": "Only those with bad credit",
+              "B": "Customers unable to visit the dealership in person",
+              "C": "Repeat buyers only",
+              "D": "Service customers"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the first step in requesting a remote prequal or credit app?",
+            "options": {
+              "A": "Search the buyer\u2019s credit score",
+              "B": "Login and select the appropriate tile in the digital showroom",
+              "C": "Scan the customer\u2019s license remotely",
+              "D": "Email a blank PDF form to the customer"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 8,
+      "title": "Digital Showroom & STIPs",
+      "description": "Deal documents, STIPs requests and tracking, document scanning, and digital showroom workflow.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Where do you access deal documents in the Digital Showroom?",
+            "options": {
+              "A": "From the CRM tile",
+              "B": "Under the Other Documents section",
+              "C": "From the Credit Application tile",
+              "D": "In the Notes tab"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What must be confirmed before selecting forms for the deal?",
+            "options": {
+              "A": "Customer\u2019s trade-in value",
+              "B": "Customer\u2019s employment status",
+              "C": "That the Privacy Notice has been completed",
+              "D": "That the vehicle has been detailed"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How are completed forms handled after signing?",
+            "options": {
+              "A": "They are emailed to F&I for approval",
+              "B": "They must be manually uploaded to the DMS",
+              "C": "They are automatically stored in the digital deal jacket",
+              "D": "They print immediately at the sales desk"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "If a customer is off-site, how can they submit required documents?",
+            "options": {
+              "A": "Email them directly to the desk manager",
+              "B": "Upload them via a secure link sent through the Digital Showroom",
+              "C": "Send a fax to the store",
+              "D": "They cannot submit remotely"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When is using a scanner preferred over the mobile app?",
+            "options": {
+              "A": "When there are many pages to scan",
+              "B": "When the customer has no email",
+              "C": "When working outside business hours",
+              "D": "When scanning photos only"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What is the benefit of requesting and managing STIPS digitally?",
+            "options": {
+              "A": "It eliminates the need for ID verification",
+              "B": "It ensures document collection is fast, secure, and stored in one place",
+              "C": "It locks the customer into financing terms",
+              "D": "It lets customers choose their loan amount"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How do you search for a customer in the Informativ Mobile app?",
+            "options": {
+              "A": "Using their VIN number",
+              "B": "By searching the last 4 digits of their SSN",
+              "C": "By typing the first 3 letters of their first or last name",
+              "D": "Using the inventory search"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the 'Request STIPS' function used for?",
+            "options": {
+              "A": "To request a vehicle inspection",
+              "B": "To collect required customer documents like proof of income",
+              "C": "To notify F&I of an upcoming deal",
+              "D": "To initiate trade-in appraisals"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What must be confirmed before clicking 'Send Request' for STIPS?",
+            "options": {
+              "A": "The VIN number of the vehicle",
+              "B": "The sales manager's approval",
+              "C": "The customer's contact information",
+              "D": "The interest rate qualification"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Where can you track the status of a STIPS submission?",
+            "options": {
+              "A": "In the F&I dashboard",
+              "B": "Through your personal email inbox",
+              "C": "In the Digital Showroom STIPS request status section",
+              "D": "On the vehicle detail page"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the main benefit of using digital STIPS collection for both you and the customer?",
+            "options": {
+              "A": "It eliminates the test drive requirement",
+              "B": "It reduces the need for lender contact",
+              "C": "It creates a stress-free, flexible process that keeps deals moving",
+              "D": "It automates pricing negotiations"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What happens to uploaded documents after a customer completes the secure link request?",
+            "options": {
+              "A": "They\u2019re sent to the CRM only",
+              "B": "They\u2019re printed for the file",
+              "C": "They\u2019re stored automatically in the digital deal jacket",
+              "D": "They must be forwarded manually to the lender"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 9,
+      "title": "Final Digital Deal Jacket Review",
+      "description": "Customer detail verification, documentation completeness, and deal jacket audit readiness.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Why is it important to review customer details in the digital deal jacket before finalizing a deal?",
+            "options": {
+              "A": "To update vehicle inventory",
+              "B": "To ensure nothing is missing and everything is accurate",
+              "C": "To calculate commission early",
+              "D": "To remove the customer\u2019s private data"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What benefit does the final review provide the customer?",
+            "options": {
+              "A": "It confirms their warranty options",
+              "B": "It shows them pricing history",
+              "C": "It provides peace of mind that their info is secure and correct",
+              "D": "It prints their final documents"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Where do you begin the process of reviewing a customer's digital deal jacket?",
+            "options": {
+              "A": "Inside the CRM tool",
+              "B": "In the service drive",
+              "C": "At sales.dsgss.com in the Digital Showroom",
+              "D": "In your mobile text thread"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the easiest way to locate a customer in the Digital Showroom?",
+            "options": {
+              "A": "Searching by their city",
+              "B": "Typing the first three letters of their last name",
+              "C": "Looking up their vehicle stock number",
+              "D": "Entering their phone number"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What limitation might you encounter when reviewing documents in the Digital Deal Jacket?",
+            "options": {
+              "A": "You can only review documents from mobile",
+              "B": "You must have manager permission to view document details",
+              "C": "Only buyers, not co-buyers, are visible",
+              "D": "Document previews expire after 24 hours"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    }
+  ]
+}

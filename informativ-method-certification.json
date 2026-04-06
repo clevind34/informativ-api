@@ -1,0 +1,905 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "Informativ Method Certification",
+    "program_id": "informativ_method_cert",
+    "created": "2026-03-16",
+    "organization": "Informativ",
+    "description": "Progressive certification in the Informativ Method — the insight-led selling framework that drives Informativ's go-to-market execution. 12 modules covering rep profiles, commercial insights, stakeholder tailoring, dealer archetypes, constructive tension, process discipline, the six-step teaching pitch, objection reframing, self-assessment, pipeline diagnostics, and the 90-day operating system. Each module includes Prep with Chuck for guided learning before the quiz.",
+    "target_audience": "All sales representatives",
+    "certification_model": "progressive",
+    "recertification_enabled": true,
+    "passing_score": 80,
+    "total_modules": 12
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "What Makes Insight Leaders Different",
+      "week_reference": 1,
+      "theme": "FOUNDATION",
+      "description": "Validates understanding of the five rep profiles, why Insight Leaders outperform in complex deals, and how profile awareness shapes sales strategy.",
+      "key_concepts": ["5 rep profiles", "why Insight Leader wins", "commercial insight definition", "complex deal dynamics"],
+      "prep_focus": "Understand the five rep profiles (Insight Leader, Relationship Builder, Hard Worker, Lone Wolf, Problem Solver), why Insight Leaders win 39% of complex deals vs. 22% for Relationship Builders, and what separates teaching from transactional selling in the automotive dealership context.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "According to research cited in the Informativ Method, what percentage of complex deals do Insight Leaders win compared to Relationship Builders?",
+            "options": {
+              "A": "Insight Leaders win 25% vs. Relationship Builders at 18%",
+              "B": "Insight Leaders win 39% vs. Relationship Builders at 22%",
+              "C": "Insight Leaders win 45% vs. Relationship Builders at 30%",
+              "D": "Both profiles win at roughly equal rates in complex deals"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which rep profile relies on instinct over process and delivers inconsistent results?",
+            "options": {
+              "A": "Relationship Builder",
+              "B": "Hard Worker",
+              "C": "Lone Wolf",
+              "D": "Problem Solver"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What three things does the Insight Leader approach create for enterprise buyers?",
+            "options": {
+              "A": "Permission to lead, differentiation versus cheaper alternatives, and urgency around solvable problems",
+              "B": "Deep personal relationships, product discounts, and long implementation timelines",
+              "C": "Competitive pricing, feature comparisons, and contract flexibility",
+              "D": "Quick demos, trial periods, and referral incentives"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "A rep who executes high activity volume but lacks teaching insights is best described as which profile?",
+            "options": {
+              "A": "Insight Leader",
+              "B": "Lone Wolf",
+              "C": "Hard Worker",
+              "D": "Problem Solver"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why does the Informativ Method say that relationships alone are insufficient for complex deals like the Total Solution?",
+            "options": {
+              "A": "Dealers don't value personal relationships",
+              "B": "Complex deals involve multiple stakeholders with conflicting priorities and competing vendors",
+              "C": "Relationship selling is outdated in all industries",
+              "D": "Informativ's products are too technical for relationship-based selling"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the primary diagnostic exercise for Week 1 of the Informativ Method?",
+            "options": {
+              "A": "Build three commercial insights for your pipeline",
+              "B": "Map all stakeholders in your top deal",
+              "C": "Identify your dominant profile under pressure and examine your three largest pipeline deals for Insight Leader patterns",
+              "D": "Draft a teaching pitch for your biggest opportunity"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "Lead with Commercial Insights",
+      "week_reference": 2,
+      "theme": "TEACH",
+      "description": "Tests ability to construct and deliver commercial insights using the Data → Pain Connection → Solvable Problem structure.",
+      "key_concepts": ["commercial insight definition", "insight structure", "data-to-pain connection", "dealer pain points"],
+      "prep_focus": "Master the Data → Pain Connection → Solvable Problem structure. Learn to build dealer-specific insights (credit pull friction, compliance gaps, misclassification costs) that prove homework, create tension around unknown problems, and position you as a teacher rather than a vendor.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the correct structure of a commercial insight in the Informativ Method?",
+            "options": {
+              "A": "Feature → Benefit → Close",
+              "B": "Data → Pain Connection → Solvable Problem",
+              "C": "Problem → Solution → Pricing",
+              "D": "Need → Demo → Proposal"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following is a properly structured commercial insight?",
+            "options": {
+              "A": "Informativ has the best compliance tools in the market",
+              "B": "Our platform integrates with all major DMS systems",
+              "C": "Dealers without integrated compliance document management see 18% lower F&I attachment rates because they miss cross-sell opportunities and create audit risk",
+              "D": "We can save you money on credit bureau costs"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What three things does a commercial insight accomplish?",
+            "options": {
+              "A": "Builds rapport, creates urgency, closes the deal",
+              "B": "Proves you've done homework, creates tension around an unknown problem, positions you as a teacher",
+              "C": "Demonstrates product features, provides pricing, asks for the sale",
+              "D": "Establishes likability, shows industry experience, offers a discount"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "According to the Informativ Method, what is the hidden annual cost to dealerships from misclassifying loans?",
+            "options": {
+              "A": "$5K-10K in audit fines",
+              "B": "$15K-25K in hidden productivity loss",
+              "C": "$50K-75K in compliance penalties",
+              "D": "$100K+ in lost revenue"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Without commercial insights, what does the Informativ Method say you become?",
+            "options": {
+              "A": "A trusted advisor",
+              "B": "A strategic partner",
+              "C": "Either an order-taker or an aggressive closer",
+              "D": "A product expert"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the difference between an industry statistic and a commercial insight?",
+            "options": {
+              "A": "An industry statistic is more accurate",
+              "B": "A commercial insight changes how the dealer thinks about their own business and creates permission to lead",
+              "C": "There is no real difference — both are equally effective",
+              "D": "Industry statistics work better for large dealer groups"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "Know Your Buyers — Stakeholder Personas",
+      "week_reference": 3,
+      "theme": "TAILOR",
+      "description": "Tests knowledge of the five key dealership stakeholder personas and the ability to tailor messaging to each buyer's priorities.",
+      "key_concepts": ["stakeholder mapping", "buyer personas", "economic buyer", "user buyer", "influencer buyer", "blockers"],
+      "prep_focus": "Map the five dealership stakeholders (Principal, GM, F&I Director, IT/CTO, Controller/CFO), understand what each cares about, learn the diagnostic question 'Who else needs to be comfortable with this change?', and recognize why deals stall when you only sell to one person.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What does the Dealer Principal/Owner care about most when evaluating a vendor like Informativ?",
+            "options": {
+              "A": "Integration complexity and data security",
+              "B": "Competitive positioning, enterprise margin impact, and risk exposure",
+              "C": "F&I attachment rates and lender relationships",
+              "D": "Cost reduction and ROI transparency"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The F&I Director thinks in terms of which primary concern?",
+            "options": {
+              "A": "Does this strengthen or weaken our market position?",
+              "B": "Will this slow down my team or speed us up?",
+              "C": "Does this reduce audit risk and increase deal profitability?",
+              "D": "How much implementation lift and what's our uptime risk?"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the key diagnostic question for identifying all stakeholders in a complex deal?",
+            "options": {
+              "A": "Who signs the contract?",
+              "B": "Who controls the budget?",
+              "C": "Who else needs to be comfortable with this change?",
+              "D": "Who is the most senior person at the dealership?"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "According to the Informativ Method, why do most reps' deals stall in committee?",
+            "options": {
+              "A": "The product doesn't have enough features",
+              "B": "Pricing is too high for the dealership's budget",
+              "C": "The rep undersold to all but one stakeholder and relied on that person to sell internally",
+              "D": "The dealer group requires corporate approval for all technology purchases"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "The IT/CTO stakeholder evaluates Informativ based on which criteria?",
+            "options": {
+              "A": "Compliance liability and product penetration",
+              "B": "Integration complexity, data security, and vendor consolidation",
+              "C": "Deal velocity and staff adoption",
+              "D": "Cost reduction and audit readiness"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does the General Manager think in terms of when evaluating a new platform?",
+            "options": {
+              "A": "Does this strengthen or weaken our market position?",
+              "B": "Does this reduce audit risk and increase deal profitability?",
+              "C": "Will this slow down my team or speed us up?",
+              "D": "Where's the payback and can we justify it to the board?"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Dealer Archetypes and Tailoring",
+      "week_reference": 4,
+      "theme": "TAILOR",
+      "description": "Tests understanding of the five dealer archetypes and how to adapt pitch, deal structure, and success metrics to each business model.",
+      "key_concepts": ["dealer archetypes", "business model alignment", "deal structure variation", "success metrics by type"],
+      "prep_focus": "Learn the five dealer archetypes (franchised, independent, dealer group, large franchise group, eCommerce-first), which Informativ products to lead with for each, and how to adjust deal size, timeline, and success metrics by business model.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Which dealer archetype prioritizes quick ROI proof, operates on slim margins, and needs payback in months?",
+            "options": {
+              "A": "Franchised dealership",
+              "B": "Independent used car dealer",
+              "C": "Dealer group / multi-location",
+              "D": "eCommerce-first dealer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What should you emphasize when selling to a franchised dealership?",
+            "options": {
+              "A": "SmartPencil ROI and 90-day implementation",
+              "B": "API integrations and mobile optimization",
+              "C": "Total Solution's compliance framework and Informativ Compliance module",
+              "D": "Cross-location reporting and consolidated credit pull management"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Dealer groups and multi-location operations buy based on which primary driver?",
+            "options": {
+              "A": "Quick wins and simple solutions",
+              "B": "Standardization, governance frameworks, and cross-location efficiency",
+              "C": "API flexibility and mobile-first design",
+              "D": "Premium support and regulatory compliance"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "For an eCommerce-first dealer, which Informativ product and capability should you highlight?",
+            "options": {
+              "A": "Informativ Compliance module and audit-ready reporting",
+              "B": "Verified STIPs' vendor consolidation",
+              "C": "API integrations and mobile optimization of eZ Form Fill",
+              "D": "Informativ Customer Insights cross-location reporting"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the Insight Leader's common mistake when it comes to dealer archetypes?",
+            "options": {
+              "A": "Using too many data points in the pitch",
+              "B": "Not adjusting deal size and timeline expectations by dealer type",
+              "C": "Spending too much time on discovery",
+              "D": "Over-tailoring the message to each stakeholder"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When selling to an independent used car dealer, what approach does the Informativ Method recommend?",
+            "options": {
+              "A": "Lead with Total Solution's enterprise compliance framework",
+              "B": "Discuss governance frameworks and consolidated architecture",
+              "C": "Lead with SmartPencil ROI and 90-day implementation",
+              "D": "Emphasize API flexibility and digital tool stacking"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 5,
+      "title": "Constructive Tension — Taking Control Part 1",
+      "week_reference": 5,
+      "theme": "CONTROL",
+      "description": "Tests understanding of constructive tension levers and the ability to create clarity and urgency without aggression.",
+      "key_concepts": ["tension creation", "agenda control", "timeline establishment", "decision-maker alignment", "eliminating ambiguity"],
+      "prep_focus": "Master the five constructive tension levers: setting agendas upfront, naming next steps explicitly, pushing back on vague timelines, reframing price conversations with math, and asking for the business directly. Understand why ambiguity kills deals and tension is clarity, not aggression.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "According to the Informativ Method, what is constructive tension?",
+            "options": {
+              "A": "Applying pressure to force a decision",
+              "B": "Clarity plus urgency — naming what's real so you can move forward",
+              "C": "Creating artificial scarcity around your product",
+              "D": "Telling the dealer their current vendor is inferior"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following is an example of naming next steps explicitly?",
+            "options": {
+              "A": "We'll stay in touch and circle back when you're ready",
+              "B": "Let me know if you have any questions",
+              "C": "By Tuesday, you'll connect with your IT team and confirm integration complexity. I'll prep technical requirements and circle back Wednesday at 2pm.",
+              "D": "I'll follow up sometime next week to see where things stand"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How does the Informativ Method recommend reframing a price conversation?",
+            "options": {
+              "A": "Offer a discount to match the competitor",
+              "B": "Compare what the dealer is losing today versus what Informativ costs — show the math",
+              "C": "Explain that quality costs more",
+              "D": "Defer the pricing discussion to a later meeting"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does the Informativ Method say happens to deals without tension?",
+            "options": {
+              "A": "They close eventually on their own",
+              "B": "They drift forever — you either create urgency or lose",
+              "C": "The dealer respects your patience and rewards it",
+              "D": "They stall briefly but recover with a strong demo"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When a dealer says 'We'll revisit in Q2,' what does the Informativ Method say you should do?",
+            "options": {
+              "A": "Accept the timeline and schedule a follow-up in Q2",
+              "B": "Ask 'What would need to happen for you to decide by [date]?' to force them to name the real constraint",
+              "C": "Send a follow-up email with additional case studies",
+              "D": "Escalate to their principal for a faster decision"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the most common mistake reps make around tension?",
+            "options": {
+              "A": "Creating too much urgency",
+              "B": "Being too aggressive with decision timelines",
+              "C": "Avoiding tension because they fear rejection",
+              "D": "Asking for the business too early in the process"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 6,
+      "title": "Process Discipline — Taking Control Part 2",
+      "week_reference": 6,
+      "theme": "CONTROL",
+      "description": "Tests knowledge of the three-phase sales process, red flags for losing control, and how process discipline compounds into pipeline velocity.",
+      "key_concepts": ["sales process structure", "discovery framework", "demo cadence", "proposal timeline", "decision criteria clarity"],
+      "prep_focus": "Learn the three-phase sales process (Discovery → Demo → Proposal), the four Discovery elements, proposal cadence (48hrs → 3-day review → decision date), red flags for lost control, and how structured reps close 20% more deals.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What are the three phases of Informativ's sales process?",
+            "options": {
+              "A": "Prospect → Pitch → Close",
+              "B": "Discovery → Demo → Proposal",
+              "C": "Qualify → Present → Negotiate",
+              "D": "Research → Engage → Contract"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "During Discovery, which four elements should a rep establish?",
+            "options": {
+              "A": "Budget, authority, need, timeline",
+              "B": "Features, benefits, pricing, contract terms",
+              "C": "Objectives, stakeholder mapping, timeline, decision criteria",
+              "D": "Pain points, competitive landscape, product fit, implementation plan"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which of the following is a red flag that you've lost control of a deal?",
+            "options": {
+              "A": "The dealer asks for a second demo for additional stakeholders",
+              "B": "The dealer says 'We'll circle back next month' with no defined timeline",
+              "C": "The dealer requests a formal proposal",
+              "D": "The dealer introduces you to their IT team"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the correct proposal cadence in the Informativ Method?",
+            "options": {
+              "A": "Send proposal immediately after the demo and wait for response",
+              "B": "48 hours to present → 3-day review period → explicit decision date",
+              "C": "One week to customize proposal → two-week review → follow up monthly",
+              "D": "Send proposal before the demo so the dealer can review pricing"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How does the Informativ Method say demos should be conducted?",
+            "options": {
+              "A": "Walk through every feature of the platform comprehensively",
+              "B": "A targeted proof that your solution solves their specific problem — not a feature dump",
+              "C": "Let the dealer drive the demo and explore what interests them",
+              "D": "Focus primarily on pricing and competitive comparisons"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "According to the Informativ Method, reps who propose on a firm timeline with a decision date close how many more deals?",
+            "options": {
+              "A": "10% more deals",
+              "B": "15% more deals",
+              "C": "20% more deals",
+              "D": "30% more deals"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 7,
+      "title": "Teaching Pitch Part 1 — Warmer, Reframe, Rational Drowning",
+      "week_reference": 7,
+      "theme": "TEACH",
+      "description": "Tests mastery of the first three steps of the six-step teaching pitch: opening with credibility, delivering the reframe, and stacking data.",
+      "key_concepts": ["warmer opening", "reframe technique", "rational drowning", "data stacking", "emotional permission"],
+      "prep_focus": "Master the first three steps of the teaching pitch: Warmer (30 sec — dealer agreement and credibility), Reframe (30 sec — the aha moment), and Rational Drowning (2 min — stacking specific data points). Learn the permission check: 'Does that resonate?'",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the purpose of the Warmer in the teaching pitch?",
+            "options": {
+              "A": "To introduce yourself and your company",
+              "B": "To open with dealer agreement and build credibility by meeting them where they are",
+              "C": "To present your product's key features",
+              "D": "To establish pricing expectations early"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does the Reframe accomplish in the teaching pitch?",
+            "options": {
+              "A": "It presents product pricing in a new way",
+              "B": "It delivers the aha moment — making the dealer see the problem differently",
+              "C": "It summarizes the competitive landscape",
+              "D": "It introduces Informativ's product line"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How long should the Rational Drowning section last?",
+            "options": {
+              "A": "30 seconds",
+              "B": "1 minute",
+              "C": "2 minutes",
+              "D": "5 minutes"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the critical step after completing Rational Drowning?",
+            "options": {
+              "A": "Immediately present your product",
+              "B": "Ask for the business",
+              "C": "Check for permission — 'Does that resonate?' — and pivot if they say no",
+              "D": "Move to a product demo"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which of the following is a correctly structured Warmer for an Informativ pitch?",
+            "options": {
+              "A": "Informativ is the leading compliance platform for automotive dealerships",
+              "B": "Every dealer we talk to is wrestling with rising credit bureau costs and tighter F&I margins, and most are solving it the way you probably are",
+              "C": "I'd like to show you how Informativ can save you money",
+              "D": "We have the most comprehensive compliance solution in the market"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the purpose of stacking multiple data points during Rational Drowning?",
+            "options": {
+              "A": "To overwhelm the dealer with information so they feel they need help",
+              "B": "To build unquestionable truth through specific, sourced data tied to their pain",
+              "C": "To demonstrate your industry knowledge and research capability",
+              "D": "To fill time before the product demo"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 8,
+      "title": "Teaching Pitch Part 2 — Emotional Impact, New Way, Your Solution",
+      "week_reference": 8,
+      "theme": "TEACH",
+      "description": "Tests mastery of the final three steps of the six-step teaching pitch: personalizing consequences, painting vision, and positioning Informativ.",
+      "key_concepts": ["emotional connection", "vision statement", "product positioning", "complete pitch structure", "engagement check"],
+      "prep_focus": "Complete the six-step pitch: Emotional Impact (personalize the cost — 'That's someone's college fund'), A New Way (paint vision WITHOUT naming the product), Your Solution (here's your future → here's how we make it real → here's proof). Full pitch takes 8-10 minutes and ends with permission check.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Why is Emotional Impact necessary after you've already presented rational data?",
+            "options": {
+              "A": "Numbers alone don't create behavior change — emotion personalizes the consequence",
+              "B": "It gives you time to prepare the next section of the pitch",
+              "C": "Dealers don't understand data without emotional context",
+              "D": "It's a required step in all sales methodologies"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What is the correct approach for the 'A New Way' section?",
+            "options": {
+              "A": "Name your product and explain its key features",
+              "B": "Compare your solution to the dealer's current vendor",
+              "C": "Paint a vision of the dealer's future WITHOUT naming your product",
+              "D": "Present a case study from a similar dealership"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How long should the complete six-step teaching pitch take?",
+            "options": {
+              "A": "3-5 minutes",
+              "B": "8-10 minutes",
+              "C": "15-20 minutes",
+              "D": "30 minutes"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the correct sequence of the six-step teaching pitch?",
+            "options": {
+              "A": "Warmer → Reframe → Emotional Impact → Rational Drowning → A New Way → Your Solution",
+              "B": "Warmer → Rational Drowning → Reframe → A New Way → Emotional Impact → Your Solution",
+              "C": "Warmer → Reframe → Rational Drowning → Emotional Impact → A New Way → Your Solution",
+              "D": "Reframe → Warmer → Rational Drowning → Your Solution → Emotional Impact → A New Way"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How should the teaching pitch end?",
+            "options": {
+              "A": "With a pricing proposal",
+              "B": "By scheduling a follow-up demo",
+              "C": "With a permission check: 'Does this approach make sense to you?'",
+              "D": "By asking the dealer to sign a letter of intent"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "The 'Your Solution' step should include which three elements?",
+            "options": {
+              "A": "Pricing, contract terms, and implementation timeline",
+              "B": "Here's your future → here's how we make it real → here's proof it works",
+              "C": "Product overview → feature list → competitive comparison",
+              "D": "Demo invitation → trial offer → volume discount"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 9,
+      "title": "Objections as Teaching Opportunities",
+      "week_reference": 9,
+      "theme": "TEACH",
+      "description": "Tests the objection reframing framework and the ability to turn resistance into teaching moments that advance the deal.",
+      "key_concepts": ["objection reframing", "price conversation", "timing leverage", "value proof", "educational responses"],
+      "prep_focus": "Master the Hear → Validate → Reframe → Teach → Next Step framework. Learn to reframe the four common objections: price (show the math), timing (force the real constraint), no-need (teach the gap they don't know), and scope (separate must-have from nice-to-have, start with Protect).",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the Informativ Method's objection handling framework?",
+            "options": {
+              "A": "Acknowledge → Overcome → Close",
+              "B": "Hear → Validate → Reframe → Teach → Next Step",
+              "C": "Listen → Respond → Discount → Ask Again",
+              "D": "Empathize → Explain → Redirect"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When a dealer says 'You're too expensive,' what should you do?",
+            "options": {
+              "A": "Justify the price by listing features",
+              "B": "Offer a discount to match their budget",
+              "C": "Never justify — compare what they're losing today versus what Informativ costs, and show the math",
+              "D": "Explain that your product is premium and worth the investment"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "A dealer says 'Our current process works fine.' According to the Informativ Method, what is the best response approach?",
+            "options": {
+              "A": "Respect their position and move on to the next prospect",
+              "B": "Validate their belief, then teach them about a gap they didn't know they had — like compliance exposure or F&I attachment impact",
+              "C": "Tell them their process is actually broken based on industry data",
+              "D": "Ask to speak with someone else at the dealership who might see it differently"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When a dealer says they can't afford the full solution, how should you reframe the scope objection?",
+            "options": {
+              "A": "Apply a volume discount to make the full solution affordable",
+              "B": "Tell them the full solution is the only option that makes sense",
+              "C": "Separate must-have now from nice-to-have later — start with Protect and upgrade to Enrich in six months",
+              "D": "Suggest they wait until their budget allows the full purchase"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What three things does every objection reframe accomplish?",
+            "options": {
+              "A": "Reduces price sensitivity, extends timeline, maintains rapport",
+              "B": "Proves you're not defensive, creates a teaching moment, moves the deal forward or reveals the real issue",
+              "C": "Demonstrates product knowledge, builds credibility, closes the deal",
+              "D": "Validates the concern, offers alternatives, asks for commitment"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "For a timing objection ('We're not ready yet'), the Informativ Method says you should never accept that. Instead, you should:",
+            "options": {
+              "A": "Respect their timeline and follow up quarterly",
+              "B": "Offer an early-sign discount to create urgency",
+              "C": "Ask 'What would need to happen for you to move forward now?' and 'What do you give up by waiting six months?'",
+              "D": "Send case studies showing how other dealers benefited from acting quickly"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 10,
+      "title": "Your Rep Profile and Gaps — Self-Assessment",
+      "week_reference": 10,
+      "theme": "FOUNDATION",
+      "description": "Tests understanding of profile awareness under pressure, behavioral defaults, and how to build guardrails against regression.",
+      "key_concepts": ["profile awareness", "behavioral strengths", "behavioral gaps", "pressure response", "development planning"],
+      "prep_focus": "Understand your default profile and your pressure profile (what you revert to when behind on quota). Learn guardrails: Relationship Builders need process discipline partners, Lone Wolves need monthly pipeline reviews, Hard Workers need teaching point libraries. Development approach: one behavior, two weeks, measure, repeat.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "According to the Informativ Method, what happens to most reps under pressure or when behind on quota?",
+            "options": {
+              "A": "They perform at a higher level due to urgency",
+              "B": "They revert to a default profile that may not serve them in complex deals",
+              "C": "They become more disciplined and process-oriented",
+              "D": "They ask for more coaching and support"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A rep who naturally leads with Insight Leader behaviors but reverts to avoiding tension when a big deal gets stressful is defaulting to which profile?",
+            "options": {
+              "A": "Hard Worker",
+              "B": "Lone Wolf",
+              "C": "Relationship Builder",
+              "D": "Problem Solver"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "If a rep's natural style is Lone Wolf, what guardrail does the Informativ Method recommend?",
+            "options": {
+              "A": "Build a library of teaching points",
+              "B": "Find a process discipline partner to push back",
+              "C": "Monthly pipeline reviews to ground instinct in structure",
+              "D": "Practice the teaching pitch until it becomes second nature"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the Informativ Method's recommended development approach?",
+            "options": {
+              "A": "Work on all five profiles simultaneously",
+              "B": "Pick one behavior that doesn't come naturally, practice it deliberately for two weeks, measure it, and repeat",
+              "C": "Focus only on closing techniques for the next quarter",
+              "D": "Attend additional product training to strengthen weak areas"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A Hard Worker profile without insight needs which specific guardrail?",
+            "options": {
+              "A": "Monthly pipeline reviews",
+              "B": "A process discipline partner",
+              "C": "A library of teaching points to convert activity into insight-led conversations",
+              "D": "Reduced call volume to focus on quality"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why does the Informativ Method emphasize knowing your pressure profile?",
+            "options": {
+              "A": "So you can avoid stressful deals",
+              "B": "So your manager can assign deals based on your strengths",
+              "C": "Because everyone has a default they fall back to under stress, and awareness lets you build guardrails",
+              "D": "So you can explain to dealers why you sell the way you do"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 11,
+      "title": "Pipeline Through the Informativ Method Lens",
+      "week_reference": 11,
+      "theme": "CONTROL",
+      "description": "Tests ability to diagnose stuck deals using the Teach-Tailor-Control framework and identify the specific intervention needed.",
+      "key_concepts": ["deal diagnostics", "Teach-Tailor-Control framework", "stuck deal analysis", "intervention strategies", "deal health assessment"],
+      "prep_focus": "Learn to diagnose every stuck deal with three questions: What did I teach? Who have I tailored to? What happens next and when? No Teaching = no differentiation (price shopping). No Tailoring = stalled in committee. No Control = indefinite drift. Insight Leaders treat stuck deals as diagnostic opportunities, not lost causes.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "According to the Informativ Method, every stuck deal fails on which dimension?",
+            "options": {
+              "A": "Price, timing, or competition",
+              "B": "Teach, Tailor, or Control",
+              "C": "Discovery, demo, or proposal",
+              "D": "Stakeholder, budget, or need"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A deal where the dealer thinks you're one of three vendors saying the same thing and is shopping on price is missing which element?",
+            "options": {
+              "A": "Tailoring — you haven't connected with enough stakeholders",
+              "B": "Teaching — the deal lacks differentiation because you haven't delivered a unique insight",
+              "C": "Control — you don't have a clear timeline",
+              "D": "All three elements equally"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What are the three diagnostic questions for any stuck deal?",
+            "options": {
+              "A": "What's our price? What's their budget? Who decides?",
+              "B": "What did I teach? Who have I tailored to? What happens next and when?",
+              "C": "What features do they need? What's the competition? When is the contract up?",
+              "D": "Who is the champion? What's their pain? How do we close?"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A deal that stalled in committee because the principal doesn't understand competitive advantage and IT thinks integration is risky is missing which element?",
+            "options": {
+              "A": "Teaching",
+              "B": "Tailoring — key stakeholders don't see relevance to their specific priorities",
+              "C": "Control",
+              "D": "Pricing — the deal needs a discount to move forward"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "If you can't name a specific next step with a date on a deal, what does the Informativ Method say?",
+            "options": {
+              "A": "The deal needs more discovery",
+              "B": "You need to re-demo the product",
+              "C": "You don't have control — set a specific next step immediately",
+              "D": "The deal is likely lost and should be removed from pipeline"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How do Insight Leaders treat stuck deals differently from most reps?",
+            "options": {
+              "A": "They discount to unstick them",
+              "B": "They escalate to management for help",
+              "C": "They treat them as diagnostic opportunities — identify the missing element and fix it",
+              "D": "They move on to new prospects and revisit later"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 12,
+      "title": "90-Day Informativ Method Action Plan — Capstone",
+      "week_reference": 12,
+      "theme": "FOUNDATION",
+      "description": "Tests knowledge of the five toolkit components, the weekly-monthly-quarterly operating rhythm, and the three core metrics that drive pipeline velocity.",
+      "key_concepts": ["toolkit development", "weekly cadence", "monthly rhythm", "quarterly refresh", "measurement framework", "habit building"],
+      "prep_focus": "Build your operating system: five toolkit components (Owned Insights, Stakeholder Templates, Teaching Pitches, Objection Library, Red-Flag List), weekly rhythm (Friday deal review), monthly rhythm (one-on-one coaching on one Teach-Tailor-Control skill), quarterly refresh. Track three metrics: % deals with teaching moment, % with multi-stakeholder tailoring, % with named next step and date.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What are the five components of the Informativ Method Toolkit?",
+            "options": {
+              "A": "CRM setup, call scripts, email templates, proposal templates, pricing sheets",
+              "B": "Owned Insights, Stakeholder Tailor Templates, Teaching Pitches Per Product, Objection Response Library, Red-Flag List",
+              "C": "Pipeline reports, forecast models, competitive analysis, customer stories, ROI calculators",
+              "D": "Product demos, case studies, references, trial plans, implementation guides"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the recommended weekly rhythm in the Informativ Method operating system?",
+            "options": {
+              "A": "Monday pipeline review with manager",
+              "B": "Daily call activity reporting",
+              "C": "Friday deal review: close-won analysis using Teach-Tailor-Control lens, plus stuck-deal diagnostics",
+              "D": "Weekly team meeting to discuss competitive intelligence"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What are the three metrics the Informativ Method says you should track to drive pipeline velocity?",
+            "options": {
+              "A": "Calls made, demos scheduled, proposals sent",
+              "B": "Win rate, average deal size, sales cycle length",
+              "C": "Percentage of deals with documented teaching moments, documented tailor to multiple stakeholders, and named next steps with dates",
+              "D": "Revenue booked, pipeline created, quota attainment"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How many Owned Insights should a rep maintain in their toolkit?",
+            "options": {
+              "A": "1 per product in the portfolio",
+              "B": "2-3, specific to their pipeline and personas, reviewed monthly",
+              "C": "5-10 covering all possible dealer scenarios",
+              "D": "As many as possible to address any situation"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the purpose of the Red-Flag List in the toolkit?",
+            "options": {
+              "A": "To track competitors' weaknesses",
+              "B": "To identify deals that should be disqualified from the pipeline",
+              "C": "To recognize warning signs you've lost control — indefinite timeline, no sponsor, fuzzy committee, three-month pause",
+              "D": "To flag compliance issues in dealer accounts"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "The Informativ Method says this program is not a course you complete — it's:",
+            "options": {
+              "A": "A certification you renew annually",
+              "B": "A philosophy you embrace",
+              "C": "A system you use forever, with weekly-monthly-quarterly rhythms driving permanent behavior change",
+              "D": "A framework that evolves with each product release"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,581 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "Informativ Payments \u2014 Channel Partnership Certification",
+    "program_id": "payments_channel_cert",
+    "created": "2026-03-17",
+    "organization": "Informativ",
+    "description": "6-module certification teaching reps to understand, position, and sell the Informativ Payments channel partnership product. Covers the payments engine, partner value propositions, use cases by platform type, competitive differentiation vs. legacy players, channel pitch execution, and AI discoverability strategy. This certification is specifically about the Informativ Payments API product sold to software partners \u2014 NOT SmartPencil, which is Informativ's dealer-facing desking tool.",
+    "target_audience": "Sales representatives and channel partnership team members",
+    "product": "Informativ Payments",
+    "passing_score": 80,
+    "total_modules": 6,
+    "important_distinction": "Informativ Payments is Informativ's channel partnership API product enabling software partners to embed credit-qualified payments into their platforms. SmartPencil is Informativ's dealer-facing first-pencil desking tool used by desk managers, F&I, and sales teams inside the dealership. Both use Informativ's payment calculation engine, but they serve different buyers (partners vs. dealers), different use cases (API integration vs. in-store deal structuring), and different sales motions (channel/partner sales vs. direct dealer sales).",
+    "total_questions": 46
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "What Is Informativ Payments \u2014 Product Foundation",
+      "description": "Understand what Informativ Payments is, who it's built for, and how it fits within Informativ's broader platform. Establish the critical distinction between Informativ Payments (channel API for software partners) and SmartPencil (dealer-facing desking tool).",
+      "key_concepts": [
+        "Informativ Payments is a channel partnership product \u2014 a REST API that enables software partners to embed real, credit-qualified, VIN-level monthly payments into their platforms",
+        "The buyer is not the dealer \u2014 the buyer is the technology partner (CRM, marketplace, ad tech, AI chat, digital retailing platform). Dealers benefit indirectly through the partner's enhanced platform",
+        "The payments engine calculates real, fundable monthly payments using live lender programs, OEM incentives, regional taxes/fees, and dealer pricing rules \u2014 not estimates",
+        "Informativ Payments extends Informativ's trusted credit and compliance infrastructure into the payments layer of automotive commerce",
+        "SmartPencil is NOT Informativ Payments \u2014 SmartPencil is the dealer-facing first-pencil desking tool used by desk managers, F&I, and sales teams inside the dealership to structure deals",
+        "Both products use Informativ's payment calculation engine, but Informativ Payments is an API for partners while SmartPencil is an in-store tool for dealer employees",
+        "Informativ powers thousands of dealerships and processes millions of credit transactions annually \u2014 this scale and trust is what underpins Payments",
+        "Usage-based pricing (VIN-based) \u2014 partners pay only for VINs they need, no flat rooftop fees, no setup costs, no bloated minimums"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is Informativ Payments?",
+            "options": {
+              "A": "A dealer-facing desking tool for structuring car deals in the showroom",
+              "B": "A REST API that enables software partners to embed real, credit-qualified payments into their platforms",
+              "C": "A credit report provider for automotive dealerships",
+              "D": "A consumer-facing car payment calculator website"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Who is the primary buyer for Informativ Payments?",
+            "options": {
+              "A": "Dealership GMs and desk managers",
+              "B": "Car shoppers looking for payment estimates",
+              "C": "Technology partners \u2014 CRMs, marketplaces, ad tech, AI chat, and digital retailing platforms",
+              "D": "Credit bureaus and lenders"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What is the key distinction between Informativ Payments and SmartPencil?",
+            "options": {
+              "A": "SmartPencil is for new vehicles only; Payments is for used vehicles",
+              "B": "SmartPencil is Informativ's dealer-facing desking tool; Payments is the channel API for software partners",
+              "C": "Payments calculates lease payments; SmartPencil calculates loan payments",
+              "D": "They are the same product with different names"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Informativ Payments returns estimated payments based on generic rate tables.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How is Informativ Payments priced for channel partners?",
+            "options": {
+              "A": "Flat monthly rooftop fee per dealer",
+              "B": "Annual enterprise license with setup costs",
+              "C": "Usage-based pricing \u2014 partners pay only for VINs they need payments for",
+              "D": "Free for partners; dealers pay a per-transaction fee"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What foundation gives Informativ Payments its credibility in the market?",
+            "options": {
+              "A": "Informativ's background in vehicle history reports",
+              "B": "Informativ's trusted credit, compliance, and customer insight infrastructure powering thousands of dealerships",
+              "C": "A partnership with a single large OEM",
+              "D": "Informativ's consumer marketing platform"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does the Informativ Payments API return when a partner sends a VIN and zip code?",
+            "options": {
+              "A": "A credit score and recommended vehicle",
+              "B": "A list of nearby dealerships",
+              "C": "Real, credit-qualified monthly payments for loan and lease scenarios in milliseconds",
+              "D": "An estimated MSRP and invoice price"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Which of the following is TRUE about Informativ Payments vs. SmartPencil?",
+            "options": {
+              "A": "Both are sold directly to dealership employees for in-store use",
+              "B": "Both serve different buyers \u2014 Payments serves software partners; SmartPencil serves dealer desk managers and F&I teams",
+              "C": "SmartPencil is an API product and Payments is a desktop application",
+              "D": "Informativ Payments replaced SmartPencil in 2026"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "The Problem We Solve \u2014 Affordability and the Expectation Gap",
+      "description": "Understand the market problem that makes Informativ Payments urgent: the expectation gap between online estimated payments and in-store reality, and why affordability has become the #1 barrier in automotive commerce.",
+      "key_concepts": [
+        "The average new car is over $50,000. Interest rates are up, loan terms are longer, and affordability is the biggest barrier to closing deals",
+        "Shoppers want to know what they can actually afford before clicking 'contact dealer' \u2014 most platforms are built around price, not payments",
+        "The expectation gap: a customer sees a $600 monthly estimate online and finds out it's $790 in-store \u2014 that gap kills trust, kills deals, and kills the digital journey",
+        "Informativ Payments replaces 'estimated' with 'qualified' \u2014 showing real, fundable payments from actual lender programs, real incentives, and live dealer pricing",
+        "For partners, this is not just a feature \u2014 it's the difference between a platform shoppers trust and one they abandon",
+        "Partners who don't offer real payments leave dealers vulnerable to competitors who do",
+        "Credit-qualified means the payment is calculated based on the consumer's actual credit profile via soft pull \u2014 no impact to the consumer's credit score",
+        "The gap between online and in-store creates re-desks, longer time at the desk, lost deals, and eroded consumer trust"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What is the 'expectation gap' that Informativ Payments solves?",
+            "options": {
+              "A": "The difference between MSRP and invoice price",
+              "B": "The disconnect between estimated online payments and the actual qualified payment a customer faces in-store",
+              "C": "The time between when a customer applies for credit and gets approved",
+              "D": "The gap between new and used vehicle pricing"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why has affordability become the biggest barrier in automotive commerce?",
+            "options": {
+              "A": "Dealers have stopped offering financing",
+              "B": "Vehicle inventory has decreased significantly",
+              "C": "The average new car exceeds $50,000, interest rates are up, and loan terms are longer",
+              "D": "Consumers prefer to pay cash"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What happens when a shopper sees a $600 estimated payment online and learns it's actually $790 in-store?",
+            "options": {
+              "A": "The dealer makes more profit on the deal",
+              "B": "Trust is broken, deals are lost, and the digital journey fails",
+              "C": "The customer is pleasantly surprised",
+              "D": "The lender adjusts the rate automatically"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does 'credit-qualified' mean in the context of Informativ Payments?",
+            "options": {
+              "A": "The payment uses a generic credit score range estimate",
+              "B": "The payment is calculated using the consumer's actual credit profile via soft pull with no impact to their credit score",
+              "C": "The consumer must submit a full credit application",
+              "D": "The payment only works for consumers with excellent credit"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Most dealer websites, CRMs, and digital retail tools today are built around real, fundable payments.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does Informativ Payments replace in the shopping experience?",
+            "options": {
+              "A": "The need for a credit check entirely",
+              "B": "Estimated or generic payment numbers with real, credit-qualified, fundable payments",
+              "C": "The dealer's F&I process",
+              "D": "Vehicle inventory management"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why should a software partner care about the expectation gap?",
+            "options": {
+              "A": "It doesn't affect software partners \u2014 only dealers",
+              "B": "Partners who don't offer real payments leave their dealers vulnerable and risk losing platform trust and engagement",
+              "C": "The expectation gap only matters for luxury vehicles",
+              "D": "Consumers don't notice payment differences"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "Core Value Propositions and Partner Talk Tracks",
+      "description": "Master the 7 core value propositions that differentiate Informativ Payments. Learn how to articulate each prop in a partner-facing conversation.",
+      "key_concepts": [
+        "Value Prop 1 \u2014 Estimated to Qualified: Replace estimated payments that fall apart in-store with real, credit-qualified, transactable payments calculated the way a dealership desks a deal",
+        "Value Prop 2 \u2014 Best Payment, Not Just Penny-Perfect: Legacy systems produce penny-perfect math. Informativ optimizes for the best payment \u2014 blending incentives, lender programs, and dealer margin to produce lower payments for shoppers and higher gross for dealers",
+        "Value Prop 3 \u2014 Built for Software Companies: Cloud-native from day one. Low latency, modern architecture, clean documentation. Not a legacy desking system retrofitted into an API",
+        "Value Prop 4 \u2014 Usage-Based Pricing: Partners pay only for VINs they push payments to. No blanket rooftop fee. More affordable for dealers, more flexible to package inside partner platforms",
+        "Value Prop 5 \u2014 Compliance as a Core Capability: Powered by Informativ's credit, identity, and compliance backbone. Every payment meets lender, OEM, and regulatory requirements. Enterprise-ready safety with no added engineering or legal overhead",
+        "Value Prop 6 \u2014 Payments Everywhere: Plugs into every touchpoint \u2014 lead forms, AI chat, ad platforms, online desking, CRMs, marketplaces. Credit-qualified payments across the entire shopper journey",
+        "Value Prop 7 \u2014 Speed, Freshness, and Reliability: Engine updates incentives, taxes, lender programs, and dealer rules in near real-time. Responds in milliseconds. No stale data, no caching delays, no performance drag",
+        "The Outcome: A modern, API-driven payment experience that builds trust, raises dealer profitability, improves conversion, reduces surprises and re-desks, and differentiates the partner's platform instantly"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What does Value Prop 2 ('More Than Penny-Perfect') mean?",
+            "options": {
+              "A": "Informativ rounds payments to the nearest penny",
+              "B": "Informativ optimizes for the best payment by blending incentives, lender programs, and dealer margin \u2014 aligning lower payments for shoppers with higher gross for dealers",
+              "C": "Informativ calculates payments faster than competitors",
+              "D": "Informativ provides more decimal places in payment calculations"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How is Informativ Payments different from legacy payment providers architecturally?",
+            "options": {
+              "A": "Informativ is a desktop application",
+              "B": "Informativ retrofitted a desking system into an API, similar to competitors",
+              "C": "Informativ Payments is cloud-native from day one \u2014 low latency, modern architecture, clean documentation for product teams",
+              "D": "Informativ uses the same technology stack as OfferLogix"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why is usage-based pricing attractive to partners and their dealers?",
+            "options": {
+              "A": "It costs more but provides better data",
+              "B": "Partners only pay for VINs they need payments for \u2014 no blanket rooftop fees, more affordable for dealers, more flexible for packaging",
+              "C": "It requires a multi-year contract commitment",
+              "D": "Pricing is fixed regardless of volume"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does 'Compliance as a Core Capability' mean for channel partners?",
+            "options": {
+              "A": "Partners must build their own compliance layer",
+              "B": "Every payment meets lender, OEM, and regulatory requirements out of the box \u2014 partners get enterprise-ready safety without added engineering or legal overhead",
+              "C": "Compliance only applies to credit reports, not payments",
+              "D": "Partners need to hire compliance officers to use the API"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which Value Prop addresses the fact that Informativ Payments works across ads, websites, chat, CRM, and digital retailing?",
+            "options": {
+              "A": "Value Prop 2 \u2014 Best Payment",
+              "B": "Value Prop 4 \u2014 Usage-Based Pricing",
+              "C": "Value Prop 6 \u2014 Payments Everywhere",
+              "D": "Value Prop 7 \u2014 Speed and Freshness"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What does 'Speed, Freshness, and Reliability' specifically refer to?",
+            "options": {
+              "A": "The speed of partner onboarding",
+              "B": "The engine updates incentives, taxes, lender programs, and dealer rules in near real-time and responds in milliseconds with no stale data or caching delays",
+              "C": "The frequency of software updates to the API",
+              "D": "The speed of customer credit approvals"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A partner asks: 'How is this different from just showing estimated payments?' Which Value Prop is your best response?",
+            "options": {
+              "A": "Value Prop 4 \u2014 Usage-Based Pricing",
+              "B": "Value Prop 1 \u2014 Estimated to Qualified: real, credit-qualified payments calculated the way a dealership desks a deal, not estimates that fall apart in-store",
+              "C": "Value Prop 7 \u2014 Speed and Freshness",
+              "D": "Value Prop 3 \u2014 Built for Software Companies"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the combined outcome Informativ Payments delivers for a partner's platform?",
+            "options": {
+              "A": "Lower technology costs and fewer API calls",
+              "B": "Builds trust with shoppers, raises dealer profitability, improves conversion, reduces re-desks, and differentiates the partner's platform",
+              "C": "Replaces the partner's existing CRM functionality",
+              "D": "Eliminates the need for dealer inventory management"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Use Cases by Platform Type \u2014 Where Payments Fits",
+      "description": "Learn how to position Informativ Payments for each partner segment: AdTech/MarTech, dealer websites/marketplaces, AI chat, CRM/BDC, desking/digital retailing, and lead gen/equity mining.",
+      "key_concepts": [
+        "AdTech/MarTech/Search: Payment-qualified ads that target shoppers based on affordability. Dynamic ads updating in real time. Higher CTR, lower CPA, better-quality traffic with one API call",
+        "Dealer Websites/Marketplaces: Real shop-by-payment experience. VIN-specific, credit-qualified payments via soft pull boost VDP engagement and lead quality. Shoppers bounce when site payments don't match reality",
+        "AI Chat/Messaging: Solves the 'final mile' problem \u2014 even LLMs like OpenAI and Anthropic break when asked about vehicle monthly payments. Informativ's APIs return fundable payments in-chat via soft pull, turning the chatbot into a transaction-ready experience",
+        "CRM/BDC/Sales Tools: BDC agents and sales teams lead follow-ups with real payment offers instead of generic outreach. CRM texts and emails powered by fundable payments",
+        "Desking/Digital Retailing: Fundable, credit-qualified payments inside workflows reduce re-desks, improve F&I handoff, and protect dealer margins. Online payments match in-store",
+        "Lead Gen/Nurture/CDP/Equity Mining: First-response teams, CDPs, and equity mining platforms embed real payment context into every touchpoint across the customer lifecycle",
+        "Full Funnel Coverage: Marketing \u2192 Lead Gen \u2192 Nurture \u2192 Sales Process \u2192 Deal. Informativ Payments covers the entire automotive commerce funnel",
+        "Each use case has its own pitch template and LinkedIn DM template \u2014 personalize the outreach based on the partner's platform type"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "For an AdTech/MarTech partner, what is the primary value of Informativ Payments?",
+            "options": {
+              "A": "Replacing the partner's ad serving platform",
+              "B": "Payment-qualified ads that drive higher CTR, lower CPA, and better-quality traffic by showing what shoppers can actually afford",
+              "C": "Providing vehicle inventory data for ad targeting",
+              "D": "Managing the partner's advertising budget"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why do shoppers bounce from dealer websites and marketplaces that show estimated payments?",
+            "options": {
+              "A": "The websites load too slowly",
+              "B": "Site payments don't match what shoppers actually qualify for, breaking trust and engagement",
+              "C": "Shoppers prefer to call the dealership directly",
+              "D": "Estimated payments are always higher than qualified payments"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the 'final mile' problem in AI chat that Informativ Payments solves?",
+            "options": {
+              "A": "AI chatbots can't schedule service appointments",
+              "B": "AI assistants \u2014 including major LLMs \u2014 cannot answer the #1 consumer question: 'What's my real payment?' Informativ's API returns fundable payments in-chat",
+              "C": "Chat platforms can't display vehicle images",
+              "D": "AI chatbots can't process trade-in values"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How does Informativ Payments help CRM/BDC teams?",
+            "options": {
+              "A": "It replaces the CRM system entirely",
+              "B": "BDC agents and sales teams can lead follow-ups with real, fundable payment offers instead of generic outreach",
+              "C": "It automates all customer communications",
+              "D": "It provides a new phone system for BDC"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the benefit of Informativ Payments in the desking/digital retailing segment?",
+            "options": {
+              "A": "It replaces the dealer's DMS",
+              "B": "Fundable, credit-qualified payments inside workflows reduce re-desks, improve F&I handoff, and protect dealer margins",
+              "C": "It eliminates the need for F&I managers",
+              "D": "It provides compliance documentation only"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Informativ Payments only works in the lead generation stage of the funnel.",
+            "options": {
+              "A": "True",
+              "B": "False \u2014 it covers the entire funnel from Marketing to Lead Gen to Nurture to Sales Process to Deal"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A marketplace partner says their listings already show monthly payments. What's your response?",
+            "options": {
+              "A": "That's great \u2014 you don't need Informativ Payments",
+              "B": "Are those estimated payments or real, credit-qualified payments? Shoppers bounce when the numbers don't match what they actually qualify for. Informativ returns VIN-specific, credit-qualified payments via soft pull",
+              "C": "You should remove your current payments and use only ours",
+              "D": "Estimated payments are just as effective as qualified payments"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which segment did Informativ identify as having an especially acute 'final mile' problem?",
+            "options": {
+              "A": "DMS providers",
+              "B": "AI Chat and Messaging platforms \u2014 where even major LLMs cannot answer vehicle payment questions",
+              "C": "Print advertising",
+              "D": "Vehicle auction platforms"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 5,
+      "title": "Competitive Positioning \u2014 Legacy Players and Differentiation",
+      "description": "Understand how Informativ Payments competes against legacy payment providers (OfferLogix, MarketScan) and how to position Informativ's technical and economic advantages in partner conversations.",
+      "key_concepts": [
+        "Legacy players: OfferLogix and MarketScan were solid for their time but are expensive, slow, and disconnected from real credit workflows",
+        "OfferLogix/MarketScan were built on older stacks \u2014 retrofitted desking systems pushed into APIs. Informativ Payments is cloud-native from day one",
+        "Informativ is modern, faster, more accurate, and far more cost-effective than legacy payment engines",
+        "Key differentiator: Informativ Payments is built on real credit and compliance infrastructure, not retrofitted old desking systems",
+        "Technical advantages: REST APIs, millisecond response times, real-time lender/incentive updates, no stale data, easy integration (days not weeks)",
+        "Economic advantage: Usage-based VIN pricing vs. expensive flat fees. No setup costs. No bloated minimums. More affordable for dealers, more flexible for partners",
+        "Compliance advantage: Every payment meets lender, OEM, and regulatory requirements \u2014 powered by the same backbone used by thousands of dealers",
+        "The NADA 30-second talk track: Historically payments meant OfferLogix or MarketScan. Informativ already powers credit and compliance for the industry, and now brings that same accuracy into payments \u2014 modern, faster, more accurate, and far more cost-effective"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Who are the legacy payment competitors in the automotive space?",
+            "options": {
+              "A": "Stripe and Square",
+              "B": "OfferLogix and MarketScan",
+              "C": "700Credit and NCC",
+              "D": "AutoFi and Upstart"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the primary architectural weakness of legacy payment providers?",
+            "options": {
+              "A": "They don't support lease calculations",
+              "B": "They were built on older stacks \u2014 retrofitted desking systems pushed into APIs \u2014 making them slow, expensive, and disconnected from real credit workflows",
+              "C": "They only work with one lender",
+              "D": "They don't have any dealer customers"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "How does Informativ's pricing model compare to legacy providers?",
+            "options": {
+              "A": "Informativ is more expensive but higher quality",
+              "B": "Both use the same flat rooftop fee model",
+              "C": "Informativ uses usage-based VIN pricing with no setup costs or bloated minimums \u2014 more affordable and more flexible than legacy flat fees",
+              "D": "Informativ charges per credit pull; legacy charges per payment"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What gives Informativ a compliance advantage over legacy payment providers?",
+            "options": {
+              "A": "Informativ has more lawyers on staff",
+              "B": "Every payment is built on Informativ's credit, identity, and compliance backbone already used by thousands of dealers \u2014 compliance is core, not bolted on",
+              "C": "Legacy providers don't offer any compliance features",
+              "D": "Informativ requires partners to handle their own compliance"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A partner says they're currently using OfferLogix. What's your opening positioning?",
+            "options": {
+              "A": "OfferLogix is terrible and you should switch immediately",
+              "B": "OfferLogix was solid for its time, but it was built on an older stack. Informativ Payments is cloud-native, modern, faster, more accurate, and far more cost-effective \u2014 with usage-based pricing and real credit infrastructure behind it",
+              "C": "We can't compete with OfferLogix on pricing",
+              "D": "OfferLogix and Informativ Payments are essentially the same product"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Most partners can integrate Informativ Payments in days, not weeks.",
+            "options": {
+              "A": "True \u2014 REST APIs, modern architecture, and clean documentation enable fast integration",
+              "B": "False \u2014 integration typically takes 3-6 months"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "What is the NADA 30-second competitive positioning statement?",
+            "options": {
+              "A": "Informativ Payments is cheaper than everyone else",
+              "B": "Historically payments meant OfferLogix or MarketScan \u2014 solid for their time but expensive, slow, and disconnected from real credit workflows. Informativ brings its trusted credit and compliance accuracy into payments \u2014 modern, faster, more accurate, and far more cost-effective",
+              "C": "We don't have any competitors in the payments space",
+              "D": "Informativ Payments only works with Informativ's existing dealer customers"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 6,
+      "title": "Channel Pitch Execution and AI Discoverability Strategy",
+      "description": "Learn how to execute channel partner pitches by platform type, leverage LinkedIn DM templates, and position the AI discoverability / GEO strategy as a forward-looking differentiator for partners.",
+      "key_concepts": [
+        "Each platform type (AdTech, Websites/Marketplaces, AI/Chat, Desking/DR) has a specific pitch template \u2014 personalize it to the partner's platform name and current capabilities",
+        "LinkedIn DM templates: Short, use-case-specific messages that open doors. Lead with the partner's pain point, not Informativ's features",
+        "NADA talk tracks: 15-second intro, 30-second competitive positioning, 1-minute full pitch. Practice all three",
+        "AI Discoverability (GEO/AEO) strategy: Car buyers are shifting from Google to AI assistants (ChatGPT, Perplexity, Google AI Mode). Dealers without structured, machine-readable payment data won't be cited by AI agents",
+        "Market signals: 25% drop in traditional search by 2026 (Gartner), 4.4x higher conversion from AI search (SEMRush), 93% zero-click rate in Google AI Mode, 50% of searches via AI assistants by 2028",
+        "Structured payment data passes the AI citation test: specific, verifiable, locally-grounded, and fresh. Generic content fails all four tests",
+        "The AI discoverability flywheel compounds \u2014 platforms that establish structured payment data early build citation dominance that late entrants cannot replicate",
+        "For every platform type, Informativ Payments creates AI-discoverable dealer content: payment-enriched VDPs, geo-targeted pages, credit-tier guides, and incentive explainers",
+        "CTA for all outreach: informativ.com/ub/payments-api/"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "When pitching a website/marketplace partner via LinkedIn DM, what should you lead with?",
+            "options": {
+              "A": "Informativ's company history and size",
+              "B": "The partner's pain point \u2014 shoppers bounce when site payments don't match what they qualify for",
+              "C": "Informativ's pricing and contract terms",
+              "D": "A list of all Informativ's products"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does GEO (Generative Engine Optimization) mean for automotive platforms?",
+            "options": {
+              "A": "Optimizing for geographic search results on Google Maps",
+              "B": "A new SEO technique focused on keyword density",
+              "C": "Earning citations inside AI-generated answers \u2014 the currency is no longer a click but a citation in an AI response",
+              "D": "A social media marketing strategy"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "According to Gartner, what percentage of searches will involve an AI assistant by 2028?",
+            "options": {
+              "A": "10%",
+              "B": "25%",
+              "C": "50%",
+              "D": "75%"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why does structured payment data pass the AI citation test while generic content fails?",
+            "options": {
+              "A": "AI only reads payment data and ignores other content",
+              "B": "Structured payment data is specific, verifiable, locally-grounded, and fresh \u2014 all four attributes AI agents prioritize for citations",
+              "C": "Payment data is always ranked higher by Google's algorithm",
+              "D": "Generic content is blocked by AI search engines"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the AI discoverability 'flywheel effect'?",
+            "options": {
+              "A": "AI search costs decrease over time",
+              "B": "Platforms that establish structured payment data early build citation dominance that compounds and cannot be easily replicated by late entrants",
+              "C": "AI agents rotate between different data sources each month",
+              "D": "All platforms receive equal AI citation authority regardless of timing"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A partner asks: 'Why should I care about AI search? My dealers rank well on Google.' What's your response?",
+            "options": {
+              "A": "You're right \u2014 Google rankings are all that matter",
+              "B": "Gartner predicts a 25% drop in traditional search by 2026. Buyers are shifting to AI assistants. The 93% zero-click rate in Google AI Mode means even Google is becoming AI-first. Dealers without structured payment data won't be cited",
+              "C": "AI search doesn't affect the automotive industry",
+              "D": "You should stop investing in SEO entirely"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When delivering the NADA 15-second intro, what should you always mention?",
+            "options": {
+              "A": "SmartPencil and all four package tiers",
+              "B": "That Informativ is a tech software company providing credit and compliance for over 5,000 dealerships, and you're introducing the new payments product",
+              "C": "Informativ's stock price and revenue figures",
+              "D": "The names of all legacy competitors"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    }
+  ]
+}

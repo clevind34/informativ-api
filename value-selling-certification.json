@@ -1,0 +1,605 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "Informativ Value Selling Certification",
+    "program_id": "value_selling_cert",
+    "created": "2026-03-16",
+    "organization": "Informativ",
+    "description": "6-module certification on value-based selling methodology aligned to Informativ's E3 sales philosophy (Empathize, Educate, Empower) and Simon-Kucher monetization recommendations. Teaches reps to sell outcomes, not features.",
+    "target_audience": "Sales representatives",
+    "product": "Informativ Platform (All Products)",
+    "passing_score": 80,
+    "total_modules": 6
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "The Value Mindset \u2014 Selling Outcomes, Not Features",
+      "description": "Foundation of value selling: the E3 philosophy (Empathize, Educate, Empower), three primary value drivers (Make More, Save More, Stay Safe), and shifting from feature-based to outcome-based selling.",
+      "key_concepts": [
+        "E3 Sales Philosophy: Empathize with challenges, Educate on market/solutions, Empower confident decisions",
+        "Three Value Drivers: Make More, Save More, Stay Safe",
+        "Value selling = selling outcomes aligned to dealer concerns",
+        "Four dealer concerns: Compliance Risk, Fraud Exposure, Sales Inefficiency, Credit Costs",
+        "Feature-based selling loses to value-based selling in competitive deals"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What does E3 stand for in Informativ's sales philosophy?",
+            "options": {
+              "A": "Engage, Execute, Expand",
+              "B": "Empathize, Educate, Empower",
+              "C": "Evaluate, Estimate, Enrich",
+              "D": "Explore, Explain, Elevate"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What are Informativ's three primary value drivers?",
+            "options": {
+              "A": "Speed, Price, Features",
+              "B": "Make More, Save More, Stay Safe",
+              "C": "Compliance, Credit, Fraud",
+              "D": "Sell More, Spend Less, Win Deals"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Value selling means:",
+            "options": {
+              "A": "Offering the lowest price",
+              "B": "Selling outcomes aligned to the dealer's concerns, not listing features",
+              "C": "Giving away free trials",
+              "D": "Focusing only on product specifications"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which of the following is NOT one of the four key dealer concerns Informativ addresses?",
+            "options": {
+              "A": "Compliance Risk",
+              "B": "Fraud Exposure",
+              "C": "Employee Retention",
+              "D": "Credit Costs"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "A rep walks into a dealer and immediately starts listing SmartPencil features. What is wrong with this approach?",
+            "options": {
+              "A": "Nothing \u2014 features sell products",
+              "B": "The rep should be selling outcomes connected to the dealer's specific pain, not listing features",
+              "C": "SmartPencil should never be mentioned first",
+              "D": "The rep should focus on pricing instead"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does 'Empower' mean in the E3 framework?",
+            "options": {
+              "A": "Give the dealer a discount",
+              "B": "Help them make a confident, defensible decision",
+              "C": "Let them decide without input",
+              "D": "Push for an immediate close"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which value driver addresses protecting the dealership from regulatory, legal, and reputational risk?",
+            "options": {
+              "A": "Make More",
+              "B": "Save More",
+              "C": "Stay Safe",
+              "D": "Sell More"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "True or False: Value selling requires understanding the dealer's pain before recommending a solution.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "Persona-Based Discovery & Tier Mapping",
+      "description": "Using the Persona Discovery Guide to match discovered pain to the right package tier. Covers discovery by buyer role (GM, F&I, Desk, Compliance Officer), the Compliance Risk & Opportunity Audit, and tier alignment methodology.",
+      "key_concepts": [
+        "Discovery determines tier alignment \u2014 not the rep's preference or pricing pressure",
+        "Three diagnostic questions: What risks? What inefficiency? What's the cost of doing nothing?",
+        "Persona-based discovery by role: GM, F&I Director, Desk Manager, Compliance Officer",
+        "Compliance Risk & Opportunity Audit creates urgency",
+        "Document findings in Salesforce",
+        "Pain \u2192 Tier Alignment \u2192 ROI \u2192 Quote Confidence"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What determines which tier is right for a customer?",
+            "options": {
+              "A": "The rep's quota needs",
+              "B": "Discovery \u2014 matching discovered pain to the right package",
+              "C": "Whatever the customer asks for",
+              "D": "Always recommend Control"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What are the three key diagnostic questions during discovery?",
+            "options": {
+              "A": "Budget, timeline, decision-maker",
+              "B": "What risks are they carrying? What inefficiency slows them? What's the cost of doing nothing?",
+              "C": "How many vehicles, how many stores, what's the budget?",
+              "D": "Who's the competitor, what's the price, when can we close?"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A GM is focused on deal velocity and staff adoption. Which concern should a rep lead with?",
+            "options": {
+              "A": "Compliance risk",
+              "B": "Will this slow down my team or speed us up?",
+              "C": "Credit costs",
+              "D": "Fraud exposure"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What tool creates urgency by surfacing compliance gaps?",
+            "options": {
+              "A": "ROI Calculator",
+              "B": "Battle Card",
+              "C": "Compliance Risk & Opportunity Audit",
+              "D": "Quote Confidence Checklist"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "An F&I Director's primary concern is:",
+            "options": {
+              "A": "Competitive positioning",
+              "B": "Compliance liability, product penetration, and lender relationships",
+              "C": "Staff training",
+              "D": "Website design"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Reps should document discovery findings in Salesforce before recommending a tier.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "The correct value selling sequence is:",
+            "options": {
+              "A": "Quote \u2192 Discovery \u2192 Demo \u2192 Close",
+              "B": "Discovered pain \u2192 Tier alignment \u2192 ROI \u2192 Quote confidence",
+              "C": "Demo \u2192 Quote \u2192 Negotiate \u2192 Close",
+              "D": "Cold call \u2192 Send pricing \u2192 Follow up"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer says 'Just give me your best price.' How should a value-selling rep respond?",
+            "options": {
+              "A": "Immediately provide the lowest price",
+              "B": "Redirect to discovery \u2014 understand their pain first to recommend the right solution and anchor on value",
+              "C": "Walk away from the deal",
+              "D": "Match the competitor's price"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "Feature-Advantage-Benefit Framework",
+      "description": "Translating Informativ's features into advantages and quantified business benefits. Covers the FAB framework for all major platform capabilities and how to use it in sales conversations.",
+      "key_concepts": [
+        "Feature = what it does. Advantage = why it matters. Benefit = quantified business impact.",
+        "TotalSolution Platform: unified platform \u2192 fewer vendors/logins \u2192 saves time and money",
+        "Compliance Automation: automated workflows \u2192 no manual tracking \u2192 reduces legal risk",
+        "Mobile DL Scanning: scan from any device \u2192 faster intake \u2192 reduces fraud risk",
+        "Website Credit App: plug-and-play soft pull \u2192 instant prequalification \u2192 increases lead quality",
+        "Real-Time Deal Alerts: centralized dashboard \u2192 live oversight \u2192 prevents deal delays",
+        "Always lead with the benefit, then explain the feature that delivers it"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "In the Feature-Advantage-Benefit framework, what is the correct order?",
+            "options": {
+              "A": "Benefit \u2192 Feature \u2192 Advantage",
+              "B": "Feature \u2192 Advantage \u2192 Benefit",
+              "C": "Advantage \u2192 Feature \u2192 Benefit",
+              "D": "Feature \u2192 Benefit \u2192 Advantage"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the BENEFIT of Informativ's unified TotalSolution Platform?",
+            "options": {
+              "A": "It has a nice user interface",
+              "B": "It saves time and money while improving operational efficiency across F&I, Sales, and Compliance teams",
+              "C": "It pulls credit reports",
+              "D": "It replaces the CRM"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The advantage of automated compliance workflows (Compliance (Dealer Safeguard)) is:",
+            "options": {
+              "A": "It looks good on a demo",
+              "B": "Ensures regulatory alignment without manual tracking",
+              "C": "It's cheaper than competitors",
+              "D": "It eliminates the need for a compliance officer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When presenting to a dealer, a value seller should lead with:",
+            "options": {
+              "A": "A list of features",
+              "B": "The benefit \u2014 quantified business impact \u2014 then explain which feature delivers it",
+              "C": "Pricing",
+              "D": "A product demo"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The benefit of mobile driver's license scanning is:",
+            "options": {
+              "A": "Faster data entry",
+              "B": "Reduces fraud risk and enhances customer satisfaction during the initial interaction",
+              "C": "It scans barcodes",
+              "D": "It replaces the desktop scanner"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the benefit of website credit application integration?",
+            "options": {
+              "A": "It looks modern",
+              "B": "Increases lead quality and showroom traffic with pre-qualified buyers",
+              "C": "It replaces the dealership website",
+              "D": "It generates credit scores"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Features alone close deals in competitive selling environments.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer asks 'What does the Real-Time Deal Alerts dashboard do?' A value seller responds with:",
+            "options": {
+              "A": "It shows a dashboard with alerts",
+              "B": "It prevents deal delays and enhances accountability \u2014 managers get live oversight of all open deals so nothing falls through the cracks",
+              "C": "It sends emails",
+              "D": "It's included in Control"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Proof Points & ROI Framework",
+      "description": "Using the ROI Calculator, battle card statistics, and quantified business impact in live sales conversations and proposals. Covers fraud savings, compliance risk reduction, operational efficiency, and revenue impact metrics.",
+      "key_concepts": [
+        "Anchor every recommendation to quantified business impact",
+        "Four ROI categories: Fraud savings, Compliance risk reduction, Operational efficiency, Revenue impact",
+        "Fraud savings: documented per-incident cost avoidance",
+        "Compliance risk: FTC enforcement exposure and lender liability",
+        "Operational efficiency: time savings per deal, reduced manual steps",
+        "Revenue impact: improved look-to-book, higher PVR, better lead conversion",
+        "Use ROI Calculator in proposals to make value tangible"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What are the four categories of ROI that reps should quantify?",
+            "options": {
+              "A": "Speed, Cost, Quality, Features",
+              "B": "Fraud savings, Compliance risk reduction, Operational efficiency, Revenue impact",
+              "C": "Headcount, Software, Hardware, Training",
+              "D": "Price, Discount, Terms, Volume"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "When should the ROI Calculator be used?",
+            "options": {
+              "A": "Only after the contract is signed",
+              "B": "In live sales conversations and proposals to make value tangible",
+              "C": "Only if the customer asks about pricing",
+              "D": "Never \u2014 it's an internal tool"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Compliance risk reduction ROI focuses on:",
+            "options": {
+              "A": "Saving time on paperwork",
+              "B": "FTC enforcement exposure and lender liability avoidance",
+              "C": "Credit report costs",
+              "D": "Employee training costs"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does 'improved look-to-book' measure?",
+            "options": {
+              "A": "Number of website visits",
+              "B": "The ratio of customers who visit vs. those who buy \u2014 a revenue impact metric",
+              "C": "Book inventory count",
+              "D": "Number of credit pulls"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer asks 'Why should I pay more for Elevate when Protect seems fine?' The best response uses:",
+            "options": {
+              "A": "A discount to close the deal",
+              "B": "Quantified ROI \u2014 time savings per deal, reduced compliance violations, faster funding",
+              "C": "Competitor comparison",
+              "D": "A longer contract term"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Every recommendation to a dealer should be anchored to quantified business impact.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Operational efficiency ROI is measured by:",
+            "options": {
+              "A": "Number of logins per day",
+              "B": "Time savings per deal and reduced manual steps",
+              "C": "Number of software features",
+              "D": "Employee satisfaction scores"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What makes a battle card statistic effective in a sales conversation?",
+            "options": {
+              "A": "It's a big number",
+              "B": "It connects a data point to a specific dealer pain and quantifies the cost of inaction",
+              "C": "It's about the competitor",
+              "D": "It's printed on a card"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 5,
+      "title": "Objection Handling by Package & Sales Stage",
+      "description": "Handling objections organized by tier (Protect, Enrich, Elevate, Control), sales stage (Discovery, Demo, Proposal, Negotiation, Close), and objection type (Price, Competitor, Status Quo, Timing). Pre-emptive objection blocking through expertise and value anchoring.",
+      "key_concepts": [
+        "Objections are organized by: Tier, Sales stage, and Objection type",
+        "Four objection types: Price, Competitor, Status Quo, Timing",
+        "Pre-emptive blocking: establish expertise and anchor value BEFORE resistance surfaces",
+        "Price objections: redirect to value and cost of inaction",
+        "Competitor objections: differentiate on platform integration and compliance depth",
+        "Status quo objections: quantify the cost of doing nothing",
+        "Timing objections: create urgency through regulatory risk and competitive pressure"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "What are the four types of objections reps should prepare for?",
+            "options": {
+              "A": "Budget, Authority, Need, Timeline",
+              "B": "Price, Competitor, Status Quo, Timing",
+              "C": "Features, Benefits, Cost, Terms",
+              "D": "Legal, Technical, Financial, Operational"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The best way to handle price objections is to:",
+            "options": {
+              "A": "Offer a discount immediately",
+              "B": "Redirect to value \u2014 quantify what the dealer loses by not solving the problem",
+              "C": "Ignore the objection",
+              "D": "Match competitor pricing"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Pre-emptive objection blocking means:",
+            "options": {
+              "A": "Refusing to answer questions",
+              "B": "Establishing expertise and anchoring value before resistance surfaces",
+              "C": "Avoiding objection-prone topics",
+              "D": "Letting the customer bring up all concerns first"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer says 'We're fine with our current setup.' This is a:",
+            "options": {
+              "A": "Price objection",
+              "B": "Competitor objection",
+              "C": "Status quo objection",
+              "D": "Timing objection"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "How should a rep handle a status quo objection?",
+            "options": {
+              "A": "Accept it and move on",
+              "B": "Quantify the cost of doing nothing \u2014 what is their current fraud exposure, compliance risk, or operational waste?",
+              "C": "Offer a free trial",
+              "D": "Lower the price"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer says 'We're looking at 700Credit too.' This is a:",
+            "options": {
+              "A": "Price objection",
+              "B": "Competitor objection",
+              "C": "Status quo objection",
+              "D": "Timing objection"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The strongest approach to competitor objections is:",
+            "options": {
+              "A": "Trash the competitor",
+              "B": "Differentiate on platform integration, compliance depth, and total solution value",
+              "C": "Match their pricing",
+              "D": "Ignore it"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: Objection handling is most effective when value has been established early in the sales process.",
+            "options": {
+              "A": "True",
+              "B": "False"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "A dealer says 'Can we revisit this next quarter?' How should a rep create urgency?",
+            "options": {
+              "A": "Say 'Sure, call me when you're ready'",
+              "B": "Quantify regulatory risk exposure and competitive pressure \u2014 what does three more months of non-compliance cost?",
+              "C": "Offer a time-limited discount",
+              "D": "Send more product information"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 6,
+      "title": "Quote Confidence & Deal Execution",
+      "description": "The Quote Confidence Checklist, ensuring discovery confirms the right tier, documenting value in Salesforce, accurate CPQ, CS handoff preparation, and executing the complete value selling process from prospect to close.",
+      "key_concepts": [
+        "Quote Confidence Checklist: 5 verification areas before finalizing",
+        "Discovery confirms the right tier (Protect, Enrich, Elevate, or Control)",
+        "Value documented in Salesforce with discovered pain and ROI",
+        "Objections handled with logic and evidence",
+        "CPQ accuracy verified",
+        "CS handoff prepped with implementation details",
+        "Six-stage sales process: Prospect \u2192 Discovery \u2192 Demo \u2192 Proposal \u2192 Negotiation \u2192 Close"
+      ],
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Before finalizing a deal, what must a rep verify using the Quote Confidence Checklist?",
+            "options": {
+              "A": "Only that the price is competitive",
+              "B": "Discovery confirms the right tier, value is documented, objections handled, CPQ accurate, CS handoff prepped",
+              "C": "That the customer signed the contract",
+              "D": "Only that the discount was approved"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Where should discovered pain and ROI be documented?",
+            "options": {
+              "A": "On a sticky note",
+              "B": "In Salesforce",
+              "C": "In an email to the customer",
+              "D": "Nowhere \u2014 keep it verbal"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What does CPQ stand for in the context of deal execution?",
+            "options": {
+              "A": "Customer Purchase Quality",
+              "B": "Configure, Price, Quote",
+              "C": "Credit Pull Query",
+              "D": "Compliance Process Queue"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why is the CS handoff important to prep before closing?",
+            "options": {
+              "A": "It's not important",
+              "B": "It ensures a smooth implementation and protects the customer relationship \u2014 the sale doesn't end at signature",
+              "C": "It generates more commission",
+              "D": "It's required by legal"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "If discovery reveals the customer is a good fit for Elevate but the rep quotes Protect to make the deal easier, what's the risk?",
+            "options": {
+              "A": "No risk \u2014 Protect is always safe",
+              "B": "Margin erosion, customer underserved, likely churn when pain isn't solved, and missed revenue",
+              "C": "The customer will be impressed by the savings",
+              "D": "The manager won't notice"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "True or False: A rep should always lead with the lowest tier to avoid sticker shock.",
+            "options": {
+              "A": "True",
+              "B": "False \u2014 lead with the tier that matches discovered pain and let value justify the price"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the purpose of documenting value in Salesforce before quoting?",
+            "options": {
+              "A": "To satisfy management reporting requirements",
+              "B": "To create a defensible record connecting discovered pain to the recommended tier and ROI",
+              "C": "To avoid using the Quote Confidence Checklist",
+              "D": "To generate automated emails"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The six-stage value selling process in order is:",
+            "options": {
+              "A": "Demo \u2192 Discovery \u2192 Quote \u2192 Close \u2192 Implement \u2192 Review",
+              "B": "Prospect \u2192 Discovery \u2192 Demo \u2192 Proposal \u2192 Negotiation \u2192 Close",
+              "C": "Cold Call \u2192 Email \u2192 Meeting \u2192 Quote \u2192 Discount \u2192 Close",
+              "D": "Research \u2192 Call \u2192 Present \u2192 Negotiate \u2192 Sign \u2192 Forget"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    }
+  ]
+}
