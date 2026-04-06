@@ -10,6 +10,7 @@ const ALLOWED_ORIGINS = [
   'https://informativsalesdash.netlify.app',
   'https://informativ-elt-kpi.netlify.app',
   'https://informativ-api.netlify.app',
+  'https://informativ-sales-api.netlify.app',
 ];
 
 function isAllowedOrigin(origin) {
