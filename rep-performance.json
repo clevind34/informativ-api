@@ -2,7 +2,7 @@
   "metadata": {
     "generated_at": "2026-03-25T17:24:33.741525",
     "source": "/sessions/optimistic-relaxed-einstein/mnt/Claude Sales Forecast Tool/Sales_Rep_Dashboard.html",
-    "rep_count": 18
+    "rep_count": 16
   },
   "company": {
     "annual_quota": 37375000,
@@ -98,8 +98,7 @@
         "Matt Hanaman",
         "Tami Richter",
         "Carol Sanford",
-        "Tom Meredith",
-        "Loren Rivera"
+        "Clarence Romero"
       ]
     },
     "Trish Smith": {
@@ -303,86 +302,6 @@
         "totalPipeline": 6338728.03
       }
     },
-    "Tom Meredith": {
-      "team": "Bordenet",
-      "manager": "Teresa Bordenet",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 85566,
-        "ytd_attainment_pct": 18.2,
-        "pipeline_value": 1472678,
-        "deal_count": 24,
-        "avg_deal_size": 94853
-      },
-      "activity": {
-        "sf_meetings": 16,
-        "tech_demos": 8
-      },
-      "hygiene": {
-        "score": 50,
-        "totalDeals": 24,
-        "flagged": 12,
-        "stuck": 12,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "50% of deals aged beyond stage threshold."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 48573.8,
-        "ninetyDayForecast": 58929.99,
-        "deals": 24,
-        "totalPipeline": 2276483.0
-      }
-    },
-    "Loren Rivera": {
-      "team": "Bordenet",
-      "manager": "Teresa Bordenet",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 19786,
-        "closed_won_ytd": 240412,
-        "ytd_attainment_pct": 51.1,
-        "pipeline_value": 4041448,
-        "deal_count": 40,
-        "avg_deal_size": 107748
-      },
-      "activity": {
-        "sf_meetings": 23,
-        "tech_demos": 8
-      },
-      "hygiene": {
-        "score": 52,
-        "totalDeals": 40,
-        "flagged": 19,
-        "stuck": 19,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "48% of deals aged beyond stage threshold."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 199163.55,
-        "ninetyDayForecast": 204663.27,
-        "deals": 40,
-        "totalPipeline": 4309938.8
-      }
-    },
     "Joel Carlucci": {
       "team": "Carlucci",
       "manager": "Michael Byrd",
@@ -425,10 +344,10 @@
       "role": "manager",
       "direct_reports": [
         "Ashton Gough",
-        "David Castone",
         "William Fowler",
         "Ward Carroll",
-        "Brock Hutchinson"
+        "Brock Hutchinson",
+        "Great Lakes East (Open)"
       ],
       "team_performance": {
         "team_closed_won_ytd": 369904,
@@ -613,46 +532,6 @@
         "ninetyDayForecast": 71078.35,
         "deals": 30,
         "totalPipeline": 2520279.88
-      }
-    },
-    "David Castone": {
-      "team": "Carlucci",
-      "manager": "Joel Carlucci",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 422915
-      },
-      "performance": {
-        "closed_won_mtd": 3756,
-        "closed_won_ytd": 59889,
-        "ytd_attainment_pct": 14.2,
-        "pipeline_value": 5053348,
-        "deal_count": 46,
-        "avg_deal_size": 101186
-      },
-      "activity": {
-        "sf_meetings": 19,
-        "tech_demos": 7
-      },
-      "hygiene": {
-        "score": 61,
-        "totalDeals": 46,
-        "flagged": 18,
-        "stuck": 10,
-        "lowMissing": 8,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "22% of deals aged beyond stage threshold. 8 deals with low or missing amounts."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 102370.27,
-        "ninetyDayForecast": 108285.0,
-        "deals": 46,
-        "totalPipeline": 4654556.63
       }
     },
     "William Fowler": {
@@ -1139,6 +1018,87 @@
         "issues": []
       },
       "pipeline": []
+    },
+    "Clarence Romero": {
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_overlay": false,
+      "is_channel_partner": false,
+      "quota": {
+        "annual": 2300000,
+        "march": 184571,
+        "q1": 470556
+      },
+      "performance": {
+        "closed_won_mtd": 0,
+        "closed_won_ytd": 0,
+        "ytd_attainment_pct": 0.0,
+        "pipeline_value": 0,
+        "deal_count": 0,
+        "avg_deal_size": 0
+      },
+      "activity": {
+        "sf_meetings": 0,
+        "tech_demos": 0
+      },
+      "hygiene": {
+        "score": 100,
+        "totalDeals": 0,
+        "flagged": 0,
+        "stuck": 0,
+        "lowMissing": 0,
+        "overdue": 0,
+        "critical": 0,
+        "topIssue": "No pipeline data yet."
+      },
+      "flagged_deals": [],
+      "forecast": {
+        "monthlyForecast": 0,
+        "ninetyDayForecast": 0,
+        "deals": 0,
+        "totalPipeline": 0
+      }
+    },
+    "Great Lakes East (Open)": {
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_overlay": false,
+      "is_channel_partner": false,
+      "is_hidden": true,
+      "quota": {
+        "annual": 2300000,
+        "march": 184571,
+        "q1": 470556
+      },
+      "performance": {
+        "closed_won_mtd": 0,
+        "closed_won_ytd": 0,
+        "ytd_attainment_pct": 0.0,
+        "pipeline_value": 0,
+        "deal_count": 0,
+        "avg_deal_size": 0
+      },
+      "activity": {
+        "sf_meetings": 0,
+        "tech_demos": 0
+      },
+      "hygiene": {
+        "score": 100,
+        "totalDeals": 0,
+        "flagged": 0,
+        "stuck": 0,
+        "lowMissing": 0,
+        "overdue": 0,
+        "critical": 0,
+        "topIssue": "Open territory \u2014 searching for new rep."
+      },
+      "flagged_deals": [],
+      "forecast": {
+        "monthlyForecast": 0,
+        "ninetyDayForecast": 0,
+        "deals": 0,
+        "totalPipeline": 0
+      }
     }
   }
 }
