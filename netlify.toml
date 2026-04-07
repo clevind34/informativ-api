@@ -73,6 +73,11 @@
   to = "/.netlify/functions/cs-contacts"
   status = 200
 
+[[redirects]]
+  from = "/api/cs/routes"
+  to = "/.netlify/functions/cs-routes"
+  status = 200
+
 # Analytics / Tracking
 [[redirects]]
   from = "/api/analytics/pie-usage"
