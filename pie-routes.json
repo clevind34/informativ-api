@@ -46,53 +46,7 @@
     },
     "Tami Richter": {
       "monday": [],
-      "tuesday": [
-        {
-          "id": "c50fe0b5609ed472",
-          "co": "Peter Boulware Toyota",
-          "cn": "Becky Brinson",
-          "ph": "(850) 558-2300",
-          "em": "bbrinson@legacytoy.com",
-          "city": "Tallahassee",
-          "st": "FL",
-          "addr": "",
-          "lat": null,
-          "lng": null,
-          "checkedIn": false,
-          "checkInTime": null,
-          "checkOutTime": null
-        },
-        {
-          "id": "9de5fb1f11cee240",
-          "co": "South Dade Toyota of Homestead",
-          "cn": "Boris Lopez",
-          "ph": "tel:(305) 248-6330",
-          "em": "blopez@southdatetoyota.com",
-          "city": "Homestead",
-          "st": "FL",
-          "addr": "",
-          "lat": null,
-          "lng": null,
-          "checkedIn": false,
-          "checkInTime": null,
-          "checkOutTime": null
-        },
-        {
-          "id": "bbee444efc7d6dc2",
-          "co": "Warren Henry Automobiles",
-          "cn": "Andrew Kipnis",
-          "ph": "(855) 678-4869",
-          "em": "akipnis@warrenhenryauto.com",
-          "city": "Miami",
-          "st": "FL",
-          "addr": "",
-          "lat": null,
-          "lng": null,
-          "checkedIn": false,
-          "checkInTime": null,
-          "checkOutTime": null
-        }
-      ],
+      "tuesday": [],
       "wednesday": [],
       "thursday": [],
       "friday": []
@@ -100,5 +54,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T18:48:33.183Z"
+  "last_modified": "2026-04-07T18:48:35.734Z"
 }
