@@ -81,6 +81,17 @@
           "st": "FL",
           "type": "net_new",
           "added_at": "2026-04-07T18:48:57.561Z"
+        },
+        {
+          "id": "c28af5efe8366a1e",
+          "co": "Bartow Ford Company",
+          "cn": "Ian Whiteside",
+          "ph": "(813) 875-6068",
+          "em": "ian.whiteside@bartowford.com",
+          "city": "Bartow",
+          "st": "FL",
+          "type": "net_new",
+          "added_at": "2026-04-07T18:49:06.262Z"
         }
       ],
       "thursday": [],
@@ -89,5 +100,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T18:49:03.019Z"
+  "last_modified": "2026-04-07T18:49:06.439Z"
 }
