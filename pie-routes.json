@@ -27,6 +27,17 @@
           "st": "CA",
           "type": "net_new",
           "added_at": "2026-04-07T17:00:44.728Z"
+        },
+        {
+          "id": "be9c06634b2c73c6",
+          "co": "Nissan Of Redlands",
+          "cn": "Jorge Barrera",
+          "ph": "(281) 817-2116",
+          "em": "jorge@riversidenissan.com",
+          "city": "Redlands",
+          "st": "CA",
+          "type": "net_new",
+          "added_at": "2026-04-07T17:01:50.608Z"
         }
       ],
       "wednesday": [],
@@ -36,5 +47,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T17:00:46.325Z"
+  "last_modified": "2026-04-07T17:01:50.865Z"
 }
