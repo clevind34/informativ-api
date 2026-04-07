@@ -1,6 +1,11 @@
 {
   "prospects": {},
   "group_associations": {
+    "104152": {
+      "group": "ra",
+      "set_by": "Carol Sanford",
+      "set_at": "2026-04-07T18:09:43.482Z"
+    },
     "104567": {
       "group": "Sheehy Auto Group",
       "set_by": "David Castone",
@@ -14,5 +19,5 @@
   },
   "additional_contacts": {},
   "schema_version": "1.0",
-  "last_modified": "2026-04-07T17:45:28.043Z"
+  "last_modified": "2026-04-07T18:09:43.482Z"
 }
