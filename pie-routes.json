@@ -18,17 +18,6 @@
       "monday": [],
       "tuesday": [
         {
-          "id": "386ffd956b6efbad",
-          "co": "Covina Kia",
-          "cn": "Mark Amri",
-          "ph": "(909) 373-0773",
-          "em": "markamri@gmail.com",
-          "city": "Covina",
-          "st": "CA",
-          "type": "net_new",
-          "added_at": "2026-04-07T17:00:44.728Z"
-        },
-        {
           "id": "be9c06634b2c73c6",
           "co": "Nissan Of Redlands",
           "cn": "Jorge Barrera",
@@ -38,6 +27,17 @@
           "st": "CA",
           "type": "net_new",
           "added_at": "2026-04-07T17:01:50.608Z"
+        },
+        {
+          "id": "386ffd956b6efbad",
+          "co": "Covina Kia",
+          "cn": "Mark Amri",
+          "ph": "(909) 373-0773",
+          "em": "markamri@gmail.com",
+          "city": "Covina",
+          "st": "CA",
+          "type": "net_new",
+          "added_at": "2026-04-07T17:00:44.728Z"
         }
       ],
       "wednesday": [],
@@ -47,5 +47,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T17:01:50.865Z"
+  "last_modified": "2026-04-07T17:02:19.944Z"
 }
