@@ -9,30 +9,7 @@
     },
     "Brock Hutchinson": {
       "monday": [],
-      "tuesday": [
-        {
-          "id": "217e69ef9999abf8",
-          "co": "Vaughn Motors Inc",
-          "cn": "Mattie Reed",
-          "ph": "3183466367",
-          "em": "marketing@vaughnvalue.com",
-          "city": "",
-          "st": "LA",
-          "type": "net_new",
-          "added_at": "2026-04-07T17:00:24.213Z"
-        },
-        {
-          "id": "e9eb39f8364abdfe",
-          "co": "Orr Kia of Shreveport",
-          "cn": "Joshua Knight",
-          "ph": "(318) 798-7350",
-          "em": "jrknight76@gmail.com",
-          "city": "",
-          "st": "LA",
-          "type": "net_new",
-          "added_at": "2026-04-07T17:00:30.478Z"
-        }
-      ],
+      "tuesday": [],
       "wednesday": [],
       "thursday": [],
       "friday": []
@@ -59,5 +36,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T17:00:45.652Z"
+  "last_modified": "2026-04-07T17:00:46.325Z"
 }
