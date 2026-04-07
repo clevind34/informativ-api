@@ -1,0 +1,22 @@
+{
+  "routes": {
+    "Test Rep": {
+      "monday": [
+        {
+          "id": "test1",
+          "co": "Dealership A",
+          "city": "Tampa",
+          "st": "FL",
+          "added_at": "2026-04-07T16:33:20.467Z"
+        }
+      ],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [],
+      "friday": []
+    }
+  },
+  "schema_version": "1.0",
+  "created_at": "2026-04-07T16:33:20.467Z",
+  "last_modified": "2026-04-07T16:33:20.467Z"
+}
