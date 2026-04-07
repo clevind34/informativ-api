@@ -62,6 +62,22 @@
           "checkInTime": null,
           "checkOutTime": null,
           "added_at": "2026-04-07T18:47:33.231Z"
+        },
+        {
+          "id": "9de5fb1f11cee240",
+          "co": "South Dade Toyota of Homestead",
+          "cn": "Boris Lopez",
+          "ph": "tel:(305) 248-6330",
+          "em": "blopez@southdatetoyota.com",
+          "city": "Homestead",
+          "st": "FL",
+          "addr": "",
+          "lat": null,
+          "lng": null,
+          "checkedIn": false,
+          "checkInTime": null,
+          "checkOutTime": null,
+          "added_at": "2026-04-07T18:47:36.194Z"
         }
       ],
       "wednesday": [],
@@ -71,5 +87,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T18:47:33.231Z"
+  "last_modified": "2026-04-07T18:47:36.194Z"
 }
