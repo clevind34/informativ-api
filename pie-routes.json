@@ -46,30 +46,7 @@
     },
     "Tami Richter": {
       "monday": [],
-      "tuesday": [
-        {
-          "id": "6062480ac3765f9e",
-          "co": "AutoNation Inc.",
-          "cn": "Gianluca Camplone",
-          "ph": "(312) 216-7442",
-          "em": "camploneg@autonation.com",
-          "city": "Fort Lauderdale",
-          "st": "FL",
-          "type": "net_new",
-          "added_at": "2026-04-07T18:48:52.013Z"
-        },
-        {
-          "id": "7ba08d0b73ba5c67",
-          "co": "Critz Inc",
-          "cn": "Dale Critz",
-          "ph": "912-220-8234",
-          "em": "clement.critz@critz.com",
-          "city": "Savannah",
-          "st": "GA",
-          "type": "net_new",
-          "added_at": "2026-04-07T18:49:02.856Z"
-        }
-      ],
+      "tuesday": [],
       "wednesday": [
         {
           "id": "190bac3c1db34bf7",
@@ -100,5 +77,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T18:49:06.439Z"
+  "last_modified": "2026-04-07T18:49:58.192Z"
 }
