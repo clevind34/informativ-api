@@ -11,17 +11,6 @@
       "monday": [],
       "tuesday": [
         {
-          "id": "217e69ef9999abf8",
-          "co": "Vaughn Motors Inc",
-          "cn": "Mattie Reed",
-          "ph": "3183466367",
-          "em": "marketing@vaughnvalue.com",
-          "city": "",
-          "st": "LA",
-          "type": "net_new",
-          "added_at": "2026-04-07T17:00:24.213Z"
-        },
-        {
           "id": "e9eb39f8364abdfe",
           "co": "Orr Kia of Shreveport",
           "cn": "Joshua Knight",
@@ -31,6 +20,17 @@
           "st": "LA",
           "type": "net_new",
           "added_at": "2026-04-07T17:00:30.478Z"
+        },
+        {
+          "id": "217e69ef9999abf8",
+          "co": "Vaughn Motors Inc",
+          "cn": "Mattie Reed",
+          "ph": "3183466367",
+          "em": "marketing@vaughnvalue.com",
+          "city": "",
+          "st": "LA",
+          "type": "net_new",
+          "added_at": "2026-04-07T17:00:24.213Z"
         }
       ],
       "wednesday": [],
@@ -40,5 +40,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T17:00:30.690Z"
+  "last_modified": "2026-04-07T17:00:35.953Z"
 }
