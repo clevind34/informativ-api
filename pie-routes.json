@@ -59,12 +59,24 @@
           "added_at": "2026-04-07T18:48:52.013Z"
         }
       ],
-      "wednesday": [],
+      "wednesday": [
+        {
+          "id": "190bac3c1db34bf7",
+          "co": "Bozard Lincoln",
+          "cn": "Jeff King",
+          "ph": "(904) 687-5400",
+          "em": "jking@bozardford.com",
+          "city": "Saint Augustine",
+          "st": "FL",
+          "type": "net_new",
+          "added_at": "2026-04-07T18:48:57.561Z"
+        }
+      ],
       "thursday": [],
       "friday": []
     }
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T18:48:52.317Z"
+  "last_modified": "2026-04-07T18:48:57.833Z"
 }
