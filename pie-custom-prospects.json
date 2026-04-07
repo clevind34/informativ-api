@@ -1,6 +1,11 @@
 {
   "prospects": {},
   "group_associations": {
+    "104567": {
+      "group": "Sheehy Auto Group",
+      "set_by": "David Castone",
+      "set_at": "2026-04-07T17:45:28.043Z"
+    },
     "104576": {
       "group": "Sheehy Auto Group",
       "set_by": "David Castone",
@@ -9,5 +14,5 @@
   },
   "additional_contacts": {},
   "schema_version": "1.0",
-  "last_modified": "2026-04-07T17:45:00.418Z"
+  "last_modified": "2026-04-07T17:45:28.043Z"
 }
