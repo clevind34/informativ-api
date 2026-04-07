@@ -1,22 +1,7 @@
 {
   "routes": {
     "Test Rep": {
-      "monday": [
-        {
-          "id": "test2",
-          "co": "Dealership B",
-          "city": "Orlando",
-          "st": "FL",
-          "added_at": "2026-04-07T16:33:21.305Z"
-        },
-        {
-          "id": "test1",
-          "co": "Dealership A",
-          "city": "Tampa",
-          "st": "FL",
-          "added_at": "2026-04-07T16:33:20.467Z"
-        }
-      ],
+      "monday": [],
       "tuesday": [],
       "wednesday": [],
       "thursday": [],
@@ -25,5 +10,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T16:33:22.033Z"
+  "last_modified": "2026-04-07T16:33:22.973Z"
 }
