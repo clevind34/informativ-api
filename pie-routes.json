@@ -47,35 +47,12 @@
     "Tami Richter": {
       "monday": [],
       "tuesday": [],
-      "wednesday": [
-        {
-          "id": "190bac3c1db34bf7",
-          "co": "Bozard Lincoln",
-          "cn": "Jeff King",
-          "ph": "(904) 687-5400",
-          "em": "jking@bozardford.com",
-          "city": "Saint Augustine",
-          "st": "FL",
-          "type": "net_new",
-          "added_at": "2026-04-07T18:48:57.561Z"
-        },
-        {
-          "id": "c28af5efe8366a1e",
-          "co": "Bartow Ford Company",
-          "cn": "Ian Whiteside",
-          "ph": "(813) 875-6068",
-          "em": "ian.whiteside@bartowford.com",
-          "city": "Bartow",
-          "st": "FL",
-          "type": "net_new",
-          "added_at": "2026-04-07T18:49:06.262Z"
-        }
-      ],
+      "wednesday": [],
       "thursday": [],
       "friday": []
     }
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T18:49:58.192Z"
+  "last_modified": "2026-04-07T18:49:59.695Z"
 }
