@@ -8,6 +8,13 @@
           "city": "Tampa",
           "st": "FL",
           "added_at": "2026-04-07T16:33:20.467Z"
+        },
+        {
+          "id": "test2",
+          "co": "Dealership B",
+          "city": "Orlando",
+          "st": "FL",
+          "added_at": "2026-04-07T16:33:21.305Z"
         }
       ],
       "tuesday": [],
@@ -18,5 +25,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T16:33:20.467Z"
+  "last_modified": "2026-04-07T16:33:21.305Z"
 }
