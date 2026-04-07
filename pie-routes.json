@@ -43,9 +43,33 @@
       "wednesday": [],
       "thursday": [],
       "friday": []
+    },
+    "Tami Richter": {
+      "monday": [],
+      "tuesday": [
+        {
+          "id": "c50fe0b5609ed472",
+          "co": "Peter Boulware Toyota",
+          "cn": "Becky Brinson",
+          "ph": "(850) 558-2300",
+          "em": "bbrinson@legacytoy.com",
+          "city": "Tallahassee",
+          "st": "FL",
+          "addr": "",
+          "lat": null,
+          "lng": null,
+          "checkedIn": false,
+          "checkInTime": null,
+          "checkOutTime": null,
+          "added_at": "2026-04-07T18:47:33.231Z"
+        }
+      ],
+      "wednesday": [],
+      "thursday": [],
+      "friday": []
     }
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-07T17:02:19.944Z"
+  "last_modified": "2026-04-07T18:47:33.231Z"
 }
