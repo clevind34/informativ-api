@@ -1,0 +1,480 @@
+{
+  "certifications": {
+    "Michael Byrd": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-16",
+          "certification_type": "product_certification"
+        },
+        {
+          "product": "Value Selling",
+          "certified_date": "2026-03-16",
+          "certification_type": "product_certification"
+        },
+        {
+          "product": "Informativ Platform (All Tiers)",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "tier_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Trish Smith": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-04-08",
+          "certification_type": "product_certification",
+          "program_id": "smartpencil_cert"
+        },
+        {
+          "product": "Total Solutions (Sales)",
+          "certified_date": "2026-04-08",
+          "certification_type": "product_certification",
+          "program_id": "total_solutions_sales_cert"
+        },
+        {
+          "product": "Total Solutions (Manager)",
+          "certified_date": "2026-04-08",
+          "certification_type": "product_certification",
+          "program_id": "total_solutions_manager_cert"
+        },
+        {
+          "product": "Informativ Platform (All Tiers)",
+          "certified_date": "2026-04-08",
+          "certification_type": "quiz_completion",
+          "program_id": "tier_cert"
+        },
+        {
+          "product": "Value Selling",
+          "certified_date": "2026-04-08",
+          "certification_type": "product_certification",
+          "program_id": "value_selling_cert"
+        },
+        {
+          "product": "Informativ Method",
+          "certified_date": "2026-04-08",
+          "certification_type": "product_certification",
+          "program_id": "informativ_method_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Informativ Payments"
+      ]
+    },
+    "Matt Hanaman": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-01",
+          "certification_type": "product_launch"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Kiristen Sandoval": {
+      "certified_products": [],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "SmartPencil",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Tami Richter": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-30",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Carol Sanford": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-30",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Tom Meredith": {
+      "certified_products": [],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "SmartPencil",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Loren Rivera": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Joel Carlucci": {
+      "certified_products": [
+        {
+          "product": "Informativ Platform (All Tiers)",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "tier_cert"
+        },
+        {
+          "product": "Informativ Platform (All Products)",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "value_selling_cert"
+        },
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-19",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Ashton Gough": {
+      "certified_products": [
+        {
+          "product": "Informativ Platform (All Products)",
+          "certified_date": "2026-03-16",
+          "certification_type": "quiz_completion",
+          "program_id": "value_selling_cert"
+        },
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-20",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "David Castone": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        },
+        {
+          "product": "Informativ Platform (All Products)",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "value_selling_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "William Fowler": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        },
+        {
+          "product": "Informativ Platform (All Products)",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "value_selling_cert"
+        },
+        {
+          "product": "Total Solutions Platform",
+          "certified_date": "2026-03-18",
+          "certification_type": "quiz_completion",
+          "program_id": "total_solutions_sales_cert"
+        },
+        {
+          "product": "Informativ Payments",
+          "certified_date": "2026-03-18",
+          "certification_type": "quiz_completion",
+          "program_id": "payments_channel_cert"
+        },
+        {
+          "product": "Informativ Platform (All Tiers)",
+          "certified_date": "2026-03-18",
+          "certification_type": "quiz_completion",
+          "program_id": "tier_cert"
+        },
+        {
+          "product": "Informativ Method (Selling Methodology)",
+          "certified_date": "2026-03-18",
+          "certification_type": "quiz_completion",
+          "program_id": "informativ_method_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Verified STIPs"
+      ]
+    },
+    "Ward Carroll": {
+      "certified_products": [],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "SmartPencil",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Brock Hutchinson": {
+      "certified_products": [
+        {
+          "product": "Informativ Platform (All Products)",
+          "certified_date": "2026-03-18",
+          "certification_type": "quiz_completion",
+          "program_id": "value_selling_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "SmartPencil",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Crly Alvarado": {
+      "certified_products": [
+        {
+          "product": "Informativ Platform (All Products)",
+          "certified_date": "2026-03-21",
+          "certification_type": "quiz_completion",
+          "program_id": "value_selling_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "SmartPencil",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Tim Canley": {
+      "certified_products": [
+        {
+          "product": "Informativ Payments",
+          "certified_date": "2026-03-18",
+          "certification_type": "quiz_completion",
+          "program_id": "payments_channel_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "SmartPencil",
+        "Verified STIPs"
+      ]
+    },
+    "Nick Moyes": {
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-18",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        },
+        {
+          "product": "Total Solutions Platform",
+          "certified_date": "2026-03-20",
+          "certification_type": "quiz_completion",
+          "program_id": "total_solutions_sales_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    },
+    "Curtis Knievel": {
+      "certified_products": [
+        {
+          "product": "Informativ Payments",
+          "certified_date": "2026-03-17",
+          "certification_type": "quiz_completion",
+          "program_id": "payments_channel_cert"
+        },
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-03-30",
+          "certification_type": "quiz_completion",
+          "program_id": "smartpencil_cert"
+        }
+      ],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "Verified STIPs"
+      ]
+    },
+    "Carson Byrd": {
+      "certified_products": [],
+      "uncertified_products": [
+        "Credit",
+        "Compliance",
+        "Customer Insights",
+        "SmartPencil",
+        "Informativ Payments",
+        "Verified STIPs"
+      ]
+    }
+  },
+  "product_catalog": [
+    "Credit",
+    "Compliance",
+    "Customer Insights",
+    "SmartPencil",
+    "Informativ Payments",
+    "Verified STIPs"
+  ],
+  "last_updated": "2026-03-21",
+  "certification_programs": {
+    "smartpencil_cert": {
+      "name": "SmartPencil Product Certification",
+      "file": "smartpencil-certification.json",
+      "modules": 6,
+      "total_questions": 145,
+      "passing_score": 80,
+      "product": "SmartPencil",
+      "audience": "Sales representatives and customer success managers"
+    },
+    "total_solutions_sales_cert": {
+      "name": "Informativ Total Solutions \u2014 Sales Product Fluency",
+      "file": "total-solutions-sales-certification.json",
+      "modules": 9,
+      "total_questions": 83,
+      "product": "Total Solutions Platform",
+      "passing_score": 80,
+      "audience": "Sales representatives"
+    },
+    "total_solutions_manager_cert": {
+      "name": "Informativ Total Solutions \u2014 Manager Product Fluency",
+      "file": "total-solutions-manager-certification.json",
+      "modules": 8,
+      "total_questions": 71,
+      "product": "Total Solutions Platform",
+      "passing_score": 80,
+      "audience": "Sales representatives selling to dealership managers"
+    },
+    "tier_cert": {
+      "name": "Informativ Tier Certification \u2014 Protect | Enrich | Elevate | Control",
+      "file": "tier-certification.json",
+      "modules": 4,
+      "total_questions": 42,
+      "product": "Informativ Platform (All Tiers)",
+      "passing_score": 80,
+      "audience": "Sales representatives"
+    },
+    "value_selling_cert": {
+      "name": "Informativ Value Selling Certification",
+      "file": "value-selling-certification.json",
+      "modules": 6,
+      "total_questions": 49,
+      "product": "Informativ Platform (All Products)",
+      "passing_score": 80,
+      "audience": "Sales representatives"
+    },
+    "informativ_method_cert": {
+      "name": "Informativ Method Certification",
+      "file": "informativ-method-certification.json",
+      "modules": 12,
+      "total_questions": 72,
+      "product": "Informativ Method (Selling Methodology)",
+      "passing_score": 80,
+      "audience": "All sales representatives",
+      "certification_model": "progressive",
+      "recertification_enabled": true
+    },
+    "payments_channel_cert": {
+      "name": "Informativ Payments \u2014 Channel Partnership Certification",
+      "file": "payments-channel-certification.json",
+      "modules": 6,
+      "total_questions": 46,
+      "product": "Informativ Payments",
+      "passing_score": 80,
+      "audience": "Sales representatives and channel partnership team members"
+    }
+  }
+}
