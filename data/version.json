@@ -1,1 +1,1 @@
-{"version":"1.0.0","last_rebuild":"2026-04-08T12:00:00Z","source":"manual_seed","endpoints":["rep-performance","sales-kpi","coaching-intelligence","trajectory","product-certifications"]}
+{"version":"1.0.0","last_rebuild":"2026-04-08T20:04:25.976669+00:00","source":"publish_to_gateway.py","endpoints":["coaching-intelligence","product-certifications","rep-performance","sales-kpi","trajectory","training-progress","calibration","coaching-effectiveness","selling-gm","prospecting-effectiveness","pie-prospects"],"file_count":10}

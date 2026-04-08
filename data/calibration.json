@@ -1,1 +1,1 @@
-{}
+{"metrics_trend":[],"latest_snapshot":{"snapshot_date":"2026-04-08","n_deals":407,"n_ml":407,"n_static":0,"avg_prob":0.08164619164619162,"total_weighted":2800717.770000001,"total_pipeline":52252366.43999996},"recalibration_status":{"should_recalibrate":true,"reason":"quarterly_trigger","details":{"quarter":"Q2 2026"}},"model_versions":[],"outcome_stats":{"total_matched":1,"won":1,"lost":0,"avg_days_gap":0.0},"generated_at":"2026-04-08T09:29:31.790311"}
