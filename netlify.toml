@@ -30,7 +30,13 @@
     "data/coaching-intelligence.json",
     "data/trajectory.json",
     "data/product-certifications.json",
-    "data/version.json"
+    "data/version.json",
+    "data/training-progress.json",
+    "data/calibration.json",
+    "data/coaching-effectiveness.json",
+    "data/selling-gm.json",
+    "data/prospecting-effectiveness.json",
+    "data/pie-prospects.json"
   ]
 
 # === Route Rewrites ===
@@ -150,6 +156,36 @@
 [[redirects]]
   from = "/api/data/version"
   to = "/.netlify/functions/data-version"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/training-progress"
+  to = "/.netlify/functions/data-training-progress"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/calibration"
+  to = "/.netlify/functions/data-calibration"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/coaching-effectiveness"
+  to = "/.netlify/functions/data-coaching-effectiveness"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/selling-gm"
+  to = "/.netlify/functions/data-selling-gm"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/prospecting-effectiveness"
+  to = "/.netlify/functions/data-prospecting-effectiveness"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/pie-prospects"
+  to = "/.netlify/functions/data-pie-prospects"
   status = 200
 
 # Training / Certifications
