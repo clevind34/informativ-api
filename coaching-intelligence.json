@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-08T13:29:29Z",
+  "generated_at": "2026-04-08T13:39:14Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -7,18 +7,18 @@
       "team": "Bordenet",
       "manager": "Michael Byrd",
       "isHidden": true,
-      "composite_score": 22,
-      "composite_trend": "-2",
+      "composite_score": 19,
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 64,
-        "funnel_conversion": 48
+        "pipeline_creation": 55,
+        "funnel_conversion": 41
       },
       "coaching_archetype": "conversion_problem",
-      "archetype_pattern": "conversion_problem (3 of 6 reps)",
+      "archetype_pattern": "conversion_problem (3 of 7 reps)",
       "weakest_rep": {
-        "name": "Loren Rivera",
+        "name": "Clarence Romero",
         "composite_score": 0,
         "coaching_archetype": "activity_problem",
         "attainment_pct": 0.0
@@ -26,14 +26,14 @@
       "key_metrics": {
         "team_cw_ytd": 4183744,
         "team_cw_mtd": 0,
-        "team_q1_quota": 3863574,
+        "team_q1_quota": 4346520,
         "team_attainment_pct": 0.0,
         "team_pipeline_value": 27360366,
         "team_pipeline_opps": 205,
-        "team_weighted_coverage": 0.32,
+        "team_weighted_coverage": 0.29,
         "team_funnel_meetings": 192,
         "team_deals_per_meeting": 1.07,
-        "direct_report_count": 6
+        "direct_report_count": 7
       },
       "personal_cw": {
         "cwYTD": 0,
@@ -44,14 +44,27 @@
         "score": 32,
         "flagged_deals": 140,
         "stuck_deals": 123,
-        "top_issue": "Team has 140 flagged deals across 6 reps."
+        "top_issue": "Team has 140 flagged deals across 7 reps."
       },
       "forecast": {
         "team_monthly_forecast": 583014,
         "team_ninety_day_forecast": 1246074,
-        "team_quarterly_vs_quota_pct": 141
+        "team_quarterly_vs_quota_pct": 125
       },
       "direct_reports": [
+        {
+          "name": "Clarence Romero",
+          "composite_score": 0,
+          "coaching_archetype": "activity_problem",
+          "attainment_pct": 0.0,
+          "pipeline_coverage": 0.0,
+          "hygiene_score": 100,
+          "top_issue": "Pipeline is clean.",
+          "stuck_deals": 0,
+          "top_stuck_deals": [],
+          "trajectory_probability": 0.0,
+          "trajectory_risk": "high"
+        },
         {
           "name": "Loren Rivera",
           "composite_score": 0,
@@ -327,30 +340,27 @@
         }
       ],
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 30,
+        "avg_composite": 24,
         "avg_conversion_rate": 1.35,
         "avg_deal_size": 173185
       },
       "team_trajectory": {
-        "avg_quota_hit_probability": 0.47,
-        "reps_at_risk": 3,
+        "avg_quota_hit_probability": 0.403,
+        "reps_at_risk": 4,
         "at_risk_names": [
           "Carol Sanford",
+          "Clarence Romero",
           "Tom Meredith",
           "Loren Rivera"
         ],
         "reps_on_track": 3,
-        "team_risk_level": "medium"
-      },
-      "certifications": {
-        "team_enrolled": 4,
-        "team_avg_progress": 0.0
+        "team_risk_level": "high"
       }
     },
     "Trish Smith": {
@@ -476,29 +486,22 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 30,
+        "avg_composite": 24,
         "avg_conversion_rate": 1.35,
         "avg_deal_size": 173185
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 1,
-        "completion_pct": 0,
-        "weeks_completed": 0,
-        "completion_status": "enrolled"
       }
     },
     "Matt Hanaman": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 21,
-      "composite_trend": "-3",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -607,29 +610,22 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 30,
+        "avg_composite": 24,
         "avg_conversion_rate": 1.35,
         "avg_deal_size": 173185
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "enrolled"
       }
     },
     "Kiristen Sandoval": {
       "team": "CS",
       "manager": "Michael Byrd",
       "composite_score": 22,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -738,8 +734,8 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
@@ -748,14 +744,7 @@
         "avg_conversion_rate": 0,
         "avg_deal_size": 0
       },
-      "isHidden": true,
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 1,
-        "completion_pct": 0,
-        "weeks_completed": 0,
-        "completion_status": "enrolled"
-      }
+      "isHidden": true
     },
     "Tami Richter": {
       "team": "Bordenet",
@@ -880,29 +869,22 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 30,
+        "avg_composite": 24,
         "avg_conversion_rate": 1.35,
         "avg_deal_size": 173185
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "in_progress"
       }
     },
     "Carol Sanford": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 23,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1011,29 +993,105 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 30,
+        "avg_composite": 24,
         "avg_conversion_rate": 1.35,
         "avg_deal_size": 173185
+      }
+    },
+    "Clarence Romero": {
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "composite_score": 0,
+      "composite_trend": "0",
+      "dimension_scores": {
+        "cw_bookings": 0,
+        "quota_attainment": 0,
+        "pipeline_creation": 0,
+        "funnel_conversion": 0
       },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "enrolled"
+      "coaching_archetype": "activity_problem",
+      "archetype_sub_type": "",
+      "key_metrics": {
+        "cwYTD": 0,
+        "cwQTD": 0,
+        "cwMTD": 0,
+        "quota_q1": 482946,
+        "attainment_pct": 0.0,
+        "pipeline_value": 0,
+        "pipeline_opps": 0,
+        "pipeline_coverage": 0.0,
+        "pipeline_coverage_raw": 0.0,
+        "avg_deal_size": 0,
+        "sf_meetings": 0,
+        "tech_demos": 0,
+        "site_visits": 0,
+        "deals_per_meeting": 0,
+        "win_rate": 0
+      },
+      "hygiene": {
+        "score": 100,
+        "flagged_deals": 0,
+        "stuck_deals": 0,
+        "top_issue": "Pipeline is clean."
+      },
+      "forecast": {
+        "monthly_forecast": 0,
+        "ninety_day_forecast": 0,
+        "monthly_vs_quota_pct": 0,
+        "quarterly_vs_quota_pct": 0
+      },
+      "top_stuck_deals": [],
+      "trajectory": {
+        "quota_hit_probability": 0.0,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.0,
+        "month_3_prob": 0.0,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "negative",
+            "detail": "Demo count lagging at 0% of org pace"
+          }
+        ]
+      },
+      "org_benchmarks": {
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
+        "avg_deal_size": 172114,
+        "top_converter": "Tami Richter"
+      },
+      "team_benchmarks": {
+        "avg_composite": 24,
+        "avg_conversion_rate": 1.35,
+        "avg_deal_size": 173185
       }
     },
     "Tom Meredith": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 15,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1142,13 +1200,13 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 30,
+        "avg_composite": 24,
         "avg_conversion_rate": 1.35,
         "avg_deal_size": 173185
       },
@@ -1226,13 +1284,13 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 30,
+        "avg_composite": 24,
         "avg_conversion_rate": 1.35,
         "avg_deal_size": 173185
       },
@@ -1243,33 +1301,33 @@
       "team": "Carlucci",
       "manager": "Michael Byrd",
       "isHidden": true,
-      "composite_score": 18,
-      "composite_trend": "-1",
+      "composite_score": 15,
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 42,
-        "funnel_conversion": 46
+        "pipeline_creation": 35,
+        "funnel_conversion": 38
       },
       "coaching_archetype": "conversion_problem",
-      "archetype_pattern": "conversion_problem (3 of 5 reps)",
+      "archetype_pattern": "conversion_problem (3 of 6 reps)",
       "weakest_rep": {
-        "name": "David Castone",
-        "composite_score": 13,
-        "coaching_archetype": "conversion_problem",
+        "name": "Great Lakes East (Open)",
+        "composite_score": 0,
+        "coaching_archetype": "activity_problem",
         "attainment_pct": 0.0
       },
       "key_metrics": {
         "team_cw_ytd": 567783,
         "team_cw_mtd": 0,
-        "team_q1_quota": 2887321,
+        "team_q1_quota": 3299795,
         "team_attainment_pct": 0.0,
         "team_pipeline_value": 7305251,
         "team_pipeline_opps": 70,
-        "team_weighted_coverage": 0.12,
+        "team_weighted_coverage": 0.11,
         "team_funnel_meetings": 118,
         "team_deals_per_meeting": 0.59,
-        "direct_report_count": 5
+        "direct_report_count": 6
       },
       "personal_cw": {
         "cwYTD": 250709,
@@ -1280,14 +1338,27 @@
         "score": 81,
         "flagged_deals": 13,
         "stuck_deals": 11,
-        "top_issue": "Team has 13 flagged deals across 5 reps."
+        "top_issue": "Team has 13 flagged deals across 6 reps."
       },
       "forecast": {
         "team_monthly_forecast": 283197,
         "team_ninety_day_forecast": 349720,
-        "team_quarterly_vs_quota_pct": 32
+        "team_quarterly_vs_quota_pct": 28
       },
       "direct_reports": [
+        {
+          "name": "Great Lakes East (Open)",
+          "composite_score": 0,
+          "coaching_archetype": "activity_problem",
+          "attainment_pct": 0.0,
+          "pipeline_coverage": 0.0,
+          "hygiene_score": 100,
+          "top_issue": "Pipeline is clean.",
+          "stuck_deals": 0,
+          "top_stuck_deals": [],
+          "trajectory_probability": 0.0,
+          "trajectory_risk": "high"
+        },
         {
           "name": "David Castone",
           "composite_score": 13,
@@ -1529,39 +1600,36 @@
         }
       ],
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 19,
+        "avg_composite": 15,
         "avg_conversion_rate": 0.74,
         "avg_deal_size": 89802
       },
       "team_trajectory": {
-        "avg_quota_hit_probability": 0.092,
-        "reps_at_risk": 5,
+        "avg_quota_hit_probability": 0.077,
+        "reps_at_risk": 6,
         "at_risk_names": [
           "Ashton Gough",
           "David Castone",
           "William Fowler",
           "Ward Carroll",
-          "Brock Hutchinson"
+          "Brock Hutchinson",
+          "Great Lakes East (Open)"
         ],
         "reps_on_track": 0,
         "team_risk_level": "high"
-      },
-      "certifications": {
-        "team_enrolled": 4,
-        "team_avg_progress": 0.0
       }
     },
     "Ashton Gough": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 16,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1680,29 +1748,22 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 19,
+        "avg_composite": 15,
         "avg_conversion_rate": 0.74,
         "avg_deal_size": 89802
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "enrolled"
       }
     },
     "David Castone": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 13,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1791,13 +1852,13 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 19,
+        "avg_composite": 15,
         "avg_conversion_rate": 0.74,
         "avg_deal_size": 89802
       },
@@ -1807,7 +1868,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 21,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1906,29 +1967,22 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 19,
+        "avg_composite": 15,
         "avg_conversion_rate": 0.74,
         "avg_deal_size": 89802
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "in_progress"
       }
     },
     "Ward Carroll": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 19,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1996,29 +2050,22 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 19,
+        "avg_composite": 15,
         "avg_conversion_rate": 0.74,
         "avg_deal_size": 89802
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "in_progress"
       }
     },
     "Brock Hutchinson": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 19,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2107,22 +2154,98 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 19,
+        "avg_composite": 15,
         "avg_conversion_rate": 0.74,
         "avg_deal_size": 89802
+      }
+    },
+    "Great Lakes East (Open)": {
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "composite_score": 0,
+      "composite_trend": "0",
+      "dimension_scores": {
+        "cw_bookings": 0,
+        "quota_attainment": 0,
+        "pipeline_creation": 0,
+        "funnel_conversion": 0
       },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "in_progress"
+      "coaching_archetype": "activity_problem",
+      "archetype_sub_type": "",
+      "key_metrics": {
+        "cwYTD": 0,
+        "cwQTD": 0,
+        "cwMTD": 0,
+        "quota_q1": 412474,
+        "attainment_pct": 0.0,
+        "pipeline_value": 0,
+        "pipeline_opps": 0,
+        "pipeline_coverage": 0.0,
+        "pipeline_coverage_raw": 0.0,
+        "avg_deal_size": 0,
+        "sf_meetings": 0,
+        "tech_demos": 0,
+        "site_visits": 0,
+        "deals_per_meeting": 0,
+        "win_rate": 0
+      },
+      "hygiene": {
+        "score": 100,
+        "flagged_deals": 0,
+        "stuck_deals": 0,
+        "top_issue": "Pipeline is clean."
+      },
+      "forecast": {
+        "monthly_forecast": 0,
+        "ninety_day_forecast": 0,
+        "monthly_vs_quota_pct": 0,
+        "quarterly_vs_quota_pct": 0
+      },
+      "top_stuck_deals": [],
+      "trajectory": {
+        "quota_hit_probability": 0.0,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.0,
+        "month_3_prob": 0.0,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "negative",
+            "detail": "Demo count lagging at 0% of org pace"
+          }
+        ]
+      },
+      "org_benchmarks": {
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
+        "avg_deal_size": 172114,
+        "top_converter": "Tami Richter"
+      },
+      "team_benchmarks": {
+        "avg_composite": 15,
+        "avg_conversion_rate": 0.74,
+        "avg_deal_size": 89802
       }
     },
     "Crly Alvarado": {
@@ -2248,8 +2371,8 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
@@ -2257,20 +2380,13 @@
         "avg_composite": 25,
         "avg_conversion_rate": 0.85,
         "avg_deal_size": 138566
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "in_progress"
       }
     },
     "Tim Canley": {
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 21,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2338,8 +2454,8 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
@@ -2347,20 +2463,13 @@
         "avg_composite": 25,
         "avg_conversion_rate": 0.85,
         "avg_deal_size": 138566
-      },
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 2,
-        "completion_pct": 0,
-        "weeks_completed": 1,
-        "completion_status": "in_progress"
       }
     },
     "Nick Moyes": {
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 4,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2439,8 +2548,8 @@
         ]
       },
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
@@ -2449,14 +2558,7 @@
         "avg_conversion_rate": 0.85,
         "avg_deal_size": 138566
       },
-      "isHidden": true,
-      "certifications": {
-        "training_enrolled": true,
-        "current_week": 1,
-        "completion_pct": 0,
-        "weeks_completed": 0,
-        "completion_status": "enrolled"
-      }
+      "isHidden": true
     },
     "Curtis Knievel": {
       "role": "manager",
@@ -2464,7 +2566,7 @@
       "manager": "Michael Byrd",
       "isHidden": true,
       "composite_score": 18,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2649,8 +2751,8 @@
         }
       ],
       "org_benchmarks": {
-        "avg_composite": 19,
-        "avg_conversion_rate": 0.93,
+        "avg_composite": 17,
+        "avg_conversion_rate": 0.83,
         "avg_deal_size": 172114,
         "top_converter": "Tami Richter"
       },
@@ -2669,10 +2771,6 @@
         ],
         "reps_on_track": 0,
         "team_risk_level": "high"
-      },
-      "certifications": {
-        "team_enrolled": 3,
-        "team_avg_progress": 0.0
       }
     }
   }
