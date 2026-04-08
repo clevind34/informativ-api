@@ -24,7 +24,13 @@
     "value-selling-certification.json",
     "total-solutions-sales-certification.json",
     "total-solutions-manager-certification.json",
-    "informativ-method-certification.json"
+    "informativ-method-certification.json",
+    "data/rep-performance.json",
+    "data/sales-kpi.json",
+    "data/coaching-intelligence.json",
+    "data/trajectory.json",
+    "data/product-certifications.json",
+    "data/version.json"
   ]
 
 # === Route Rewrites ===
@@ -113,6 +119,37 @@
 [[redirects]]
   from = "/api/ai/mobile"
   to = "/.netlify/functions/ai-mobile"
+  status = 200
+
+# Data Layer (Phase 1 — Unified Platform)
+[[redirects]]
+  from = "/api/data/rep-performance"
+  to = "/.netlify/functions/data-rep-performance"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/sales-kpi"
+  to = "/.netlify/functions/data-sales-kpi"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/coaching-intelligence"
+  to = "/.netlify/functions/data-coaching-intelligence"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/trajectory"
+  to = "/.netlify/functions/data-trajectory"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/product-certifications"
+  to = "/.netlify/functions/data-product-certifications"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/version"
+  to = "/.netlify/functions/data-version"
   status = 200
 
 # Training / Certifications
