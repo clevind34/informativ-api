@@ -58,22 +58,6 @@
       "thursday": [],
       "friday": [
         {
-          "id": "728ac4662e5d1959",
-          "co": "Kempton Chevrolet Buick",
-          "cn": "Kyle Kempton",
-          "ph": "9284280252",
-          "em": "boxk@vtc.net",
-          "city": "",
-          "st": "AZ",
-          "addr": "",
-          "lat": null,
-          "lng": null,
-          "checkedIn": false,
-          "checkInTime": null,
-          "checkOutTime": null,
-          "added_at": "2026-04-10T17:48:45.148Z"
-        },
-        {
           "id": "70b2c79d59f0a71f",
           "co": "Marysville Toyota",
           "cn": "Perry Watson",
@@ -86,13 +70,27 @@
           "lng": null,
           "checkedIn": false,
           "checkInTime": null,
-          "checkOutTime": null,
-          "added_at": "2026-04-10T17:48:49.171Z"
+          "checkOutTime": null
+        },
+        {
+          "id": "728ac4662e5d1959",
+          "co": "Kempton Chevrolet Buick",
+          "cn": "Kyle Kempton",
+          "ph": "9284280252",
+          "em": "boxk@vtc.net",
+          "city": "",
+          "st": "AZ",
+          "addr": "",
+          "lat": null,
+          "lng": null,
+          "checkedIn": false,
+          "checkInTime": null,
+          "checkOutTime": null
         }
       ]
     }
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-10T17:48:49.171Z"
+  "last_modified": "2026-04-10T17:49:43.925Z"
 }
