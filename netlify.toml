@@ -44,7 +44,9 @@
     "data/weekly-history.json",
     "data/coaching-action-tracker.json",
     "data/company-quota.json",
-    "data/team-quotas.json"
+    "data/team-quotas.json",
+    "data/company-budget.json",
+    "data/calibration-full.json"
   ]
 
 # === Route Rewrites ===
@@ -262,3 +264,14 @@
   from = "/api/data/team-quotas"
   to = "/.netlify/functions/data-team-quotas"
   status = 200
+
+[[redirects]]
+  from = "/api/data/company-budget"
+  to = "/.netlify/functions/data-company-budget"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/calibration-full"
+  to = "/.netlify/functions/data-calibration-full"
+  status = 200
+
