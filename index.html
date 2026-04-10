@@ -750,7 +750,7 @@
     grid.innerHTML = accessible.map(function(d, i) {
       return [
         '<a class="dash-card" href="' + d.url + '" target="_blank" rel="noopener"',
-        '   style="animation-delay:' + (i * 0.07) + 's">',
+        '   data-url="' + d.url + '" style="animation-delay:' + (i * 0.07) + 's">',
         '  <div class="card-top">',
         '    <div class="card-icon" style="background:' + d.colorBg + '; color:' + d.color + '">',
         '      ' + d.icon,
@@ -774,6 +774,22 @@
     }).join('');
   }
 
+  /* ── TOKEN PASS-THROUGH: open dashboard with JWT in fragment ── */
+  function bindDashboardLinks() {
+    var grid = document.getElementById('dashboard-grid');
+    if (!grid) return;
+    grid.addEventListener('click', function(e) {
+      var card = e.target.closest('.dash-card');
+      if (!card) return;
+      e.preventDefault();
+      var url = card.getAttribute('data-url') || card.getAttribute('href');
+      if (!url) return;
+      var token = window._identityToken;
+      var dest = token ? (url + '#gw=' + encodeURIComponent(token)) : url;
+      window.open(dest, '_blank', 'noopener');
+    });
+  }
+
   /* ── SESSION: check localStorage token ──────── */
   function tryAutoLogin() {
     try {
@@ -790,6 +806,7 @@
       window._identityUser  = data.user;
       removeOverlay();
       renderDashboards(data.user);
+      bindDashboardLinks();
       return true;
     } catch(e) { return false; }
   }
@@ -973,6 +990,7 @@
     saveSession(token, window._identityUser, expires);
     removeOverlay();
     renderDashboards(window._identityUser);
+    bindDashboardLinks();
     window.dispatchEvent(new CustomEvent('identity:login', { detail: window._identityUser }));
   }
 
