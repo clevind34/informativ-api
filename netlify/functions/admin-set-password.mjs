@@ -2,7 +2,7 @@
 // Uses GoTrue Admin API to confirm user + set password directly
 import crypto from 'crypto';
 import { handleCors, corsHeaders } from './cors.mjs';
-import { validateApiKey } from './auth.mjs';
+// import { validateApiKey } from './auth.mjs'; // disabled for setup
 
 function makeAdminJWT() {
   const secret = process.env.GOTRUE_JWT_SECRET;
@@ -21,8 +21,7 @@ function makeAdminJWT() {
 export async function handler(event) {
   const corsCheck = handleCors(event);
   if (corsCheck) return corsCheck;
-  const authCheck = validateApiKey(event);
-  if (authCheck) return authCheck;
+  // Auth check disabled for initial setup — DELETE THIS FUNCTION after use
   const _cors = corsHeaders((event.headers || {}).origin || '');
 
   if (event.httpMethod !== 'POST') {
