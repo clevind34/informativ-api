@@ -47,6 +47,7 @@
     "data/team-quotas.json",
     "data/company-budget.json",
     "data/calibration-full.json"
+    "data/forecast-summary.json",
   ]
 
 # === Route Rewrites ===
@@ -275,3 +276,8 @@
   to = "/.netlify/functions/data-calibration-full"
   status = 200
 
+
+[[redirects]]
+  from = "/api/data/forecast-summary"
+  to = "/.netlify/functions/data-forecast-summary"
+  status = 200

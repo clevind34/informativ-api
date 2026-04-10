@@ -19,12 +19,14 @@ const RESTRICTED_FILES = {
   'trajectory.json': ['manager', 'elt', 'admin'],
   'coaching-intelligence.json': ['manager', 'elt', 'admin'],
   'calibration.json': ['manager', 'elt', 'admin'],
+  'calibration-full.json': ['manager', 'elt', 'admin'],
   'coaching-effectiveness.json': ['manager', 'elt', 'admin'],
   'selling-gm.json': ['manager', 'elt', 'admin'],
   'prospecting-effectiveness.json': ['manager', 'elt', 'admin'],
   'rep-hygiene-deals.json': ['manager', 'elt', 'admin'],
   'rep-forecast-data.json': ['manager', 'elt', 'admin'],
   'forecast-deals.json': ['manager', 'elt', 'admin'],
+  'forecast-summary.json': ['manager', 'elt', 'admin'],
   'coaching-action-tracker.json': ['manager', 'elt', 'admin'],
 };
 
