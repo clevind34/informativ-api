@@ -32,7 +32,7 @@ const USERS = [
   // Sales Reps (11)
   { email: 'csanford@informativ.com', roles: ['rep'], rep_name: 'Carol Sanford', team: 'Bordenet' },
   { email: 'mhanaman@informativ.com', roles: ['rep'], rep_name: 'Matt Hanaman', team: 'Bordenet' },
-  { email: 'trighter@informativ.com', roles: ['rep'], rep_name: 'Tami Richter', team: 'Bordenet' },
+  { email: 'trichter@informativ.com', roles: ['rep'], rep_name: 'Tami Richter', team: 'Bordenet' },
   { email: 'tsmith@informativ.com', roles: ['rep'], rep_name: 'Trish Smith', team: 'Bordenet' },
   { email: 'cromero@informativ.com', roles: ['rep'], rep_name: 'Clarence Romero', team: 'Bordenet' },
   { email: 'agough@informativ.com', roles: ['rep'], rep_name: 'Ashton Gough', team: 'Carlucci' },

@@ -50,7 +50,7 @@ const EMAIL_TO_REP = {
   'ksandoval@informativ.com': 'Kiristen Sandoval',
   'csanford@informativ.com': 'Carol Sanford',
   'mhanaman@informativ.com': 'Matt Hanaman',
-  'trighter@informativ.com': 'Tami Richter',
+  'trichter@informativ.com': 'Tami Richter',
   'tsmith@informativ.com': 'Trish Smith',
   'cromero@informativ.com': 'Clarence Romero',
   'agough@informativ.com': 'Ashton Gough',
