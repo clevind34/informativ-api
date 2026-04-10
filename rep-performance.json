@@ -1,1105 +1,592 @@
-{
-  "metadata": {
-    "generated_at": "2026-03-25T17:24:33.741525",
-    "source": "/sessions/optimistic-relaxed-einstein/mnt/Claude Sales Forecast Tool/Sales_Rep_Dashboard.html",
-    "rep_count": 16
-  },
-  "company": {
-    "annual_quota": 37375000,
-    "monthly_quota": {
-      "jan": 1745218,
-      "feb": 2490655,
-      "mar": 3372352,
-      "apr": 2529100,
-      "may": 4443847,
-      "jun": 3008021,
-      "jul": 2346539,
-      "aug": 3209594,
-      "sep": 4137670,
-      "oct": 3215964,
-      "nov": 4247984,
-      "dec": 2628057
-    },
-    "q1_quota": 7608226,
-    "forecast": {
-      "totalWeighted": 1739104.21,
-      "conservative": 1130417.74,
-      "hygieneAdjusted": 1739104.21,
-      "dealCount": 446
+[
+  {
+    "name": "Teresa Bordenet",
+    "team": "Bordenet",
+    "manager": "Michael Byrd",
+    "quota": 1725000,
+    "marchQuota": 166670,
+    "q1Quota": 482946,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 0,
+    "deals": 0,
+    "pipelineOpps": 0,
+    "sfMeetings": 0,
+    "techDemos": 0,
+    "siteVisits": 0,
+    "totalMeetings": 0,
+    "pipelineValue": 0,
+    "avgDealSize": 0,
+    "hidden": true,
+    "hygiene": {
+      "score": 100,
+      "totalDeals": 0,
+      "flagged": 0,
+      "stuck": 0,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "Pipeline is clean."
     }
   },
-  "teams": {
-    "Team Bordenet": {
-      "annual": 13800000,
-      "jan": 761674,
-      "feb": 954233,
-      "mar": 1107423,
-      "q1": 2823330
-    },
-    "Team Carlucci": {
-      "annual": 10179803,
-      "jan": 412574,
-      "feb": 580491,
-      "mar": 751202,
-      "q1": 1744267
-    },
-    "Team Knievel": {
-      "annual": 12805125,
-      "jan": 441440,
-      "feb": 684282,
-      "mar": 915983,
-      "q1": 2041705
+  {
+    "name": "Trish Smith",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 758457,
+    "deals": 48,
+    "pipelineOpps": 48,
+    "sfMeetings": 22,
+    "techDemos": 11,
+    "siteVisits": 4,
+    "totalMeetings": 37,
+    "pipelineValue": 5667221,
+    "avgDealSize": 118067,
+    "hygiene": {
+      "score": 27,
+      "totalDeals": 48,
+      "flagged": 35,
+      "stuck": 33,
+      "lowMissing": 0,
+      "overdue": 15,
+      "critical": 13,
+      "topIssue": "69% of deals aged beyond stage threshold. 31% of deals have overdue close dates."
     }
   },
-  "reps": {
-    "Teresa Bordenet": {
-      "team": "Bordenet",
-      "manager": "Michael Byrd",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "is_hidden": true,
-      "role": "manager",
-      "quota": {
-        "annual": 0,
-        "march": 0,
-        "q1": 0
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 0,
-        "ytd_attainment_pct": 0,
-        "pipeline_value": 0,
-        "deal_count": 0,
-        "avg_deal_size": 0
-      },
-      "activity": {
-        "sf_meetings": 0,
-        "tech_demos": 0
-      },
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flagged": 0,
-        "stuck": 0,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "No pipeline data yet."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 0,
-        "ninetyDayForecast": 0,
-        "deals": 0,
-        "totalPipeline": 0
-      },
-      "direct_reports": [
-        "Trish Smith",
-        "Matt Hanaman",
-        "Tami Richter",
-        "Carol Sanford",
-        "Clarence Romero"
-      ]
-    },
-    "Trish Smith": {
-      "team": "Bordenet",
-      "manager": "Teresa Bordenet",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 758457,
-        "ytd_attainment_pct": 161.2,
-        "pipeline_value": 5495221,
-        "deal_count": 42,
-        "avg_deal_size": 113696
-      },
-      "activity": {
-        "sf_meetings": 22,
-        "tech_demos": 11
-      },
-      "hygiene": {
-        "score": 33,
-        "totalDeals": 42,
-        "flagged": 28,
-        "stuck": 28,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "67% of deals aged beyond stage threshold."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 21033.01,
-        "ninetyDayForecast": 36263.8,
-        "deals": 42,
-        "totalPipeline": 4775220.92
-      }
-    },
-    "Matt Hanaman": {
-      "team": "Bordenet",
-      "manager": "Teresa Bordenet",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 21984,
-        "closed_won_ytd": 355692,
-        "ytd_attainment_pct": 75.6,
-        "pipeline_value": 3090072,
-        "deal_count": 32,
-        "avg_deal_size": 162994
-      },
-      "activity": {
-        "sf_meetings": 17,
-        "tech_demos": 7
-      },
-      "hygiene": {
-        "score": 47,
-        "totalDeals": 32,
-        "flagged": 17,
-        "stuck": 17,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "53% of deals aged beyond stage threshold."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 128860.31,
-        "ninetyDayForecast": 137653.65,
-        "deals": 32,
-        "totalPipeline": 5215820.36
-      }
-    },
-    "Kiristen Sandoval": {
-      "team": "CS",
-      "manager": "Michael Byrd",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "is_hidden": true,
-      "quota": {
-        "annual": 1971429,
-        "march": 158203,
-        "q1": 403333
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 0,
-        "ytd_attainment_pct": 0.0,
-        "pipeline_value": 0,
-        "deal_count": 0,
-        "avg_deal_size": 0
-      },
-      "activity": {
-        "sf_meetings": 0,
-        "tech_demos": 0
-      },
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flagged": 0,
-        "stuck": 0,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "Pipeline is clean."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 0,
-        "ninetyDayForecast": 0,
-        "deals": 0,
-        "totalPipeline": 0
-      }
-    },
-    "Tami Richter": {
-      "team": "Bordenet",
-      "manager": "Teresa Bordenet",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 233573,
-        "ytd_attainment_pct": 49.6,
-        "pipeline_value": 6960800,
-        "deal_count": 64,
-        "avg_deal_size": 103995
-      },
-      "activity": {
-        "sf_meetings": 17,
-        "tech_demos": 8
-      },
-      "hygiene": {
-        "score": 22,
-        "totalDeals": 64,
-        "flagged": 50,
-        "stuck": 50,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "78% of deals aged beyond stage threshold."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 281505.09,
-        "ninetyDayForecast": 284056.59,
-        "deals": 64,
-        "totalPipeline": 6655665.52
-      }
-    },
-    "Carol Sanford": {
-      "team": "Bordenet",
-      "manager": "Teresa Bordenet",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 235098,
-        "ytd_attainment_pct": 50.0,
-        "pipeline_value": 5608205,
-        "deal_count": 19,
-        "avg_deal_size": 333617
-      },
-      "activity": {
-        "sf_meetings": 22,
-        "tech_demos": 16
-      },
-      "hygiene": {
-        "score": 74,
-        "totalDeals": 19,
-        "flagged": 5,
-        "stuck": 4,
-        "lowMissing": 1,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "21% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 306331.04,
-        "ninetyDayForecast": 316568.07,
-        "deals": 19,
-        "totalPipeline": 6338728.03
-      }
-    },
-    "Joel Carlucci": {
-      "team": "Carlucci",
-      "manager": "Michael Byrd",
-      "is_overlay": true,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 1696634,
-        "march": 125200,
-        "q1": 290711
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 250709,
-        "ytd_attainment_pct": 86.2,
-        "pipeline_value": 185040,
-        "deal_count": 4,
-        "avg_deal_size": 46260
-      },
-      "activity": {
-        "sf_meetings": 8,
-        "tech_demos": 3
-      },
-      "hygiene": {
-        "score": 75,
-        "totalDeals": 4,
-        "flagged": 1,
-        "stuck": 0,
-        "lowMissing": 1,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "1 deals with low or missing amounts."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 393.75,
-        "ninetyDayForecast": 1438.65,
-        "deals": 4,
-        "totalPipeline": 185040.0
-      },
-      "role": "manager",
-      "direct_reports": [
-        "Ashton Gough",
-        "William Fowler",
-        "Ward Carroll",
-        "Brock Hutchinson",
-        "Great Lakes East (Open)"
-      ],
-      "team_performance": {
-        "team_closed_won_ytd": 369904,
-        "team_closed_won_mtd": 17261,
-        "team_q1_quota": 1744269,
-        "team_attainment_pct": 21.2,
-        "team_pipeline_value": 8556830,
-        "team_pipeline_opps": 95,
-        "team_weighted_coverage": 0.1,
-        "team_funnel_meetings": 100,
-        "team_deals_per_meeting": 0.95,
-        "direct_report_count": 5
-      },
-      "team_rep_summaries": [
-        {
-          "name": "Brock Hutchinson",
-          "composite_score": 13,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 0.0,
-          "top_flag": null
-        },
-        {
-          "name": "Ward Carroll",
-          "composite_score": 20,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 2.6,
-          "top_flag": null
-        },
-        {
-          "name": "William Fowler",
-          "composite_score": 23,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 6.7,
-          "top_flag": null
-        },
-        {
-          "name": "David Castone",
-          "composite_score": 46,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 14.2,
-          "top_flag": null
-        },
-        {
-          "name": "Ashton Gough",
-          "composite_score": 67,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 58.3,
-          "top_flag": null
-        }
-      ],
-      "team_stuck_deals": [
-        {
-          "account": "Bergey's Auto Group",
-          "amount": 499000.0,
-          "stage": "Solution Fit",
-          "age_days": 96,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Protect",
-          "rep_certified": false,
-          "rep": "David Castone"
-        },
-        {
-          "account": "Ken Grody Ford Dealerships",
-          "amount": 242275.32,
-          "stage": "Tech Demo",
-          "age_days": 202,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Control",
-          "rep_certified": false,
-          "rep": "Ashton Gough"
-        },
-        {
-          "account": "Kelly Auto Group",
-          "amount": 211735.4,
-          "stage": "Tech Demo",
-          "age_days": 140,
-          "hygiene_flag": "stuck",
-          "product_solution": "CBC + DSGSS",
-          "flat_rate_product_type": "Protect",
-          "rep_certified": false,
-          "rep": "David Castone"
-        },
-        {
-          "account": "Toyota of Santa Maria Group",
-          "amount": 210000.0,
-          "stage": "Solution Fit",
-          "age_days": 117,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Control",
-          "rep_certified": false,
-          "rep": "Ashton Gough"
-        },
-        {
-          "account": "Riverside Metro Auto Group",
-          "amount": 175000.0,
-          "stage": "Tech Demo",
-          "age_days": 223,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "Ashton Gough"
-        },
-        {
-          "account": "Nelson Group Automotive",
-          "amount": 136456.04,
-          "stage": "Tech Demo",
-          "age_days": 213,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Control",
-          "rep_certified": false,
-          "rep": "Ashton Gough"
-        },
-        {
-          "account": "Simpson Family Dealerships",
-          "amount": 105000.0,
-          "stage": "Solution Fit",
-          "age_days": 101,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Protect",
-          "rep_certified": false,
-          "rep": "Ashton Gough"
-        },
-        {
-          "account": "Jo-Dan Buick GMC Group Parent",
-          "amount": 44505.83,
-          "stage": "Tech Demo",
-          "age_days": 117,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "David Castone"
-        }
-      ]
-    },
-    "Ashton Gough": {
-      "team": "Carlucci",
-      "manager": "Joel Carlucci",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 1189,
-        "closed_won_ytd": 274203,
-        "ytd_attainment_pct": 58.3,
-        "pipeline_value": 2230990,
-        "deal_count": 30,
-        "avg_deal_size": 84009
-      },
-      "activity": {
-        "sf_meetings": 22,
-        "tech_demos": 7
-      },
-      "hygiene": {
-        "score": 63,
-        "totalDeals": 30,
-        "flagged": 11,
-        "stuck": 11,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "37% of deals aged beyond stage threshold."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 60504.66,
-        "ninetyDayForecast": 71078.35,
-        "deals": 30,
-        "totalPipeline": 2520279.88
-      }
-    },
-    "William Fowler": {
-      "team": "Carlucci",
-      "manager": "Joel Carlucci",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 166113,
-        "q1": 348865
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 23496,
-        "ytd_attainment_pct": 6.7,
-        "pipeline_value": 564000,
-        "deal_count": 18,
-        "avg_deal_size": 40858
-      },
-      "activity": {
-        "sf_meetings": 10,
-        "tech_demos": 4
-      },
-      "hygiene": {
-        "score": 78,
-        "totalDeals": 18,
-        "flagged": 4,
-        "stuck": 2,
-        "lowMissing": 2,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "11% of deals aged beyond stage threshold. 2 deals with low or missing amounts."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 35378.71,
-        "ninetyDayForecast": 35575.77,
-        "deals": 18,
-        "totalPipeline": 735444.4
-      }
-    },
-    "Ward Carroll": {
-      "team": "Carlucci",
-      "manager": "Joel Carlucci",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 12316,
-        "closed_won_ytd": 12316,
-        "ytd_attainment_pct": 2.6,
-        "pipeline_value": 649192,
-        "deal_count": 17,
-        "avg_deal_size": 139769
-      },
-      "activity": {
-        "sf_meetings": 13,
-        "tech_demos": 5
-      },
-      "hygiene": {
-        "score": 88,
-        "totalDeals": 17,
-        "flagged": 2,
-        "stuck": 2,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "12% of deals aged beyond stage threshold."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 128009.81,
-        "ninetyDayForecast": 128009.81,
-        "deals": 17,
-        "totalPipeline": 2376073.76
-      }
-    },
-    "Brock Hutchinson": {
-      "team": "Carlucci",
-      "manager": "Joel Carlucci",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 1564000,
-        "march": 31377,
-        "q1": 31377
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 0,
-        "ytd_attainment_pct": 0.0,
-        "pipeline_value": 59300,
-        "deal_count": 0,
-        "avg_deal_size": 0
-      },
-      "activity": {
-        "sf_meetings": 0,
-        "tech_demos": 0
-      },
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flagged": 0,
-        "stuck": 0,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "Pipeline is clean."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 0,
-        "ninetyDayForecast": 0,
-        "deals": 0,
-        "totalPipeline": 0
-      }
-    },
-    "Crly Alvarado": {
-      "team": "Knievel",
-      "manager": "Curtis Knievel",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 6100000,
-        "march": 489513,
-        "q1": 1247993
-      },
-      "performance": {
-        "closed_won_mtd": 888,
-        "closed_won_ytd": 449995,
-        "ytd_attainment_pct": 36.1,
-        "pipeline_value": 4274868,
-        "deal_count": 35,
-        "avg_deal_size": 103192
-      },
-      "activity": {
-        "sf_meetings": 41,
-        "tech_demos": 13
-      },
-      "hygiene": {
-        "score": 80,
-        "totalDeals": 35,
-        "flagged": 7,
-        "stuck": 6,
-        "lowMissing": 1,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "17% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 195789.1,
-        "ninetyDayForecast": 240655.0,
-        "deals": 35,
-        "totalPipeline": 3611728.6
-      }
-    },
-    "Tim Canley": {
-      "team": "Knievel",
-      "manager": "Curtis Knievel",
-      "is_overlay": false,
-      "is_channel_partner": true,
-      "quota": {
-        "annual": 3796000,
-        "march": 152311,
-        "q1": 217932
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 0,
-        "ytd_attainment_pct": 0.0,
-        "pipeline_value": 1667500,
-        "deal_count": 4,
-        "avg_deal_size": 227500
-      },
-      "activity": {
-        "sf_meetings": 4,
-        "tech_demos": 0
-      },
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 4,
-        "flagged": 0,
-        "stuck": 0,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "Pipeline is clean."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 8330.0,
-        "ninetyDayForecast": 9158.84,
-        "deals": 4,
-        "totalPipeline": 910000.0
-      }
-    },
-    "Nick Moyes": {
-      "team": "Knievel",
-      "manager": "Curtis Knievel",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 3796000,
-        "march": 274159,
-        "q1": 575779
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 0,
-        "ytd_attainment_pct": 0.0,
-        "pipeline_value": 1720596,
-        "deal_count": 30,
-        "avg_deal_size": 50287
-      },
-      "activity": {
-        "sf_meetings": 47,
-        "tech_demos": 4
-      },
-      "hygiene": {
-        "score": 67,
-        "totalDeals": 30,
-        "flagged": 10,
-        "stuck": 5,
-        "lowMissing": 5,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "17% of deals aged beyond stage threshold. 5 deals with low or missing amounts."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 39890.25,
-        "ninetyDayForecast": 40073.64,
-        "deals": 30,
-        "totalPipeline": 1508596.39
-      },
-      "is_hidden": true
-    },
-    "Curtis Knievel": {
-      "role": "manager",
-      "direct_reports": [
-        "Crly Alvarado",
-        "Tim Canley",
-        "Nick Moyes"
-      ],
-      "team_performance": {
-        "team_closed_won_ytd": 449995,
-        "team_closed_won_mtd": 888,
-        "team_q1_quota": 2041704,
-        "team_attainment_pct": 22.0,
-        "team_pipeline_value": 7662964,
-        "team_pipeline_opps": 76,
-        "team_weighted_coverage": 0.19,
-        "team_funnel_meetings": 115,
-        "team_deals_per_meeting": 0.66,
-        "direct_report_count": 3
-      },
-      "team_rep_summaries": [
-        {
-          "name": "Tim Canley",
-          "composite_score": 20,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 0.0,
-          "top_flag": null
-        },
-        {
-          "name": "Nick Moyes",
-          "composite_score": 28,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 0.0,
-          "top_flag": null
-        },
-        {
-          "name": "Crly Alvarado",
-          "composite_score": 59,
-          "archetype": null,
-          "cw_ytd": null,
-          "attainment_pct": 36.1,
-          "top_flag": null
-        }
-      ],
-      "team_stuck_deals": [
-        {
-          "account": "Auto Lenders",
-          "amount": 635651.68,
-          "stage": "Committed",
-          "age_days": 77,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Control",
-          "rep_certified": false,
-          "rep": "Crly Alvarado"
-        },
-        {
-          "account": "Berkshire Hathaway",
-          "amount": 440149.2,
-          "stage": "Proposal",
-          "age_days": 131,
-          "hygiene_flag": "stuck",
-          "product_solution": "CBC",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "Crly Alvarado"
-        },
-        {
-          "account": "Automotive Avenues_Group Parent",
-          "amount": 272843.2,
-          "stage": "Proposal",
-          "age_days": 80,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "Crly Alvarado"
-        },
-        {
-          "account": "Legend Auto Group",
-          "amount": 96000.0,
-          "stage": "Tech Demo",
-          "age_days": 131,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "Nick Moyes"
-        },
-        {
-          "account": "Remote Finance Group_Group Parent",
-          "amount": 84729.16,
-          "stage": "Solution Fit",
-          "age_days": 70,
-          "hygiene_flag": "stuck",
-          "product_solution": "CBC",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "Crly Alvarado"
-        },
-        {
-          "account": "Allen Samuels",
-          "amount": 81281.8,
-          "stage": "Proposal",
-          "age_days": 124,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Protect",
-          "rep_certified": false,
-          "rep": "Crly Alvarado"
-        },
-        {
-          "account": "Arceneaux Ford Inc Group Parent",
-          "amount": 44316.88,
-          "stage": "Solution Fit",
-          "age_days": 146,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "Nick Moyes"
-        },
-        {
-          "account": "Hollingsworth Richards Ford",
-          "amount": 33279.51,
-          "stage": "Solution Fit",
-          "age_days": 157,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false,
-          "rep": "Nick Moyes"
-        }
-      ]
-    },
-    "David Carner": {
-      "team": "Leadership",
-      "manager": "Michael Byrd",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {},
-      "performance": {},
-      "activity": {},
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flaggedDeals": 0,
-        "issues": []
-      },
-      "pipeline": []
-    },
-    "Scott Clifton": {
-      "team": "Marketing",
-      "manager": "Christina Wofford",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {},
-      "performance": {},
-      "activity": {},
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flaggedDeals": 0,
-        "issues": []
-      },
-      "pipeline": []
-    },
-    "Christina Wofford": {
-      "team": "Marketing",
-      "manager": null,
-      "role": "manager",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "direct_reports": [
-        "Logan Church-Owens",
-        "Scott Clifton"
-      ],
-      "quota": {},
-      "performance": {},
-      "activity": {},
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flaggedDeals": 0,
-        "issues": []
-      },
-      "pipeline": []
-    },
-    "Michael Byrd": {
-      "team": "Leadership",
-      "manager": null,
-      "role": "manager",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "direct_reports": [
-        "Joel Carlucci",
-        "Curtis Knievel",
-        "Teresa Bordenet",
-        "Kiristen Sandoval"
-      ],
-      "quota": {},
-      "performance": {},
-      "activity": {},
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flaggedDeals": 0,
-        "issues": []
-      },
-      "pipeline": []
-    },
-    "Logan Church-Owens": {
-      "team": "Marketing",
-      "manager": "Christina Wofford",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {},
-      "performance": {},
-      "activity": {},
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flaggedDeals": 0,
-        "issues": []
-      },
-      "pipeline": []
-    },
-    "Carson Byrd": {
-      "team": "Operations",
-      "manager": "Kiristen Sandoval",
-      "role": "analyst",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {},
-      "performance": {},
-      "activity": {},
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flaggedDeals": 0,
-        "issues": []
-      },
-      "pipeline": []
-    },
-    "Clarence Romero": {
-      "team": "Bordenet",
-      "manager": "Teresa Bordenet",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 0,
-        "ytd_attainment_pct": 0.0,
-        "pipeline_value": 0,
-        "deal_count": 0,
-        "avg_deal_size": 0
-      },
-      "activity": {
-        "sf_meetings": 0,
-        "tech_demos": 0
-      },
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flagged": 0,
-        "stuck": 0,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "No pipeline data yet."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 0,
-        "ninetyDayForecast": 0,
-        "deals": 0,
-        "totalPipeline": 0
-      }
-    },
-    "Great Lakes East (Open)": {
-      "team": "Carlucci",
-      "manager": "Joel Carlucci",
-      "is_overlay": false,
-      "is_channel_partner": false,
-      "is_hidden": false,
-      "quota": {
-        "annual": 2300000,
-        "march": 184571,
-        "q1": 470556
-      },
-      "performance": {
-        "closed_won_mtd": 0,
-        "closed_won_ytd": 0,
-        "ytd_attainment_pct": 0.0,
-        "pipeline_value": 0,
-        "deal_count": 0,
-        "avg_deal_size": 0
-      },
-      "activity": {
-        "sf_meetings": 0,
-        "tech_demos": 0
-      },
-      "hygiene": {
-        "score": 100,
-        "totalDeals": 0,
-        "flagged": 0,
-        "stuck": 0,
-        "lowMissing": 0,
-        "overdue": 0,
-        "critical": 0,
-        "topIssue": "Open territory \u2014 searching for new rep."
-      },
-      "flagged_deals": [],
-      "forecast": {
-        "monthlyForecast": 0,
-        "ninetyDayForecast": 0,
-        "deals": 0,
-        "totalPipeline": 0
-      }
+  {
+    "name": "Matt Hanaman",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 533126,
+    "deals": 22,
+    "pipelineOpps": 22,
+    "sfMeetings": 25,
+    "techDemos": 12,
+    "siteVisits": 0,
+    "totalMeetings": 37,
+    "pipelineValue": 5614289,
+    "avgDealSize": 255195,
+    "hygiene": {
+      "score": 82,
+      "totalDeals": 22,
+      "flagged": 4,
+      "stuck": 4,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "18% of deals aged beyond stage threshold."
+    }
+  },
+  {
+    "name": "Kiristen Sandoval",
+    "team": "CS",
+    "manager": "Michael Byrd",
+    "quota": 0,
+    "marchQuota": 0,
+    "q1Quota": 0,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 0,
+    "deals": 4,
+    "pipelineOpps": 4,
+    "sfMeetings": 0,
+    "techDemos": 1,
+    "siteVisits": 0,
+    "totalMeetings": 1,
+    "pipelineValue": 2092948,
+    "avgDealSize": 523237,
+    "hidden": true,
+    "hygiene": {
+      "score": 0,
+      "totalDeals": 4,
+      "flagged": 4,
+      "stuck": 2,
+      "lowMissing": 2,
+      "overdue": 4,
+      "critical": 2,
+      "topIssue": "50% of deals aged beyond stage threshold. 100% of deals have overdue close dates."
+    }
+  },
+  {
+    "name": "Tami Richter",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 2249453,
+    "deals": 96,
+    "pipelineOpps": 96,
+    "sfMeetings": 23,
+    "techDemos": 11,
+    "siteVisits": 0,
+    "totalMeetings": 34,
+    "pipelineValue": 9285063,
+    "avgDealSize": 96719,
+    "hygiene": {
+      "score": 3,
+      "totalDeals": 96,
+      "flagged": 93,
+      "stuck": 78,
+      "lowMissing": 0,
+      "overdue": 92,
+      "critical": 77,
+      "topIssue": "81% of deals aged beyond stage threshold. 96% of deals have overdue close dates."
+    }
+  },
+  {
+    "name": "Carol Sanford",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 316730,
+    "deals": 25,
+    "pipelineOpps": 25,
+    "sfMeetings": 29,
+    "techDemos": 17,
+    "siteVisits": 47,
+    "totalMeetings": 93,
+    "pipelineValue": 5568953,
+    "avgDealSize": 222758,
+    "hygiene": {
+      "score": 84,
+      "totalDeals": 25,
+      "flagged": 4,
+      "stuck": 4,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "16% of deals aged beyond stage threshold."
+    }
+  },
+  {
+    "name": "Clarence Romero",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 1725000,
+    "marchQuota": 166670,
+    "q1Quota": 482946,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 0,
+    "deals": 0,
+    "pipelineOpps": 0,
+    "sfMeetings": 0,
+    "techDemos": 0,
+    "siteVisits": 0,
+    "totalMeetings": 0,
+    "pipelineValue": 0,
+    "avgDealSize": 0,
+    "hygiene": {
+      "score": 100,
+      "totalDeals": 0,
+      "flagged": 0,
+      "stuck": 0,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "Pipeline is clean."
+    }
+  },
+  {
+    "name": "Tom Meredith",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 85566,
+    "deals": 14,
+    "pipelineOpps": 14,
+    "sfMeetings": 19,
+    "techDemos": 9,
+    "siteVisits": 0,
+    "totalMeetings": 28,
+    "pipelineValue": 1224840,
+    "avgDealSize": 87489,
+    "hidden": true,
+    "hygiene": {
+      "score": 71,
+      "totalDeals": 14,
+      "flagged": 4,
+      "stuck": 4,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "29% of deals aged beyond stage threshold."
+    }
+  },
+  {
+    "name": "Loren Rivera",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 240412,
+    "deals": 0,
+    "pipelineOpps": 0,
+    "sfMeetings": 9,
+    "techDemos": 5,
+    "siteVisits": 12,
+    "totalMeetings": 26,
+    "pipelineValue": 0,
+    "avgDealSize": 0,
+    "hidden": true,
+    "hygiene": {
+      "score": 100,
+      "totalDeals": 0,
+      "flagged": 0,
+      "stuck": 0,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "Pipeline is clean."
+    }
+  },
+  {
+    "name": "Joel Carlucci",
+    "team": "Carlucci",
+    "manager": "Michael Byrd",
+    "quota": 1454258,
+    "marchQuota": 137780,
+    "q1Quota": 412474,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 250709,
+    "deals": 27,
+    "pipelineOpps": 27,
+    "sfMeetings": 19,
+    "techDemos": 8,
+    "siteVisits": 1,
+    "totalMeetings": 28,
+    "pipelineValue": 1252336,
+    "avgDealSize": 46383,
+    "isOverlay": true,
+    "hidden": true,
+    "hygiene": {
+      "score": 59,
+      "totalDeals": 27,
+      "flagged": 11,
+      "stuck": 11,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "41% of deals aged beyond stage threshold."
+    }
+  },
+  {
+    "name": "Ashton Gough",
+    "team": "Carlucci",
+    "manager": "Joel Carlucci",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 435839,
+    "deals": 16,
+    "pipelineOpps": 16,
+    "sfMeetings": 25,
+    "techDemos": 10,
+    "siteVisits": 0,
+    "totalMeetings": 35,
+    "pipelineValue": 1736881,
+    "avgDealSize": 108555,
+    "hygiene": {
+      "score": 62,
+      "totalDeals": 16,
+      "flagged": 6,
+      "stuck": 6,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "38% of deals aged beyond stage threshold."
+    }
+  },
+  {
+    "name": "David Castone",
+    "team": "Carlucci",
+    "manager": "Joel Carlucci",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 74827,
+    "deals": 12,
+    "pipelineOpps": 12,
+    "sfMeetings": 21,
+    "techDemos": 8,
+    "siteVisits": 66,
+    "totalMeetings": 95,
+    "pipelineValue": 2439670,
+    "avgDealSize": 203306,
+    "hidden": true,
+    "hygiene": {
+      "score": 83,
+      "totalDeals": 12,
+      "flagged": 2,
+      "stuck": 2,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "17% of deals aged beyond stage threshold."
+    }
+  },
+  {
+    "name": "William Fowler",
+    "team": "Carlucci",
+    "manager": "Joel Carlucci",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 28970,
+    "deals": 16,
+    "pipelineOpps": 16,
+    "sfMeetings": 14,
+    "techDemos": 5,
+    "siteVisits": 37,
+    "totalMeetings": 56,
+    "pipelineValue": 521000,
+    "avgDealSize": 32562,
+    "hygiene": {
+      "score": 81,
+      "totalDeals": 16,
+      "flagged": 3,
+      "stuck": 2,
+      "lowMissing": 1,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "12% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
+    }
+  },
+  {
+    "name": "Ward Carroll",
+    "team": "Carlucci",
+    "manager": "Joel Carlucci",
+    "quota": 2300000,
+    "marchQuota": 222226,
+    "q1Quota": 643929,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 12316,
+    "deals": 17,
+    "pipelineOpps": 17,
+    "sfMeetings": 20,
+    "techDemos": 6,
+    "siteVisits": 41,
+    "totalMeetings": 67,
+    "pipelineValue": 1370400,
+    "avgDealSize": 80612,
+    "hygiene": {
+      "score": 100,
+      "totalDeals": 17,
+      "flagged": 0,
+      "stuck": 0,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "Pipeline is clean."
+    }
+  },
+  {
+    "name": "Brock Hutchinson",
+    "team": "Carlucci",
+    "manager": "Joel Carlucci",
+    "quota": 1564000,
+    "marchQuota": 75557,
+    "q1Quota": 311605,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 15831,
+    "deals": 9,
+    "pipelineOpps": 9,
+    "sfMeetings": 9,
+    "techDemos": 0,
+    "siteVisits": 0,
+    "totalMeetings": 9,
+    "pipelineValue": 1237300,
+    "avgDealSize": 137478,
+    "hygiene": {
+      "score": 78,
+      "totalDeals": 9,
+      "flagged": 2,
+      "stuck": 1,
+      "lowMissing": 1,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "11% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
+    }
+  },
+  {
+    "name": "Great Lakes East (Open)",
+    "team": "Carlucci",
+    "manager": "Joel Carlucci",
+    "quota": 1454258,
+    "marchQuota": 137780,
+    "q1Quota": 412474,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 0,
+    "deals": 0,
+    "pipelineOpps": 0,
+    "sfMeetings": 0,
+    "techDemos": 0,
+    "siteVisits": 0,
+    "totalMeetings": 0,
+    "pipelineValue": 0,
+    "avgDealSize": 0,
+    "hygiene": {
+      "score": 100,
+      "totalDeals": 0,
+      "flagged": 0,
+      "stuck": 0,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "Pipeline is clean."
+    }
+  },
+  {
+    "name": "Crly Alvarado",
+    "team": "Knievel",
+    "manager": "Curtis Knievel",
+    "quota": 6100000,
+    "marchQuota": 589383,
+    "q1Quota": 1707811,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 516920,
+    "deals": 68,
+    "pipelineOpps": 68,
+    "sfMeetings": 81,
+    "techDemos": 16,
+    "siteVisits": 0,
+    "totalMeetings": 97,
+    "pipelineValue": 8187354,
+    "avgDealSize": 120402,
+    "hygiene": {
+      "score": 74,
+      "totalDeals": 68,
+      "flagged": 18,
+      "stuck": 16,
+      "lowMissing": 2,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "24% of deals aged beyond stage threshold. 2 deals with low or missing amounts."
+    }
+  },
+  {
+    "name": "Tim Canley",
+    "team": "Knievel",
+    "manager": "Curtis Knievel",
+    "quota": 3796000,
+    "marchQuota": 275078,
+    "q1Quota": 935417,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 0,
+    "deals": 13,
+    "pipelineOpps": 13,
+    "sfMeetings": 13,
+    "techDemos": 0,
+    "siteVisits": 0,
+    "totalMeetings": 13,
+    "pipelineValue": 2037500,
+    "avgDealSize": 156731,
+    "channelPartner": true,
+    "hygiene": {
+      "score": 100,
+      "totalDeals": 13,
+      "flagged": 0,
+      "stuck": 0,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "Pipeline is clean."
+    }
+  },
+  {
+    "name": "Nick Moyes",
+    "team": "Knievel",
+    "manager": "Curtis Knievel",
+    "quota": 3796000,
+    "marchQuota": 366770,
+    "q1Quota": 1062762,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 0,
+    "deals": 4,
+    "pipelineOpps": 4,
+    "sfMeetings": 25,
+    "techDemos": 2,
+    "siteVisits": 0,
+    "totalMeetings": 27,
+    "pipelineValue": 199000,
+    "avgDealSize": 49750,
+    "hidden": true,
+    "hygiene": {
+      "score": 75,
+      "totalDeals": 4,
+      "flagged": 1,
+      "stuck": 0,
+      "lowMissing": 1,
+      "overdue": 1,
+      "critical": 1,
+      "topIssue": "25% of deals have overdue close dates. 1 deals with low or missing amounts."
+    }
+  },
+  {
+    "name": "Curtis Knievel",
+    "team": "Knievel",
+    "manager": "Michael Byrd",
+    "quota": 4268375,
+    "marchQuota": 410410,
+    "q1Quota": 1235330,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 554400,
+    "deals": 6,
+    "pipelineOpps": 6,
+    "sfMeetings": 11,
+    "techDemos": 0,
+    "siteVisits": 0,
+    "totalMeetings": 11,
+    "pipelineValue": 3087500,
+    "avgDealSize": 514583,
+    "hidden": true,
+    "hygiene": {
+      "score": 67,
+      "totalDeals": 6,
+      "flagged": 2,
+      "stuck": 2,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "33% of deals aged beyond stage threshold."
     }
   }
-}
+]
