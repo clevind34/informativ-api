@@ -1,23 +1,930 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Informativ API Gateway</title>
-    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-    <style>
-        body { font-family: 'Segoe UI', system-ui, sans-serif; background: #0a1628; color: #e2e8f0; display: flex; align-items: center; justify-content: center; min-height: 100vh; margin: 0; }
-        .card { background: #1a2744; border-radius: 12px; padding: 48px; max-width: 480px; text-align: center; box-shadow: 0 8px 32px rgba(0,0,0,0.3); }
-        h1 { font-size: 24px; margin: 0 0 8px; color: #fff; }
-        .badge { display: inline-block; background: #065f46; color: #6ee7b7; padding: 4px 12px; border-radius: 20px; font-size: 12px; font-weight: 600; letter-spacing: 0.05em; margin-bottom: 24px; }
-        p { color: #94a3b8; font-size: 14px; line-height: 1.6; margin: 0; }
-    </style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informativ Platform</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;1,9..40,400&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      /* ── Informativ Brand Palette ── */
+      --navy:       #002757;   /* Primary navy */
+      --purple:     #6627E8;   /* Brand purple */
+      --purple-lt:  #953CF5;   /* Light purple */
+      --purple-pk:  #D946EF;   /* Magenta-pink */
+
+      /* ── Surface ── */
+      --bg:         #001B3D;   /* Deep navy background */
+      --bg-card:    #002050;   /* Card surface */
+      --bg-card-h:  #002D6E;   /* Card hover */
+      --border:     rgba(0,120,255,0.10);
+      --border-h:   rgba(102,39,232,0.45);
+
+      /* ── Text ── */
+      --text:       #E2ECFF;
+      --text-sub:   #7A9AC0;
+      --text-dim:   #3A5578;
+
+      /* ── Status ── */
+      --green:      #1DB87B;
+      --red:        #E05252;
+
+      /* ── ELT/Executive gold (premium distinction) ── */
+      --gold:       #C49A3C;
+      --gold-lt:    #E0BC64;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { font-size: 16px; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      overflow-x: hidden;
+      /* Subtle diagonal grid texture */
+      background-image:
+        linear-gradient(135deg, rgba(0,39,87,0.6) 0%, rgba(1,27,61,0.8) 100%);
+      /* Subtle noise-like dot grid */
+      background-image: radial-gradient(rgba(102,39,232,0.08) 1px, transparent 1px);
+      background-size: 28px 28px;
+      background-size: 64px 64px;
+    }
+
+    /* ── LOGIN OVERLAY ────────────────────────────────── */
+    #identity-overlay {
+      position: fixed; inset: 0;
+      background: rgba(5,16,30,0.96);
+      backdrop-filter: blur(8px);
+      z-index: 9999;
+      display: flex; align-items: center; justify-content: center;
+    }
+
+    .login-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 20px;
+      padding: 48px 44px;
+      max-width: 420px; width: 90%;
+      box-shadow: 0 32px 80px rgba(0,0,0,0.5), 0 0 0 1px rgba(102,39,232,0.12);
+    }
+
+    .login-logo {
+      display: flex; align-items: center; gap: 10px;
+      margin-bottom: 32px;
+    }
+    .login-logo-mark {
+      width: 36px; height: 36px;
+      background: linear-gradient(135deg, var(--purple) 0%, var(--purple-pk) 100%);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .login-logo-mark svg { width: 20px; height: 20px; }
+    .login-logo-text {
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600; font-size: 16px;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .login-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem; font-weight: 300;
+      color: var(--text); line-height: 1.2;
+      margin-bottom: 6px;
+    }
+    .login-subtitle {
+      font-size: 13px; color: var(--text-sub);
+      margin-bottom: 28px; line-height: 1.5;
+    }
+
+    .form-group { margin-bottom: 14px; }
+    .form-group label {
+      display: block; font-size: 11px; font-weight: 500;
+      text-transform: uppercase; letter-spacing: 0.1em;
+      color: var(--text-sub); margin-bottom: 6px;
+    }
+    .form-group input {
+      width: 100%; padding: 12px 14px;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      color: var(--text); font-family: 'DM Sans', sans-serif;
+      font-size: 15px; outline: none;
+      transition: border-color 0.2s, background 0.2s;
+    }
+    .form-group input:focus {
+      border-color: var(--purple);
+      background: rgba(102,39,232,0.06);
+    }
+    .form-group input::placeholder { color: var(--text-dim); }
+
+    #identity-error {
+      display: none;
+      background: rgba(224,82,82,0.1);
+      border: 1px solid rgba(224,82,82,0.3);
+      border-radius: 8px; padding: 10px 12px;
+      font-size: 13px; color: #F87171;
+      margin-bottom: 14px; line-height: 1.4;
+    }
+    #identity-reset-msg, #identity-newpw-msg {
+      display: none;
+      border-radius: 8px; padding: 10px 12px;
+      font-size: 13px; margin-bottom: 14px; line-height: 1.4;
+    }
+
+    .btn-primary {
+      width: 100%; padding: 13px;
+      background: linear-gradient(135deg, var(--purple) 0%, var(--purple-pk) 100%);
+      border: none; border-radius: 10px;
+      color: #fff; font-family: 'DM Sans', sans-serif;
+      font-size: 15px; font-weight: 500;
+      cursor: pointer; transition: opacity 0.15s, transform 0.1s;
+      letter-spacing: 0.02em;
+    }
+    .btn-primary:hover { opacity: 0.9; transform: translateY(-1px); }
+    .btn-primary:active { transform: translateY(0); }
+    .btn-primary:disabled { opacity: 0.5; cursor: not-allowed; transform: none; }
+
+    .login-forgot {
+      display: block; text-align: center;
+      margin-top: 14px; font-size: 13px;
+      color: var(--text-sub); cursor: pointer;
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    .login-forgot:hover { color: var(--purple-lt); }
+
+    /* ── APP SHELL ────────────────────────────────────── */
+    #app { display: none; min-height: 100vh; }
+
+    header {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(5,16,30,0.85);
+      backdrop-filter: blur(16px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 32px;
+      height: 60px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+
+    .header-logo {
+      display: flex; align-items: center; gap: 10px;
+      text-decoration: none;
+    }
+    .header-logo-mark {
+      width: 30px; height: 30px;
+      background: linear-gradient(135deg, var(--purple) 0%, var(--purple-pk) 100%);
+      border-radius: 8px;
+      display: flex; align-items: center; justify-content: center;
+    }
+    .header-logo-mark svg { width: 17px; height: 17px; }
+    .header-wordmark {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 14px; font-weight: 600;
+      letter-spacing: 0.08em; text-transform: uppercase;
+      color: var(--text);
+    }
+
+    .header-right { display: flex; align-items: center; gap: 14px; }
+
+    .user-pill {
+      display: flex; align-items: center; gap: 8px;
+      padding: 5px 12px 5px 5px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 100px; cursor: default;
+    }
+    .user-avatar {
+      width: 26px; height: 26px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--purple), var(--purple-pk));
+      display: flex; align-items: center; justify-content: center;
+      font-size: 11px; font-weight: 600; color: #fff;
+      letter-spacing: 0.02em;
+    }
+    .user-name { font-size: 13px; color: var(--text); }
+    .user-role-badge {
+      font-size: 10px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 2px 7px; border-radius: 100px;
+    }
+    .role-admin { background: rgba(196,154,60,0.15); color: var(--gold-lt); }
+    .role-elt   { background: rgba(196,154,60,0.15); color: var(--gold-lt); }
+    .role-manager { background: rgba(102,39,232,0.15); color: var(--purple-lt); }
+    .role-rep   { background: rgba(29,184,123,0.12); color: #34D399; }
+    .role-cs    { background: rgba(59,130,246,0.12); color: #60A5FA; }
+
+    .btn-logout {
+      padding: 6px 14px;
+      background: transparent;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      color: var(--text-sub); font-family: 'DM Sans', sans-serif;
+      font-size: 13px; cursor: pointer;
+      transition: border-color 0.15s, color 0.15s;
+    }
+    .btn-logout:hover { border-color: var(--red); color: var(--red); }
+
+    /* ── MAIN CONTENT ─────────────────────────────────── */
+    main {
+      max-width: 1160px;
+      margin: 0 auto;
+      padding: 60px 32px 80px;
+    }
+
+    .page-header { margin-bottom: 48px; }
+
+    .welcome-eyebrow {
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.12em; color: var(--purple-lt);
+      margin-bottom: 10px;
+    }
+
+    .welcome-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 4vw, 3.2rem);
+      font-weight: 300; line-height: 1.15;
+      color: var(--text);
+      margin-bottom: 12px;
+    }
+    .welcome-title em {
+      font-style: italic;
+      color: var(--purple-pk);
+    }
+
+    .welcome-sub {
+      font-size: 15px; color: var(--text-sub); line-height: 1.6;
+      max-width: 520px;
+    }
+
+    .section-label {
+      font-size: 11px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.1em; color: var(--text-dim);
+      margin-bottom: 20px;
+      display: flex; align-items: center; gap: 10px;
+    }
+    .section-label::after {
+      content: ''; flex: 1;
+      height: 1px; background: var(--border);
+    }
+
+    /* ── DASHBOARD GRID ───────────────────────────────── */
+    #dashboard-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 18px;
+    }
+
+    @media (max-width: 1024px) {
+      #dashboard-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      #dashboard-grid { grid-template-columns: 1fr; }
+      main { padding: 40px 20px 60px; }
+      header { padding: 0 20px; }
+    }
+
+    .dash-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 26px 24px 22px;
+      display: flex; flex-direction: column;
+      gap: 14px;
+      cursor: pointer;
+      text-decoration: none;
+      transition: background 0.2s, border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+      opacity: 0;
+      transform: translateY(16px);
+      animation: cardIn 0.45s ease forwards;
+    }
+    .dash-card:hover {
+      background: var(--bg-card-h);
+      border-color: var(--border-h);
+      transform: translateY(-3px);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.3), 0 0 0 1px rgba(149,60,245,0.2);
+    }
+
+    @keyframes cardIn {
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .card-top {
+      display: flex; align-items: flex-start;
+      justify-content: space-between;
+    }
+    .card-icon {
+      width: 44px; height: 44px;
+      border-radius: 12px;
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0;
+    }
+    .card-icon svg { width: 22px; height: 22px; }
+
+    .card-badge {
+      font-size: 10px; font-weight: 600; text-transform: uppercase;
+      letter-spacing: 0.08em;
+      padding: 3px 9px; border-radius: 100px;
+    }
+    .badge-executive { background: rgba(196,154,60,0.14); color: var(--gold-lt); }
+    .badge-leadership { background: rgba(102,39,232,0.14); color: var(--purple-lt); }
+    .badge-sales      { background: rgba(29,184,123,0.12); color: #34D399; }
+    .badge-field      { background: rgba(251,146,60,0.12); color: #FB923C; }
+    .badge-ai         { background: rgba(59,130,246,0.12); color: #60A5FA; }
+    .badge-cs         { background: rgba(236,72,153,0.12); color: #F472B6; }
+
+    .card-body { flex: 1; }
+    .card-name {
+      font-family: 'DM Sans', sans-serif;
+      font-size: 16px; font-weight: 500;
+      color: var(--text); margin-bottom: 6px;
+      line-height: 1.3;
+    }
+    .card-desc {
+      font-size: 13px; color: var(--text-sub);
+      line-height: 1.55;
+    }
+
+    .card-footer {
+      display: flex; align-items: center; justify-content: space-between;
+      padding-top: 12px;
+      border-top: 1px solid var(--border);
+    }
+    .card-url {
+      font-size: 11px; color: var(--text-dim);
+      font-family: 'DM Sans', sans-serif;
+      letter-spacing: 0.01em;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+      max-width: 200px;
+    }
+    .card-arrow {
+      width: 28px; height: 28px;
+      border-radius: 50%;
+      background: rgba(102,39,232,0.12);
+      display: flex; align-items: center; justify-content: center;
+      flex-shrink: 0; margin-left: 8px;
+      transition: background 0.15s;
+    }
+    .dash-card:hover .card-arrow {
+      background: var(--purple);
+    }
+    .card-arrow svg { width: 14px; height: 14px; }
+
+    /* ── EMPTY STATE ──────────────────────────────────── */
+    #no-access {
+      display: none; text-align: center;
+      padding: 80px 20px;
+    }
+    #no-access h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem; font-weight: 300;
+      color: var(--text); margin-bottom: 10px;
+    }
+    #no-access p { font-size: 14px; color: var(--text-sub); }
+
+    /* ── FOOTER ───────────────────────────────────────── */
+    footer {
+      text-align: center; padding: 20px;
+      font-size: 11px; color: var(--text-dim);
+      border-top: 1px solid var(--border);
+    }
+  </style>
 </head>
 <body>
-    <div class="card">
-        <h1>Informativ API Gateway</h1>
-        <span class="badge">OPERATIONAL</span>
-        <p>Unified serverless API serving all Informativ platform tools.<br>16 endpoints across 6 domains.</p>
+
+<!-- ══════════════════════════════════════════════
+     LOGIN OVERLAY (rendered at parse time)
+═══════════════════════════════════════════════ -->
+<div id="identity-overlay">
+  <div class="login-card">
+    <div class="login-logo">
+      <div class="login-logo-mark">
+        <svg viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round">
+          <circle cx="10" cy="10" r="3"/><path d="M10 3v2M10 15v2M3 10h2M15 10h2"/>
+          <path d="M5.6 5.6l1.4 1.4M13 13l1.4 1.4M5.6 14.4l1.4-1.4M13 7l1.4-1.4"/>
+        </svg>
+      </div>
+      <span class="login-logo-text">Informativ</span>
     </div>
+
+    <!-- LOGIN VIEW -->
+    <div id="identity-login-view">
+      <h2 class="login-title">Welcome back.</h2>
+      <p class="login-subtitle">Sign in to access your dashboards and analytics platform.</p>
+
+      <div class="form-group">
+        <label for="identity-email">Email address</label>
+        <input id="identity-email" type="email" placeholder="you@informativ.com" autocomplete="email">
+      </div>
+      <div class="form-group">
+        <label for="identity-password">Password</label>
+        <input id="identity-password" type="password" placeholder="••••••••" autocomplete="current-password">
+      </div>
+
+      <div id="identity-error"></div>
+
+      <button class="btn-primary" id="identity-login-btn">Sign In</button>
+      <a class="login-forgot" id="identity-forgot-link">Forgot password?</a>
+    </div>
+
+    <!-- RESET VIEW -->
+    <div id="identity-reset-view" style="display:none">
+      <h2 class="login-title">Reset password.</h2>
+      <p class="login-subtitle">Enter your email and we'll send a reset link.</p>
+
+      <div class="form-group">
+        <label for="identity-reset-email">Email address</label>
+        <input id="identity-reset-email" type="email" placeholder="you@informativ.com" autocomplete="email">
+      </div>
+
+      <div id="identity-reset-msg"></div>
+      <button class="btn-primary" id="identity-reset-btn">Send Reset Email</button>
+      <a class="login-forgot" id="identity-back-link">Back to sign in</a>
+    </div>
+
+    <!-- NEW PASSWORD VIEW (recovery token) -->
+    <div id="identity-newpw-view" style="display:none">
+      <h2 class="login-title">Set new password.</h2>
+      <p class="login-subtitle">Choose a strong password for your account.</p>
+
+      <div class="form-group">
+        <label for="identity-new-password">New password</label>
+        <input id="identity-new-password" type="password" placeholder="••••••••" autocomplete="new-password">
+      </div>
+      <div class="form-group">
+        <label for="identity-new-password2">Confirm password</label>
+        <input id="identity-new-password2" type="password" placeholder="••••••••" autocomplete="new-password">
+      </div>
+
+      <div id="identity-newpw-msg"></div>
+      <button class="btn-primary" id="identity-newpw-btn">Set New Password</button>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════════════════════════════════════
+     MAIN APP SHELL (hidden until authenticated)
+═══════════════════════════════════════════════ -->
+<div id="app">
+  <header>
+    <a class="header-logo" href="/">
+      <div class="header-logo-mark">
+        <svg viewBox="0 0 20 20" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round">
+          <circle cx="10" cy="10" r="3"/><path d="M10 3v2M10 15v2M3 10h2M15 10h2"/>
+          <path d="M5.6 5.6l1.4 1.4M13 13l1.4 1.4M5.6 14.4l1.4-1.4M13 7l1.4-1.4"/>
+        </svg>
+      </div>
+      <span class="header-wordmark">Informativ</span>
+    </a>
+    <div class="header-right">
+      <div class="user-pill" id="user-pill" style="display:none">
+        <div class="user-avatar" id="user-avatar"></div>
+        <span class="user-name" id="user-name-display"></span>
+        <span class="user-role-badge" id="user-role-display"></span>
+      </div>
+      <button class="btn-logout" id="logout-btn">Sign out</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="page-header">
+      <p class="welcome-eyebrow">Informativ Intelligence Platform</p>
+      <h1 class="welcome-title">Good to see you, <em id="welcome-name">—</em></h1>
+      <p class="welcome-sub" id="welcome-sub">Select a platform below. Your access is based on your assigned role.</p>
+    </div>
+
+    <p class="section-label">Your dashboards</p>
+
+    <div id="dashboard-grid"></div>
+    <div id="no-access">
+      <h3>No dashboards available</h3>
+      <p>Contact Michael Byrd or your administrator to request access.</p>
+    </div>
+  </main>
+
+  <footer>
+    Informativ &nbsp;·&nbsp; All rights reserved &nbsp;·&nbsp; API Gateway v2.0
+  </footer>
+</div>
+
+<script>
+(function() {
+  var GOTRUE = 'https://informativ-sales-api.netlify.app/.netlify/identity';
+
+  /* ── DASHBOARD DEFINITIONS ───────────────────── */
+  var DASHBOARDS = [
+    {
+      id: 'management',
+      name: 'Management Dashboard',
+      url: 'https://informativsalesdash.netlify.app',
+      desc: 'Sales performance, rep trajectory, coaching effectiveness & forecasting',
+      roles: ['admin', 'elt', 'manager'],
+      badge: 'leadership', badgeLabel: 'Leadership',
+      color: '#953CF5', colorBg: 'rgba(0,39,87,0.25)',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 3v18h18"/><path d="M7 16l4-4 4 4 4-7"/></svg>'
+    },
+    {
+      id: 'elt-kpi',
+      name: 'ELT KPI Dashboard',
+      url: 'https://informativ-elt-kpi.netlify.app',
+      desc: 'Board-level KPIs across all 8 business functions — Sales, Finance, Operations & more',
+      roles: ['admin', 'elt'],
+      badge: 'executive', badgeLabel: 'Executive',
+      color: '#C49A3C', colorBg: 'rgba(196,154,60,0.12)',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/></svg>'
+    },
+    {
+      id: 'sales-rep',
+      name: 'Sales Rep Dashboard',
+      url: 'https://informativrepdash.netlify.app',
+      desc: 'Individual rep performance, quota attainment, certifications & activity tracking',
+      roles: ['admin', 'elt', 'manager', 'rep'],
+      badge: 'sales', badgeLabel: 'Sales',
+      color: '#1DB87B', colorBg: 'rgba(29,184,123,0.10)',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>'
+    },
+    {
+      id: 'pie-desktop',
+      name: 'PIE — Prospect Intelligence',
+      url: 'https://prospecting-intelligence.netlify.app',
+      desc: 'Net-new and cross-sell prospect pipelines, affiliate leads, dealer intelligence & route planning',
+      roles: ['admin', 'elt', 'manager', 'rep'],
+      badge: 'field', badgeLabel: 'Field Sales',
+      color: '#FB923C', colorBg: 'rgba(251,146,60,0.10)',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>'
+    },
+    {
+      id: 'pie-mobile',
+      name: 'PIE Mobile',
+      url: 'https://pie-mobile.netlify.app',
+      desc: 'Field companion app — tap-to-call, activity logging, pricing calculator & daily route',
+      roles: ['admin', 'elt', 'manager', 'rep'],
+      badge: 'field', badgeLabel: 'Field Sales',
+      color: '#FB923C', colorBg: 'rgba(251,146,60,0.10)',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="2" width="14" height="20" rx="2" ry="2"/><line x1="12" y1="18" x2="12.01" y2="18"/></svg>'
+    },
+    {
+      id: 'chuck',
+      name: 'Chuck — AI Sales Coach',
+      url: 'https://informativchuck.netlify.app',
+      desc: 'AI-powered coaching, certification tracking, 1:1 prep & pricing intelligence for reps',
+      roles: ['admin', 'elt', 'manager', 'rep', 'cs'],
+      badge: 'ai', badgeLabel: 'AI Coach',
+      color: '#60A5FA', colorBg: 'rgba(59,130,246,0.10)',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>'
+    },
+    {
+      id: 'ci',
+      name: 'Customer Intelligence',
+      url: 'https://customer-intelligence-dashboard.netlify.app',
+      desc: 'Portfolio health scoring, margin analysis, guardrail impact, CPQ trend alerts & repricing',
+      roles: ['admin', 'elt', 'manager', 'cs'],
+      badge: 'cs', badgeLabel: 'Customer Success',
+      color: '#F472B6', colorBg: 'rgba(236,72,153,0.10)',
+      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>'
+    },
+  ];
+
+  /* ── ROLE LABELS ─────────────────────────────── */
+  var ROLE_LABELS = { admin: 'Admin', elt: 'ELT', manager: 'Director', rep: 'Sales Rep', cs: 'Customer Success' };
+
+  /* ── HELPER: show/hide views ─────────────────── */
+  function showView(v) {
+    ['login', 'reset', 'newpw'].forEach(function(n) {
+      var el = document.getElementById('identity-' + n + '-view');
+      if (el) el.style.display = (n === v ? 'block' : 'none');
+    });
+  }
+
+  function setMsg(id, text, isError) {
+    var el = document.getElementById(id);
+    if (!el) return;
+    el.textContent = text;
+    el.style.display = text ? 'block' : 'none';
+    el.style.background = isError ? 'rgba(224,82,82,0.1)' : 'rgba(29,184,123,0.1)';
+    el.style.border = '1px solid ' + (isError ? 'rgba(224,82,82,0.3)' : 'rgba(29,184,123,0.3)');
+    el.style.color = isError ? '#F87171' : '#34D399';
+  }
+
+  function setError(msg) {
+    var el = document.getElementById('identity-error');
+    if (!el) return;
+    el.textContent = msg; el.style.display = msg ? 'block' : 'none';
+  }
+
+  /* ── POST-LOGIN: render dashboard ────────────── */
+  function removeOverlay() {
+    var overlay = document.getElementById('identity-overlay');
+    if (overlay) overlay.style.display = 'none';
+    var app = document.getElementById('app');
+    if (app) app.style.display = 'block';
+  }
+
+  function getTopRole(roles) {
+    if (!roles || !roles.length) return 'rep';
+    if (roles.includes('admin')) return 'admin';
+    if (roles.includes('elt')) return 'elt';
+    if (roles.includes('manager')) return 'manager';
+    if (roles.includes('cs')) return 'cs';
+    return 'rep';
+  }
+
+  function renderDashboards(user) {
+    var roles = user.roles || [];
+    var topRole = getTopRole(roles);
+    var firstName = (user.rep_name || user.email || '').split(' ')[0] || user.email;
+
+    // Update welcome text
+    var welcomeEl = document.getElementById('welcome-name');
+    if (welcomeEl) welcomeEl.textContent = firstName;
+
+    var subEl = document.getElementById('welcome-sub');
+    if (subEl && topRole === 'elt') {
+      subEl.textContent = 'Full executive access across all platforms and board-level analytics.';
+    } else if (subEl && topRole === 'admin') {
+      subEl.textContent = 'Full administrator access across all platforms.';
+    }
+
+    // Populate user pill
+    var avatarEl = document.getElementById('user-avatar');
+    var nameEl   = document.getElementById('user-name-display');
+    var roleEl   = document.getElementById('user-role-display');
+    var pillEl   = document.getElementById('user-pill');
+
+    if (avatarEl) avatarEl.textContent = firstName.substring(0,2).toUpperCase();
+    if (nameEl)   nameEl.textContent   = firstName;
+    if (roleEl) {
+      roleEl.textContent = ROLE_LABELS[topRole] || topRole;
+      roleEl.className = 'user-role-badge role-' + topRole;
+    }
+    if (pillEl) pillEl.style.display = 'flex';
+
+    // Filter dashboards by role
+    var accessible = DASHBOARDS.filter(function(d) {
+      return d.roles.some(function(r) { return roles.includes(r); });
+    });
+
+    var grid = document.getElementById('dashboard-grid');
+    var noAccess = document.getElementById('no-access');
+    if (!grid) return;
+
+    if (accessible.length === 0) {
+      grid.style.display = 'none';
+      if (noAccess) noAccess.style.display = 'block';
+      return;
+    }
+
+    grid.style.display = 'grid';
+    if (noAccess) noAccess.style.display = 'none';
+
+    grid.innerHTML = accessible.map(function(d, i) {
+      return [
+        '<a class="dash-card" href="' + d.url + '" target="_blank" rel="noopener"',
+        '   style="animation-delay:' + (i * 0.07) + 's">',
+        '  <div class="card-top">',
+        '    <div class="card-icon" style="background:' + d.colorBg + '; color:' + d.color + '">',
+        '      ' + d.icon,
+        '    </div>',
+        '    <span class="card-badge badge-' + d.badge + '">' + d.badgeLabel + '</span>',
+        '  </div>',
+        '  <div class="card-body">',
+        '    <div class="card-name">' + d.name + '</div>',
+        '    <div class="card-desc">' + d.desc + '</div>',
+        '  </div>',
+        '  <div class="card-footer">',
+        '    <span class="card-url">' + d.url.replace('https://', '') + '</span>',
+        '    <div class="card-arrow">',
+        '      <svg viewBox="0 0 14 14" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">',
+        '        <path d="M2 7h10M7 2l5 5-5 5"/>',
+        '      </svg>',
+        '    </div>',
+        '  </div>',
+        '</a>'
+      ].join('');
+    }).join('');
+  }
+
+  /* ── SESSION: check localStorage token ──────── */
+  function tryAutoLogin() {
+    try {
+      var stored = localStorage.getItem('informativ_identity');
+      if (!stored) return false;
+      var data = JSON.parse(stored);
+      if (!data.access_token || !data.expires_at) return false;
+      if (Date.now() > data.expires_at) {
+        localStorage.removeItem('informativ_identity');
+        return false;
+      }
+      // Valid session
+      window._identityToken = data.access_token;
+      window._identityUser  = data.user;
+      removeOverlay();
+      renderDashboards(data.user);
+      return true;
+    } catch(e) { return false; }
+  }
+
+  function saveSession(token, user, expiresIn) {
+    try {
+      localStorage.setItem('informativ_identity', JSON.stringify({
+        access_token: token,
+        user: user,
+        expires_at: Date.now() + ((expiresIn || 3600) * 1000),
+      }));
+    } catch(e) {}
+  }
+
+  /* ── INIT ────────────────────────────────────── */
+  function init() {
+    // 1. Check recovery token in URL hash
+    var hash = window.location.hash || '';
+    var recoveryMatch = hash.match(/recovery_token=([^&]+)/);
+    var recoveryToken = recoveryMatch ? recoveryMatch[1] : null;
+
+    if (recoveryToken) {
+      showView('newpw');
+      document.getElementById('identity-newpw-btn').addEventListener('click', function() {
+        var pw  = document.getElementById('identity-new-password').value.trim();
+        var pw2 = document.getElementById('identity-new-password2').value.trim();
+        if (!pw || pw.length < 8) {
+          setMsg('identity-newpw-msg', 'Password must be at least 8 characters.', true); return;
+        }
+        if (pw !== pw2) {
+          setMsg('identity-newpw-msg', 'Passwords do not match.', true); return;
+        }
+        var btn = document.getElementById('identity-newpw-btn');
+        btn.disabled = true; btn.textContent = 'Saving…';
+        fetch(GOTRUE + '/user', {
+          method: 'PUT',
+          headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + recoveryToken },
+          body: JSON.stringify({ password: pw }),
+        })
+        .then(function(r) { return r.json(); })
+        .then(function(d) {
+          if (d.id) {
+            setMsg('identity-newpw-msg', 'Password updated! Signing you in…', false);
+            // Auto-login after set
+            var emailToLogin = d.email;
+            fetch(GOTRUE + '/token', {
+              method: 'POST',
+              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+              body: 'grant_type=password&username=' + encodeURIComponent(emailToLogin) + '&password=' + encodeURIComponent(pw),
+            })
+            .then(function(r2) { return r2.json(); })
+            .then(function(d2) {
+              if (d2.access_token) {
+                completeLogin(d2);
+              } else {
+                showView('login');
+              }
+            });
+            history.replaceState(null, '', window.location.pathname);
+          } else {
+            setMsg('identity-newpw-msg', d.msg || 'Error setting password.', true);
+            btn.disabled = false; btn.textContent = 'Set New Password';
+          }
+        })
+        .catch(function() {
+          setMsg('identity-newpw-msg', 'Network error. Try again.', true);
+          btn.disabled = false; btn.textContent = 'Set New Password';
+        });
+      });
+      return;
+    }
+
+    // 2. Try auto-login from stored session
+    if (tryAutoLogin()) return;
+
+    // 3. Show login view
+    showView('login');
+
+    // Enter key support
+    ['identity-email','identity-password'].forEach(function(id) {
+      var el = document.getElementById(id);
+      if (el) el.addEventListener('keydown', function(e) {
+        if (e.key === 'Enter') document.getElementById('identity-login-btn').click();
+      });
+    });
+    var resetEl = document.getElementById('identity-reset-email');
+    if (resetEl) resetEl.addEventListener('keydown', function(e) {
+      if (e.key === 'Enter') document.getElementById('identity-reset-btn').click();
+    });
+
+    // Login
+    document.getElementById('identity-login-btn').addEventListener('click', function() {
+      var email = (document.getElementById('identity-email').value || '').trim();
+      var pw    = (document.getElementById('identity-password').value || '').trim();
+      if (!email || !pw) { setError('Please enter your email and password.'); return; }
+      setError('');
+      var btn = document.getElementById('identity-login-btn');
+      btn.disabled = true; btn.textContent = 'Signing in…';
+
+      fetch(GOTRUE + '/token', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+        body: 'grant_type=password&username=' + encodeURIComponent(email) + '&password=' + encodeURIComponent(pw),
+      })
+      .then(function(r) { return r.json(); })
+      .then(function(d) {
+        if (d.access_token) {
+          completeLogin(d);
+        } else {
+          var msg = (d.error_description || d.msg || 'Invalid email or password.');
+          setError(msg);
+          btn.disabled = false; btn.textContent = 'Sign In';
+        }
+      })
+      .catch(function() {
+        setError('Network error. Check your connection and try again.');
+        btn.disabled = false; btn.textContent = 'Sign In';
+      });
+    });
+
+    // Forgot password
+    document.getElementById('identity-forgot-link').addEventListener('click', function() {
+      setError(''); showView('reset');
+      var emailInput = document.getElementById('identity-reset-email');
+      var loginEmail = document.getElementById('identity-email').value;
+      if (emailInput && loginEmail) emailInput.value = loginEmail;
+    });
+
+    // Back link
+    document.getElementById('identity-back-link').addEventListener('click', function() {
+      setMsg('identity-reset-msg', '', false); showView('login');
+    });
+
+    // Send reset
+    document.getElementById('identity-reset-btn').addEventListener('click', function() {
+      var email = (document.getElementById('identity-reset-email').value || '').trim();
+      if (!email) { setMsg('identity-reset-msg', 'Enter your email address.', true); return; }
+      var btn = document.getElementById('identity-reset-btn');
+      btn.disabled = true; btn.textContent = 'Sending…';
+      fetch(GOTRUE + '/recover', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ email: email }),
+      })
+      .then(function() {
+        setMsg('identity-reset-msg', 'Reset email sent — check your inbox.', false);
+        btn.disabled = false; btn.textContent = 'Send Reset Email';
+      })
+      .catch(function() {
+        setMsg('identity-reset-msg', 'Error sending reset. Try again.', true);
+        btn.disabled = false; btn.textContent = 'Send Reset Email';
+      });
+    });
+
+    // Logout
+    document.getElementById('logout-btn').addEventListener('click', function() {
+      localStorage.removeItem('informativ_identity');
+      window._identityToken = null;
+      window._identityUser  = null;
+      document.getElementById('app').style.display = 'none';
+      document.getElementById('identity-overlay').style.display = 'flex';
+      showView('login');
+      document.getElementById('identity-password').value = '';
+      var btn = document.getElementById('identity-login-btn');
+      btn.disabled = false; btn.textContent = 'Sign In';
+    });
+  }
+
+  /* ── COMPLETE LOGIN ──────────────────────────── */
+  function completeLogin(data) {
+    var token = data.access_token;
+    var expires = data.expires_in || 3600;
+
+    // Parse JWT to get app_metadata
+    var payload = {};
+    try { payload = JSON.parse(atob(token.split('.')[1])); } catch(e) {}
+    var meta     = payload.app_metadata || {};
+    var userMeta = payload.user_metadata || {};
+    var roles    = meta.roles || [];
+    var team     = meta.team || null;
+    var repName  = meta.rep_name || userMeta.full_name || null;
+    var email    = data.user ? data.user.email : (payload.email || '');
+    var id       = payload.sub || '';
+
+    window._identityToken = token;
+    window._identityUser  = { email: email, id: id, roles: roles, team: team, rep_name: repName };
+
+    saveSession(token, window._identityUser, expires);
+    removeOverlay();
+    renderDashboards(window._identityUser);
+    window.dispatchEvent(new CustomEvent('identity:login', { detail: window._identityUser }));
+  }
+
+  // Run init on DOM ready
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
 </body>
 </html>

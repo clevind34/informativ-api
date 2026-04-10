@@ -15,12 +15,12 @@ const BASE_PATHS = [
 
 // Endpoints that require manager+ access (sensitive leadership data)
 const RESTRICTED_FILES = {
-  'trajectory.json': ['manager', 'admin'],
-  'coaching-intelligence.json': ['manager', 'admin'],
-  'calibration.json': ['manager', 'admin'],
-  'coaching-effectiveness.json': ['manager', 'admin'],
-  'selling-gm.json': ['manager', 'admin'],
-  'prospecting-effectiveness.json': ['manager', 'admin'],
+  'trajectory.json': ['manager', 'elt', 'admin'],
+  'coaching-intelligence.json': ['manager', 'elt', 'admin'],
+  'calibration.json': ['manager', 'elt', 'admin'],
+  'coaching-effectiveness.json': ['manager', 'elt', 'admin'],
+  'selling-gm.json': ['manager', 'elt', 'admin'],
+  'prospecting-effectiveness.json': ['manager', 'elt', 'admin'],
 };
 
 /**

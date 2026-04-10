@@ -7,7 +7,7 @@
 import { getUser } from './auth.mjs';
 
 // Role hierarchy — higher index = more access
-const ROLE_LEVEL = { rep: 1, cs: 1, manager: 2, admin: 3 };
+const ROLE_LEVEL = { rep: 1, cs: 1, manager: 2, elt: 3, admin: 3 };
 
 // Team membership for data scoping (manager → direct reports)
 const TEAM_MAP = {
@@ -97,8 +97,8 @@ export function requireRole(event, corsHeaders, ...allowedRoles) {
   const userRoles = user.roles || [];
   const hasRole = userRoles.some(r => allowedRoles.includes(r));
 
-  // Admin always passes
-  if (!hasRole && !userRoles.includes('admin')) {
+  // Admin and ELT always pass
+  if (!hasRole && !userRoles.includes('admin') && !userRoles.includes('elt')) {
     return {
       statusCode: 403,
       headers: { 'Content-Type': 'application/json', ...corsHeaders },
@@ -135,7 +135,12 @@ export function getDataScope(event) {
   const repName = user.rep_name || EMAIL_TO_REP[email] || null;
   const team = repName ? REP_TEAM[repName] || null : null;
 
-  // Admin or C-suite management: full access
+  // Admin or ELT (C-suite): full access to all dashboards
+  if (roles.includes('elt')) {
+    return { scope: 'all', rep_name: repName, team, reports: null };
+  }
+
+  // Admin: full access
   if (roles.includes('admin')) {
     return { scope: 'all', rep_name: repName, team, reports: null };
   }

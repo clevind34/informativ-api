@@ -21,9 +21,9 @@ const USERS = [
   { email: 'cbyrd@informativ.com', roles: ['admin'], rep_name: 'Carson Byrd', team: null },
 
   // Management (7)
-  { email: 'dcarner@informativ.com', roles: ['manager'], rep_name: 'David Carner', team: null },
-  { email: 'klang@informativ.com', roles: ['manager'], rep_name: 'Kimberly Lang', team: null },
-  { email: 'nbrignola@informativ.com', roles: ['manager'], rep_name: 'Nick Brignola', team: null },
+  { email: 'dcarner@informativ.com', roles: ['elt'], rep_name: 'David Carner', team: null },
+  { email: 'klang@informativ.com', roles: ['elt'], rep_name: 'Kimberly Lang', team: null },
+  { email: 'nbrignola@informativ.com', roles: ['elt'], rep_name: 'Nick Brignola', team: null },
   { email: 'tbordenet@informativ.com', roles: ['manager'], rep_name: 'Teresa Bordenet', team: 'Bordenet' },
   { email: 'jcarlucci@informativ.com', roles: ['manager'], rep_name: 'Joel Carlucci', team: 'Carlucci' },
   { email: 'cknievel@informativ.com', roles: ['manager'], rep_name: 'Curtis Knievel', team: 'Knievel' },
