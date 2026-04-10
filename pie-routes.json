@@ -49,7 +49,24 @@
       "tuesday": [],
       "wednesday": [],
       "thursday": [],
-      "friday": []
+      "friday": [
+        {
+          "id": "bbee444efc7d6dc2",
+          "co": "Warren Henry Automobiles",
+          "cn": "Andrew Kipnis",
+          "ph": "(855) 678-4869",
+          "em": "akipnis@warrenhenryauto.com",
+          "city": "Miami",
+          "st": "FL",
+          "addr": "",
+          "lat": null,
+          "lng": null,
+          "checkedIn": false,
+          "checkInTime": null,
+          "checkOutTime": null,
+          "added_at": "2026-04-10T22:44:41.022Z"
+        }
+      ]
     },
     "Carol Sanford": {
       "monday": [],
@@ -92,5 +109,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-10T17:49:45.087Z"
+  "last_modified": "2026-04-10T22:44:41.022Z"
 }
