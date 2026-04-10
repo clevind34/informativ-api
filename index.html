@@ -823,14 +823,29 @@
 
   /* ── INIT ────────────────────────────────────── */
   function init() {
-    // 1. Check recovery token in URL hash
+    // 1. Check special tokens in URL hash (invite or recovery)
     var hash = window.location.hash || '';
-    var recoveryMatch = hash.match(/recovery_token=([^&]+)/);
-    var recoveryToken = recoveryMatch ? recoveryMatch[1] : null;
+    var recoveryMatch = hash.match(/[#&]recovery_token=([^&]+)/);
+    var inviteMatch   = hash.match(/[#&]invite_token=([^&]+)/);
+    var recoveryToken = recoveryMatch ? decodeURIComponent(recoveryMatch[1]) : null;
+    var inviteToken   = inviteMatch   ? decodeURIComponent(inviteMatch[1])   : null;
+    var specialToken  = inviteToken || recoveryToken;
 
-    if (recoveryToken) {
+    if (specialToken) {
+      // Customise heading for first-time invite vs password reset
+      var titleEl    = document.querySelector('#identity-newpw-view .login-title');
+      var subtitleEl = document.querySelector('#identity-newpw-view .login-subtitle');
+      var btnEl      = document.getElementById('identity-newpw-btn');
+      if (inviteToken) {
+        if (titleEl)    titleEl.textContent    = 'Welcome to Informativ.';
+        if (subtitleEl) subtitleEl.textContent = 'Set a password to activate your account.';
+        if (btnEl)      btnEl.textContent      = 'Set Password & Sign In';
+      }
       showView('newpw');
-      document.getElementById('identity-newpw-btn').addEventListener('click', function() {
+      // Remove token from URL bar immediately (cleaner UX)
+      history.replaceState(null, '', window.location.pathname);
+
+      document.getElementById('identity-newpw-btn').onclick = function() {
         var pw  = document.getElementById('identity-new-password').value.trim();
         var pw2 = document.getElementById('identity-new-password2').value.trim();
         if (!pw || pw.length < 8) {
@@ -843,14 +858,13 @@
         btn.disabled = true; btn.textContent = 'Saving…';
         fetch(GOTRUE + '/user', {
           method: 'PUT',
-          headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + recoveryToken },
+          headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + specialToken },
           body: JSON.stringify({ password: pw }),
         })
         .then(function(r) { return r.json(); })
         .then(function(d) {
           if (d.id) {
-            setMsg('identity-newpw-msg', 'Password updated! Signing you in…', false);
-            // Auto-login after set
+            setMsg('identity-newpw-msg', 'Password set! Signing you in…', false);
             var emailToLogin = d.email;
             fetch(GOTRUE + '/token', {
               method: 'POST',
@@ -865,47 +879,46 @@
                 showView('login');
               }
             });
-            history.replaceState(null, '', window.location.pathname);
           } else {
-            setMsg('identity-newpw-msg', d.msg || 'Error setting password.', true);
-            btn.disabled = false; btn.textContent = 'Set New Password';
+            setMsg('identity-newpw-msg', d.msg || 'Link expired — request a new one.', true);
+            btn.disabled = false; btn.textContent = inviteToken ? 'Set Password & Sign In' : 'Set New Password';
           }
         })
         .catch(function() {
           setMsg('identity-newpw-msg', 'Network error. Try again.', true);
-          btn.disabled = false; btn.textContent = 'Set New Password';
+          btn.disabled = false; btn.textContent = inviteToken ? 'Set Password & Sign In' : 'Set New Password';
         });
-      });
+      };
       return;
     }
 
     // 2. Try auto-login from stored session
     if (tryAutoLogin()) return;
 
-    // 3. Show login view
+    // 3. Show login view — use onclick (replaces any prior handler, safe for repeated init() calls)
     showView('login');
+    setError('');
 
     // Enter key support
     ['identity-email','identity-password'].forEach(function(id) {
       var el = document.getElementById(id);
-      if (el) el.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter') document.getElementById('identity-login-btn').click();
-      });
+      if (el) el.onkeydown = function(e) {
+        if (e.key === 'Enter') { var btn = document.getElementById('identity-login-btn'); if (btn) btn.click(); }
+      };
     });
     var resetEl = document.getElementById('identity-reset-email');
-    if (resetEl) resetEl.addEventListener('keydown', function(e) {
-      if (e.key === 'Enter') document.getElementById('identity-reset-btn').click();
-    });
+    if (resetEl) resetEl.onkeydown = function(e) {
+      if (e.key === 'Enter') { var btn = document.getElementById('identity-reset-btn'); if (btn) btn.click(); }
+    };
 
-    // Login
-    document.getElementById('identity-login-btn').addEventListener('click', function() {
+    // Login button
+    var loginBtn = document.getElementById('identity-login-btn');
+    if (loginBtn) loginBtn.onclick = function() {
       var email = (document.getElementById('identity-email').value || '').trim();
       var pw    = (document.getElementById('identity-password').value || '').trim();
       if (!email || !pw) { setError('Please enter your email and password.'); return; }
       setError('');
-      var btn = document.getElementById('identity-login-btn');
-      btn.disabled = true; btn.textContent = 'Signing in…';
-
+      loginBtn.disabled = true; loginBtn.textContent = 'Signing in…';
       fetch(GOTRUE + '/token', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -916,36 +929,37 @@
         if (d.access_token) {
           completeLogin(d);
         } else {
-          var msg = (d.error_description || d.msg || 'Invalid email or password.');
-          setError(msg);
-          btn.disabled = false; btn.textContent = 'Sign In';
+          setError(d.error_description || d.msg || 'Invalid email or password.');
+          loginBtn.disabled = false; loginBtn.textContent = 'Sign In';
         }
       })
       .catch(function() {
         setError('Network error. Check your connection and try again.');
-        btn.disabled = false; btn.textContent = 'Sign In';
+        loginBtn.disabled = false; loginBtn.textContent = 'Sign In';
       });
-    });
+    };
 
     // Forgot password
-    document.getElementById('identity-forgot-link').addEventListener('click', function() {
+    var forgotLink = document.getElementById('identity-forgot-link');
+    if (forgotLink) forgotLink.onclick = function() {
       setError(''); showView('reset');
       var emailInput = document.getElementById('identity-reset-email');
-      var loginEmail = document.getElementById('identity-email').value;
+      var loginEmail = (document.getElementById('identity-email') || {}).value;
       if (emailInput && loginEmail) emailInput.value = loginEmail;
-    });
+    };
 
     // Back link
-    document.getElementById('identity-back-link').addEventListener('click', function() {
+    var backLink = document.getElementById('identity-back-link');
+    if (backLink) backLink.onclick = function() {
       setMsg('identity-reset-msg', '', false); showView('login');
-    });
+    };
 
     // Send reset
-    document.getElementById('identity-reset-btn').addEventListener('click', function() {
+    var resetBtn = document.getElementById('identity-reset-btn');
+    if (resetBtn) resetBtn.onclick = function() {
       var email = (document.getElementById('identity-reset-email').value || '').trim();
       if (!email) { setMsg('identity-reset-msg', 'Enter your email address.', true); return; }
-      var btn = document.getElementById('identity-reset-btn');
-      btn.disabled = true; btn.textContent = 'Sending…';
+      resetBtn.disabled = true; resetBtn.textContent = 'Sending…';
       fetch(GOTRUE + '/recover', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -953,15 +967,13 @@
       })
       .then(function() {
         setMsg('identity-reset-msg', 'Reset email sent — check your inbox.', false);
-        btn.disabled = false; btn.textContent = 'Send Reset Email';
+        resetBtn.disabled = false; resetBtn.textContent = 'Send Reset Email';
       })
       .catch(function() {
         setMsg('identity-reset-msg', 'Error sending reset. Try again.', true);
-        btn.disabled = false; btn.textContent = 'Send Reset Email';
+        resetBtn.disabled = false; resetBtn.textContent = 'Send Reset Email';
       });
-    });
-
-    // Logout is handled by bindLogout() which runs regardless of auto-login
+    };
   }
 
   /* ── COMPLETE LOGIN ──────────────────────────── */
@@ -998,46 +1010,35 @@
   function bindLogout() {
     var logoutBtn = document.getElementById('logout-btn');
     if (!logoutBtn) return;
-    logoutBtn.addEventListener('click', function() {
+    logoutBtn.onclick = function() {
       // Clear session
       localStorage.removeItem('informativ_identity');
       window._identityToken = null;
       window._identityUser  = null;
 
-      // Show overlay, hide app
+      // Hide app shell, clear grid, hide pill
       var app = document.getElementById('app');
-      var overlay = document.getElementById('identity-overlay');
       if (app) app.style.display = 'none';
-      if (overlay) overlay.style.display = 'flex';
-
-      // Reset to login view (inline — showView is scoped inside init())
-      ['login','reset','newpw'].forEach(function(n) {
-        var el = document.getElementById('identity-' + n + '-view');
-        if (el) el.style.display = (n === 'login' ? 'block' : 'none');
-      });
-
-      // Clear form fields and errors
-      var pwEl  = document.getElementById('identity-password');
-      var emEl  = document.getElementById('identity-email');
-      var errEl = document.getElementById('identity-error');
-      if (pwEl)  pwEl.value = '';
-      if (emEl)  emEl.value = '';
-      if (errEl) { errEl.textContent = ''; errEl.style.display = 'none'; }
-
-      // Re-enable Sign In button
-      var btn = document.getElementById('identity-login-btn');
-      if (btn) { btn.disabled = false; btn.textContent = 'Sign In'; }
-
-      // Hide user pill
-      var pill = document.getElementById('user-pill');
-      if (pill) pill.style.display = 'none';
-
-      // Remove any stale dashboard grid so it re-renders on next login
       var grid = document.getElementById('dashboard-grid');
       if (grid) grid.innerHTML = '';
       var noAccess = document.getElementById('no-access');
       if (noAccess) noAccess.style.display = 'none';
-    });
+      var pill = document.getElementById('user-pill');
+      if (pill) pill.style.display = 'none';
+
+      // Clear form fields
+      var pwEl  = document.getElementById('identity-password');
+      var emEl  = document.getElementById('identity-email');
+      if (pwEl)  pwEl.value = '';
+      if (emEl)  emEl.value = '';
+
+      // Show overlay
+      var overlay = document.getElementById('identity-overlay');
+      if (overlay) overlay.style.display = 'flex';
+
+      // Re-run init() — re-attaches handlers cleanly via onclick assignment
+      init();
+    };
   }
 
   // Run init on DOM ready
