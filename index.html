@@ -856,33 +856,50 @@
         }
         var btn = document.getElementById('identity-newpw-btn');
         btn.disabled = true; btn.textContent = 'Saving…';
-        fetch(GOTRUE + '/user', {
-          method: 'PUT',
-          headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + specialToken },
-          body: JSON.stringify({ password: pw }),
+        // Step 1: Verify the token to get a real access_token (recovery/invite tokens are short codes, not JWTs)
+        var verifyType = inviteToken ? 'signup' : 'recovery';
+        fetch(GOTRUE + '/verify', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ type: verifyType, token: specialToken }),
         })
         .then(function(r) { return r.json(); })
-        .then(function(d) {
-          if (d.id) {
-            setMsg('identity-newpw-msg', 'Password set! Signing you in…', false);
-            var emailToLogin = d.email;
-            fetch(GOTRUE + '/token', {
-              method: 'POST',
-              headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
-              body: 'grant_type=password&username=' + encodeURIComponent(emailToLogin) + '&password=' + encodeURIComponent(pw),
-            })
-            .then(function(r2) { return r2.json(); })
-            .then(function(d2) {
-              if (d2.access_token) {
-                completeLogin(d2);
-              } else {
-                showView('login');
-              }
-            });
-          } else {
-            setMsg('identity-newpw-msg', d.msg || 'Link expired — request a new one.', true);
+        .then(function(session) {
+          if (!session.access_token) {
+            setMsg('identity-newpw-msg', session.msg || session.error_description || 'Link expired — request a new one from the login page.', true);
             btn.disabled = false; btn.textContent = inviteToken ? 'Set Password & Sign In' : 'Set New Password';
+            return;
           }
+          // Step 2: Use the verified access_token to set the password
+          fetch(GOTRUE + '/user', {
+            method: 'PUT',
+            headers: { 'Content-Type': 'application/json', 'Authorization': 'Bearer ' + session.access_token },
+            body: JSON.stringify({ password: pw }),
+          })
+          .then(function(r2) { return r2.json(); })
+          .then(function(d) {
+            if (d.id) {
+              setMsg('identity-newpw-msg', 'Password set! Signing you in…', false);
+              // Step 3: Auto-login with the new password
+              fetch(GOTRUE + '/token', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
+                body: 'grant_type=password&username=' + encodeURIComponent(d.email) + '&password=' + encodeURIComponent(pw),
+              })
+              .then(function(r3) { return r3.json(); })
+              .then(function(d3) {
+                if (d3.access_token) {
+                  completeLogin(d3);
+                } else {
+                  setMsg('identity-newpw-msg', 'Password set! You can now sign in.', false);
+                  showView('login');
+                }
+              });
+            } else {
+              setMsg('identity-newpw-msg', d.msg || 'Error setting password. Try again.', true);
+              btn.disabled = false; btn.textContent = inviteToken ? 'Set Password & Sign In' : 'Set New Password';
+            }
+          });
         })
         .catch(function() {
           setMsg('identity-newpw-msg', 'Network error. Try again.', true);
