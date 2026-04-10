@@ -117,12 +117,20 @@ export async function authenticateRequest(event) {
   const user = await validateJwt(event);
 
   if (user === false) {
-    // JWT was provided but invalid
-    return {
-      statusCode: 401,
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ error: 'Invalid or expired session. Please log in again.' }),
-    };
+    // JWT was provided but invalid — only hard-fail if no API key was provided.
+    // If API key is valid (proxy call), degrade gracefully to anonymous access
+    // so that expired browser JWTs don't break data loading.
+    const hasValidApiKey = process.env.API_KEY && ((event.headers || {})['x-api-key'] === process.env.API_KEY);
+    if (!hasValidApiKey) {
+      return {
+        statusCode: 401,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ error: 'Invalid or expired session. Please log in again.' }),
+      };
+    }
+    // API key present — treat as anonymous (no user identity, but authenticated proxy)
+    event._user = null;
+    return null;
   }
 
   // Attach user to event for downstream functions
