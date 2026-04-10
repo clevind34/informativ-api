@@ -17,8 +17,7 @@ const SITE_ID = 'ede190d6-244f-4a87-804b-493f76da9b04'; // informativ-sales-api
 const USERS = [
   // Admin (2)
   { email: 'mbyrd@informativ.com', roles: ['admin'], rep_name: 'Michael Byrd', team: null },
-  // Carson's email TBD — uncomment when ready:
-  // { email: 'carson@informativ.com', roles: ['admin'], rep_name: 'Carson', team: null },
+  { email: 'cbyrd@informativ.com', roles: ['admin'], rep_name: 'Carson Byrd', team: null },
 
   // Management (7)
   { email: 'dcarner@informativ.com', roles: ['manager'], rep_name: 'David Carner', team: null },

@@ -43,6 +43,7 @@ for (const [mgr, info] of Object.entries(TEAM_MAP)) {
 // Email → rep name mapping (for matching user identity to rep data)
 const EMAIL_TO_REP = {
   'mbyrd@informativ.com': 'Michael Byrd',
+  'cbyrd@informativ.com': 'Carson Byrd',
   'tbordenet@informativ.com': 'Teresa Bordenet',
   'jcarlucci@informativ.com': 'Joel Carlucci',
   'cknievel@informativ.com': 'Curtis Knievel',
