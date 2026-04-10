@@ -68,7 +68,7 @@ const EMAIL_TO_REP = {
   'kbutler@informativ.com': 'Kedrick Butler',
   'kfelder@informativ.com': 'Kelly Felder',
   'mmiller@informativ.com': 'Melissa Miller',
-  'rdoo@informativ.com': 'Robert Doo',
+  'eaikey@informativ.com': 'Esther Aikey',
   'rgomez@informativ.com': 'Ruby Gomez',
   'dcarner@informativ.com': 'David Carner',
   'klang@informativ.com': 'Kimberly Lang',
