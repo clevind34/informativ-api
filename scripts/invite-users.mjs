@@ -51,7 +51,7 @@ const USERS = [
   { email: 'kbutler@informativ.com', roles: ['cs'], rep_name: 'Kedrick Butler', team: 'CS' },
   { email: 'kfelder@informativ.com', roles: ['cs'], rep_name: 'Kelly Felder', team: 'CS' },
   { email: 'mmiller@informativ.com', roles: ['cs'], rep_name: 'Melissa Miller', team: 'CS' },
-  { email: 'rdoo@informativ.com', roles: ['cs'], rep_name: 'Robert Doo', team: 'CS' },
+  { email: 'eaikey@informativ.com', roles: ['cs'], rep_name: 'Esther Aikey', team: 'CS' },
   { email: 'rgomez@informativ.com', roles: ['cs'], rep_name: 'Ruby Gomez', team: 'CS' },
 ];
 
