@@ -50,9 +50,33 @@
       "wednesday": [],
       "thursday": [],
       "friday": []
+    },
+    "Carol Sanford": {
+      "monday": [],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [],
+      "friday": [
+        {
+          "id": "728ac4662e5d1959",
+          "co": "Kempton Chevrolet Buick",
+          "cn": "Kyle Kempton",
+          "ph": "9284280252",
+          "em": "boxk@vtc.net",
+          "city": "",
+          "st": "AZ",
+          "addr": "",
+          "lat": null,
+          "lng": null,
+          "checkedIn": false,
+          "checkInTime": null,
+          "checkOutTime": null,
+          "added_at": "2026-04-10T17:48:45.148Z"
+        }
+      ]
     }
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-08T00:01:21.356Z"
+  "last_modified": "2026-04-10T17:48:45.148Z"
 }
