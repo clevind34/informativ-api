@@ -173,21 +173,12 @@
     }
 
     .header-logo {
-      display: flex; align-items: center; gap: 10px;
+      display: flex; align-items: center;
       text-decoration: none;
     }
-    .header-logo-mark {
-      width: 30px; height: 30px;
-      background: linear-gradient(135deg,#6627E8,#002757);
-      border-radius: 8px;
-      display: flex; align-items: center; justify-content: center;
-    }
-    .header-logo-mark svg { width: 17px; height: 17px; }
-    .header-wordmark {
-      font-family: 'DM Sans', sans-serif;
-      font-size: 14px; font-weight: 600;
-      letter-spacing: 0.08em; text-transform: uppercase;
-      color: var(--text);
+    .header-logo img {
+      height: 22px;
+      width: auto;
     }
 
     .header-right { display: flex; align-items: center; gap: 14px; }
@@ -470,10 +461,7 @@
 <div id="app">
   <header>
     <a class="header-logo" href="/">
-      <div class="header-logo-mark">
-        <svg viewBox="0 0 24 24" fill="none" width="20" height="20"><path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-      </div>
-      <span class="header-wordmark">Informativ</span>
+      <img src="/informativ-logo-white.png" alt="Informativ" />
     </a>
     <div class="header-right">
       <div class="user-pill" id="user-pill" style="display:none">
