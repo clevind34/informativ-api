@@ -28,7 +28,7 @@ export function corsHeaders(origin) {
   const allowed = origin && isAllowedOrigin(origin) ? origin : '*';
   return {
     'Access-Control-Allow-Origin': allowed,
-    'Access-Control-Allow-Headers': 'Content-Type, X-API-Key',
+    'Access-Control-Allow-Headers': 'Content-Type, X-API-Key, Authorization',
     'Access-Control-Allow-Methods': 'GET, POST, OPTIONS',
     'Access-Control-Max-Age': '86400',
     'Vary': 'Origin',

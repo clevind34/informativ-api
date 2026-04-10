@@ -11,7 +11,7 @@
  */
 
 import { handleCors, corsHeaders } from './cors.mjs';
-import { validateApiKey } from './auth.mjs';
+import { authenticateRequest } from './auth.mjs';
 import {
     Document, Packer, Paragraph, Table, TableRow, TableCell,
     TextRun, WidthType, AlignmentType, BorderStyle,
@@ -616,7 +616,7 @@ export async function handler(event) {
     // --- Unified API Gateway middleware ---
     const corsCheck = handleCors(event);
     if (corsCheck) return corsCheck;
-    const authCheck = validateApiKey(event);
+    const authCheck = await authenticateRequest(event);
     if (authCheck) return authCheck;
     const _cors = corsHeaders((event.headers || {}).origin || '');
 

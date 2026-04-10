@@ -1,9 +1,10 @@
 // Shared data-serving utility for /api/data/* endpoints
-// Each data function imports this and calls serveDataFile(event, filename)
+// Each data function imports this and calls serveDataFile(event, filename, options)
 import { readFileSync, existsSync } from 'fs';
 import { join } from 'path';
 import { handleCors, corsHeaders } from './cors.mjs';
-import { validateApiKey } from './auth.mjs';
+import { authenticateRequest } from './auth.mjs';
+import { requireRole } from './roles.mjs';
 
 // Netlify esbuild bundles may resolve cwd differently — try multiple paths
 const BASE_PATHS = [
@@ -12,21 +13,38 @@ const BASE_PATHS = [
   '/var/task',
 ];
 
+// Endpoints that require manager+ access (sensitive leadership data)
+const RESTRICTED_FILES = {
+  'trajectory.json': ['manager', 'admin'],
+  'coaching-intelligence.json': ['manager', 'admin'],
+  'calibration.json': ['manager', 'admin'],
+  'coaching-effectiveness.json': ['manager', 'admin'],
+  'selling-gm.json': ['manager', 'admin'],
+  'prospecting-effectiveness.json': ['manager', 'admin'],
+};
+
 /**
  * Serve a JSON data file from the data/ directory.
- * Handles CORS, auth, caching headers, and ETag.
+ * Handles CORS, auth (API key + JWT), role enforcement, caching headers, and ETag.
  */
-export function serveDataFile(event, filename) {
+export async function serveDataFile(event, filename) {
   // CORS preflight
   const corsCheck = handleCors(event);
   if (corsCheck) return corsCheck;
 
-  // Auth
-  const authCheck = validateApiKey(event);
+  // Combined auth: API key + JWT user extraction
+  const authCheck = await authenticateRequest(event);
   if (authCheck) return authCheck;
 
   const origin = (event.headers || {}).origin || '';
   const _cors = corsHeaders(origin);
+
+  // Role enforcement for restricted data files
+  const requiredRoles = RESTRICTED_FILES[filename];
+  if (requiredRoles) {
+    const roleCheck = requireRole(event, _cors, ...requiredRoles);
+    if (roleCheck) return roleCheck;
+  }
 
   if (event.httpMethod !== 'GET') {
     return {

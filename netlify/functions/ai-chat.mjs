@@ -12,7 +12,7 @@ import { fileURLToPath } from 'url';
 // CONFIG
 // ──────────────────────────────────────────
 import { handleCors, corsHeaders } from './cors.mjs';
-import { validateApiKey } from './auth.mjs';
+import { authenticateRequest } from './auth.mjs';
 
 const MODEL = 'claude-haiku-4-5-20251001';  // Fast model for responsive coaching
 const MAX_TOKENS = 1024;
@@ -913,7 +913,7 @@ export async function handler(event) {
     // --- Unified API Gateway middleware ---
     const corsCheck = handleCors(event);
     if (corsCheck) return corsCheck;
-    const authCheck = validateApiKey(event);
+    const authCheck = await authenticateRequest(event);
     if (authCheck) return authCheck;
     const _cors = corsHeaders((event.headers || {}).origin || '');
 

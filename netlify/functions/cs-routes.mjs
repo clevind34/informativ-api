@@ -36,7 +36,7 @@
  */
 
 import { handleCors, corsHeaders } from './cors.mjs';
-import { validateApiKey } from './auth.mjs';
+import { authenticateRequest } from './auth.mjs';
 
 const GITHUB_OWNER = 'clevind34';
 const GITHUB_REPO = 'informativ-api';
@@ -49,7 +49,7 @@ export async function handler(event) {
     // --- Unified API Gateway middleware ---
     const corsCheck = handleCors(event);
     if (corsCheck) return corsCheck;
-    const authCheck = validateApiKey(event);
+    const authCheck = await authenticateRequest(event);
     if (authCheck) return authCheck;
     const _cors = corsHeaders((event.headers || {}).origin || '');
 
