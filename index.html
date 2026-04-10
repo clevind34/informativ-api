@@ -999,16 +999,44 @@
     var logoutBtn = document.getElementById('logout-btn');
     if (!logoutBtn) return;
     logoutBtn.addEventListener('click', function() {
+      // Clear session
       localStorage.removeItem('informativ_identity');
       window._identityToken = null;
       window._identityUser  = null;
-      document.getElementById('app').style.display = 'none';
-      document.getElementById('identity-overlay').style.display = 'flex';
-      showView('login');
-      var pwEl = document.getElementById('identity-password');
-      if (pwEl) pwEl.value = '';
+
+      // Show overlay, hide app
+      var app = document.getElementById('app');
+      var overlay = document.getElementById('identity-overlay');
+      if (app) app.style.display = 'none';
+      if (overlay) overlay.style.display = 'flex';
+
+      // Reset to login view (inline — showView is scoped inside init())
+      ['login','reset','newpw'].forEach(function(n) {
+        var el = document.getElementById('identity-' + n + '-view');
+        if (el) el.style.display = (n === 'login' ? 'block' : 'none');
+      });
+
+      // Clear form fields and errors
+      var pwEl  = document.getElementById('identity-password');
+      var emEl  = document.getElementById('identity-email');
+      var errEl = document.getElementById('identity-error');
+      if (pwEl)  pwEl.value = '';
+      if (emEl)  emEl.value = '';
+      if (errEl) { errEl.textContent = ''; errEl.style.display = 'none'; }
+
+      // Re-enable Sign In button
       var btn = document.getElementById('identity-login-btn');
       if (btn) { btn.disabled = false; btn.textContent = 'Sign In'; }
+
+      // Hide user pill
+      var pill = document.getElementById('user-pill');
+      if (pill) pill.style.display = 'none';
+
+      // Remove any stale dashboard grid so it re-renders on next login
+      var grid = document.getElementById('dashboard-grid');
+      if (grid) grid.innerHTML = '';
+      var noAccess = document.getElementById('no-access');
+      if (noAccess) noAccess.style.display = 'none';
     });
   }
 
