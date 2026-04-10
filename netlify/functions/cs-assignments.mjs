@@ -20,13 +20,14 @@
 
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
+import { logRequest } from './audit-log.mjs';
 
 const GITHUB_OWNER = 'clevind34';
 const GITHUB_REPO = 'chuck-sales-assistant';
 const FILE_PATH = 'assignments.json';
 const BRANCH = 'main';
 
-export async function handler(event) {
+async function _handler(event) {
     // --- Unified API Gateway middleware ---
     const corsCheck = handleCors(event);
     if (corsCheck) return corsCheck;
@@ -327,4 +328,11 @@ async function commitFileToGitHub(token, updatedContent, currentSha, commitMessa
     }
 
     return await response.json();
+}
+
+// Phase 2B-3: Audit log wrapper
+export async function handler(event) {
+  const response = await _handler(event);
+  logRequest(event, response);
+  return response;
 }

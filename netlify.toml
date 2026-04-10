@@ -188,6 +188,12 @@
   to = "/.netlify/functions/data-pie-prospects"
   status = 200
 
+# Admin
+[[redirects]]
+  from = "/api/admin/audit-log"
+  to = "/.netlify/functions/admin-audit-log"
+  status = 200
+
 # Training / Certifications
 [[redirects]]
   from = "/api/training/certifications"

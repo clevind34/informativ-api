@@ -13,6 +13,7 @@ import { fileURLToPath } from 'url';
 // ──────────────────────────────────────────
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
+import { logRequest } from './audit-log.mjs';
 
 const MODEL = 'claude-haiku-4-5-20251001';  // Fast model for responsive coaching
 const MAX_TOKENS = 1024;
@@ -909,7 +910,7 @@ function checkRateLimit(ip) {
 // ──────────────────────────────────────────
 // HANDLER
 // ──────────────────────────────────────────
-export async function handler(event) {
+async function _handler(event) {
     // --- Unified API Gateway middleware ---
     const corsCheck = handleCors(event);
     if (corsCheck) return corsCheck;
@@ -1025,4 +1026,11 @@ export async function handler(event) {
             body: JSON.stringify({ error: 'Chuck encountered an error. Please try again.' })
         };
     }
+}
+
+// Phase 2B-3: Audit log wrapper
+export async function handler(event) {
+  const response = await _handler(event);
+  logRequest(event, response);
+  return response;
 }

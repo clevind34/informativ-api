@@ -5,6 +5,7 @@ import { join } from 'path';
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
 import { requireRole } from './roles.mjs';
+import { logRequest } from './audit-log.mjs';
 
 // Netlify esbuild bundles may resolve cwd differently — try multiple paths
 const BASE_PATHS = [
@@ -34,7 +35,7 @@ export async function serveDataFile(event, filename) {
 
   // Combined auth: API key + JWT user extraction
   const authCheck = await authenticateRequest(event);
-  if (authCheck) return authCheck;
+  if (authCheck) { logRequest(event, authCheck); return authCheck; }
 
   const origin = (event.headers || {}).origin || '';
   const _cors = corsHeaders(origin);
@@ -72,10 +73,12 @@ export async function serveDataFile(event, filename) {
     // Check If-None-Match
     const clientEtag = (event.headers || {})['if-none-match'];
     if (clientEtag === etag) {
-      return { statusCode: 304, headers: { ..._cors, ETag: etag }, body: '' };
+      const r304 = { statusCode: 304, headers: { ..._cors, ETag: etag }, body: '' };
+      logRequest(event, r304);
+      return r304;
     }
 
-    return {
+    const r200 = {
       statusCode: 200,
       headers: {
         ..._cors,
@@ -85,13 +88,17 @@ export async function serveDataFile(event, filename) {
       },
       body: raw,
     };
+    logRequest(event, r200);
+    return r200;
   } catch (err) {
     console.error(`[data-serve] Error reading ${filename}:`, err.message);
-    return {
+    const r500 = {
       statusCode: 500,
       headers: { ..._cors, 'Content-Type': 'application/json' },
       body: JSON.stringify({ error: 'Data file not available', file: filename }),
     };
+    logRequest(event, r500);
+    return r500;
   }
 }
 

@@ -3,12 +3,20 @@
 //   1. X-API-Key header (server-to-server, proxy, scheduled tasks)
 //   2. Authorization: Bearer <JWT> (Netlify Identity user sessions)
 // Returns v1-format response on failure, or null to continue.
+//
+// Phase 2B-3: Session timeout enforcement
+//   - JWT iat (issued-at) checked against MAX_SESSION_AGE (30 days)
+//   - X-Session-Expires header returned on authenticated responses
+//   - Stale JWTs rejected with 401 + session_expired flag
 
 const IDENTITY_URL = process.env.IDENTITY_URL || 'https://informativ-sales-api.netlify.app/.identity';
 
 // In-memory token cache (survives warm Lambda reuse, cleared on cold start)
 const _tokenCache = new Map();
 const CACHE_TTL = 5 * 60 * 1000; // 5 minutes
+
+// Session timeout: 30 days of inactivity
+const MAX_SESSION_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 
 /**
  * Validate X-API-Key header against API_KEY env var.
@@ -56,6 +64,23 @@ export async function validateJwt(event) {
   }
 
   try {
+    // Phase 2B-3: Check JWT issued-at (iat) from token payload before GoTrue call.
+    // This avoids a network round-trip for clearly expired sessions.
+    try {
+      const payloadB64 = token.split('.')[1];
+      if (payloadB64) {
+        const payloadStr = Buffer.from(payloadB64.replace(/-/g, '+').replace(/_/g, '/'), 'base64').toString('utf-8');
+        const payload = JSON.parse(payloadStr);
+        if (payload.iat) {
+          const issuedAt = payload.iat * 1000; // JWT iat is in seconds
+          if (Date.now() - issuedAt > MAX_SESSION_AGE_MS) {
+            _tokenCache.set(token, { user: false, ts: Date.now() - CACHE_TTL + 30000, expired: true });
+            return false; // Will be caught by authenticateRequest with session_expired flag
+          }
+        }
+      }
+    } catch { /* Malformed token — let GoTrue handle it */ }
+
     // Verify token with GoTrue /user endpoint
     const resp = await fetch(IDENTITY_URL + '/user', {
       headers: { 'Authorization': 'Bearer ' + token },
@@ -78,7 +103,16 @@ export async function validateJwt(event) {
       rep_name: appMeta.rep_name || null,
     };
 
-    // Cache valid user
+    // Cache valid user (include iat for session expiry header)
+    try {
+      const payloadB64 = token.split('.')[1];
+      if (payloadB64) {
+        const payloadStr = Buffer.from(payloadB64.replace(/-/g, '+').replace(/_/g, '/'), 'base64').toString('utf-8');
+        const payload = JSON.parse(payloadStr);
+        if (payload.iat) user._iat = payload.iat;
+      }
+    } catch { /* ignore */ }
+
     _tokenCache.set(token, { user, ts: Date.now() });
 
     // Prune cache if it grows too large (unlikely with 30 users, but defensive)
@@ -122,10 +156,18 @@ export async function authenticateRequest(event) {
     // so that expired browser JWTs don't break data loading.
     const hasValidApiKey = process.env.API_KEY && ((event.headers || {})['x-api-key'] === process.env.API_KEY);
     if (!hasValidApiKey) {
+      // Check if this was a session timeout (vs invalid token)
+      const cached = _tokenCache.get(authHeader.slice(7).trim());
+      const isExpired = cached && cached.expired;
       return {
         statusCode: 401,
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ error: 'Invalid or expired session. Please log in again.' }),
+        body: JSON.stringify({
+          error: isExpired
+            ? 'Session expired. Please log in again.'
+            : 'Invalid or expired session. Please log in again.',
+          session_expired: !!isExpired,
+        }),
       };
     }
     // API key present — treat as anonymous (no user identity, but authenticated proxy)
@@ -135,6 +177,13 @@ export async function authenticateRequest(event) {
 
   // Attach user to event for downstream functions
   event._user = user || null;
+
+  // Phase 2B-3: Compute session expiry for X-Session-Expires header
+  if (user && user._iat) {
+    const expiresAt = new Date((user._iat * 1000) + MAX_SESSION_AGE_MS);
+    event._sessionExpires = expiresAt.toISOString();
+  }
+
   return null;
 }
 
@@ -144,4 +193,15 @@ export async function authenticateRequest(event) {
  */
 export function getUser(event) {
   return event._user || null;
+}
+
+/**
+ * Get session-related headers to merge into response.
+ * Returns { 'X-Session-Expires': ISO } if session expiry is known, else {}.
+ */
+export function sessionHeaders(event) {
+  if (event._sessionExpires) {
+    return { 'X-Session-Expires': event._sessionExpires };
+  }
+  return {};
 }

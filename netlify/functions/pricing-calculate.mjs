@@ -9,6 +9,7 @@ import { join } from 'path';
 
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
+import { logRequest } from './audit-log.mjs';
 
 let cogsRates = null;
 
@@ -312,7 +313,7 @@ function calculateROI(stores, totalRecommendedMonthly) {
 }
 
 // ── Main Handler ──
-export async function handler(event) {
+async function _handler(event) {
     // --- Unified API Gateway middleware ---
     const corsCheck = handleCors(event);
     if (corsCheck) return corsCheck;
@@ -407,4 +408,11 @@ export async function handler(event) {
             body: JSON.stringify({ error: 'Pricing calculation failed: ' + error.message })
         };
     }
+}
+
+// Phase 2B-3: Audit log wrapper
+export async function handler(event) {
+  const response = await _handler(event);
+  logRequest(event, response);
+  return response;
 }
