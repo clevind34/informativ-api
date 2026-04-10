@@ -57,7 +57,7 @@ const USERS = [
 const API_BASE = 'https://api.netlify.com/api/v1';
 
 async function inviteUser(token, user, dryRun) {
-  const url = `${API_BASE}/sites/${SITE_ID}/identity/users/invite`;
+  const url = `${API_BASE}/sites/${SITE_ID}/identity/users`;
 
   const body = {
     email: user.email,
