@@ -279,5 +279,5 @@
 
 [[redirects]]
   from = "/api/data/forecast-summary"
-  to = "/.netlify/functions/data-forecast-summary"
+  to = "/.netlify/functions/data-fcst-summary"
   status = 200
