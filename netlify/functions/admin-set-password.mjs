@@ -1,12 +1,153 @@
-// TEMPORARY — delete after initial account setup
-// Uses GoTrue Admin API to confirm user + set password directly
-import crypto from 'crypto';
-import { handleCors, corsHeaders } from './cors.mjs';
-// import { validateApiKey } from './auth.mjs'; // disabled for setup
+// Admin function to set Netlify Identity user password
+// Creates or updates a user in the Identity system
+// Requires: ADMIN_PASSWORD_SECRET env var (shared secret)
 
+import crypto from 'crypto';
+
+const IDENTITY_URL = process.env.IDENTITY_URL || 'https://informativ-sales-api.netlify.app/.identity';
+
+export async function handler(event) {
+  // CORS preflight
+  if (event.httpMethod === 'OPTIONS') {
+    return {
+      statusCode: 204,
+      headers: {
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'POST, OPTIONS',
+        'Access-Control-Allow-Headers': 'Content-Type, X-Secret',
+      },
+    };
+  }
+
+  if (event.httpMethod !== 'POST') {
+    return {
+      statusCode: 405,
+      body: JSON.stringify({ error: 'Method not allowed' }),
+    };
+  }
+
+  try {
+    const body = JSON.parse(event.body || '{}');
+    const { email, password, role } = body;
+
+    if (!email || !password) {
+      return {
+        statusCode: 400,
+        body: JSON.stringify({ error: 'email and password required' }),
+      };
+    }
+
+    // Verify secret header (temporary protection until Identity is fully set up)
+    const adminSecret = process.env.ADMIN_PASSWORD_SECRET;
+    const headerSecret = (event.headers || {})['x-secret'];
+    
+    if (adminSecret && headerSecret !== adminSecret) {
+      return {
+        statusCode: 401,
+        body: JSON.stringify({ error: 'Unauthorized — invalid or missing X-Secret header' }),
+      };
+    }
+
+    // Create a Netlify Identity JWT (service role token)
+    const jwt = makeAdminJWT();
+
+    // Call Netlify Identity API to upsert the user
+    const resp = await fetch(IDENTITY_URL + '/admin/users', {
+      method: 'POST',
+      headers: {
+        'Authorization': 'Bearer ' + jwt,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        email,
+        password,
+        email_confirm: true,
+        user_metadata: {},
+        app_metadata: {
+          roles: role ? [role] : [],
+        },
+      }),
+    });
+
+    if (!resp.ok) {
+      const errBody = await resp.text();
+      console.error('[admin-set-password] GoTrue API error:', resp.status, errBody);
+      
+      // If 422 Unprocessable Entity, likely user already exists
+      if (resp.status === 422) {
+        // Try updating existing user instead
+        const userResp = await fetch(IDENTITY_URL + '/admin/users', {
+          method: 'GET',
+          headers: { 'Authorization': 'Bearer ' + jwt },
+        });
+
+        if (userResp.ok) {
+          const users = await userResp.json();
+          const existing = users.find(u => u.email === email);
+          
+          if (existing) {
+            const updateResp = await fetch(IDENTITY_URL + '/admin/users/' + existing.id, {
+              method: 'PUT',
+              headers: {
+                'Authorization': 'Bearer ' + jwt,
+                'Content-Type': 'application/json',
+              },
+              body: JSON.stringify({
+                password,
+                app_metadata: {
+                  roles: role ? [role] : [],
+                },
+              }),
+            });
+
+            if (!updateResp.ok) {
+              throw new Error('Failed to update user: ' + (await updateResp.text()));
+            }
+
+            return {
+              statusCode: 200,
+              body: JSON.stringify({ message: 'User updated', email, role }),
+            };
+          }
+        }
+      }
+
+      throw new Error('GoTrue API error ' + resp.status + ': ' + errBody);
+    }
+
+    const user = await resp.json();
+    return {
+      statusCode: 201,
+      body: JSON.stringify({ message: 'User created', email: user.email, id: user.id, role }),
+    };
+  } catch (err) {
+    console.error('[admin-set-password] Error:', err.message);
+    return {
+      statusCode: 500,
+      body: JSON.stringify({ error: err.message }),
+    };
+  }
+}
+
+/**
+ * Generate a Netlify Identity service role JWT
+ * Tries multiple env var names for the GoTrue JWT secret since exact naming is unclear
+ */
 function makeAdminJWT() {
-  const secret = process.env.GOTRUE_JWT_SECRET;
-  if (!secret) throw new Error('GOTRUE_JWT_SECRET not available');
+  // Netlify may use different env var names for the Identity JWT secret
+  const secret = process.env.GOTRUE_JWT_SECRET 
+    || process.env.JWT_SECRET 
+    || process.env.IDENTITY_JWT_SECRET
+    || process.env.NETLIFY_IDENTITY_JWT_SECRET;
+  
+  if (!secret) {
+    // Dump relevant env var names for debugging
+    const relevant = Object.keys(process.env).filter(k => 
+      /jwt|gotrue|identity|secret|token/i.test(k)
+    );
+    throw new Error('No JWT secret found. Available relevant env vars: ' + JSON.stringify(relevant) + '. All env prefixes: ' + [...new Set(Object.keys(process.env).map(k => k.split('_')[0]))].join(','));
+  }
+
   const header = Buffer.from(JSON.stringify({alg:'HS256',typ:'JWT'})).toString('base64url');
   const payload = Buffer.from(JSON.stringify({
     sub: 'admin',
@@ -16,103 +157,4 @@ function makeAdminJWT() {
   })).toString('base64url');
   const sig = crypto.createHmac('sha256', secret).update(header + '.' + payload).digest('base64url');
   return header + '.' + payload + '.' + sig;
-}
-
-export async function handler(event) {
-  const corsCheck = handleCors(event);
-  if (corsCheck) return corsCheck;
-  // Auth check disabled for initial setup — DELETE THIS FUNCTION after use
-  const _cors = corsHeaders((event.headers || {}).origin || '');
-
-  if (event.httpMethod !== 'POST') {
-    return { statusCode: 405, headers: _cors, body: 'Method not allowed' };
-  }
-
-  try {
-    const { email, password, role } = JSON.parse(event.body || '{}');
-    if (!email || !password) {
-      return { statusCode: 400, headers: _cors, body: JSON.stringify({ error: 'email and password required' }) };
-    }
-
-    const adminJWT = makeAdminJWT();
-    const gotrueBase = process.env.IDENTITY_URL || 'https://informativ-sales-api.netlify.app/.netlify/identity';
-    const adminHeaders = {
-      'Content-Type': 'application/json',
-      'Authorization': 'Bearer ' + adminJWT,
-    };
-
-    // Step 1: List users to find this email
-    const listResp = await fetch(gotrueBase + '/admin/users?per_page=100', { headers: adminHeaders });
-    if (!listResp.ok) {
-      const txt = await listResp.text();
-      return { statusCode: 500, headers: _cors, body: JSON.stringify({ error: 'Admin API failed', status: listResp.status, detail: txt }) };
-    }
-    const data = await listResp.json();
-    const users = data.users || data;
-    const user = users.find(u => u.email === email);
-
-    let userId;
-    if (user) {
-      userId = user.id;
-      // Step 2a: Update existing user — confirm + set password + set role
-      const updateBody = { 
-        password: password,
-        confirm: true,
-        app_metadata: { roles: role ? [role] : ['admin'] }
-      };
-      const updateResp = await fetch(gotrueBase + '/admin/users/' + userId, {
-        method: 'PUT',
-        headers: adminHeaders,
-        body: JSON.stringify(updateBody),
-      });
-      const updateData = await updateResp.json();
-      if (!updateResp.ok) {
-        return { statusCode: 500, headers: _cors, body: JSON.stringify({ error: 'Update failed', detail: updateData }) };
-      }
-      return {
-        statusCode: 200,
-        headers: _cors,
-        body: JSON.stringify({ 
-          success: true, 
-          action: 'updated',
-          email: email,
-          id: userId,
-          confirmed: true,
-          role: role || 'admin',
-          message: 'User confirmed, password set, role assigned. You can now sign in.'
-        }),
-      };
-    } else {
-      // Step 2b: Create new user with password
-      const createResp = await fetch(gotrueBase + '/admin/users', {
-        method: 'POST',
-        headers: adminHeaders,
-        body: JSON.stringify({
-          email: email,
-          password: password,
-          confirm: true,
-          app_metadata: { roles: role ? [role] : ['admin'] },
-        }),
-      });
-      const createData = await createResp.json();
-      if (!createResp.ok) {
-        return { statusCode: 500, headers: _cors, body: JSON.stringify({ error: 'Create failed', detail: createData }) };
-      }
-      return {
-        statusCode: 200,
-        headers: _cors,
-        body: JSON.stringify({
-          success: true,
-          action: 'created',
-          email: email,
-          id: createData.id,
-          confirmed: true,
-          role: role || 'admin',
-          message: 'User created with password and role. You can now sign in.'
-        }),
-      };
-    }
-  } catch (e) {
-    return { statusCode: 500, headers: _cors, body: JSON.stringify({ error: e.message, stack: e.stack }) };
-  }
 }
