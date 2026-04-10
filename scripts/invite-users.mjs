@@ -10,9 +10,10 @@
  * Usage:
  *   NETLIFY_AUTH_TOKEN=xxx node scripts/invite-users.mjs
  *   NETLIFY_AUTH_TOKEN=xxx node scripts/invite-users.mjs --dry-run
+ *   NETLIFY_AUTH_TOKEN=xxx node scripts/invite-users.mjs --debug
  */
 
-const SITE_ID = 'ede190d6-244f-4a87-804b-493f76da9b04'; // informativ-sales-api
+const SITE_DOMAIN = 'informativ-sales-api.netlify.app';
 
 const USERS = [
   // Admin (2)
@@ -56,8 +57,30 @@ const USERS = [
 
 const API_BASE = 'https://api.netlify.com/api/v1';
 
-async function inviteUser(token, user, dryRun) {
-  const url = `${API_BASE}/sites/${SITE_ID}/identity/users`;
+async function resolveSiteId(token) {
+  // Look up the real site ID from the domain name
+  const url = `${API_BASE}/sites/${SITE_DOMAIN}`;
+  const resp = await fetch(url, {
+    headers: { 'Authorization': `Bearer ${token}` },
+  });
+  if (!resp.ok) {
+    throw new Error(`Cannot resolve site: ${resp.status} ${await resp.text()}`);
+  }
+  const site = await resp.json();
+  return { id: site.id, name: site.name, url: site.ssl_url };
+}
+
+async function checkIdentity(token, siteId) {
+  // Verify Identity is enabled and accessible
+  const url = `${API_BASE}/sites/${siteId}/identity`;
+  const resp = await fetch(url, {
+    headers: { 'Authorization': `Bearer ${token}` },
+  });
+  return { status: resp.status, ok: resp.ok, body: await resp.text() };
+}
+
+async function inviteUser(token, siteId, user, dryRun) {
+  const url = `${API_BASE}/sites/${siteId}/identity/users`;
 
   const body = {
     email: user.email,
@@ -100,6 +123,7 @@ async function inviteUser(token, user, dryRun) {
 async function main() {
   const token = process.env.NETLIFY_AUTH_TOKEN;
   const dryRun = process.argv.includes('--dry-run');
+  const debug = process.argv.includes('--debug');
 
   if (!token && !dryRun) {
     console.error('Error: Set NETLIFY_AUTH_TOKEN env var (Netlify Personal Access Token)');
@@ -108,14 +132,43 @@ async function main() {
   }
 
   console.log(`\nInformativ Identity — User Invite Script`);
-  console.log(`Site: informativ-sales-api.netlify.app (${SITE_ID})`);
-  console.log(`Users: ${USERS.length}`);
+
+  // Step 1: Resolve the real site ID from domain name
+  console.log(`\nResolving site ID for ${SITE_DOMAIN}...`);
+  let siteId;
+  try {
+    const site = await resolveSiteId(token);
+    siteId = site.id;
+    console.log(`  Site: ${site.name} (${site.id})`);
+    console.log(`  URL:  ${site.url}`);
+  } catch (e) {
+    console.error(`  ERROR: ${e.message}`);
+    console.error(`  Check that your NETLIFY_AUTH_TOKEN is valid.`);
+    process.exit(1);
+  }
+
+  // Step 2: Verify Identity is enabled
+  if (debug || !dryRun) {
+    console.log(`\nChecking Identity status...`);
+    const identity = await checkIdentity(token, siteId);
+    if (identity.ok) {
+      console.log(`  Identity: ENABLED`);
+    } else {
+      console.error(`  Identity: NOT FOUND (${identity.status})`);
+      console.error(`  Response: ${identity.body.substring(0, 200)}`);
+      console.error(`\n  Enable Identity at: https://app.netlify.com/sites/${SITE_DOMAIN}/identity`);
+      process.exit(1);
+    }
+  }
+
+  // Step 3: Invite users
+  console.log(`\nUsers: ${USERS.length}`);
   console.log(`Mode: ${dryRun ? 'DRY RUN' : 'LIVE'}\n`);
 
   const results = { invited: 0, exists: 0, error: 0 };
 
   for (const user of USERS) {
-    const result = await inviteUser(token, user, dryRun);
+    const result = await inviteUser(token, siteId, user, dryRun);
     results[result.status] = (results[result.status] || 0) + 1;
 
     // Rate limit: 100ms between invites to avoid throttling
