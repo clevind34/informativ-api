@@ -22,6 +22,10 @@ const RESTRICTED_FILES = {
   'coaching-effectiveness.json': ['manager', 'elt', 'admin'],
   'selling-gm.json': ['manager', 'elt', 'admin'],
   'prospecting-effectiveness.json': ['manager', 'elt', 'admin'],
+  'rep-hygiene-deals.json': ['manager', 'elt', 'admin'],
+  'rep-forecast-data.json': ['manager', 'elt', 'admin'],
+  'forecast-deals.json': ['manager', 'elt', 'admin'],
+  'coaching-action-tracker.json': ['manager', 'elt', 'admin'],
 };
 
 /**

@@ -36,7 +36,15 @@
     "data/coaching-effectiveness.json",
     "data/selling-gm.json",
     "data/prospecting-effectiveness.json",
-    "data/pie-prospects.json"
+    "data/pie-prospects.json",
+    "data/rep-hygiene-deals.json",
+    "data/rep-forecast-data.json",
+    "data/forecast-history.json",
+    "data/forecast-deals.json",
+    "data/weekly-history.json",
+    "data/coaching-action-tracker.json",
+    "data/company-quota.json",
+    "data/team-quotas.json"
   ]
 
 # === Route Rewrites ===
@@ -213,3 +221,44 @@
     X-Content-Type-Options = "nosniff"
     X-XSS-Protection = "1; mode=block"
     Referrer-Policy = "no-referrer-when-downgrade"
+
+# Data Layer — Phase 2A: Dashboard data migration (eliminates baked-in HTML data)
+[[redirects]]
+  from = "/api/data/rep-hygiene-deals"
+  to = "/.netlify/functions/data-rep-hygiene-deals"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/rep-forecast-data"
+  to = "/.netlify/functions/data-rep-forecast-data"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/forecast-history"
+  to = "/.netlify/functions/data-forecast-history"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/forecast-deals"
+  to = "/.netlify/functions/data-forecast-deals"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/weekly-history"
+  to = "/.netlify/functions/data-weekly-history"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/coaching-action-tracker"
+  to = "/.netlify/functions/data-coaching-action-tracker"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/company-quota"
+  to = "/.netlify/functions/data-company-quota"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/team-quotas"
+  to = "/.netlify/functions/data-team-quotas"
+  status = 200
