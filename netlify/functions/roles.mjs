@@ -73,6 +73,12 @@ const EMAIL_TO_REP = {
   'dcarner@informativ.com': 'David Carner',
   'klang@informativ.com': 'Kimberly Lang',
   'nbrignola@informativ.com': 'Nick Brignola',
+  // ELT functional owners
+  'cwofford@informativ.com': 'Christina Wofford',
+  'sharnekar@informativ.com': 'Santosh Harnekar',
+  'dlarsen@informativ.com': 'Darin Larsen',
+  'ddomm@informativ.com': 'Dave Domm',
+  'hbestul@informativ.com': 'Heather Bestul',
 };
 
 /**
