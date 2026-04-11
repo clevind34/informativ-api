@@ -34,6 +34,7 @@ let trainingProgress = null;
 let methodCurriculum = null;
 let managerCurriculum = null;
 let coachingIntelligence = null;  // Phase 2: trajectory data
+let csKnowledgeBase = null;  // Phase CS: Customer Success knowledge base
 
 // Product certification files — loaded for Prep with Chuck across all programs
 let certificationFiles = {};
@@ -100,6 +101,13 @@ function loadData() {
                     const ciRaw = readFileSync(ciPath, 'utf-8');
                     coachingIntelligence = JSON.parse(ciRaw);
                 } catch (e) { /* coaching intelligence optional — Phase 2 */ }
+            }
+            if (!csKnowledgeBase) {
+                try {
+                    const csKbPath = join(base, 'cs-knowledge-base.json');
+                    const csKbRaw = readFileSync(csKbPath, 'utf-8');
+                    csKnowledgeBase = JSON.parse(csKbRaw);
+                } catch (e) { /* CS knowledge base optional — CS Operations phase */ }
             }
             // Load all product certification files for Prep with Chuck
             if (Object.keys(certificationFiles).length === 0) {
@@ -275,6 +283,174 @@ const INTENT_TO_CATEGORIES = {
     trajectory: [],  // Uses coaching-intelligence.json trajectory data — Phase 2
     prospecting: [],  // Uses coaching-intelligence.json prospecting data — injected from PIE
 };
+
+// ──────────────────────────────────────────
+// CS MODE SUPPORT — Customer Success Operations
+// ──────────────────────────────────────────
+const CS_MODES = {
+    cs_health_check: {
+        name: 'Health Check',
+        persona: 'Health Monitor — proactive, data-driven, pattern-detecting',
+        description: 'Analyze customer health scores and recommend actions',
+        kb_keys: ['health_score_model', 'health_dimensions', 'score_interpretation',
+                  'margin_thresholds', 'dashboard_navigation', 'retention_triggers']
+    },
+    cs_reprice_scenario: {
+        name: 'Reprice Scenario',
+        persona: 'CSM Financial Advisor — financial, strategic, margin-focused',
+        description: 'Model reprice scenarios and guide pricing conversations',
+        kb_keys: ['reprice_methodology', 'margin_calculations', 'negotiation_guardrails',
+                  'communication_templates', 'pricing_tiers', 'bureau_cost_rates']
+    },
+    cs_utilization_guidance: {
+        name: 'Utilization Guidance',
+        persona: 'CSA Adoption Coach — educational, adoption-focused, product-knowledgeable',
+        description: 'Diagnose utilization issues and recommend feature adoption',
+        kb_keys: ['utilization_thresholds', 'product_architecture', 'cross_sell_identification',
+                  'cpq_guardrail_rules', 'install_workflows', 'bureau_optimization']
+    },
+    cs_disposition_response: {
+        name: 'Disposition Response',
+        persona: 'Escalation Handler — reactive, structured, process-driven',
+        description: 'Guide disposition selection and response actions',
+        kb_keys: ['credit_dispositions', 'communication_templates', 'retention_triggers',
+                  'score_interpretation', 'negotiation_guardrails', 'credit_lifecycle_stages']
+    }
+};
+
+const CS_ROLES = {
+    CSM: {
+        title: 'Client Success Manager',
+        focus: 'Credit-tier customers, margin protection, reprice scenarios, bureau cost optimization',
+        language: 'financial — margin %, COGS, ARR, reprice, bureau mix',
+        key_metric: 'Portfolio GM% maintained above 27%',
+        team: ['Esther Aikey', 'Kelly Felder', 'Open Role'],
+        manager: 'Kiristen Sandoval'
+    },
+    CSA: {
+        title: 'Client Success Advisor',
+        focus: 'Flat-rate customers, product adoption, utilization, training, renewals',
+        language: 'adoption — utilization %, feature engagement, time-to-value, training',
+        key_metric: 'Time-to-value <14 days, utilization 60-80%',
+        team: ['Chad Manz', 'Chaquowa Bouvier', 'Kedrick Butler', 'Irma Schweitzer', 'Ruby Gomez'],
+        manager: 'Kiristen Sandoval'
+    }
+};
+
+function isCSMode(mode) {
+    return mode && mode.startsWith('cs_') && CS_MODES.hasOwnProperty(mode);
+}
+
+function buildCSContext(mode, userRole) {
+    const modeConfig = CS_MODES[mode];
+    if (!modeConfig) return '';
+    const roleConfig = CS_ROLES[userRole?.toUpperCase()] || null;
+    const roleName = roleConfig ? roleConfig.title : 'CS Team Member';
+
+    // Build context from CS KB for relevant keys
+    let kbContext = '';
+    if (csKnowledgeBase) {
+        for (const key of modeConfig.kb_keys) {
+            const entry = csKnowledgeBase[key];
+            if (entry) {
+                const entryStr = JSON.stringify(entry);
+                if (kbContext.length + entryStr.length < 25000) {
+                    kbContext += `\n### KB: ${key}\n${entryStr}\n`;
+                }
+            }
+        }
+        // Also include relevant module data for deeper context
+        const moduleMap = {
+            cs_reprice_scenario: '_module_m1_reprice_scenarios',
+            cs_utilization_guidance: '_module_m2_utilization_troubleshooting',
+            cs_disposition_response: '_module_m3_disposition_playbooks',
+            cs_health_check: '_module_m4_tier_specific_knowledge'
+        };
+        const moduleKey = moduleMap[mode];
+        if (moduleKey && csKnowledgeBase[moduleKey]) {
+            const modStr = JSON.stringify(csKnowledgeBase[moduleKey]);
+            if (kbContext.length + modStr.length < 40000) {
+                kbContext += `\n### Module: ${moduleKey}\n${modStr}\n`;
+            }
+        }
+    }
+
+    return `
+## ACTIVE CS MODE: ${modeConfig.name}
+Persona: ${modeConfig.persona}
+Purpose: ${modeConfig.description}
+
+## USER ROLE: ${roleName} (${userRole || 'unspecified'})
+Focus: ${roleConfig ? roleConfig.focus : 'General customer success'}
+Language: ${roleConfig ? roleConfig.language : 'general CS'}
+Key metric: ${roleConfig ? roleConfig.key_metric : 'customer health and retention'}
+Manager: ${roleConfig ? roleConfig.manager : 'Kiristen Sandoval'}
+
+## CS KNOWLEDGE BASE CONTEXT
+${kbContext}
+`.trim();
+}
+
+function getCSSystemPrompt(mode, userRole) {
+    const roleConfig = CS_ROLES[userRole?.toUpperCase()] || null;
+    const roleName = roleConfig ? roleConfig.title : 'CS Team Member';
+
+    return `You are Chuck, Informativ's AI assistant, operating in **Customer Success mode**. You support Informativ's CS team — Client Success Managers (CSMs) and Client Success Advisors (CSAs) — with data-driven guidance on customer health, margin management, bureau optimization, and retention.
+
+## About Informativ
+Informativ is a SaaS company serving automotive dealerships with credit, compliance, fraud prevention, and desking solutions. The product suite includes:
+- **Total Solution** — bundled credit + compliance + enrichment platform
+- **SmartPencil** — intelligent desking tool for F&I managers
+- **Informativ Customer Insights** (formerly CreditDriver) — consumer-facing credit prequalification
+- **Informativ Credit** (formerly CBC) — dealer credit pulls
+- **Informativ Compliance** (formerly DSGSS) — compliance and document management
+- **Verified STIPs – powered by TurboPass** — income/employment/banking verification
+- **Informativ Payments** (formerly Carmatic) — integrated payment processing
+
+## Tiered Packages
+- **Protect** — credit-only baseline
+- **Enrich** — credit + compliance
+- **Elevate** — credit + compliance + enrichment
+- **Control** — full suite including SmartPencil
+
+## CI Dashboard Revenue Tiers
+- **Tier I** — ≥$100K ARR (white-glove, named CSM)
+- **Tier II** — $20K-$99K ARR (proactive quarterly reviews)
+- **Tier III** — <$20K ARR (tech-touch, automated health alerts)
+
+## Health Score Model
+5 weighted dimensions: Revenue Trend (0.25), Margin Health (0.25), Utilization (0.20), Engagement (0.15), Bureau Efficiency (0.15).
+Thresholds: Green ≥75, Amber 50-74, Red <50. Velocity matters: a green score trending down is an amber situation.
+
+## Your CS Personality
+- **Data-driven and precise** — reference specific metrics, not vague advice
+- **Role-aware** — CSMs get financial language, CSAs get adoption language
+- **Action-oriented** — every response ends with concrete next steps
+- **Process-compliant** — always reference CI Dashboard, dispositions, and escalation paths
+- **Supportive but direct** — flag risks honestly, celebrate wins genuinely
+- **Never salesy** — use CS language: "aligning" not "closing," "recommendation" not "pitch"
+
+## CS Guardrails (ALWAYS ACTIVE)
+1. Never advise on contract termination — route to retention workflow + CS Manager
+2. Escalate negative margin (>10% below target) to CS Manager (Kiristen Sandoval)
+3. Defer tier migration decisions to CS Manager
+4. Never disclose specific bureau cost rates to customers (internal confidential)
+5. Never commit to pricing on the spot — review with CS Manager first
+6. Always recommend documenting actions in CI Dashboard
+7. Use CS language, not sales language
+
+## CS Escalation Path
+CSA/CSM → CS Manager (Kiristen Sandoval) → Director of Client Operations (Kimberly Lang) → CRO (Michael Byrd)
+
+Escalation triggers:
+- Tier I account with health/pricing/retention issues → CS Manager
+- Negative margin account → CS Manager + CRO notification
+- Customer threatening cancellation → CS Manager immediately
+- Health score drop >15 points in single month → CS Manager
+- NPS detractor → immediate outreach within 24 hours
+
+You are currently helping: **${roleName}** (${userRole || 'CS Team Member'})`;
+}
 
 // ──────────────────────────────────────────
 // CONTEXT BUILDING
@@ -947,7 +1123,7 @@ async function _handler(event) {
         return { statusCode: 400, headers, body: JSON.stringify({ error: 'Invalid request body' }) };
     }
 
-    const { message, repName, history } = body;
+    const { message, repName, history, mode, user_role } = body;
 
     if (!message || typeof message !== 'string') {
         return { statusCode: 400, headers, body: JSON.stringify({ error: 'Message is required' }) };
@@ -956,6 +1132,57 @@ async function _handler(event) {
     // Load data files
     loadData();
 
+    // ── CS MODE ROUTING ──
+    // If mode starts with cs_, route to CS knowledge base and system prompt
+    if (isCSMode(mode)) {
+        const csSystemPrompt = getCSSystemPrompt(mode, user_role);
+        const csContext = buildCSContext(mode, user_role);
+        const contextMessage = csContext ?
+            `\n\n---\nCS KNOWLEDGE CONTEXT:\n${csContext}\n---` : '';
+
+        const messages = [];
+        if (history && Array.isArray(history)) {
+            const recentHistory = history.slice(-6);
+            for (const msg of recentHistory) {
+                if (msg.role === 'user') {
+                    messages.push({ role: 'user', content: msg.content });
+                } else if (msg.role === 'chuck' || msg.role === 'assistant') {
+                    messages.push({ role: 'assistant', content: msg.content });
+                }
+            }
+        }
+        messages.push({ role: 'user', content: message + contextMessage });
+
+        try {
+            const client = new Anthropic();
+            const response = await client.messages.create({
+                model: MODEL,
+                max_tokens: 2048,  // CS responses can be longer (reprice scenarios, playbooks)
+                temperature: 0.5,  // Slightly lower temp for CS precision
+                system: csSystemPrompt,
+                messages: messages
+            });
+            const assistantMessage = response.content[0]?.text || 'I had trouble generating a response.';
+            return {
+                statusCode: 200,
+                headers,
+                body: JSON.stringify({
+                    response: assistantMessage,
+                    mode: mode,
+                    user_role: user_role || 'unspecified',
+                    model: MODEL
+                })
+            };
+        } catch (error) {
+            console.error('Claude API error (CS mode):', error);
+            if (error.status === 429) {
+                return { statusCode: 429, headers, body: JSON.stringify({ error: 'Chuck is getting a lot of questions right now. Please try again in a moment.' }) };
+            }
+            return { statusCode: 500, headers, body: JSON.stringify({ error: 'Chuck encountered an error in CS mode. Please try again.' }) };
+        }
+    }
+
+    // ── SALES MODE ROUTING (existing, unchanged) ──
     // Detect intents and build context
     const intents = detectIntents(message);
     const context = buildContext(intents, repName, message);
