@@ -1,16 +1,16 @@
 {
   "metadata": {
-    "version": "1.0",
+    "version": "2.0",
     "program_name": "CS Method Certification",
     "program_id": "cs_method_cert",
     "created": "2026-04-11",
     "organization": "Informativ",
-    "description": "Comprehensive certification program for Informativ Customer Success team covering product knowledge, customer health scoring, platform navigation, and role-specific retention and expansion strategies. Divided into Foundation (all CS), CSM (credit-focused), and CSA (tier-focused) tracks.",
+    "description": "Comprehensive certification program for Informativ Customer Success team covering product knowledge, customer health scoring, platform navigation, role-specific retention and expansion strategies, and CS methodology (LAER lifecycle, Challenger CS, repricing playbook). Divided into Foundation (all CS), CSM (credit-focused), CSA (tier-focused), and Methodology (all CS) tracks.",
     "target_audience": "All Customer Success representatives (CSM and CSA)",
     "certification_model": "progressive",
     "recertification_enabled": true,
     "passing_score": 80,
-    "total_modules": 12
+    "total_modules": 15
   },
   "modules": [
     {
@@ -135,7 +135,7 @@
             "correct_answer": "C"
           },
           {
-            "question": "Why did this healthy customer's health score drop 82\u219276?",
+            "question": "Why did this healthy customer's health score drop 82→76?",
             "options": {
               "A": "Bureau Efficiency or Utilization declined",
               "B": "Margin Health fell below 40% threshold",
@@ -176,14 +176,14 @@
         "CPQ Trend Alerts: quarterly allotment tracking, over/under-utilization flagging",
         "GM Trending: margin history, seasonal patterns, recovery trajectories"
       ],
-      "prep_focus": "Be able to navigate the dashboard fluently. Know what each tab is for and which tab to use for a given question (e.g., 'which customers are closest to overage?' \u2192 CPQ Trend Alerts). Understand filter patterns and multi-select behavior.",
+      "prep_focus": "Be able to navigate the dashboard fluently. Know what each tab is for and which tab to use for a given question (e.g., 'which customers are closest to overage?' → CPQ Trend Alerts). Understand filter patterns and multi-select behavior.",
       "quiz": {
         "passing_score": 80,
         "questions": [
           {
             "question": "Find Tier 2 customers with negative margin. Fastest method?",
             "options": {
-              "A": "Portfolio Overview \u2192 drill down by region",
+              "A": "Portfolio Overview → drill down by region",
               "B": "Revenue Tier Analysis tab filter for Tier 2",
               "C": "Sort Health Table by margin descending",
               "D": "Health Table with Tier/Margin/Region filters"
@@ -213,15 +213,15 @@
           {
             "question": "The disposition tracker shows that a customer has 'Meeting Scheduled' logged 15 days ago, but you don't see evidence of a follow-up. How do you quickly identify other customers with similar overdue activity patterns?",
             "options": {
-              "A": "Health Table \u2192 'Last Engagement' column \u2192 sort ascending",
-              "B": "My Customers Tab \u2192 Priority Queue \u2192 look for 'Overdue Touchpoints' zone",
-              "C": "Disposition Tracker \u2192 filter by 'Meeting Scheduled' \u2192 sort by date",
-              "D": "CS Management \u2192 Rep Accountability table \u2192 'Overdue' column"
+              "A": "Health Table → 'Last Engagement' column → sort ascending",
+              "B": "My Customers Tab → Priority Queue → look for 'Overdue Touchpoints' zone",
+              "C": "Disposition Tracker → filter by 'Meeting Scheduled' → sort by date",
+              "D": "CS Management → Rep Accountability table → 'Overdue' column"
             },
             "correct_answer": "B"
           },
           {
-            "question": "CPQ risk jumped 22\u219258 in one week. Cause?",
+            "question": "CPQ risk jumped 22→58 in one week. Cause?",
             "options": {
               "A": "Quarterly allotment approached/exceeded",
               "B": "Monthly COGS fell unexpectedly",
@@ -315,7 +315,7 @@
       "key_concepts": [
         "Bureau pull costs: Equifax soft/hard pull rates, Experian soft/hard pull rates, TransUnion soft/hard pull rates",
         "COGS calculation: sum of all bureau pulls + compliance reporting + processing overhead per subscription period",
-        "Gross margin calculation: (MRR Revenue - COGS) / MRR Revenue \u00d7 100% = GM%",
+        "Gross margin calculation: (MRR Revenue - COGS) / MRR Revenue × 100% = GM%",
         "Credit customer margin thresholds: Negative <0%, Critical 0-15%, Watch 16-26%, Healthy 27%+",
         "Why credit margins are lower than tier packages: credit is transactional (per-pull cost), tiers are fixed (unlimited allotments)",
         "Margin erosion drivers: increased pull volume, mix shift to expensive bureaus (hard pulls vs soft), customer onboarding creating temporary volume spike"
@@ -325,11 +325,11 @@
         "passing_score": 80,
         "questions": [
           {
-            "question": "A credit customer's monthly revenue is $8,000. Their monthly COGS is $5,600 (280 hard pulls \u00d7 $20/hard pull). What is their gross margin percentage?",
+            "question": "A credit customer's monthly revenue is $8,000. Their monthly COGS is $5,600 (280 hard pulls × $20/hard pull). What is their gross margin percentage?",
             "options": {
               "A": "70% (COGS is 70% of revenue)",
               "B": "30% (1 - 5,600/8,000)",
-              "C": "43.75% ((8,000-5,600)/8,000 \u00d7 100)",
+              "C": "43.75% ((8,000-5,600)/8,000 × 100)",
               "D": "56.25% (COGS expressed as percent of cost)"
             },
             "correct_answer": "C"
@@ -337,8 +337,8 @@
           {
             "question": "A credit customer moves from 200 pulls/month to 280 pulls/month (40% volume increase). Assuming all new pulls are hard pulls at $20 each, what is the impact to their monthly COGS?",
             "options": {
-              "A": "$800 increase (40% \u00d7 200 pulls \u00d7 $20)",
-              "B": "$1,600 increase (80 additional pulls \u00d7 $20)",
+              "A": "$800 increase (40% × 200 pulls × $20)",
+              "B": "$1,600 increase (80 additional pulls × $20)",
               "C": "$2,000 increase (10% of previous revenue)",
               "D": "Cannot calculate without knowing the revenue impact"
             },
@@ -386,9 +386,9 @@
       "description": "Strategic playbook for identifying root causes of credit margin erosion, executing margin recovery conversations with dealers, and preventing churn through value retention. Covers SmartPull optimization and repricing methodology.",
       "key_concepts": [
         "Root causes of margin erosion: increased pull volume (demand growth OR wasteful usage), bureau mix shift (more expensive bureaus), customer not using SmartPull optimization, unnecessary hard pulls",
-        "SmartPull optimization: soft pull rules, decision trees, reduced hard pull frequency \u2192 lower COGS",
+        "SmartPull optimization: soft pull rules, decision trees, reduced hard pull frequency → lower COGS",
         "Repricing methodology: adjust cost per pull OR adjust subscription fee, communicate value delivered (bureau access, compliance), tie repricing to utilization growth",
-        "Retention conversation framework: acknowledge growth \u2192 quantify value delivered \u2192 explain cost realities \u2192 present repricing as partnership \u2192 offer optimization alternatives",
+        "Retention conversation framework: acknowledge growth → quantify value delivered → explain cost realities → present repricing as partnership → offer optimization alternatives",
         "Before repricing: explore optimization options (SmartPull, bureau mix review, volume analysis) as lower-friction alternative"
       ],
       "prep_focus": "Master the repricing conversation. Know how to explain margin economics to a dealer. Be able to offer SmartPull as an alternative to price increases. Understand the difference between volume growth (good) and wasteful usage (bad).",
@@ -436,7 +436,7 @@
             "correct_answer": "A"
           },
           {
-            "question": "Margin 12%\u219222% via SmartPull. Next action?",
+            "question": "Margin 12%→22% via SmartPull. Next action?",
             "options": {
               "A": "Upgrade to higher tier immediately now",
               "B": "Continue repricing toward 40% target",
@@ -521,7 +521,7 @@
     },
     {
       "module": 8,
-      "title": "Competitive Intelligence \u2014 Credit Market",
+      "title": "Competitive Intelligence — Credit Market",
       "week_reference": 8,
       "theme": "CSM_SPECIALIZED",
       "track": "csm",
@@ -641,12 +641,12 @@
             "correct_answer": "A"
           },
           {
-            "question": "A Tier 2 customer is projected to exceed their Q2 hard pull allotment by 20% (overage of 120 pulls). Their overages will cost $2,400 (120 pulls \u00d7 $20/pull). What should you do FIRST?",
+            "question": "A Tier 2 customer is projected to exceed their Q2 hard pull allotment by 20% (overage of 120 pulls). Their overages will cost $2,400 (120 pulls × $20/pull). What should you do FIRST?",
             "options": {
               "A": "Wait until the overage occurs, then bill them",
               "B": "Immediately call to discuss tier upgrade or contract adjustment before overage occurs",
               "C": "Suggest SmartPull optimization to reduce hard pull necessity",
-              "D": "Both B and C \u2014 offer optimization first, then discuss upgrade if needed"
+              "D": "Both B and C — offer optimization first, then discuss upgrade if needed"
             },
             "correct_answer": "D"
           },
@@ -742,12 +742,12 @@
       "track": "csa",
       "description": "CSA retention playbook for tier customers: managing utilization (preventing both under-utilization churn and over-utilization margin erosion), QBR execution, tier upgrade/downgrade decisions, and health score improvement strategies.",
       "key_concepts": [
-        "Under-utilization risk: customer uses <50% of allotment \u2192 signal of low engagement or perceived lack of value \u2192 churn risk",
-        "Over-utilization risk: customer uses >80% of allotment \u2192 approaching overage charges \u2192 margin pressure \u2192 dissatisfaction",
-        "Healthy utilization: 50-80% of allotment \u2192 customer deriving steady value, room for growth without overage",
+        "Under-utilization risk: customer uses <50% of allotment → signal of low engagement or perceived lack of value → churn risk",
+        "Over-utilization risk: customer uses >80% of allotment → approaching overage charges → margin pressure → dissatisfaction",
+        "Healthy utilization: 50-80% of allotment → customer deriving steady value, room for growth without overage",
         "QBR (Quarterly Business Review): review allotment utilization, discuss growth/contraction, identify upsell/cross-sell, address health score trends, plan next quarter",
         "Tier upgrade conversation: customer growing beyond allotment OR seeking more features (SmartPencil, Elevate/Control support)",
-        "Tier downgrade conversation: customer not using allotment, shrinking revenue \u2192 repositioning for success at lower tier, not as failure",
+        "Tier downgrade conversation: customer not using allotment, shrinking revenue → repositioning for success at lower tier, not as failure",
         "Health score improvement: margin optimization (SmartPull rules), bureau efficiency (pull reduction), engagement (QBRs, training refreshers)"
       ],
       "prep_focus": "Understand the sweet spot for utilization (50-80%). Know how to run a QBR that drives retention and identifies expansion. Know how to handle downgrade conversations without losing the customer.",
@@ -768,14 +768,14 @@
             "question": "During a QBR, a customer reports: 'Our sales are down 15% YoY, but we're still keeping all Protect features. Can we downgrade to Foundation to save money?' How do you respond?",
             "options": {
               "A": "Fight to keep them on Protect tier; downgrades hurt revenue",
-              "B": "Explore the root cause (market weakness vs. process issue) \u2192 if market-driven, suggest downgrade to Foundation as bridge during downturn",
+              "B": "Explore the root cause (market weakness vs. process issue) → if market-driven, suggest downgrade to Foundation as bridge during downturn",
               "C": "Recommend Foundation, but position as a 90-day test with easy upgrade path when business rebounds",
-              "D": "Both B and C \u2014 explore root cause, offer downgrade as bridge, set clear upgrade triggers"
+              "D": "Both B and C — explore root cause, offer downgrade as bridge, set clear upgrade triggers"
             },
             "correct_answer": "D"
           },
           {
-            "question": "Health dropped 78\u219267, margin unchanged. What?",
+            "question": "Health dropped 78→67, margin unchanged. What?",
             "options": {
               "A": "Bureau Efficiency declined this month",
               "B": "Reduced engagement; fewer pulls",
@@ -830,7 +830,7 @@
             "question": "SmartPencil: 13 min saved per deal. Monthly FTE?",
             "options": {
               "A": "Approximately $500 in staff savings",
-              "B": "13 min \u00d7 150 deals = 32.5 FTE hours",
+              "B": "13 min × 150 deals = 32.5 FTE hours",
               "C": "13 minutes per deal (hard to extend)",
               "D": "Unmeasurable without transaction data"
             },
@@ -841,13 +841,13 @@
             "options": {
               "A": "Lower per-rooftop pricing due to volume commitment",
               "B": "Simplified billing and central account management",
-              "C": "Both A and B \u2014 volume pricing + operational consolidation",
-              "D": "Higher allotment across the group (6\u00d7 single-rooftop allotments)"
+              "C": "Both A and B — volume pricing + operational consolidation",
+              "D": "Higher allotment across the group (6× single-rooftop allotments)"
             },
             "correct_answer": "C"
           },
           {
-            "question": "Elite ($500K+), 18 months tenure, health 89\u219262. Priority?",
+            "question": "Elite ($500K+), 18 months tenure, health 89→62. Priority?",
             "options": {
               "A": "Schedule strategic business review",
               "B": "Review contract renewal window",
@@ -875,6 +875,222 @@
               "D": "Escalate to executive leadership"
             },
             "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 13,
+      "title": "The LAER Customer Lifecycle — Land, Adopt, Expand, Renew",
+      "week_reference": 13,
+      "theme": "CS_METHODOLOGY",
+      "track": "all",
+      "description": "The LAER framework (developed by TSIA) structures every customer interaction into one of four lifecycle stages. This module teaches CS reps how to identify where each customer sits in their lifecycle, what the appropriate engagement looks like at each stage, and how to drive customers forward through the lifecycle rather than reactively waiting for problems. At Informativ, LAER maps directly to our tiering and cadence strategy: Land = onboarding and first 90 days, Adopt = feature utilization and value realization, Expand = repricing and margin recovery, Renew = proactive retention and competitive defense.",
+      "key_concepts": [
+        "LAER lifecycle stages: Land (implementation, bureau config, first 90 days), Adopt (feature utilization, SmartPull activation, compliance adoption), Expand (repricing, tier upgrades, margin recovery), Renew (retention, competitive defense, value demonstration)",
+        "Stage identification signals: Land = new customer or new product activation, Adopt = low utilization or feature gaps, Expand = healthy utilization + margin opportunity, Renew = approaching contract term or competitive displacement risk",
+        "Lifecycle-to-tier mapping: Elite/T1 customers cycle through all 4 stages with high-touch engagement; T2/T3 use automated triggers for Land and Adopt, human engagement for Expand and Renew",
+        "Time-in-stage benchmarks: Land should complete in 90 days, Adopt signals should appear by month 4, Expand conversations start after 2 successful quarters, Renew preparation begins 90 days before contract end",
+        "Stage regression: customers can move backward (Adopt back to Land if new product added, Renew back to Expand if competitive threat emerges) — regression is normal, not failure",
+        "Proactive vs. reactive CS: LAER demands proactive stage advancement — if you wait for the customer to call, you are already behind"
+      ],
+      "prep_focus": "Know the 4 LAER stages and what each looks like for an Informativ customer. Be able to look at any account in CI Dashboard and identify its current lifecycle stage based on health score, utilization, tenure, and disposition history. Understand why proactive stage advancement prevents churn.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "A Protect tier customer went live 45 days ago. Their SmartPull is configured but utilization is at 22% of quarterly allotment. Which LAER stage are they in?",
+            "options": {
+              "A": "Land — still in first 90 days, configuration complete but adoption incomplete",
+              "B": "Adopt — they have the product, now they need to use it",
+              "C": "Expand — low utilization means they need a repricing conversation",
+              "D": "Renew — early churn risk requires immediate retention action"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "A credit customer has been active for 14 months with stable 65% utilization and 24% margin. Their health score is 58. What LAER stage should drive your next engagement?",
+            "options": {
+              "A": "Adopt — push for higher utilization of existing features",
+              "B": "Expand — stable usage + below-target margin signals a repricing or cross-sell opportunity",
+              "C": "Renew — 14 months in, focus on retention",
+              "D": "Land — reconfigure their bureau settings to improve margin"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What distinguishes proactive CS (LAER model) from reactive CS?",
+            "options": {
+              "A": "Proactive CS waits for the customer to report issues, then resolves them quickly",
+              "B": "Proactive CS identifies stage transitions before the customer does and initiates the appropriate conversation",
+              "C": "Proactive CS focuses on upselling at every touchpoint regardless of customer needs",
+              "D": "Proactive CS means more frequent check-in calls without a structured agenda"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "An Elite tier customer ($520K ARR) just added SmartPencil to their existing Control package. What LAER stage does this trigger?",
+            "options": {
+              "A": "They stay in Renew because they are a long-tenured account",
+              "B": "They move back to Land for the new product — configuration, training, and 90-day success metrics reset",
+              "C": "They move to Expand because the new product creates upsell opportunities",
+              "D": "Stage doesn't change because it is the same customer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A Tier 2 customer has been in the Adopt stage for 8 months with utilization stuck at 35%. What does LAER methodology prescribe?",
+            "options": {
+              "A": "Move them to Expand and begin repricing conversations",
+              "B": "Escalate to management for potential churn intervention",
+              "C": "Diagnose the adoption barrier (training gap, configuration issue, or value perception) before advancing stage",
+              "D": "Accept that some customers plateau and shift to automated engagement"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 14,
+      "title": "Challenger CS — Teaching, Tailoring & Taking Control",
+      "week_reference": 14,
+      "theme": "CS_METHODOLOGY",
+      "track": "all",
+      "description": "The Informativ sales team uses the Challenger methodology (Teach, Tailor, Take Control) for new business. This module extends Challenger principles to post-sale Customer Success — specifically for the difficult commercial conversations CS reps face: repricing customers with thin margins, presenting bureau cost increases, defending against competitive displacement, and pushing back on discount requests. Challenger CS means you lead with insight, not permission. You teach the customer something they did not know about their own business, tailor the conversation to their specific situation, and confidently present the path forward.",
+      "key_concepts": [
+        "Challenger CS vs. Relationship CS: Relationship CS prioritizes customer comfort (avoids conflict, defers on price, accommodates requests). Challenger CS prioritizes customer outcomes (surfaces uncomfortable truths, leads pricing conversations, drives change). Both build trust — Challenger builds trust through competence and value delivery, not accommodation.",
+        "TEACH: Lead with insight the customer does not have. Examples: 'Your bureau costs increased 18% this year but your pricing hasn't adjusted since 2024.' 'Your hard pull ratio is 2.3x industry average — SmartPull could save $1,200/month.' 'Three comparable dealerships in your DMA are paying 30% more for the same product mix because they haven't optimized.'",
+        "TAILOR: Customize the insight to the customer's specific data. Use CI Dashboard health scores, bureau pull history, T12 margin trends, and CPQ utilization to build a data-backed narrative that is unique to THIS customer. Generic talk tracks fail — personalized data stories succeed.",
+        "TAKE CONTROL: Present the recommended pricing or action with confidence. Do not ask 'Would you be open to a price adjustment?' Instead: 'Based on your usage pattern, the right pricing structure is X, which reflects the value you are receiving and keeps your margin healthy for both of us.' Control means owning the recommendation.",
+        "Constructive Tension: The Challenger model works because it creates productive discomfort. A customer hearing 'Your margin is eroding at 3% per quarter and will be negative by Q4' feels urgency to act. Avoiding this conversation feels easier but leads to surprise cancellations.",
+        "When NOT to challenge: New customers in Land stage (build trust first), customers in active crisis (support first, challenge later), customers who just expanded (celebrate the win). Timing matters."
+      ],
+      "prep_focus": "Know the difference between Relationship CS and Challenger CS. Practice building a Teach moment from real customer data (pick a CI Dashboard account and identify one insight the customer doesn't know). Understand when to challenge and when to support. Be able to present a repricing recommendation with confidence.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "A credit customer's margin has declined from 31% to 19% over 6 months due to bureau cost increases. They are unaware of the trend. What does Challenger CS prescribe as your opening?",
+            "options": {
+              "A": "Ask the customer how they feel about their current pricing and whether they would be open to changes",
+              "B": "Lead with the data: 'Your margin has dropped 12 points in 6 months. At this rate, you will be negative margin by Q4. Here is what is driving it and what we recommend.'",
+              "C": "Send an email with the margin data attached and ask them to review before your next scheduled call",
+              "D": "Wait for the customer to notice the issue and bring it up themselves, then respond"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "What is the core difference between Relationship CS and Challenger CS?",
+            "options": {
+              "A": "Relationship CS builds trust while Challenger CS damages relationships through aggressive tactics",
+              "B": "Relationship CS prioritizes customer comfort while Challenger CS prioritizes customer outcomes — both build trust through different mechanisms",
+              "C": "Challenger CS works only for new customers while Relationship CS is better for existing accounts",
+              "D": "Relationship CS is reactive while Challenger CS is proactive — otherwise they are the same approach"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "You need to reprice a Tier 1 customer from $3,200/mo to $4,100/mo due to increased bureau costs. Which approach demonstrates 'Take Control'?",
+            "options": {
+              "A": "'We need to discuss a possible price adjustment. What would work for your budget?'",
+              "B": "'Bureau costs have increased 22% since your last pricing review. Your new pricing of $4,100 reflects your current usage and maintains the margin structure that keeps your account healthy.'",
+              "C": "'Corporate is requiring us to raise prices. I fought for you but could only get it down to $4,100.'",
+              "D": "'Would $3,800 be acceptable as a compromise between our current and target pricing?'"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A customer who just upgraded to Elevate tier 3 weeks ago calls frustrated about a configuration issue. Your Challenger instinct says to address their under-optimized bureau settings. What do you do?",
+            "options": {
+              "A": "Lead with the bureau insight — Challenger CS means always teaching",
+              "B": "Resolve the configuration issue first, schedule a follow-up to discuss bureau optimization after they stabilize",
+              "C": "Defer both issues to the next QBR to avoid overwhelming them",
+              "D": "Escalate to management since the customer is frustrated"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The TAILOR step requires you to customize your insight to the specific customer. Which of these demonstrates tailoring vs. a generic talk track?",
+            "options": {
+              "A": "'Bureau costs are going up across the industry and we need to adjust pricing.'",
+              "B": "'Your EQ hard pulls increased 340 to 412 last quarter while your vehicle sales were flat at 180/mo. That extra 72 pulls cost you $1,440 with no revenue gain. SmartPull would cap unnecessary pulls.'",
+              "C": "'Most dealers in your segment are seeing 15-20% cost increases this year.'",
+              "D": "'We recommend all customers review their pricing annually to stay aligned with market rates.'"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 15,
+      "title": "The Repricing Playbook — Margin Recovery Through Value Conversations",
+      "week_reference": 15,
+      "theme": "CS_METHODOLOGY",
+      "track": "all",
+      "description": "The capstone methodology module combining LAER lifecycle positioning with Challenger commercial skills into a structured repricing playbook. Covers the complete repricing motion from identifying margin erosion signals in CI Dashboard, through building the business case with customer-specific data, to executing the conversation and handling objections. This is the hardest conversation in Customer Success — and the most valuable. Repricing is not about raising prices; it is about realigning value and cost so both Informativ and the customer have a sustainable partnership.",
+      "key_concepts": [
+        "Repricing trigger identification: margin below two-track thresholds (Tiered <40%, Credit <27%), declining 3-month margin trend, bureau cost increases not passed through, CPQ overages eating into margin, competitor pricing creating floor pressure",
+        "The 4-step repricing framework: (1) DATA — pull T12 margin trend, bureau cost history, utilization rate, and competitive context from CI Dashboard; (2) STORY — build a narrative that teaches the customer something about their own economics; (3) PROPOSAL — present the specific new pricing with COGS breakdown and GM% target; (4) HANDLE — address objections with value-anchored responses",
+        "Building the business case: Use the CI Dashboard reprice calculator to model scenarios. Show the customer their current COGS, their current price, their current margin, and what the right-sized price looks like at target margin. Make the math transparent — opacity breeds distrust.",
+        "Objection handling framework: 'Too expensive' → redirect to value delivered per dollar (ROI, not price). 'Competitor is cheaper' → redirect to total cost of switching (implementation, retraining, compliance gaps, relationship restart). 'We'll reduce usage' → redirect to business impact of reduced bureau intelligence. 'Need to think about it' → set a specific follow-up date and ask what information would help their decision.",
+        "The margin floor: Never reprice below the manager price threshold. If a customer cannot sustain pricing above the margin floor, the conversation shifts from repricing to right-sizing (tier downgrade, product simplification, or managed exit).",
+        "Post-reprice follow-through: Confirm new pricing in writing within 24 hours. Schedule a 60-day check-in to validate the pricing is working. Log the repricing disposition in CI Dashboard. Track margin recovery over 3 months."
+      ],
+      "prep_focus": "Practice the 4-step repricing framework with a real customer from CI Dashboard. Pull their T12 data, build the story, model the proposal in the reprice calculator, and prepare objection responses. Know the margin floors by customer type. Be able to explain why repricing protects the customer relationship rather than threatening it.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "A credit customer's margin has eroded from 32% to 18% over 9 months. Their health score is 44. Using the 4-step repricing framework, what is your FIRST step?",
+            "options": {
+              "A": "Call the customer and explain that prices need to increase",
+              "B": "Pull their T12 margin trend, bureau cost history, and utilization data from CI Dashboard to build the data foundation",
+              "C": "Email the customer a new pricing proposal with the target margin",
+              "D": "Escalate to management to approve the repricing before contacting the customer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "During a repricing conversation, the customer says: 'Your competitor offered us the same service for 20% less.' Using the Challenger objection framework, what is the strongest response?",
+            "options": {
+              "A": "We can match that price to keep your business",
+              "B": "That is their pricing strategy, but switching costs are real — implementation, retraining, 60-90 day productivity loss, compliance gaps, and restarting the relationship. The total cost of switching typically exceeds 2 years of the price difference.",
+              "C": "Our product is better quality, so the higher price is justified",
+              "D": "Let me check with my manager about what discount we can offer"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "You model a repricing scenario in the CI Dashboard calculator. The recommended price brings margin to 42% but the customer's current contract price is 35% below that. What approach maximizes retention?",
+            "options": {
+              "A": "Implement the full price increase immediately to hit target margin",
+              "B": "Phase the increase over 2-3 quarters with clear milestones, showing the customer the progression path and what value they receive at each step",
+              "C": "Accept the current pricing and hope bureau costs stabilize",
+              "D": "Offer a permanent discount to split the difference"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A tiered customer's margin is 8% — well below the 40% healthy threshold. The reprice calculator shows that even at the manager price floor, margin would only reach 28%. What does the methodology prescribe?",
+            "options": {
+              "A": "Reprice to manager floor and accept 28% margin as the best achievable outcome",
+              "B": "The conversation shifts from repricing to right-sizing: explore tier downgrade, product simplification, or bureau optimization to reduce COGS before repricing",
+              "C": "Escalate to CRO for a custom pricing exception",
+              "D": "Accept the account as permanently low-margin and deprioritize"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "After a successful repricing conversation, the customer agrees to new pricing effective next month. What is the required post-reprice follow-through per the playbook?",
+            "options": {
+              "A": "Log the disposition and move on to the next account",
+              "B": "Confirm new pricing in writing within 24 hours, schedule a 60-day check-in to validate the new pricing is working, and log the repricing disposition in CI Dashboard",
+              "C": "Send a thank-you email and check back at the next QBR",
+              "D": "Immediately identify additional repricing opportunities in the same account"
+            },
+            "correct_answer": "B"
           }
         ]
       }
