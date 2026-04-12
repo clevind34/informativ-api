@@ -1,0 +1,883 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "program_name": "CS Method Certification",
+    "program_id": "cs_method_cert",
+    "created": "2026-04-11",
+    "organization": "Informativ",
+    "description": "Comprehensive certification program for Informativ Customer Success team covering product knowledge, customer health scoring, platform navigation, and role-specific retention and expansion strategies. Divided into Foundation (all CS), CSM (credit-focused), and CSA (tier-focused) tracks.",
+    "target_audience": "All Customer Success representatives (CSM and CSA)",
+    "certification_model": "progressive",
+    "recertification_enabled": true,
+    "passing_score": 80,
+    "total_modules": 12
+  },
+  "modules": [
+    {
+      "module": 1,
+      "title": "Informativ Product Architecture & Value Proposition",
+      "week_reference": 1,
+      "theme": "FOUNDATION",
+      "track": "all",
+      "description": "Understanding the core Informativ product suite, how products interconnect, and the unique value proposition each delivers to automotive dealers. Covers CBC, DSGSS, SmartPull, Guardrails, and SmartPencil.",
+      "key_concepts": [
+        "CBC (Credit Bureau Connection) as core credit product",
+        "DSGSS compliance platform features and use cases",
+        "SmartPull bureau optimization and intelligent bureau selection",
+        "Guardrails usage monitoring and overage management",
+        "SmartPencil digital retail integration",
+        "Product bundling and tier architecture"
+      ],
+      "prep_focus": "Product knowledge: What each product does, what problem it solves, who benefits most. Understand how products bundle into tiers.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Which Informativ product enables dealers to monitor credit pull usage and prevent unnecessary hard pulls?",
+            "options": {
+              "A": "DSGSS compliance platform",
+              "B": "SmartPull bureau optimization",
+              "C": "SmartPencil digital retail",
+              "D": "Guardrails usage monitoring"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer is concerned about regulatory compliance in their F&I process. Which Informativ product directly addresses this requirement?",
+            "options": {
+              "A": "CBC credit bureau connection",
+              "B": "SmartPull soft pull configuration",
+              "C": "DSGSS compliance platform",
+              "D": "Guardrails overage alerts"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "The Protect tier includes CBC + which compliance product?",
+            "options": {
+              "A": "DSGSS only",
+              "B": "SmartPencil only",
+              "C": "Both DSGSS and SmartPencil",
+              "D": "Neither; Protect includes CBC only"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "A customer's deal is progressing through F&I, and they need immediate bureau intelligence to qualify the applicant. Which product best supports this workflow?",
+            "options": {
+              "A": "Guardrails historical trend analysis",
+              "B": "SmartPull smart routing and rate optimization",
+              "C": "CBC credit qualification and decision",
+              "D": "DSGSS verification workflows"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "What does SmartPencil add to Informativ's tier packages?",
+            "options": {
+              "A": "Automated bureau pull prioritization rules",
+              "B": "Digital retail matching in F&I workflows",
+              "C": "Regulatory compliance audit trail system",
+              "D": "Smart price optimization for deals"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 2,
+      "title": "Health Score Model & Customer Signals",
+      "week_reference": 2,
+      "theme": "FOUNDATION",
+      "track": "all",
+      "description": "Deep dive into the CI Dashboard's 5-dimension health score model (0-100 scale), how to interpret scores, revenue tier classification, and the two-track margin threshold system for tiered vs. credit customers.",
+      "key_concepts": [
+        "5 health score dimensions: Margin Health (30%), Bureau Efficiency (15%), Product Utilization (20%), Growth Trajectory (20%), Churn Risk Inverse (15%)",
+        "Health score ranges: 0-40 (high risk), 41-70 (moderate), 71-100 (healthy)",
+        "Revenue tier classification: Elite ($500K+ ARR/$41,667+ MRR), Tier 1 ($100K-$499K/$8,333-$41,666 MRR), Tier 2 ($20K-$99K/$1,667-$8,332 MRR), Tier 3 (<$20K/<$1,667 MRR)",
+        "Two-track margin thresholds: Tiered packages (Negative <0%, Critical 0-20%, Watch 20-40%, Healthy 40%+) vs. Credit (Negative <0%, Critical 0-15%, Watch 16-26%, Healthy 27%+)",
+        "Margin Health dimension: COGS ratio, seasonal variation, overage impact",
+        "Churn Risk Inverse: combination of margin, growth, and engagement signals"
+      ],
+      "prep_focus": "Be able to read a health score and immediately assess customer risk level. Understand why credit and tiered customers have different margin thresholds. Know which dimension drives which outcomes.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "A Protect tier customer has a health score of 38. Which risk category does this fall into?",
+            "options": {
+              "A": "Healthy; score above 35",
+              "B": "Moderate risk; score in 41-70 range",
+              "C": "High risk; score in 0-40 range",
+              "D": "Critical; below 20"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "A credit customer shows a gross margin of 22%. According to the two-track threshold system, what status should this customer receive?",
+            "options": {
+              "A": "Healthy (27%+ threshold for credit)",
+              "B": "Watch (16-26% threshold for credit)",
+              "C": "Critical (below 15% for credit)",
+              "D": "Needs repricing (below 20% is always critical)"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which revenue tier receives a 30-day contact cadence?",
+            "options": {
+              "A": "Tier 2 only",
+              "B": "Tier 3 ($20K-$99K) and Elite ($500K+)",
+              "C": "Elite and Tier 1 only",
+              "D": "All tiers equally"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Why did this healthy customer's health score drop 82\u219276?",
+            "options": {
+              "A": "Bureau Efficiency or Utilization declined",
+              "B": "Margin Health fell below 40% threshold",
+              "C": "Growth rate slowed past 12% benchmark",
+              "D": "Engagement patterns now trigger churn risk"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "How much MRR does an Elite tier customer represent?",
+            "options": {
+              "A": "$1,667-$8,332 monthly",
+              "B": "$8,333-$41,666 monthly",
+              "C": "$41,667+ monthly",
+              "D": "Less than $1,667 monthly"
+            },
+            "correct_answer": "C"
+          }
+        ]
+      }
+    },
+    {
+      "module": 3,
+      "title": "CI Dashboard Navigation & Workflow",
+      "week_reference": 3,
+      "theme": "FOUNDATION",
+      "track": "all",
+      "description": "Practical mastery of the Customer Intelligence Dashboard's 10 tabs, filter patterns, detail panel interactions, and disposition tracking workflow. Learn how to navigate from portfolio overview to individual customer deep dives.",
+      "key_concepts": [
+        "Portfolio Overview: KPI cards, tier distribution, group health",
+        "Health Table: sortable customer list with health score, margin, tier, engagement status",
+        "Customer Detail Panel: T12 financials, bureau history, contact history, reprice integration",
+        "Revenue Tier Analysis: by-tier performance metrics, tier distribution trends",
+        "Cross-Sell Intelligence: expansion opportunities, product gap analysis",
+        "Bureau Optimization: pull efficiency, cost reduction strategies",
+        "Guardrails Impact: savings projections, customer impact",
+        "Disposition Tracker: contact outcomes, activity logging",
+        "CPQ Trend Alerts: quarterly allotment tracking, over/under-utilization flagging",
+        "GM Trending: margin history, seasonal patterns, recovery trajectories"
+      ],
+      "prep_focus": "Be able to navigate the dashboard fluently. Know what each tab is for and which tab to use for a given question (e.g., 'which customers are closest to overage?' \u2192 CPQ Trend Alerts). Understand filter patterns and multi-select behavior.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Find Tier 2 customers with negative margin. Fastest method?",
+            "options": {
+              "A": "Portfolio Overview \u2192 drill down by region",
+              "B": "Revenue Tier Analysis tab filter for Tier 2",
+              "C": "Sort Health Table by margin descending",
+              "D": "Health Table with Tier/Margin/Region filters"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Panel shows monthly history but missing allotment. Limitation?",
+            "options": {
+              "A": "Data error; both fields are always required",
+              "B": "Current month pull counts unavailable",
+              "C": "Can't calculate quarterly utilization percent",
+              "D": "Contact history and T12 margin absent"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "You want to see which customers in your portfolio have the most opportunity for margin recovery through bureau optimization. Which tab do you navigate to?",
+            "options": {
+              "A": "Guardrails Impact tab",
+              "B": "Bureau Optimization tab",
+              "C": "Cross-Sell Intelligence tab",
+              "D": "Health Table filtered by margin < 20%"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "The disposition tracker shows that a customer has 'Meeting Scheduled' logged 15 days ago, but you don't see evidence of a follow-up. How do you quickly identify other customers with similar overdue activity patterns?",
+            "options": {
+              "A": "Health Table \u2192 'Last Engagement' column \u2192 sort ascending",
+              "B": "My Customers Tab \u2192 Priority Queue \u2192 look for 'Overdue Touchpoints' zone",
+              "C": "Disposition Tracker \u2192 filter by 'Meeting Scheduled' \u2192 sort by date",
+              "D": "CS Management \u2192 Rep Accountability table \u2192 'Overdue' column"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "CPQ risk jumped 22\u219258 in one week. Cause?",
+            "options": {
+              "A": "Quarterly allotment approached/exceeded",
+              "B": "Monthly COGS fell unexpectedly",
+              "C": "Customer bought higher tier package",
+              "D": "Monthly limit reached early in quarter"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 4,
+      "title": "Disposition Taxonomy & Contact Cadence",
+      "week_reference": 4,
+      "theme": "FOUNDATION",
+      "track": "all",
+      "description": "Master the complete disposition taxonomy used across Informativ platforms (CI Dashboard, PIE, Chuck), understand the distinction between contact outcomes and pipeline progress, and execute SLA-compliant cadences for different customer tiers and affiliate programs.",
+      "key_concepts": [
+        "Disposition taxonomy: Contact Outcomes (Contacted-Interested, Contacted-Not Interested, No Answer, Left Voicemail, Wrong Number) / Pipeline Progress (Meeting Scheduled, Demo Completed, Proposal Sent, Negotiating, Opportunity Created) / Closed (Closed Won, Closed Lost, Not Qualified) / Data Quality (Bad Data, Duplicate, Do Not Contact)",
+        "Contact cadence by revenue tier: Elite 30 days, Tier 1 30 days, Tier 2 60 days, Tier 3 90 days",
+        "CUDL SLA for affiliate accounts: 4hr acknowledgment, 12hr first call, 24hr second attempt, 48hr outcome required",
+        "Overdue touchpoint calculation: today - last_disposition_date > tier_cadence",
+        "SLA breach definition: no solution fit meeting AND (no activity in 24hr OR >48hr with no outcome)",
+        "Disposition firing sequence: what outcome leads to next logical action"
+      ],
+      "prep_focus": "Know the full taxonomy cold. Be able to classify any customer interaction into the correct category. Understand SLA timelines. Know how to detect overdue accounts and prioritize them.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "You call a customer and reach their voicemail. You leave a detailed message about an expansion opportunity. Which disposition should you log?",
+            "options": {
+              "A": "Contacted-Interested (you made contact)",
+              "B": "Left Voicemail (specific contact outcome)",
+              "C": "No Answer (you didn't reach the decision-maker)",
+              "D": "Pipeline Progress / Meeting Scheduled (you positioned an opportunity)"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A Tier 2 customer was last contacted 75 days ago with a 'Meeting Scheduled' disposition. Today is day 76. What is their touchpoint status?",
+            "options": {
+              "A": "On-track (60-day cadence allows +15 day buffer)",
+              "B": "Overdue (75 days exceeds 60-day Tier 2 cadence)",
+              "C": "At risk (approaching 90-day deadline)",
+              "D": "Critical (over 100 days since last contact)"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A CUDL affiliate prospect was assigned to you at 2:00 PM on Monday. Per CUDL SLA, your first contact attempt must be completed by what time?",
+            "options": {
+              "A": "2:00 PM same day (4 hours from assignment)",
+              "B": "2:00 PM Tuesday (24 hours)",
+              "C": "2:00 AM Wednesday (30 hours for 'next business day')",
+              "D": "End of business Tuesday (12 hours)"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "You have three customers: (1) Elite, last contact 29 days ago; (2) Tier 1, last contact 31 days ago; (3) Tier 2, last contact 61 days ago. Which is most overdue relative to their tier cadence?",
+            "options": {
+              "A": "Customer 1 (Elite, approaching 30-day limit)",
+              "B": "Customer 2 (Tier 1, already past 30-day cadence)",
+              "C": "Customer 3 (Tier 2, already past 60-day cadence)",
+              "D": "All three are equally urgent"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A disposition of 'Closed Lost' indicates what?",
+            "options": {
+              "A": "Deal was lost; customer may remain active",
+              "B": "Customer churned and won't return",
+              "C": "Account is now inactive forever",
+              "D": "No future growth opportunities exist"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 5,
+      "title": "Credit Bureau Economics & COGS Structure",
+      "week_reference": 5,
+      "theme": "CSM_SPECIALIZED",
+      "track": "csm",
+      "description": "CSM-specific module on how credit bureau costs are calculated, how COGS impacts margin, and how the two-track margin threshold system specifically applies to credit customers. Learn to diagnose margin erosion and identify repricing opportunities.",
+      "key_concepts": [
+        "Bureau pull costs: Equifax soft/hard pull rates, Experian soft/hard pull rates, TransUnion soft/hard pull rates",
+        "COGS calculation: sum of all bureau pulls + compliance reporting + processing overhead per subscription period",
+        "Gross margin calculation: (MRR Revenue - COGS) / MRR Revenue \u00d7 100% = GM%",
+        "Credit customer margin thresholds: Negative <0%, Critical 0-15%, Watch 16-26%, Healthy 27%+",
+        "Why credit margins are lower than tier packages: credit is transactional (per-pull cost), tiers are fixed (unlimited allotments)",
+        "Margin erosion drivers: increased pull volume, mix shift to expensive bureaus (hard pulls vs soft), customer onboarding creating temporary volume spike"
+      ],
+      "prep_focus": "Understand that credit customers have inherently lower margins because they're charged per-pull. Know how volume and bureau mix directly impact COGS. Be able to explain margin thresholds to credit customers.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "A credit customer's monthly revenue is $8,000. Their monthly COGS is $5,600 (280 hard pulls \u00d7 $20/hard pull). What is their gross margin percentage?",
+            "options": {
+              "A": "70% (COGS is 70% of revenue)",
+              "B": "30% (1 - 5,600/8,000)",
+              "C": "43.75% ((8,000-5,600)/8,000 \u00d7 100)",
+              "D": "56.25% (COGS expressed as percent of cost)"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "A credit customer moves from 200 pulls/month to 280 pulls/month (40% volume increase). Assuming all new pulls are hard pulls at $20 each, what is the impact to their monthly COGS?",
+            "options": {
+              "A": "$800 increase (40% \u00d7 200 pulls \u00d7 $20)",
+              "B": "$1,600 increase (80 additional pulls \u00d7 $20)",
+              "C": "$2,000 increase (10% of previous revenue)",
+              "D": "Cannot calculate without knowing the revenue impact"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Why are credit thresholds (27%) lower than tiers (40%)?",
+            "options": {
+              "A": "Credit is per-pull cost; tiers are fixed",
+              "B": "Credit deals are smaller on average",
+              "C": "Tiered have lower COGS structures",
+              "D": "Credit needs higher support costs"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "A customer's margin just dropped from 29% to 22% (Watch threshold). You review their bureau mix and notice they've shifted from 60% soft pulls to 80% soft pulls. This change would DECREASE COGS, not increase it. What other factor likely drove the margin decline?",
+            "options": {
+              "A": "Bureau mix improvement should not cause margin decline",
+              "B": "Revenue decreased (pull volume up but dealer sales down)",
+              "C": "Different bureau pricing tiers applied",
+              "D": "The calculation is wrong; soft pulls cost more than hard pulls"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Credit: 12% margin, $5K MRR. COGS drops $1,200. New margin?",
+            "options": {
+              "A": "15% (proportional decrease applied)",
+              "B": "24% (COGS=$3,800; margin=$1,200/$5K)",
+              "C": "31% (12% plus 19% improvement)",
+              "D": "18% (simple arithmetic adjustment)"
+            },
+            "correct_answer": "B"
+          }
+        ]
+      }
+    },
+    {
+      "module": 6,
+      "title": "Credit Customer Retention & Margin Recovery",
+      "week_reference": 6,
+      "theme": "CSM_SPECIALIZED",
+      "track": "csm",
+      "description": "Strategic playbook for identifying root causes of credit margin erosion, executing margin recovery conversations with dealers, and preventing churn through value retention. Covers SmartPull optimization and repricing methodology.",
+      "key_concepts": [
+        "Root causes of margin erosion: increased pull volume (demand growth OR wasteful usage), bureau mix shift (more expensive bureaus), customer not using SmartPull optimization, unnecessary hard pulls",
+        "SmartPull optimization: soft pull rules, decision trees, reduced hard pull frequency \u2192 lower COGS",
+        "Repricing methodology: adjust cost per pull OR adjust subscription fee, communicate value delivered (bureau access, compliance), tie repricing to utilization growth",
+        "Retention conversation framework: acknowledge growth \u2192 quantify value delivered \u2192 explain cost realities \u2192 present repricing as partnership \u2192 offer optimization alternatives",
+        "Before repricing: explore optimization options (SmartPull, bureau mix review, volume analysis) as lower-friction alternative"
+      ],
+      "prep_focus": "Master the repricing conversation. Know how to explain margin economics to a dealer. Be able to offer SmartPull as an alternative to price increases. Understand the difference between volume growth (good) and wasteful usage (bad).",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "A customer's pull volume increased 30% year-over-year, but their revenue only increased 8%. What is the most likely explanation for this usage mismatch?",
+            "options": {
+              "A": "Dealer is running more credit pulls per deal (wasteful, not optimized)",
+              "B": "Dealer's sales volume is actually up 30%, but billing is delayed",
+              "C": "Informativ's pricing is inefficient for high-volume dealers",
+              "D": "This is normal variance; volume and revenue don't correlate"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Before repricing, what to verify first?",
+            "options": {
+              "A": "Contract renewal date window",
+              "B": "Remaining Q2 budget available",
+              "C": "Certification completion rate",
+              "D": "SmartPull hard pull configuration"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Soft pulls only, margin still Critical. Check what?",
+            "options": {
+              "A": "If they need tier upgrade available",
+              "B": "Their COGS rate structure details",
+              "C": "Whether to change provider partner",
+              "D": "SmartPull aggressiveness and hard pulls"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Dealer: 'Sales grew 25%, pulls should too.' Real issue?",
+            "options": {
+              "A": "Pull volume grew 35%, outpacing sales 25%",
+              "B": "Pulls shouldn't scale with sales",
+              "C": "They are correct; growth justifies pulls",
+              "D": "Their efficiency is actually improving"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Margin 12%\u219222% via SmartPull. Next action?",
+            "options": {
+              "A": "Upgrade to higher tier immediately now",
+              "B": "Continue repricing toward 40% target",
+              "C": "Terminate due to risk persistent issues",
+              "D": "Defer repricing; margin is recovering"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      }
+    },
+    {
+      "module": 7,
+      "title": "Cross-Sell & Expansion for Credit Accounts",
+      "week_reference": 7,
+      "theme": "CSM_SPECIALIZED",
+      "track": "csm",
+      "description": "CSM playbook for moving credit-only customers into higher-value tier packages (Protect, Enrich, Elevate, Control) and expanding their product footprint with DSGSS compliance and SmartPencil digital retail.",
+      "key_concepts": [
+        "Tier upgrade value proposition: Protect ($21.5K avg) includes DSGSS + bureau, Enrich ($28K avg) adds compliance automation, Elevate ($35K avg) adds SmartPencil, Control ($43.6K avg) adds dedicated support",
+        "Cross-sell scoring model: account for customer's current product mix, revenue tier, bureau utilization, regulatory environment",
+        "Compliance value story (DSGSS): reduce regulatory risk, streamline F&I workflows, dealer staff training, audit trails",
+        "Digital retail value story (SmartPencil): in-dealership decision support, applicant-matching, reduces decision time",
+        "Tier conversion playbook: assess fit (is customer ready for fixed-cost model?), quantify value (how much compliance risk can they avoid?), position as upgrade not upsell, offer pilot period"
+      ],
+      "prep_focus": "Know the tier package progression and what's included at each level. Understand the value drivers for credit customers moving to tiers (compliance, efficiency, decision velocity). Be able to score a customer's tier readiness.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Credit customer spends $6K/mo on bureau. Best tier?",
+            "options": {
+              "A": "Protect; pays $6K without compliance",
+              "B": "Enrich for compliance bundling",
+              "C": "Credit pricing always stays lower",
+              "D": "Protect as entry-level tier"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Officer wants audit trails and compliance. Which product?",
+            "options": {
+              "A": "DSGSS (audit trails and compliance)",
+              "B": "SmartPull (cost reduction system)",
+              "C": "Guardrails (overage alert system)",
+              "D": "CBC (credit bureau connection)"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Credit Watch 20%. Can upgrade to Protect?",
+            "options": {
+              "A": "No; improve bureau efficiency first",
+              "B": "Only if they have budget available",
+              "C": "No; Protect not for credit customers",
+              "D": "Yes; compliance reduces onboarding time"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "The SmartPencil digital retail product is most valuable to dealers in which F&I scenario?",
+            "options": {
+              "A": "High-volume dealerships with consistent deal pipeline",
+              "B": "Dealerships struggling with applicant decision speed",
+              "C": "Dealerships with existing compliance infrastructure",
+              "D": "Any dealership using bureau services"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Control tier ($43.6K) with DSGSS. Key benefit?",
+            "options": {
+              "A": "Dedicated CSM and priority support",
+              "B": "Unlimited CPQ without overage",
+              "C": "Automatic repricing at 30%",
+              "D": "Free inventory matching service"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 8,
+      "title": "Competitive Intelligence \u2014 Credit Market",
+      "week_reference": 8,
+      "theme": "CSM_SPECIALIZED",
+      "track": "csm",
+      "description": "CSM landscape awareness: competitive positioning of 700Credit, NCC, RouteOne, and DealerTrack. Know Informativ's differentiation, how to handle competitive displacement conversations, and when to escalate vs. retain.",
+      "key_concepts": [
+        "700Credit: market position (largest credit bureau player), pricing, product breadth, dealer relationships, weakness areas (compliance, digital retail)",
+        "NCC (National Credit Center): regional player, OEM focus, lower cost positioning, limited product bundling",
+        "RouteOne: integration-heavy, DMS connectivity, credit as part of larger ecosystem, lacks Informativ's compliance/digital retail",
+        "DealerTrack: payment ecosystem focus, credit secondary, not a primary competitor but relationship risk",
+        "Informativ differentiation: compliance bundle (DSGSS), digital retail (SmartPencil), customer success (CSM/CSA model), margin transparency",
+        "Displacement risk signals: long sales cycles, dealer requesting rate reductions, request for feature parity (digital retail, compliance)"
+      ],
+      "prep_focus": "Know the competitive landscape. Understand where Informativ wins and where it loses. Know how to counter competitive threats in retention conversations. Know when to escalate to Michael vs. handle yourself.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Competitor proposal received. Our key differentiator?",
+            "options": {
+              "A": "Lowest bureau costs in the market",
+              "B": "Fastest credit decisions available",
+              "C": "Highest quarterly allotments offered",
+              "D": "Bundle compliance and retail into tiers"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Dealer considering NCC. Legitimate concern?",
+            "options": {
+              "A": "NCC lacks OEM partnerships existing",
+              "B": "NCC pricing lower than our pricing",
+              "C": "NCC doesn't offer compliance product",
+              "D": "NCC is regional without broad coverage"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "RouteOne offers DMS integration. Response?",
+            "options": {
+              "A": "Our compliance and retail are distinct",
+              "B": "Integration alone doesn't differentiate",
+              "C": "RouteOne is technically superior",
+              "D": "Integration is our advantage"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Customer: 'Match 700Credit pricing?' Best answer?",
+            "options": {
+              "A": "SmartPencil differs from bureau plays",
+              "B": "Pricing alone lacks compliance value",
+              "C": "700Credit is cheaper; switch if prefer",
+              "D": "We offer volume discounts they lack"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Dealer switching RouteOne for integration. Response?",
+            "options": {
+              "A": "Does RouteOne offer features we lack?",
+              "B": "We also have workflow integration",
+              "C": "Integration is table-stakes commodity",
+              "D": "That's valid; we can't compete"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 9,
+      "title": "Tier Architecture & CPQ Guardrails",
+      "week_reference": 9,
+      "theme": "CSA_SPECIALIZED",
+      "track": "csa",
+      "description": "CSA-specific deep dive into the 5 flat-rate tier packages (Protect, Enrich, Elevate, Control, Total Solutions, Foundation), what's included in each, how CPQ allotments work, and how Guardrails usage monitoring prevents overages and margin erosion.",
+      "key_concepts": [
+        "5 tier packages: Protect (CBC+DSGSS, $21.5K avg), Enrich (Protect+automation, $28K avg), Elevate (Enrich+SmartPencil, $35K avg), Control (Elevate+dedicated support, $43.6K avg), Total Solutions (all-in), Foundation (basic)",
+        "CPQ (Credit Pull Quota) quarterly allotments: soft pull and hard pull limits per quarter, resets per quarter (Q1: Jan-Mar, Q2: Apr-Jun, etc.)",
+        "Guardrails usage monitoring: real-time pull tracking, overage alerts when approaching limits, overage charges if customer exceeds quarterly allotment",
+        "Overage pricing: per-pull rates if customer exceeds hard/soft pull allotments mid-quarter",
+        "CPQ Trend Alerts dashboard: tracks customer utilization % vs. allotment, flags customers at risk of overage before it happens",
+        "Monthly vs. quarterly cadence: allotments are quarterly, but usage is tracked monthly for early warning"
+      ],
+      "prep_focus": "Know each tier's inclusions and pricing. Understand how CPQ works (quarterly reset, monthly tracking). Know how to prevent overages (monitor Guardrails, proactive customer communication). Be able to explain overage charges to customers.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "A Protect tier customer's quarterly CPQ allotment is 450 hard pulls and 900 soft pulls. They've used 180 hard pulls and 380 soft pulls in May (month 1 of Q2). What is their utilization rate?",
+            "options": {
+              "A": "40% (180/450 hard pulls)",
+              "B": "42% for hard pulls and 42% for soft pulls",
+              "C": "33% (180 pulls used out of 1,350 total quarterly)",
+              "D": "Not enough data; need to know when the quarter resets"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Guardrails: 85% allotment, 2 mo left. Meaning?",
+            "options": {
+              "A": "Risk exceeding allotment by quarter end",
+              "B": "Will hit overage by July 1 deadline",
+              "C": "Usage normal for this time period",
+              "D": "Sufficient buffer remains available"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "Total Solutions: unlimited allotment. What means unlimited?",
+            "options": {
+              "A": "No quarterly limits; pulls unrestricted",
+              "B": "Customers pay per pull with no caps",
+              "C": "Overage charges automatically waived",
+              "D": "Only 5 customers qualify for access"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "A Tier 2 customer is projected to exceed their Q2 hard pull allotment by 20% (overage of 120 pulls). Their overages will cost $2,400 (120 pulls \u00d7 $20/pull). What should you do FIRST?",
+            "options": {
+              "A": "Wait until the overage occurs, then bill them",
+              "B": "Immediately call to discuss tier upgrade or contract adjustment before overage occurs",
+              "C": "Suggest SmartPull optimization to reduce hard pull necessity",
+              "D": "Both B and C \u2014 offer optimization first, then discuss upgrade if needed"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "CPQ Alert risk jumped sharply. Primary cause?",
+            "options": {
+              "A": "Monthly pulls increased sharply",
+              "B": "Their COGS decreased suddenly",
+              "C": "Tier was downgraded recently",
+              "D": "Health score improved this month"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 10,
+      "title": "Tier Customer Onboarding & Installation Success",
+      "week_reference": 10,
+      "theme": "CSA_SPECIALIZED",
+      "track": "csa",
+      "description": "CSA playbook for tier customer onboarding, first 90 days success metrics, bureau settings configuration, dealer staff training, and certification milestone tracking to ensure customers realize value and reduce early churn.",
+      "key_concepts": [
+        "First 90 days playbook: kick-off call (set expectations, review allotments), technical setup (bureau routing, decision logic), user training (compliance, bureau intelligence), week 2-4 utilization review, week 6-8 value realization checkpoint, 90-day business review",
+        "Bureau settings configuration: SmartPull decision trees (soft pull thresholds, bureau selection rules), bureau routing (preferred bureaus, fallback logic)",
+        "Dealer staff training: F&I staff (bureau intelligence, compliance workflows), management (usage reporting, variance analysis)",
+        "Certification milestone tracking: product certifications required (3-7 depends on tier), completion % by customer",
+        "Common failure points: dealer staff untrained on new workflow, SmartPull rules misconfigured, customer expects unlimited bureau access but has quota constraints, inadequate change management"
+      ],
+      "prep_focus": "Master the 90-day onboarding playbook. Know how to identify configuration issues early. Understand the relationship between training completion and product success. Know how to conduct a 90-day business review that drives retention.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Protect onboarded April 1. Success by June 1?",
+            "options": {
+              "A": "SmartPull configured for soft pull cost",
+              "B": "Invoice paid by mid-April deadline",
+              "C": "No overage charges this quarter",
+              "D": "Business review meeting scheduled"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "After 90 days, cert completion 15%. Assessment?",
+            "options": {
+              "A": "Expected adoption rate for tiers",
+              "B": "Weak onboarding; training not engaged",
+              "C": "Program design needs full rebuild",
+              "D": "Signals imminent customer churn"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "SmartPull threshold $20K. Correct configuration?",
+            "options": {
+              "A": "Too conservative for most dealers",
+              "B": "Standard for all tier customers",
+              "C": "Should be $50K for best results",
+              "D": "Review thresholds with dealer"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "90-day review: 40% allotment used. Next action?",
+            "options": {
+              "A": "Normal usage; monitor quarterly",
+              "B": "Explore Control upgrade or SmartPull",
+              "C": "Reduce allotment to cut costs",
+              "D": "Schedule re-onboarding training"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Which indicates onboarding failure by week 8?",
+            "options": {
+              "A": "F&I staff still use manual credit",
+              "B": "Customer used 35% of allotment",
+              "C": "Staff cite technical blocking issues",
+              "D": "First overage charge has appeared"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    },
+    {
+      "module": 11,
+      "title": "Tier Retention & Utilization Optimization",
+      "week_reference": 11,
+      "theme": "CSA_SPECIALIZED",
+      "track": "csa",
+      "description": "CSA retention playbook for tier customers: managing utilization (preventing both under-utilization churn and over-utilization margin erosion), QBR execution, tier upgrade/downgrade decisions, and health score improvement strategies.",
+      "key_concepts": [
+        "Under-utilization risk: customer uses <50% of allotment \u2192 signal of low engagement or perceived lack of value \u2192 churn risk",
+        "Over-utilization risk: customer uses >80% of allotment \u2192 approaching overage charges \u2192 margin pressure \u2192 dissatisfaction",
+        "Healthy utilization: 50-80% of allotment \u2192 customer deriving steady value, room for growth without overage",
+        "QBR (Quarterly Business Review): review allotment utilization, discuss growth/contraction, identify upsell/cross-sell, address health score trends, plan next quarter",
+        "Tier upgrade conversation: customer growing beyond allotment OR seeking more features (SmartPencil, Elevate/Control support)",
+        "Tier downgrade conversation: customer not using allotment, shrinking revenue \u2192 repositioning for success at lower tier, not as failure",
+        "Health score improvement: margin optimization (SmartPull rules), bureau efficiency (pull reduction), engagement (QBRs, training refreshers)"
+      ],
+      "prep_focus": "Understand the sweet spot for utilization (50-80%). Know how to run a QBR that drives retention and identifies expansion. Know how to handle downgrade conversations without losing the customer.",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "Protect customer: 28% allotment mid-quarter. Concern?",
+            "options": {
+              "A": "Usage level is healthy right now",
+              "B": "Severe underutilization, churn risk",
+              "C": "Will hit overage by quarter end",
+              "D": "Health score will naturally improve"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "During a QBR, a customer reports: 'Our sales are down 15% YoY, but we're still keeping all Protect features. Can we downgrade to Foundation to save money?' How do you respond?",
+            "options": {
+              "A": "Fight to keep them on Protect tier; downgrades hurt revenue",
+              "B": "Explore the root cause (market weakness vs. process issue) \u2192 if market-driven, suggest downgrade to Foundation as bridge during downturn",
+              "C": "Recommend Foundation, but position as a 90-day test with easy upgrade path when business rebounds",
+              "D": "Both B and C \u2014 explore root cause, offer downgrade as bridge, set clear upgrade triggers"
+            },
+            "correct_answer": "D"
+          },
+          {
+            "question": "Health dropped 78\u219267, margin unchanged. What?",
+            "options": {
+              "A": "Bureau Efficiency declined this month",
+              "B": "Reduced engagement; fewer pulls",
+              "C": "Invoice payment failed recently",
+              "D": "Margin thresholds were system updated"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A Tier 2 customer is at 76% of their quarterly hard pull allotment with 6 weeks left in the quarter. They've maintained this pace for 2 quarters. What is the optimal recommendation?",
+            "options": {
+              "A": "Monitor closely for overage, prepare for billing",
+              "B": "Suggest upgrade to Tier 1 or Control for more headroom",
+              "C": "This is healthy utilization; they're deriving value",
+              "D": "Implement SmartPull optimization to reduce hard pull dependency"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "During a QBR, the customer asks: 'Why can't we get SmartPencil features at Protect tier pricing?' What is the most defensible response?",
+            "options": {
+              "A": "SmartPencil is an Elevate+ feature; bundling drives value-based pricing",
+              "B": "Informativ could offer SmartPencil add-on for $8,000/month if they want the feature",
+              "C": "Suggest upgrade to Elevate ($35K) which includes SmartPencil alongside improved bureau efficiency",
+              "D": "Any of the above, depending on the customer's specific pain point"
+            },
+            "correct_answer": "D"
+          }
+        ]
+      }
+    },
+    {
+      "module": 12,
+      "title": "Advanced Tier Value Realization & Enterprise Account Management",
+      "week_reference": 12,
+      "theme": "CSA_SPECIALIZED",
+      "track": "csa",
+      "description": "Capstone CSA module on advanced tier strategy: SmartPencil digital retail workflows, DSGSS compliance deep dive, multi-rooftop group pricing, ROI measurement and communication, and elite tier ($500K+) enterprise account management.",
+      "key_concepts": [
+        "SmartPencil digital retail: in-dealership applicant-matching, decision velocity improvement, F&I staff productivity gains, measurable ROI (deals/day increase, F&I close rates)",
+        "DSGSS compliance: audit trails, regulatory reporting, staff training integration, risk reduction quantification",
+        "Multi-rooftop group pricing: dealer group consolidation, volume-based pricing tiers, group-level health scorecards",
+        "ROI measurement: deals closed per month, average deal size, F&I speed, margin improvement, churn prevention value",
+        "ROI communication: quantify in $ saved (compliance risk, decision time), $ earned (faster F&I closes, upsell attach), ROI multiple over contract term",
+        "Elite tier ($500K+ ARR) management: dedicated CSM assigned, quarterly business reviews, strategic account planning, C-level relationship building"
+      ],
+      "prep_focus": "Master the advanced value story. Know how to measure and articulate ROI to dealers. Understand group pricing dynamics. Know how to manage and grow Elite tier relationships (these are $6M+ contracts if kept for 10 years).",
+      "quiz": {
+        "passing_score": 80,
+        "questions": [
+          {
+            "question": "SmartPencil: 13 min saved per deal. Monthly FTE?",
+            "options": {
+              "A": "Approximately $500 in staff savings",
+              "B": "13 min \u00d7 150 deals = 32.5 FTE hours",
+              "C": "13 minutes per deal (hard to extend)",
+              "D": "Unmeasurable without transaction data"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "A dealer group owns 6 franchises. Informativ provides Protect tier service to each. What is the primary business case for consolidating to a group-level contract?",
+            "options": {
+              "A": "Lower per-rooftop pricing due to volume commitment",
+              "B": "Simplified billing and central account management",
+              "C": "Both A and B \u2014 volume pricing + operational consolidation",
+              "D": "Higher allotment across the group (6\u00d7 single-rooftop allotments)"
+            },
+            "correct_answer": "C"
+          },
+          {
+            "question": "Elite ($500K+), 18 months tenure, health 89\u219262. Priority?",
+            "options": {
+              "A": "Schedule strategic business review",
+              "B": "Review contract renewal window",
+              "C": "Propose immediate tier downgrade",
+              "D": "Monitor two weeks before action"
+            },
+            "correct_answer": "A"
+          },
+          {
+            "question": "A DSGSS compliance customer asks: 'How do we measure the value of compliance infrastructure?' What is the most concrete answer?",
+            "options": {
+              "A": "Regulatory risk reduction (hard to quantify but critical)",
+              "B": "Audit preparation time reduced by 60% = $15K/year labor savings + risk mitigation",
+              "C": "Compliance is intangible value; focus on the credit and digital retail ROI instead",
+              "D": "Compliance value is specific to the dealer's regulatory environment"
+            },
+            "correct_answer": "B"
+          },
+          {
+            "question": "Elite customer considering downgrade. Response?",
+            "options": {
+              "A": "Conduct strategic budget review first",
+              "B": "Offer 20% discount to stay current",
+              "C": "Process downgrade immediately",
+              "D": "Escalate to executive leadership"
+            },
+            "correct_answer": "A"
+          }
+        ]
+      }
+    }
+  ]
+}
