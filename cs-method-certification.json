@@ -912,21 +912,21 @@
             "question": "A credit customer has been active for 14 months with stable 65% utilization and 24% margin. Their health score is 58. What LAER stage should drive your next engagement?",
             "options": {
               "A": "Adopt — push for higher utilization of existing features",
-              "B": "Expand — stable usage + below-target margin signals a repricing or cross-sell opportunity",
+              "B": "Land — reconfigure their bureau settings to improve margin",
               "C": "Renew — 14 months in, focus on retention",
-              "D": "Land — reconfigure their bureau settings to improve margin"
+              "D": "Expand — stable usage + below-target margin signals a repricing or cross-sell opportunity"
             },
-            "correct_answer": "B"
+            "correct_answer": "D"
           },
           {
             "question": "What distinguishes proactive CS (LAER model) from reactive CS?",
             "options": {
               "A": "Proactive CS waits for the customer to report issues, then resolves them quickly",
-              "B": "Proactive CS identifies stage transitions before the customer does and initiates the appropriate conversation",
-              "C": "Proactive CS focuses on upselling at every touchpoint regardless of customer needs",
+              "B": "Proactive CS focuses on upselling at every touchpoint regardless of customer needs",
+              "C": "Proactive CS identifies stage transitions before the customer does and initiates the appropriate conversation",
               "D": "Proactive CS means more frequent check-in calls without a structured agenda"
             },
-            "correct_answer": "B"
+            "correct_answer": "C"
           },
           {
             "question": "An Elite tier customer ($520K ARR) just added SmartPencil to their existing Control package. What LAER stage does this trigger?",
@@ -974,11 +974,11 @@
             "question": "A credit customer's margin has declined from 31% to 19% over 6 months due to bureau cost increases. They are unaware of the trend. What does Challenger CS prescribe as your opening?",
             "options": {
               "A": "Ask the customer how they feel about their current pricing and whether they would be open to changes",
-              "B": "Lead with the data: 'Your margin has dropped 12 points in 6 months. At this rate, you will be negative margin by Q4. Here is what is driving it and what we recommend.'",
+              "B": "Wait for the customer to notice the issue and bring it up themselves, then respond",
               "C": "Send an email with the margin data attached and ask them to review before your next scheduled call",
-              "D": "Wait for the customer to notice the issue and bring it up themselves, then respond"
+              "D": "Lead with the data: 'Your margin has dropped 12 points in 6 months. At this rate, you will be negative margin by Q4. Here is what is driving it and what we recommend.'"
             },
-            "correct_answer": "B"
+            "correct_answer": "D"
           },
           {
             "question": "What is the core difference between Relationship CS and Challenger CS?",
@@ -994,21 +994,21 @@
             "question": "You need to reprice a Tier 1 customer from $3,200/mo to $4,100/mo due to increased bureau costs. Which approach demonstrates 'Take Control'?",
             "options": {
               "A": "'We need to discuss a possible price adjustment. What would work for your budget?'",
-              "B": "'Bureau costs have increased 22% since your last pricing review. Your new pricing of $4,100 reflects your current usage and maintains the margin structure that keeps your account healthy.'",
-              "C": "'Corporate is requiring us to raise prices. I fought for you but could only get it down to $4,100.'",
+              "B": "'Corporate is requiring us to raise prices. I fought for you but could only get it down to $4,100.'",
+              "C": "'Bureau costs have increased 22% since your last pricing review. Your new pricing of $4,100 reflects your current usage and maintains the margin structure that keeps your account healthy.'",
               "D": "'Would $3,800 be acceptable as a compromise between our current and target pricing?'"
             },
-            "correct_answer": "B"
+            "correct_answer": "C"
           },
           {
             "question": "A customer who just upgraded to Elevate tier 3 weeks ago calls frustrated about a configuration issue. Your Challenger instinct says to address their under-optimized bureau settings. What do you do?",
             "options": {
-              "A": "Lead with the bureau insight — Challenger CS means always teaching",
-              "B": "Resolve the configuration issue first, schedule a follow-up to discuss bureau optimization after they stabilize",
+              "A": "Resolve the configuration issue first, schedule a follow-up to discuss bureau optimization after they stabilize",
+              "B": "Lead with the bureau insight — Challenger CS means always teaching",
               "C": "Defer both issues to the next QBR to avoid overwhelming them",
               "D": "Escalate to management since the customer is frustrated"
             },
-            "correct_answer": "B"
+            "correct_answer": "A"
           },
           {
             "question": "The TAILOR step requires you to customize your insight to the specific customer. Which of these demonstrates tailoring vs. a generic talk track?",
@@ -1056,31 +1056,31 @@
             "question": "During a repricing conversation, the customer says: 'Your competitor offered us the same service for 20% less.' Using the Challenger objection framework, what is the strongest response?",
             "options": {
               "A": "We can match that price to keep your business",
-              "B": "That is their pricing strategy, but switching costs are real — implementation, retraining, 60-90 day productivity loss, compliance gaps, and restarting the relationship. The total cost of switching typically exceeds 2 years of the price difference.",
+              "B": "Let me check with my manager about what discount we can offer",
               "C": "Our product is better quality, so the higher price is justified",
-              "D": "Let me check with my manager about what discount we can offer"
+              "D": "That is their pricing strategy, but switching costs are real — implementation, retraining, 60-90 day productivity loss, compliance gaps, and restarting the relationship. The total cost of switching typically exceeds 2 years of the price difference."
             },
-            "correct_answer": "B"
+            "correct_answer": "D"
           },
           {
             "question": "You model a repricing scenario in the CI Dashboard calculator. The recommended price brings margin to 42% but the customer's current contract price is 35% below that. What approach maximizes retention?",
             "options": {
-              "A": "Implement the full price increase immediately to hit target margin",
-              "B": "Phase the increase over 2-3 quarters with clear milestones, showing the customer the progression path and what value they receive at each step",
+              "A": "Phase the increase over 2-3 quarters with clear milestones, showing the customer the progression path and what value they receive at each step",
+              "B": "Implement the full price increase immediately to hit target margin",
               "C": "Accept the current pricing and hope bureau costs stabilize",
               "D": "Offer a permanent discount to split the difference"
             },
-            "correct_answer": "B"
+            "correct_answer": "A"
           },
           {
             "question": "A tiered customer's margin is 8% — well below the 40% healthy threshold. The reprice calculator shows that even at the manager price floor, margin would only reach 28%. What does the methodology prescribe?",
             "options": {
               "A": "Reprice to manager floor and accept 28% margin as the best achievable outcome",
-              "B": "The conversation shifts from repricing to right-sizing: explore tier downgrade, product simplification, or bureau optimization to reduce COGS before repricing",
-              "C": "Escalate to CRO for a custom pricing exception",
+              "B": "Escalate to CRO for a custom pricing exception",
+              "C": "The conversation shifts from repricing to right-sizing: explore tier downgrade, product simplification, or bureau optimization to reduce COGS before repricing",
               "D": "Accept the account as permanently low-margin and deprioritize"
             },
-            "correct_answer": "B"
+            "correct_answer": "C"
           },
           {
             "question": "After a successful repricing conversation, the customer agrees to new pricing effective next month. What is the required post-reprice follow-through per the playbook?",
