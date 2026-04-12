@@ -288,33 +288,48 @@ const INTENT_TO_CATEGORIES = {
 // CS MODE SUPPORT — Customer Success Operations
 // ──────────────────────────────────────────
 const CS_MODES = {
+    cs_chat: {
+        name: 'CS Chat',
+        persona: 'CS Coach — supportive, knowledgeable, action-oriented',
+        description: 'General CS assistant for customer success questions and guidance',
+        kb_keys: ['product_architecture', 'pricing_tiers', 'health_score_model',
+                  'dashboard_navigation', 'disposition_taxonomy', 'engagement_cadence',
+                  'retention_framework', 'cs_assignment_model']
+    },
     cs_health_check: {
         name: 'Health Check',
         persona: 'Health Monitor — proactive, data-driven, pattern-detecting',
         description: 'Analyze customer health scores and recommend actions',
-        kb_keys: ['health_score_model', 'health_dimensions', 'score_interpretation',
-                  'margin_thresholds', 'dashboard_navigation', 'retention_triggers']
+        kb_keys: ['health_score_model', 'dashboard_navigation', 'retention_framework',
+                  'engagement_cadence', 'disposition_taxonomy', 'cs_assignment_model']
+    },
+    cs_account_review: {
+        name: 'Account Review',
+        persona: 'Strategic Advisor — analytical, structured, preparation-focused',
+        description: 'Build structured QBR/call prep talking points for account reviews',
+        kb_keys: ['health_score_model', 'engagement_cadence', 'retention_framework',
+                  'cross_sell', 'utilization_playbook', 'competitive_intelligence']
     },
     cs_reprice_scenario: {
         name: 'Reprice Scenario',
         persona: 'CSM Financial Advisor — financial, strategic, margin-focused',
         description: 'Model reprice scenarios and guide pricing conversations',
-        kb_keys: ['reprice_methodology', 'margin_calculations', 'negotiation_guardrails',
-                  'communication_templates', 'pricing_tiers', 'bureau_cost_rates']
+        kb_keys: ['reprice_playbook', 'pricing_tiers', 'bureau_economics',
+                  'cogs_structure', 'health_score_model', 'competitive_intelligence']
     },
     cs_utilization_guidance: {
         name: 'Utilization Guidance',
         persona: 'CSA Adoption Coach — educational, adoption-focused, product-knowledgeable',
         description: 'Diagnose utilization issues and recommend feature adoption',
-        kb_keys: ['utilization_thresholds', 'product_architecture', 'cross_sell_identification',
-                  'cpq_guardrail_rules', 'install_workflows', 'bureau_optimization']
+        kb_keys: ['utilization_playbook', 'product_architecture', 'cross_sell',
+                  'csa_onboarding', 'bureau_economics', 'dashboard_navigation']
     },
     cs_disposition_response: {
         name: 'Disposition Response',
         persona: 'Escalation Handler — reactive, structured, process-driven',
         description: 'Guide disposition selection and response actions',
-        kb_keys: ['credit_dispositions', 'communication_templates', 'retention_triggers',
-                  'score_interpretation', 'negotiation_guardrails', 'credit_lifecycle_stages']
+        kb_keys: ['disposition_taxonomy', 'retention_framework', 'escalation_support',
+                  'engagement_cadence', 'support_talk_tracks', 'csm_lifecycle']
     }
 };
 
@@ -347,30 +362,23 @@ function buildCSContext(mode, userRole) {
     const roleConfig = CS_ROLES[userRole?.toUpperCase()] || null;
     const roleName = roleConfig ? roleConfig.title : 'CS Team Member';
 
-    // Build context from CS KB for relevant keys
+    // Build context from CS KB — reads from categories.{key}.chunks[] structure
     let kbContext = '';
-    if (csKnowledgeBase) {
+    if (csKnowledgeBase && csKnowledgeBase.categories) {
         for (const key of modeConfig.kb_keys) {
-            const entry = csKnowledgeBase[key];
-            if (entry) {
-                const entryStr = JSON.stringify(entry);
-                if (kbContext.length + entryStr.length < 25000) {
-                    kbContext += `\n### KB: ${key}\n${entryStr}\n`;
+            const category = csKnowledgeBase.categories[key];
+            if (category && category.chunks) {
+                // Filter chunks by role if specified (csm, csa, or both)
+                const roleFilter = userRole ? userRole.toLowerCase() : null;
+                const relevantChunks = category.chunks.filter(c =>
+                    !c.role || c.role === 'both' || c.role === roleFilter
+                );
+                for (const chunk of relevantChunks) {
+                    const chunkStr = `\n### ${chunk.title || key}\n${chunk.content}\n`;
+                    if (kbContext.length + chunkStr.length < 40000) {
+                        kbContext += chunkStr;
+                    }
                 }
-            }
-        }
-        // Also include relevant module data for deeper context
-        const moduleMap = {
-            cs_reprice_scenario: '_module_m1_reprice_scenarios',
-            cs_utilization_guidance: '_module_m2_utilization_troubleshooting',
-            cs_disposition_response: '_module_m3_disposition_playbooks',
-            cs_health_check: '_module_m4_tier_specific_knowledge'
-        };
-        const moduleKey = moduleMap[mode];
-        if (moduleKey && csKnowledgeBase[moduleKey]) {
-            const modStr = JSON.stringify(csKnowledgeBase[moduleKey]);
-            if (kbContext.length + modStr.length < 40000) {
-                kbContext += `\n### Module: ${moduleKey}\n${modStr}\n`;
             }
         }
     }
