@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T11:00:51Z",
+  "generated_at": "2026-04-13T11:01:17Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -30,7 +30,7 @@
         "team_attainment_pct": 0.0,
         "team_pipeline_value": 29111181,
         "team_pipeline_opps": 182,
-        "team_weighted_coverage": 0.29,
+        "team_weighted_coverage": 0.23,
         "team_funnel_meetings": 192,
         "team_deals_per_meeting": 0.95,
         "direct_report_count": 7
@@ -47,9 +47,9 @@
         "top_issue": "Team has 115 flagged deals across 7 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 472550,
-        "team_ninety_day_forecast": 1246164,
-        "team_quarterly_vs_quota_pct": 125
+        "team_monthly_forecast": 391292,
+        "team_ninety_day_forecast": 993485,
+        "team_quarterly_vs_quota_pct": 119
       },
       "direct_reports": [
         {
@@ -83,7 +83,7 @@
           "composite_score": 15,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.19,
+          "pipeline_coverage": 0.21,
           "hygiene_score": 77,
           "top_issue": "23% of deals aged beyond stage threshold.",
           "stuck_deals": 3,
@@ -117,7 +117,7 @@
           "composite_score": 22,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.35,
+          "pipeline_coverage": 0.33,
           "hygiene_score": 81,
           "top_issue": "19% of deals aged beyond stage threshold.",
           "stuck_deals": 4,
@@ -151,7 +151,7 @@
           "composite_score": 26,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.66,
+          "pipeline_coverage": 0.32,
           "hygiene_score": 85,
           "top_issue": "15% of deals aged beyond stage threshold.",
           "stuck_deals": 4,
@@ -185,7 +185,7 @@
           "composite_score": 28,
           "coaching_archetype": "deal_velocity",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.15,
+          "pipeline_coverage": 0.14,
           "hygiene_score": 56,
           "top_issue": "44% of deals aged beyond stage threshold.",
           "stuck_deals": 11,
@@ -219,7 +219,7 @@
           "composite_score": 40,
           "coaching_archetype": "deal_velocity",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.57,
+          "pipeline_coverage": 0.53,
           "hygiene_score": 3,
           "top_issue": "81% of deals aged beyond stage threshold. 95% of deals have overdue close dates.",
           "stuck_deals": 78,
@@ -367,7 +367,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 28,
-      "composite_trend": "-7",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -384,7 +384,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 3961449,
         "pipeline_opps": 25,
-        "pipeline_coverage": 0.15,
+        "pipeline_coverage": 0.14,
         "pipeline_coverage_raw": 6.2,
         "avg_deal_size": 158458,
         "sf_meetings": 22,
@@ -401,9 +401,9 @@
       },
       "forecast": {
         "monthly_forecast": 39032,
-        "ninety_day_forecast": 96887,
+        "ninety_day_forecast": 93270,
         "monthly_vs_quota_pct": 18,
-        "quarterly_vs_quota_pct": 133
+        "quarterly_vs_quota_pct": 132
       },
       "top_stuck_deals": [
         {
@@ -531,7 +531,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 22,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -548,7 +548,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 5264289,
         "pipeline_opps": 21,
-        "pipeline_coverage": 0.35,
+        "pipeline_coverage": 0.33,
         "pipeline_coverage_raw": 8.2,
         "avg_deal_size": 250680,
         "sf_meetings": 25,
@@ -564,10 +564,10 @@
         "top_issue": "19% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 169990,
-        "ninety_day_forecast": 226055,
+        "monthly_forecast": 169436,
+        "ninety_day_forecast": 210759,
         "monthly_vs_quota_pct": 76,
-        "quarterly_vs_quota_pct": 118
+        "quarterly_vs_quota_pct": 116
       },
       "top_stuck_deals": [
         {
@@ -629,8 +629,8 @@
           },
           {
             "factor": "pipeline_coverage",
-            "impact": "positive",
-            "detail": "2.0x coverage \u2014 strong funnel"
+            "impact": "neutral",
+            "detail": "1.9x coverage \u2014 on threshold"
           },
           {
             "factor": "activity_velocity",
@@ -685,7 +685,7 @@
       "team": "CS",
       "manager": "Michael Byrd",
       "composite_score": 23,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -702,7 +702,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 2092948,
         "pipeline_opps": 4,
-        "pipeline_coverage": 65114.29,
+        "pipeline_coverage": 56134.81,
         "pipeline_coverage_raw": 2092948.0,
         "avg_deal_size": 523237,
         "sf_meetings": 0,
@@ -719,7 +719,7 @@
       },
       "forecast": {
         "monthly_forecast": 0,
-        "ninety_day_forecast": 65114,
+        "ninety_day_forecast": 56135,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 0
       },
@@ -784,7 +784,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "positive",
-            "detail": "65114.3x coverage \u2014 strong funnel"
+            "detail": "56134.8x coverage \u2014 strong funnel"
           },
           {
             "factor": "activity_velocity",
@@ -842,7 +842,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 10799622,
         "pipeline_opps": 96,
-        "pipeline_coverage": 0.57,
+        "pipeline_coverage": 0.53,
         "pipeline_coverage_raw": 16.8,
         "avg_deal_size": 112496,
         "sf_meetings": 23,
@@ -859,9 +859,9 @@
       },
       "forecast": {
         "monthly_forecast": 8338,
-        "ninety_day_forecast": 370179,
+        "ninety_day_forecast": 342015,
         "monthly_vs_quota_pct": 4,
-        "quarterly_vs_quota_pct": 407
+        "quarterly_vs_quota_pct": 402
       },
       "top_stuck_deals": [
         {
@@ -989,7 +989,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 26,
-      "composite_trend": "+3",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1006,7 +1006,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 7886981,
         "pipeline_opps": 26,
-        "pipeline_coverage": 0.66,
+        "pipeline_coverage": 0.32,
         "pipeline_coverage_raw": 12.2,
         "avg_deal_size": 303345,
         "sf_meetings": 29,
@@ -1022,10 +1022,10 @@
         "top_issue": "15% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 199491,
-        "ninety_day_forecast": 423580,
-        "monthly_vs_quota_pct": 90,
-        "quarterly_vs_quota_pct": 115
+        "monthly_forecast": 127255,
+        "ninety_day_forecast": 208293,
+        "monthly_vs_quota_pct": 57,
+        "quarterly_vs_quota_pct": 82
       },
       "top_stuck_deals": [
         {
@@ -1087,8 +1087,8 @@
           },
           {
             "factor": "pipeline_coverage",
-            "impact": "neutral",
-            "detail": "1.3x coverage \u2014 on threshold"
+            "impact": "negative",
+            "detail": "Only 0.6x coverage \u2014 gap identified"
           },
           {
             "factor": "activity_velocity",
@@ -1143,7 +1143,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 1,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1177,7 +1177,7 @@
       },
       "forecast": {
         "monthly_forecast": 0,
-        "ninety_day_forecast": 5394,
+        "ninety_day_forecast": 4522,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 1
       },
@@ -1271,7 +1271,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 1158840,
         "pipeline_opps": 13,
-        "pipeline_coverage": 0.19,
+        "pipeline_coverage": 0.21,
         "pipeline_coverage_raw": 1.8,
         "avg_deal_size": 89142,
         "sf_meetings": 19,
@@ -1287,10 +1287,10 @@
         "top_issue": "23% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 55699,
-        "ninety_day_forecast": 124069,
-        "monthly_vs_quota_pct": 25,
-        "quarterly_vs_quota_pct": 33
+        "monthly_forecast": 47231,
+        "ninety_day_forecast": 134626,
+        "monthly_vs_quota_pct": 21,
+        "quarterly_vs_quota_pct": 34
       },
       "top_stuck_deals": [
         {
@@ -1487,7 +1487,7 @@
       "manager": "Michael Byrd",
       "isHidden": true,
       "composite_score": 16,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1509,7 +1509,7 @@
         "team_attainment_pct": 0.0,
         "team_pipeline_value": 7603400,
         "team_pipeline_opps": 73,
-        "team_weighted_coverage": 0.12,
+        "team_weighted_coverage": 0.07,
         "team_funnel_meetings": 118,
         "team_deals_per_meeting": 0.62,
         "direct_report_count": 6
@@ -1526,9 +1526,9 @@
         "top_issue": "Team has 12 flagged deals across 6 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 274446,
-        "team_ninety_day_forecast": 389190,
-        "team_quarterly_vs_quota_pct": 29
+        "team_monthly_forecast": 185296,
+        "team_ninety_day_forecast": 241578,
+        "team_quarterly_vs_quota_pct": 25
       },
       "direct_reports": [
         {
@@ -1549,7 +1549,7 @@
           "composite_score": 14,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.29,
+          "pipeline_coverage": 0.19,
           "hygiene_score": 83,
           "top_issue": "17% of deals aged beyond stage threshold.",
           "stuck_deals": 2,
@@ -1583,7 +1583,7 @@
           "composite_score": 15,
           "coaching_archetype": "activity_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.03,
+          "pipeline_coverage": 0.02,
           "hygiene_score": 86,
           "top_issue": "14% of deals aged beyond stage threshold.",
           "stuck_deals": 1,
@@ -1607,7 +1607,7 @@
           "composite_score": 21,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.19,
+          "pipeline_coverage": 0.11,
           "hygiene_score": 68,
           "top_issue": "32% of deals aged beyond stage threshold.",
           "stuck_deals": 6,
@@ -1633,7 +1633,7 @@
               "rep_certified": false
             }
           ],
-          "trajectory_probability": 0.29,
+          "trajectory_probability": 0.26,
           "trajectory_risk": "high"
         },
         {
@@ -1641,7 +1641,7 @@
           "composite_score": 23,
           "coaching_archetype": "coverage_gap",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.05,
+          "pipeline_coverage": 0.02,
           "hygiene_score": 81,
           "top_issue": "12% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
           "stuck_deals": 2,
@@ -1667,7 +1667,7 @@
               "rep_certified": false
             }
           ],
-          "trajectory_probability": 0.03,
+          "trajectory_probability": 0.01,
           "trajectory_risk": "high"
         },
         {
@@ -1675,7 +1675,7 @@
           "composite_score": 23,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.06,
+          "pipeline_coverage": 0.04,
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
@@ -1786,7 +1786,7 @@
         "avg_deal_size": 95976
       },
       "team_trajectory": {
-        "avg_quota_hit_probability": 0.078,
+        "avg_quota_hit_probability": 0.07,
         "reps_at_risk": 6,
         "at_risk_names": [
           "Ashton Gough",
@@ -1804,7 +1804,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 21,
-      "composite_trend": "+5",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1821,7 +1821,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 2002692,
         "pipeline_opps": 19,
-        "pipeline_coverage": 0.19,
+        "pipeline_coverage": 0.11,
         "pipeline_coverage_raw": 3.1,
         "avg_deal_size": 105405,
         "sf_meetings": 25,
@@ -1837,10 +1837,10 @@
         "top_issue": "32% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 45699,
-        "ninety_day_forecast": 120015,
-        "monthly_vs_quota_pct": 21,
-        "quarterly_vs_quota_pct": 87
+        "monthly_forecast": 40834,
+        "ninety_day_forecast": 72268,
+        "monthly_vs_quota_pct": 18,
+        "quarterly_vs_quota_pct": 79
       },
       "top_stuck_deals": [
         {
@@ -1895,12 +1895,12 @@
         }
       ],
       "trajectory": {
-        "quota_hit_probability": 0.29,
+        "quota_hit_probability": 0.26,
         "risk_level": "high",
         "confidence": 1.0,
         "month_1_prob": 0.5,
-        "month_2_prob": 0.25,
-        "month_3_prob": 0.29,
+        "month_2_prob": 0.22,
+        "month_3_prob": 0.26,
         "trajectory_direction": "steady",
         "projected_attainment_pct": 67.9,
         "intervention_urgency": "act_now",
@@ -1913,7 +1913,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "negative",
-            "detail": "Only 0.6x coverage \u2014 gap identified"
+            "detail": "Only 0.4x coverage \u2014 gap identified"
           },
           {
             "factor": "activity_velocity",
@@ -1968,7 +1968,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 14,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -1985,7 +1985,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 2439670,
         "pipeline_opps": 12,
-        "pipeline_coverage": 0.29,
+        "pipeline_coverage": 0.19,
         "pipeline_coverage_raw": 3.8,
         "avg_deal_size": 203306,
         "sf_meetings": 21,
@@ -2001,10 +2001,10 @@
         "top_issue": "17% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 186358,
-        "ninety_day_forecast": 189062,
-        "monthly_vs_quota_pct": 84,
-        "quarterly_vs_quota_pct": 41
+        "monthly_forecast": 119291,
+        "ninety_day_forecast": 121794,
+        "monthly_vs_quota_pct": 54,
+        "quarterly_vs_quota_pct": 31
       },
       "top_stuck_deals": [
         {
@@ -2047,7 +2047,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "negative",
-            "detail": "Only 0.3x coverage \u2014 gap identified"
+            "detail": "Only 0.2x coverage \u2014 gap identified"
           },
           {
             "factor": "activity_velocity",
@@ -2090,7 +2090,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 23,
-      "composite_trend": "+2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2107,7 +2107,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 529838,
         "pipeline_opps": 16,
-        "pipeline_coverage": 0.05,
+        "pipeline_coverage": 0.02,
         "pipeline_coverage_raw": 0.8,
         "avg_deal_size": 33115,
         "sf_meetings": 14,
@@ -2123,10 +2123,10 @@
         "top_issue": "12% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 24265,
-        "ninety_day_forecast": 31801,
-        "monthly_vs_quota_pct": 11,
-        "quarterly_vs_quota_pct": 9
+        "monthly_forecast": 10326,
+        "ninety_day_forecast": 14433,
+        "monthly_vs_quota_pct": 5,
+        "quarterly_vs_quota_pct": 7
       },
       "top_stuck_deals": [
         {
@@ -2161,12 +2161,12 @@
         }
       ],
       "trajectory": {
-        "quota_hit_probability": 0.03,
+        "quota_hit_probability": 0.01,
         "risk_level": "high",
         "confidence": 1.0,
         "month_1_prob": 0.04,
-        "month_2_prob": 0.02,
-        "month_3_prob": 0.03,
+        "month_2_prob": 0.01,
+        "month_3_prob": 0.01,
         "trajectory_direction": "steady",
         "projected_attainment_pct": 4.5,
         "intervention_urgency": "urgent",
@@ -2179,7 +2179,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "negative",
-            "detail": "Only 0.1x coverage \u2014 gap identified"
+            "detail": "Only 0.0x coverage \u2014 gap identified"
           },
           {
             "factor": "activity_velocity",
@@ -2234,7 +2234,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 23,
-      "composite_trend": "+4",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2251,7 +2251,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 1446400,
         "pipeline_opps": 19,
-        "pipeline_coverage": 0.06,
+        "pipeline_coverage": 0.04,
         "pipeline_coverage_raw": 2.2,
         "avg_deal_size": 76126,
         "sf_meetings": 20,
@@ -2267,10 +2267,10 @@
         "top_issue": "Pipeline is clean."
       },
       "forecast": {
-        "monthly_forecast": 15780,
-        "ninety_day_forecast": 37713,
+        "monthly_forecast": 14601,
+        "ninety_day_forecast": 26127,
         "monthly_vs_quota_pct": 7,
-        "quarterly_vs_quota_pct": 8
+        "quarterly_vs_quota_pct": 6
       },
       "top_stuck_deals": [],
       "trajectory": {
@@ -2292,7 +2292,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "negative",
-            "detail": "Only 0.1x coverage \u2014 gap identified"
+            "detail": "Only 0.0x coverage \u2014 gap identified"
           },
           {
             "factor": "activity_velocity",
@@ -2345,7 +2345,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 15,
-      "composite_trend": "-4",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2362,7 +2362,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 1184800,
         "pipeline_opps": 7,
-        "pipeline_coverage": 0.03,
+        "pipeline_coverage": 0.02,
         "pipeline_coverage_raw": 3.8,
         "avg_deal_size": 169257,
         "sf_meetings": 9,
@@ -2378,10 +2378,10 @@
         "top_issue": "14% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 2344,
-        "ninety_day_forecast": 10599,
-        "monthly_vs_quota_pct": 3,
-        "quarterly_vs_quota_pct": 8
+        "monthly_forecast": 244,
+        "ninety_day_forecast": 6956,
+        "monthly_vs_quota_pct": 0,
+        "quarterly_vs_quota_pct": 7
       },
       "top_stuck_deals": [
         {
@@ -2580,7 +2580,7 @@
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 30,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2597,7 +2597,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 8689377,
         "pipeline_opps": 73,
-        "pipeline_coverage": 0.47,
+        "pipeline_coverage": 0.41,
         "pipeline_coverage_raw": 5.1,
         "avg_deal_size": 119033,
         "sf_meetings": 81,
@@ -2613,10 +2613,10 @@
         "top_issue": "23% of deals aged beyond stage threshold. 3 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 384671,
-        "ninety_day_forecast": 807252,
-        "monthly_vs_quota_pct": 65,
-        "quarterly_vs_quota_pct": 78
+        "monthly_forecast": 352556,
+        "ninety_day_forecast": 692773,
+        "monthly_vs_quota_pct": 60,
+        "quarterly_vs_quota_pct": 71
       },
       "top_stuck_deals": [
         {
@@ -2689,7 +2689,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "negative",
-            "detail": "Only 0.7x coverage \u2014 gap identified"
+            "detail": "Only 0.6x coverage \u2014 gap identified"
           },
           {
             "factor": "activity_velocity",
@@ -2744,7 +2744,7 @@
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 23,
-      "composite_trend": "+2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2761,7 +2761,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 2037500,
         "pipeline_opps": 13,
-        "pipeline_coverage": 0.15,
+        "pipeline_coverage": 0.05,
         "pipeline_coverage_raw": 2.2,
         "avg_deal_size": 156731,
         "sf_meetings": 13,
@@ -2777,10 +2777,10 @@
         "top_issue": "Pipeline is clean."
       },
       "forecast": {
-        "monthly_forecast": 52292,
-        "ninety_day_forecast": 136072,
-        "monthly_vs_quota_pct": 19,
-        "quarterly_vs_quota_pct": 15
+        "monthly_forecast": 25530,
+        "ninety_day_forecast": 47392,
+        "monthly_vs_quota_pct": 9,
+        "quarterly_vs_quota_pct": 5
       },
       "top_stuck_deals": [],
       "trajectory": {
@@ -2844,7 +2844,7 @@
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 5,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2958,7 +2958,7 @@
       "manager": "Michael Byrd",
       "isHidden": true,
       "composite_score": 19,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2980,7 +2980,7 @@
         "team_attainment_pct": 0.0,
         "team_pipeline_value": 10925877,
         "team_pipeline_opps": 90,
-        "team_weighted_coverage": 0.26,
+        "team_weighted_coverage": 0.2,
         "team_funnel_meetings": 137,
         "team_deals_per_meeting": 0.66,
         "direct_report_count": 3
@@ -2997,9 +2997,9 @@
         "top_issue": "Team has 21 flagged deals across 3 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 436963,
-        "team_ninety_day_forecast": 946124,
-        "team_quarterly_vs_quota_pct": 40
+        "team_monthly_forecast": 378086,
+        "team_ninety_day_forecast": 742965,
+        "team_quarterly_vs_quota_pct": 34
       },
       "direct_reports": [
         {
@@ -3031,7 +3031,7 @@
           "composite_score": 23,
           "coaching_archetype": "activity_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.15,
+          "pipeline_coverage": 0.05,
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
@@ -3044,7 +3044,7 @@
           "composite_score": 30,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.47,
+          "pipeline_coverage": 0.41,
           "hygiene_score": 73,
           "top_issue": "23% of deals aged beyond stage threshold. 3 deals with low or missing amounts.",
           "stuck_deals": 17,
