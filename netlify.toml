@@ -302,3 +302,9 @@
   from = "/api/data/pie-aff"
   to = "/.netlify/functions/data-pie-aff"
   status = 200
+
+[[redirects]]
+  from = "/api/training/cert-progress"
+  to = "/.netlify/functions/training-cert-progress"
+  status = 200
+
