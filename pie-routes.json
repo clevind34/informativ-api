@@ -70,19 +70,7 @@
     },
     "Carol Sanford": {
       "monday": [],
-      "tuesday": [
-        {
-          "id": "cfefc1d019bf3992",
-          "co": "Chapman's Las Vegas Dodge Chrysler Jeep Ram",
-          "cn": "Ryan Payne",
-          "ph": "",
-          "em": "",
-          "city": "",
-          "st": "NV",
-          "type": "net_new",
-          "added_at": "2026-04-14T19:10:23.930Z"
-        }
-      ],
+      "tuesday": [],
       "wednesday": [],
       "thursday": [],
       "friday": [
@@ -121,5 +109,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-14T19:10:27.193Z"
+  "last_modified": "2026-04-14T19:15:51.823Z"
 }
