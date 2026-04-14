@@ -321,6 +321,34 @@ async function _handler(event) {
             return { statusCode: 400, headers, body: JSON.stringify({ error: 'customer_name is required' }) };
         }
 
+        // SEC-2026-010: Server-side input validation — cap numeric inputs to sane ranges
+        const INPUT_LIMITS = {
+            efx_hp: 10000, exp_hp: 10000, tu_hp: 10000,
+            efx_sp: 25000, exp_sp: 25000, tu_sp: 25000,
+            vehicles_sold: 5000, current_mrr: 500000,
+            verified_stips: 10000, health_score: 100, margin_pct: 100
+        };
+        for (const [field, max] of Object.entries(INPUT_LIMITS)) {
+            if (body[field] !== undefined) {
+                const val = Number(body[field]);
+                if (isNaN(val) || val < 0) {
+                    return { statusCode: 400, headers, body: JSON.stringify({ error: `${field} must be a non-negative number` }) };
+                }
+                if (val > max) {
+                    return { statusCode: 400, headers, body: JSON.stringify({ error: `${field} exceeds maximum allowed value (${max})` }) };
+                }
+                body[field] = val;
+            }
+        }
+
+        // Sanitize string inputs — strip anything beyond reasonable length
+        if (body.customer_name && body.customer_name.length > 200) {
+            body.customer_name = body.customer_name.substring(0, 200);
+        }
+        if (body.current_package && body.current_package.length > 100) {
+            body.current_package = body.current_package.substring(0, 100);
+        }
+
         // Build customer object from CI data fields
         const customer = {
             customer_name: body.customer_name,

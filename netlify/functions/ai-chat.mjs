@@ -1137,6 +1137,32 @@ async function _handler(event) {
         return { statusCode: 400, headers, body: JSON.stringify({ error: 'Message is required' }) };
     }
 
+    // SEC-2026-013: Server-side mode validation — ensure mode is a known value
+    const VALID_SALES_MODES = ['coach', 'pricing', 'coaching', 'performance', 'certifications', 'call_prep', 'follow_up', 'discovery_script'];
+    const VALID_CS_MODES = Object.keys(CS_MODES); // cs_chat, cs_health_check, etc.
+    const ALL_VALID_MODES = [...VALID_SALES_MODES, ...VALID_CS_MODES];
+
+    if (mode && !ALL_VALID_MODES.includes(mode)) {
+        return { statusCode: 400, headers, body: JSON.stringify({ error: 'Invalid mode specified' }) };
+    }
+
+    // SEC-2026-013: Role-mode enforcement via JWT claims
+    // CS-only users (role=cs) should not access sales coaching modes
+    // Sales reps (role=rep) should not access cs_ modes
+    const jwtUser = event._user;
+    if (jwtUser && jwtUser.roles && jwtUser.roles.length > 0) {
+        const userRoles = jwtUser.roles;
+        const isCSOnly = userRoles.includes('cs') && !userRoles.includes('admin') && !userRoles.includes('manager') && !userRoles.includes('elt');
+        const isRepOnly = userRoles.includes('rep') && !userRoles.includes('admin') && !userRoles.includes('manager') && !userRoles.includes('elt');
+
+        if (isCSOnly && mode && !mode.startsWith('cs_') && VALID_SALES_MODES.includes(mode)) {
+            return { statusCode: 403, headers, body: JSON.stringify({ error: 'Access denied: CS users cannot access sales coaching modes' }) };
+        }
+        if (isRepOnly && mode && mode.startsWith('cs_')) {
+            return { statusCode: 403, headers, body: JSON.stringify({ error: 'Access denied: Sales reps cannot access CS modes' }) };
+        }
+    }
+
     // Load data files
     loadData();
 
