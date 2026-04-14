@@ -371,5 +371,23 @@
         "date": "2026-04-13T21:01:12.281Z"
       }
     }
+  },
+  "Brock Hutchinson": {
+    "total_solutions_sales_cert": {
+      "1": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-04-13T13:58:38.200Z"
+      },
+      "2": {
+        "score": 80,
+        "passed": true,
+        "correct": 8,
+        "total": 10,
+        "date": "2026-04-13T14:17:36.086Z"
+      }
+    }
   }
 }
