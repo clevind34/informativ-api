@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T12:37:29Z",
+  "generated_at": "2026-04-15T12:37:56Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -30,7 +30,7 @@
         "team_attainment_pct": 4.5,
         "team_pipeline_value": 28809646,
         "team_pipeline_opps": 181,
-        "team_weighted_coverage": 0.2,
+        "team_weighted_coverage": 0.18,
         "team_funnel_meetings": 194,
         "team_deals_per_meeting": 0.93,
         "direct_report_count": 7
@@ -47,9 +47,9 @@
         "top_issue": "Team has 106 flagged deals across 7 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 378758,
-        "team_ninety_day_forecast": 823706,
-        "team_quarterly_vs_quota_pct": 116
+        "team_monthly_forecast": 381945,
+        "team_ninety_day_forecast": 746748,
+        "team_quarterly_vs_quota_pct": 114
       },
       "direct_reports": [
         {
@@ -94,7 +94,7 @@
           "composite_score": 16,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.19,
+          "pipeline_coverage": 0.11,
           "hygiene_score": 77,
           "top_issue": "23% of deals aged beyond stage threshold.",
           "stuck_deals": 3,
@@ -196,7 +196,7 @@
           "composite_score": 40,
           "coaching_archetype": "deal_velocity",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.33,
+          "pipeline_coverage": 0.29,
           "hygiene_score": 18,
           "top_issue": "82% of deals aged beyond stage threshold.",
           "stuck_deals": 75,
@@ -574,7 +574,7 @@
       },
       "forecast": {
         "monthly_forecast": 156885,
-        "ninety_day_forecast": 197715,
+        "ninety_day_forecast": 196965,
         "monthly_vs_quota_pct": 71,
         "quarterly_vs_quota_pct": 113
       },
@@ -719,7 +719,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 240959,
         "pipeline_opps": 3,
-        "pipeline_coverage": 11323.01,
+        "pipeline_coverage": 11304.36,
         "pipeline_coverage_raw": 240959.0,
         "avg_deal_size": 80320,
         "sf_meetings": 0,
@@ -735,8 +735,8 @@
         "top_issue": "33% of deals aged beyond stage threshold. 33% of deals have overdue close dates."
       },
       "forecast": {
-        "monthly_forecast": 11323,
-        "ninety_day_forecast": 11323,
+        "monthly_forecast": 11304,
+        "ninety_day_forecast": 11304,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 0
       },
@@ -781,7 +781,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "positive",
-            "detail": "11323.0x coverage \u2014 strong funnel"
+            "detail": "11304.4x coverage \u2014 strong funnel"
           },
           {
             "factor": "activity_velocity",
@@ -839,7 +839,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 10504622,
         "pipeline_opps": 92,
-        "pipeline_coverage": 0.33,
+        "pipeline_coverage": 0.29,
         "pipeline_coverage_raw": 16.3,
         "avg_deal_size": 114181,
         "sf_meetings": 23,
@@ -856,9 +856,9 @@
       },
       "forecast": {
         "monthly_forecast": 8338,
-        "ninety_day_forecast": 209438,
+        "ninety_day_forecast": 184992,
         "monthly_vs_quota_pct": 4,
-        "quarterly_vs_quota_pct": 382
+        "quarterly_vs_quota_pct": 378
       },
       "top_stuck_deals": [
         {
@@ -1017,10 +1017,10 @@
         "top_issue": "15% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 127306,
-        "ninety_day_forecast": 200721,
-        "monthly_vs_quota_pct": 57,
-        "quarterly_vs_quota_pct": 80
+        "monthly_forecast": 130051,
+        "ninety_day_forecast": 202221,
+        "monthly_vs_quota_pct": 59,
+        "quarterly_vs_quota_pct": 81
       },
       "top_stuck_deals": [
         {
@@ -1170,7 +1170,7 @@
       },
       "forecast": {
         "monthly_forecast": 0,
-        "ninety_day_forecast": 2361,
+        "ninety_day_forecast": 2257,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 0
       },
@@ -1275,7 +1275,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 1158840,
         "pipeline_opps": 13,
-        "pipeline_coverage": 0.19,
+        "pipeline_coverage": 0.11,
         "pipeline_coverage_raw": 1.8,
         "avg_deal_size": 89142,
         "sf_meetings": 19,
@@ -1291,10 +1291,10 @@
         "top_issue": "23% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 47197,
-        "ninety_day_forecast": 123554,
+        "monthly_forecast": 47639,
+        "ninety_day_forecast": 70396,
         "monthly_vs_quota_pct": 21,
-        "quarterly_vs_quota_pct": 32
+        "quarterly_vs_quota_pct": 24
       },
       "top_stuck_deals": [
         {
@@ -1347,7 +1347,7 @@
           {
             "factor": "pipeline_coverage",
             "impact": "negative",
-            "detail": "Only 0.2x coverage \u2014 gap identified"
+            "detail": "Only 0.1x coverage \u2014 gap identified"
           },
           {
             "factor": "activity_velocity",
@@ -1528,8 +1528,8 @@
         "top_issue": "Team has 14 flagged deals across 6 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 160992,
-        "team_ninety_day_forecast": 212205,
+        "team_monthly_forecast": 160997,
+        "team_ninety_day_forecast": 207093,
         "team_quarterly_vs_quota_pct": 24
       },
       "direct_reports": [
@@ -1850,7 +1850,7 @@
       },
       "forecast": {
         "monthly_forecast": 40834,
-        "ninety_day_forecast": 66764,
+        "ninety_day_forecast": 62127,
         "monthly_vs_quota_pct": 19,
         "quarterly_vs_quota_pct": 78
       },
@@ -2011,9 +2011,9 @@
         "top_issue": "17% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 108259,
-        "ninety_day_forecast": 112104,
-        "monthly_vs_quota_pct": 49,
+        "monthly_forecast": 106963,
+        "ninety_day_forecast": 110808,
+        "monthly_vs_quota_pct": 48,
         "quarterly_vs_quota_pct": 29
       },
       "top_stuck_deals": [
@@ -2131,9 +2131,9 @@
         "top_issue": "13% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 3136,
-        "ninety_day_forecast": 8178,
-        "monthly_vs_quota_pct": 1,
+        "monthly_forecast": 4437,
+        "ninety_day_forecast": 9456,
+        "monthly_vs_quota_pct": 2,
         "quarterly_vs_quota_pct": 6
       },
       "top_stuck_deals": [
@@ -2274,7 +2274,7 @@
       },
       "forecast": {
         "monthly_forecast": 8519,
-        "ninety_day_forecast": 20671,
+        "ninety_day_forecast": 20214,
         "monthly_vs_quota_pct": 4,
         "quarterly_vs_quota_pct": 5
       },
@@ -2621,7 +2621,7 @@
         "attainment_pct": 2.4,
         "pipeline_value": 8236641,
         "pipeline_opps": 65,
-        "pipeline_coverage": 0.37,
+        "pipeline_coverage": 0.36,
         "pipeline_coverage_raw": 4.8,
         "avg_deal_size": 126718,
         "sf_meetings": 81,
@@ -2637,10 +2637,10 @@
         "top_issue": "28% of deals aged beyond stage threshold. 2 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 277104,
-        "ninety_day_forecast": 616356,
+        "monthly_forecast": 276096,
+        "ninety_day_forecast": 606385,
         "monthly_vs_quota_pct": 54,
-        "quarterly_vs_quota_pct": 69
+        "quarterly_vs_quota_pct": 68
       },
       "top_stuck_deals": [
         {
@@ -3015,8 +3015,8 @@
         "top_issue": "Team has 21 flagged deals across 3 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 304377,
-        "team_ninety_day_forecast": 669109,
+        "team_monthly_forecast": 303369,
+        "team_ninety_day_forecast": 659138,
         "team_quarterly_vs_quota_pct": 33
       },
       "direct_reports": [
@@ -3062,7 +3062,7 @@
           "composite_score": 34,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 2.4,
-          "pipeline_coverage": 0.37,
+          "pipeline_coverage": 0.36,
           "hygiene_score": 69,
           "top_issue": "28% of deals aged beyond stage threshold. 2 deals with low or missing amounts.",
           "stuck_deals": 18,
