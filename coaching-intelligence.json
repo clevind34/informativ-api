@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T11:57:33Z",
+  "generated_at": "2026-04-15T12:37:29Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -2332,10 +2332,8 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
             "date": "2026-04-15",
@@ -2344,8 +2342,8 @@
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-04-13",
-        "days_since_coaching": 1,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -2476,10 +2474,8 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
             "date": "2026-04-15",
@@ -2488,8 +2484,8 @@
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-04-13",
-        "days_since_coaching": 1,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
