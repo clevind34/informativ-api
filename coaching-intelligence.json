@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-13T11:01:17Z",
+  "generated_at": "2026-04-15T11:24:47Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -510,20 +510,18 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 6,
-        "events_by_type": {
-          "certification_completed": 6
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 28
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-04-08",
-        "days_since_coaching": 4,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -664,20 +662,18 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 22
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-01",
-        "days_since_coaching": 42,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -810,7 +806,7 @@
         "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 23
           }
         ],
@@ -968,20 +964,18 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 40
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-30",
-        "days_since_coaching": 13,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -1122,20 +1116,18 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 26
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-30",
-        "days_since_coaching": 13,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -1239,7 +1231,7 @@
         "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 1
           }
         ],
@@ -1369,7 +1361,7 @@
         "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 15
           }
         ],
@@ -1464,20 +1456,18 @@
       },
       "isHidden": true,
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 0
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-17",
-        "days_since_coaching": 26,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -1947,20 +1937,18 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 2,
-        "events_by_type": {
-          "certification_completed": 2
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 21
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-20",
-        "days_since_coaching": 23,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -2069,20 +2057,18 @@
       },
       "isHidden": true,
       "coaching_effectiveness": {
-        "coaching_events_90d": 2,
-        "events_by_type": {
-          "certification_completed": 2
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 14
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-17",
-        "days_since_coaching": 26,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -2213,20 +2199,18 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 6,
-        "events_by_type": {
-          "certification_completed": 6
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 23
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-18",
-        "days_since_coaching": 25,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -2326,18 +2310,20 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
+        "coaching_events_90d": 1,
+        "events_by_type": {
+          "certification_completed": 1
+        },
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 23
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
+        "last_coached_date": "2026-04-13",
+        "days_since_coaching": 1,
         "archetype_stability": "unknown"
       }
     },
@@ -2454,14 +2440,14 @@
         },
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 15
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-18",
-        "days_since_coaching": 25,
+        "last_coached_date": "2026-04-13",
+        "days_since_coaching": 1,
         "archetype_stability": "unknown"
       }
     },
@@ -2565,7 +2551,7 @@
         "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 0
           }
         ],
@@ -2723,20 +2709,18 @@
         "dataStatus": "early_data"
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 30
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-21",
-        "days_since_coaching": 22,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -2823,20 +2807,18 @@
         "avg_deal_size": 137882
       },
       "coaching_effectiveness": {
-        "coaching_events_90d": 1,
-        "events_by_type": {
-          "certification_completed": 1
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 23
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-18",
-        "days_since_coaching": 25,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },
@@ -2935,20 +2917,18 @@
       },
       "isHidden": true,
       "coaching_effectiveness": {
-        "coaching_events_90d": 2,
-        "events_by_type": {
-          "certification_completed": 2
-        },
+        "coaching_events_90d": 0,
+        "events_by_type": {},
         "composite_trend_180d": [
           {
-            "date": "2026-04-13",
+            "date": "2026-04-15",
             "score": 5
           }
         ],
         "best_intervention": null,
         "coaching_responsiveness": "unknown",
-        "last_coached_date": "2026-03-20",
-        "days_since_coaching": 23,
+        "last_coached_date": null,
+        "days_since_coaching": null,
         "archetype_stability": "unknown"
       }
     },

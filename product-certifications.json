@@ -281,12 +281,18 @@
       ]
     },
     "Ward Carroll": {
-      "certified_products": [],
+      "certified_products": [
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-04-13",
+          "certification_type": "product_certification",
+          "program_id": "smartpencil_cert"
+        }
+      ],
       "uncertified_products": [
         "Credit",
         "Compliance",
         "Customer Insights",
-        "SmartPencil",
         "Informativ Payments",
         "Verified STIPs"
       ]
@@ -298,13 +304,18 @@
           "certified_date": "2026-03-18",
           "certification_type": "quiz_completion",
           "program_id": "value_selling_cert"
+        },
+        {
+          "product": "SmartPencil",
+          "certified_date": "2026-04-13",
+          "certification_type": "product_certification",
+          "program_id": "smartpencil_cert"
         }
       ],
       "uncertified_products": [
         "Credit",
         "Compliance",
         "Customer Insights",
-        "SmartPencil",
         "Informativ Payments",
         "Verified STIPs"
       ]
