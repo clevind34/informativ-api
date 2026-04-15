@@ -81,6 +81,7 @@ const EMAIL_TO_REP = {
   'hbestul@informativ.com': 'Heather Bestul',
   'rtruitt@informativ.com': 'Rebecca Truitt',
   'rrorick@informativ.com': 'Robert Rorick',
+  'sbenhammou@informativ.com': 'Samir Benhammou',
 };
 
 /**
