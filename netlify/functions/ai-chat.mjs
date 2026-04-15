@@ -23,9 +23,6 @@ const TEMPERATURE = 0.7;
 const MAX_CONTEXT_CHARS = 15000; // ~3.5K tokens — tighter context for speed
 
 // Rate limiting (simple in-memory)
-const rateLimits = new Map();
-const RATE_LIMIT_WINDOW = 60000; // 1 minute
-const RATE_LIMIT_MAX = 15; // requests per window
 
 // ──────────────────────────────────────────
 // DATA LOADING
@@ -1072,26 +1069,6 @@ ${repName ? `\nThe rep you're coaching is: **${repName}**` : '\nNo rep is curren
 }
 
 // ──────────────────────────────────────────
-// RATE LIMITING
-// ──────────────────────────────────────────
-function checkRateLimit(ip) {
-    const now = Date.now();
-    const windowStart = now - RATE_LIMIT_WINDOW;
-
-    if (!rateLimits.has(ip)) {
-        rateLimits.set(ip, []);
-    }
-
-    const timestamps = rateLimits.get(ip).filter(t => t > windowStart);
-    rateLimits.set(ip, timestamps);
-
-    if (timestamps.length >= RATE_LIMIT_MAX) {
-        return false;
-    }
-
-    timestamps.push(now);
-    return true;
-}
 
 // ──────────────────────────────────────────
 // HANDLER
@@ -1118,14 +1095,6 @@ async function _handler(event) {
     }
 
     // Rate limiting
-    const clientIP = event.headers['x-forwarded-for'] || event.headers['client-ip'] || 'unknown';
-    if (!checkRateLimit(clientIP)) {
-        return {
-            statusCode: 429,
-            headers,
-            body: JSON.stringify({ error: 'Too many requests. Please wait a moment.' })
-        };
-    }
 
     // Parse request
     let body;
