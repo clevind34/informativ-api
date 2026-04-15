@@ -36,11 +36,16 @@ export function corsHeaders(origin) {
 }
 
 /**
- * Handle CORS preflight + origin check.
+ * Handle CORS preflight + origin check + CSRF defense.
  * Returns a v1 response object for OPTIONS or blocked origins, or null to continue.
+ *
+ * CSRF protection: state-changing methods (POST, PUT, DELETE) from browser contexts
+ * must include a valid Origin header. Server-to-server calls (api-proxy) always include
+ * the X-API-Key header, which bypasses the origin requirement.
  */
 export function handleCors(event) {
   const origin = (event.headers || {}).origin || '';
+  const method = (event.httpMethod || '').toUpperCase();
 
   if (origin && !isAllowedOrigin(origin)) {
     return {
@@ -50,12 +55,26 @@ export function handleCors(event) {
     };
   }
 
-  if (event.httpMethod === 'OPTIONS') {
+  if (method === 'OPTIONS') {
     return {
       statusCode: 204,
       headers: corsHeaders(origin),
       body: '',
     };
+  }
+
+  // CSRF defense: state-changing requests without Origin header
+  // are allowed only if they carry an API key (server-to-server)
+  const STATE_CHANGING = ['POST', 'PUT', 'DELETE', 'PATCH'];
+  if (STATE_CHANGING.includes(method) && !origin) {
+    const apiKey = (event.headers || {})['x-api-key'] || '';
+    if (!apiKey) {
+      return {
+        statusCode: 403,
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ error: 'Missing Origin header on state-changing request' }),
+      };
+    }
   }
 
   return null;
