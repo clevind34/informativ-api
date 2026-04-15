@@ -17,6 +17,8 @@
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
 import { logRequest } from './audit-log.mjs';
+import { checkRateLimit } from './rate-limit.mjs';
+import { safeError } from './safe-error.mjs';
 
 const GITHUB_OWNER = 'clevind34';
 const GITHUB_REPO = 'chuck-sales-assistant';
@@ -30,6 +32,8 @@ async function _handler(event) {
     const authCheck = await authenticateRequest(event);
     if (authCheck) return authCheck;
     const _cors = corsHeaders((event.headers || {}).origin || '');
+    const rlCheck = checkRateLimit(event, _cors);
+    if (rlCheck) return rlCheck;
 
 
     const headers = {
@@ -82,15 +86,7 @@ async function _handler(event) {
                 })
             };
         } catch (e) {
-            return {
-                statusCode: 200,
-                headers,
-                body: JSON.stringify({
-                    dispositions: [],
-                    csm_summary: {},
-                    error: e.message
-                })
-            };
+            return safeError(200, 'Failed to fetch dispositions', e, _cors);
         }
     }
 
@@ -243,16 +239,7 @@ async function _handler(event) {
 
     } catch (e) {
         console.error('GitHub sync error:', e);
-        return {
-            statusCode: 200,
-            headers,
-            body: JSON.stringify({
-                success: true,
-                stored: 'client-only',
-                error: e.message,
-                note: 'GitHub sync failed — disposition saved locally only.'
-            })
-        };
+        return safeError(200, 'GitHub sync failed — disposition saved locally only', e, _cors);
     }
 }
 

@@ -21,6 +21,8 @@
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
 import { logRequest } from './audit-log.mjs';
+import { checkRateLimit } from './rate-limit.mjs';
+import { safeError } from './safe-error.mjs';
 
 const GITHUB_OWNER = 'clevind34';
 const GITHUB_REPO = 'chuck-sales-assistant';
@@ -35,6 +37,8 @@ async function _handler(event) {
     const authCheck = await authenticateRequest(event);
     if (authCheck) return authCheck;
     const _cors = corsHeaders((event.headers || {}).origin || '');
+    const rlCheck = checkRateLimit(event, _cors);
+    if (rlCheck) return rlCheck;
 
 
     const headers = {
@@ -75,7 +79,7 @@ async function _handler(event) {
             return { statusCode: 200, headers, body: JSON.stringify({ events, total: events.length, last_updated: log.last_updated }) };
         } catch (err) {
             // File doesn't exist yet
-            return { statusCode: 200, headers, body: JSON.stringify({ events: [], total: 0 }) };
+            return safeError(200, 'Failed to fetch usage events', err, _cors);
         }
     }
 
@@ -127,7 +131,7 @@ async function _handler(event) {
 
             return { statusCode: 200, headers, body: JSON.stringify({ success: true, total_events: log.events.length }) };
         } catch (err) {
-            return { statusCode: 500, headers, body: JSON.stringify({ error: err.message }) };
+            return safeError(500, 'Usage event logging failed', err, _cors);
         }
     }
 

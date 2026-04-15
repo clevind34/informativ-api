@@ -308,3 +308,8 @@
   to = "/.netlify/functions/training-cert-progress"
   status = 200
 
+[[redirects]]
+  from = "/api/auth/me"
+  to = "/.netlify/functions/auth-me"
+  status = 200
+

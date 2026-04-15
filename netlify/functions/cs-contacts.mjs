@@ -23,6 +23,8 @@
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
 import { logRequest } from './audit-log.mjs';
+import { checkRateLimit } from './rate-limit.mjs';
+import { safeError } from './safe-error.mjs';
 
 const GITHUB_OWNER = 'clevind34';
 const GITHUB_REPO = 'informativ-pie';
@@ -36,6 +38,8 @@ async function _handler(event) {
     const authCheck = await authenticateRequest(event);
     if (authCheck) return authCheck;
     const _cors = corsHeaders((event.headers || {}).origin || '');
+    const rlCheck = checkRateLimit(event, _cors);
+    if (rlCheck) return rlCheck;
 
 
     const headers = {
@@ -64,11 +68,7 @@ async function _handler(event) {
         return { statusCode: 405, headers, body: JSON.stringify({ error: 'Method not allowed' }) };
     } catch (err) {
         console.error('pie-contacts error:', err);
-        return {
-            statusCode: 200,
-            headers,
-            body: JSON.stringify({ success: false, error: err.message, contacts: {} })
-        };
+        return safeError(200, 'Contact operation failed', err, _cors);
     }
 }
 

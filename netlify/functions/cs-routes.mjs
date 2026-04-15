@@ -38,6 +38,8 @@
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
 import { logRequest } from './audit-log.mjs';
+import { checkRateLimit } from './rate-limit.mjs';
+import { safeError } from './safe-error.mjs';
 
 const GITHUB_OWNER = 'clevind34';
 const GITHUB_REPO = 'informativ-api';
@@ -53,6 +55,8 @@ async function _handler(event) {
     const authCheck = await authenticateRequest(event);
     if (authCheck) return authCheck;
     const _cors = corsHeaders((event.headers || {}).origin || '');
+    const rlCheck = checkRateLimit(event, _cors);
+    if (rlCheck) return rlCheck;
 
     const headers = {
         'Content-Type': 'application/json',
@@ -100,11 +104,7 @@ async function _handler(event) {
         return { statusCode: 405, headers, body: JSON.stringify({ error: 'Method not allowed' }) };
     } catch (err) {
         console.error('cs-routes error:', err);
-        return {
-            statusCode: 200,
-            headers,
-            body: JSON.stringify({ success: false, error: err.message, routes: {} })
-        };
+        return safeError(200, 'Route operation failed', err, _cors);
     }
 }
 
