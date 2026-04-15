@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-15T11:55:57Z",
+  "generated_at": "2026-04-15T11:57:33Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -8,7 +8,7 @@
       "manager": "Michael Byrd",
       "isHidden": true,
       "composite_score": 24,
-      "composite_trend": "+5",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 10,
         "quota_attainment": 4,
@@ -378,7 +378,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 63,
-      "composite_trend": "+33",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 73,
         "quota_attainment": 30,
@@ -2608,7 +2608,7 @@
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 34,
-      "composite_trend": "+5",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 12,
         "quota_attainment": 2,
@@ -2980,7 +2980,7 @@
       "manager": "Michael Byrd",
       "isHidden": true,
       "composite_score": 21,
-      "composite_trend": "+2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 4,
         "quota_attainment": 1,
