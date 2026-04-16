@@ -1347,5 +1347,14 @@
         "date": "2026-04-07T22:30:29.298Z"
       }
     }
+  },
+  "Andrea Sweet": {
+    "cs_method_cert": {
+      "1": {
+        "score": 80,
+        "passed": true,
+        "date": "2026-04-16T20:18:36.325Z"
+      }
+    }
   }
 }
