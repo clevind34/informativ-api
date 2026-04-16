@@ -738,5 +738,378 @@
         "date": "2026-03-17T14:29:42.201Z"
       }
     }
+  },
+  "William Fowler": {
+    "smartpencil_cert": {
+      "1": {
+        "score": 83,
+        "passed": true,
+        "correct": 20,
+        "total": 24,
+        "date": "2026-03-17T16:22:47.078Z"
+      },
+      "2": {
+        "score": 94,
+        "passed": true,
+        "correct": 32,
+        "total": 34,
+        "date": "2026-03-17T20:19:03.862Z"
+      },
+      "3": {
+        "score": 96,
+        "passed": true,
+        "correct": 27,
+        "total": 28,
+        "date": "2026-03-17T20:29:42.594Z"
+      },
+      "4": {
+        "score": 96,
+        "passed": true,
+        "correct": 22,
+        "total": 23,
+        "date": "2026-03-17T20:44:29.529Z"
+      },
+      "5": {
+        "score": 83,
+        "passed": true,
+        "correct": 10,
+        "total": 12,
+        "date": "2026-03-17T20:49:31.875Z"
+      },
+      "6": {
+        "score": 83,
+        "passed": true,
+        "correct": 20,
+        "total": 24,
+        "date": "2026-03-17T20:55:47.475Z"
+      }
+    },
+    "value_selling_cert": {
+      "1": {
+        "score": 88,
+        "passed": true,
+        "correct": 7,
+        "total": 8,
+        "date": "2026-03-17T21:01:05.689Z"
+      },
+      "2": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-17T21:05:07.020Z"
+      },
+      "3": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-17T21:08:57.274Z"
+      },
+      "4": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-17T21:11:42.508Z"
+      },
+      "5": {
+        "score": 89,
+        "passed": true,
+        "correct": 8,
+        "total": 9,
+        "date": "2026-03-17T21:14:09.980Z"
+      },
+      "6": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-17T21:16:00.392Z"
+      }
+    },
+    "total_solutions_sales_cert": {
+      "1": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-18T14:06:45.837Z"
+      },
+      "2": {
+        "score": 90,
+        "passed": true,
+        "correct": 9,
+        "total": 10,
+        "date": "2026-03-18T14:11:21.853Z"
+      },
+      "3": {
+        "score": 90,
+        "passed": true,
+        "correct": 9,
+        "total": 10,
+        "date": "2026-03-18T14:16:15.443Z"
+      },
+      "4": {
+        "score": 90,
+        "passed": true,
+        "correct": 9,
+        "total": 10,
+        "date": "2026-03-18T14:19:36.086Z"
+      },
+      "5": {
+        "score": 90,
+        "passed": true,
+        "correct": 9,
+        "total": 10,
+        "date": "2026-03-18T14:24:07.242Z"
+      },
+      "6": {
+        "score": 100,
+        "passed": true,
+        "correct": 12,
+        "total": 12,
+        "date": "2026-03-18T14:34:37.402Z"
+      },
+      "7": {
+        "score": 83,
+        "passed": true,
+        "correct": 5,
+        "total": 6,
+        "date": "2026-03-18T14:47:42.225Z"
+      },
+      "8": {
+        "score": 92,
+        "passed": true,
+        "correct": 11,
+        "total": 12,
+        "date": "2026-03-18T14:52:08.544Z"
+      },
+      "9": {
+        "score": 80,
+        "passed": true,
+        "correct": 4,
+        "total": 5,
+        "date": "2026-03-18T14:54:13.869Z"
+      }
+    },
+    "informativ_method_cert": {
+      "1": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T14:59:01.528Z"
+      },
+      "2": {
+        "score": 83,
+        "passed": true,
+        "correct": 5,
+        "total": 6,
+        "date": "2026-03-18T15:02:42.727Z"
+      },
+      "3": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T19:41:15.471Z"
+      },
+      "4": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T19:47:15.587Z"
+      },
+      "5": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T19:50:20.009Z"
+      },
+      "6": {
+        "score": 83,
+        "passed": true,
+        "correct": 5,
+        "total": 6,
+        "date": "2026-03-18T19:52:55.172Z"
+      },
+      "7": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T19:56:54.699Z"
+      },
+      "8": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T20:01:07.035Z"
+      },
+      "9": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T20:05:35.968Z"
+      },
+      "10": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T20:10:10.988Z"
+      },
+      "11": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T20:12:37.946Z"
+      },
+      "12": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-03-18T20:16:51.665Z"
+      }
+    },
+    "total_solutions_manager_cert": {
+      "1": {
+        "score": 89,
+        "passed": true,
+        "correct": 8,
+        "total": 9,
+        "date": "2026-03-18T15:51:14.728Z"
+      },
+      "2": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-18T15:54:20.103Z"
+      },
+      "3": {
+        "score": 100,
+        "passed": true,
+        "correct": 9,
+        "total": 9,
+        "date": "2026-03-18T15:56:44.721Z"
+      },
+      "4": {
+        "score": 89,
+        "passed": true,
+        "correct": 8,
+        "total": 9,
+        "date": "2026-03-18T17:56:39.824Z"
+      },
+      "5": {
+        "score": 100,
+        "passed": true,
+        "correct": 10,
+        "total": 10,
+        "date": "2026-03-18T18:01:35.305Z"
+      },
+      "6": {
+        "score": 88,
+        "passed": true,
+        "correct": 7,
+        "total": 8,
+        "date": "2026-03-18T18:04:10.969Z"
+      },
+      "7": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-18T18:08:20.385Z"
+      },
+      "8": {
+        "score": 80,
+        "passed": true,
+        "correct": 8,
+        "total": 10,
+        "date": "2026-03-18T18:12:28.612Z"
+      }
+    },
+    "payments_channel_cert": {
+      "1": {
+        "score": 88,
+        "passed": true,
+        "correct": 7,
+        "total": 8,
+        "date": "2026-03-18T18:19:22.313Z"
+      },
+      "2": {
+        "score": 86,
+        "passed": true,
+        "correct": 6,
+        "total": 7,
+        "date": "2026-03-18T18:22:16.585Z"
+      },
+      "3": {
+        "score": 88,
+        "passed": true,
+        "correct": 7,
+        "total": 8,
+        "date": "2026-03-18T18:26:00.579Z"
+      },
+      "4": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-03-18T18:28:55.480Z"
+      },
+      "5": {
+        "score": 100,
+        "passed": true,
+        "correct": 7,
+        "total": 7,
+        "date": "2026-03-18T18:32:21.673Z"
+      },
+      "6": {
+        "score": 86,
+        "passed": true,
+        "correct": 6,
+        "total": 7,
+        "date": "2026-03-18T18:35:10.822Z"
+      }
+    },
+    "tier_cert": {
+      "1": {
+        "score": 100,
+        "passed": true,
+        "correct": 10,
+        "total": 10,
+        "date": "2026-03-18T18:49:27.212Z"
+      },
+      "2": {
+        "score": 90,
+        "passed": true,
+        "correct": 9,
+        "total": 10,
+        "date": "2026-03-18T18:58:14.766Z"
+      },
+      "3": {
+        "score": 80,
+        "passed": true,
+        "correct": 8,
+        "total": 10,
+        "date": "2026-03-18T19:28:44.869Z"
+      },
+      "4": {
+        "score": 100,
+        "passed": true,
+        "correct": 12,
+        "total": 12,
+        "date": "2026-03-18T19:37:30.143Z"
+      }
+    }
   }
 }
