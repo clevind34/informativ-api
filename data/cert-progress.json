@@ -1356,5 +1356,67 @@
         "date": "2026-04-16T20:18:36.325Z"
       }
     }
+  },
+  "Tami Richter": {
+    "smartpencil_cert": {
+      "1": {
+        "score": 83,
+        "passed": true,
+        "correct": 20,
+        "total": 24,
+        "date": "2026-03-30T15:09:12.958Z"
+      },
+      "2": {
+        "score": 91,
+        "passed": true,
+        "correct": 31,
+        "total": 34,
+        "date": "2026-03-30T15:38:58.228Z"
+      },
+      "3": {
+        "score": 96,
+        "passed": true,
+        "correct": 27,
+        "total": 28,
+        "date": "2026-03-30T15:52:01.675Z"
+      },
+      "4": {
+        "score": 96,
+        "passed": true,
+        "correct": 22,
+        "total": 23,
+        "date": "2026-03-30T15:59:58.320Z"
+      },
+      "5": {
+        "score": 100,
+        "passed": true,
+        "correct": 12,
+        "total": 12,
+        "date": "2026-03-30T16:04:37.047Z"
+      },
+      "6": {
+        "score": 88,
+        "passed": true,
+        "correct": 21,
+        "total": 24,
+        "date": "2026-03-30T16:12:04.582Z"
+      }
+    },
+    "total_solutions_sales_cert": {
+      "1": {
+        "score": 88,
+        "passed": true,
+        "correct": 7,
+        "total": 8,
+        "date": "2026-04-01T12:00:25.544Z"
+      },
+      "2": {
+        "score": 100,
+        "passed": true,
+        "correct": 10,
+        "total": 10,
+        "date": "2026-04-06T12:41:43.063Z"
+      }
+    }
   }
 }
