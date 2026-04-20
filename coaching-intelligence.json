@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T11:33:06Z",
+  "generated_at": "2026-04-20T14:10:56Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -527,23 +527,8 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "South Central",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 57
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Matt Hanaman": {
@@ -680,32 +665,17 @@
         "avg_deal_size": 177660
       },
       "prospecting": {
-        "composite": 0.0,
+        "composite": 11.2,
         "tier": "Needs Attention",
-        "dispositionRate": 0.0,
-        "meetingConversion": 0,
+        "dispositionRate": 1.1,
+        "meetingConversion": 0.0,
         "assigned": 881,
-        "actioned": 0,
+        "actioned": 10,
         "meetings": 0,
         "opportunities": 0,
         "territory": "Great Lakes West",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 60
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Kiristen Sandoval": {
@@ -811,22 +781,7 @@
         "avg_conversion_rate": 0,
         "avg_deal_size": 0
       },
-      "isHidden": true,
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 22
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
-      }
+      "isHidden": true
     },
     "Tami Richter": {
       "team": "Bordenet",
@@ -971,23 +926,8 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "South East",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 39
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Carol Sanford": {
@@ -1123,23 +1063,8 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Pacific West",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 26
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Clarence Romero": {
@@ -1255,23 +1180,8 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "NY Metro",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 22
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Tom Meredith": {
@@ -1377,22 +1287,7 @@
         "avg_conversion_rate": 1.53,
         "avg_deal_size": 177660
       },
-      "isHidden": true,
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 16
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
-      }
+      "isHidden": true
     },
     "Loren Rivera": {
       "team": "Bordenet",
@@ -1476,22 +1371,7 @@
         "avg_conversion_rate": 1.53,
         "avg_deal_size": 177660
       },
-      "isHidden": true,
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 0
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
-      }
+      "isHidden": true
     },
     "Joel Carlucci": {
       "role": "manager",
@@ -1967,32 +1847,17 @@
         "avg_deal_size": 95159
       },
       "prospecting": {
-        "composite": 0.0,
+        "composite": 11.3,
         "tier": "Needs Attention",
-        "dispositionRate": 0.0,
-        "meetingConversion": 0,
+        "dispositionRate": 1.5,
+        "meetingConversion": 0.0,
         "assigned": 477,
-        "actioned": 0,
+        "actioned": 7,
         "meetings": 0,
         "opportunities": 0,
         "territory": "California",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 21
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "David Castone": {
@@ -2098,22 +1963,7 @@
         "avg_conversion_rate": 0.75,
         "avg_deal_size": 95159
       },
-      "isHidden": true,
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 11
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
-      }
+      "isHidden": true
     },
     "William Fowler": {
       "team": "Carlucci",
@@ -2239,32 +2089,17 @@
         "avg_deal_size": 95159
       },
       "prospecting": {
-        "composite": 0.0,
+        "composite": 11.1,
         "tier": "Needs Attention",
-        "dispositionRate": 0.0,
-        "meetingConversion": 0,
+        "dispositionRate": 0.3,
+        "meetingConversion": 0.0,
         "assigned": 1099,
-        "actioned": 0,
+        "actioned": 3,
         "meetings": 0,
         "opportunities": 0,
         "territory": "Central",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 23
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Ward Carroll": {
@@ -2370,23 +2205,8 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Central Atlantic",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 23
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Brock Hutchinson": {
@@ -2513,32 +2333,17 @@
         "avg_deal_size": 95159
       },
       "prospecting": {
-        "composite": 0.0,
+        "composite": 11.3,
         "tier": "Needs Attention",
-        "dispositionRate": 0.0,
-        "meetingConversion": 0,
+        "dispositionRate": 1.6,
+        "meetingConversion": 0.0,
         "assigned": 1017,
-        "actioned": 0,
+        "actioned": 16,
         "meetings": 0,
         "opportunities": 0,
         "territory": "Southern Crossroads",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 17
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Great Lakes East (Open)": {
@@ -2633,23 +2438,8 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Great Lakes East",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 0
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Crly Alvarado": {
@@ -2795,23 +2585,8 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "New Jersey",
-        "teamAvg": 0.0,
-        "dataStatus": "early_data"
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 36
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
+        "teamAvg": 4.1,
+        "dataStatus": "live"
       }
     },
     "Tim Canley": {
@@ -2936,21 +2711,6 @@
         "avg_composite": 29,
         "avg_conversion_rate": 0.8,
         "avg_deal_size": 145796
-      },
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 22
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
       }
     },
     "Nick Moyes": {
@@ -3056,22 +2816,7 @@
         "avg_conversion_rate": 0.8,
         "avg_deal_size": 145796
       },
-      "isHidden": true,
-      "coaching_effectiveness": {
-        "coaching_events_90d": 0,
-        "events_by_type": {},
-        "composite_trend_180d": [
-          {
-            "date": "2026-04-20",
-            "score": 5
-          }
-        ],
-        "best_intervention": null,
-        "coaching_responsiveness": "unknown",
-        "last_coached_date": null,
-        "days_since_coaching": null,
-        "archetype_stability": "unknown"
-      }
+      "isHidden": true
     },
     "Curtis Knievel": {
       "role": "manager",
