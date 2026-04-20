@@ -111,9 +111,17 @@
         "phone": "916-587-6168",
         "added_by": "Ashton Gough",
         "added_at": "2026-04-20T19:12:54.417Z"
+      },
+      {
+        "contact_name": "Mike",
+        "title": "GSM",
+        "email": "michaela@elkgrovebuickgmc.com",
+        "phone": "",
+        "added_by": "Ashton Gough",
+        "added_at": "2026-04-20T19:13:31.033Z"
       }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-20T19:12:54.417Z"
+  "last_modified": "2026-04-20T19:13:31.033Z"
 }
