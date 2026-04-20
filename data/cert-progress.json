@@ -1460,5 +1460,14 @@
         "date": "2026-04-17T13:22:12.356Z"
       }
     }
+  },
+  "Robert Rorick": {
+    "cs_method_cert": {
+      "1": {
+        "score": 80,
+        "passed": true,
+        "date": "2026-04-20T14:43:02.928Z"
+      }
+    }
   }
 }
