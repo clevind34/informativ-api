@@ -3,7 +3,7 @@
     "generated_at": "2026-03-06T20:02:13.411557",
     "source_dir": "/sessions/optimistic-relaxed-einstein/mnt/Claude Sales Forecast Tool/Claude Informativ",
     "total_documents": 403,
-    "total_chunks": 403,
+    "total_chunks": 411,
     "categories": {
       "products": 70,
       "competitive_intel": 32,
@@ -16,7 +16,7 @@
       "sales_process": 23,
       "whitepapers": 26,
       "general": 29,
-      "testimonials": 34,
+      "testimonials": 42,
       "quotes": 22
     }
   },
@@ -3206,14 +3206,14 @@
     },
     "testimonials": {
       "label": "Customer Video Testimonials",
-      "description": "34 video testimonials from dealers including Autobahn BMW, Pohanka Auto Group, Cavender Auto Family, Kia Moritz, Kunes Auto Group, Boucher Auto Group, Galpin Motors, Gay Family Auto, Crest Automotive, Firkins Auto Group, Toyota of Cedar Park \u2014 covering fraud prevention, compliance, customer experience, cost savings, soft pulls, and more. Each includes a link to the video on informativ.com.",
+      "description": "42 video testimonials from dealers including Autobahn BMW, Pohanka Auto Group, Cavender Auto Family, Kia Moritz, Kunes Auto Group, Boucher Auto Group, Galpin Motors, Gay Family Auto, Crest Automotive, Firkins Auto Group, Toyota of Cedar Park \u2014 covering fraud prevention, compliance, customer experience, cost savings, soft pulls, SmartPencil, pre-desking, and more. Each includes a link to the video on informativ.com.",
       "chunks": [
         {
           "source": "Video Testimonial #1: Autobahn BMW's Fraud Solution is Informativ",
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 0,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Autobahn BMW's Fraud Solution is Informativ\nSpeaker: Brandon Lee, New Car Sales Director\nCompany: Autobahn BMW\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/autobahn-bmws-fraud-solution-is-informativ/)\nTopics: Fraud Prevention & ID Scanning, Synthetic Fraud Detection, Driver's License Scanning, Easy to Use, Sales Team Adoption\n\nTranscript:\n\"I didn't know what synthetic fraud was until eighteen months ago. And we had some clients come in, and we had two one hundred thousand dollar cars stolen within sixty days. And everything passed. When I say everything, red flags passed, OFAC passed, credit passed, not only with the dealer at our level, but also with our BMW Financial Services. The contract funded, cars were gone. And we didn't know anything was going on until we got a phone call from BMW Financial to let us know that the payments hadn't been made. The solution for us was obviously Informativ. If you take their app, which their app is incredible, it's very user-friendly, very simple to use, which you get buy-in from your client advisors, your salespeople, whenever it's easy to use. But literally, instantly, once they take a capture of a picture of a driver's license, front and back copy, and the insurance card, me as a manager can see whether or not they're fraud right then.\"\n",
           "char_count": 1354,
           "topics": [
@@ -3232,7 +3232,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 1,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Kunes Auto Group Accelerates Without Cutting Corners\nSpeaker: Scott Kunes, Chief Operating Officer\nCompany: Kunes Auto Group\nLocation: Wisconsin and Michigan\n[Watch the Video](https://informativ.com/kunes-auto-group-accelerates-without-cutting-corners)\nTopics: Compliance & Guardrails, Process Consistency, Multi-Location / Enterprise, Scalable Across Stores, Audit Scores & Readiness\n\nTranscript:\n\"Typically when you speed up a process like this or try to institute a process, everybody knows the salesperson working the deal is running up saying, I need a trade appraise, I need a credit app, I need this, I need this, I need this. And you want to slow that process down, and it's extremely important so that you don't get sloppy or skip steps, right? With Informativ, we're doing it the right way every time. And it's really critical to us with 40 locations and 1,500 employees to have that process that we can manage, watch, and audit, and make sure that it's happening over and over again.\"\n",
           "char_count": 1015,
           "topics": [
@@ -3251,7 +3251,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 2,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: IDEA Auto Group Streamlines Credit Usage and Saves Time\nSpeaker: Rigo Guevara, General Manager\nCompany: Toyota of Cedar Park\nLocation: Cedar Park, Texas\n[Watch the Video](https://informativ.com/case-studies/idea-auto-group-streamlines-credit-usage-and-saves-time/)\nTopics: Soft Pull Prequalification, Soft Pull Credit, Customer Experience & Trust, Competing with Credit Unions, Competitive Advantage\n\nTranscript:\n\"What the prequals have done for us is take the customer into consideration, right? It creates a better experience for an inquiry. It's a hard pull, and if we can eliminate some of that and create a better experience for the customer, they notice. And in our market, we have a lot of credit unions that we're constantly competing with. With the pre-qual, we're able to be better informed and often compete with the rate that the customer is shopping. So it allows us to do that without the big commitment from the customer.\"\n",
           "char_count": 957,
           "topics": [
@@ -3270,7 +3270,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 3,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Kia Moritz's Paperless Process Improves the Customer Experience\nSpeaker: Lynn Crabtree, Customer\nCompany: Kia Moritz Alliance\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/kia-moritzs-paperless-process-improves-the-customer-experience/)\nTopics: Customer Experience & Trust, Paperless Showroom, Digital / Paperless Process, Building Customer Trust, Customer Data Protection\n\nTranscript:\n\"I am actually a customer at Kia Moritz. I was shopping for a car with my brother, and we went to several different dealerships. I really liked coming here because at the other dealerships, you come in and there was a lot of paperwork. They wanted to take a picture of the driver's license, and it just made me feel uneasy because you didn't know where it was going. So when I came here, it seemed like they had things put together because right away they scanned the driver's license right there in front of me. And then when we went through everything, it was all digitalized. So it seemed easy, and it felt like they had things put together in a way that made me trust them a little bit more than other dealerships.\"\n",
           "char_count": 1161,
           "topics": [
@@ -3289,7 +3289,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 4,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Informativ Helps Pohanka Auto Group Build a More Confident, Consistent Sales Process\nSpeaker: Jimmy Robinson, Chief Financial Officer\nCompany: Pohanka Auto Group\nLocation: Washington D.C., Maryland, Virginia, and Texas\n[Watch the Video](https://informativ.com/confident-consistent-sales-with-informativ/)\nTopics: Compliance & Guardrails, Process Consistency, sales_confidence, Customer Experience & Trust\n\nTranscript:\n\"The consistency comes from having clear expectations, and that makes your dealership run smoother. The sales associate understands the expectations put on them, and the desk has those same expectations. Then the customer experience improves. It's very clear, and the software helps promote that level of confidence in everybody.\"\n",
           "char_count": 768,
           "topics": [
@@ -3307,7 +3307,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 5,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Cavender Auto Praises Informativ's Unmatched Partnership\nSpeaker: Ben Stillwagon, Director of IT\nCompany: Cavender Auto Family\nLocation: Texas\n[Watch the Video](https://informativ.com/case-studies/cavender-auto-praises-informativs-unmatched-partnership/)\nTopics: Informativ Partnership & Support, Customer Service, Customer Support\n\nTranscript:\n\"Really, the team has been great in understanding our business and thinking of ways to make us better and check all the boxes. I think what it really boils down to is the team. You guys have a great team here.\"\n",
           "char_count": 575,
           "topics": [
@@ -3324,7 +3324,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 6,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Kia Moritz Earns Customer Confidence from the Start\nSpeaker: Dejan Siljegovic, Sales Manager\nCompany: Kia Moritz of Alliance\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/kia-moritz-earns-customer-confidence-from-the-start/)\nTopics: Customer Experience & Trust, Customer Data Protection, Digital / Paperless Process, Building Customer Trust, Credit Score Protection\n\nTranscript:\n\"I think the customer gains a bit of confidence seeing that their information is not all over the place or spread across desks. There's nothing to print aside from a couple of forms that we have internally. Everything goes through an iPad and gets pushed through the system. Especially here, with credit ratings being so important, people who have established their credit want to keep it that way. I think it inspires confidence in us for them and makes it much easier for them to do business with us today and in the future because of that.\"\n",
           "char_count": 978,
           "topics": [
@@ -3343,7 +3343,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 7,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Managers Love Informativ\nSpeaker: Doug Ashbrook, General Sales Manager\nCompany: Kia Moritz of Alliance\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/managers-love-informativ/)\nTopics: Compliance & Guardrails, Enforceable Compliance Guardrails, Faster Sales Process, Manager Protection\n\nTranscript:\n\"I would say the biggest thing is the whole safety process and being compliant. It's made it really easy for us because if anything is wrong, anything that pops up gives us a stop sign and we can't move forward. I like it. For manager protection, Informativ is a great process to keep you compliant and to speed up the process between the customer and the desk.\"\n",
           "char_count": 716,
           "topics": [
@@ -3361,7 +3361,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 8,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Kunes Auto Group Safeguards Customer Data\nSpeaker: Scott Kunes, Chief Operating Officer\nCompany: Kunes Auto Group\nLocation: Wisconsin and Michigan\n[Watch the Video](https://informativ.com/case-studies/kunes-auto-group-safeguards-customer-data/)\nTopics: Customer Data Protection, Dead Deal / FTC 5-Year Storage, Compliance & Guardrails, Multi-Location / Enterprise, Audit Scores & Readiness\n\nTranscript:\n\"The number one thing that's important is protecting customer data. We have to protect that customer data. With all the different locations we have, from small stores to big stores, I would go into these stores and ask, where's your dead deal file? We had dead deals and the deals we worked, but what about all the rest of the credit that we had pulled and everyone who never made it to that deal process? That process wasn't always as streamlined as we would like. So we made sure that with Informativ, customer data was protected and held in a secure spot that we knew and could audit.\"\n",
           "char_count": 1011,
           "topics": [
@@ -3380,7 +3380,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 9,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Autobahn BMW Endorses Informativ's Fraud Protection\nSpeaker: Brandon Lee, New Car Sales Director\nCompany: Autobahn BMW\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/autobahn-bmw-endorses-informativs-fraud-protection/)\nTopics: Fraud Prevention & ID Scanning, Driver's License Scanning, Faster Sales Process, Easy to Use, Customer Experience & Trust\n\nTranscript:\n\"Whenever you're selling a car and the customers are here, you're always trying to be as efficient as possible. You're trying to give the customer the best experience while they're in the dealership. Informativ is a very easy process with the app that you've created. You can scan the driver's license and immediately know whether or not that driver's license is fraudulent. It's not putting a cog in the wheel where you're slowing down the sales process.\"\n",
           "char_count": 873,
           "topics": [
@@ -3399,7 +3399,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 10,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Kia Moritz Fraud Prevention\nSpeaker: Dejan Siljegovic, Sales Manager\nCompany: Kia Moritz of Alliance\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/kia-moritz-earns-customer-confidence-from-the-start/)\nTopics: Fraud Prevention & ID Scanning, Driver's License Scanning, Cost Savings\n\nTranscript:\n\"This double-checks us and also scans for fraud on identification and things like that. That's obviously crucial to saving a lot of money and avoiding a big headache, while making sure someone else's information is not obtained by another person and that we're not involved in something that's a scam.\"\n",
           "char_count": 652,
           "topics": [
@@ -3416,7 +3416,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 11,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Pohanka Auto Group Protects Customer Data and Dealer Integrity with Informativ\nSpeaker: Jimmy Robinson, Chief Financial Officer\nCompany: Pohanka Auto Group\nLocation: Washington D.C., Maryland, Virginia, and Texas\n[Watch the Video](https://informativ.com/case-studies/informativ-helps-dealers-protect-what-matters/)\nTopics: Customer Data Protection, Compliance & Guardrails, Stipulation Collection, Digital / Paperless Process, Subprime / Stip Collection\n\nTranscript:\n\"Everybody has a cell phone, everybody has computers, and when you're collecting stipulations from a subprime customer, where are those documents going without this software? Are they going to a salesperson's personal cell phone or personal email, where you can't have any accountability over those items? Now, with the software, they can upload everything directly into the system. You have control of it, and you can safeguard those items. It's really a deal maker.\"\n",
           "char_count": 955,
           "topics": [
@@ -3435,7 +3435,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 12,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: How Autobahn BMW Stays Ahead of Fraud with Informativ\nSpeaker: Brandon Lee, New Car Sales Director\nCompany: Autobahn BMW\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/how-autobahn-bmw-stays-ahead-of-fraud-with-informativ/)\nTopics: Fraud Prevention & ID Scanning, Dealer Confidence, Loss Prevention\n\nTranscript:\n\"The technology has been transformative for our store. It helps ease our minds because we know we've been taken advantage of in the past. Now, we can move forward with confidence and deliver a car to a client without worrying about chasing someone who has outwitted the system. It prevents situations where someone is one step ahead of the dealer and able to purchase a car fraudulently.\"\n",
           "char_count": 755,
           "topics": [
@@ -3452,7 +3452,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 13,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Informativ Helps Dealers Sleep Better\nSpeaker: John Gross, Chief Executive Officer\nCompany: Firkins Auto Group\nLocation: Firkins Auto Group\n[Watch the Video](https://informativ.com/case-studies/informativ-helps-dealers-sleep-better/)\nTopics: Easy to Use, Sales Team Adoption, ROI / Money Well Spent, Dealer Principal Perspective, Smooth Onboarding\n\nTranscript:\n\"Out of all the products I've installed in my dealership, this is the one I've had no headaches with. I didn't get any calls saying, 'I don't like this' or 'this doesn't work right.' Everything was a smooth transaction. It's fantastic. We were very selective, and when I saw the demo your company put in front of me, I knew we had to have this product. It helps me sleep better at night, and I know the owners feel better too. It's money well spent. I've been in the business a long time, and I've seen other vendors come in saying they have something, but they don't have anything close to this.\"\n",
           "char_count": 978,
           "topics": [
@@ -3471,7 +3471,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 14,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Pohanka Auto Group Streamlined Its Sales-to-F&I Process with Informativ\nSpeaker: Jimmy Robinson, Chief Financial Officer\nCompany: Pohanka Auto Group\nLocation: Washington D.C., Maryland, Virginia, and Texas\n[Watch the Video](https://informativ.com/case-studies/faster-sales-to-fi-for-pohanka-auto-group/)\nTopics: Faster Sales Process, Sales-to-F&I Handoff, Operational Efficiency, Multi-Location / Enterprise\n\nTranscript:\n\"I've been at Pohanka for five years, and I had used this system before at a previous group with 47 locations. I already knew the value of it. Not that you ever waste time working a car deal, but if you know upfront that there's a problem, it streamlines everybody's efficiency within the store.\"\n",
           "char_count": 737,
           "topics": [
@@ -3489,7 +3489,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 15,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Crest Automotive Trusts Informativ to Support Dealer Success\nSpeaker: Mike Brosin, Managing Partner\nCompany: Crest Automotive Group, A Berkshire Hathaway Company\nLocation: Frisco, Texas\n[Watch the Video](https://informativ.com/case-studies/why-crest-automotive-trusts-informativ/)\nTopics: Compliance & Guardrails, Audit Scores & Readiness, High Volume Dealership, Faster Sales Process, Customer Endorsement / Referral\n\nTranscript:\n\"The reason we've scored so high on our GV03 audit is because of this product. We're selling around 6,500 cars a year, and we feel like this has not slowed us down. In fact, it has probably helped the process because we have a system for keeping everything in line and organized for our customers. They feel very comfortable because of the way we do it. I would endorse this product\u2014I do endorse it. It's a great product.\"\n",
           "char_count": 873,
           "topics": [
@@ -3508,7 +3508,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 16,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: For Cavender Auto Family, Informativ Is About Doing Things the Right Way\nSpeaker: Owner/Partner\nCompany: Cavender Auto Family\nLocation: Texas\n[Watch the Video](https://informativ.com/case-studies/cavender-has-built-a-culture-of-trust-with-informativ/)\nTopics: Compliance & Guardrails, Enforceable Compliance Guardrails, Culture Change / Adoption, Dealer Principal Perspective, Risk Management\n\nTranscript:\n\"I kept going to my sales management team and preaching how important this was. We all understood what was at risk, but when it really comes down to it, what's at risk is you as a dealer\u2014your reputation, your assets, your money. So we had to take the decision out of the hands of our management staff. Once you do that and make it a way of life, you've got 99% of your problem taken care of. Management will always have reasons to keep doing it the old way.\"\n",
           "char_count": 884,
           "topics": [
@@ -3527,7 +3527,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 17,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Pohanka Auto Group Boosts Efficiency with Informativ\nSpeaker: Jimmy Robinson, Chief Financial Officer\nCompany: Pohanka Auto Group\nLocation: Washington D.C., Maryland, Virginia, and Texas\n[Watch the Video](https://informativ.com/case-studies/informativ-has-a-positive-impact-on-dealers/)\nTopics: Compliance & Guardrails, Operational Efficiency, Cost Savings, Accounting Efficiency, Audit Scores & Readiness, CFO Perspective\n\nTranscript:\n\"From a CFO standpoint, I'm the one overseeing compliance. Consistency is what we're all striving for\u2014we all want to get better and be consistent. The software has helped us tremendously with that. It streamlines funding, deal costing, and everything in accounting. It also helps across insurance, risk management, and both external and internal audits. It's complete. It's really saved us a lot of time and money.\"\n",
           "char_count": 871,
           "topics": [
@@ -3547,7 +3547,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 18,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Why Autobahn BMW Trusts and Recommends Informativ\nSpeaker: Brandon Lee, New Car Sales Director\nCompany: Autobahn BMW\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/why-autobahn-bmw-trusts-and-recommends-informativ/)\nTopics: Fraud Prevention & ID Scanning, Customer Referral, Easy to Use, Customer Endorsement / Referral\n\nTranscript:\n\"I've mentioned it to several other people in conversations about whether they're experiencing fraud. Whenever they tell me they have, I give them your name because it's something that's very easy to use and provides correct, accurate information. It's something that can help every dealership so they don't have to worry or stress about major losses for their company.\"\n",
           "char_count": 758,
           "topics": [
@@ -3565,7 +3565,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 19,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Why the Sales Team at Kia Moritz Loves Informativ\nSpeaker: Dejan Siljegovic, Sales Manager\nCompany: Kia Moritz of Alliance\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/sales-teams-love-informativ/)\nTopics: Sales Team Adoption, Easy to Use, Mobile App / iPad, Faster Sales Process\n\nTranscript:\n\"All the sales team loves it now. We like it as well\u2014it's very easy to use. They use their iPads and can do everything on the fly. They can scan driver's licenses and have customers enter their information while working through the process, and it really speeds things up. At first, they were a little hesitant, but after a couple of days they saw how easy it was, and now it's just a natural flow for them.\"\n",
           "char_count": 758,
           "topics": [
@@ -3583,7 +3583,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 20,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: How Informativ Delivers Fast, Accurate Soft Pull Prequalifications\nSpeaker: Brandon Lee, New Car Sales Director\nCompany: Autobahn BMW\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/how-informativ-delivers-fast-accurate-soft-pull-prequalifications/)\nTopics: Soft Pull Prequalification, Soft Pull Credit, Rate & Payment Accuracy, Payment Accuracy\n\nTranscript:\n\"Since we've gone with Informativ, we're able to pull a quick prequal, which we had never done as a dealership before. That allows us to go out and know that when we're running numbers for clients, it's an accurate rate and an accurate payment. Once they fully commit, that's when we complete the credit application and submit it to our banks. We have yet to see a situation where the rate was any different than what the prequal showed us.\"\n",
           "char_count": 854,
           "topics": [
@@ -3601,7 +3601,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 21,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Gay Family Auto Uses Informativ to Simplify Compliance for Their Sales Team\nSpeaker: Kevin Lardie, General Sales Manager\nCompany: Gay Family Auto\nLocation: Houston, Texas\n[Watch the Video](https://informativ.com/case-studies/for-gay-family-auto-compliance-is-easy/)\nTopics: Compliance & Guardrails, Long-Term Customer, Easy to Use, Sales Team Adoption\n\nTranscript:\n\"We've been using this for 12 years, and it's really helped us stay organized and compliant. The scanning features and the app keep everything secure in the portal, including pulling credit. Our sales teams love it\u2014we have it in both of our stores, and it's been really great.\"\n",
           "char_count": 662,
           "topics": [
@@ -3619,7 +3619,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 22,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Cavender Auto Created a Smoother Sales Process with Informativ\nSpeaker: Ben Stillwagon, Director of IT\nCompany: Cavender Auto Family\nLocation: Texas\n[Watch the Video](https://informativ.com/case-studies/cavender-auto-created-a-smoother-sales-process-with-informativ/)\nTopics: Total Solution, Digital / Paperless Process, Cost Savings, Audit Scores & Readiness, Digital Deal Jacket\n\nTranscript:\n\"The full suite of solutions that Informativ provides is really great. We were disjointed before, and now that everything is under one umbrella, it's much easier for the stores to manage and easier for us from an audit perspective to understand what's happening and ensure everything is being done correctly. The digital approach is the way to go. Having everything from mobile driver's license scanning to handling documents digitally, digitally signing them, and pushing them into the deal jacket is a major improvement. The entire suite of products has been a game changer for us, along with the savings it has provided.\"\n",
           "char_count": 1038,
           "topics": [
@@ -3638,7 +3638,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 23,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Pohanka Auto Group Uses Informativ to Detect and Prevent Identity Fraud\nSpeaker: Jimmy Robinson, Chief Financial Officer\nCompany: Pohanka Auto Group\nLocation: Washington D.C., Maryland, Virginia, and Texas\n[Watch the Video](https://informativ.com/case-studies/informativ-stops-id-fraud-fast-for-pohanka/)\nTopics: Fraud Prevention & ID Scanning, Driver's License Scanning, Loss Prevention, ROI / Money Well Spent, Measurable Results\n\nTranscript:\n\"The first store we put it in, in Texas, had six fraudulent car sales based on fake IDs. Before we implemented the software, we wasted a lot of time and money chasing cars, doing damage control, and working with insurance, which is painful. After we put it in, over the next 12 months, we had zero. It really makes a difference in the efficiency of the store.\"\n",
           "char_count": 825,
           "topics": [
@@ -3657,7 +3657,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 24,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Galpin Motors Uses Informativ to Accelerate Sales and Strengthen Compliance\nSpeaker: Andy Graff, Chief Technology Officer\nCompany: Galpin Motors\nLocation: Los Angeles, California\n[Watch the Video](https://informativ.com/case-studies/galpin-gets-results-with-informativ/)\nTopics: Compliance & Guardrails, High Volume Dealership, Sales Team Adoption, Faster Sales Process, Multi-Location / Enterprise\n\nTranscript:\n\"Compliance has always been a very important part of our business, and we've taken it very seriously. We have a dedicated compliance team, with seven rooftops, 183 salespeople, and 53 sales and general managers. This solution has not only brought compliance and sales together, but it has also streamlined the process. The team consistently tells me it has made things easier, and they don't want it taken away because it's helping us sell cars faster, stay more compliant, and deliver an excellent customer experience.\"\n",
           "char_count": 952,
           "topics": [
@@ -3676,7 +3676,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 25,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Why Autobahn BMW Trusts Informativ's Instant Fraud Technology\nSpeaker: Brandon Lee, New Car Sales Director\nCompany: Autobahn BMW\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/why-autobahn-bmw-trusts-informativs-instant-fraud-technology/)\nTopics: Fraud Prevention & ID Scanning, Driver's License Scanning, Faster Sales Process, Easy to Use\n\nTranscript:\n\"It's instant technology. As soon as a client advisor scans the driver's license, management can go into the system, pull up the customer's information, and confirm it's not fraud with a green check. It's made everything very seamless. It's easy, it's quick, and we really couldn't ask for anything better.\"\n",
           "char_count": 715,
           "topics": [
@@ -3694,7 +3694,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 26,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: How Boucher Auto Group Uses Informativ to Stop Fraud Instantly\nSpeaker: Vinny Partipilo, Corporate Finance Director\nCompany: Boucher Auto Group\nLocation: Wisconsin\n[Watch the Video](https://informativ.com/case-studies/how-boucher-auto-group-uses-informativ-to-stop-fraud-instantly/)\nTopics: Fraud Prevention & ID Scanning, Driver's License Scanning, F&I Process, Dealer Confidence\n\nTranscript:\n\"As we continued talking with the customer and the F&I manager followed our policies, he started to think something might be off. That's where Informativ came in and did exactly what it's meant to do. We already had some suspicions, and when we scanned the ID and it came back fraudulent, it confirmed everything. That triggered the F&I manager to call me. Using the system the way it's intended gives you that reassurance. In the past, we didn't have this platform, but now being able to scan an ID and trust the technology gives you real confidence in what you're seeing and feeling.\"\n",
           "char_count": 1000,
           "topics": [
@@ -3712,7 +3712,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 27,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Informativ Transforms the Dealership Experience for Both Customer and Salesperson\nSpeaker: Rigo Guevara, General Manager\nCompany: Toyota of Cedar Park\nLocation: Cedar Park, Texas\n[Watch the Video](https://informativ.com/case-studies/informativ-changes-the-game-for-toyota-of-cedar-park/)\nTopics: Paperless Showroom, Customer Experience & Trust, Digital / Paperless Process, Customer Data Protection, Digital Transformation\n\nTranscript:\n\"We had a vision of how to provide a better customer experience, and part of that vision was eliminating paper and creating a process where you don't see paper anywhere on the showroom floor. Informativ made that possible for us. We were able to upload credit applications, insurance, and everything that would normally be on paper. It reduced the exposure of customer information and made it part of a secure, structured process. It's been a big part of our success and has truly changed the game for us.\"\n",
           "char_count": 962,
           "topics": [
@@ -3731,7 +3731,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 28,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Andy Graff on Why Informativ's Enforceable Compliance Works for His Dealer Group\nSpeaker: Andy Graff, Chief Technology Officer\nCompany: Galpin Motors\nLocation: Los Angeles, California\n[Watch the Video](https://informativ.com/case-studies/galpins-team-loves-informativ/)\nTopics: Compliance & Guardrails, Sales Team Adoption, Smooth Onboarding, Enforceable Compliance Guardrails\n\nTranscript:\n\"It took about 30 days, but after that, we fully embraced the Informativ system. If I tried to take it away from the managers, they would push back immediately. It makes our process better, keeps us more compliant, and adds an extra layer of compliance expertise. I couldn't take it out of their hands even if I wanted to\u2014they love it.\"\n",
           "char_count": 746,
           "topics": [
@@ -3749,7 +3749,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 29,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Boucher Auto Group Uses Informativ to Stay Ahead of Modern Fraud\nSpeaker: Andy Partipilo, Corporate Finance Director\nCompany: Boucher Auto Group\nLocation: Wisconsin\n[Watch the Video](https://informativ.com/case-studies/boucher-auto-group-uses-informativ-to-stay-ahead-of-modern-fraud/)\nTopics: Fraud Prevention & ID Scanning, Synthetic Fraud Detection, Evolving Fraud Threats, Technology & Innovation\n\nTranscript:\n\"Fraud seems to grow more every year, and the people behind it keep getting better at what they do. The warning signs that used to alert you 15 years ago are very different today. Fraud deals now look much more like legitimate deals. Years ago, it might have been no money down, but now they'll put $10,000 or $20,000 down to make the deal look real. They've gotten better at masking what fraud looks like, and it can seem legitimate until you start digging deeper. That's why the technology piece is so crucial. It allows you to stay ahead without relying on instinct alone.\"\n",
           "char_count": 1010,
           "topics": [
@@ -3767,7 +3767,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 30,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: The Only AI-Powered End-to-End Compliance Platform from Informativ + ComplyAuto\nSpeaker: Andy Graff (ComplyAuto), Rigo Guevara (Toyota of Cedar Park), Scott Kunes (Kunes Auto Group)\nCompany: ComplyAuto, Toyota of Cedar Park, Kunes Auto Group\nLocation: California, Texas, Wisconsin\n[Watch the Video](https://informativ.com/case-studies/end-to-end-ai-powered-compliance-for-dealerships/)\nTopics: Compliance & Guardrails, Digital Deal Jacket, F&I Process, ComplyAuto Partnership, AI-Powered, Kick Deal Prevention\n\nTranscript:\n\"When a customer finishes the process in F&I, we can run a complete deal jacket in about 60 seconds. We check it for anything that might cause a problem later\u2014is it a kick deal, is something missing, or is there a risk the deal could be unwound because of a missed signature or form? That helps ensure the dealership stays in control and delivers an excellent customer experience. With this tool, we can check deals before the customer ever leaves the dealership or even during remote signing. That's critical because it eliminates wasted time from kick deals and ensures everything is correct upfront.\"\n",
           "char_count": 1146,
           "topics": [
@@ -3787,7 +3787,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 31,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Boucher Auto Group Uses Informativ to Strengthen Customer Trust\nSpeaker: Andy Partipilo, Corporate Finance Director\nCompany: Boucher Auto Group\nLocation: Wisconsin\n[Watch the Video](https://informativ.com/case-studies/boucher-auto-group-uses-informativ-to-strengthen-customer-trust/)\nTopics: Customer Experience & Trust, Building Customer Trust, Customer Data Protection, Professional Environment\n\nTranscript:\n\"The nice thing about the Informativ platform is that if a customer asks why we're doing something, we can explain it clearly. When you explain things the right way, most customers see it as a positive\u2014they appreciate that we take it seriously. It shows both customers and employees that this is a professional environment where we take identity protection seriously. It reinforces that we value our customers and are committed to protecting them. That's very important to me.\"\n",
           "char_count": 907,
           "topics": [
@@ -3805,7 +3805,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 32,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Informativ Gives Customers Less Friction and Dealers More 'Yes'\nSpeaker: Doug Ashbrook, General Sales Manager\nCompany: Kia Moritz of Alliance\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/informativ-makes-the-buying-process-easier-for-customers/)\nTopics: Soft Pull Credit, Soft Pull Prequalification, Customer Experience & Trust, Building Customer Trust, Credit Score Protection\n\nTranscript:\n\"Customers feel much more comfortable knowing it's a soft pull and not a hard hit on their credit right away. That puts them at ease when sharing their information so we can provide accurate numbers. It's had a very positive impact. Customers are more comfortable giving us their driver's license and information, especially knowing it's not being left on paper or exposed. Overall, it creates a much better sense of ease for the customer.\"\n",
           "char_count": 888,
           "topics": [
@@ -3824,7 +3824,7 @@
           "filename": "Testimonial Video Content.docx",
           "category": "testimonials",
           "chunk_index": 33,
-          "total_chunks": 34,
+          "total_chunks": 42,
           "content": "VIDEO TESTIMONIAL: Cavender Auto Controls Credit Usage with Informativ\nSpeaker: Ben Stillwagon, Director of IT\nCompany: Cavender Auto Family\nLocation: Texas\n[Watch the Video](https://informativ.com/case-studies/cavender-auto-controls-credit-usage-with-informativ/)\nTopics: Cost Savings, Credit Cost Control, Flat Rate Pricing, ROI / Money Well Spent, Total Solution\n\nTranscript:\n\"A great example is one of our high-volume stores, where our billing is now significantly reduced each month, which is incredible. When you factor in the cost of the Informativ product, we're seeing a substantial amount of savings. In today's environment, with sales being down, finding ways to improve the bottom line is extremely important, and this has been a major benefit. That's probably been the biggest game changer for us.\"\n",
           "char_count": 812,
           "topics": [
@@ -3835,6 +3835,158 @@
             "total_solution"
           ],
           "link": "https://informativ.com/case-studies/cavender-auto-controls-credit-usage-with-informativ/",
+          "speaker": "Ben Stillwagon, Director of IT",
+          "company": "Cavender Auto Family"
+        },
+        {
+          "source": "Video Testimonial #35: Cavender Auto Family Goes Paperless and Gains Full Control with Informativ",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 34,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Cavender Auto Family Goes Paperless and Gains Full Control with Informativ\nSpeaker: Ben Stillwagon, Director of IT\nCompany: Cavender Auto Family\nLocation: Texas and Oklahoma\n[Watch the Video](https://informativ.com/case-studies/cavender-auto-family-goes-paperless-and-gains-full-control/)\nTopics: Digital Process, Compliance, Mobile App, Easy to Use, Desk Manager Visibility\n\nTranscript:\n\"Yeah, we were very slow to adopt a digital process\u2014we'd done paper for years, like all of us. Really, the biggest change for us was not having paper in the showroom\u2014no more credit apps sitting on showroom tables, which is obviously a compliance issue. Instead, we have an easy mobile app where you scan everything you need. It's all under one platform, one dashboard. The desk manager can see who's in the showroom right now and where we're at in the process. So it's worked out really well for us.\"\n",
+          "char_count": 908,
+          "topics": [
+            "digital_process",
+            "compliance",
+            "mobile_app",
+            "ease_of_use",
+            "desk_management"
+          ],
+          "link": "https://informativ.com/case-studies/cavender-auto-family-goes-paperless-and-gains-full-control/",
+          "speaker": "Ben Stillwagon, Director of IT",
+          "company": "Cavender Auto Family"
+        },
+        {
+          "source": "Video Testimonial #36: Kunes Auto Group Raises the Bar at Every Desk with SmartPencil",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 35,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Kunes Auto Group Raises the Bar at Every Desk with SmartPencil\nSpeaker: Scott Kunes, Chief Operating Officer\nCompany: Kunes Auto Group\nLocation: Wisconsin and Michigan\n[Watch the Video](https://informativ.com/case-studies/kunes-auto-group-raises-the-bar-with-smartpencil/)\nTopics: SmartPencil, Pre-Desking, Training & Onboarding, Multi-Location / Enterprise, Lender Matching\n\nTranscript:\n\"SmartPencil is not about making the best desk managers better. They already know what they're doing, and they're going to tell you that they know what they're doing\u2014and they're probably not going to want any help on that. But it's about raising the bar across the group. Unfortunately, in the car business, there's a lot of turnover, and that's no different at our stores, no matter how much we try to combat that. So as we're training new desk managers, it's important for us to make sure we're taking advantage of all the tools we have possible to do that. When they can see the full spectrum of lenders\u2014when we're talking about 30-plus lenders, and 100-plus when you add CUDL into there\u2014and the constantly changing bank parameters, it's a lot to manage. We try to stay on top of it. You try to make sure your entire group is talking about it. But SmartPencil helps us identify those niche lending programs and opportunities that even seasoned managers may have missed, just because of the changes in the lending landscape out there.\"\n",
+          "char_count": 1445,
+          "topics": [
+            "smartpencil",
+            "pre_desk",
+            "training",
+            "multi_location",
+            "lender_matching"
+          ],
+          "link": "https://informativ.com/case-studies/kunes-auto-group-raises-the-bar-with-smartpencil/",
+          "speaker": "Scott Kunes, Chief Operating Officer",
+          "company": "Kunes Auto Group"
+        },
+        {
+          "source": "Video Testimonial #37: Cavender Auto Family Finds a True Partner in Informativ",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 36,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Cavender Auto Family Finds a True Partner in Informativ\nSpeaker: Ben Stillwagon, Director of IT\nCompany: Cavender Auto Family\nLocation: Texas and Oklahoma\n[Watch the Video](https://informativ.com/case-studies/cavender-auto-family-finds-a-true-partner/)\nTopics: Partnership, Soft Pull / Prequalification, Cost Savings, Credit Cost Control, Customer Experience\n\nTranscript:\n\"For sure\u2014our partnership with Informativ has been huge for us. Whenever we bring up ideas like, \"Hey, we're thinking about doing this or that,\" they're always like, \"Hey, how can we help?\" And that's what a true partner does. We were doing three pulls on every single customer, and we have a Toyota store that sells 1,200 cars a month, so you can imagine how much money that costs us. They came to us and said, \"Why aren't we doing soft pulls?\"\u2014and we had never really thought about that. So we've shifted our whole mentality to doing soft pulls on everybody. It's a lot easier, it's a lot less obtrusive to the customer. They're a true partner. They're looking out for our best interests, and they're going to continue to do that.\"\n",
+          "char_count": 1125,
+          "topics": [
+            "partnership",
+            "soft_pull",
+            "cost_savings",
+            "credit_cost_control",
+            "customer_experience"
+          ],
+          "link": "https://informativ.com/case-studies/cavender-auto-family-finds-a-true-partner/",
+          "speaker": "Ben Stillwagon, Director of IT",
+          "company": "Cavender Auto Family"
+        },
+        {
+          "source": "Video Testimonial #38: Kunes Auto Group Controls Compliance and Costs Across Every Rooftop",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 37,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Kunes Auto Group Controls Compliance and Costs Across Every Rooftop\nSpeaker: Scott Kunes, Chief Operating Officer\nCompany: Kunes Auto Group\nLocation: Wisconsin and Michigan\n[Watch the Video](https://informativ.com/case-studies/kunes-auto-group-controls-compliance-and-costs/)\nTopics: Compliance & Guardrails, Cost Savings, Multi-Location / Enterprise, Credit Cost Control, Fraud Prevention\n\nTranscript:\n\"When you're dealing with as many people as we have, we're up to just about 2,000 employees across all of our stores now. Informativ helps us ensure that we have compliance at every level, from salesperson to sales manager to F&I. And the tech really tracks everything, so we know that the customer experience is consistent and compliant. When you're managing this many rooftops, tech is essential to catch issues early and make the necessary changes, because they can happen just like that\u2014whether it's internal or fraud, like we talked about. But there's also the cost savings element. We've had stores that would do two or three hard pulls on every single customer across all different bureaus, so it's super inefficient and costly. Every one of those bureaus is costing us money. So Informativ's tools have helped us limit that and ensure we're not overspending on bureau pulls, which really adds up across all 50 stores.\"\n",
+          "char_count": 1349,
+          "topics": [
+            "compliance",
+            "cost_savings",
+            "multi_location",
+            "credit_cost_control",
+            "fraud_prevention"
+          ],
+          "link": "https://informativ.com/case-studies/kunes-auto-group-controls-compliance-and-costs/",
+          "speaker": "Scott Kunes, Chief Operating Officer",
+          "company": "Kunes Auto Group"
+        },
+        {
+          "source": "Video Testimonial #39: Kunes Auto Group Stops Fraud at the Source with Informativ",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 38,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Kunes Auto Group Stops Fraud at the Source with Informativ\nSpeaker: Scott Kunes, Chief Operating Officer\nCompany: Kunes Auto Group\nLocation: Wisconsin and Michigan\n[Watch the Video](https://informativ.com/case-studies/kunes-auto-group-stops-fraud-at-the-source/)\nTopics: Fraud Prevention, Synthetic Fraud Detection, Internal Fraud, Security, Early Detection\n\nTranscript:\n\"We've kind of been hit from every direction\u2014whether it's internal fraud, customer fraud, or synthetic fraud. So we've built a dedicated security team and fraud prevention team. But really, the first line of defense is always at the stores. Informativ is a great tool for us to start with. It helps us get the right people involved to catch it early, so our team can get in there right away. We've even caught people right at the store and called the police right then.\"\n",
+          "char_count": 861,
+          "topics": [
+            "fraud_prevention",
+            "synthetic_fraud",
+            "internal_fraud",
+            "security",
+            "early_detection"
+          ],
+          "link": "https://informativ.com/case-studies/kunes-auto-group-stops-fraud-at-the-source/",
+          "speaker": "Scott Kunes, Chief Operating Officer",
+          "company": "Kunes Auto Group"
+        },
+        {
+          "source": "Video Testimonial #40: Autobahn BMW Sells More Cars with Confidence and Efficiency",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 39,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Autobahn BMW Sells More Cars with Confidence and Efficiency\nSpeaker: Brandon Lee, New Car Sales Director\nCompany: Autobahn BMW\nLocation: Fort Worth, Texas\n[Watch the Video](https://informativ.com/case-studies/autobahn-bmw-sells-more-cars-with-confidence/)\nTopics: Easy to Use, Desk Manager Visibility, Sales Team Adoption, Process Speed, Fraud Prevention\n\nTranscript:\n\"It's made us so much more efficient. My sales managers and desk managers absolutely love the technology. Whenever you're desking a deal, you can see everything\u2014you can see that the driver's license is scanned, the insurance is scanned, the OFAC, the red flags, the soft pull. It allows me, as a manager, to desk my deals correctly. It allows us to be more efficient in every way, and that's what it's about nowadays. When you're trying to grow and sell more cars, you need to be as efficient as possible\u2014and you need to do that with the confidence that you're moving forward with a legitimate customer.\"\n",
+          "char_count": 992,
+          "topics": [
+            "ease_of_use",
+            "desk_management",
+            "sales_adoption",
+            "process_speed",
+            "fraud_prevention"
+          ],
+          "link": "https://informativ.com/case-studies/autobahn-bmw-sells-more-cars-with-confidence/",
+          "speaker": "Brandon Lee, New Car Sales Director",
+          "company": "Autobahn BMW"
+        },
+        {
+          "source": "Video Testimonial #41: Cavender Auto Family Delivers Instant Transparency with Informativ",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 40,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Cavender Auto Family Delivers Instant Transparency with Informativ\nSpeaker: Ben Stillwagon, Director of IT\nCompany: Cavender Auto Family\nLocation: Texas and Oklahoma\n[Watch the Video](https://informativ.com/case-studies/cavender-auto-family-delivers-instant-transparency/)\nTopics: SmartPencil, Customer Experience, Soft Pull / Prequalification, Pre-Desking, Transparency\n\nTranscript:\n\"SmartPencil offers it all right there at the beginning of the deal, right? Our customers, they want transparency, and they want it pretty much right when they walk in\u2014and it provides that. It provides just from a simple soft pull, you get a payment option. You get all your options right there in front that you can present to the customers.\"\n",
+          "char_count": 747,
+          "topics": [
+            "smartpencil",
+            "customer_experience",
+            "soft_pull",
+            "pre_desk",
+            "transparency"
+          ],
+          "link": "https://informativ.com/case-studies/cavender-auto-family-delivers-instant-transparency/",
+          "speaker": "Ben Stillwagon, Director of IT",
+          "company": "Cavender Auto Family"
+        },
+        {
+          "source": "Video Testimonial #42: Cavender Auto Family Stops Fraud in Real Time with Informativ",
+          "filename": "Additional Testimonial Videos - NADA Live.docx",
+          "category": "testimonials",
+          "chunk_index": 41,
+          "total_chunks": 42,
+          "content": "VIDEO TESTIMONIAL: Cavender Auto Family Stops Fraud in Real Time with Informativ\nSpeaker: Ben Stillwagon, Director of IT\nCompany: Cavender Auto Family\nLocation: Texas and Oklahoma\n[Watch the Video](https://informativ.com/case-studies/cavender-auto-family-stops-fraud-in-real-time/)\nTopics: Fraud Prevention, ID Scanning, Real-Time Detection, Partnership, Security\n\nTranscript:\n\"When we expanded our partnership with Informativ, we also implemented driver's license fraud scanning\u2014and we caught fraudsters in our Mercedes-Benz store right there in real time. We were able to call the police, detain the individuals, and essentially save a stolen car. So it worked that well for us.\"\n",
+          "char_count": 682,
+          "topics": [
+            "fraud_prevention",
+            "id_scanning",
+            "real_time_detection",
+            "partnership",
+            "security"
+          ],
+          "link": "https://informativ.com/case-studies/cavender-auto-family-stops-fraud-in-real-time/",
           "speaker": "Ben Stillwagon, Director of IT",
           "company": "Cavender Auto Family"
         }
