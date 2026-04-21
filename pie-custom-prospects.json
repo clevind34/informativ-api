@@ -178,8 +178,18 @@
         "added_by": "Ashton Gough",
         "added_at": "2026-04-20T19:42:18.623Z"
       }
+    ],
+    "aa5e4a32d4243f0c": [
+      {
+        "contact_name": "Dan Goguen",
+        "title": "GSM",
+        "email": "danielg@newtonnissansouth.com",
+        "phone": "",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-21T14:36:05.701Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-20T19:42:18.623Z"
+  "last_modified": "2026-04-21T14:36:05.701Z"
 }
