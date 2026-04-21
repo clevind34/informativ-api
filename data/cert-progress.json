@@ -1495,5 +1495,51 @@
         "date": "2026-04-20T14:54:16.245Z"
       }
     }
+  },
+  "Ward Carroll": {
+    "smartpencil_cert": {
+      "1": {
+        "score": 92,
+        "passed": true,
+        "correct": 22,
+        "total": 24,
+        "date": "2026-03-24T16:53:16.576Z"
+      },
+      "2": {
+        "score": 85,
+        "passed": true,
+        "correct": 29,
+        "total": 34,
+        "date": "2026-03-24T17:03:57.998Z"
+      },
+      "3": {
+        "score": 96,
+        "passed": true,
+        "correct": 27,
+        "total": 28,
+        "date": "2026-03-24T17:20:40.727Z"
+      },
+      "4": {
+        "score": 91,
+        "passed": true,
+        "correct": 21,
+        "total": 23,
+        "date": "2026-03-24T17:28:27.706Z"
+      },
+      "5": {
+        "score": 100,
+        "passed": true,
+        "correct": 12,
+        "total": 12,
+        "date": "2026-03-24T17:31:19.901Z"
+      },
+      "6": {
+        "score": 92,
+        "passed": true,
+        "correct": 22,
+        "total": 24,
+        "date": "2026-03-24T17:36:43.129Z"
+      }
+    }
   }
 }
