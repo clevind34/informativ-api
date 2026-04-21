@@ -236,8 +236,18 @@
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-21T17:41:32.004Z"
       }
+    ],
+    "9f22a010ec27ad2c": [
+      {
+        "contact_name": "Kenny Rivera",
+        "title": "General Manager",
+        "email": "kenny@cadillacofknoxville.com",
+        "phone": "",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-21T17:55:21.631Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-21T17:41:32.004Z"
+  "last_modified": "2026-04-21T17:55:21.631Z"
 }
