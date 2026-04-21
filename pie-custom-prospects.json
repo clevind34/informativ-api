@@ -226,8 +226,18 @@
         "added_by": "Ashton Gough",
         "added_at": "2026-04-21T16:51:05.006Z"
       }
+    ],
+    "e902eec6541f71be": [
+      {
+        "contact_name": "Sean Lehutsky",
+        "title": "Finance Manager",
+        "email": "seanlehutsky@stanmcnabb.com",
+        "phone": "",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-21T17:41:32.004Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-21T16:51:05.006Z"
+  "last_modified": "2026-04-21T17:41:32.004Z"
 }
