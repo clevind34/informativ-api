@@ -1737,6 +1737,15 @@
         "total": 8,
         "date": "2026-04-21T20:30:37.446Z"
       }
+    },
+    "payments_channel_cert": {
+      "1": {
+        "score": 88,
+        "passed": true,
+        "correct": 7,
+        "total": 8,
+        "date": "2026-04-21T20:36:16.366Z"
+      }
     }
   },
   "Tim Canley": {
