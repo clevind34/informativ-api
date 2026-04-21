@@ -187,9 +187,17 @@
         "phone": "",
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-21T14:36:05.701Z"
+      },
+      {
+        "contact_name": "Dan Goguen",
+        "title": "GSM",
+        "email": "danielg@newtonnissansouth.com",
+        "phone": "",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-21T14:36:06.961Z"
       }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-21T14:36:05.701Z"
+  "last_modified": "2026-04-21T14:36:06.961Z"
 }
