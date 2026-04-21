@@ -215,6 +215,14 @@
         "phone": "",
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-21T16:33:21.662Z"
+      },
+      {
+        "contact_name": "Lisa Hill",
+        "title": "Decision Maker",
+        "email": "lhill@rustywallacenissan.com",
+        "phone": "",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-21T18:53:18.644Z"
       }
     ],
     "95e5ed620626e31b": [
@@ -249,5 +257,5 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-21T17:55:21.631Z"
+  "last_modified": "2026-04-21T18:53:18.644Z"
 }
