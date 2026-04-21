@@ -1540,6 +1540,15 @@
         "total": 24,
         "date": "2026-03-24T17:36:43.129Z"
       }
+    },
+    "total_solutions_sales_cert": {
+      "1": {
+        "score": 88,
+        "passed": true,
+        "correct": 7,
+        "total": 8,
+        "date": "2026-04-21T19:04:26.619Z"
+      }
     }
   }
 }
