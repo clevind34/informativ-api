@@ -254,8 +254,18 @@
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-21T17:55:21.631Z"
       }
+    ],
+    "e46e2575eb2cee74": [
+      {
+        "contact_name": "Seth Henry",
+        "title": "Finance Manager",
+        "email": "seth@mendozaford.com",
+        "phone": "",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-22T15:52:21.361Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-21T18:53:18.644Z"
+  "last_modified": "2026-04-22T15:52:21.361Z"
 }
