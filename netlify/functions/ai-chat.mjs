@@ -460,6 +460,91 @@ You are currently helping: **${roleName}** (${userRole || 'CS Team Member'})`;
 }
 
 // ──────────────────────────────────────────
+// DEV MODE SUPPORT — Development Team Assistant
+// Purely additive. Does not modify CS or Sales branches.
+// Dev modes reuse the Sales knowledge base (buildContext) for product,
+// compliance, dealer-workflow, and testimonial context, but swap the
+// system prompt so Chuck answers as a Dev-team assistant — voice-of-
+// customer lens, product context for engineers, no sales-coach persona.
+// ──────────────────────────────────────────
+const DEV_MODES = {
+    dev_general: {
+        name: 'General Dev Chat',
+        focus: 'Broad product, customer, and business context to help engineers understand Informativ products and the "why" behind features.'
+    },
+    dev_customer_voice: {
+        name: 'Voice of Customer',
+        focus: 'Explain what dealers value and struggle with, and how product decisions affect real customer outcomes. Cite dealer scenarios and testimonials where relevant.'
+    },
+    dev_product_deep: {
+        name: 'Product Deep Dive',
+        focus: 'Deep, accurate product detail — tiers, features, integrations, and actual product behavior — aimed at a software engineer, not a sales rep.'
+    },
+    dev_compliance: {
+        name: 'Compliance Context',
+        focus: 'FCRA, FTC Safeguards, adverse action, identity/fraud rules — explain the regulatory "why" so engineers build the right controls.'
+    },
+    dev_dealer_workflow: {
+        name: 'Dealer Workflows',
+        focus: 'Concrete dealership workflows — who does what, in what order, and where Informativ products sit in the deal.'
+    }
+};
+
+function isDevMode(mode) {
+    return mode && typeof mode === 'string' && mode.startsWith('dev_') && DEV_MODES.hasOwnProperty(mode);
+}
+
+function getDevSystemPrompt(mode) {
+    const modeConfig = DEV_MODES[mode] || DEV_MODES.dev_general;
+    return `You are Chuck, Informativ's AI assistant, operating in **Development Team mode**. You support Informativ's software engineering team — not sales reps, not CSMs/CSAs. Your job is to give engineers the product, customer, compliance, and dealer-workflow context they need to build the right thing.
+
+## STRICT PERSONA RULES
+- You are the **Dev team assistant**, not a sales coach and not a CS coach.
+- Do NOT introduce yourself as a sales coach. Never say "I'm Chuck, your Informativ sales coach" or anything similar.
+- Do NOT use sales-coaching language: no "close the deal," no "next steps to move the deal forward," no quota/pipeline talk, no sports metaphors, no "teach, tailor, take control," no Informativ Method coaching framework.
+- Do NOT coach a rep — the user is a developer, not selling anything.
+- DO keep and use all Informativ product, customer, compliance, and dealer-workflow knowledge from your context. Drop only the coach persona.
+
+## ACTIVE DEV FOCUS: ${modeConfig.name}
+${modeConfig.focus}
+
+## About Informativ
+Informativ is a SaaS company serving automotive dealerships with credit, compliance, fraud prevention, and desking solutions. Product suite:
+- **Total Solution** — bundled credit + compliance + enrichment platform
+- **SmartPencil** — intelligent desking tool for F&I managers
+- **Informativ Customer Insights** (formerly CreditDriver) — consumer-facing credit prequalification
+- **Informativ Credit** (formerly CBC / Credit Bureau Connection) — dealer credit pulls
+- **Informativ Compliance** (formerly DSGSS / Dealer Safeguard Solutions) — compliance and document management
+- **Verified STIPs – powered by TurboPass** — income/employment/banking verification
+- **Informativ Payments** (formerly Carmatic) — integrated payment processing
+- **eZ Form Fill** — website credit application automation
+
+## Product Naming Convention (critical)
+Always use current product names. Translate legacy names automatically:
+- DSGSS / Dealer Safeguard Solutions → **Informativ Compliance**
+- CBC / Credit Bureau Connection → **Informativ Credit**
+- CreditDriver / Credit Driver → **Informativ Customer Insights**
+- TurboPass → **Verified STIPs – powered by TurboPass**
+- Carmatic → **Informativ Payments**
+
+## Tiered Packages
+- **Protect** — credit-only baseline
+- **Enrich** — credit + compliance
+- **Elevate** — credit + compliance + enrichment
+- **Control** — full suite including SmartPencil
+
+## Your Style
+- Concrete and specific. Cite products, tiers, dealer scenarios, and compliance rules when relevant.
+- Short, scannable, technical where useful. Use bullet points and bold only where they help a developer skim.
+- When a question overlaps with customer pain points, answer through a voice-of-customer lens: what dealers actually experience, not what a sales rep would pitch.
+- When a question is technical/product behavior, be precise about how the product actually works — tiers, fields, flows, integrations.
+- When a question is compliance-adjacent, explain the regulatory driver (FCRA, FTC Safeguards Rule, adverse action, etc.) so the engineer understands the "why."
+- You may reference Informativ customer testimonials and case studies when they genuinely illustrate a customer problem or workflow. Markdown links only, never bare URLs. Don't force testimonials into unrelated answers.
+
+You are currently helping: **a developer on the Informativ engineering team**.`;
+}
+
+// ──────────────────────────────────────────
 // CONTEXT BUILDING
 // ──────────────────────────────────────────
 function buildContext(intents, repName, message) {
@@ -1113,7 +1198,8 @@ async function _handler(event) {
     // SEC-2026-013: Server-side mode validation — ensure mode is a known value
     const VALID_SALES_MODES = ['coach', 'pricing', 'coaching', 'performance', 'certifications', 'call_prep', 'follow_up', 'discovery_script'];
     const VALID_CS_MODES = Object.keys(CS_MODES); // cs_chat, cs_health_check, etc.
-    const ALL_VALID_MODES = [...VALID_SALES_MODES, ...VALID_CS_MODES];
+    const VALID_DEV_MODES = Object.keys(DEV_MODES); // dev_general, dev_customer_voice, etc.
+    const ALL_VALID_MODES = [...VALID_SALES_MODES, ...VALID_CS_MODES, ...VALID_DEV_MODES];
 
     if (mode && !ALL_VALID_MODES.includes(mode)) {
         return { statusCode: 400, headers, body: JSON.stringify({ error: 'Invalid mode specified' }) };
@@ -1186,6 +1272,59 @@ async function _handler(event) {
                 return { statusCode: 429, headers, body: JSON.stringify({ error: 'Chuck is getting a lot of questions right now. Please try again in a moment.' }) };
             }
             return { statusCode: 500, headers, body: JSON.stringify({ error: 'Chuck encountered an error in CS mode. Please try again.' }) };
+        }
+    }
+
+    // ── DEV MODE ROUTING ──
+    // If mode starts with dev_, use the Dev system prompt but reuse the existing
+    // Sales knowledge base (buildContext) so Dev gets full product / compliance /
+    // dealer-workflow / testimonial context. Purely additive; Sales/CS untouched.
+    if (isDevMode(mode)) {
+        const devIntents = detectIntents(message);
+        const devContext = buildContext(devIntents, repName, message);
+        const devSystemPrompt = getDevSystemPrompt(mode);
+        const devContextMessage = devContext ?
+            `\n\n---\nRELEVANT KNOWLEDGE CONTEXT:\n${devContext}\n---` : '';
+
+        const devMessages = [];
+        if (history && Array.isArray(history)) {
+            const recent = history.slice(-6);
+            for (const msg of recent) {
+                if (msg.role === 'user') {
+                    devMessages.push({ role: 'user', content: msg.content });
+                } else if (msg.role === 'chuck' || msg.role === 'assistant') {
+                    devMessages.push({ role: 'assistant', content: msg.content });
+                }
+            }
+        }
+        devMessages.push({ role: 'user', content: message + devContextMessage });
+
+        try {
+            const client = new Anthropic();
+            const response = await client.messages.create({
+                model: MODEL,
+                max_tokens: MAX_TOKENS,
+                temperature: TEMPERATURE,
+                system: devSystemPrompt,
+                messages: devMessages
+            });
+            const assistantMessage = response.content[0]?.text || 'I had trouble generating a response.';
+            return {
+                statusCode: 200,
+                headers,
+                body: JSON.stringify({
+                    response: assistantMessage,
+                    mode: mode,
+                    intents: devIntents,
+                    model: MODEL
+                })
+            };
+        } catch (error) {
+            console.error('Claude API error (Dev mode):', error);
+            if (error.status === 429) {
+                return { statusCode: 429, headers, body: JSON.stringify({ error: 'Chuck is getting a lot of questions right now. Please try again in a moment.' }) };
+            }
+            return { statusCode: 500, headers, body: JSON.stringify({ error: 'Chuck encountered an error in Dev mode. Please try again.' }) };
         }
     }
 
@@ -1268,3 +1407,4 @@ export async function handler(event) {
   logRequest(event, response);
   return response;
 }
+
