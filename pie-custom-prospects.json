@@ -314,8 +314,18 @@
         "added_by": "Crly Alvarado",
         "added_at": "2026-04-22T22:49:15.170Z"
       }
+    ],
+    "2d8cada5e03c3263": [
+      {
+        "contact_name": "Steve Sears",
+        "title": "F&I Director",
+        "email": "steve.sears@openroadauto.com",
+        "phone": "732-650-1550",
+        "added_by": "Crly Alvarado",
+        "added_at": "2026-04-22T23:05:40.873Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-22T22:49:15.170Z"
+  "last_modified": "2026-04-22T23:05:40.873Z"
 }
