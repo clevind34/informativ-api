@@ -274,8 +274,18 @@
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-22T17:17:56.199Z"
       }
+    ],
+    "da4e2a4802eb70d7": [
+      {
+        "contact_name": "Joey Soileau",
+        "title": "Finance Manager",
+        "email": "",
+        "phone": "",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-22T17:50:21.513Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-22T17:17:56.199Z"
+  "last_modified": "2026-04-22T17:50:21.513Z"
 }
