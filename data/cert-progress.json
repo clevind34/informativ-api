@@ -1816,6 +1816,15 @@
         "total": 7,
         "date": "2026-04-24T18:35:06.275Z"
       }
+    },
+    "informativ_method_cert": {
+      "1": {
+        "score": 83,
+        "passed": true,
+        "correct": 5,
+        "total": 6,
+        "date": "2026-04-24T18:37:23.618Z"
+      }
     }
   },
   "Tim Canley": {
