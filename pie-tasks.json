@@ -40,10 +40,28 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777039112866_j1806g",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "6f8d0b5f17a43b8b",
+        "prospect_type": "nn",
+        "prospect_name": "Navarre Chevrolet Inc.",
+        "city": "Lake Charles",
+        "state": "LA",
+        "due_date": "2026-05-01",
+        "created_date": "2026-04-24T13:58:32.866Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-24T13:58:30.319Z"
+  "last_modified": "2026-04-24T13:58:32.866Z"
 }
