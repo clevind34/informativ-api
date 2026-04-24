@@ -2314,5 +2314,16 @@
         "date": "2026-03-30T21:13:37.022Z"
       }
     }
+  },
+  "Joel Carlucci": {
+    "informativ_method_cert": {
+      "1": {
+        "score": 67,
+        "passed": false,
+        "correct": 4,
+        "total": 6,
+        "date": "2026-04-24T13:22:33.098Z"
+      }
+    }
   }
 }
