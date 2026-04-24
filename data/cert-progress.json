@@ -2318,11 +2318,11 @@
   "Joel Carlucci": {
     "informativ_method_cert": {
       "1": {
-        "score": 67,
-        "passed": false,
-        "correct": 4,
+        "score": 100,
+        "passed": true,
+        "correct": 6,
         "total": 6,
-        "date": "2026-04-24T13:22:33.098Z"
+        "date": "2026-04-24T13:23:13.919Z"
       }
     }
   }
