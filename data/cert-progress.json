@@ -1487,6 +1487,13 @@
         "total": 10,
         "date": "2026-04-23T12:27:00.612Z"
       },
+      "6": {
+        "score": 100,
+        "passed": true,
+        "correct": 12,
+        "total": 12,
+        "date": "2026-04-24T11:31:35.534Z"
+      },
       "7": {
         "score": 100,
         "passed": true,
