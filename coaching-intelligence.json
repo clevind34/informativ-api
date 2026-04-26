@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-04-20T14:10:56Z",
+  "generated_at": "2026-04-26T19:36:26Z",
   "period": "April 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -7,13 +7,13 @@
       "team": "Bordenet",
       "manager": "Michael Byrd",
       "isHidden": true,
-      "composite_score": 31,
-      "composite_trend": "0",
+      "composite_score": 38,
+      "composite_trend": "+7",
       "dimension_scores": {
-        "cw_bookings": 20,
-        "quota_attainment": 10,
-        "pipeline_creation": 59,
-        "funnel_conversion": 51
+        "cw_bookings": 35,
+        "quota_attainment": 18,
+        "pipeline_creation": 58,
+        "funnel_conversion": 48
       },
       "coaching_archetype": "conversion_problem",
       "archetype_pattern": "conversion_problem (3 of 7 reps)",
@@ -24,15 +24,15 @@
         "attainment_pct": 0.0
       },
       "key_metrics": {
-        "team_cw_ytd": 4480313,
-        "team_cw_mtd": 450010,
+        "team_cw_ytd": 4829103,
+        "team_cw_mtd": 798800,
         "team_q1_quota": 4346520,
-        "team_attainment_pct": 10.4,
-        "team_pipeline_value": 29595033,
-        "team_pipeline_opps": 181,
-        "team_weighted_coverage": 0.25,
-        "team_funnel_meetings": 192,
-        "team_deals_per_meeting": 0.94,
+        "team_attainment_pct": 18.4,
+        "team_pipeline_value": 29514287,
+        "team_pipeline_opps": 179,
+        "team_weighted_coverage": 0.23,
+        "team_funnel_meetings": 188,
+        "team_deals_per_meeting": 0.95,
         "direct_report_count": 7
       },
       "personal_cw": {
@@ -41,15 +41,15 @@
         "note": "Personal deals \u2014 outliers, hidden from leaderboard, included in company totals"
       },
       "hygiene": {
-        "score": 39,
-        "flagged_deals": 110,
-        "stuck_deals": 109,
-        "top_issue": "Team has 110 flagged deals across 7 reps."
+        "score": 38,
+        "flagged_deals": 111,
+        "stuck_deals": 110,
+        "top_issue": "Team has 111 flagged deals across 7 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 589079,
-        "team_ninety_day_forecast": 975931,
-        "team_quarterly_vs_quota_pct": 126
+        "team_monthly_forecast": 428277,
+        "team_ninety_day_forecast": 806704,
+        "team_quarterly_vs_quota_pct": 130
       },
       "direct_reports": [
         {
@@ -61,93 +61,77 @@
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
-          "top_stuck_deals": [],
-          "trajectory_probability": 0.03,
-          "trajectory_risk": "high"
+          "top_stuck_deals": []
         },
         {
           "name": "Tom Meredith",
-          "composite_score": 16,
+          "composite_score": 13,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.5,
-          "pipeline_coverage": 0.11,
-          "hygiene_score": 85,
-          "top_issue": "15% of deals aged beyond stage threshold.",
+          "pipeline_coverage": 0.06,
+          "hygiene_score": 80,
+          "top_issue": "20% of deals aged beyond stage threshold.",
           "stuck_deals": 2,
           "top_stuck_deals": [
             {
               "account": "Lyon-Waugh Auto Group Parent",
               "amount": 132000.0,
               "stage": "Proposal",
-              "age_days": 104,
+              "age_days": 110,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "Protect",
               "rep_certified": false
             },
             {
-              "account": "DSR Motor Group Parent",
-              "amount": 90560.4,
+              "account": "Hoffman Enterprises Group Parent",
+              "amount": 78758.54,
               "stage": "Proposal",
-              "age_days": 98,
+              "age_days": 79,
               "hygiene_flag": "stuck",
-              "product_solution": "CBC",
+              "product_solution": "DSGSS",
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.03,
-          "trajectory_risk": "high"
+          ]
         },
         {
           "name": "Clarence Romero",
-          "composite_score": 22,
+          "composite_score": 21,
           "coaching_archetype": "activity_problem",
           "attainment_pct": 0.0,
           "pipeline_coverage": 0.01,
-          "hygiene_score": 33,
-          "top_issue": "33% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
+          "hygiene_score": 83,
+          "top_issue": "17% of deals aged beyond stage threshold.",
           "stuck_deals": 1,
           "top_stuck_deals": [
             {
               "account": "Ciocca Dealerships",
               "amount": 63831.72,
               "stage": "Tech Demo",
-              "age_days": 119,
+              "age_days": 125,
               "hygiene_flag": "stuck",
               "product_solution": "DSGSS",
               "flat_rate_product_type": "",
-              "rep_certified": false
-            },
-            {
-              "account": "Otto Cadillac Inc",
-              "amount": 0,
-              "stage": "Proposal",
-              "age_days": 6,
-              "hygiene_flag": "low_amount",
-              "product_solution": "Full Bundled Solution",
-              "flat_rate_product_type": "Total Solution",
-              "rep_certified": false
+              "rep_certified": true
             }
-          ],
-          "trajectory_probability": 0.0,
-          "trajectory_risk": "high"
+          ]
         },
         {
           "name": "Carol Sanford",
-          "composite_score": 26,
+          "composite_score": 51,
           "coaching_archetype": "conversion_problem",
-          "attainment_pct": 0.0,
-          "pipeline_coverage": 0.67,
-          "hygiene_score": 85,
-          "top_issue": "15% of deals aged beyond stage threshold.",
-          "stuck_deals": 4,
+          "attainment_pct": 27.3,
+          "pipeline_coverage": 0.83,
+          "hygiene_score": 76,
+          "top_issue": "20% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
+          "stuck_deals": 5,
           "top_stuck_deals": [
             {
               "account": "Findlay Automotive Group",
               "amount": 1949832.0,
               "stage": "Tech Demo",
-              "age_days": 146,
+              "age_days": 152,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "Control",
@@ -157,31 +141,93 @@
               "account": "Ken Garff Group",
               "amount": 1628000.0,
               "stage": "Tech Demo",
-              "age_days": 158,
+              "age_days": 164,
               "hygiene_flag": "stuck",
               "product_solution": "DSGSS",
               "flat_rate_product_type": "",
+              "rep_certified": true
+            }
+          ]
+        },
+        {
+          "name": "Trish Smith",
+          "composite_score": 56,
+          "coaching_archetype": "deal_velocity",
+          "attainment_pct": 30.4,
+          "pipeline_coverage": 0.18,
+          "hygiene_score": 33,
+          "top_issue": "67% of deals aged beyond stage threshold.",
+          "stuck_deals": 16,
+          "top_stuck_deals": [
+            {
+              "account": "Auto Inc",
+              "amount": 474000.0,
+              "stage": "Solution Fit",
+              "age_days": 401,
+              "hygiene_flag": "stuck",
+              "product_solution": "Full Bundled Solution",
+              "flat_rate_product_type": "",
+              "rep_certified": false
+            },
+            {
+              "account": "Hiley Auto Group",
+              "amount": 300000.0,
+              "stage": "Solution Fit",
+              "age_days": 173,
+              "hygiene_flag": "stuck",
+              "product_solution": "CBC + CreditDriver",
+              "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.05,
-          "trajectory_risk": "high"
+          ]
+        },
+        {
+          "name": "Matt Hanaman",
+          "composite_score": 61,
+          "coaching_archetype": "conversion_problem",
+          "attainment_pct": 40.6,
+          "pipeline_coverage": 0.25,
+          "hygiene_score": 60,
+          "top_issue": "40% of deals aged beyond stage threshold.",
+          "stuck_deals": 8,
+          "top_stuck_deals": [
+            {
+              "account": "Serra Automotive",
+              "amount": 510054.56,
+              "stage": "Proposal",
+              "age_days": 180,
+              "hygiene_flag": "stuck",
+              "product_solution": "CBC + DSGSS",
+              "flat_rate_product_type": "Protect",
+              "rep_certified": false
+            },
+            {
+              "account": "Leman Auto Group",
+              "amount": 440000.0,
+              "stage": "Solution Fit",
+              "age_days": 73,
+              "hygiene_flag": "stuck",
+              "product_solution": "Full Bundled Solution",
+              "flat_rate_product_type": "Enrich",
+              "rep_certified": false
+            }
+          ]
         },
         {
           "name": "Tami Richter",
-          "composite_score": 39,
+          "composite_score": 64,
           "coaching_archetype": "deal_velocity",
-          "attainment_pct": 0.0,
-          "pipeline_coverage": 0.32,
-          "hygiene_score": 15,
-          "top_issue": "85% of deals aged beyond stage threshold.",
-          "stuck_deals": 79,
+          "attainment_pct": 25.2,
+          "pipeline_coverage": 0.4,
+          "hygiene_score": 17,
+          "top_issue": "83% of deals aged beyond stage threshold.",
+          "stuck_deals": 78,
           "top_stuck_deals": [
             {
               "account": "Rick Case Automotive Group",
               "amount": 1330611.96,
               "stage": "Solution Fit",
-              "age_days": 69,
+              "age_days": 75,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "Elevate",
@@ -191,83 +237,13 @@
               "account": "Krause Auto Group",
               "amount": 894318.0,
               "stage": "Committed",
-              "age_days": 251,
+              "age_days": 257,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "Control",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.98,
-          "trajectory_risk": "low"
-        },
-        {
-          "name": "Trish Smith",
-          "composite_score": 57,
-          "coaching_archetype": "deal_velocity",
-          "attainment_pct": 30.4,
-          "pipeline_coverage": 0.22,
-          "hygiene_score": 36,
-          "top_issue": "64% of deals aged beyond stage threshold.",
-          "stuck_deals": 16,
-          "top_stuck_deals": [
-            {
-              "account": "Auto Inc",
-              "amount": 474000.0,
-              "stage": "Solution Fit",
-              "age_days": 395,
-              "hygiene_flag": "stuck",
-              "product_solution": "Full Bundled Solution",
-              "flat_rate_product_type": "",
-              "rep_certified": false
-            },
-            {
-              "account": "RML Automotive (TX)",
-              "amount": 375000.0,
-              "stage": "Tech Demo",
-              "age_days": 137,
-              "hygiene_flag": "stuck",
-              "product_solution": "Full Bundled Solution",
-              "flat_rate_product_type": "",
-              "rep_certified": false
-            }
-          ],
-          "trajectory_probability": 0.98,
-          "trajectory_risk": "low"
-        },
-        {
-          "name": "Matt Hanaman",
-          "composite_score": 60,
-          "coaching_archetype": "conversion_problem",
-          "attainment_pct": 39.0,
-          "pipeline_coverage": 0.42,
-          "hygiene_score": 67,
-          "top_issue": "33% of deals aged beyond stage threshold.",
-          "stuck_deals": 7,
-          "top_stuck_deals": [
-            {
-              "account": "Serra Automotive",
-              "amount": 510054.56,
-              "stage": "Proposal",
-              "age_days": 174,
-              "hygiene_flag": "stuck",
-              "product_solution": "CBC + DSGSS",
-              "flat_rate_product_type": "Protect",
-              "rep_certified": false
-            },
-            {
-              "account": "Leadcar Group",
-              "amount": 256000.0,
-              "stage": "Solution Fit",
-              "age_days": 74,
-              "hygiene_flag": "stuck",
-              "product_solution": "CBC",
-              "flat_rate_product_type": "Control",
-              "rep_certified": false
-            }
-          ],
-          "trajectory_probability": 0.98,
-          "trajectory_risk": "low"
+          ]
         }
       ],
       "top_team_stuck_deals": [
@@ -275,7 +251,7 @@
           "account": "Findlay Automotive Group",
           "amount": 1949832.0,
           "stage": "Tech Demo",
-          "age_days": 146,
+          "age_days": 152,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -286,18 +262,18 @@
           "account": "Ken Garff Group",
           "amount": 1628000.0,
           "stage": "Tech Demo",
-          "age_days": 158,
+          "age_days": 164,
           "hygiene_flag": "stuck",
           "product_solution": "DSGSS",
           "flat_rate_product_type": "",
-          "rep_certified": false,
+          "rep_certified": true,
           "rep": "Carol Sanford"
         },
         {
           "account": "Rick Case Automotive Group",
           "amount": 1330611.96,
           "stage": "Solution Fit",
-          "age_days": 69,
+          "age_days": 75,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Elevate",
@@ -308,7 +284,7 @@
           "account": "Krause Auto Group",
           "amount": 894318.0,
           "stage": "Committed",
-          "age_days": 251,
+          "age_days": 257,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -319,7 +295,7 @@
           "account": "Gettel Automotive Group",
           "amount": 700000.0,
           "stage": "Tech Demo",
-          "age_days": 383,
+          "age_days": 389,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -330,7 +306,7 @@
           "account": "Morgan Auto Group",
           "amount": 584307.64,
           "stage": "Proposal",
-          "age_days": 531,
+          "age_days": 537,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -341,7 +317,7 @@
           "account": "Potamkin Automotive Group",
           "amount": 520736.28,
           "stage": "Proposal",
-          "age_days": 444,
+          "age_days": 450,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -352,7 +328,7 @@
           "account": "Serra Automotive",
           "amount": 510054.56,
           "stage": "Proposal",
-          "age_days": 174,
+          "age_days": 180,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "Protect",
@@ -361,39 +337,27 @@
         }
       ],
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
-      },
-      "team_trajectory": {
-        "avg_quota_hit_probability": 0.436,
-        "reps_at_risk": 4,
-        "at_risk_names": [
-          "Carol Sanford",
-          "Clarence Romero",
-          "Tom Meredith",
-          "Loren Rivera"
-        ],
-        "reps_on_track": 3,
-        "team_risk_level": "high"
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       }
     },
     "Trish Smith": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
-      "composite_score": 57,
-      "composite_trend": "0",
+      "composite_score": 56,
+      "composite_trend": "-1",
       "dimension_scores": {
-        "cw_bookings": 62,
+        "cw_bookings": 61,
         "quota_attainment": 30,
-        "pipeline_creation": 89,
-        "funnel_conversion": 52
+        "pipeline_creation": 86,
+        "funnel_conversion": 51
       },
       "coaching_archetype": "deal_velocity",
       "archetype_sub_type": "",
@@ -403,45 +367,35 @@
         "cwMTD": 195963,
         "quota_q1": 643929,
         "attainment_pct": 30.4,
-        "pipeline_value": 4195449,
-        "pipeline_opps": 25,
-        "pipeline_coverage": 0.22,
-        "pipeline_coverage_raw": 6.5,
-        "avg_deal_size": 167818,
+        "pipeline_value": 3820449,
+        "pipeline_opps": 24,
+        "pipeline_coverage": 0.18,
+        "pipeline_coverage_raw": 5.9,
+        "avg_deal_size": 159185,
         "sf_meetings": 21,
         "tech_demos": 11,
         "site_visits": 4,
-        "deals_per_meeting": 0.78,
-        "win_rate": 4.7
+        "deals_per_meeting": 0.75,
+        "win_rate": 5.1
       },
       "hygiene": {
-        "score": 36,
+        "score": 33,
         "flagged_deals": 16,
         "stuck_deals": 16,
-        "top_issue": "64% of deals aged beyond stage threshold."
+        "top_issue": "67% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 38642,
-        "ninety_day_forecast": 97565,
-        "monthly_vs_quota_pct": 106,
-        "quarterly_vs_quota_pct": 140
+        "monthly_forecast": 26830,
+        "ninety_day_forecast": 81391,
+        "monthly_vs_quota_pct": 100,
+        "quarterly_vs_quota_pct": 137
       },
       "top_stuck_deals": [
         {
           "account": "Auto Inc",
           "amount": 474000.0,
           "stage": "Solution Fit",
-          "age_days": 395,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false
-        },
-        {
-          "account": "RML Automotive (TX)",
-          "amount": 375000.0,
-          "stage": "Tech Demo",
-          "age_days": 137,
+          "age_days": 401,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -451,7 +405,7 @@
           "account": "Hiley Auto Group",
           "amount": 300000.0,
           "stage": "Solution Fit",
-          "age_days": 167,
+          "age_days": 173,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + CreditDriver",
           "flat_rate_product_type": "",
@@ -461,7 +415,7 @@
           "account": "Continental Automotive Group",
           "amount": 280000.0,
           "stage": "Solution Fit",
-          "age_days": 74,
+          "age_days": 80,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "",
@@ -471,51 +425,34 @@
           "account": "Keating Auto Group",
           "amount": 200000.0,
           "stage": "Solution Fit",
-          "age_days": 235,
+          "age_days": 241,
+          "hygiene_flag": "stuck",
+          "product_solution": "Full Bundled Solution",
+          "flat_rate_product_type": "",
+          "rep_certified": false
+        },
+        {
+          "account": "Lewis Ford Sales",
+          "amount": 160000.0,
+          "stage": "Solution Fit",
+          "age_days": 78,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.98,
-        "risk_level": "low",
-        "confidence": 1.0,
-        "month_1_prob": 0.5,
-        "month_2_prob": 0.83,
-        "month_3_prob": 0.98,
-        "trajectory_direction": "improving",
-        "projected_attainment_pct": 124.4,
-        "intervention_urgency": "on_track",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "positive",
-            "detail": "Running at 124% of target pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "positive",
-            "detail": "10.0x coverage \u2014 strong funnel"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 343% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       },
       "prospecting": {
         "composite": 0.0,
@@ -527,145 +464,135 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "South Central",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 3,
+        "events_by_type": {
+          "certification_completed": 3
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 56
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-26",
+        "days_since_coaching": 0,
+        "archetype_stability": "unknown"
       }
     },
     "Matt Hanaman": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
-      "composite_score": 60,
-      "composite_trend": "0",
+      "composite_score": 61,
+      "composite_trend": "+1",
       "dimension_scores": {
-        "cw_bookings": 80,
-        "quota_attainment": 39,
-        "pipeline_creation": 75,
+        "cw_bookings": 81,
+        "quota_attainment": 41,
+        "pipeline_creation": 72,
         "funnel_conversion": 38
       },
       "coaching_archetype": "conversion_problem",
       "archetype_sub_type": "classic_conversion_leak",
       "key_metrics": {
-        "cwYTD": 784130,
-        "cwQTD": 251003,
-        "cwMTD": 251003,
+        "cwYTD": 794825,
+        "cwQTD": 261698,
+        "cwMTD": 261698,
         "quota_q1": 643929,
-        "attainment_pct": 39.0,
-        "pipeline_value": 5053865,
-        "pipeline_opps": 21,
-        "pipeline_coverage": 0.42,
-        "pipeline_coverage_raw": 7.8,
-        "avg_deal_size": 240660,
-        "sf_meetings": 25,
+        "attainment_pct": 40.6,
+        "pipeline_value": 4984272,
+        "pipeline_opps": 20,
+        "pipeline_coverage": 0.25,
+        "pipeline_coverage_raw": 7.7,
+        "avg_deal_size": 249214,
+        "sf_meetings": 24,
         "tech_demos": 12,
         "site_visits": 0,
-        "deals_per_meeting": 0.57,
-        "win_rate": 5.0
+        "deals_per_meeting": 0.56,
+        "win_rate": 5.3
       },
       "hygiene": {
-        "score": 67,
-        "flagged_deals": 7,
-        "stuck_deals": 7,
-        "top_issue": "33% of deals aged beyond stage threshold."
+        "score": 60,
+        "flagged_deals": 8,
+        "stuck_deals": 8,
+        "top_issue": "40% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 121532,
-        "ninety_day_forecast": 165487,
-        "monthly_vs_quota_pct": 168,
-        "quarterly_vs_quota_pct": 147
+        "monthly_forecast": 34394,
+        "ninety_day_forecast": 94161,
+        "monthly_vs_quota_pct": 133,
+        "quarterly_vs_quota_pct": 138
       },
       "top_stuck_deals": [
         {
           "account": "Serra Automotive",
           "amount": 510054.56,
           "stage": "Proposal",
-          "age_days": 174,
+          "age_days": 180,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "Protect",
           "rep_certified": false
         },
         {
+          "account": "Leman Auto Group",
+          "amount": 440000.0,
+          "stage": "Solution Fit",
+          "age_days": 73,
+          "hygiene_flag": "stuck",
+          "product_solution": "Full Bundled Solution",
+          "flat_rate_product_type": "Enrich",
+          "rep_certified": false
+        },
+        {
+          "account": "Uftring Auto Group",
+          "amount": 319000.0,
+          "stage": "Proposal",
+          "age_days": 80,
+          "hygiene_flag": "stuck",
+          "product_solution": "Full Bundled Solution",
+          "flat_rate_product_type": "Elevate",
+          "rep_certified": false
+        },
+        {
           "account": "Leadcar Group",
           "amount": 256000.0,
           "stage": "Solution Fit",
-          "age_days": 74,
+          "age_days": 80,
           "hygiene_flag": "stuck",
           "product_solution": "CBC",
           "flat_rate_product_type": "Control",
-          "rep_certified": false
+          "rep_certified": true
         },
         {
           "account": "McGrath Auto Group",
           "amount": 145000.0,
           "stage": "Solution Fit",
-          "age_days": 74,
+          "age_days": 80,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
           "rep_certified": false
-        },
-        {
-          "account": "AURORA NAPERVILLE ENTERPRISES INC",
-          "amount": 83000.0,
-          "stage": "Solution Fit",
-          "age_days": 108,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Protect",
-          "rep_certified": false
-        },
-        {
-          "account": "Sam Leman Chevrolet Cadillac of Champaign",
-          "amount": 43000.0,
-          "stage": "Proposal",
-          "age_days": 215,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "",
-          "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.98,
-        "risk_level": "low",
-        "confidence": 1.0,
-        "month_1_prob": 0.5,
-        "month_2_prob": 0.83,
-        "month_3_prob": 0.98,
-        "trajectory_direction": "improving",
-        "projected_attainment_pct": 121.8,
-        "intervention_urgency": "on_track",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "positive",
-            "detail": "Running at 122% of target pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "positive",
-            "detail": "10.0x coverage \u2014 strong funnel"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 352% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       },
       "prospecting": {
-        "composite": 11.2,
+        "composite": 1.2,
         "tier": "Needs Attention",
         "dispositionRate": 1.1,
         "meetingConversion": 0.0,
@@ -674,20 +601,37 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Great Lakes West",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 4,
+        "events_by_type": {
+          "certification_completed": 4
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 61
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-03-30",
+        "days_since_coaching": 27,
+        "archetype_stability": "unknown"
       }
     },
     "Kiristen Sandoval": {
       "team": "CS",
       "manager": "Michael Byrd",
-      "composite_score": 22,
-      "composite_trend": "0",
+      "composite_score": 18,
+      "composite_trend": "-4",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 11,
-        "funnel_conversion": 100
+        "pipeline_creation": 7,
+        "funnel_conversion": 85
       },
       "coaching_archetype": "activity_problem",
       "archetype_sub_type": "",
@@ -697,26 +641,26 @@
         "cwMTD": 0,
         "quota_q1": 0,
         "attainment_pct": 0.0,
-        "pipeline_value": 240959,
-        "pipeline_opps": 3,
-        "pipeline_coverage": 14831.13,
-        "pipeline_coverage_raw": 240959.0,
-        "avg_deal_size": 80320,
+        "pipeline_value": 216670,
+        "pipeline_opps": 2,
+        "pipeline_coverage": 45122.93,
+        "pipeline_coverage_raw": 216670.0,
+        "avg_deal_size": 108335,
         "sf_meetings": 0,
         "tech_demos": 1,
         "site_visits": 0,
-        "deals_per_meeting": 3.0,
+        "deals_per_meeting": 2.0,
         "win_rate": 0.0
       },
       "hygiene": {
-        "score": 33,
-        "flagged_deals": 2,
+        "score": 50,
+        "flagged_deals": 1,
         "stuck_deals": 1,
-        "top_issue": "33% of deals aged beyond stage threshold. 33% of deals have overdue close dates."
+        "top_issue": "50% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 14831,
-        "ninety_day_forecast": 14831,
+        "monthly_forecast": 45123,
+        "ninety_day_forecast": 45123,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 0
       },
@@ -725,112 +669,90 @@
           "account": "RML Automotive (TX)",
           "amount": 76032.0,
           "stage": "Committed",
-          "age_days": 80,
+          "age_days": 86,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "Elevate",
           "rep_certified": false
-        },
-        {
-          "account": "Vaughan Automotive Group",
-          "amount": 3000.0,
-          "stage": "Solution Fit",
-          "age_days": 56,
-          "hygiene_flag": "low_amount",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Total Solution",
-          "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.14,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.0,
-        "month_2_prob": 0.12,
-        "month_3_prob": 0.14,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 0.0,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 0% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "positive",
-            "detail": "14831.1x coverage \u2014 strong funnel"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "negative",
-            "detail": "Demo count lagging at 10% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 0,
         "avg_conversion_rate": 0,
         "avg_deal_size": 0
       },
-      "isHidden": true
+      "isHidden": true,
+      "coaching_effectiveness": {
+        "coaching_events_90d": 0,
+        "events_by_type": {},
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 18
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": null,
+        "days_since_coaching": null,
+        "archetype_stability": "unknown"
+      }
     },
     "Tami Richter": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
-      "composite_score": 39,
-      "composite_trend": "0",
+      "composite_score": 64,
+      "composite_trend": "+25",
       "dimension_scores": {
-        "cw_bookings": 0,
-        "quota_attainment": 0,
+        "cw_bookings": 50,
+        "quota_attainment": 25,
         "pipeline_creation": 100,
-        "funnel_conversion": 96
+        "funnel_conversion": 100
       },
       "coaching_archetype": "deal_velocity",
       "archetype_sub_type": "",
       "key_metrics": {
-        "cwYTD": 2249453,
-        "cwQTD": 0,
-        "cwMTD": 0,
+        "cwYTD": 2411748,
+        "cwQTD": 162295,
+        "cwMTD": 162295,
         "quota_q1": 643929,
-        "attainment_pct": 0.0,
-        "pipeline_value": 10462561,
-        "pipeline_opps": 93,
-        "pipeline_coverage": 0.32,
-        "pipeline_coverage_raw": 16.2,
-        "avg_deal_size": 112501,
+        "attainment_pct": 25.2,
+        "pipeline_value": 10695359,
+        "pipeline_opps": 94,
+        "pipeline_coverage": 0.4,
+        "pipeline_coverage_raw": 16.6,
+        "avg_deal_size": 113780,
         "sf_meetings": 23,
-        "tech_demos": 11,
+        "tech_demos": 10,
         "site_visits": 0,
-        "deals_per_meeting": 2.74,
-        "win_rate": 0.0
+        "deals_per_meeting": 2.85,
+        "win_rate": 1.5
       },
       "hygiene": {
-        "score": 15,
-        "flagged_deals": 79,
-        "stuck_deals": 79,
-        "top_issue": "85% of deals aged beyond stage threshold."
+        "score": 17,
+        "flagged_deals": 78,
+        "stuck_deals": 78,
+        "top_issue": "83% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 24801,
-        "ninety_day_forecast": 206371,
-        "monthly_vs_quota_pct": 11,
-        "quarterly_vs_quota_pct": 381
+        "monthly_forecast": 11718,
+        "ninety_day_forecast": 193089,
+        "monthly_vs_quota_pct": 78,
+        "quarterly_vs_quota_pct": 405
       },
       "top_stuck_deals": [
         {
           "account": "Rick Case Automotive Group",
           "amount": 1330611.96,
           "stage": "Solution Fit",
-          "age_days": 69,
+          "age_days": 75,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Elevate",
@@ -840,7 +762,7 @@
           "account": "Krause Auto Group",
           "amount": 894318.0,
           "stage": "Committed",
-          "age_days": 251,
+          "age_days": 257,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -850,7 +772,7 @@
           "account": "Gettel Automotive Group",
           "amount": 700000.0,
           "stage": "Tech Demo",
-          "age_days": 383,
+          "age_days": 389,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -860,7 +782,7 @@
           "account": "Morgan Auto Group",
           "amount": 584307.64,
           "stage": "Proposal",
-          "age_days": 531,
+          "age_days": 537,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -870,51 +792,24 @@
           "account": "Potamkin Automotive Group",
           "amount": 520736.28,
           "stage": "Proposal",
-          "age_days": 444,
+          "age_days": 450,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.98,
-        "risk_level": "low",
-        "confidence": 1.0,
-        "month_1_prob": 0.5,
-        "month_2_prob": 0.83,
-        "month_3_prob": 0.98,
-        "trajectory_direction": "improving",
-        "projected_attainment_pct": 349.3,
-        "intervention_urgency": "on_track",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "positive",
-            "detail": "Running at 349% of target pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "positive",
-            "detail": "10.0x coverage \u2014 strong funnel"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 324% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       },
       "prospecting": {
         "composite": 0.0,
@@ -926,58 +821,75 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "South East",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 3,
+        "events_by_type": {
+          "certification_completed": 3
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 64
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-24",
+        "days_since_coaching": 2,
+        "archetype_stability": "unknown"
       }
     },
     "Carol Sanford": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
-      "composite_score": 26,
-      "composite_trend": "0",
+      "composite_score": 51,
+      "composite_trend": "+25",
       "dimension_scores": {
-        "cw_bookings": 0,
-        "quota_attainment": 0,
-        "pipeline_creation": 93,
-        "funnel_conversion": 38
+        "cw_bookings": 54,
+        "quota_attainment": 27,
+        "pipeline_creation": 90,
+        "funnel_conversion": 37
       },
       "coaching_archetype": "conversion_problem",
       "archetype_sub_type": "classic_conversion_leak",
       "key_metrics": {
-        "cwYTD": 316730,
-        "cwQTD": 0,
-        "cwMTD": 0,
+        "cwYTD": 492530,
+        "cwQTD": 175800,
+        "cwMTD": 175800,
         "quota_q1": 643929,
-        "attainment_pct": 0.0,
-        "pipeline_value": 8650486,
-        "pipeline_opps": 26,
-        "pipeline_coverage": 0.67,
-        "pipeline_coverage_raw": 13.4,
-        "avg_deal_size": 332711,
+        "attainment_pct": 27.3,
+        "pipeline_value": 8594296,
+        "pipeline_opps": 25,
+        "pipeline_coverage": 0.83,
+        "pipeline_coverage_raw": 13.3,
+        "avg_deal_size": 343772,
         "sf_meetings": 29,
         "tech_demos": 17,
         "site_visits": 47,
-        "deals_per_meeting": 0.57,
-        "win_rate": 0.0
+        "deals_per_meeting": 0.54,
+        "win_rate": 2.0
       },
       "hygiene": {
-        "score": 85,
-        "flagged_deals": 4,
-        "stuck_deals": 4,
-        "top_issue": "15% of deals aged beyond stage threshold."
+        "score": 76,
+        "flagged_deals": 6,
+        "stuck_deals": 5,
+        "top_issue": "20% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 355015,
-        "ninety_day_forecast": 430783,
-        "monthly_vs_quota_pct": 160,
-        "quarterly_vs_quota_pct": 116
+        "monthly_forecast": 322572,
+        "ninety_day_forecast": 389357,
+        "monthly_vs_quota_pct": 224,
+        "quarterly_vs_quota_pct": 137
       },
       "top_stuck_deals": [
         {
           "account": "Findlay Automotive Group",
           "amount": 1949832.0,
           "stage": "Tech Demo",
-          "age_days": 146,
+          "age_days": 152,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -987,17 +899,17 @@
           "account": "Ken Garff Group",
           "amount": 1628000.0,
           "stage": "Tech Demo",
-          "age_days": 158,
+          "age_days": 164,
           "hygiene_flag": "stuck",
           "product_solution": "DSGSS",
           "flat_rate_product_type": "",
-          "rep_certified": false
+          "rep_certified": true
         },
         {
           "account": "GMC of Riverfront Park",
           "amount": 185999.0,
           "stage": "Solution Fit",
-          "age_days": 243,
+          "age_days": 249,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "Protect",
@@ -1007,51 +919,34 @@
           "account": "Chris Russell Automotive Group",
           "amount": 43559.0,
           "stage": "Solution Fit",
-          "age_days": 95,
+          "age_days": 101,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Enrich",
           "rep_certified": false
+        },
+        {
+          "account": "Orem/Bountiful Mazda Group",
+          "amount": 20094.6,
+          "stage": "Proposal",
+          "age_days": 80,
+          "hygiene_flag": "stuck",
+          "product_solution": "CBC",
+          "flat_rate_product_type": "",
+          "rep_certified": true
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.05,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.49,
-        "month_2_prob": 0.04,
-        "month_3_prob": 0.05,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 49.2,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 49% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "neutral",
-            "detail": "1.3x coverage \u2014 on threshold"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 886% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       },
       "prospecting": {
         "composite": 0.0,
@@ -1063,20 +958,37 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Pacific West",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 4,
+        "events_by_type": {
+          "certification_completed": 4
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 51
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-21",
+        "days_since_coaching": 5,
+        "archetype_stability": "unknown"
       }
     },
     "Clarence Romero": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
-      "composite_score": 22,
-      "composite_trend": "0",
+      "composite_score": 21,
+      "composite_trend": "-1",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 11,
-        "funnel_conversion": 100
+        "pipeline_creation": 21,
+        "funnel_conversion": 85
       },
       "coaching_archetype": "activity_problem",
       "archetype_sub_type": "",
@@ -1086,27 +998,27 @@
         "cwMTD": 0,
         "quota_q1": 482946,
         "attainment_pct": 0.0,
-        "pipeline_value": 103832,
-        "pipeline_opps": 3,
+        "pipeline_value": 261632,
+        "pipeline_opps": 6,
         "pipeline_coverage": 0.01,
-        "pipeline_coverage_raw": 0.2,
-        "avg_deal_size": 34611,
-        "sf_meetings": 0,
+        "pipeline_coverage_raw": 0.5,
+        "avg_deal_size": 43605,
+        "sf_meetings": 2,
         "tech_demos": 1,
         "site_visits": 0,
-        "deals_per_meeting": 3.0,
+        "deals_per_meeting": 2.0,
         "win_rate": 0.0
       },
       "hygiene": {
-        "score": 33,
-        "flagged_deals": 2,
+        "score": 83,
+        "flagged_deals": 1,
         "stuck_deals": 1,
-        "top_issue": "33% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
+        "top_issue": "17% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 2212,
-        "ninety_day_forecast": 4763,
-        "monthly_vs_quota_pct": 1,
+        "monthly_forecast": 6519,
+        "ninety_day_forecast": 7084,
+        "monthly_vs_quota_pct": 4,
         "quarterly_vs_quota_pct": 1
       },
       "top_stuck_deals": [
@@ -1114,61 +1026,24 @@
           "account": "Ciocca Dealerships",
           "amount": 63831.72,
           "stage": "Tech Demo",
-          "age_days": 119,
+          "age_days": 125,
           "hygiene_flag": "stuck",
           "product_solution": "DSGSS",
           "flat_rate_product_type": "",
-          "rep_certified": false
-        },
-        {
-          "account": "Otto Cadillac Inc",
-          "amount": 0,
-          "stage": "Proposal",
-          "age_days": 6,
-          "hygiene_flag": "low_amount",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Total Solution",
-          "rep_certified": false
+          "rep_certified": true
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.0,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.0,
-        "month_2_prob": 0.0,
-        "month_3_prob": 0.0,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 0.0,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 0% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "negative",
-            "detail": "Demo count lagging at 10% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       },
       "prospecting": {
         "composite": 0.0,
@@ -1180,20 +1055,37 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "NY Metro",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 7,
+        "events_by_type": {
+          "certification_completed": 7
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 21
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-13",
+        "days_since_coaching": 13,
+        "archetype_stability": "unknown"
       }
     },
     "Tom Meredith": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
-      "composite_score": 16,
-      "composite_trend": "0",
+      "composite_score": 13,
+      "composite_trend": "-3",
       "dimension_scores": {
         "cw_bookings": 1,
         "quota_attainment": 0,
-        "pipeline_creation": 46,
-        "funnel_conversion": 31
+        "pipeline_creation": 36,
+        "funnel_conversion": 26
       },
       "coaching_archetype": "conversion_problem",
       "archetype_sub_type": "classic_conversion_leak",
@@ -1203,91 +1095,79 @@
         "cwMTD": 3044,
         "quota_q1": 643929,
         "attainment_pct": 0.5,
-        "pipeline_value": 1128840,
-        "pipeline_opps": 13,
-        "pipeline_coverage": 0.11,
+        "pipeline_value": 1158279,
+        "pipeline_opps": 10,
+        "pipeline_coverage": 0.06,
         "pipeline_coverage_raw": 1.8,
-        "avg_deal_size": 86834,
-        "sf_meetings": 19,
+        "avg_deal_size": 115828,
+        "sf_meetings": 17,
         "tech_demos": 9,
         "site_visits": 0,
-        "deals_per_meeting": 0.46,
+        "deals_per_meeting": 0.38,
         "win_rate": 0.3
       },
       "hygiene": {
-        "score": 85,
+        "score": 80,
         "flagged_deals": 2,
         "stuck_deals": 2,
-        "top_issue": "15% of deals aged beyond stage threshold."
+        "top_issue": "20% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 46877,
-        "ninety_day_forecast": 70962,
-        "monthly_vs_quota_pct": 22,
-        "quarterly_vs_quota_pct": 25
+        "monthly_forecast": 26244,
+        "ninety_day_forecast": 41622,
+        "monthly_vs_quota_pct": 13,
+        "quarterly_vs_quota_pct": 20
       },
       "top_stuck_deals": [
         {
           "account": "Lyon-Waugh Auto Group Parent",
           "amount": 132000.0,
           "stage": "Proposal",
-          "age_days": 104,
+          "age_days": 110,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Protect",
           "rep_certified": false
         },
         {
-          "account": "DSR Motor Group Parent",
-          "amount": 90560.4,
+          "account": "Hoffman Enterprises Group Parent",
+          "amount": 78758.54,
           "stage": "Proposal",
-          "age_days": 98,
+          "age_days": 79,
           "hygiene_flag": "stuck",
-          "product_solution": "CBC",
+          "product_solution": "DSGSS",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.03,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.14,
-        "month_2_prob": 0.03,
-        "month_3_prob": 0.03,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 13.8,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 14% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.1x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 267% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       },
-      "isHidden": true
+      "isHidden": true,
+      "coaching_effectiveness": {
+        "coaching_events_90d": 0,
+        "events_by_type": {},
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 13
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": null,
+        "days_since_coaching": null,
+        "archetype_stability": "unknown"
+      }
     },
     "Loren Rivera": {
       "team": "Bordenet",
@@ -1313,8 +1193,8 @@
         "pipeline_coverage": 0.0,
         "pipeline_coverage_raw": 0.0,
         "avg_deal_size": 0,
-        "sf_meetings": 9,
-        "tech_demos": 5,
+        "sf_meetings": 8,
+        "tech_demos": 4,
         "site_visits": 12,
         "deals_per_meeting": 0.0,
         "win_rate": 0
@@ -1332,62 +1212,50 @@
         "quarterly_vs_quota_pct": 37
       },
       "top_stuck_deals": [],
-      "trajectory": {
-        "quota_hit_probability": 0.03,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.37,
-        "month_2_prob": 0.02,
-        "month_3_prob": 0.03,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 37.3,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 37% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 248% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 41,
-        "avg_conversion_rate": 1.53,
-        "avg_deal_size": 177660
+        "avg_composite": 51,
+        "avg_conversion_rate": 1.34,
+        "avg_deal_size": 181911
       },
-      "isHidden": true
+      "isHidden": true,
+      "coaching_effectiveness": {
+        "coaching_events_90d": 0,
+        "events_by_type": {},
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 0
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": null,
+        "days_since_coaching": null,
+        "archetype_stability": "unknown"
+      }
     },
     "Joel Carlucci": {
       "role": "manager",
       "team": "Carlucci",
       "manager": "Michael Byrd",
       "isHidden": true,
-      "composite_score": 16,
-      "composite_trend": "0",
+      "composite_score": 14,
+      "composite_trend": "-2",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 42,
-        "funnel_conversion": 37
+        "pipeline_creation": 38,
+        "funnel_conversion": 34
       },
       "coaching_archetype": "conversion_problem",
-      "archetype_pattern": "conversion_problem (3 of 6 reps)",
+      "archetype_pattern": "conversion_problem (2 of 6 reps)",
       "weakest_rep": {
         "name": "Great Lakes East (Open)",
         "composite_score": 0,
@@ -1395,15 +1263,15 @@
         "attainment_pct": 0.0
       },
       "key_metrics": {
-        "team_cw_ytd": 569463,
-        "team_cw_mtd": 1680,
+        "team_cw_ytd": 570202,
+        "team_cw_mtd": 2419,
         "team_q1_quota": 3299795,
         "team_attainment_pct": 0.1,
-        "team_pipeline_value": 7556411,
-        "team_pipeline_opps": 71,
-        "team_weighted_coverage": 0.03,
-        "team_funnel_meetings": 117,
-        "team_deals_per_meeting": 0.61,
+        "team_pipeline_value": 5755804,
+        "team_pipeline_opps": 63,
+        "team_weighted_coverage": 0.02,
+        "team_funnel_meetings": 114,
+        "team_deals_per_meeting": 0.55,
         "direct_report_count": 6
       },
       "personal_cw": {
@@ -1412,15 +1280,15 @@
         "note": "Personal deals \u2014 outliers, hidden from leaderboard, included in company totals"
       },
       "hygiene": {
-        "score": 75,
-        "flagged_deals": 18,
-        "stuck_deals": 18,
-        "top_issue": "Team has 18 flagged deals across 6 reps."
+        "score": 73,
+        "flagged_deals": 17,
+        "stuck_deals": 16,
+        "top_issue": "Team has 17 flagged deals across 6 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 32231,
-        "team_ninety_day_forecast": 84912,
-        "team_quarterly_vs_quota_pct": 20
+        "team_monthly_forecast": 23427,
+        "team_ninety_day_forecast": 69368,
+        "team_quarterly_vs_quota_pct": 19
       },
       "direct_reports": [
         {
@@ -1432,59 +1300,98 @@
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
-          "top_stuck_deals": [],
-          "trajectory_probability": 0.0,
-          "trajectory_risk": "high"
+          "top_stuck_deals": []
         },
         {
           "name": "David Castone",
-          "composite_score": 11,
+          "composite_score": 4,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.02,
-          "hygiene_score": 78,
-          "top_issue": "22% of deals aged beyond stage threshold.",
-          "stuck_deals": 2,
+          "pipeline_coverage": 0.01,
+          "hygiene_score": 100,
+          "top_issue": "Pipeline is clean.",
+          "stuck_deals": 0,
+          "top_stuck_deals": []
+        },
+        {
+          "name": "William Fowler",
+          "composite_score": 16,
+          "coaching_archetype": "coverage_gap",
+          "attainment_pct": 0.0,
+          "pipeline_coverage": 0.01,
+          "hygiene_score": 73,
+          "top_issue": "27% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
+          "stuck_deals": 3,
           "top_stuck_deals": [
             {
-              "account": "Ourisman Automotive Group",
-              "amount": 963838.0,
+              "account": "Bob Sight Chrysler Dodge Jeep Ram",
+              "amount": 70000.0,
               "stage": "Solution Fit",
-              "age_days": 70,
+              "age_days": 93,
+              "hygiene_flag": "stuck",
+              "product_solution": "CBC",
+              "flat_rate_product_type": "",
+              "rep_certified": true
+            },
+            {
+              "account": "Midwest Kia",
+              "amount": 18000.0,
+              "stage": "Solution Fit",
+              "age_days": 76,
+              "hygiene_flag": "stuck",
+              "product_solution": "CBC + DSGSS",
+              "flat_rate_product_type": "Protect",
+              "rep_certified": false
+            }
+          ]
+        },
+        {
+          "name": "Ashton Gough",
+          "composite_score": 21,
+          "coaching_archetype": "deal_velocity",
+          "attainment_pct": 0.4,
+          "pipeline_coverage": 0.04,
+          "hygiene_score": 53,
+          "top_issue": "42% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
+          "stuck_deals": 8,
+          "top_stuck_deals": [
+            {
+              "account": "Ken Grody Ford Dealerships",
+              "amount": 242275.32,
+              "stage": "Proposal",
+              "age_days": 243,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
-              "flat_rate_product_type": "Elevate",
+              "flat_rate_product_type": "Control",
               "rep_certified": false
             },
             {
-              "account": "Chapman Auto Stores",
-              "amount": 48000.0,
+              "account": "Walnut Creek Chrysler Jeep Dodge Ram",
+              "amount": 215000.0,
               "stage": "Solution Fit",
-              "age_days": 103,
+              "age_days": 73,
               "hygiene_flag": "stuck",
-              "product_solution": "Payments",
+              "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.05,
-          "trajectory_risk": "high"
+          ]
         },
         {
           "name": "Brock Hutchinson",
-          "composite_score": 17,
+          "composite_score": 21,
           "coaching_archetype": "activity_problem",
           "attainment_pct": 0.0,
           "pipeline_coverage": 0.02,
-          "hygiene_score": 50,
-          "top_issue": "50% of deals aged beyond stage threshold.",
+          "hygiene_score": 60,
+          "top_issue": "40% of deals aged beyond stage threshold.",
           "stuck_deals": 4,
           "top_stuck_deals": [
             {
               "account": "Don Franklin Family Of Dealerships",
               "amount": 830000.0,
               "stage": "Solution Fit",
-              "age_days": 75,
+              "age_days": 81,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "",
@@ -1494,87 +1401,17 @@
               "account": "Neil Huffman Automotive Group",
               "amount": 138000.0,
               "stage": "Solution Fit",
-              "age_days": 74,
+              "age_days": 80,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.05,
-          "trajectory_risk": "high"
-        },
-        {
-          "name": "Ashton Gough",
-          "composite_score": 21,
-          "coaching_archetype": "conversion_problem",
-          "attainment_pct": 0.3,
-          "pipeline_coverage": 0.05,
-          "hygiene_score": 63,
-          "top_issue": "37% of deals aged beyond stage threshold.",
-          "stuck_deals": 7,
-          "top_stuck_deals": [
-            {
-              "account": "Ken Grody Ford Dealerships",
-              "amount": 242275.32,
-              "stage": "Proposal",
-              "age_days": 237,
-              "hygiene_flag": "stuck",
-              "product_solution": "Full Bundled Solution",
-              "flat_rate_product_type": "Control",
-              "rep_certified": false
-            },
-            {
-              "account": "Toyota of Santa Maria Group",
-              "amount": 210000.0,
-              "stage": "Solution Fit",
-              "age_days": 152,
-              "hygiene_flag": "stuck",
-              "product_solution": "Full Bundled Solution",
-              "flat_rate_product_type": "Control",
-              "rep_certified": false
-            }
-          ],
-          "trajectory_probability": 0.27,
-          "trajectory_risk": "high"
-        },
-        {
-          "name": "William Fowler",
-          "composite_score": 23,
-          "coaching_archetype": "coverage_gap",
-          "attainment_pct": 0.0,
-          "pipeline_coverage": 0.01,
-          "hygiene_score": 75,
-          "top_issue": "25% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
-          "stuck_deals": 4,
-          "top_stuck_deals": [
-            {
-              "account": "Bob Sight Chrysler Dodge Jeep Ram",
-              "amount": 70000.0,
-              "stage": "Solution Fit",
-              "age_days": 87,
-              "hygiene_flag": "stuck",
-              "product_solution": "CBC",
-              "flat_rate_product_type": "",
-              "rep_certified": false
-            },
-            {
-              "account": "McGrath Automotive Group",
-              "amount": 50000.0,
-              "stage": "Solution Fit",
-              "age_days": 73,
-              "hygiene_flag": "stuck",
-              "product_solution": "DSGSS",
-              "flat_rate_product_type": "",
-              "rep_certified": false
-            }
-          ],
-          "trajectory_probability": 0.01,
-          "trajectory_risk": "high"
+          ]
         },
         {
           "name": "Ward Carroll",
-          "composite_score": 23,
+          "composite_score": 25,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 0.0,
           "pipeline_coverage": 0.03,
@@ -1586,34 +1423,21 @@
               "account": "Donald Automotive Group",
               "amount": 6000.0,
               "stage": "Tech Demo",
-              "age_days": 97,
+              "age_days": 103,
               "hygiene_flag": "stuck",
               "product_solution": "Payments",
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.05,
-          "trajectory_risk": "high"
+          ]
         }
       ],
       "top_team_stuck_deals": [
         {
-          "account": "Ourisman Automotive Group",
-          "amount": 963838.0,
-          "stage": "Solution Fit",
-          "age_days": 70,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Elevate",
-          "rep_certified": false,
-          "rep": "David Castone"
-        },
-        {
           "account": "Don Franklin Family Of Dealerships",
           "amount": 830000.0,
           "stage": "Solution Fit",
-          "age_days": 75,
+          "age_days": 81,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -1624,7 +1448,7 @@
           "account": "Ken Grody Ford Dealerships",
           "amount": 242275.32,
           "stage": "Proposal",
-          "age_days": 237,
+          "age_days": 243,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -1632,13 +1456,13 @@
           "rep": "Ashton Gough"
         },
         {
-          "account": "Toyota of Santa Maria Group",
-          "amount": 210000.0,
+          "account": "Walnut Creek Chrysler Jeep Dodge Ram",
+          "amount": 215000.0,
           "stage": "Solution Fit",
-          "age_days": 152,
+          "age_days": 73,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Control",
+          "flat_rate_product_type": "",
           "rep_certified": false,
           "rep": "Ashton Gough"
         },
@@ -1646,7 +1470,7 @@
           "account": "Neil Huffman Automotive Group",
           "amount": 138000.0,
           "stage": "Solution Fit",
-          "age_days": 74,
+          "age_days": 80,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -1657,7 +1481,7 @@
           "account": "Nelson Group Automotive",
           "amount": 136456.04,
           "stage": "Tech Demo",
-          "age_days": 248,
+          "age_days": 254,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -1668,7 +1492,7 @@
           "account": "Simpson Family Dealerships",
           "amount": 105000.0,
           "stage": "Solution Fit",
-          "age_days": 136,
+          "age_days": 142,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Protect",
@@ -1679,38 +1503,35 @@
           "account": "Barnes Crossing Auto Group",
           "amount": 90000.0,
           "stage": "Solution Fit",
-          "age_days": 123,
+          "age_days": 129,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "",
           "rep_certified": false,
           "rep": "Brock Hutchinson"
+        },
+        {
+          "account": "My Cars Auto Group",
+          "amount": 75000.0,
+          "stage": "Tech Demo",
+          "age_days": 207,
+          "hygiene_flag": "stuck",
+          "product_solution": "Full Bundled Solution",
+          "flat_rate_product_type": "",
+          "rep_certified": false,
+          "rep": "Ashton Gough"
         }
       ],
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 17,
         "avg_conversion_rate": 0.75,
-        "avg_deal_size": 95159
-      },
-      "team_trajectory": {
-        "avg_quota_hit_probability": 0.072,
-        "reps_at_risk": 6,
-        "at_risk_names": [
-          "Ashton Gough",
-          "David Castone",
-          "William Fowler",
-          "Ward Carroll",
-          "Brock Hutchinson",
-          "Great Lakes East (Open)"
-        ],
-        "reps_on_track": 0,
-        "team_risk_level": "high"
+        "avg_deal_size": 85645
       }
     },
     "Ashton Gough": {
@@ -1722,21 +1543,21 @@
         "cw_bookings": 1,
         "quota_attainment": 0,
         "pipeline_creation": 68,
-        "funnel_conversion": 36
+        "funnel_conversion": 37
       },
-      "coaching_archetype": "conversion_problem",
-      "archetype_sub_type": "classic_conversion_leak",
+      "coaching_archetype": "deal_velocity",
+      "archetype_sub_type": "",
       "key_metrics": {
-        "cwYTD": 437519,
-        "cwQTD": 1680,
-        "cwMTD": 1680,
+        "cwYTD": 438258,
+        "cwQTD": 2419,
+        "cwMTD": 2419,
         "quota_q1": 643929,
-        "attainment_pct": 0.3,
-        "pipeline_value": 1950735,
+        "attainment_pct": 0.4,
+        "pipeline_value": 1880883,
         "pipeline_opps": 19,
-        "pipeline_coverage": 0.05,
-        "pipeline_coverage_raw": 3.0,
-        "avg_deal_size": 102670,
+        "pipeline_coverage": 0.04,
+        "pipeline_coverage_raw": 2.9,
+        "avg_deal_size": 98994,
         "sf_meetings": 25,
         "tech_demos": 10,
         "site_visits": 0,
@@ -1744,43 +1565,43 @@
         "win_rate": 0.1
       },
       "hygiene": {
-        "score": 63,
-        "flagged_deals": 7,
-        "stuck_deals": 7,
-        "top_issue": "37% of deals aged beyond stage threshold."
+        "score": 53,
+        "flagged_deals": 9,
+        "stuck_deals": 8,
+        "top_issue": "42% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 18779,
-        "ninety_day_forecast": 34145,
-        "monthly_vs_quota_pct": 9,
-        "quarterly_vs_quota_pct": 73
+        "monthly_forecast": 6502,
+        "ninety_day_forecast": 27900,
+        "monthly_vs_quota_pct": 4,
+        "quarterly_vs_quota_pct": 72
       },
       "top_stuck_deals": [
         {
           "account": "Ken Grody Ford Dealerships",
           "amount": 242275.32,
           "stage": "Proposal",
-          "age_days": 237,
+          "age_days": 243,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
           "rep_certified": false
         },
         {
-          "account": "Toyota of Santa Maria Group",
-          "amount": 210000.0,
+          "account": "Walnut Creek Chrysler Jeep Dodge Ram",
+          "amount": 215000.0,
           "stage": "Solution Fit",
-          "age_days": 152,
+          "age_days": 73,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Control",
+          "flat_rate_product_type": "",
           "rep_certified": false
         },
         {
           "account": "Nelson Group Automotive",
           "amount": 136456.04,
           "stage": "Tech Demo",
-          "age_days": 248,
+          "age_days": 254,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -1790,7 +1611,7 @@
           "account": "Simpson Family Dealerships",
           "amount": 105000.0,
           "stage": "Solution Fit",
-          "age_days": 136,
+          "age_days": 142,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Protect",
@@ -1800,54 +1621,27 @@
           "account": "My Cars Auto Group",
           "amount": 75000.0,
           "stage": "Tech Demo",
-          "age_days": 201,
+          "age_days": 207,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.27,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.5,
-        "month_2_prob": 0.23,
-        "month_3_prob": 0.27,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 67.9,
-        "intervention_urgency": "act_now",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 68% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.2x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 333% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 17,
         "avg_conversion_rate": 0.75,
-        "avg_deal_size": 95159
+        "avg_deal_size": 85645
       },
       "prospecting": {
-        "composite": 11.3,
+        "composite": 1.3,
         "tier": "Needs Attention",
         "dispositionRate": 1.5,
         "meetingConversion": 0.0,
@@ -1856,20 +1650,37 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "California",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 1,
+        "events_by_type": {
+          "certification_completed": 1
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 21
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-26",
+        "days_since_coaching": 0,
+        "archetype_stability": "unknown"
       }
     },
     "David Castone": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
-      "composite_score": 11,
-      "composite_trend": "0",
+      "composite_score": 4,
+      "composite_trend": "-7",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 32,
-        "funnel_conversion": 21
+        "pipeline_creation": 11,
+        "funnel_conversion": 8
       },
       "coaching_archetype": "conversion_problem",
       "archetype_sub_type": "classic_conversion_leak",
@@ -1879,102 +1690,71 @@
         "cwMTD": 0,
         "quota_q1": 643929,
         "attainment_pct": 0.0,
-        "pipeline_value": 2269638,
-        "pipeline_opps": 9,
-        "pipeline_coverage": 0.02,
-        "pipeline_coverage_raw": 3.5,
-        "avg_deal_size": 252182,
-        "sf_meetings": 21,
-        "tech_demos": 7,
+        "pipeline_value": 707800,
+        "pipeline_opps": 3,
+        "pipeline_coverage": 0.01,
+        "pipeline_coverage_raw": 1.1,
+        "avg_deal_size": 235933,
+        "sf_meetings": 20,
+        "tech_demos": 5,
         "site_visits": 66,
-        "deals_per_meeting": 0.32,
+        "deals_per_meeting": 0.12,
         "win_rate": 0.0
       },
       "hygiene": {
-        "score": 78,
-        "flagged_deals": 2,
-        "stuck_deals": 2,
-        "top_issue": "22% of deals aged beyond stage threshold."
+        "score": 100,
+        "flagged_deals": 0,
+        "stuck_deals": 0,
+        "top_issue": "Pipeline is clean."
       },
       "forecast": {
         "monthly_forecast": 0,
-        "ninety_day_forecast": 15564,
+        "ninety_day_forecast": 7031,
         "monthly_vs_quota_pct": 0,
-        "quarterly_vs_quota_pct": 14
+        "quarterly_vs_quota_pct": 13
       },
-      "top_stuck_deals": [
-        {
-          "account": "Ourisman Automotive Group",
-          "amount": 963838.0,
-          "stage": "Solution Fit",
-          "age_days": 70,
-          "hygiene_flag": "stuck",
-          "product_solution": "Full Bundled Solution",
-          "flat_rate_product_type": "Elevate",
-          "rep_certified": false
-        },
-        {
-          "account": "Chapman Auto Stores",
-          "amount": 48000.0,
-          "stage": "Solution Fit",
-          "age_days": 103,
-          "hygiene_flag": "stuck",
-          "product_solution": "Payments",
-          "flat_rate_product_type": "",
-          "rep_certified": false
-        }
-      ],
-      "trajectory": {
-        "quota_hit_probability": 0.05,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.12,
-        "month_2_prob": 0.04,
-        "month_3_prob": 0.05,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 11.6,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 12% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 895% of org pace"
-          }
-        ]
-      },
+      "top_stuck_deals": [],
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 17,
         "avg_conversion_rate": 0.75,
-        "avg_deal_size": 95159
+        "avg_deal_size": 85645
       },
-      "isHidden": true
+      "isHidden": true,
+      "coaching_effectiveness": {
+        "coaching_events_90d": 1,
+        "events_by_type": {
+          "certification_completed": 1
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 4
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-26",
+        "days_since_coaching": 0,
+        "archetype_stability": "unknown"
+      }
     },
     "William Fowler": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
-      "composite_score": 23,
-      "composite_trend": "0",
+      "composite_score": 16,
+      "composite_trend": "-7",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 57,
-        "funnel_conversion": 56
+        "pipeline_creation": 39,
+        "funnel_conversion": 39
       },
       "coaching_archetype": "coverage_gap",
       "archetype_sub_type": "",
@@ -1984,27 +1764,27 @@
         "cwMTD": 0,
         "quota_q1": 643929,
         "attainment_pct": 0.0,
-        "pipeline_value": 549838,
-        "pipeline_opps": 16,
+        "pipeline_value": 348121,
+        "pipeline_opps": 11,
         "pipeline_coverage": 0.01,
-        "pipeline_coverage_raw": 0.9,
-        "avg_deal_size": 34365,
+        "pipeline_coverage_raw": 0.5,
+        "avg_deal_size": 31647,
         "sf_meetings": 14,
         "tech_demos": 5,
         "site_visits": 37,
-        "deals_per_meeting": 0.84,
+        "deals_per_meeting": 0.58,
         "win_rate": 0.0
       },
       "hygiene": {
-        "score": 75,
-        "flagged_deals": 4,
-        "stuck_deals": 4,
-        "top_issue": "25% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
+        "score": 73,
+        "flagged_deals": 3,
+        "stuck_deals": 3,
+        "top_issue": "27% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 3136,
-        "ninety_day_forecast": 7400,
-        "monthly_vs_quota_pct": 1,
+        "monthly_forecast": 6609,
+        "ninety_day_forecast": 8999,
+        "monthly_vs_quota_pct": 3,
         "quarterly_vs_quota_pct": 6
       },
       "top_stuck_deals": [
@@ -2012,27 +1792,17 @@
           "account": "Bob Sight Chrysler Dodge Jeep Ram",
           "amount": 70000.0,
           "stage": "Solution Fit",
-          "age_days": 87,
+          "age_days": 93,
           "hygiene_flag": "stuck",
           "product_solution": "CBC",
           "flat_rate_product_type": "",
-          "rep_certified": false
-        },
-        {
-          "account": "McGrath Automotive Group",
-          "amount": 50000.0,
-          "stage": "Solution Fit",
-          "age_days": 73,
-          "hygiene_flag": "stuck",
-          "product_solution": "DSGSS",
-          "flat_rate_product_type": "",
-          "rep_certified": false
+          "rep_certified": true
         },
         {
           "account": "Midwest Kia",
           "amount": 18000.0,
           "stage": "Solution Fit",
-          "age_days": 70,
+          "age_days": 76,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "Protect",
@@ -2042,54 +1812,27 @@
           "account": "MJ McGuire Company",
           "amount": 13000.0,
           "stage": "Proposal",
-          "age_days": 89,
+          "age_days": 95,
           "hygiene_flag": "stuck",
           "product_solution": "Other",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.01,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.04,
-        "month_2_prob": 0.01,
-        "month_3_prob": 0.01,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 4.5,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 4% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 533% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 17,
         "avg_conversion_rate": 0.75,
-        "avg_deal_size": 95159
+        "avg_deal_size": 85645
       },
       "prospecting": {
-        "composite": 11.1,
+        "composite": 1.1,
         "tier": "Needs Attention",
         "dispositionRate": 0.3,
         "meetingConversion": 0.0,
@@ -2098,20 +1841,37 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Central",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 5,
+        "events_by_type": {
+          "certification_completed": 5
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 16
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-03-18",
+        "days_since_coaching": 39,
+        "archetype_stability": "unknown"
       }
     },
     "Ward Carroll": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
-      "composite_score": 23,
-      "composite_trend": "0",
+      "composite_score": 25,
+      "composite_trend": "+2",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 68,
-        "funnel_conversion": 49
+        "pipeline_creation": 72,
+        "funnel_conversion": 52
       },
       "coaching_archetype": "conversion_problem",
       "archetype_sub_type": "post_demo_execution",
@@ -2121,15 +1881,15 @@
         "cwMTD": 0,
         "quota_q1": 643929,
         "attainment_pct": 0.0,
-        "pipeline_value": 1446400,
-        "pipeline_opps": 19,
+        "pipeline_value": 1399200,
+        "pipeline_opps": 20,
         "pipeline_coverage": 0.03,
         "pipeline_coverage_raw": 2.2,
-        "avg_deal_size": 76126,
+        "avg_deal_size": 69960,
         "sf_meetings": 20,
         "tech_demos": 6,
         "site_visits": 41,
-        "deals_per_meeting": 0.73,
+        "deals_per_meeting": 0.77,
         "win_rate": 0.0
       },
       "hygiene": {
@@ -2140,7 +1900,7 @@
       },
       "forecast": {
         "monthly_forecast": 10072,
-        "ninety_day_forecast": 20687,
+        "ninety_day_forecast": 18982,
         "monthly_vs_quota_pct": 5,
         "quarterly_vs_quota_pct": 5
       },
@@ -2149,51 +1909,24 @@
           "account": "Donald Automotive Group",
           "amount": 6000.0,
           "stage": "Tech Demo",
-          "age_days": 97,
+          "age_days": 103,
           "hygiene_flag": "stuck",
           "product_solution": "Payments",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.05,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.02,
-        "month_2_prob": 0.04,
-        "month_3_prob": 0.05,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 1.9,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 2% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 638% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 17,
         "avg_conversion_rate": 0.75,
-        "avg_deal_size": 95159
+        "avg_deal_size": 85645
       },
       "prospecting": {
         "composite": 0.0,
@@ -2205,20 +1938,37 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Central Atlantic",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 5,
+        "events_by_type": {
+          "certification_completed": 5
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 25
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-24",
+        "days_since_coaching": 2,
+        "archetype_stability": "unknown"
       }
     },
     "Brock Hutchinson": {
       "team": "Carlucci",
       "manager": "Joel Carlucci",
-      "composite_score": 17,
-      "composite_trend": "0",
+      "composite_score": 21,
+      "composite_trend": "+4",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 28,
-        "funnel_conversion": 59
+        "pipeline_creation": 36,
+        "funnel_conversion": 70
       },
       "coaching_archetype": "activity_problem",
       "archetype_sub_type": "",
@@ -2228,26 +1978,26 @@
         "cwMTD": 0,
         "quota_q1": 311605,
         "attainment_pct": 0.0,
-        "pipeline_value": 1339800,
-        "pipeline_opps": 8,
+        "pipeline_value": 1419800,
+        "pipeline_opps": 10,
         "pipeline_coverage": 0.02,
-        "pipeline_coverage_raw": 4.3,
-        "avg_deal_size": 167475,
+        "pipeline_coverage_raw": 4.6,
+        "avg_deal_size": 141980,
         "sf_meetings": 9,
         "tech_demos": 0,
         "site_visits": 0,
-        "deals_per_meeting": 0.89,
+        "deals_per_meeting": 1.11,
         "win_rate": 0.0
       },
       "hygiene": {
-        "score": 50,
+        "score": 60,
         "flagged_deals": 4,
         "stuck_deals": 4,
-        "top_issue": "50% of deals aged beyond stage threshold."
+        "top_issue": "40% of deals aged beyond stage threshold."
       },
       "forecast": {
         "monthly_forecast": 244,
-        "ninety_day_forecast": 7116,
+        "ninety_day_forecast": 6456,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 7
       },
@@ -2256,7 +2006,7 @@
           "account": "Don Franklin Family Of Dealerships",
           "amount": 830000.0,
           "stage": "Solution Fit",
-          "age_days": 75,
+          "age_days": 81,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -2266,7 +2016,7 @@
           "account": "Neil Huffman Automotive Group",
           "amount": 138000.0,
           "stage": "Solution Fit",
-          "age_days": 74,
+          "age_days": 80,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -2276,7 +2026,7 @@
           "account": "Barnes Crossing Auto Group",
           "amount": 90000.0,
           "stage": "Solution Fit",
-          "age_days": 123,
+          "age_days": 129,
           "hygiene_flag": "stuck",
           "product_solution": "CBC + DSGSS",
           "flat_rate_product_type": "",
@@ -2286,54 +2036,27 @@
           "account": "Rusty Wallace Group",
           "amount": 40000.0,
           "stage": "Solution Fit",
-          "age_days": 73,
+          "age_days": 79,
           "hygiene_flag": "stuck",
           "product_solution": "DSGSS",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.05,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.05,
-        "month_2_prob": 0.04,
-        "month_3_prob": 0.05,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 5.1,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 5% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "negative",
-            "detail": "Demo count lagging at 86% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 17,
         "avg_conversion_rate": 0.75,
-        "avg_deal_size": 95159
+        "avg_deal_size": 85645
       },
       "prospecting": {
-        "composite": 11.3,
+        "composite": 1.3,
         "tier": "Needs Attention",
         "dispositionRate": 1.6,
         "meetingConversion": 0.0,
@@ -2342,8 +2065,25 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Southern Crossroads",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 1,
+        "events_by_type": {
+          "certification_completed": 1
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 21
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-26",
+        "days_since_coaching": 0,
+        "archetype_stability": "unknown"
       }
     },
     "Great Lakes East (Open)": {
@@ -2389,44 +2129,17 @@
         "quarterly_vs_quota_pct": 0
       },
       "top_stuck_deals": [],
-      "trajectory": {
-        "quota_hit_probability": 0.0,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.0,
-        "month_2_prob": 0.0,
-        "month_3_prob": 0.0,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 0.0,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 0% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "negative",
-            "detail": "Demo count lagging at 0% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
         "avg_composite": 17,
         "avg_conversion_rate": 0.75,
-        "avg_deal_size": 95159
+        "avg_deal_size": 85645
       },
       "prospecting": {
         "composite": 0.0,
@@ -2438,58 +2151,73 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "Great Lakes East",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 0,
+        "events_by_type": {},
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 0
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": null,
+        "days_since_coaching": null,
+        "archetype_stability": "unknown"
       }
     },
     "Crly Alvarado": {
       "team": "Knievel",
       "manager": "Curtis Knievel",
-      "composite_score": 36,
-      "composite_trend": "0",
+      "composite_score": 43,
+      "composite_trend": "+7",
       "dimension_scores": {
-        "cw_bookings": 16,
-        "quota_attainment": 4,
+        "cw_bookings": 34,
+        "quota_attainment": 8,
         "pipeline_creation": 100,
         "funnel_conversion": 45
       },
-      "coaching_archetype": "conversion_problem",
-      "archetype_sub_type": "post_demo_execution",
+      "coaching_archetype": "deal_velocity",
+      "archetype_sub_type": "",
       "key_metrics": {
-        "cwYTD": 582771,
-        "cwQTD": 65851,
-        "cwMTD": 65851,
+        "cwYTD": 660933,
+        "cwQTD": 144013,
+        "cwMTD": 144013,
         "quota_q1": 1707811,
-        "attainment_pct": 3.9,
-        "pipeline_value": 8228496,
+        "attainment_pct": 8.4,
+        "pipeline_value": 8346593,
         "pipeline_opps": 65,
-        "pipeline_coverage": 0.4,
-        "pipeline_coverage_raw": 4.8,
-        "avg_deal_size": 126592,
+        "pipeline_coverage": 0.31,
+        "pipeline_coverage_raw": 4.9,
+        "avg_deal_size": 128409,
         "sf_meetings": 81,
         "tech_demos": 16,
         "site_visits": 0,
         "deals_per_meeting": 0.67,
-        "win_rate": 0.8
+        "win_rate": 1.7
       },
       "hygiene": {
-        "score": 68,
-        "flagged_deals": 21,
-        "stuck_deals": 19,
-        "top_issue": "29% of deals aged beyond stage threshold. 2 deals with low or missing amounts."
+        "score": 55,
+        "flagged_deals": 29,
+        "stuck_deals": 26,
+        "top_issue": "40% of deals aged beyond stage threshold. 3 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 278011,
-        "ninety_day_forecast": 659382,
-        "monthly_vs_quota_pct": 58,
-        "quarterly_vs_quota_pct": 73
+        "monthly_forecast": 268350,
+        "ninety_day_forecast": 477576,
+        "monthly_vs_quota_pct": 70,
+        "quarterly_vs_quota_pct": 67
       },
       "top_stuck_deals": [
         {
           "account": "Auto Lenders",
           "amount": 635651.68,
           "stage": "Committed",
-          "age_days": 112,
+          "age_days": 118,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -2499,7 +2227,7 @@
           "account": "Berkshire Hathaway",
           "amount": 440149.2,
           "stage": "Proposal",
-          "age_days": 166,
+          "age_days": 172,
           "hygiene_flag": "stuck",
           "product_solution": "CBC",
           "flat_rate_product_type": "",
@@ -2509,7 +2237,7 @@
           "account": "Paul Miller Auto Group",
           "amount": 303931.96,
           "stage": "Committed",
-          "age_days": 42,
+          "age_days": 48,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Protect",
@@ -2519,61 +2247,34 @@
           "account": "Automotive Avenues_Group Parent",
           "amount": 272843.2,
           "stage": "Proposal",
-          "age_days": 115,
+          "age_days": 121,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
           "rep_certified": false
         },
         {
-          "account": "Legend Auto Group",
-          "amount": 96000.0,
-          "stage": "Tech Demo",
-          "age_days": 166,
+          "account": "Car Revolution",
+          "amount": 100000.0,
+          "stage": "Proposal",
+          "age_days": 80,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.26,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.34,
-        "month_2_prob": 0.22,
-        "month_3_prob": 0.26,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 34.1,
-        "intervention_urgency": "act_now",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 34% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.6x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 924% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 29,
-        "avg_conversion_rate": 0.8,
-        "avg_deal_size": 145796
+        "avg_composite": 32,
+        "avg_conversion_rate": 0.77,
+        "avg_deal_size": 174300
       },
       "prospecting": {
         "composite": 0.0,
@@ -2585,22 +2286,39 @@
         "meetings": 0,
         "opportunities": 0,
         "territory": "New Jersey",
-        "teamAvg": 4.1,
+        "teamAvg": 0.4,
         "dataStatus": "live"
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 1,
+        "events_by_type": {
+          "certification_completed": 1
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 43
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-26",
+        "days_since_coaching": 0,
+        "archetype_stability": "unknown"
       }
     },
     "Tim Canley": {
       "team": "Knievel",
       "manager": "Curtis Knievel",
-      "composite_score": 22,
-      "composite_trend": "0",
+      "composite_score": 21,
+      "composite_trend": "-1",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
-        "pipeline_creation": 50,
-        "funnel_conversion": 62
+        "pipeline_creation": 47,
+        "funnel_conversion": 59
       },
-      "coaching_archetype": "coverage_gap",
+      "coaching_archetype": "pipeline_inflation",
       "archetype_sub_type": "",
       "key_metrics": {
         "cwYTD": 0,
@@ -2608,26 +2326,26 @@
         "cwMTD": 0,
         "quota_q1": 935417,
         "attainment_pct": 0.0,
-        "pipeline_value": 2310000,
-        "pipeline_opps": 14,
+        "pipeline_value": 2862500,
+        "pipeline_opps": 13,
         "pipeline_coverage": 0.21,
-        "pipeline_coverage_raw": 2.5,
-        "avg_deal_size": 165000,
+        "pipeline_coverage_raw": 3.1,
+        "avg_deal_size": 220192,
         "sf_meetings": 15,
         "tech_demos": 0,
         "site_visits": 0,
-        "deals_per_meeting": 0.93,
+        "deals_per_meeting": 0.87,
         "win_rate": 0.0
       },
       "hygiene": {
-        "score": 71,
-        "flagged_deals": 4,
+        "score": 77,
+        "flagged_deals": 3,
         "stuck_deals": 3,
-        "top_issue": "21% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
+        "top_issue": "23% of deals aged beyond stage threshold."
       },
       "forecast": {
         "monthly_forecast": 175912,
-        "ninety_day_forecast": 194346,
+        "ninety_day_forecast": 195994,
         "monthly_vs_quota_pct": 64,
         "quarterly_vs_quota_pct": 21
       },
@@ -2636,7 +2354,7 @@
           "account": "A2Z Sync Group Parent",
           "amount": 350000.0,
           "stage": "Solution Fit",
-          "age_days": 70,
+          "age_days": 76,
           "hygiene_flag": "stuck",
           "product_solution": "Payments",
           "flat_rate_product_type": "",
@@ -2646,7 +2364,7 @@
           "account": "Orbee",
           "amount": 157500.0,
           "stage": "Committed",
-          "age_days": 70,
+          "age_days": 76,
           "hygiene_flag": "stuck",
           "product_solution": "Payments",
           "flat_rate_product_type": "",
@@ -2656,61 +2374,41 @@
           "account": "Nabthat",
           "amount": 150000.0,
           "stage": "Solution Fit",
-          "age_days": 70,
+          "age_days": 76,
           "hygiene_flag": "stuck",
-          "product_solution": "Payments",
-          "flat_rate_product_type": "",
-          "rep_certified": false
-        },
-        {
-          "account": "TrueCar, Inc.",
-          "amount": 0,
-          "stage": "Solution Fit",
-          "age_days": 5,
-          "hygiene_flag": "low_amount",
           "product_solution": "Payments",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.05,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.0,
-        "month_2_prob": 0.04,
-        "month_3_prob": 0.05,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 0.0,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 0% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.2x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 143% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 29,
-        "avg_conversion_rate": 0.8,
-        "avg_deal_size": 145796
+        "avg_composite": 32,
+        "avg_conversion_rate": 0.77,
+        "avg_deal_size": 174300
+      },
+      "coaching_effectiveness": {
+        "coaching_events_90d": 6,
+        "events_by_type": {
+          "certification_completed": 6
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 21
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-09",
+        "days_since_coaching": 17,
+        "archetype_stability": "unknown"
       }
     },
     "Nick Moyes": {
@@ -2747,11 +2445,11 @@
         "score": 50,
         "flagged_deals": 2,
         "stuck_deals": 1,
-        "top_issue": "25% of deals aged beyond stage threshold. 25% of deals have overdue close dates."
+        "top_issue": "25% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
       },
       "forecast": {
         "monthly_forecast": 0,
-        "ninety_day_forecast": 2738,
+        "ninety_day_forecast": 2535,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 0
       },
@@ -2760,7 +2458,7 @@
           "account": "Star Ford Lincoln, Inc.",
           "amount": 24000.0,
           "stage": "Solution Fit",
-          "age_days": 69,
+          "age_days": 75,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -2770,69 +2468,59 @@
           "account": "Florida Automobile Dealers Association",
           "amount": 0,
           "stage": "Solution Fit",
-          "age_days": 41,
+          "age_days": 47,
           "hygiene_flag": "low_amount",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
           "rep_certified": false
         }
       ],
-      "trajectory": {
-        "quota_hit_probability": 0.0,
-        "risk_level": "high",
-        "confidence": 1.0,
-        "month_1_prob": 0.0,
-        "month_2_prob": 0.0,
-        "month_3_prob": 0.0,
-        "trajectory_direction": "steady",
-        "projected_attainment_pct": 0.0,
-        "intervention_urgency": "urgent",
-        "key_drivers": [
-          {
-            "factor": "booking_pace",
-            "impact": "negative",
-            "detail": "Only 0% of needed pace"
-          },
-          {
-            "factor": "pipeline_coverage",
-            "impact": "negative",
-            "detail": "Only 0.0x coverage \u2014 gap identified"
-          },
-          {
-            "factor": "activity_velocity",
-            "impact": "positive",
-            "detail": "Demo count at 257% of org pace"
-          }
-        ]
-      },
+      "trajectory": null,
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 29,
-        "avg_conversion_rate": 0.8,
-        "avg_deal_size": 145796
+        "avg_composite": 32,
+        "avg_conversion_rate": 0.77,
+        "avg_deal_size": 174300
       },
-      "isHidden": true
+      "isHidden": true,
+      "coaching_effectiveness": {
+        "coaching_events_90d": 3,
+        "events_by_type": {
+          "certification_completed": 3
+        },
+        "composite_trend_180d": [
+          {
+            "date": "2026-04-26",
+            "score": 5
+          }
+        ],
+        "best_intervention": null,
+        "coaching_responsiveness": "unknown",
+        "last_coached_date": "2026-04-26",
+        "days_since_coaching": 0,
+        "archetype_stability": "unknown"
+      }
     },
     "Curtis Knievel": {
       "role": "manager",
       "team": "Knievel",
       "manager": "Michael Byrd",
       "isHidden": true,
-      "composite_score": 21,
-      "composite_trend": "0",
+      "composite_score": 23,
+      "composite_trend": "+2",
       "dimension_scores": {
-        "cw_bookings": 5,
-        "quota_attainment": 1,
-        "pipeline_creation": 55,
-        "funnel_conversion": 39
+        "cw_bookings": 11,
+        "quota_attainment": 3,
+        "pipeline_creation": 54,
+        "funnel_conversion": 38
       },
-      "coaching_archetype": "conversion_problem",
-      "archetype_pattern": "conversion_problem (2 of 3 reps)",
+      "coaching_archetype": "deal_velocity",
+      "archetype_pattern": "deal_velocity (1 of 3 reps)",
       "weakest_rep": {
         "name": "Nick Moyes",
         "composite_score": 5,
@@ -2840,15 +2528,15 @@
         "attainment_pct": 0.0
       },
       "key_metrics": {
-        "team_cw_ytd": 582771,
-        "team_cw_mtd": 65851,
+        "team_cw_ytd": 660933,
+        "team_cw_mtd": 144013,
         "team_q1_quota": 3705990,
-        "team_attainment_pct": 1.8,
-        "team_pipeline_value": 10737496,
-        "team_pipeline_opps": 83,
-        "team_weighted_coverage": 0.24,
+        "team_attainment_pct": 3.9,
+        "team_pipeline_value": 11408093,
+        "team_pipeline_opps": 82,
+        "team_weighted_coverage": 0.19,
         "team_funnel_meetings": 139,
-        "team_deals_per_meeting": 0.6,
+        "team_deals_per_meeting": 0.59,
         "direct_report_count": 3
       },
       "personal_cw": {
@@ -2857,15 +2545,15 @@
         "note": "Personal deals \u2014 outliers, hidden from leaderboard, included in company totals"
       },
       "hygiene": {
-        "score": 67,
-        "flagged_deals": 27,
-        "stuck_deals": 23,
-        "top_issue": "Team has 27 flagged deals across 3 reps."
+        "score": 59,
+        "flagged_deals": 34,
+        "stuck_deals": 30,
+        "top_issue": "Team has 34 flagged deals across 3 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 453923,
-        "team_ninety_day_forecast": 856466,
-        "team_quarterly_vs_quota_pct": 39
+        "team_monthly_forecast": 444262,
+        "team_ninety_day_forecast": 676105,
+        "team_quarterly_vs_quota_pct": 36
       },
       "direct_reports": [
         {
@@ -2875,14 +2563,14 @@
           "attainment_pct": 0.0,
           "pipeline_coverage": 0.0,
           "hygiene_score": 50,
-          "top_issue": "25% of deals aged beyond stage threshold. 25% of deals have overdue close dates.",
+          "top_issue": "25% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
           "stuck_deals": 1,
           "top_stuck_deals": [
             {
               "account": "Star Ford Lincoln, Inc.",
               "amount": 24000.0,
               "stage": "Solution Fit",
-              "age_days": 69,
+              "age_days": 75,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "",
@@ -2892,31 +2580,29 @@
               "account": "Florida Automobile Dealers Association",
               "amount": 0,
               "stage": "Solution Fit",
-              "age_days": 41,
+              "age_days": 47,
               "hygiene_flag": "low_amount",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.0,
-          "trajectory_risk": "high"
+          ]
         },
         {
           "name": "Tim Canley",
-          "composite_score": 22,
-          "coaching_archetype": "coverage_gap",
+          "composite_score": 21,
+          "coaching_archetype": "pipeline_inflation",
           "attainment_pct": 0.0,
           "pipeline_coverage": 0.21,
-          "hygiene_score": 71,
-          "top_issue": "21% of deals aged beyond stage threshold. 1 deals with low or missing amounts.",
+          "hygiene_score": 77,
+          "top_issue": "23% of deals aged beyond stage threshold.",
           "stuck_deals": 3,
           "top_stuck_deals": [
             {
               "account": "A2Z Sync Group Parent",
               "amount": 350000.0,
               "stage": "Solution Fit",
-              "age_days": 70,
+              "age_days": 76,
               "hygiene_flag": "stuck",
               "product_solution": "Payments",
               "flat_rate_product_type": "",
@@ -2926,31 +2612,29 @@
               "account": "Orbee",
               "amount": 157500.0,
               "stage": "Committed",
-              "age_days": 70,
+              "age_days": 76,
               "hygiene_flag": "stuck",
               "product_solution": "Payments",
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.05,
-          "trajectory_risk": "high"
+          ]
         },
         {
           "name": "Crly Alvarado",
-          "composite_score": 36,
-          "coaching_archetype": "conversion_problem",
-          "attainment_pct": 3.9,
-          "pipeline_coverage": 0.4,
-          "hygiene_score": 68,
-          "top_issue": "29% of deals aged beyond stage threshold. 2 deals with low or missing amounts.",
-          "stuck_deals": 19,
+          "composite_score": 43,
+          "coaching_archetype": "deal_velocity",
+          "attainment_pct": 8.4,
+          "pipeline_coverage": 0.31,
+          "hygiene_score": 55,
+          "top_issue": "40% of deals aged beyond stage threshold. 3 deals with low or missing amounts.",
+          "stuck_deals": 26,
           "top_stuck_deals": [
             {
               "account": "Auto Lenders",
               "amount": 635651.68,
               "stage": "Committed",
-              "age_days": 112,
+              "age_days": 118,
               "hygiene_flag": "stuck",
               "product_solution": "Full Bundled Solution",
               "flat_rate_product_type": "Control",
@@ -2960,15 +2644,13 @@
               "account": "Berkshire Hathaway",
               "amount": 440149.2,
               "stage": "Proposal",
-              "age_days": 166,
+              "age_days": 172,
               "hygiene_flag": "stuck",
               "product_solution": "CBC",
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ],
-          "trajectory_probability": 0.26,
-          "trajectory_risk": "high"
+          ]
         }
       ],
       "top_team_stuck_deals": [
@@ -2976,7 +2658,7 @@
           "account": "Auto Lenders",
           "amount": 635651.68,
           "stage": "Committed",
-          "age_days": 112,
+          "age_days": 118,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Control",
@@ -2987,7 +2669,7 @@
           "account": "Berkshire Hathaway",
           "amount": 440149.2,
           "stage": "Proposal",
-          "age_days": 166,
+          "age_days": 172,
           "hygiene_flag": "stuck",
           "product_solution": "CBC",
           "flat_rate_product_type": "",
@@ -2998,7 +2680,7 @@
           "account": "A2Z Sync Group Parent",
           "amount": 350000.0,
           "stage": "Solution Fit",
-          "age_days": 70,
+          "age_days": 76,
           "hygiene_flag": "stuck",
           "product_solution": "Payments",
           "flat_rate_product_type": "",
@@ -3009,7 +2691,7 @@
           "account": "Paul Miller Auto Group",
           "amount": 303931.96,
           "stage": "Committed",
-          "age_days": 42,
+          "age_days": 48,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "Protect",
@@ -3020,7 +2702,7 @@
           "account": "Automotive Avenues_Group Parent",
           "amount": 272843.2,
           "stage": "Proposal",
-          "age_days": 115,
+          "age_days": 121,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -3031,7 +2713,7 @@
           "account": "Orbee",
           "amount": 157500.0,
           "stage": "Committed",
-          "age_days": 70,
+          "age_days": 76,
           "hygiene_flag": "stuck",
           "product_solution": "Payments",
           "flat_rate_product_type": "",
@@ -3042,7 +2724,7 @@
           "account": "Nabthat",
           "amount": 150000.0,
           "stage": "Solution Fit",
-          "age_days": 70,
+          "age_days": 76,
           "hygiene_flag": "stuck",
           "product_solution": "Payments",
           "flat_rate_product_type": "",
@@ -3050,10 +2732,10 @@
           "rep": "Tim Canley"
         },
         {
-          "account": "Legend Auto Group",
-          "amount": 96000.0,
-          "stage": "Tech Demo",
-          "age_days": 166,
+          "account": "Car Revolution",
+          "amount": 100000.0,
+          "stage": "Proposal",
+          "age_days": 80,
           "hygiene_flag": "stuck",
           "product_solution": "Full Bundled Solution",
           "flat_rate_product_type": "",
@@ -3062,26 +2744,15 @@
         }
       ],
       "org_benchmarks": {
-        "avg_composite": 22,
-        "avg_conversion_rate": 0.87,
-        "avg_deal_size": 158566,
-        "top_converter": "Clarence Romero"
+        "avg_composite": 23,
+        "avg_conversion_rate": 0.73,
+        "avg_deal_size": 164376,
+        "top_converter": "Tami Richter"
       },
       "team_benchmarks": {
-        "avg_composite": 29,
-        "avg_conversion_rate": 0.8,
-        "avg_deal_size": 145796
-      },
-      "team_trajectory": {
-        "avg_quota_hit_probability": 0.103,
-        "reps_at_risk": 3,
-        "at_risk_names": [
-          "Crly Alvarado",
-          "Tim Canley",
-          "Nick Moyes"
-        ],
-        "reps_on_track": 0,
-        "team_risk_level": "high"
+        "avg_composite": 32,
+        "avg_conversion_rate": 0.77,
+        "avg_deal_size": 174300
       }
     }
   }
