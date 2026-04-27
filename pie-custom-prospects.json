@@ -232,6 +232,15 @@
         "role": "contact",
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-27T20:32:10.957Z"
+      },
+      {
+        "contact_name": "Lisa Hill",
+        "title": "",
+        "email": "lhill@rustywallacenissan.com",
+        "phone": "",
+        "role": "dm_group",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-27T20:33:34.402Z"
       }
     ],
     "95e5ed620626e31b": [
@@ -336,10 +345,11 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-27T20:32:10.957Z",
+  "last_modified": "2026-04-27T20:33:34.402Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
-      "2": "contact"
+      "2": "contact",
+      "3": "dm_group"
     }
   }
 }
