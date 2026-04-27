@@ -53,6 +53,8 @@
     "data/pie-data-nn.json",
     "data/pie-data-cs.json",
     "data/pie-data-aff.json",
+    "data/sfdc-rep-summary.json",
+    "data/sfdc-pipeline.json",
   ]
 
 # === Route Rewrites ===
@@ -308,6 +310,16 @@
 [[redirects]]
   from = "/api/data/pie-aff"
   to = "/.netlify/functions/data-pie-aff"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/sfdc-rep-summary"
+  to = "/.netlify/functions/data-sfdc-rep-summary"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/sfdc-pipeline"
+  to = "/.netlify/functions/data-sfdc-pipeline"
   status = 200
 
 [[redirects]]

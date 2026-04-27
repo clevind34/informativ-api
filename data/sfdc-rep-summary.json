@@ -1,0 +1,1043 @@
+{
+  "computed_at": "2026-04-27T22:42:52.074123+00:00",
+  "data_source": "salesforce_mcp_cache",
+  "org_summary": {
+    "reps_total": 13,
+    "reps_active_today": 10,
+    "reps_active_week": 11,
+    "reps_active_month": 13,
+    "total_today": 53,
+    "total_week": 121,
+    "total_month": 1274,
+    "total_90d": 3746,
+    "stage_changes_week": 38,
+    "stage_changes_month": 763,
+    "pipeline_count": 319,
+    "pipeline_amount": 47817078.26,
+    "stale_opps": 242
+  },
+  "team_summaries": {
+    "Teresa Bordenet": {
+      "team": "Bordenet",
+      "reps": 7,
+      "active_reps_week": 6,
+      "active_reps_month": 7,
+      "total_today": 29,
+      "total_week": 104,
+      "total_month": 938,
+      "total_90d": 2343,
+      "stage_changes_week": 13,
+      "stage_changes_month": 484,
+      "pipeline_count": 179,
+      "pipeline_amount": 30575862.89,
+      "stale_opps": 139
+    },
+    "Joel Carlucci": {
+      "team": "Carlucci",
+      "reps": 5,
+      "active_reps_week": 4,
+      "active_reps_month": 5,
+      "total_today": 29,
+      "total_week": 33,
+      "total_month": 411,
+      "total_90d": 2038,
+      "stage_changes_week": 9,
+      "stage_changes_month": 229,
+      "pipeline_count": 65,
+      "pipeline_amount": 5955804.32,
+      "stale_opps": 22
+    },
+    "Curtis Knievel": {
+      "team": "Knievel",
+      "reps": 3,
+      "active_reps_week": 2,
+      "active_reps_month": 3,
+      "total_today": 4,
+      "total_week": 9,
+      "total_month": 95,
+      "total_90d": 574,
+      "stage_changes_week": 17,
+      "stage_changes_month": 165,
+      "pipeline_count": 96,
+      "pipeline_amount": 12936456.71,
+      "stale_opps": 91
+    }
+  },
+  "rep_summaries": [
+    {
+      "rep": "Ashton Gough",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 48,
+        "tasks_90d": 505,
+        "events_today": 0,
+        "events_week": 2,
+        "events_month": 31,
+        "events_90d": 125,
+        "total_today": 0,
+        "total_week": 2,
+        "total_month": 79,
+        "total_90d": 630
+      },
+      "activity_breakdown_90d": {
+        "calls": 499,
+        "emails": 1,
+        "meetings_logged": 0,
+        "events_calendar": 125,
+        "meetings_combined": 125,
+        "site_visits": 1,
+        "voicemails": 0,
+        "texts": 3,
+        "other": 1
+      },
+      "pipeline_movement": {
+        "changes_today": 4,
+        "changes_week": 4,
+        "changes_month": 59,
+        "changes_90d": 292
+      },
+      "pipeline": {
+        "open_opp_count": 19,
+        "open_opp_amount": 1880883.36,
+        "stale_opp_count": 10,
+        "opps_with_recent_activity": 4,
+        "opps_no_activity_ever": 4,
+        "engagement_pct": 21.1
+      }
+    },
+    {
+      "rep": "Brock Hutchinson",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 10,
+        "tasks_week": 11,
+        "tasks_month": 35,
+        "tasks_90d": 67,
+        "events_today": 0,
+        "events_week": 0,
+        "events_month": 1,
+        "events_90d": 4,
+        "total_today": 10,
+        "total_week": 11,
+        "total_month": 36,
+        "total_90d": 71
+      },
+      "activity_breakdown_90d": {
+        "calls": 57,
+        "emails": 9,
+        "meetings_logged": 0,
+        "events_calendar": 4,
+        "meetings_combined": 4,
+        "site_visits": 1,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 3,
+        "changes_week": 3,
+        "changes_month": 18,
+        "changes_90d": 76
+      },
+      "pipeline": {
+        "open_opp_count": 11,
+        "open_opp_amount": 1579800.0,
+        "stale_opp_count": 1,
+        "opps_with_recent_activity": 10,
+        "opps_no_activity_ever": 1,
+        "engagement_pct": 90.9
+      }
+    },
+    {
+      "rep": "Carol Sanford",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 2,
+        "tasks_week": 4,
+        "tasks_month": 159,
+        "tasks_90d": 377,
+        "events_today": 0,
+        "events_week": 5,
+        "events_month": 60,
+        "events_90d": 203,
+        "total_today": 2,
+        "total_week": 9,
+        "total_month": 219,
+        "total_90d": 580
+      },
+      "activity_breakdown_90d": {
+        "calls": 232,
+        "emails": 33,
+        "meetings_logged": 6,
+        "events_calendar": 203,
+        "meetings_combined": 209,
+        "site_visits": 33,
+        "voicemails": 31,
+        "texts": 36,
+        "other": 6
+      },
+      "pipeline_movement": {
+        "changes_today": 2,
+        "changes_week": 2,
+        "changes_month": 114,
+        "changes_90d": 475
+      },
+      "pipeline": {
+        "open_opp_count": 24,
+        "open_opp_amount": 8566701.58,
+        "stale_opp_count": 14,
+        "opps_with_recent_activity": 9,
+        "opps_no_activity_ever": 3,
+        "engagement_pct": 37.5
+      }
+    },
+    {
+      "rep": "Clarence Romero",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 113,
+        "tasks_90d": 113,
+        "events_today": 1,
+        "events_week": 6,
+        "events_month": 40,
+        "events_90d": 36,
+        "total_today": 1,
+        "total_week": 6,
+        "total_month": 153,
+        "total_90d": 149
+      },
+      "activity_breakdown_90d": {
+        "calls": 66,
+        "emails": 47,
+        "meetings_logged": 0,
+        "events_calendar": 36,
+        "meetings_combined": 36,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 1,
+        "changes_week": 1,
+        "changes_month": 10,
+        "changes_90d": 31
+      },
+      "pipeline": {
+        "open_opp_count": 7,
+        "open_opp_amount": 261631.72,
+        "stale_opp_count": 3,
+        "opps_with_recent_activity": 2,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 28.6
+      }
+    },
+    {
+      "rep": "Crly Alvarado",
+      "team": "Knievel",
+      "manager": "Curtis Knievel",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 9,
+        "tasks_90d": 55,
+        "events_today": 1,
+        "events_week": 3,
+        "events_month": 41,
+        "events_90d": 165,
+        "total_today": 1,
+        "total_week": 3,
+        "total_month": 50,
+        "total_90d": 220
+      },
+      "activity_breakdown_90d": {
+        "calls": 31,
+        "emails": 14,
+        "meetings_logged": 6,
+        "events_calendar": 165,
+        "meetings_combined": 171,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 4
+      },
+      "pipeline_movement": {
+        "changes_today": 13,
+        "changes_week": 13,
+        "changes_month": 127,
+        "changes_90d": 578
+      },
+      "pipeline": {
+        "open_opp_count": 68,
+        "open_opp_amount": 8954956.71,
+        "stale_opp_count": 66,
+        "opps_with_recent_activity": 1,
+        "opps_no_activity_ever": 41,
+        "engagement_pct": 1.5
+      }
+    },
+    {
+      "rep": "Curtis Knievel",
+      "team": "Knievel",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 0,
+        "events_today": 0,
+        "events_week": 2,
+        "events_month": 10,
+        "events_90d": 22,
+        "total_today": 0,
+        "total_week": 2,
+        "total_month": 10,
+        "total_90d": 22
+      },
+      "activity_breakdown_90d": {
+        "calls": 0,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 22,
+        "meetings_combined": 22,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 4,
+        "changes_90d": 55
+      },
+      "pipeline": {
+        "open_opp_count": 23,
+        "open_opp_amount": 5102500.0,
+        "stale_opp_count": 23,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 18,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "David Castone",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": true,
+      "is_departed": true,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 6,
+        "tasks_90d": 254,
+        "events_today": 0,
+        "events_week": 0,
+        "events_month": 6,
+        "events_90d": 76,
+        "total_today": 0,
+        "total_week": 0,
+        "total_month": 12,
+        "total_90d": 330
+      },
+      "activity_breakdown_90d": {
+        "calls": 206,
+        "emails": 2,
+        "meetings_logged": 0,
+        "events_calendar": 76,
+        "meetings_combined": 76,
+        "site_visits": 45,
+        "voicemails": 1,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 77,
+        "changes_90d": 338
+      },
+      "pipeline": {
+        "open_opp_count": 3,
+        "open_opp_amount": 707800.0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 3,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 100.0
+      }
+    },
+    {
+      "rep": "Joel Carlucci",
+      "team": "Carlucci",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 19,
+        "tasks_month": 214,
+        "tasks_90d": 430,
+        "events_today": 1,
+        "events_week": 2,
+        "events_month": 16,
+        "events_90d": 74,
+        "total_today": 1,
+        "total_week": 21,
+        "total_month": 230,
+        "total_90d": 504
+      },
+      "activity_breakdown_90d": {
+        "calls": 368,
+        "emails": 50,
+        "meetings_logged": 6,
+        "events_calendar": 74,
+        "meetings_combined": 80,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 6,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 102,
+        "changes_90d": 201
+      },
+      "pipeline": {
+        "open_opp_count": 9,
+        "open_opp_amount": 661875.28,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 9,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 100.0
+      }
+    },
+    {
+      "rep": "Kiristen Sandoval",
+      "team": "CS",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 1,
+        "tasks_90d": 7,
+        "events_today": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 1,
+        "total_today": 0,
+        "total_week": 0,
+        "total_month": 1,
+        "total_90d": 8
+      },
+      "activity_breakdown_90d": {
+        "calls": 3,
+        "emails": 4,
+        "meetings_logged": 0,
+        "events_calendar": 1,
+        "meetings_combined": 1,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 14,
+        "changes_90d": 268
+      },
+      "pipeline": {
+        "open_opp_count": 3,
+        "open_opp_amount": 491514.6,
+        "stale_opp_count": 3,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Loren Rivera",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": true,
+      "is_departed": true,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 62,
+        "events_today": 0,
+        "events_week": 0,
+        "events_month": 7,
+        "events_90d": 121,
+        "total_today": 0,
+        "total_week": 0,
+        "total_month": 7,
+        "total_90d": 183
+      },
+      "activity_breakdown_90d": {
+        "calls": 62,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 121,
+        "meetings_combined": 121,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 8,
+        "changes_90d": 103
+      },
+      "pipeline": {
+        "open_opp_count": 0,
+        "open_opp_amount": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Matt Hanaman",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 11,
+        "tasks_week": 42,
+        "tasks_month": 90,
+        "tasks_90d": 222,
+        "events_today": 0,
+        "events_week": 7,
+        "events_month": 57,
+        "events_90d": 186,
+        "total_today": 11,
+        "total_week": 49,
+        "total_month": 147,
+        "total_90d": 408
+      },
+      "activity_breakdown_90d": {
+        "calls": 221,
+        "emails": 0,
+        "meetings_logged": 1,
+        "events_calendar": 186,
+        "meetings_combined": 187,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 7,
+        "changes_week": 7,
+        "changes_month": 93,
+        "changes_90d": 411
+      },
+      "pipeline": {
+        "open_opp_count": 20,
+        "open_opp_amount": 6061271.84,
+        "stale_opp_count": 11,
+        "opps_with_recent_activity": 8,
+        "opps_no_activity_ever": 8,
+        "engagement_pct": 40.0
+      }
+    },
+    {
+      "rep": "Michael Byrd",
+      "team": "Executive",
+      "manager": null,
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 59,
+        "tasks_90d": 100,
+        "events_today": 0,
+        "events_week": 0,
+        "events_month": 1,
+        "events_90d": 6,
+        "total_today": 0,
+        "total_week": 0,
+        "total_month": 60,
+        "total_90d": 106
+      },
+      "activity_breakdown_90d": {
+        "calls": 100,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 6,
+        "meetings_combined": 6,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 0,
+        "open_opp_amount": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Nick Moyes",
+      "team": "Knievel",
+      "manager": "Curtis Knievel",
+      "is_hidden": true,
+      "is_departed": true,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 39,
+        "events_today": 0,
+        "events_week": 0,
+        "events_month": 4,
+        "events_90d": 176,
+        "total_today": 0,
+        "total_week": 0,
+        "total_month": 4,
+        "total_90d": 215
+      },
+      "activity_breakdown_90d": {
+        "calls": 13,
+        "emails": 18,
+        "meetings_logged": 4,
+        "events_calendar": 176,
+        "meetings_combined": 180,
+        "site_visits": 0,
+        "voicemails": 4,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 1,
+        "changes_90d": 65
+      },
+      "pipeline": {
+        "open_opp_count": 12,
+        "open_opp_amount": 199000.0,
+        "stale_opp_count": 12,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 7,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Samir Benhammou",
+      "team": "RevOps",
+      "manager": "Michael Byrd",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 2,
+        "tasks_90d": 3,
+        "events_today": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 0,
+        "total_today": 0,
+        "total_week": 0,
+        "total_month": 2,
+        "total_90d": 3
+      },
+      "activity_breakdown_90d": {
+        "calls": 3,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 0,
+        "meetings_combined": 0,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 1,
+        "changes_90d": 3
+      },
+      "pipeline": {
+        "open_opp_count": 4,
+        "open_opp_amount": 414033.68,
+        "stale_opp_count": 3,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Tami Richter",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 1,
+        "tasks_90d": 3,
+        "events_today": 3,
+        "events_week": 8,
+        "events_month": 44,
+        "events_90d": 127,
+        "total_today": 3,
+        "total_week": 8,
+        "total_month": 45,
+        "total_90d": 130
+      },
+      "activity_breakdown_90d": {
+        "calls": 3,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 127,
+        "meetings_combined": 127,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 1,
+        "changes_week": 1,
+        "changes_month": 145,
+        "changes_90d": 633
+      },
+      "pipeline": {
+        "open_opp_count": 94,
+        "open_opp_amount": 10707529.69,
+        "stale_opp_count": 92,
+        "opps_with_recent_activity": 2,
+        "opps_no_activity_ever": 68,
+        "engagement_pct": 2.1
+      }
+    },
+    {
+      "rep": "Teresa Bordenet",
+      "team": "Bordenet",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 0,
+        "events_today": 0,
+        "events_week": 6,
+        "events_month": 17,
+        "events_90d": 12,
+        "total_today": 0,
+        "total_week": 6,
+        "total_month": 17,
+        "total_90d": 12
+      },
+      "activity_breakdown_90d": {
+        "calls": 0,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 12,
+        "meetings_combined": 12,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 1,
+        "changes_90d": 1
+      },
+      "pipeline": {
+        "open_opp_count": 1,
+        "open_opp_amount": 0.0,
+        "stale_opp_count": 1,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 1,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Tim Canley",
+      "team": "Knievel",
+      "manager": "Curtis Knievel",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 0,
+        "tasks_week": 0,
+        "tasks_month": 4,
+        "tasks_90d": 42,
+        "events_today": 3,
+        "events_week": 6,
+        "events_month": 37,
+        "events_90d": 97,
+        "total_today": 3,
+        "total_week": 6,
+        "total_month": 41,
+        "total_90d": 139
+      },
+      "activity_breakdown_90d": {
+        "calls": 5,
+        "emails": 35,
+        "meetings_logged": 0,
+        "events_calendar": 97,
+        "meetings_combined": 97,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 2
+      },
+      "pipeline_movement": {
+        "changes_today": 4,
+        "changes_week": 4,
+        "changes_month": 37,
+        "changes_90d": 79
+      },
+      "pipeline": {
+        "open_opp_count": 16,
+        "open_opp_amount": 3782500.0,
+        "stale_opp_count": 13,
+        "opps_with_recent_activity": 1,
+        "opps_no_activity_ever": 9,
+        "engagement_pct": 6.2
+      }
+    },
+    {
+      "rep": "Tom Meredith",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": true,
+      "is_departed": true,
+      "activity": {
+        "tasks_today": 4,
+        "tasks_week": 4,
+        "tasks_month": 119,
+        "tasks_90d": 392,
+        "events_today": 5,
+        "events_week": 21,
+        "events_month": 90,
+        "events_90d": 198,
+        "total_today": 9,
+        "total_week": 25,
+        "total_month": 209,
+        "total_90d": 590
+      },
+      "activity_breakdown_90d": {
+        "calls": 390,
+        "emails": 0,
+        "meetings_logged": 2,
+        "events_calendar": 198,
+        "meetings_combined": 200,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 1,
+        "changes_week": 1,
+        "changes_month": 30,
+        "changes_90d": 225
+      },
+      "pipeline": {
+        "open_opp_count": 10,
+        "open_opp_amount": 1158279.34,
+        "stale_opp_count": 1,
+        "opps_with_recent_activity": 8,
+        "opps_no_activity_ever": 1,
+        "engagement_pct": 80.0
+      }
+    },
+    {
+      "rep": "Trish Smith",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 2,
+        "tasks_week": 2,
+        "tasks_month": 132,
+        "tasks_90d": 195,
+        "events_today": 1,
+        "events_week": 5,
+        "events_month": 26,
+        "events_90d": 108,
+        "total_today": 3,
+        "total_week": 7,
+        "total_month": 158,
+        "total_90d": 303
+      },
+      "activity_breakdown_90d": {
+        "calls": 190,
+        "emails": 2,
+        "meetings_logged": 0,
+        "events_calendar": 108,
+        "meetings_combined": 108,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 3,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 1,
+        "changes_week": 1,
+        "changes_month": 84,
+        "changes_90d": 295
+      },
+      "pipeline": {
+        "open_opp_count": 24,
+        "open_opp_amount": 3820448.72,
+        "stale_opp_count": 18,
+        "opps_with_recent_activity": 4,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 16.7
+      }
+    },
+    {
+      "rep": "Ward Carroll",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 3,
+        "tasks_week": 3,
+        "tasks_month": 75,
+        "tasks_90d": 405,
+        "events_today": 1,
+        "events_week": 1,
+        "events_month": 33,
+        "events_90d": 110,
+        "total_today": 4,
+        "total_week": 4,
+        "total_month": 108,
+        "total_90d": 515
+      },
+      "activity_breakdown_90d": {
+        "calls": 329,
+        "emails": 5,
+        "meetings_logged": 0,
+        "events_calendar": 110,
+        "meetings_combined": 110,
+        "site_visits": 41,
+        "voicemails": 20,
+        "texts": 9,
+        "other": 1
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_week": 0,
+        "changes_month": 28,
+        "changes_90d": 179
+      },
+      "pipeline": {
+        "open_opp_count": 20,
+        "open_opp_amount": 1399200.0,
+        "stale_opp_count": 11,
+        "opps_with_recent_activity": 9,
+        "opps_no_activity_ever": 5,
+        "engagement_pct": 45.0
+      }
+    },
+    {
+      "rep": "William Fowler",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "activity": {
+        "tasks_today": 14,
+        "tasks_week": 15,
+        "tasks_month": 157,
+        "tasks_90d": 403,
+        "events_today": 1,
+        "events_week": 1,
+        "events_month": 19,
+        "events_90d": 89,
+        "total_today": 15,
+        "total_week": 16,
+        "total_month": 176,
+        "total_90d": 492
+      },
+      "activity_breakdown_90d": {
+        "calls": 341,
+        "emails": 6,
+        "meetings_logged": 0,
+        "events_calendar": 89,
+        "meetings_combined": 89,
+        "site_visits": 29,
+        "voicemails": 3,
+        "texts": 1,
+        "other": 23
+      },
+      "pipeline_movement": {
+        "changes_today": 2,
+        "changes_week": 2,
+        "changes_month": 47,
+        "changes_90d": 247
+      },
+      "pipeline": {
+        "open_opp_count": 12,
+        "open_opp_amount": 388120.96,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 12,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 100.0
+      }
+    }
+  ],
+  "config": {
+    "stale_threshold_days": 14,
+    "window_definitions": {
+      "today": "TODAY (calendar)",
+      "week": "THIS_WEEK (Sun-Sat)",
+      "month": "THIS_MONTH (calendar)",
+      "90d": "LAST_N_DAYS:90 (rolling)"
+    }
+  }
+}
