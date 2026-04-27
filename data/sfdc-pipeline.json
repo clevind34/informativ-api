@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-04-27T23:13:24.194208+00:00",
+  "computed_at": "2026-04-27T23:13:52.713736+00:00",
   "data_source": "salesforce_mcp_cache",
   "reps": {
     "Ashton Gough": {
@@ -3285,79 +3285,6 @@
         }
       ]
     },
-    "Samir Benhammou": {
-      "team": "Unknown",
-      "manager": null,
-      "count": 4,
-      "total_amount": 414033.68,
-      "stale_count": 3,
-      "opps": [
-        {
-          "id": "006Qg00000foAXdIAM",
-          "name": "CPQ Test Account - JRW - New - Full Bundled Solution - $0 -",
-          "account": "CPQ Test Account - JRW",
-          "stage": "Solution Fit",
-          "amount": 0.0,
-          "close_date": "2026-03-31",
-          "last_activity_date": "2026-03-12",
-          "days_since_activity": 46,
-          "days_in_stage": 46,
-          "has_recent_movement": false,
-          "type": "New",
-          "is_stale": true,
-          "stale_reason": "no_activity_or_movement_30d",
-          "created": "2026-03-12"
-        },
-        {
-          "id": "006Qg00000eFdhzIAC",
-          "name": "SCS Cloud Test Account - Reprice - Full Bundled Solution - $389533.68 - Sweet's",
-          "account": "SCS Cloud Test Account",
-          "stage": "Solution Fit",
-          "amount": 389533.68,
-          "close_date": "2027-02-28",
-          "last_activity_date": "2026-04-15",
-          "days_since_activity": 12,
-          "days_in_stage": 75,
-          "has_recent_movement": true,
-          "type": "Reprice",
-          "is_stale": false,
-          "stale_reason": "active",
-          "created": "2026-02-11"
-        },
-        {
-          "id": "006Qg00000ao8KHIAY",
-          "name": "SCS Cloud Test Account - New - Payments - $24500 -",
-          "account": "SCS Cloud Test Account",
-          "stage": "Solution Fit",
-          "amount": 24500.0,
-          "close_date": "2025-12-05",
-          "last_activity_date": null,
-          "days_since_activity": null,
-          "days_in_stage": 145,
-          "has_recent_movement": false,
-          "type": "New",
-          "is_stale": true,
-          "stale_reason": "no_activity_or_movement_30d",
-          "created": "2025-12-03"
-        },
-        {
-          "id": "006Qg00000Z7Bc5IAF",
-          "name": "Test Nicole - New - CBC - $0 -",
-          "account": "Test Nicole",
-          "stage": "Solution Fit",
-          "amount": 0.0,
-          "close_date": "2025-12-31",
-          "last_activity_date": null,
-          "days_since_activity": null,
-          "days_in_stage": 179,
-          "has_recent_movement": false,
-          "type": "New",
-          "is_stale": true,
-          "stale_reason": "no_activity_or_movement_30d",
-          "created": "2025-10-30"
-        }
-      ]
-    },
     "Tami Richter": {
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
@@ -6255,8 +6182,8 @@
     }
   },
   "org_total": {
-    "count": 380,
-    "total_amount": 56138047.48,
-    "stale_count": 82
+    "count": 376,
+    "total_amount": 55724013.8,
+    "stale_count": 79
   }
 }
