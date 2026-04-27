@@ -25,17 +25,6 @@
       "wednesday": [],
       "thursday": [
         {
-          "id": "b6c10f8087a9d5b4",
-          "co": "Smart Chevrolet Company",
-          "cn": "Roger Smart",
-          "ph": "",
-          "em": "",
-          "city": "",
-          "st": "AR",
-          "type": "net_new",
-          "added_at": "2026-04-27T17:30:56.075Z"
-        },
-        {
           "id": "3799f5dfd9a9f55e",
           "co": "Giles Hyundai",
           "cn": "Robert Giles",
@@ -45,6 +34,17 @@
           "st": "LA",
           "type": "net_new",
           "added_at": "2026-04-27T17:31:23.705Z"
+        },
+        {
+          "id": "b6c10f8087a9d5b4",
+          "co": "Smart Chevrolet Company",
+          "cn": "Roger Smart",
+          "ph": "",
+          "em": "",
+          "city": "",
+          "st": "AR",
+          "type": "net_new",
+          "added_at": "2026-04-27T17:30:56.075Z"
         }
       ],
       "friday": []
@@ -144,5 +144,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-27T17:31:23.955Z"
+  "last_modified": "2026-04-27T17:31:59.111Z"
 }
