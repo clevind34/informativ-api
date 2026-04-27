@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-04-27T22:42:52.074123+00:00",
+  "computed_at": "2026-04-27T23:11:33.702891+00:00",
   "data_source": "salesforce_mcp_cache",
   "reps": {
     "Ashton Gough": {
@@ -7,7 +7,7 @@
       "manager": "Joel Carlucci",
       "count": 19,
       "total_amount": 1880883.36,
-      "stale_count": 10,
+      "stale_count": 2,
       "opps": [
         {
           "id": "006Qg00000dyGEkIAM",
@@ -19,8 +19,10 @@
           "last_activity_date": "2026-02-24",
           "days_since_activity": 62,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -33,8 +35,10 @@
           "last_activity_date": "2026-03-10",
           "days_since_activity": 48,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -47,8 +51,10 @@
           "last_activity_date": "2026-03-17",
           "days_since_activity": 41,
           "days_in_stage": 74,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-12"
         },
         {
@@ -61,8 +67,10 @@
           "last_activity_date": "2026-03-23",
           "days_since_activity": 35,
           "days_in_stage": 255,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-08-15"
         },
         {
@@ -75,8 +83,10 @@
           "last_activity_date": "2026-03-24",
           "days_since_activity": 34,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-06"
         },
         {
@@ -89,8 +99,10 @@
           "last_activity_date": "2026-03-24",
           "days_since_activity": 34,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-06"
         },
         {
@@ -103,8 +115,10 @@
           "last_activity_date": "2026-04-14",
           "days_since_activity": 13,
           "days_in_stage": 91,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-01-26"
         },
         {
@@ -117,8 +131,10 @@
           "last_activity_date": "2026-04-14",
           "days_since_activity": 13,
           "days_in_stage": 74,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-12"
         },
         {
@@ -131,8 +147,10 @@
           "last_activity_date": "2026-04-14",
           "days_since_activity": 13,
           "days_in_stage": 143,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-12-05"
         },
         {
@@ -145,8 +163,10 @@
           "last_activity_date": "2026-04-14",
           "days_since_activity": 13,
           "days_in_stage": 88,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-10-01"
         },
         {
@@ -159,8 +179,10 @@
           "last_activity_date": "2026-04-14",
           "days_since_activity": 13,
           "days_in_stage": 146,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-12-02"
         },
         {
@@ -173,8 +195,10 @@
           "last_activity_date": "2026-04-20",
           "days_since_activity": 7,
           "days_in_stage": 34,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-08-26"
         },
         {
@@ -187,8 +211,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 46,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-25"
         },
         {
@@ -201,8 +227,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 34,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-23"
         },
         {
@@ -215,8 +243,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 48,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-05"
         },
         {
@@ -229,8 +259,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 18,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-09"
         },
         {
@@ -243,8 +275,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 6,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-21"
         },
         {
@@ -257,8 +291,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 12,
+          "has_recent_movement": true,
           "type": "Upsell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-10"
         },
         {
@@ -271,8 +307,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 13,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-14"
         }
       ]
@@ -282,7 +320,7 @@
       "manager": "Joel Carlucci",
       "count": 11,
       "total_amount": 1579800.0,
-      "stale_count": 1,
+      "stale_count": 0,
       "opps": [
         {
           "id": "006Qg00000bcCcSIAU",
@@ -294,8 +332,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 130,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-12-18"
         },
         {
@@ -308,8 +348,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 81,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-05"
         },
         {
@@ -322,8 +364,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 77,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-05"
         },
         {
@@ -336,8 +380,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 49,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-09"
         },
         {
@@ -350,8 +396,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 5,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-22"
         },
         {
@@ -364,8 +412,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 10,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-17"
         },
         {
@@ -378,8 +428,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 49,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-09"
         },
         {
@@ -392,8 +444,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-06"
         },
         {
@@ -406,8 +460,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 7,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-20"
         },
         {
@@ -420,8 +476,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-27"
         },
         {
@@ -434,8 +492,10 @@
           "last_activity_date": "2026-04-28",
           "days_since_activity": -1,
           "days_in_stage": 48,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-10"
         }
       ]
@@ -445,7 +505,7 @@
       "manager": "Teresa Bordenet",
       "count": 24,
       "total_amount": 8566701.58,
-      "stale_count": 14,
+      "stale_count": 1,
       "opps": [
         {
           "id": "006Qg00000eCE1rIAG",
@@ -457,8 +517,10 @@
           "last_activity_date": "2026-02-17",
           "days_since_activity": 69,
           "days_in_stage": 76,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-10"
         },
         {
@@ -471,8 +533,10 @@
           "last_activity_date": "2026-03-03",
           "days_since_activity": 55,
           "days_in_stage": 250,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-08-20"
         },
         {
@@ -485,8 +549,10 @@
           "last_activity_date": "2026-03-03",
           "days_since_activity": 55,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -499,8 +565,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 35,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -513,8 +581,10 @@
           "last_activity_date": "2026-03-23",
           "days_since_activity": 35,
           "days_in_stage": 56,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -527,8 +597,10 @@
           "last_activity_date": "2026-03-24",
           "days_since_activity": 34,
           "days_in_stage": 27,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-24"
         },
         {
@@ -541,8 +613,10 @@
           "last_activity_date": "2026-03-24",
           "days_since_activity": 34,
           "days_in_stage": 53,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-05"
         },
         {
@@ -555,8 +629,10 @@
           "last_activity_date": "2026-03-25",
           "days_since_activity": 33,
           "days_in_stage": 55,
+          "has_recent_movement": true,
           "type": "Upsell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-25"
         },
         {
@@ -569,8 +645,10 @@
           "last_activity_date": "2026-03-27",
           "days_since_activity": 31,
           "days_in_stage": 55,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-24"
         },
         {
@@ -583,8 +661,10 @@
           "last_activity_date": "2026-03-31",
           "days_since_activity": 27,
           "days_in_stage": 49,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-05"
         },
         {
@@ -597,8 +677,10 @@
           "last_activity_date": "2026-04-06",
           "days_since_activity": 21,
           "days_in_stage": 11,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-07"
         },
         {
@@ -611,8 +693,10 @@
           "last_activity_date": "2026-04-14",
           "days_since_activity": 13,
           "days_in_stage": 144,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-11-25"
         },
         {
@@ -625,8 +709,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 76,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-10"
         },
         {
@@ -639,8 +725,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 35,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-23"
         },
         {
@@ -653,8 +741,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 46,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-12"
         },
         {
@@ -667,8 +757,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-06"
         },
         {
@@ -681,8 +773,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 6,
+          "has_recent_movement": true,
           "type": "Upsell",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-21"
         },
         {
@@ -695,8 +789,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 32,
+          "has_recent_movement": false,
           "type": "Cross Sell",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-11-13"
         },
         {
@@ -709,8 +805,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 34,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-24"
         },
         {
@@ -723,8 +821,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 3,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-24"
         },
         {
@@ -737,8 +837,10 @@
           "last_activity_date": "2026-04-28",
           "days_since_activity": -1,
           "days_in_stage": 11,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-03"
         },
         {
@@ -751,8 +853,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "Upsell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -765,8 +869,10 @@
           "last_activity_date": "2026-04-28",
           "days_since_activity": -1,
           "days_in_stage": 13,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-10"
         },
         {
@@ -779,8 +885,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 101,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-16"
         }
       ]
@@ -790,7 +898,7 @@
       "manager": "Teresa Bordenet",
       "count": 7,
       "total_amount": 261631.72,
-      "stale_count": 3,
+      "stale_count": 0,
       "opps": [
         {
           "id": "006Qg00000fH72MIAS",
@@ -802,8 +910,10 @@
           "last_activity_date": "2026-04-02",
           "days_since_activity": 25,
           "days_in_stage": 55,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-03"
         },
         {
@@ -816,8 +926,10 @@
           "last_activity_date": "2026-04-14",
           "days_since_activity": 13,
           "days_in_stage": 18,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-09"
         },
         {
@@ -830,8 +942,10 @@
           "last_activity_date": "2026-04-16",
           "days_since_activity": 11,
           "days_in_stage": 48,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-12-22"
         },
         {
@@ -844,8 +958,10 @@
           "last_activity_date": "2026-04-20",
           "days_since_activity": 7,
           "days_in_stage": 13,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-14"
         },
         {
@@ -858,8 +974,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 53,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-05"
         },
         {
@@ -872,8 +990,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-27"
         },
         {
@@ -886,8 +1006,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 52,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-06"
         }
       ]
@@ -897,7 +1019,7 @@
       "manager": "Curtis Knievel",
       "count": 68,
       "total_amount": 8954956.71,
-      "stale_count": 66,
+      "stale_count": 33,
       "opps": [
         {
           "id": "006Qg00000iFLnZIAW",
@@ -909,8 +1031,10 @@
           "last_activity_date": "2024-12-03",
           "days_since_activity": 510,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-27"
         },
         {
@@ -923,8 +1047,10 @@
           "last_activity_date": "2025-11-05",
           "days_since_activity": 173,
           "days_in_stage": 49,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-11-05"
         },
         {
@@ -937,8 +1063,10 @@
           "last_activity_date": "2025-11-06",
           "days_since_activity": 172,
           "days_in_stage": 195,
+          "has_recent_movement": false,
           "type": "Upsell",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-10-14"
         },
         {
@@ -951,8 +1079,10 @@
           "last_activity_date": "2026-01-30",
           "days_since_activity": 87,
           "days_in_stage": 67,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-19"
         },
         {
@@ -965,8 +1095,10 @@
           "last_activity_date": "2026-02-02",
           "days_since_activity": 84,
           "days_in_stage": 84,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-02"
         },
         {
@@ -979,8 +1111,10 @@
           "last_activity_date": "2026-02-09",
           "days_since_activity": 77,
           "days_in_stage": 62,
+          "has_recent_movement": false,
           "type": "Cross Sell",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-09"
         },
         {
@@ -993,8 +1127,10 @@
           "last_activity_date": "2026-02-12",
           "days_since_activity": 74,
           "days_in_stage": 67,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-19"
         },
         {
@@ -1007,8 +1143,10 @@
           "last_activity_date": "2026-02-24",
           "days_since_activity": 62,
           "days_in_stage": 72,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-12-29"
         },
         {
@@ -1021,8 +1159,10 @@
           "last_activity_date": "2026-02-26",
           "days_since_activity": 60,
           "days_in_stage": 59,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-27"
         },
         {
@@ -1035,8 +1175,10 @@
           "last_activity_date": "2026-02-26",
           "days_since_activity": 60,
           "days_in_stage": 60,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-26"
         },
         {
@@ -1049,8 +1191,10 @@
           "last_activity_date": "2026-02-27",
           "days_since_activity": 59,
           "days_in_stage": 77,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-01-29"
         },
         {
@@ -1063,8 +1207,10 @@
           "last_activity_date": "2026-03-09",
           "days_since_activity": 49,
           "days_in_stage": 199,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-10-10"
         },
         {
@@ -1077,8 +1223,10 @@
           "last_activity_date": "2026-03-10",
           "days_since_activity": 48,
           "days_in_stage": 46,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-12"
         },
         {
@@ -1091,8 +1239,10 @@
           "last_activity_date": "2026-03-13",
           "days_since_activity": 45,
           "days_in_stage": 188,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-10-21"
         },
         {
@@ -1105,8 +1255,10 @@
           "last_activity_date": "2026-03-13",
           "days_since_activity": 45,
           "days_in_stage": 101,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-16"
         },
         {
@@ -1119,8 +1271,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 55,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-03"
         },
         {
@@ -1133,8 +1287,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 59,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-27"
         },
         {
@@ -1147,8 +1303,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 67,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-19"
         },
         {
@@ -1161,8 +1319,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 89,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-28"
         },
         {
@@ -1175,8 +1335,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 88,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-29"
         },
         {
@@ -1189,8 +1351,10 @@
           "last_activity_date": "2026-03-24",
           "days_since_activity": 34,
           "days_in_stage": 90,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-01-27"
         },
         {
@@ -1203,8 +1367,10 @@
           "last_activity_date": "2026-03-25",
           "days_since_activity": 33,
           "days_in_stage": 33,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-25"
         },
         {
@@ -1217,8 +1383,10 @@
           "last_activity_date": "2026-03-31",
           "days_since_activity": 27,
           "days_in_stage": 59,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-27"
         },
         {
@@ -1231,8 +1399,10 @@
           "last_activity_date": "2026-04-01",
           "days_since_activity": 26,
           "days_in_stage": 39,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-19"
         },
         {
@@ -1245,8 +1415,10 @@
           "last_activity_date": "2026-04-08",
           "days_since_activity": 19,
           "days_in_stage": 14,
+          "has_recent_movement": true,
           "type": "Downgrade",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-27"
         },
         {
@@ -1259,8 +1431,10 @@
           "last_activity_date": "2026-04-13",
           "days_since_activity": 14,
           "days_in_stage": 14,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-06"
         },
         {
@@ -1273,8 +1447,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 18,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-09"
         },
         {
@@ -1287,8 +1463,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 66,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-20"
         },
         {
@@ -1301,8 +1479,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 49,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-09"
         },
         {
@@ -1315,8 +1495,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 54,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-04"
         },
         {
@@ -1329,8 +1511,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 54,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-04"
         },
         {
@@ -1343,8 +1527,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 55,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-03"
         },
         {
@@ -1357,8 +1543,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 59,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-27"
         },
         {
@@ -1371,8 +1559,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 60,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-26"
         },
         {
@@ -1385,8 +1575,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 60,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-26"
         },
         {
@@ -1399,8 +1591,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 67,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-19"
         },
         {
@@ -1413,8 +1607,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 68,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-18"
         },
         {
@@ -1427,8 +1623,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 70,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-16"
         },
         {
@@ -1441,8 +1639,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 73,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-13"
         },
         {
@@ -1455,8 +1655,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 75,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-11"
         },
         {
@@ -1469,8 +1671,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 139,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-11-05"
         },
         {
@@ -1483,8 +1687,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 33,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-25"
         },
         {
@@ -1497,8 +1703,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 72,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-12-26"
         },
         {
@@ -1511,8 +1719,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 11,
+          "has_recent_movement": true,
           "type": "Upsell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-16"
         },
         {
@@ -1525,8 +1735,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 46,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-12"
         },
         {
@@ -1539,8 +1751,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 46,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-12"
         },
         {
@@ -1553,8 +1767,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 3,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-05"
         },
         {
@@ -1567,8 +1783,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -1581,8 +1799,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 14,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-02"
         },
         {
@@ -1595,8 +1815,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-27"
         },
         {
@@ -1609,8 +1831,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 125,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-12-23"
         },
         {
@@ -1623,8 +1847,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -1637,8 +1863,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -1651,8 +1879,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 72,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-14"
         },
         {
@@ -1665,8 +1895,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -1679,8 +1911,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 91,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-20"
         },
         {
@@ -1693,8 +1927,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 38,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-20"
         },
         {
@@ -1707,8 +1943,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 72,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-14"
         },
         {
@@ -1721,8 +1959,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 33,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-25"
         },
         {
@@ -1735,8 +1975,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-07"
         },
         {
@@ -1749,8 +1991,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 4,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-23"
         },
         {
@@ -1763,8 +2007,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 4,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-23"
         },
         {
@@ -1777,8 +2023,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 10,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-17"
         },
         {
@@ -1791,8 +2039,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 28,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-30"
         },
         {
@@ -1805,8 +2055,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 45,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-09"
         },
         {
@@ -1819,8 +2071,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 17,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-10"
         },
         {
@@ -1833,8 +2087,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -1847,8 +2103,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 26,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-01"
         }
       ]
@@ -1858,7 +2116,7 @@
       "manager": "Michael Byrd",
       "count": 23,
       "total_amount": 5102500.0,
-      "stale_count": 23,
+      "stale_count": 19,
       "opps": [
         {
           "id": "006Qg000007mltSIAQ",
@@ -1870,8 +2128,10 @@
           "last_activity_date": "2024-02-21",
           "days_since_activity": 796,
           "days_in_stage": 788,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2024-02-29"
         },
         {
@@ -1884,8 +2144,10 @@
           "last_activity_date": "2024-04-16",
           "days_since_activity": 741,
           "days_in_stage": 725,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2024-04-25"
         },
         {
@@ -1898,8 +2160,10 @@
           "last_activity_date": "2024-07-23",
           "days_since_activity": 643,
           "days_in_stage": 668,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2024-04-03"
         },
         {
@@ -1912,8 +2176,10 @@
           "last_activity_date": "2024-09-20",
           "days_since_activity": 584,
           "days_in_stage": 616,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2024-08-19"
         },
         {
@@ -1926,8 +2192,10 @@
           "last_activity_date": "2025-02-13",
           "days_since_activity": 438,
           "days_in_stage": 410,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-02-21"
         },
         {
@@ -1940,8 +2208,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 801,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2024-02-16"
         },
         {
@@ -1954,8 +2224,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 735,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2024-04-22"
         },
         {
@@ -1968,8 +2240,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 290,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-07-11"
         },
         {
@@ -1982,8 +2256,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 290,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-07-11"
         },
         {
@@ -1996,8 +2272,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 160,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-11-04"
         },
         {
@@ -2010,8 +2288,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2024,8 +2304,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 13,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-14"
         },
         {
@@ -2038,8 +2320,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2052,8 +2336,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 77,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-09"
         },
         {
@@ -2066,8 +2352,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-10"
         },
         {
@@ -2080,8 +2368,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 135,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-12-13"
         },
         {
@@ -2094,8 +2384,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2108,8 +2400,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 167,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-11-11"
         },
         {
@@ -2122,8 +2416,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 67,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-19"
         },
         {
@@ -2136,8 +2432,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 74,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-12"
         },
         {
@@ -2150,8 +2448,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2164,8 +2464,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 75,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-11"
         },
         {
@@ -2178,8 +2480,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 81,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-05"
         }
       ]
@@ -2201,8 +2505,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -2215,8 +2521,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 53,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-05"
         },
         {
@@ -2229,8 +2537,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 70,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-09"
         }
       ]
@@ -2252,8 +2562,10 @@
           "last_activity_date": "2026-04-20",
           "days_since_activity": 7,
           "days_in_stage": 21,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-01"
         },
         {
@@ -2266,8 +2578,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 77,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-09"
         },
         {
@@ -2280,8 +2594,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 73,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-13"
         },
         {
@@ -2294,8 +2610,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 49,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-09"
         },
         {
@@ -2308,8 +2626,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-07"
         },
         {
@@ -2322,8 +2642,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 5,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-10-28"
         },
         {
@@ -2336,8 +2658,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 6,
+          "has_recent_movement": true,
           "type": "Downgrade",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-21"
         },
         {
@@ -2350,8 +2674,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 6,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-21"
         },
         {
@@ -2364,8 +2690,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-05"
         }
       ]
@@ -2375,7 +2703,7 @@
       "manager": "Michael Byrd",
       "count": 3,
       "total_amount": 491514.6,
-      "stale_count": 3,
+      "stale_count": 0,
       "opps": [
         {
           "id": "006Qg00000evDBEIA2",
@@ -2387,8 +2715,10 @@
           "last_activity_date": "2026-04-02",
           "days_since_activity": 25,
           "days_in_stage": 61,
+          "has_recent_movement": true,
           "type": "Downgrade",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-25"
         },
         {
@@ -2401,8 +2731,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 87,
+          "has_recent_movement": true,
           "type": "Reprice",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-30"
         },
         {
@@ -2415,8 +2747,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 38,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-20"
         }
       ]
@@ -2426,7 +2760,7 @@
       "manager": "Teresa Bordenet",
       "count": 20,
       "total_amount": 6061271.84,
-      "stale_count": 11,
+      "stale_count": 5,
       "opps": [
         {
           "id": "006Qg00000dyFk5IAE",
@@ -2438,8 +2772,10 @@
           "last_activity_date": "2026-03-03",
           "days_since_activity": 55,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -2452,8 +2788,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 40,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-18"
         },
         {
@@ -2466,8 +2804,10 @@
           "last_activity_date": "2026-04-10",
           "days_since_activity": 17,
           "days_in_stage": 17,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-10"
         },
         {
@@ -2480,8 +2820,10 @@
           "last_activity_date": "2026-04-16",
           "days_since_activity": 11,
           "days_in_stage": 54,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-04"
         },
         {
@@ -2494,8 +2836,10 @@
           "last_activity_date": "2026-04-20",
           "days_since_activity": 7,
           "days_in_stage": 62,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-24"
         },
         {
@@ -2508,8 +2852,10 @@
           "last_activity_date": "2026-04-20",
           "days_since_activity": 7,
           "days_in_stage": 11,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-16"
         },
         {
@@ -2522,8 +2868,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 179,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-10-28"
         },
         {
@@ -2536,8 +2884,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-05"
         },
         {
@@ -2550,8 +2900,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 222,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-09-17"
         },
         {
@@ -2564,8 +2916,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 49,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-05"
         },
         {
@@ -2578,8 +2932,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-01"
         },
         {
@@ -2592,8 +2948,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-16"
         },
         {
@@ -2606,8 +2964,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 4,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-23"
         },
         {
@@ -2620,8 +2980,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 74,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-12"
         },
         {
@@ -2634,8 +2996,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 139,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-12-09"
         },
         {
@@ -2648,8 +3012,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 55,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-03"
         },
         {
@@ -2662,8 +3028,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 52,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-06"
         },
         {
@@ -2676,8 +3044,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 52,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-06"
         },
         {
@@ -2690,8 +3060,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 52,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-06"
         },
         {
@@ -2704,8 +3076,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 52,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-06"
         }
       ]
@@ -2715,7 +3089,7 @@
       "manager": "Curtis Knievel",
       "count": 12,
       "total_amount": 199000.0,
-      "stale_count": 12,
+      "stale_count": 11,
       "opps": [
         {
           "id": "006Qg00000bmlP9IAI",
@@ -2727,8 +3101,10 @@
           "last_activity_date": "2025-12-22",
           "days_since_activity": 126,
           "days_in_stage": 125,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-12-23"
         },
         {
@@ -2741,8 +3117,10 @@
           "last_activity_date": "2026-01-21",
           "days_since_activity": 96,
           "days_in_stage": 136,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-12-12"
         },
         {
@@ -2755,8 +3133,10 @@
           "last_activity_date": "2026-01-28",
           "days_since_activity": 89,
           "days_in_stage": 67,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-19"
         },
         {
@@ -2769,8 +3149,10 @@
           "last_activity_date": "2026-02-09",
           "days_since_activity": 77,
           "days_in_stage": 67,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-19"
         },
         {
@@ -2783,8 +3165,10 @@
           "last_activity_date": "2026-03-06",
           "days_since_activity": 52,
           "days_in_stage": 48,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-10"
         },
         {
@@ -2797,8 +3181,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2811,8 +3197,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2825,8 +3213,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 77,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-09"
         },
         {
@@ -2839,8 +3229,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2853,8 +3245,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 77,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-09"
         },
         {
@@ -2867,8 +3261,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-10"
         },
         {
@@ -2881,8 +3277,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 75,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-11"
         }
       ]
@@ -2904,8 +3302,10 @@
           "last_activity_date": "2026-03-12",
           "days_since_activity": 46,
           "days_in_stage": 46,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-12"
         },
         {
@@ -2918,8 +3318,10 @@
           "last_activity_date": "2026-04-15",
           "days_since_activity": 12,
           "days_in_stage": 75,
+          "has_recent_movement": true,
           "type": "Reprice",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-11"
         },
         {
@@ -2932,8 +3334,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 145,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-12-03"
         },
         {
@@ -2946,8 +3350,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 179,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-10-30"
         }
       ]
@@ -2957,7 +3363,7 @@
       "manager": "Teresa Bordenet",
       "count": 94,
       "total_amount": 10707529.69,
-      "stale_count": 92,
+      "stale_count": 2,
       "opps": [
         {
           "id": "006Qg00000I2kagIAB",
@@ -2969,8 +3375,10 @@
           "last_activity_date": "2024-10-15",
           "days_since_activity": 559,
           "days_in_stage": 535,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-08"
         },
         {
@@ -2983,8 +3391,10 @@
           "last_activity_date": "2024-10-17",
           "days_since_activity": 557,
           "days_in_stage": 528,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-15"
         },
         {
@@ -2997,8 +3407,10 @@
           "last_activity_date": "2024-10-23",
           "days_since_activity": 551,
           "days_in_stage": 535,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-08"
         },
         {
@@ -3011,8 +3423,10 @@
           "last_activity_date": "2024-11-26",
           "days_since_activity": 517,
           "days_in_stage": 522,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-21"
         },
         {
@@ -3025,8 +3439,10 @@
           "last_activity_date": "2024-12-16",
           "days_since_activity": 497,
           "days_in_stage": 504,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-15"
         },
         {
@@ -3039,8 +3455,10 @@
           "last_activity_date": "2024-12-18",
           "days_since_activity": 495,
           "days_in_stage": 538,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-05"
         },
         {
@@ -3053,8 +3471,10 @@
           "last_activity_date": "2025-01-25",
           "days_since_activity": 457,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -3067,8 +3487,10 @@
           "last_activity_date": "2025-03-17",
           "days_since_activity": 406,
           "days_in_stage": 305,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-17"
         },
         {
@@ -3081,8 +3503,10 @@
           "last_activity_date": "2025-03-18",
           "days_since_activity": 405,
           "days_in_stage": 403,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-20"
         },
         {
@@ -3095,8 +3519,10 @@
           "last_activity_date": "2025-05-21",
           "days_since_activity": 341,
           "days_in_stage": 340,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-05-22"
         },
         {
@@ -3109,8 +3535,10 @@
           "last_activity_date": "2025-06-11",
           "days_since_activity": 320,
           "days_in_stage": 315,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-06-16"
         },
         {
@@ -3123,8 +3551,10 @@
           "last_activity_date": "2025-07-14",
           "days_since_activity": 287,
           "days_in_stage": 286,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-07-15"
         },
         {
@@ -3137,8 +3567,10 @@
           "last_activity_date": "2025-08-21",
           "days_since_activity": 249,
           "days_in_stage": 249,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-08-21"
         },
         {
@@ -3151,8 +3583,10 @@
           "last_activity_date": "2025-09-15",
           "days_since_activity": 224,
           "days_in_stage": 228,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-11"
         },
         {
@@ -3165,8 +3599,10 @@
           "last_activity_date": "2025-10-20",
           "days_since_activity": 189,
           "days_in_stage": 216,
+          "has_recent_movement": true,
           "type": "Upsell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-23"
         },
         {
@@ -3179,8 +3615,10 @@
           "last_activity_date": "2025-11-18",
           "days_since_activity": 160,
           "days_in_stage": 160,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-11-18"
         },
         {
@@ -3193,8 +3631,10 @@
           "last_activity_date": "2025-11-25",
           "days_since_activity": 153,
           "days_in_stage": 69,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-11-25"
         },
         {
@@ -3207,8 +3647,10 @@
           "last_activity_date": "2026-01-12",
           "days_since_activity": 105,
           "days_in_stage": 105,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-12"
         },
         {
@@ -3221,8 +3663,10 @@
           "last_activity_date": "2026-02-05",
           "days_since_activity": 81,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -3235,8 +3679,10 @@
           "last_activity_date": "2026-02-10",
           "days_since_activity": 76,
           "days_in_stage": 342,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-05-20"
         },
         {
@@ -3249,8 +3695,10 @@
           "last_activity_date": "2026-02-18",
           "days_since_activity": 68,
           "days_in_stage": 441,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-02-10"
         },
         {
@@ -3263,8 +3711,10 @@
           "last_activity_date": "2026-03-06",
           "days_since_activity": 52,
           "days_in_stage": 54,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-04"
         },
         {
@@ -3277,8 +3727,10 @@
           "last_activity_date": "2026-03-18",
           "days_since_activity": 40,
           "days_in_stage": 35,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-19"
         },
         {
@@ -3291,8 +3743,10 @@
           "last_activity_date": "2026-03-25",
           "days_since_activity": 33,
           "days_in_stage": 467,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2023-11-08"
         },
         {
@@ -3305,8 +3759,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 6,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-21"
         },
         {
@@ -3319,8 +3775,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "Cross Sell",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-05"
         },
         {
@@ -3333,8 +3791,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 390,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2025-04-02"
         },
         {
@@ -3347,8 +3807,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 10,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-17"
         },
         {
@@ -3361,8 +3823,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 5,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-22"
         },
         {
@@ -3375,8 +3839,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 369,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-04-02"
         },
         {
@@ -3389,8 +3855,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 392,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-31"
         },
         {
@@ -3403,8 +3871,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 396,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-27"
         },
         {
@@ -3417,8 +3887,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 396,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-27"
         },
         {
@@ -3431,8 +3903,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 381,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-26"
         },
         {
@@ -3445,8 +3919,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 398,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-25"
         },
         {
@@ -3459,8 +3935,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 404,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-19"
         },
         {
@@ -3473,8 +3951,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 419,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-03-04"
         },
         {
@@ -3487,8 +3967,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 426,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-02-25"
         },
         {
@@ -3501,8 +3983,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -3515,8 +3999,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -3529,8 +4015,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -3543,8 +4031,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -3557,8 +4047,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 80,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-06"
         },
         {
@@ -3571,8 +4063,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 109,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-08"
         },
         {
@@ -3585,8 +4079,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 109,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-01-08"
         },
         {
@@ -3599,8 +4095,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 439,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-06-27"
         },
         {
@@ -3613,8 +4111,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 77,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-09"
         },
         {
@@ -3627,8 +4127,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 77,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-09"
         },
         {
@@ -3641,8 +4143,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 153,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-11-25"
         },
         {
@@ -3655,8 +4159,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 76,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-10"
         },
         {
@@ -3669,8 +4175,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 153,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-11-25"
         },
         {
@@ -3683,8 +4191,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 180,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-10-29"
         },
         {
@@ -3697,8 +4207,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 210,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-29"
         },
         {
@@ -3711,8 +4223,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-01"
         },
         {
@@ -3725,8 +4239,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 234,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-05"
         },
         {
@@ -3739,8 +4255,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 73,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-13"
         },
         {
@@ -3753,8 +4271,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 234,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-05"
         },
         {
@@ -3767,8 +4287,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 235,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-04"
         },
         {
@@ -3781,8 +4303,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 235,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-04"
         },
         {
@@ -3795,8 +4319,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 235,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-09-04"
         },
         {
@@ -3809,8 +4335,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 208,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-08-12"
         },
         {
@@ -3823,8 +4351,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 251,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-08-12"
         },
         {
@@ -3837,8 +4367,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 315,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-06-16"
         },
         {
@@ -3851,8 +4383,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 315,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-06-16"
         },
         {
@@ -3865,8 +4399,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 349,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-05-13"
         },
         {
@@ -3879,8 +4415,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 349,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-05-13"
         },
         {
@@ -3893,8 +4431,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 357,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-05-05"
         },
         {
@@ -3907,8 +4447,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 308,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-04-17"
         },
         {
@@ -3921,8 +4463,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 385,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-04-07"
         },
         {
@@ -3935,8 +4479,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -3949,8 +4495,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -3963,8 +4511,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 452,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-30"
         },
         {
@@ -3977,8 +4527,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 528,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-15"
         },
         {
@@ -3991,8 +4543,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 35,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-23"
         },
         {
@@ -4005,8 +4559,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 528,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-15"
         },
         {
@@ -4019,8 +4575,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 528,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-11-15"
         },
         {
@@ -4033,8 +4591,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 480,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-10-23"
         },
         {
@@ -4047,8 +4607,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 397,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-10-23"
         },
         {
@@ -4061,8 +4623,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 592,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-09-12"
         },
         {
@@ -4075,8 +4639,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 606,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-08-29"
         },
         {
@@ -4089,8 +4655,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 616,
+          "has_recent_movement": true,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2024-08-19"
         },
         {
@@ -4103,8 +4671,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 75,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-05"
         },
         {
@@ -4117,8 +4687,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 305,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-02-24"
         },
         {
@@ -4131,8 +4703,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 433,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-02-18"
         },
         {
@@ -4145,8 +4719,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 437,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-02-14"
         },
         {
@@ -4159,8 +4735,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 391,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-02-11"
         },
         {
@@ -4173,8 +4751,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -4187,8 +4767,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -4201,8 +4783,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 46,
+          "has_recent_movement": true,
           "type": "Downgrade",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-12"
         },
         {
@@ -4215,8 +4799,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -4229,8 +4815,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 451,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -4243,8 +4831,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 35,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-17"
         },
         {
@@ -4257,8 +4847,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 389,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2025-01-31"
         },
         {
@@ -4271,8 +4863,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 5,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-22"
         }
       ]
@@ -4282,7 +4876,7 @@
       "manager": "Michael Byrd",
       "count": 1,
       "total_amount": 0.0,
-      "stale_count": 1,
+      "stale_count": 0,
       "opps": [
         {
           "id": "006Qg00000i5C5dIAE",
@@ -4294,8 +4888,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 4,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-23"
         }
       ]
@@ -4305,7 +4901,7 @@
       "manager": "Curtis Knievel",
       "count": 16,
       "total_amount": 3782500.0,
-      "stale_count": 13,
+      "stale_count": 2,
       "opps": [
         {
           "id": "006Qg00000hkrVBIAY",
@@ -4317,8 +4913,10 @@
           "last_activity_date": "2024-02-02",
           "days_since_activity": 815,
           "days_in_stage": 10,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-17"
         },
         {
@@ -4331,8 +4929,10 @@
           "last_activity_date": "2026-02-27",
           "days_since_activity": 59,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-27"
         },
         {
@@ -4345,8 +4945,10 @@
           "last_activity_date": "2026-03-31",
           "days_since_activity": 27,
           "days_in_stage": 12,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -4359,8 +4961,10 @@
           "last_activity_date": "2026-04-07",
           "days_since_activity": 20,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-07"
         },
         {
@@ -4373,8 +4977,10 @@
           "last_activity_date": "2026-04-13",
           "days_since_activity": 14,
           "days_in_stage": 39,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-19"
         },
         {
@@ -4387,8 +4993,10 @@
           "last_activity_date": "2026-04-16",
           "days_since_activity": 11,
           "days_in_stage": 38,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-20"
         },
         {
@@ -4401,8 +5009,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 12,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-09"
         },
         {
@@ -4415,8 +5025,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-02-10"
         },
         {
@@ -4429,8 +5041,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 41,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-17"
         },
         {
@@ -4443,8 +5057,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 12,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-15"
         },
         {
@@ -4457,8 +5073,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 38,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-03-20"
         },
         {
@@ -4471,8 +5089,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 77,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-09"
         },
         {
@@ -4485,8 +5105,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 52,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-03-06"
         },
         {
@@ -4499,8 +5121,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 10,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-17"
         },
         {
@@ -4513,8 +5137,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 3,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-15"
         },
         {
@@ -4527,8 +5153,10 @@
           "last_activity_date": "2026-05-04",
           "days_since_activity": -7,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-27"
         }
       ]
@@ -4538,7 +5166,7 @@
       "manager": "Teresa Bordenet",
       "count": 10,
       "total_amount": 1158279.34,
-      "stale_count": 1,
+      "stale_count": 0,
       "opps": [
         {
           "id": "006Qg00000gN5lDIAS",
@@ -4550,8 +5178,10 @@
           "last_activity_date": "2026-04-15",
           "days_since_activity": 12,
           "days_in_stage": 28,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-23"
         },
         {
@@ -4564,8 +5194,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-07"
         },
         {
@@ -4578,8 +5210,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -4592,8 +5226,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 39,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-19"
         },
         {
@@ -4606,8 +5242,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 42,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-05"
         },
         {
@@ -4620,8 +5258,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -4634,8 +5274,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 31,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-06"
         },
         {
@@ -4648,8 +5290,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 48,
+          "has_recent_movement": true,
           "type": "Cross Sell",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-01-06"
         },
         {
@@ -4662,8 +5306,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 4,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-23"
         },
         {
@@ -4676,8 +5322,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 11,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-16"
         }
       ]
@@ -4687,7 +5335,7 @@
       "manager": "Teresa Bordenet",
       "count": 24,
       "total_amount": 3820448.72,
-      "stale_count": 18,
+      "stale_count": 4,
       "opps": [
         {
           "id": "006Qg00000e3IgPIAU",
@@ -4699,8 +5347,10 @@
           "last_activity_date": "2024-12-17",
           "days_since_activity": 496,
           "days_in_stage": 79,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-07"
         },
         {
@@ -4713,8 +5363,10 @@
           "last_activity_date": "2026-02-18",
           "days_since_activity": 68,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-06"
         },
         {
@@ -4727,8 +5379,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 77,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-09"
         },
         {
@@ -4741,8 +5395,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 201,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-10-08"
         },
         {
@@ -4755,8 +5411,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 159,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-11-18"
         },
         {
@@ -4769,8 +5427,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 107,
+          "has_recent_movement": false,
           "type": "Cross Sell",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-12-22"
         },
         {
@@ -4783,8 +5443,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-05"
         },
         {
@@ -4797,8 +5459,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 402,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-03-21"
         },
         {
@@ -4811,8 +5475,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-06"
         },
         {
@@ -4825,8 +5491,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 95,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-01-21"
         },
         {
@@ -4839,8 +5507,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 81,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-05"
         },
         {
@@ -4853,8 +5523,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 160,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-11-18"
         },
         {
@@ -4867,8 +5539,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 77,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-09"
         },
         {
@@ -4881,8 +5555,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 180,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-10-29"
         },
         {
@@ -4895,8 +5571,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 174,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-11-04"
         },
         {
@@ -4909,8 +5587,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 81,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-05"
         },
         {
@@ -4923,8 +5603,10 @@
           "last_activity_date": "2026-04-13",
           "days_since_activity": 14,
           "days_in_stage": 81,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-05"
         },
         {
@@ -4937,8 +5619,10 @@
           "last_activity_date": "2026-04-15",
           "days_since_activity": 12,
           "days_in_stage": 242,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-08-28"
         },
         {
@@ -4951,8 +5635,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 213,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2025-09-23"
         },
         {
@@ -4965,8 +5651,10 @@
           "last_activity_date": "2026-04-22",
           "days_since_activity": 5,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-06"
         },
         {
@@ -4979,8 +5667,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 10,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-17"
         },
         {
@@ -4993,8 +5683,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 242,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2025-08-28"
         },
         {
@@ -5007,8 +5699,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 80,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-06"
         },
         {
@@ -5021,8 +5715,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 81,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": true,
+          "stale_reason": "no_activity_or_movement_30d",
           "created": "2026-02-05"
         }
       ]
@@ -5032,7 +5728,7 @@
       "manager": "Joel Carlucci",
       "count": 20,
       "total_amount": 1399200.0,
-      "stale_count": 11,
+      "stale_count": 0,
       "opps": [
         {
           "id": "006Qg00000gSSsSIAW",
@@ -5044,8 +5740,10 @@
           "last_activity_date": "2026-04-07",
           "days_since_activity": 20,
           "days_in_stage": 34,
+          "has_recent_movement": false,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-24"
         },
         {
@@ -5058,8 +5756,10 @@
           "last_activity_date": "2026-04-07",
           "days_since_activity": 20,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-07"
         },
         {
@@ -5072,8 +5772,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -5086,8 +5788,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -5100,8 +5804,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -5114,8 +5820,10 @@
           "last_activity_date": "2026-04-09",
           "days_since_activity": 18,
           "days_in_stage": 20,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-07"
         },
         {
@@ -5128,8 +5836,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 6,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-21"
         },
         {
@@ -5142,8 +5852,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 47,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-11"
         },
         {
@@ -5156,8 +5868,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 47,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-02-09"
         },
         {
@@ -5170,8 +5884,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 4,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-23"
         },
         {
@@ -5184,8 +5900,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 28,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-30"
         },
         {
@@ -5198,8 +5916,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 46,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-06"
         },
         {
@@ -5212,8 +5932,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 81,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-05"
         },
         {
@@ -5226,8 +5948,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 56,
+          "has_recent_movement": false,
           "type": "Cross Sell",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-01-13"
         },
         {
@@ -5240,8 +5964,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 25,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-19"
         },
         {
@@ -5254,8 +5980,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 25,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-02"
         },
         {
@@ -5268,8 +5996,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 25,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-02"
         },
         {
@@ -5282,8 +6012,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 18,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-09"
         },
         {
@@ -5296,8 +6028,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 19,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-08"
         },
         {
@@ -5310,8 +6044,10 @@
           "last_activity_date": null,
           "days_since_activity": null,
           "days_in_stage": 21,
+          "has_recent_movement": true,
           "type": "New",
-          "is_stale": true,
+          "is_stale": false,
+          "stale_reason": "movement_only",
           "created": "2026-04-06"
         }
       ]
@@ -5333,8 +6069,10 @@
           "last_activity_date": "2026-04-21",
           "days_since_activity": 6,
           "days_in_stage": 12,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-15"
         },
         {
@@ -5347,8 +6085,10 @@
           "last_activity_date": "2026-04-23",
           "days_since_activity": 4,
           "days_in_stage": 19,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-08"
         },
         {
@@ -5361,8 +6101,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 6,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-24"
         },
         {
@@ -5375,8 +6117,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 77,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-02-09"
         },
         {
@@ -5389,8 +6133,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 27,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-31"
         },
         {
@@ -5403,8 +6149,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 46,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-01-23"
         },
         {
@@ -5417,8 +6165,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 33,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-25"
         },
         {
@@ -5431,8 +6181,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 39,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-19"
         },
         {
@@ -5445,8 +6197,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 49,
+          "has_recent_movement": false,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "activity_no_progression",
           "created": "2026-03-09"
         },
         {
@@ -5459,8 +6213,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 96,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-01-21"
         },
         {
@@ -5473,8 +6229,10 @@
           "last_activity_date": "2026-04-24",
           "days_since_activity": 3,
           "days_in_stage": 39,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-03-19"
         },
         {
@@ -5487,8 +6245,10 @@
           "last_activity_date": "2026-04-27",
           "days_since_activity": 0,
           "days_in_stage": 0,
+          "has_recent_movement": true,
           "type": "New",
           "is_stale": false,
+          "stale_reason": "active",
           "created": "2026-04-27"
         }
       ]
@@ -5497,6 +6257,6 @@
   "org_total": {
     "count": 380,
     "total_amount": 56138047.48,
-    "stale_count": 282
+    "stale_count": 82
   }
 }

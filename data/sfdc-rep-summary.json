@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-04-27T22:42:52.074123+00:00",
+  "computed_at": "2026-04-27T23:11:33.702891+00:00",
   "data_source": "salesforce_mcp_cache",
   "org_summary": {
     "reps_total": 13,
@@ -14,7 +14,7 @@
     "stage_changes_month": 763,
     "pipeline_count": 319,
     "pipeline_amount": 47817078.26,
-    "stale_opps": 242
+    "stale_opps": 52
   },
   "team_summaries": {
     "Teresa Bordenet": {
@@ -30,7 +30,7 @@
       "stage_changes_month": 484,
       "pipeline_count": 179,
       "pipeline_amount": 30575862.89,
-      "stale_opps": 139
+      "stale_opps": 12
     },
     "Joel Carlucci": {
       "team": "Carlucci",
@@ -45,7 +45,7 @@
       "stage_changes_month": 229,
       "pipeline_count": 65,
       "pipeline_amount": 5955804.32,
-      "stale_opps": 22
+      "stale_opps": 2
     },
     "Curtis Knievel": {
       "team": "Knievel",
@@ -60,7 +60,7 @@
       "stage_changes_month": 165,
       "pipeline_count": 96,
       "pipeline_amount": 12936456.71,
-      "stale_opps": 91
+      "stale_opps": 46
     }
   },
   "rep_summaries": [
@@ -104,10 +104,10 @@
       "pipeline": {
         "open_opp_count": 19,
         "open_opp_amount": 1880883.36,
-        "stale_opp_count": 10,
-        "opps_with_recent_activity": 4,
+        "stale_opp_count": 2,
+        "opps_with_recent_activity": 17,
         "opps_no_activity_ever": 4,
-        "engagement_pct": 21.1
+        "engagement_pct": 89.5
       }
     },
     {
@@ -150,10 +150,10 @@
       "pipeline": {
         "open_opp_count": 11,
         "open_opp_amount": 1579800.0,
-        "stale_opp_count": 1,
-        "opps_with_recent_activity": 10,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 11,
         "opps_no_activity_ever": 1,
-        "engagement_pct": 90.9
+        "engagement_pct": 100.0
       }
     },
     {
@@ -196,10 +196,10 @@
       "pipeline": {
         "open_opp_count": 24,
         "open_opp_amount": 8566701.58,
-        "stale_opp_count": 14,
-        "opps_with_recent_activity": 9,
+        "stale_opp_count": 1,
+        "opps_with_recent_activity": 23,
         "opps_no_activity_ever": 3,
-        "engagement_pct": 37.5
+        "engagement_pct": 95.8
       }
     },
     {
@@ -242,10 +242,10 @@
       "pipeline": {
         "open_opp_count": 7,
         "open_opp_amount": 261631.72,
-        "stale_opp_count": 3,
-        "opps_with_recent_activity": 2,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 7,
         "opps_no_activity_ever": 2,
-        "engagement_pct": 28.6
+        "engagement_pct": 100.0
       }
     },
     {
@@ -288,10 +288,10 @@
       "pipeline": {
         "open_opp_count": 68,
         "open_opp_amount": 8954956.71,
-        "stale_opp_count": 66,
-        "opps_with_recent_activity": 1,
+        "stale_opp_count": 33,
+        "opps_with_recent_activity": 34,
         "opps_no_activity_ever": 41,
-        "engagement_pct": 1.5
+        "engagement_pct": 50.0
       }
     },
     {
@@ -334,10 +334,10 @@
       "pipeline": {
         "open_opp_count": 23,
         "open_opp_amount": 5102500.0,
-        "stale_opp_count": 23,
-        "opps_with_recent_activity": 0,
+        "stale_opp_count": 19,
+        "opps_with_recent_activity": 4,
         "opps_no_activity_ever": 18,
-        "engagement_pct": 0.0
+        "engagement_pct": 17.4
       }
     },
     {
@@ -472,10 +472,10 @@
       "pipeline": {
         "open_opp_count": 3,
         "open_opp_amount": 491514.6,
-        "stale_opp_count": 3,
-        "opps_with_recent_activity": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 3,
         "opps_no_activity_ever": 2,
-        "engagement_pct": 0.0
+        "engagement_pct": 100.0
       }
     },
     {
@@ -564,10 +564,10 @@
       "pipeline": {
         "open_opp_count": 20,
         "open_opp_amount": 6061271.84,
-        "stale_opp_count": 11,
-        "opps_with_recent_activity": 8,
+        "stale_opp_count": 5,
+        "opps_with_recent_activity": 15,
         "opps_no_activity_ever": 8,
-        "engagement_pct": 40.0
+        "engagement_pct": 75.0
       }
     },
     {
@@ -656,10 +656,10 @@
       "pipeline": {
         "open_opp_count": 12,
         "open_opp_amount": 199000.0,
-        "stale_opp_count": 12,
-        "opps_with_recent_activity": 0,
+        "stale_opp_count": 11,
+        "opps_with_recent_activity": 1,
         "opps_no_activity_ever": 7,
-        "engagement_pct": 0.0
+        "engagement_pct": 8.3
       }
     },
     {
@@ -703,9 +703,9 @@
         "open_opp_count": 4,
         "open_opp_amount": 414033.68,
         "stale_opp_count": 3,
-        "opps_with_recent_activity": 0,
+        "opps_with_recent_activity": 1,
         "opps_no_activity_ever": 2,
-        "engagement_pct": 0.0
+        "engagement_pct": 25.0
       }
     },
     {
@@ -748,10 +748,10 @@
       "pipeline": {
         "open_opp_count": 94,
         "open_opp_amount": 10707529.69,
-        "stale_opp_count": 92,
-        "opps_with_recent_activity": 2,
+        "stale_opp_count": 2,
+        "opps_with_recent_activity": 92,
         "opps_no_activity_ever": 68,
-        "engagement_pct": 2.1
+        "engagement_pct": 97.9
       }
     },
     {
@@ -794,10 +794,10 @@
       "pipeline": {
         "open_opp_count": 1,
         "open_opp_amount": 0.0,
-        "stale_opp_count": 1,
-        "opps_with_recent_activity": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 1,
         "opps_no_activity_ever": 1,
-        "engagement_pct": 0.0
+        "engagement_pct": 100.0
       }
     },
     {
@@ -840,10 +840,10 @@
       "pipeline": {
         "open_opp_count": 16,
         "open_opp_amount": 3782500.0,
-        "stale_opp_count": 13,
-        "opps_with_recent_activity": 1,
+        "stale_opp_count": 2,
+        "opps_with_recent_activity": 14,
         "opps_no_activity_ever": 9,
-        "engagement_pct": 6.2
+        "engagement_pct": 87.5
       }
     },
     {
@@ -886,10 +886,10 @@
       "pipeline": {
         "open_opp_count": 10,
         "open_opp_amount": 1158279.34,
-        "stale_opp_count": 1,
-        "opps_with_recent_activity": 8,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 10,
         "opps_no_activity_ever": 1,
-        "engagement_pct": 80.0
+        "engagement_pct": 100.0
       }
     },
     {
@@ -932,10 +932,10 @@
       "pipeline": {
         "open_opp_count": 24,
         "open_opp_amount": 3820448.72,
-        "stale_opp_count": 18,
-        "opps_with_recent_activity": 4,
+        "stale_opp_count": 4,
+        "opps_with_recent_activity": 12,
         "opps_no_activity_ever": 2,
-        "engagement_pct": 16.7
+        "engagement_pct": 50.0
       }
     },
     {
@@ -978,10 +978,10 @@
       "pipeline": {
         "open_opp_count": 20,
         "open_opp_amount": 1399200.0,
-        "stale_opp_count": 11,
-        "opps_with_recent_activity": 9,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 19,
         "opps_no_activity_ever": 5,
-        "engagement_pct": 45.0
+        "engagement_pct": 95.0
       }
     },
     {
@@ -1032,7 +1032,10 @@
     }
   ],
   "config": {
-    "stale_threshold_days": 14,
+    "stale_threshold_days": 30,
+    "stale_movement_days": 30,
+    "recent_activity_days": 14,
+    "stale_rule": "No Tasks/Events in 30d AND no stage/amount movement in 30d",
     "window_definitions": {
       "today": "TODAY (calendar)",
       "week": "THIS_WEEK (Sun-Sat)",
