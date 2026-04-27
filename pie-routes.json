@@ -23,7 +23,19 @@
         }
       ],
       "wednesday": [],
-      "thursday": [],
+      "thursday": [
+        {
+          "id": "b6c10f8087a9d5b4",
+          "co": "Smart Chevrolet Company",
+          "cn": "Roger Smart",
+          "ph": "",
+          "em": "",
+          "city": "",
+          "st": "AR",
+          "type": "net_new",
+          "added_at": "2026-04-27T17:30:56.075Z"
+        }
+      ],
       "friday": []
     },
     "Ashton Gough": {
@@ -121,5 +133,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-21T18:41:35.836Z"
+  "last_modified": "2026-04-27T17:30:58.890Z"
 }
