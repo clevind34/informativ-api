@@ -358,14 +358,28 @@
         "added_by": "Crly Alvarado",
         "added_at": "2026-04-22T23:05:40.873Z"
       }
+    ],
+    "custom_1777322739828_ojybhi": [
+      {
+        "contact_name": "Seth Armstrong",
+        "title": "GM",
+        "email": "seth.armstrong18@gmail.com",
+        "phone": "",
+        "role": "contact",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-27T20:48:00.730Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-27T20:45:39.992Z",
+  "last_modified": "2026-04-27T20:48:00.730Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
       "3": "dm_group"
+    },
+    "custom_1777322739828_ojybhi": {
+      "0": "contact"
     }
   }
 }
