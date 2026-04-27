@@ -797,6 +797,52 @@ function buildContext(intents, repName, message) {
         }
     }
 
+    // ── SFDC Activity Truth context (Phase 2C, April 27 2026) ──
+    // Pulls activity (Tasks/Events) + pipeline movement (stage edits) + pattern
+    // classification from coaching-intelligence.json. Drives Chuck's coaching tone:
+    // - movement_driven (Tami pattern) → probe deal quality, NOT activity volume
+    // - task_driven (Ward pattern)     → examine call/email conversion
+    // - stalled                        → diagnose blockers (curiosity over pressure)
+    // - low_engagement                 → triage stalest deals together
+    // - balanced                       → reinforce + identify next stretch goal
+    if (repName && coachingIntelligence && coachingIntelligence.reps) {
+        const ciRep = coachingIntelligence.reps[repName];
+        if (ciRep && ciRep.sfdc_truth) {
+            const sf = ciRep.sfdc_truth;
+            let sfdcSection = `\n## SFDC Activity Truth (Live from Salesforce)\n` +
+                `Workflow Pattern: ${(sf.pattern || 'unknown').toUpperCase()}\n` +
+                `Pipeline Hygiene: ${(sf.hygiene_flag || 'na').toUpperCase()}\n` +
+                `Activity (90d): ${sf.activity_90d?.tasks || 0} Tasks, ${sf.activity_90d?.events || 0} Calendar Events\n` +
+                `Pipeline Movement (90d): ${sf.pipeline_movement_90d || 0} stage/amount edits\n` +
+                `Pipeline Movement (30d): ${sf.pipeline_movement_30d || 0} stage/amount edits\n` +
+                `Open Opps: ${sf.pipeline?.open_opps || 0} ($${Math.round((sf.pipeline?.open_amount || 0)/1000)}K total)\n` +
+                `Stale Opps: ${sf.pipeline?.stale_count || 0} (no Tasks/Events AND no movement in 30+ days)\n` +
+                `Engagement: ${sf.pipeline?.engagement_pct || 0}% of opps active in last 7 days\n`;
+            if (sf.pattern_focus) {
+                sfdcSection += `\nCoaching Focus (pattern-based): ${sf.pattern_focus}\n`;
+            }
+            if (sf.top_stale_opps && sf.top_stale_opps.length > 0) {
+                sfdcSection += `\nTop Stale Opps to Triage:\n`;
+                for (const o of sf.top_stale_opps.slice(0, 5)) {
+                    sfdcSection += `  - ${o.account} | ${o.stage} | $${Math.round((o.amount || 0)/1000)}K | last activity: ${o.days_since_activity != null ? o.days_since_activity + 'd ago' : 'never'}\n`;
+                }
+            }
+            sfdcSection += `\nIMPORTANT — Pattern-aware coaching:\n` +
+                `- If pattern is MOVEMENT_DRIVEN (e.g., Tami): the rep advances opps via stage edits, not Tasks. ` +
+                `Don't push for "more activity logging" — instead probe deal quality, qualification rigor, ` +
+                `and why specific opps haven't moved despite frequent edits.\n` +
+                `- If pattern is TASK_DRIVEN: high call volume, lower stage progression. Examine call ` +
+                `conversion — is the rep talking to the right buyer? Are calls advancing deals?\n` +
+                `- If pattern is STALLED: both signals near zero. Lead with curiosity, not pressure. ` +
+                `Likely confidence, territory, or personal blocker.\n` +
+                `- If pattern is LOW_ENGAGEMENT: pipeline is being neglected. Triage the top 5 stalest ` +
+                `deals together; commit to specific re-engagement actions.\n` +
+                `- If hygiene is CRITICAL or WARNING: surface stale opps proactively even if rep doesn't ask.\n`;
+            context += sfdcSection;
+            charsUsed += sfdcSection.length;
+        }
+    }
+
     // Add knowledge base sections based on intents
     if (knowledgeBase && knowledgeBase.categories) {
         const categoriesToLoad = new Set();
