@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-04-27T23:13:52.713736+00:00",
+  "computed_at": "2026-04-27T23:26:03.948045+00:00",
   "data_source": "salesforce_mcp_cache",
   "org_summary": {
     "reps_total": 12,
@@ -70,6 +70,27 @@
       "manager": "Joel Carlucci",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Precision Honda Group",
+          "stage": "Tech Demo",
+          "amount": 40000.0,
+          "days_since_activity": 34,
+          "days_in_stage": 80,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "Theodore Robins Ford Group Parent",
+          "stage": "Tech Demo",
+          "amount": 40000.0,
+          "days_since_activity": 34,
+          "days_in_stage": 80,
+          "close_date": "2026-05-31"
+        }
+      ],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -116,6 +137,10 @@
       "manager": "Joel Carlucci",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 10,
         "tasks_week": 11,
@@ -162,6 +187,19 @@
       "manager": "Teresa Bordenet",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "RRV Sales",
+          "stage": "Proposal",
+          "amount": 5810.8,
+          "days_since_activity": 34,
+          "days_in_stage": 27,
+          "close_date": "2026-04-30"
+        }
+      ],
       "activity": {
         "tasks_today": 2,
         "tasks_week": 4,
@@ -208,6 +246,10 @@
       "manager": "Teresa Bordenet",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -254,6 +296,51 @@
       "manager": "Curtis Knievel",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Auto Lenders",
+          "stage": "Committed",
+          "amount": 635651.68,
+          "days_since_activity": 62,
+          "days_in_stage": 72,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "Victory Home Remodeling_Group Parent",
+          "stage": "Solution Fit",
+          "amount": 497463.52,
+          "days_since_activity": null,
+          "days_in_stage": 46,
+          "close_date": "2026-05-15"
+        },
+        {
+          "account": "US Auto Trust Newport Beach",
+          "stage": "Tech Demo",
+          "amount": 193000.0,
+          "days_since_activity": null,
+          "days_in_stage": 33,
+          "close_date": "2026-06-26"
+        },
+        {
+          "account": "Ron Westphal Chevrolet",
+          "stage": "Solution Fit",
+          "amount": 120000.0,
+          "days_since_activity": 40,
+          "days_in_stage": 59,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "Jerseyville Motor Company, Inc.",
+          "stage": "Solution Fit",
+          "amount": 96000.0,
+          "days_since_activity": 40,
+          "days_in_stage": 55,
+          "close_date": "2026-04-30"
+        }
+      ],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -300,6 +387,51 @@
       "manager": "Michael Byrd",
       "is_hidden": true,
       "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Tecobi",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 135,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Cars Commerce",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 76,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "AutoSmart by CUDL Group Parent",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 167,
+          "close_date": "2026-08-31"
+        },
+        {
+          "account": "DriveCentric",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 76,
+          "close_date": "2026-09-30"
+        },
+        {
+          "account": "Impel",
+          "stage": "Solution Fit",
+          "amount": 157500.0,
+          "days_since_activity": null,
+          "days_in_stage": 76,
+          "close_date": "2026-06-30"
+        }
+      ],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -346,6 +478,10 @@
       "manager": "Joel Carlucci",
       "is_hidden": true,
       "is_departed": true,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -392,6 +528,10 @@
       "manager": "Michael Byrd",
       "is_hidden": true,
       "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 19,
@@ -438,6 +578,10 @@
       "manager": "Michael Byrd",
       "is_hidden": true,
       "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -484,6 +628,10 @@
       "manager": "Teresa Bordenet",
       "is_hidden": true,
       "is_departed": true,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "na",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -530,6 +678,51 @@
       "manager": "Teresa Bordenet",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "warning",
+      "top_stale_opps": [
+        {
+          "account": "Victory Automotive Group",
+          "stage": "Solution Fit",
+          "amount": 670000.0,
+          "days_since_activity": null,
+          "days_in_stage": 52,
+          "close_date": "2026-07-31"
+        },
+        {
+          "account": "Morrie's Automotive Group",
+          "stage": "Solution Fit",
+          "amount": 655000.0,
+          "days_since_activity": null,
+          "days_in_stage": 52,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Fields Auto Group",
+          "stage": "Solution Fit",
+          "amount": 400000.0,
+          "days_since_activity": null,
+          "days_in_stage": 52,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "AUFFENBURG DEALER GROUP",
+          "stage": "Solution Fit",
+          "amount": 250000.0,
+          "days_since_activity": null,
+          "days_in_stage": 55,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "M'Lady Nissan",
+          "stage": "Solution Fit",
+          "amount": 59000.0,
+          "days_since_activity": null,
+          "days_in_stage": 52,
+          "close_date": "2026-06-30"
+        }
+      ],
       "activity": {
         "tasks_today": 11,
         "tasks_week": 42,
@@ -576,6 +769,10 @@
       "manager": null,
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "na",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -622,6 +819,51 @@
       "manager": "Curtis Knievel",
       "is_hidden": true,
       "is_departed": true,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Matthews Auto Group",
+          "stage": "Solution Fit",
+          "amount": 150000.0,
+          "days_since_activity": 77,
+          "days_in_stage": 67,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "Acadiana Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 25000.0,
+          "days_since_activity": 89,
+          "days_in_stage": 67,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "Star Ford Lincoln, Inc.",
+          "stage": "Solution Fit",
+          "amount": 24000.0,
+          "days_since_activity": null,
+          "days_in_stage": 75,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "South Dakota Auto Dealers Association",
+          "stage": "NDA",
+          "amount": 0.0,
+          "days_since_activity": 126,
+          "days_in_stage": 125,
+          "close_date": "2025-12-31"
+        },
+        {
+          "account": "Montana Automobile Dealers Association",
+          "stage": "Proposal",
+          "amount": 0.0,
+          "days_since_activity": 96,
+          "days_in_stage": 136,
+          "close_date": "2025-12-31"
+        }
+      ],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -668,6 +910,27 @@
       "manager": "Teresa Bordenet",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "movement_driven",
+      "pattern_focus": "Probe deal quality and qualification rigor \u2014 activity volume is not the issue. Examine why specific opps haven't advanced despite frequent edits.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Gettel Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 700000.0,
+          "days_since_activity": null,
+          "days_in_stage": 390,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "Lithia Automotive Group",
+          "stage": "Solution Fit",
+          "amount": 39000.0,
+          "days_since_activity": 52,
+          "days_in_stage": 54,
+          "close_date": "2026-05-31"
+        }
+      ],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -714,6 +977,10 @@
       "manager": "Michael Byrd",
       "is_hidden": true,
       "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -760,6 +1027,27 @@
       "manager": "Curtis Knievel",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Nabthat",
+          "stage": "Solution Fit",
+          "amount": 150000.0,
+          "days_since_activity": null,
+          "days_in_stage": 77,
+          "close_date": "2026-07-31"
+        },
+        {
+          "account": "Star Performance Marketing",
+          "stage": "Solution Fit",
+          "amount": 105000.0,
+          "days_since_activity": null,
+          "days_in_stage": 38,
+          "close_date": "2026-07-31"
+        }
+      ],
       "activity": {
         "tasks_today": 0,
         "tasks_week": 0,
@@ -806,6 +1094,10 @@
       "manager": "Teresa Bordenet",
       "is_hidden": true,
       "is_departed": true,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 4,
         "tasks_week": 4,
@@ -852,6 +1144,43 @@
       "manager": "Teresa Bordenet",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Kahlig Auto Group",
+          "stage": "Tech Demo",
+          "amount": 800000.0,
+          "days_since_activity": null,
+          "days_in_stage": 80,
+          "close_date": "2026-05-29"
+        },
+        {
+          "account": "Lewis Ford Sales",
+          "stage": "Solution Fit",
+          "amount": 160000.0,
+          "days_since_activity": 496,
+          "days_in_stage": 79,
+          "close_date": "2026-06-05"
+        },
+        {
+          "account": "Jeff Haas Mazda Group Parent",
+          "stage": "Tech Demo",
+          "amount": 88000.0,
+          "days_since_activity": 68,
+          "days_in_stage": 80,
+          "close_date": "2026-05-29"
+        },
+        {
+          "account": "Burns Motors Group Parent",
+          "stage": "Solution Fit",
+          "amount": 60000.0,
+          "days_since_activity": null,
+          "days_in_stage": 81,
+          "close_date": "2026-05-29"
+        }
+      ],
       "activity": {
         "tasks_today": 2,
         "tasks_week": 2,
@@ -898,6 +1227,10 @@
       "manager": "Joel Carlucci",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 3,
         "tasks_week": 3,
@@ -944,6 +1277,10 @@
       "manager": "Joel Carlucci",
       "is_hidden": false,
       "is_departed": false,
+      "pattern": "balanced",
+      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
       "activity": {
         "tasks_today": 14,
         "tasks_week": 15,
