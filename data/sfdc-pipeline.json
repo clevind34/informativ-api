@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-04-27T23:11:33.702891+00:00",
+  "computed_at": "2026-04-27T23:13:24.194208+00:00",
   "data_source": "salesforce_mcp_cache",
   "reps": {
     "Ashton Gough": {
@@ -3286,8 +3286,8 @@
       ]
     },
     "Samir Benhammou": {
-      "team": "RevOps",
-      "manager": "Michael Byrd",
+      "team": "Unknown",
+      "manager": null,
       "count": 4,
       "total_amount": 414033.68,
       "stale_count": 3,

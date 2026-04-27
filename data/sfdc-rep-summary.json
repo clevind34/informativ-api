@@ -1,20 +1,20 @@
 {
-  "computed_at": "2026-04-27T23:11:33.702891+00:00",
+  "computed_at": "2026-04-27T23:13:24.194208+00:00",
   "data_source": "salesforce_mcp_cache",
   "org_summary": {
-    "reps_total": 13,
+    "reps_total": 12,
     "reps_active_today": 10,
     "reps_active_week": 11,
-    "reps_active_month": 13,
+    "reps_active_month": 12,
     "total_today": 53,
     "total_week": 121,
-    "total_month": 1274,
-    "total_90d": 3746,
+    "total_month": 1272,
+    "total_90d": 3743,
     "stage_changes_week": 38,
-    "stage_changes_month": 763,
-    "pipeline_count": 319,
-    "pipeline_amount": 47817078.26,
-    "stale_opps": 52
+    "stage_changes_month": 762,
+    "pipeline_count": 315,
+    "pipeline_amount": 47403044.58,
+    "stale_opps": 49
   },
   "team_summaries": {
     "Teresa Bordenet": {
@@ -660,52 +660,6 @@
         "opps_with_recent_activity": 1,
         "opps_no_activity_ever": 7,
         "engagement_pct": 8.3
-      }
-    },
-    {
-      "rep": "Samir Benhammou",
-      "team": "RevOps",
-      "manager": "Michael Byrd",
-      "is_hidden": false,
-      "is_departed": false,
-      "activity": {
-        "tasks_today": 0,
-        "tasks_week": 0,
-        "tasks_month": 2,
-        "tasks_90d": 3,
-        "events_today": 0,
-        "events_week": 0,
-        "events_month": 0,
-        "events_90d": 0,
-        "total_today": 0,
-        "total_week": 0,
-        "total_month": 2,
-        "total_90d": 3
-      },
-      "activity_breakdown_90d": {
-        "calls": 3,
-        "emails": 0,
-        "meetings_logged": 0,
-        "events_calendar": 0,
-        "meetings_combined": 0,
-        "site_visits": 0,
-        "voicemails": 0,
-        "texts": 0,
-        "other": 0
-      },
-      "pipeline_movement": {
-        "changes_today": 0,
-        "changes_week": 0,
-        "changes_month": 1,
-        "changes_90d": 3
-      },
-      "pipeline": {
-        "open_opp_count": 4,
-        "open_opp_amount": 414033.68,
-        "stale_opp_count": 3,
-        "opps_with_recent_activity": 1,
-        "opps_no_activity_ever": 2,
-        "engagement_pct": 25.0
       }
     },
     {
