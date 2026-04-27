@@ -9,19 +9,7 @@
     },
     "Brock Hutchinson": {
       "monday": [],
-      "tuesday": [
-        {
-          "id": "6f8d0b5f17a43b8b",
-          "co": "Navarre Chevrolet Inc.",
-          "cn": "Patrick Booth",
-          "ph": "(337) 602-9830",
-          "em": "patrick_booth@overheaddoor.com",
-          "city": "Lake Charles",
-          "st": "LA",
-          "type": "net_new",
-          "added_at": "2026-04-21T18:41:34.214Z"
-        }
-      ],
+      "tuesday": [],
       "wednesday": [],
       "thursday": [
         {
@@ -144,5 +132,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-27T17:32:02.155Z"
+  "last_modified": "2026-04-27T17:32:20.089Z"
 }
