@@ -223,6 +223,15 @@
         "phone": "",
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-21T18:53:18.644Z"
+      },
+      {
+        "contact_name": "Lisa Hill",
+        "title": "",
+        "email": "lhill@rustywallacenissan.com",
+        "phone": "(502) 499-6161",
+        "role": "contact",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-27T20:32:10.957Z"
       }
     ],
     "95e5ed620626e31b": [
@@ -327,5 +336,10 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-22T23:05:40.873Z"
+  "last_modified": "2026-04-27T20:32:10.957Z",
+  "contact_roles": {
+    "04a5610b3e72ef78": {
+      "2": "contact"
+    }
+  }
 }
