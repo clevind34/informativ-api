@@ -79,6 +79,22 @@
       "assigned_rep": "Brock Hutchinson",
       "created_by": "Brock Hutchinson",
       "created_at": "2026-04-28T17:42:56.948Z"
+    },
+    "custom_1777398377272_zm04af": {
+      "company_name": "Chanz Scott Kia",
+      "city": "Kingsport",
+      "state": "TN",
+      "contact_name": "Chris Sampson",
+      "title": "GM",
+      "email": "chris.sampson@chantzscottkia.com",
+      "phone": "4232304542",
+      "oem": "KIA",
+      "est_vehicles": 0,
+      "group": "",
+      "pipeline": "net_new",
+      "assigned_rep": "Brock Hutchinson",
+      "created_by": "Brock Hutchinson",
+      "created_at": "2026-04-28T17:46:17.474Z"
     }
   },
   "group_associations": {
@@ -440,7 +456,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-28T17:43:20.413Z",
+  "last_modified": "2026-04-28T17:46:17.474Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
