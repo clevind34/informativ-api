@@ -216,11 +216,29 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777397798168_h6l9pn",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "custom_1777397754737_27bgtk",
+        "prospect_type": "nn",
+        "prospect_name": "Reddick Brown Ford",
+        "city": "Morrison",
+        "state": "TN",
+        "due_date": "2026-04-30",
+        "created_date": "2026-04-28T17:36:38.169Z",
+        "completed_date": null,
+        "note": "Left Voicemail — SF meeting has been conducted in the past.. they've ghosted since",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": []
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T17:03:14.165Z"
+  "last_modified": "2026-04-28T17:36:38.169Z"
 }
