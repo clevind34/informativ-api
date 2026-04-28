@@ -317,13 +317,13 @@
         "state": "LA",
         "due_date": "2026-04-28",
         "created_date": "2026-04-28T17:54:22.759Z",
-        "completed_date": null,
+        "completed_date": "2026-04-28T18:26:37.438Z",
         "note": "Daily Focus — high-ICP, no prior activity. Prep with Chuck before first outreach.",
-        "status": "open",
+        "status": "completed",
         "source": "daily_focus",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Contacted - Follow Up — GK Blocked"
       },
       {
         "id": "task_1777398866568_r0qyeo",
@@ -852,5 +852,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T17:55:33.771Z"
+  "last_modified": "2026-04-28T18:26:37.438Z"
 }
