@@ -375,6 +375,7 @@
         "pipeline_movement_90d": 1,
         "pipeline_movement_30d": 1,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0,
         "pipeline": {
           "open_opps": 1,
           "open_amount": 0.0,
@@ -391,7 +392,7 @@
             "close_date": "2026-04-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Trish Smith": {
@@ -541,6 +542,7 @@
         "pipeline_movement_90d": 295,
         "pipeline_movement_30d": 84,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1,
         "pipeline": {
           "open_opps": 24,
           "open_amount": 3820448.72,
@@ -581,7 +583,7 @@
             "close_date": "2026-05-29"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Matt Hanaman": {
@@ -704,8 +706,8 @@
         "dataStatus": "live"
       },
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "task_driven",
+        "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
         "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 222,
@@ -731,6 +733,7 @@
         "pipeline_movement_90d": 411,
         "pipeline_movement_30d": 93,
         "stage_progressions_30d": 1,
+        "stage_progressions_90d": 5,
         "pipeline": {
           "open_opps": 20,
           "open_amount": 6061271.84,
@@ -779,7 +782,7 @@
             "close_date": "2026-05-31"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Kiristen Sandoval": {
@@ -877,6 +880,7 @@
         "pipeline_movement_90d": 268,
         "pipeline_movement_30d": 14,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0,
         "pipeline": {
           "open_opps": 3,
           "open_amount": 491514.6,
@@ -901,7 +905,7 @@
             "close_date": "2026-04-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Tami Richter": {
@@ -1051,6 +1055,7 @@
         "pipeline_movement_90d": 633,
         "pipeline_movement_30d": 145,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 6,
         "pipeline": {
           "open_opps": 94,
           "open_amount": 10707529.69,
@@ -1099,7 +1104,7 @@
             "close_date": "2026-05-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Carol Sanford": {
@@ -1222,8 +1227,8 @@
         "dataStatus": "live"
       },
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "task_driven",
+        "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
         "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 377,
@@ -1249,6 +1254,7 @@
         "pipeline_movement_90d": 475,
         "pipeline_movement_30d": 114,
         "stage_progressions_30d": 2,
+        "stage_progressions_90d": 10,
         "pipeline": {
           "open_opps": 24,
           "open_amount": 8566701.58,
@@ -1297,7 +1303,7 @@
             "close_date": "2026-05-29"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Clarence Romero": {
@@ -1407,6 +1413,7 @@
         "pipeline_movement_90d": 31,
         "pipeline_movement_30d": 10,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1,
         "pipeline": {
           "open_opps": 7,
           "open_amount": 261631.72,
@@ -1431,7 +1438,7 @@
             "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Tom Meredith": {
@@ -1512,8 +1519,8 @@
       },
       "isHidden": true,
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "task_driven",
+        "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
         "hygiene_flag": "healthy",
         "activity_90d": {
           "tasks": 392,
@@ -1539,6 +1546,7 @@
         "pipeline_movement_90d": 225,
         "pipeline_movement_30d": 30,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 5,
         "pipeline": {
           "open_opps": 10,
           "open_amount": 1158279.34,
@@ -1555,7 +1563,7 @@
             "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Loren Rivera": {
@@ -1642,6 +1650,7 @@
         "pipeline_movement_90d": 103,
         "pipeline_movement_30d": 8,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0,
         "pipeline": {
           "open_opps": 0,
           "open_amount": 0,
@@ -1649,7 +1658,7 @@
           "engagement_pct": 0.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Joel Carlucci": {
@@ -1972,6 +1981,7 @@
         "pipeline_movement_90d": 201,
         "pipeline_movement_30d": 102,
         "stage_progressions_30d": 1,
+        "stage_progressions_90d": 3,
         "pipeline": {
           "open_opps": 9,
           "open_amount": 661875.28,
@@ -1979,7 +1989,7 @@
           "engagement_pct": 100.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Ashton Gough": {
@@ -2102,8 +2112,8 @@
         "dataStatus": "live"
       },
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "task_driven",
+        "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
         "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 505,
@@ -2129,6 +2139,7 @@
         "pipeline_movement_90d": 292,
         "pipeline_movement_30d": 59,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 5,
         "pipeline": {
           "open_opps": 19,
           "open_amount": 1880883.36,
@@ -2177,7 +2188,7 @@
             "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "David Castone": {
@@ -2237,8 +2248,8 @@
       },
       "isHidden": true,
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "task_driven",
+        "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
         "hygiene_flag": "healthy",
         "activity_90d": {
           "tasks": 254,
@@ -2264,6 +2275,7 @@
         "pipeline_movement_90d": 338,
         "pipeline_movement_30d": 77,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1,
         "pipeline": {
           "open_opps": 3,
           "open_amount": 707800.0,
@@ -2271,7 +2283,7 @@
           "engagement_pct": 100.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "William Fowler": {
@@ -2374,8 +2386,8 @@
         "dataStatus": "live"
       },
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "task_driven",
+        "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
         "hygiene_flag": "healthy",
         "activity_90d": {
           "tasks": 403,
@@ -2401,6 +2413,7 @@
         "pipeline_movement_90d": 247,
         "pipeline_movement_30d": 47,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 2,
         "pipeline": {
           "open_opps": 12,
           "open_amount": 388120.96,
@@ -2408,7 +2421,7 @@
           "engagement_pct": 100.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Ward Carroll": {
@@ -2518,6 +2531,7 @@
         "pipeline_movement_90d": 179,
         "pipeline_movement_30d": 28,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 6,
         "pipeline": {
           "open_opps": 20,
           "open_amount": 1399200.0,
@@ -2566,7 +2580,7 @@
             "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Brock Hutchinson": {
@@ -2706,6 +2720,7 @@
         "pipeline_movement_90d": 76,
         "pipeline_movement_30d": 18,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1,
         "pipeline": {
           "open_opps": 11,
           "open_amount": 1579800.0,
@@ -2722,7 +2737,7 @@
             "close_date": "2026-05-31"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Great Lakes East (Open)": {
@@ -2941,6 +2956,7 @@
         "pipeline_movement_90d": 578,
         "pipeline_movement_30d": 127,
         "stage_progressions_30d": 3,
+        "stage_progressions_90d": 13,
         "pipeline": {
           "open_opps": 68,
           "open_amount": 8954956.71,
@@ -2989,7 +3005,7 @@
             "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Tim Canley": {
@@ -3079,8 +3095,8 @@
         "avg_deal_size": 174300
       },
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "movement_driven",
+        "pattern_focus": "Probe deal quality and qualification rigor \u2014 activity volume is not the issue. Examine why specific opps haven't advanced despite frequent edits.",
         "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 42,
@@ -3106,6 +3122,7 @@
         "pipeline_movement_90d": 79,
         "pipeline_movement_30d": 37,
         "stage_progressions_30d": 2,
+        "stage_progressions_90d": 5,
         "pipeline": {
           "open_opps": 16,
           "open_amount": 3782500.0,
@@ -3154,7 +3171,7 @@
             "close_date": "2026-08-31"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Nick Moyes": {
@@ -3262,6 +3279,7 @@
         "pipeline_movement_90d": 65,
         "pipeline_movement_30d": 1,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1,
         "pipeline": {
           "open_opps": 12,
           "open_amount": 199000.0,
@@ -3310,7 +3328,7 @@
             "close_date": "2025-12-31"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     },
     "Curtis Knievel": {
@@ -3589,6 +3607,7 @@
         "pipeline_movement_90d": 55,
         "pipeline_movement_30d": 4,
         "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0,
         "pipeline": {
           "open_opps": 23,
           "open_amount": 5102500.0,
@@ -3637,20 +3656,20 @@
             "close_date": "2026-08-31"
           }
         ],
-        "computed_at": "2026-04-28T00:20:50.762706+00:00"
+        "computed_at": "2026-04-28T00:25:29.499273+00:00"
       }
     }
   },
   "sfdc_enrichment": {
-    "enriched_at": "2026-04-28T00:20:50.789694+00:00",
+    "enriched_at": "2026-04-28T00:25:29.527286+00:00",
     "reps_enriched": 19,
     "pattern_thresholds": {
-      "movement_driven_min_changes": 200,
+      "movement_driven_min_progressions": 5,
       "movement_driven_max_tasks": 50,
-      "task_driven_min_tasks": 300,
-      "task_driven_max_changes": 200,
+      "task_driven_min_tasks": 200,
+      "task_driven_max_progressions": 10,
       "stalled_max_tasks": 30,
-      "stalled_max_changes": 30,
+      "stalled_max_progressions": 0,
       "low_engagement_max_pct": 25,
       "top_stale_count": 5
     },

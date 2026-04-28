@@ -1,5 +1,5 @@
 {
-  "computed_at": "2026-04-28T00:20:50.762706+00:00",
+  "computed_at": "2026-04-28T00:25:29.499273+00:00",
   "data_source": "salesforce_mcp_cache",
   "org_summary": {
     "reps_total": 12,
@@ -70,8 +70,8 @@
       "manager": "Joel Carlucci",
       "is_hidden": false,
       "is_departed": false,
-      "pattern": "balanced",
-      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
       "hygiene_flag": "critical",
       "top_stale_opps": [
         {
@@ -145,7 +145,8 @@
         "changes_week": 4,
         "changes_month": 59,
         "changes_90d": 292,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 5
       },
       "pipeline": {
         "open_opp_count": 19,
@@ -205,7 +206,8 @@
         "changes_week": 3,
         "changes_month": 18,
         "changes_90d": 76,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1
       },
       "pipeline": {
         "open_opp_count": 11,
@@ -222,8 +224,8 @@
       "manager": "Teresa Bordenet",
       "is_hidden": false,
       "is_departed": false,
-      "pattern": "balanced",
-      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
       "hygiene_flag": "critical",
       "top_stale_opps": [
         {
@@ -297,7 +299,8 @@
         "changes_week": 2,
         "changes_month": 114,
         "changes_90d": 475,
-        "stage_progressions_30d": 2
+        "stage_progressions_30d": 2,
+        "stage_progressions_90d": 10
       },
       "pipeline": {
         "open_opp_count": 24,
@@ -365,7 +368,8 @@
         "changes_week": 1,
         "changes_month": 10,
         "changes_90d": 31,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1
       },
       "pipeline": {
         "open_opp_count": 7,
@@ -457,7 +461,8 @@
         "changes_week": 13,
         "changes_month": 127,
         "changes_90d": 578,
-        "stage_progressions_30d": 3
+        "stage_progressions_30d": 3,
+        "stage_progressions_90d": 13
       },
       "pipeline": {
         "open_opp_count": 68,
@@ -549,7 +554,8 @@
         "changes_week": 0,
         "changes_month": 4,
         "changes_90d": 55,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
       },
       "pipeline": {
         "open_opp_count": 23,
@@ -566,8 +572,8 @@
       "manager": "Joel Carlucci",
       "is_hidden": true,
       "is_departed": true,
-      "pattern": "balanced",
-      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
       "hygiene_flag": "healthy",
       "top_stale_opps": [],
       "activity": {
@@ -600,7 +606,8 @@
         "changes_week": 0,
         "changes_month": 77,
         "changes_90d": 338,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1
       },
       "pipeline": {
         "open_opp_count": 3,
@@ -651,7 +658,8 @@
         "changes_week": 0,
         "changes_month": 102,
         "changes_90d": 201,
-        "stage_progressions_30d": 1
+        "stage_progressions_30d": 1,
+        "stage_progressions_90d": 3
       },
       "pipeline": {
         "open_opp_count": 9,
@@ -719,7 +727,8 @@
         "changes_week": 0,
         "changes_month": 14,
         "changes_90d": 268,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
       },
       "pipeline": {
         "open_opp_count": 3,
@@ -770,7 +779,8 @@
         "changes_week": 0,
         "changes_month": 8,
         "changes_90d": 103,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
       },
       "pipeline": {
         "open_opp_count": 0,
@@ -787,8 +797,8 @@
       "manager": "Teresa Bordenet",
       "is_hidden": false,
       "is_departed": false,
-      "pattern": "balanced",
-      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
       "hygiene_flag": "critical",
       "top_stale_opps": [
         {
@@ -862,7 +872,8 @@
         "changes_week": 7,
         "changes_month": 93,
         "changes_90d": 411,
-        "stage_progressions_30d": 1
+        "stage_progressions_30d": 1,
+        "stage_progressions_90d": 5
       },
       "pipeline": {
         "open_opp_count": 20,
@@ -913,7 +924,8 @@
         "changes_week": 0,
         "changes_month": 0,
         "changes_90d": 0,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
       },
       "pipeline": {
         "open_opp_count": 0,
@@ -1005,7 +1017,8 @@
         "changes_week": 0,
         "changes_month": 1,
         "changes_90d": 65,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1
       },
       "pipeline": {
         "open_opp_count": 12,
@@ -1097,7 +1110,8 @@
         "changes_week": 1,
         "changes_month": 145,
         "changes_90d": 633,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 6
       },
       "pipeline": {
         "open_opp_count": 94,
@@ -1157,7 +1171,8 @@
         "changes_week": 0,
         "changes_month": 1,
         "changes_90d": 1,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
       },
       "pipeline": {
         "open_opp_count": 1,
@@ -1174,8 +1189,8 @@
       "manager": "Curtis Knievel",
       "is_hidden": false,
       "is_departed": false,
-      "pattern": "balanced",
-      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "pattern": "movement_driven",
+      "pattern_focus": "Probe deal quality and qualification rigor \u2014 activity volume is not the issue. Examine why specific opps haven't advanced despite frequent edits.",
       "hygiene_flag": "critical",
       "top_stale_opps": [
         {
@@ -1249,7 +1264,8 @@
         "changes_week": 4,
         "changes_month": 37,
         "changes_90d": 79,
-        "stage_progressions_30d": 2
+        "stage_progressions_30d": 2,
+        "stage_progressions_90d": 5
       },
       "pipeline": {
         "open_opp_count": 16,
@@ -1266,8 +1282,8 @@
       "manager": "Teresa Bordenet",
       "is_hidden": true,
       "is_departed": true,
-      "pattern": "balanced",
-      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
       "hygiene_flag": "healthy",
       "top_stale_opps": [
         {
@@ -1309,7 +1325,8 @@
         "changes_week": 1,
         "changes_month": 30,
         "changes_90d": 225,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 5
       },
       "pipeline": {
         "open_opp_count": 10,
@@ -1393,7 +1410,8 @@
         "changes_week": 1,
         "changes_month": 84,
         "changes_90d": 295,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 1
       },
       "pipeline": {
         "open_opp_count": 24,
@@ -1485,7 +1503,8 @@
         "changes_week": 0,
         "changes_month": 28,
         "changes_90d": 179,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 6
       },
       "pipeline": {
         "open_opp_count": 20,
@@ -1502,8 +1521,8 @@
       "manager": "Joel Carlucci",
       "is_hidden": false,
       "is_departed": false,
-      "pattern": "balanced",
-      "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
       "hygiene_flag": "healthy",
       "top_stale_opps": [],
       "activity": {
@@ -1536,7 +1555,8 @@
         "changes_week": 2,
         "changes_month": 47,
         "changes_90d": 247,
-        "stage_progressions_30d": 0
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 2
       },
       "pipeline": {
         "open_opp_count": 12,
