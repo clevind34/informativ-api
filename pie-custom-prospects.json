@@ -307,6 +307,15 @@
         "phone": "",
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-22T17:17:56.199Z"
+      },
+      {
+        "contact_name": "Glynn Comeaux",
+        "title": "Finance Manager",
+        "email": "gcrobichauxford@hotmail.com",
+        "phone": "",
+        "role": "contact",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-28T15:35:33.968Z"
       }
     ],
     "da4e2a4802eb70d7": [
@@ -372,7 +381,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-27T20:48:00.730Z",
+  "last_modified": "2026-04-28T15:35:33.968Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -380,6 +389,9 @@
     },
     "custom_1777322739828_ojybhi": {
       "0": "contact"
+    },
+    "be152bf82fbbdc0d": {
+      "1": "contact"
     }
   }
 }
