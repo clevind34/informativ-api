@@ -144,11 +144,29 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777392692193_gzc9v2",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "b6c10f8087a9d5b4",
+        "prospect_type": "nn",
+        "prospect_name": "Smart Chevrolet Company",
+        "city": "",
+        "state": "AR",
+        "due_date": "2026-05-01",
+        "created_date": "2026-04-28T16:11:32.193Z",
+        "completed_date": null,
+        "note": "Contacted - Interested — Several Vendors and they want to change credit providers",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": []
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T16:07:53.695Z"
+  "last_modified": "2026-04-28T16:11:32.193Z"
 }
