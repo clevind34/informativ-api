@@ -918,6 +918,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777403444962_bmp7k1",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "3799f5dfd9a9f55e",
+        "prospect_type": "nn",
+        "prospect_name": "Giles Hyundai",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-01",
+        "created_date": "2026-04-28T19:10:44.962Z",
+        "completed_date": null,
+        "note": "Contacted - Follow Up",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -943,5 +961,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T19:10:42.801Z"
+  "last_modified": "2026-04-28T19:10:44.962Z"
 }
