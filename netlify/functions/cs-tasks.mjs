@@ -63,7 +63,7 @@ const BRANCH = 'main';
 const MAX_OPEN_TASKS_PER_REP = 100;
 const VALID_DATE_RANGES = ['today', 'upcoming', 'completed', 'overdue', 'all'];
 const VALID_PROSPECT_TYPES = ['nn', 'cs', 'aff'];
-const VALID_SOURCES = ['manual', 'disposition_auto', 'daily_focus'];
+const VALID_SOURCES = ['manual', 'disposition_auto', 'daily_focus', 'pipeline_triage'];
 const VALID_CHUCK_MODES = ['call_prep', 'follow_up', 'discovery_script'];
 
 async function _handler(event) {
