@@ -846,11 +846,29 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777400800060_tvkq7r",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "6f8d0b5f17a43b8b",
+        "prospect_type": "nn",
+        "prospect_name": "Navarre Chevrolet Inc.",
+        "city": "Lake Charles",
+        "state": "LA",
+        "due_date": "2026-05-01",
+        "created_date": "2026-04-28T18:26:40.060Z",
+        "completed_date": null,
+        "note": "Contacted - Follow Up — GK Blocked",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": []
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T18:26:37.438Z"
+  "last_modified": "2026-04-28T18:26:40.060Z"
 }
