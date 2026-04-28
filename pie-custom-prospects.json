@@ -401,14 +401,14 @@
         "title": "GSM",
         "email": "\"kylebroughton.orrnissan@gmail.com\"",
         "phone": "",
-        "role": "contact",
+        "role": "dm_store",
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-28T17:02:17.919Z"
       }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-28T17:02:17.919Z",
+  "last_modified": "2026-04-28T17:02:24.892Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -421,7 +421,16 @@
       "1": "contact"
     },
     "d3ffeac7904ca203": {
-      "0": "contact"
+      "0": "dm_store"
     }
-  }
+  },
+  "contact_role_history": [
+    {
+      "record_id": "d3ffeac7904ca203",
+      "contact_key": "0",
+      "role": "dm_store",
+      "set_by": "Brock Hutchinson",
+      "set_at": "2026-04-28T17:02:24.892Z"
+    }
+  ]
 }
