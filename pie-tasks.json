@@ -91,9 +91,29 @@
         "chuck_output": null,
         "completion_note": null
       }
+    ],
+    "Tami Richter": [
+      {
+        "id": "task_1777378184880_q7937k",
+        "rep": "Tami Richter",
+        "prospect_id": "006Qg00000VVa73IAD",
+        "prospect_type": "nn",
+        "prospect_name": "Krause Auto Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-04-28",
+        "created_date": "2026-04-28T12:09:44.880Z",
+        "completed_date": null,
+        "note": "[SFDC TRIAGE] PROGRESS TO CLOSE — Committed · $894K · ∞ since last activity. Late-stage opp without recent movement. Push for signature, contract, or next step commitment.",
+        "status": "open",
+        "source": "pipeline_triage",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
+      }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-27T21:28:51.231Z"
+  "last_modified": "2026-04-28T12:09:44.880Z"
 }
