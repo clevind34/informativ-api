@@ -389,13 +389,13 @@
         "state": "LA",
         "due_date": "2026-04-28",
         "created_date": "2026-04-28T17:54:33.768Z",
-        "completed_date": null,
+        "completed_date": "2026-04-28T19:32:19.796Z",
         "note": "Daily Focus — high-ICP, no prior activity. Prep with Chuck before first outreach.",
-        "status": "open",
+        "status": "completed",
         "source": "daily_focus",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Left Voicemail — Called Tom Gartman vm"
       },
       {
         "id": "task_1777398875621_npwrqh",
@@ -997,5 +997,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T19:20:10.049Z"
+  "last_modified": "2026-04-28T19:32:19.796Z"
 }
