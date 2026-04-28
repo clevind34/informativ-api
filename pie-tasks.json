@@ -198,11 +198,29 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777395794165_19evpk",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "d3ffeac7904ca203",
+        "prospect_type": "nn",
+        "prospect_name": "Orr Nissan South",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-01",
+        "created_date": "2026-04-28T17:03:14.165Z",
+        "completed_date": null,
+        "note": "Sent email with overview.. this was a NADA webinar lead on FTC Safeguard.. call again",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": []
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T16:39:37.628Z"
+  "last_modified": "2026-04-28T17:03:14.165Z"
 }
