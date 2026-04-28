@@ -30,7 +30,7 @@
         "due_date": "2026-04-30",
         "created_date": "2026-04-27T15:16:31.659Z",
         "completed_date": null,
-        "note": "Contacted - Interested \u2014 Several Vendors and they want to change credit providers",
+        "note": "Contacted - Interested — Several Vendors and they want to change credit providers",
         "status": "open",
         "source": "disposition_auto",
         "disposition_id": null,
@@ -90,11 +90,29 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777383353855_oje2sn",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "006Qg00000iGBJ7IAO",
+        "prospect_type": "nn",
+        "prospect_name": "Bachman Auto Group Inc",
+        "city": "",
+        "state": "",
+        "due_date": "2026-04-28",
+        "created_date": "2026-04-28T13:35:53.855Z",
+        "completed_date": null,
+        "note": "[SFDC TRIAGE] CLOSE OUT — Solution Fit · $160K · ∞ since last activity. No contact in 60+ days at early stage — likely cold. Mark Closed Lost or revive with a clear plan.",
+        "status": "open",
+        "source": "pipeline_triage",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": []
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T12:11:51.246689Z"
+  "last_modified": "2026-04-28T13:35:53.855Z"
 }
