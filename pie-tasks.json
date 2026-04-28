@@ -174,7 +174,7 @@
         "due_date": "2026-05-01",
         "created_date": "2026-04-28T16:32:29.336Z",
         "completed_date": null,
-        "note": "",
+        "note": "New ownership, 13 rooftops.. I've sent 3 emails to Donner, might need new contact",
         "status": "open",
         "source": "manual",
         "disposition_id": null,
@@ -186,5 +186,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T16:32:29.336Z"
+  "last_modified": "2026-04-28T16:32:55.765Z"
 }
