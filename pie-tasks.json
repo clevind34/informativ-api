@@ -990,6 +990,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777404742897_kajtee",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "7b94a24129549f6f",
+        "prospect_type": "nn",
+        "prospect_name": "Tameron Kia Westbank",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-04-30",
+        "created_date": "2026-04-28T19:32:22.897Z",
+        "completed_date": null,
+        "note": "Left Voicemail — Called Tom Gartman vm",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -1015,5 +1033,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T19:32:22.091Z"
+  "last_modified": "2026-04-28T19:32:22.897Z"
 }
