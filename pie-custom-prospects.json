@@ -95,6 +95,22 @@
       "assigned_rep": "Brock Hutchinson",
       "created_by": "Brock Hutchinson",
       "created_at": "2026-04-28T17:46:17.474Z"
+    },
+    "custom_1777398557611_rlit81": {
+      "company_name": "Barnes Crossing Auto Group",
+      "city": "Tupelo",
+      "state": "MS",
+      "contact_name": "Daniel",
+      "title": "Kim",
+      "email": "daniel.kim@bc.auto",
+      "phone": "6628441383",
+      "oem": "",
+      "est_vehicles": 0,
+      "group": "",
+      "pipeline": "net_new",
+      "assigned_rep": "Brock Hutchinson",
+      "created_by": "Brock Hutchinson",
+      "created_at": "2026-04-28T17:49:17.824Z"
     }
   },
   "group_associations": {
@@ -456,7 +472,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-28T17:46:17.474Z",
+  "last_modified": "2026-04-28T17:49:17.824Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
