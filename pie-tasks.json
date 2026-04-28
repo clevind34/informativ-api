@@ -108,11 +108,29 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777390575877_mtl58x",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "be152bf82fbbdc0d",
+        "prospect_type": "nn",
+        "prospect_name": "Robichaux Ford",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-01",
+        "created_date": "2026-04-28T15:36:15.878Z",
+        "completed_date": null,
+        "note": "Had SF meeting scheduled.. he ghosted, ems on 4/28",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": []
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T13:38:16.525Z"
+  "last_modified": "2026-04-28T15:36:15.878Z"
 }
