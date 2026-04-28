@@ -1,7 +1,13 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-04-28T19:15:27Z",
-  "generated_by": "claude-cowork:mcid-audit",
+  "generated_at": "2026-04-28T19:46:38Z",
+  "generated_by": "claude-cowork:mcid-audit-reframe",
+  "data_integrity_principles": [
+    "Snowflake is the system of record. A customer is a billing customer only if it has IS_ACTIVE = TRUE in DIM_CUSTOMER.",
+    "SFDC Status__c is operational metadata, not billing truth. SFDC Client accounts without an MCID are not billing customers.",
+    "Actionable hygiene categories (in priority order): 1) Missing from SFDC \u2014 Snowflake-active customers with no SFDC Account record; 2) Status Drift \u2014 both systems exist but disagree.",
+    "SFDC Client accounts without an MCID are informational. They reflect SFDC operational hygiene (parent/group records, stale Client status, pre-MCID era), not billing-data integrity gaps."
+  ],
   "summary": {
     "snowflake_total_customers": 10523,
     "snowflake_active_customers": 4292,
@@ -960,12 +966,14 @@
     "total": 2734,
     "client": 2725,
     "implementing": 9,
-    "note": "Client and Implementing accounts in SFDC without Master_Customer_ID__c populated. Full list available via on-demand query (too large for inline)."
+    "framing": "informational",
+    "note": "SFDC accounts marked Client/Implementing without an MCID. Snowflake is the system of record for billing customers, so this is NOT a billing-data hygiene gap. These records are typically (a) parent/group hierarchy accounts, (b) stale Client status not yet moved to Terminated, or (c) pre-MCID-era accounts. Surfaced for context only."
   },
   "data_quality_notes": [
     "16 of 65 missing-from-SFDC records are pending pipeline enumeration (chunks 1-8). Will populate on next salesforce-rebuild.",
     "Many 'missing from SFDC' records are actually QA/test accounts in Snowflake DIM_CUSTOMER that should be filtered from IS_ACTIVE = TRUE. Pipeline auto-flags these via likely_test_account heuristic.",
-    "2,734 SFDC Client/Implementing accounts have no MCID populated. This is the largest single hygiene issue. These accounts cannot be cross-referenced against Snowflake billing data.",
-    "Status drift between systems is the most actionable category \u2014 31 records need manual reconciliation."
-  ]
+    "Status Drift is the most actionable category \u2014 31 records need manual reconciliation.",
+    "SFDC Client accounts without an MCID is informational only. Snowflake is the system of record; SFDC operational hygiene is a separate concern."
+  ],
+  "sfdc_no_mcid_decomposition": null
 }
