@@ -810,11 +810,29 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777398931861_2z4m7q",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "a3e8b43ca5f4bc60",
+        "prospect_type": "nn",
+        "prospect_name": "Harper Chevrolet GMC",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-04-28",
+        "created_date": "2026-04-28T17:55:31.861Z",
+        "completed_date": null,
+        "note": "Daily Focus — high-ICP, no prior activity. Prep with Chuck before first outreach.",
+        "status": "open",
+        "source": "daily_focus",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": []
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T17:55:29.890Z"
+  "last_modified": "2026-04-28T17:55:31.861Z"
 }
