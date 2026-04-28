@@ -440,7 +440,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-28T17:42:56.948Z",
+  "last_modified": "2026-04-28T17:43:17.084Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -454,6 +454,9 @@
     },
     "d3ffeac7904ca203": {
       "0": "dm_store"
+    },
+    "custom_1777398176786_793305": {
+      "primary": "dm_store"
     }
   },
   "contact_role_history": [
@@ -463,6 +466,13 @@
       "role": "dm_store",
       "set_by": "Brock Hutchinson",
       "set_at": "2026-04-28T17:02:24.892Z"
+    },
+    {
+      "record_id": "custom_1777398176786_793305",
+      "contact_key": "primary",
+      "role": "dm_store",
+      "set_by": "Brock Hutchinson",
+      "set_at": "2026-04-28T17:43:17.084Z"
     }
   ]
 }
