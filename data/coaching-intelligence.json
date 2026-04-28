@@ -350,7 +350,7 @@
       "sfdc_truth": {
         "pattern": "manager",
         "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 0,
           "events": 12,
@@ -374,14 +374,24 @@
         },
         "pipeline_movement_90d": 1,
         "pipeline_movement_30d": 1,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 1,
           "open_amount": 0.0,
-          "stale_count": 0,
-          "engagement_pct": 100.0
+          "stale_count": 1,
+          "engagement_pct": 0.0
         },
-        "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "top_stale_opps": [
+          {
+            "account": "SCS Cloud Test Account",
+            "stage": "Solution Fit",
+            "amount": 0.0,
+            "days_since_activity": null,
+            "days_in_stage": 5,
+            "close_date": "2026-04-30"
+          }
+        ],
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Trish Smith": {
@@ -504,8 +514,8 @@
         "dataStatus": "live"
       },
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "low_engagement",
+        "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
         "hygiene_flag": "healthy",
         "activity_90d": {
           "tasks": 195,
@@ -530,11 +540,12 @@
         },
         "pipeline_movement_90d": 295,
         "pipeline_movement_30d": 84,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 24,
           "open_amount": 3820448.72,
           "stale_count": 4,
-          "engagement_pct": 50.0
+          "engagement_pct": 20.8
         },
         "top_stale_opps": [
           {
@@ -542,23 +553,23 @@
             "stage": "Tech Demo",
             "amount": 800000.0,
             "days_since_activity": null,
-            "days_in_stage": 80,
+            "days_in_stage": 81,
             "close_date": "2026-05-29"
           },
           {
             "account": "Lewis Ford Sales",
             "stage": "Solution Fit",
             "amount": 160000.0,
-            "days_since_activity": 496,
-            "days_in_stage": 79,
+            "days_since_activity": 497,
+            "days_in_stage": 80,
             "close_date": "2026-06-05"
           },
           {
             "account": "Jeff Haas Mazda Group Parent",
             "stage": "Tech Demo",
             "amount": 88000.0,
-            "days_since_activity": 68,
-            "days_in_stage": 80,
+            "days_since_activity": 69,
+            "days_in_stage": 81,
             "close_date": "2026-05-29"
           },
           {
@@ -566,11 +577,11 @@
             "stage": "Solution Fit",
             "amount": 60000.0,
             "days_since_activity": null,
-            "days_in_stage": 81,
+            "days_in_stage": 82,
             "close_date": "2026-05-29"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Matt Hanaman": {
@@ -695,7 +706,7 @@
       "sfdc_truth": {
         "pattern": "balanced",
         "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
-        "hygiene_flag": "warning",
+        "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 222,
           "events": 186,
@@ -719,11 +730,12 @@
         },
         "pipeline_movement_90d": 411,
         "pipeline_movement_30d": 93,
+        "stage_progressions_30d": 1,
         "pipeline": {
           "open_opps": 20,
           "open_amount": 6061271.84,
-          "stale_count": 5,
-          "engagement_pct": 75.0
+          "stale_count": 10,
+          "engagement_pct": 45.0
         },
         "top_stale_opps": [
           {
@@ -731,7 +743,7 @@
             "stage": "Solution Fit",
             "amount": 670000.0,
             "days_since_activity": null,
-            "days_in_stage": 52,
+            "days_in_stage": 53,
             "close_date": "2026-07-31"
           },
           {
@@ -739,15 +751,23 @@
             "stage": "Solution Fit",
             "amount": 655000.0,
             "days_since_activity": null,
-            "days_in_stage": 52,
+            "days_in_stage": 53,
             "close_date": "2026-06-30"
+          },
+          {
+            "account": "Leman Auto Group",
+            "stage": "Solution Fit",
+            "amount": 440000.0,
+            "days_since_activity": null,
+            "days_in_stage": 75,
+            "close_date": "2026-05-31"
           },
           {
             "account": "Fields Auto Group",
             "stage": "Solution Fit",
             "amount": 400000.0,
             "days_since_activity": null,
-            "days_in_stage": 52,
+            "days_in_stage": 53,
             "close_date": "2026-06-30"
           },
           {
@@ -755,19 +775,11 @@
             "stage": "Solution Fit",
             "amount": 250000.0,
             "days_since_activity": null,
-            "days_in_stage": 55,
+            "days_in_stage": 56,
             "close_date": "2026-05-31"
-          },
-          {
-            "account": "M'Lady Nissan",
-            "stage": "Solution Fit",
-            "amount": 59000.0,
-            "days_since_activity": null,
-            "days_in_stage": 52,
-            "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Kiristen Sandoval": {
@@ -840,7 +852,7 @@
       "sfdc_truth": {
         "pattern": "manager",
         "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 7,
           "events": 1,
@@ -864,14 +876,32 @@
         },
         "pipeline_movement_90d": 268,
         "pipeline_movement_30d": 14,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 3,
           "open_amount": 491514.6,
-          "stale_count": 0,
-          "engagement_pct": 100.0
+          "stale_count": 2,
+          "engagement_pct": 0.0
         },
-        "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "top_stale_opps": [
+          {
+            "account": "Mossy Automotive Group",
+            "stage": "Tech Demo",
+            "amount": 140638.2,
+            "days_since_activity": null,
+            "days_in_stage": 39,
+            "close_date": "2026-04-30"
+          },
+          {
+            "account": "RML Automotive (TX)",
+            "stage": "Committed",
+            "amount": 76032.0,
+            "days_since_activity": null,
+            "days_in_stage": 88,
+            "close_date": "2026-04-30"
+          }
+        ],
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Tami Richter": {
@@ -996,7 +1026,7 @@
       "sfdc_truth": {
         "pattern": "movement_driven",
         "pattern_focus": "Probe deal quality and qualification rigor \u2014 activity volume is not the issue. Examine why specific opps haven't advanced despite frequent edits.",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 3,
           "events": 127,
@@ -1020,31 +1050,56 @@
         },
         "pipeline_movement_90d": 633,
         "pipeline_movement_30d": 145,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 94,
           "open_amount": 10707529.69,
-          "stale_count": 2,
-          "engagement_pct": 97.9
+          "stale_count": 92,
+          "engagement_pct": 2.1
         },
         "top_stale_opps": [
+          {
+            "account": "Rick Case Automotive Group",
+            "stage": "Solution Fit",
+            "amount": 1330611.96,
+            "days_since_activity": null,
+            "days_in_stage": 77,
+            "close_date": "2026-05-30"
+          },
+          {
+            "account": "Krause Auto Group",
+            "stage": "Committed",
+            "amount": 894318.0,
+            "days_since_activity": null,
+            "days_in_stage": 209,
+            "close_date": "2026-05-30"
+          },
           {
             "account": "Gettel Automotive Group",
             "stage": "Tech Demo",
             "amount": 700000.0,
             "days_since_activity": null,
-            "days_in_stage": 390,
+            "days_in_stage": 391,
             "close_date": "2026-04-30"
           },
           {
-            "account": "Lithia Automotive Group",
-            "stage": "Solution Fit",
-            "amount": 39000.0,
-            "days_since_activity": 52,
-            "days_in_stage": 54,
-            "close_date": "2026-05-31"
+            "account": "Morgan Auto Group",
+            "stage": "Proposal",
+            "amount": 584307.64,
+            "days_since_activity": 496,
+            "days_in_stage": 539,
+            "close_date": "2026-05-30"
+          },
+          {
+            "account": "Potamkin Automotive Group",
+            "stage": "Proposal",
+            "amount": 520736.28,
+            "days_since_activity": null,
+            "days_in_stage": 390,
+            "close_date": "2026-05-30"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Carol Sanford": {
@@ -1169,7 +1224,7 @@
       "sfdc_truth": {
         "pattern": "balanced",
         "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 377,
           "events": 203,
@@ -1193,23 +1248,56 @@
         },
         "pipeline_movement_90d": 475,
         "pipeline_movement_30d": 114,
+        "stage_progressions_30d": 2,
         "pipeline": {
           "open_opps": 24,
           "open_amount": 8566701.58,
-          "stale_count": 1,
-          "engagement_pct": 95.8
+          "stale_count": 12,
+          "engagement_pct": 45.8
         },
         "top_stale_opps": [
           {
-            "account": "RRV Sales",
-            "stage": "Proposal",
-            "amount": 5810.8,
+            "account": "GMC of Riverfront Park",
+            "stage": "Solution Fit",
+            "amount": 185999.0,
+            "days_since_activity": 56,
+            "days_in_stage": 251,
+            "close_date": "2026-05-29"
+          },
+          {
+            "account": "Sunset Imports",
+            "stage": "Tech Demo",
+            "amount": 155346.32,
+            "days_since_activity": 36,
+            "days_in_stage": 57,
+            "close_date": "2026-05-15"
+          },
+          {
+            "account": "Jerry V's Auto Group",
+            "stage": "Tech Demo",
+            "amount": 120000.0,
+            "days_since_activity": 56,
+            "days_in_stage": 81,
+            "close_date": "2026-05-29"
+          },
+          {
+            "account": "Korum Automotive Group",
+            "stage": "Solution Fit",
+            "amount": 116119.0,
             "days_since_activity": 34,
-            "days_in_stage": 27,
-            "close_date": "2026-04-30"
+            "days_in_stage": 56,
+            "close_date": "2026-05-29"
+          },
+          {
+            "account": "Schomp Automotive Group",
+            "stage": "Tech Demo",
+            "amount": 84000.0,
+            "days_since_activity": null,
+            "days_in_stage": 81,
+            "close_date": "2026-05-29"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Clarence Romero": {
@@ -1294,7 +1382,7 @@
       "sfdc_truth": {
         "pattern": "balanced",
         "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "warning",
         "activity_90d": {
           "tasks": 113,
           "events": 36,
@@ -1318,14 +1406,32 @@
         },
         "pipeline_movement_90d": 31,
         "pipeline_movement_30d": 10,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 7,
           "open_amount": 261631.72,
-          "stale_count": 0,
-          "engagement_pct": 100.0
+          "stale_count": 2,
+          "engagement_pct": 57.1
         },
-        "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "top_stale_opps": [
+          {
+            "account": "GPB Cars LLC",
+            "stage": "Solution Fit",
+            "amount": 39000.0,
+            "days_since_activity": null,
+            "days_in_stage": 53,
+            "close_date": "2026-07-31"
+          },
+          {
+            "account": "Jeff Kies Auto Sales Inc",
+            "stage": "Solution Fit",
+            "amount": 0.0,
+            "days_since_activity": null,
+            "days_in_stage": 1,
+            "close_date": "2026-06-30"
+          }
+        ],
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Tom Meredith": {
@@ -1432,14 +1538,24 @@
         },
         "pipeline_movement_90d": 225,
         "pipeline_movement_30d": 30,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 10,
           "open_amount": 1158279.34,
-          "stale_count": 0,
-          "engagement_pct": 100.0
+          "stale_count": 1,
+          "engagement_pct": 90.0
         },
-        "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "top_stale_opps": [
+          {
+            "account": "Dansville Chrysler Dodge Jeep",
+            "stage": "Solution Fit",
+            "amount": 15000.0,
+            "days_since_activity": null,
+            "days_in_stage": 12,
+            "close_date": "2026-06-30"
+          }
+        ],
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Loren Rivera": {
@@ -1525,6 +1641,7 @@
         },
         "pipeline_movement_90d": 103,
         "pipeline_movement_30d": 8,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 0,
           "open_amount": 0,
@@ -1532,7 +1649,7 @@
           "engagement_pct": 0.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Joel Carlucci": {
@@ -1854,6 +1971,7 @@
         },
         "pipeline_movement_90d": 201,
         "pipeline_movement_30d": 102,
+        "stage_progressions_30d": 1,
         "pipeline": {
           "open_opps": 9,
           "open_amount": 661875.28,
@@ -1861,7 +1979,7 @@
           "engagement_pct": 100.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Ashton Gough": {
@@ -1986,7 +2104,7 @@
       "sfdc_truth": {
         "pattern": "balanced",
         "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 505,
           "events": 125,
@@ -2010,31 +2128,56 @@
         },
         "pipeline_movement_90d": 292,
         "pipeline_movement_30d": 59,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 19,
           "open_amount": 1880883.36,
-          "stale_count": 2,
-          "engagement_pct": 89.5
+          "stale_count": 10,
+          "engagement_pct": 47.4
         },
         "top_stale_opps": [
           {
-            "account": "Precision Honda Group",
+            "account": "Harper Autos Group",
             "stage": "Tech Demo",
-            "amount": 40000.0,
-            "days_since_activity": 34,
-            "days_in_stage": 80,
+            "amount": 360000.0,
+            "days_since_activity": 63,
+            "days_in_stage": 82,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "Ford Lincoln Fairfield",
+            "stage": "Solution Fit",
+            "amount": 180000.0,
+            "days_since_activity": null,
+            "days_in_stage": 14,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "Temecula Hyundai",
+            "stage": "Tech Demo",
+            "amount": 163697.12,
+            "days_since_activity": null,
+            "days_in_stage": 7,
             "close_date": "2026-05-31"
           },
           {
-            "account": "Theodore Robins Ford Group Parent",
+            "account": "Nelson Group Automotive",
             "stage": "Tech Demo",
-            "amount": 40000.0,
-            "days_since_activity": 34,
-            "days_in_stage": 80,
-            "close_date": "2026-05-31"
+            "amount": 136456.04,
+            "days_since_activity": 36,
+            "days_in_stage": 256,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "Ever Cars",
+            "stage": "Solution Fit",
+            "amount": 46000.0,
+            "days_since_activity": 42,
+            "days_in_stage": 75,
+            "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "David Castone": {
@@ -2120,6 +2263,7 @@
         },
         "pipeline_movement_90d": 338,
         "pipeline_movement_30d": 77,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 3,
           "open_amount": 707800.0,
@@ -2127,7 +2271,7 @@
           "engagement_pct": 100.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "William Fowler": {
@@ -2256,6 +2400,7 @@
         },
         "pipeline_movement_90d": 247,
         "pipeline_movement_30d": 47,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 12,
           "open_amount": 388120.96,
@@ -2263,7 +2408,7 @@
           "engagement_pct": 100.0
         },
         "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Ward Carroll": {
@@ -2348,7 +2493,7 @@
       "sfdc_truth": {
         "pattern": "task_driven",
         "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "warning",
         "activity_90d": {
           "tasks": 405,
           "events": 110,
@@ -2372,14 +2517,56 @@
         },
         "pipeline_movement_90d": 179,
         "pipeline_movement_30d": 28,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 20,
           "open_amount": 1399200.0,
-          "stale_count": 0,
-          "engagement_pct": 95.0
+          "stale_count": 5,
+          "engagement_pct": 45.0
         },
-        "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "top_stale_opps": [
+          {
+            "account": "Friendship Nissan of Boone",
+            "stage": "Tech Demo",
+            "amount": 43000.0,
+            "days_since_activity": null,
+            "days_in_stage": 26,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "Barton Ford Suffolk",
+            "stage": "Solution Fit",
+            "amount": 43000.0,
+            "days_since_activity": null,
+            "days_in_stage": 26,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "Cardinal Chevrolet",
+            "stage": "Solution Fit",
+            "amount": 41000.0,
+            "days_since_activity": null,
+            "days_in_stage": 22,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "Glorious Motorsports",
+            "stage": "Solution Fit",
+            "amount": 40000.0,
+            "days_since_activity": null,
+            "days_in_stage": 20,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "Ferrari Maserati of Washington",
+            "stage": "Tech Demo",
+            "amount": 36000.0,
+            "days_since_activity": null,
+            "days_in_stage": 19,
+            "close_date": "2026-06-30"
+          }
+        ],
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Brock Hutchinson": {
@@ -2518,14 +2705,24 @@
         },
         "pipeline_movement_90d": 76,
         "pipeline_movement_30d": 18,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 11,
           "open_amount": 1579800.0,
-          "stale_count": 0,
-          "engagement_pct": 100.0
+          "stale_count": 1,
+          "engagement_pct": 90.9
         },
-        "top_stale_opps": [],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "top_stale_opps": [
+          {
+            "account": "Bachman Auto Group Inc",
+            "stage": "Solution Fit",
+            "amount": 160000.0,
+            "days_since_activity": null,
+            "days_in_stage": 1,
+            "close_date": "2026-05-31"
+          }
+        ],
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Great Lakes East (Open)": {
@@ -2717,8 +2914,8 @@
         "dataStatus": "live"
       },
       "sfdc_truth": {
-        "pattern": "balanced",
-        "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
+        "pattern": "low_engagement",
+        "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
         "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 55,
@@ -2743,55 +2940,56 @@
         },
         "pipeline_movement_90d": 578,
         "pipeline_movement_30d": 127,
+        "stage_progressions_30d": 3,
         "pipeline": {
           "open_opps": 68,
           "open_amount": 8954956.71,
-          "stale_count": 33,
-          "engagement_pct": 50.0
+          "stale_count": 61,
+          "engagement_pct": 5.9
         },
         "top_stale_opps": [
+          {
+            "account": "Penske Automotive Group",
+            "stage": "Tech Demo",
+            "amount": 1400000.0,
+            "days_since_activity": null,
+            "days_in_stage": 29,
+            "close_date": "2026-06-30"
+          },
           {
             "account": "Auto Lenders",
             "stage": "Committed",
             "amount": 635651.68,
-            "days_since_activity": 62,
-            "days_in_stage": 72,
+            "days_since_activity": 63,
+            "days_in_stage": 73,
             "close_date": "2026-04-30"
+          },
+          {
+            "account": "Ratio Tech_Group Parent",
+            "stage": "Solution Fit",
+            "amount": 565384.4,
+            "days_since_activity": null,
+            "days_in_stage": 21,
+            "close_date": "2026-06-30"
           },
           {
             "account": "Victory Home Remodeling_Group Parent",
             "stage": "Solution Fit",
             "amount": 497463.52,
             "days_since_activity": null,
-            "days_in_stage": 46,
+            "days_in_stage": 47,
             "close_date": "2026-05-15"
           },
           {
-            "account": "US Auto Trust Newport Beach",
-            "stage": "Tech Demo",
-            "amount": 193000.0,
-            "days_since_activity": null,
-            "days_in_stage": 33,
-            "close_date": "2026-06-26"
-          },
-          {
-            "account": "Ron Westphal Chevrolet",
+            "account": "Amur Equipment Finance_Group Parent",
             "stage": "Solution Fit",
-            "amount": 120000.0,
-            "days_since_activity": 40,
-            "days_in_stage": 59,
-            "close_date": "2026-04-30"
-          },
-          {
-            "account": "Jerseyville Motor Company, Inc.",
-            "stage": "Solution Fit",
-            "amount": 96000.0,
-            "days_since_activity": 40,
-            "days_in_stage": 55,
-            "close_date": "2026-04-30"
+            "amount": 473014.88,
+            "days_since_activity": 511,
+            "days_in_stage": 1,
+            "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Tim Canley": {
@@ -2883,7 +3081,7 @@
       "sfdc_truth": {
         "pattern": "balanced",
         "pattern_focus": "Healthy execution rhythm. Reinforce what's working and identify the next stretch goal.",
-        "hygiene_flag": "healthy",
+        "hygiene_flag": "critical",
         "activity_90d": {
           "tasks": 42,
           "events": 97,
@@ -2907,31 +3105,56 @@
         },
         "pipeline_movement_90d": 79,
         "pipeline_movement_30d": 37,
+        "stage_progressions_30d": 2,
         "pipeline": {
           "open_opps": 16,
           "open_amount": 3782500.0,
-          "stale_count": 2,
-          "engagement_pct": 87.5
+          "stale_count": 10,
+          "engagement_pct": 25.0
         },
         "top_stale_opps": [
           {
-            "account": "Nabthat",
+            "account": "TrueCar, Inc.",
             "stage": "Solution Fit",
-            "amount": 150000.0,
+            "amount": 605000.0,
             "days_since_activity": null,
-            "days_in_stage": 77,
-            "close_date": "2026-07-31"
+            "days_in_stage": 13,
+            "close_date": "2026-06-30"
           },
           {
-            "account": "Star Performance Marketing",
-            "stage": "Solution Fit",
-            "amount": 105000.0,
+            "account": "Trade Pending",
+            "stage": "Tech Demo",
+            "amount": 605000.0,
             "days_since_activity": null,
-            "days_in_stage": 38,
-            "close_date": "2026-07-31"
+            "days_in_stage": 4,
+            "close_date": "2026-10-31"
+          },
+          {
+            "account": "C-4 Analytics",
+            "stage": "Tech Demo",
+            "amount": 350000.0,
+            "days_since_activity": 60,
+            "days_in_stage": 21,
+            "close_date": "2026-05-31"
+          },
+          {
+            "account": "Amazon Autos",
+            "stage": "Solution Fit",
+            "amount": 350000.0,
+            "days_since_activity": null,
+            "days_in_stage": 11,
+            "close_date": "2026-10-31"
+          },
+          {
+            "account": "Pureinfluencer",
+            "stage": "Solution Fit",
+            "amount": 315000.0,
+            "days_since_activity": 816,
+            "days_in_stage": 11,
+            "close_date": "2026-08-31"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Nick Moyes": {
@@ -3038,27 +3261,28 @@
         },
         "pipeline_movement_90d": 65,
         "pipeline_movement_30d": 1,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 12,
           "open_amount": 199000.0,
-          "stale_count": 11,
-          "engagement_pct": 8.3
+          "stale_count": 12,
+          "engagement_pct": 0.0
         },
         "top_stale_opps": [
           {
             "account": "Matthews Auto Group",
             "stage": "Solution Fit",
             "amount": 150000.0,
-            "days_since_activity": 77,
-            "days_in_stage": 67,
+            "days_since_activity": 78,
+            "days_in_stage": 68,
             "close_date": "2026-05-31"
           },
           {
             "account": "Acadiana Automotive Group",
             "stage": "Tech Demo",
             "amount": 25000.0,
-            "days_since_activity": 89,
-            "days_in_stage": 67,
+            "days_since_activity": 90,
+            "days_in_stage": 68,
             "close_date": "2026-05-31"
           },
           {
@@ -3066,27 +3290,27 @@
             "stage": "Solution Fit",
             "amount": 24000.0,
             "days_since_activity": null,
-            "days_in_stage": 75,
+            "days_in_stage": 76,
             "close_date": "2026-06-30"
           },
           {
             "account": "South Dakota Auto Dealers Association",
             "stage": "NDA",
             "amount": 0.0,
-            "days_since_activity": 126,
-            "days_in_stage": 125,
+            "days_since_activity": 127,
+            "days_in_stage": 126,
             "close_date": "2025-12-31"
           },
           {
             "account": "Montana Automobile Dealers Association",
             "stage": "Proposal",
             "amount": 0.0,
-            "days_since_activity": 96,
-            "days_in_stage": 136,
+            "days_since_activity": 97,
+            "days_in_stage": 137,
             "close_date": "2025-12-31"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     },
     "Curtis Knievel": {
@@ -3364,19 +3588,36 @@
         },
         "pipeline_movement_90d": 55,
         "pipeline_movement_30d": 4,
+        "stage_progressions_30d": 0,
         "pipeline": {
           "open_opps": 23,
           "open_amount": 5102500.0,
-          "stale_count": 19,
-          "engagement_pct": 17.4
+          "stale_count": 23,
+          "engagement_pct": 0.0
         },
         "top_stale_opps": [
+          {
+            "account": "Epsilon",
+            "stage": "Solution Fit",
+            "amount": 1200000.0,
+            "days_since_activity": null,
+            "days_in_stage": 14,
+            "close_date": "2026-06-30"
+          },
+          {
+            "account": "WorkTruck",
+            "stage": "Solution Fit",
+            "amount": 607500.0,
+            "days_since_activity": null,
+            "days_in_stage": 77,
+            "close_date": "2026-06-30"
+          },
           {
             "account": "Tecobi",
             "stage": "Solution Fit",
             "amount": 607500.0,
             "days_since_activity": null,
-            "days_in_stage": 135,
+            "days_in_stage": 136,
             "close_date": "2026-06-30"
           },
           {
@@ -3384,7 +3625,7 @@
             "stage": "Solution Fit",
             "amount": 607500.0,
             "days_since_activity": null,
-            "days_in_stage": 76,
+            "days_in_stage": 77,
             "close_date": "2026-06-30"
           },
           {
@@ -3392,32 +3633,16 @@
             "stage": "Solution Fit",
             "amount": 607500.0,
             "days_since_activity": null,
-            "days_in_stage": 167,
+            "days_in_stage": 168,
             "close_date": "2026-08-31"
-          },
-          {
-            "account": "DriveCentric",
-            "stage": "Solution Fit",
-            "amount": 607500.0,
-            "days_since_activity": null,
-            "days_in_stage": 76,
-            "close_date": "2026-09-30"
-          },
-          {
-            "account": "Impel",
-            "stage": "Solution Fit",
-            "amount": 157500.0,
-            "days_since_activity": null,
-            "days_in_stage": 76,
-            "close_date": "2026-06-30"
           }
         ],
-        "computed_at": "2026-04-27T23:26:03.948045+00:00"
+        "computed_at": "2026-04-28T00:20:50.762706+00:00"
       }
     }
   },
   "sfdc_enrichment": {
-    "enriched_at": "2026-04-27T23:26:03.967253+00:00",
+    "enriched_at": "2026-04-28T00:20:50.789694+00:00",
     "reps_enriched": 19,
     "pattern_thresholds": {
       "movement_driven_min_changes": 200,
