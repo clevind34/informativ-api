@@ -954,6 +954,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777404010049_u5kmeo",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "e9eb39f8364abdfe",
+        "prospect_type": "nn",
+        "prospect_name": "Orr Kia of Shreveport",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-04-30",
+        "created_date": "2026-04-28T19:20:10.049Z",
+        "completed_date": null,
+        "note": "Left Voicemail — Called Steven Hemphill.. vm",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -979,5 +997,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T19:20:08.184Z"
+  "last_modified": "2026-04-28T19:20:10.049Z"
 }
