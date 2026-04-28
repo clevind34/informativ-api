@@ -55,6 +55,8 @@
     "data/pie-data-aff.json",
     "data/sfdc-rep-summary.json",
     "data/sfdc-pipeline.json",
+    "data/mcid-audit.json",
+    "data/mcid-action-log.json",
   ]
 
 # === Route Rewrites ===
@@ -116,6 +118,11 @@
 [[redirects]]
   from = "/api/cs/tasks"
   to = "/.netlify/functions/cs-tasks"
+  status = 200
+
+[[redirects]]
+  from = "/api/cs/mcid-actions"
+  to = "/.netlify/functions/cs-mcid-actions"
   status = 200
 
 # Analytics / Tracking
@@ -320,6 +327,11 @@
 [[redirects]]
   from = "/api/data/sfdc-pipeline"
   to = "/.netlify/functions/data-sfdc-pipeline"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/mcid-audit"
+  to = "/.netlify/functions/data-mcid-audit"
   status = 200
 
 [[redirects]]
