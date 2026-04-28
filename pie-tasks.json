@@ -99,10 +99,10 @@
         "prospect_name": "Bachman Auto Group Inc",
         "city": "",
         "state": "",
-        "due_date": "2026-04-28",
+        "due_date": "2026-05-01",
         "created_date": "2026-04-28T13:35:53.855Z",
         "completed_date": null,
-        "note": "[SFDC TRIAGE] CLOSE OUT — Solution Fit · $160K · ∞ since last activity. No contact in 60+ days at early stage — likely cold. Mark Closed Lost or revive with a clear plan.",
+        "note": "Follow up with Steve Turner to make sure we are still good for monday",
         "status": "open",
         "source": "pipeline_triage",
         "disposition_id": null,
@@ -114,5 +114,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T13:35:53.855Z"
+  "last_modified": "2026-04-28T13:38:16.525Z"
 }
