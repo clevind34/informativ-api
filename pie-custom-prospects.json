@@ -485,10 +485,21 @@
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-28T17:02:17.919Z"
       }
+    ],
+    "a7ce9dd3138b32a9": [
+      {
+        "contact_name": "Byron Pitre",
+        "title": "Finance Manager",
+        "email": "byron@gerilynnnissan.com",
+        "phone": "",
+        "role": "contact",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-29T17:47:09.066Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-28T17:53:51.159Z",
+  "last_modified": "2026-04-29T17:47:09.066Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -505,6 +516,9 @@
     },
     "custom_1777398176786_793305": {
       "primary": "dm_group"
+    },
+    "a7ce9dd3138b32a9": {
+      "0": "contact"
     }
   },
   "contact_role_history": [
