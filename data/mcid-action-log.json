@@ -47,9 +47,25 @@
         "sfdc_status_at_action": "Prospect",
         "sfdc_account_name": "GERRY LANE ENTERPRISES"
       }
+    },
+    {
+      "id": "act_1777475226301_dkkrft7qr",
+      "mcid": 101948,
+      "drift_type": "prospect_but_active",
+      "action_type": "status_corrected",
+      "notes": null,
+      "assigned_to": null,
+      "taken_by": "unknown",
+      "taken_by_name": "unknown",
+      "taken_at": "2026-04-29T15:07:06.302Z",
+      "context": {
+        "sfdc_account_id": "0018a00001vXwAIAA0",
+        "sfdc_status_at_action": "Prospect",
+        "sfdc_account_name": "GERRY LANE ENTERPRISES"
+      }
     }
   ],
   "schema_version": "1.0",
   "created_at": "2026-04-28T00:00:00Z",
-  "last_updated": "2026-04-29T15:02:21.521Z"
+  "last_updated": "2026-04-29T15:07:06.302Z"
 }
