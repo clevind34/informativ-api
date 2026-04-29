@@ -1008,6 +1008,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777484840378_t9ty51",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "a7ce9dd3138b32a9",
+        "prospect_type": "nn",
+        "prospect_name": "Geri Lynn Nissan",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-04-30",
+        "created_date": "2026-04-29T17:47:20.378Z",
+        "completed_date": null,
+        "note": "Meeting Scheduled — When I asked for vendor info, he essentially hung up on me - email sent also",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -1033,5 +1051,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-28T19:32:22.897Z"
+  "last_modified": "2026-04-29T17:47:20.378Z"
 }
