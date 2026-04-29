@@ -1518,11 +1518,11 @@
     },
     "value_selling_cert": {
       "1": {
-        "score": 75,
-        "passed": false,
-        "correct": 6,
+        "score": 100,
+        "passed": true,
+        "correct": 8,
         "total": 8,
-        "date": "2026-04-29T11:25:58.151Z"
+        "date": "2026-04-29T11:27:18.835Z"
       }
     }
   },
