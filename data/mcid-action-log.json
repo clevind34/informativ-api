@@ -1,6 +1,23 @@
 {
-  "actions": [],
+  "actions": [
+    {
+      "id": "act_1777465489240_bb5awt7su",
+      "mcid": 115467,
+      "drift_type": "missing_from_sfdc",
+      "action_type": "test_data_filtered",
+      "notes": "Informativ Auto Group must be some sort of test group - it is not a client.  ",
+      "assigned_to": null,
+      "taken_by": "unknown",
+      "taken_by_name": "unknown",
+      "taken_at": "2026-04-29T12:24:49.240Z",
+      "context": {
+        "snowflake_name": "Informativ Auto Group",
+        "drift_type": "missing_from_sfdc",
+        "likely_test_account": false
+      }
+    }
+  ],
   "schema_version": "1.0",
   "created_at": "2026-04-28T00:00:00Z",
-  "last_updated": "2026-04-28T00:00:00Z"
+  "last_updated": "2026-04-29T12:24:49.240Z"
 }
