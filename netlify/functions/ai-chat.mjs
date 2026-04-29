@@ -34,6 +34,7 @@ let methodCurriculum = null;
 let managerCurriculum = null;
 let coachingIntelligence = null;  // Phase 2: trajectory data
 let csKnowledgeBase = null;  // Phase CS: Customer Success knowledge base
+let emailGuidance = null;  // Marketing-approved email drafting standards (Christina Wofford, April 2026)
 
 // Product certification files — loaded for Prep with Chuck across all programs
 let certificationFiles = {};
@@ -107,6 +108,13 @@ function loadData() {
                     const csKbRaw = readFileSync(csKbPath, 'utf-8');
                     csKnowledgeBase = JSON.parse(csKbRaw);
                 } catch (e) { /* CS knowledge base optional — CS Operations phase */ }
+            }
+            if (!emailGuidance) {
+                try {
+                    const egPath = join(base, 'email-guidance.json');
+                    const egRaw = readFileSync(egPath, 'utf-8');
+                    emailGuidance = JSON.parse(egRaw);
+                } catch (e) { /* email guidance optional but expected after April 2026 */ }
             }
             // Load all product certification files for Prep with Chuck
             if (Object.keys(certificationFiles).length === 0) {
@@ -240,7 +248,13 @@ const INTENT_PATTERNS = {
         /disposition/i, /territory.*coverage/i, /my.*prospects/i,
         /meeting.*conversion/i, /outreach/i, /cold.*call/i,
         /lead.*follow/i, /assigned.*lead/i, /new.*lead/i
-    ]
+    ],
+    competitive_pricing: [
+        /lowest price/i, /thin.?margin/i, /aggregator/i, /strategic source/i,
+        /credit bid/i, /price.?pressure/i, /race.?to.?the.?bottom/i,
+        /700.?credit/i, /\bncc\b/i, /price war/i, /cheapest/i,
+        /commodity.?credit/i, /credit.?cost.?war/i,
+    ],
 };
 
 function detectIntents(message) {
@@ -274,10 +288,11 @@ const INTENT_TO_CATEGORIES = {
     case_studies: ['case_studies', 'testimonials', 'quotes'],
     testimonials: ['testimonials', 'quotes', 'case_studies'],
     integrations: ['integrations'],
-    email: ['value_selling', 'sales_process'],
+    email: ['value_selling', 'sales_process', 'email_drafting_standards'],
     sales_process: ['sales_process'],
     informativ_method: ['value_selling', 'objection_handling', 'sales_process'],
     training: ['value_selling', 'sales_process'],
+    competitive_pricing: ['objection_handling', 'competitive_intel', 'value_selling', 'email_drafting_standards'],
     cert_prep: [],  // Uses curriculum JSON directly — no KB categories needed
     trajectory: [],  // Uses coaching-intelligence.json trajectory data — Phase 2
     prospecting: [],  // Uses coaching-intelligence.json prospecting data — injected from PIE
@@ -293,42 +308,42 @@ const CS_MODES = {
         description: 'General CS assistant for customer success questions and guidance',
         kb_keys: ['product_architecture', 'pricing_tiers', 'health_score_model',
                   'dashboard_navigation', 'disposition_taxonomy', 'engagement_cadence',
-                  'retention_framework', 'cs_assignment_model']
+                  'retention_framework', 'cs_assignment_model', 'email_drafting_standards']
     },
     cs_health_check: {
         name: 'Health Check',
         persona: 'Health Monitor — proactive, data-driven, pattern-detecting',
         description: 'Analyze customer health scores and recommend actions',
         kb_keys: ['health_score_model', 'dashboard_navigation', 'retention_framework',
-                  'engagement_cadence', 'disposition_taxonomy', 'cs_assignment_model']
+                  'engagement_cadence', 'disposition_taxonomy', 'cs_assignment_model', 'email_drafting_standards']
     },
     cs_account_review: {
         name: 'Account Review',
         persona: 'Strategic Advisor — analytical, structured, preparation-focused',
         description: 'Build structured QBR/call prep talking points for account reviews',
         kb_keys: ['health_score_model', 'engagement_cadence', 'retention_framework',
-                  'cross_sell', 'utilization_playbook', 'competitive_intelligence']
+                  'cross_sell', 'utilization_playbook', 'competitive_intelligence', 'email_drafting_standards']
     },
     cs_reprice_scenario: {
         name: 'Reprice Scenario',
         persona: 'CSM Financial Advisor — financial, strategic, margin-focused',
         description: 'Model reprice scenarios and guide pricing conversations',
         kb_keys: ['reprice_playbook', 'pricing_tiers', 'bureau_economics',
-                  'cogs_structure', 'health_score_model', 'competitive_intelligence']
+                  'cogs_structure', 'health_score_model', 'competitive_intelligence', 'email_drafting_standards']
     },
     cs_utilization_guidance: {
         name: 'Utilization Guidance',
         persona: 'CSA Adoption Coach — educational, adoption-focused, product-knowledgeable',
         description: 'Diagnose utilization issues and recommend feature adoption',
         kb_keys: ['utilization_playbook', 'product_architecture', 'cross_sell',
-                  'csa_onboarding', 'bureau_economics', 'dashboard_navigation']
+                  'csa_onboarding', 'bureau_economics', 'dashboard_navigation', 'email_drafting_standards']
     },
     cs_disposition_response: {
         name: 'Disposition Response',
         persona: 'Escalation Handler — reactive, structured, process-driven',
         description: 'Guide disposition selection and response actions',
         kb_keys: ['disposition_taxonomy', 'retention_framework', 'escalation_support',
-                  'engagement_cadence', 'support_talk_tracks', 'csm_lifecycle']
+                  'engagement_cadence', 'support_talk_tracks', 'csm_lifecycle', 'email_drafting_standards']
     }
 };
 
@@ -398,6 +413,82 @@ ${kbContext}
 `.trim();
 }
 
+// ──────────────────────────────────────────
+// EMAIL GUIDANCE BLOCK
+// Marketing-approved email drafting standards (Christina Wofford, April 2026).
+// Appended to system prompts for any mode that may produce a customer-facing email.
+// Internal coaching conversations are unaffected — these rules only constrain the
+// CONTENT of customer-facing copy Chuck generates.
+// ──────────────────────────────────────────
+function getEmailGuidanceBlock(modeForLog) {
+    if (!emailGuidance) return '';
+    const eg = emailGuidance;
+
+    // Build prohibitions list
+    const prohibitionsList = (eg.prohibitions || [])
+        .map(p => `  - [${p.severity ? p.severity.toUpperCase() : 'RULE'}] ${p.rule}`)
+        .join('\n');
+
+    // Build subject line do-nots
+    const subjectDoNot = (eg.subject_lines && eg.subject_lines.do_not) ?
+        eg.subject_lines.do_not.map(d => `  - ${d}`).join('\n') : '';
+
+    // Build language rewrites
+    const rewrites = eg.language_rewrites ?
+        Object.entries(eg.language_rewrites).map(([from, to]) => `  - "${from}" → ${to}`).join('\n') : '';
+
+    // Build validation checklist
+    const checklist = (eg.validation_checklist || [])
+        .map((c, i) => `  ${i + 1}. ${c}`).join('\n');
+
+    return `
+
+## CUSTOMER-FACING EMAIL STANDARDS — Marketing-Approved (${eg.last_updated || 'April 2026'})
+
+These rules govern every CUSTOMER-FACING email you generate. They do NOT restrict what you can discuss internally with the rep (margin, tier names, COGS, internal product names — all fine in coaching conversation, never in customer-facing copy).
+
+### Subject Line — REQUIRED PATTERNS
+- Default check-in: \`${eg.subject_lines?.default_pattern || 'Checking in: {ACCOUNT_NAME} & Informativ'}\`
+- Account at risk / intervention: \`${eg.subject_lines?.intervention_pattern || "Let's ensure the success of {ACCOUNT_NAME} with Informativ"}\`
+- Always fill in the actual account name. Never leave brackets, [X], or Q[X] placeholders.
+${subjectDoNot ? '\nDo NOT do this on subject lines:\n' + subjectDoNot : ''}
+
+### Required Opener
+${eg.required_opener?.rule || 'Always lead with a thank-you for the partnership before any other content.'}
+
+Suggested wording (paraphrase OK, partnership thank-you must come first):
+"${eg.required_opener?.suggested_wording || ''}"
+
+### HARD PROHIBITIONS
+${prohibitionsList}
+
+### Standard CTA (use verbatim or as close as the email allows)
+"${eg.standard_cta?.wording || ''}"
+
+${eg.standard_cta?.guidance ? 'CTA guidance: ' + eg.standard_cta.guidance : ''}
+
+### Language Rewrites
+${rewrites}
+
+### Formatting
+- ${eg.formatting?.paragraph_spacing || 'Two blank lines between paragraphs'}
+- ${eg.formatting?.bullet_spacing || 'One blank line between bullet points'}
+- ${eg.formatting?.uniformity || 'Uniform spacing throughout'}
+- Structure: ${eg.formatting?.structure || 'Subject → separator → greeting → partnership opener → 2-3 short paragraphs → 3 bullets max → standard CTA → sign-off'}
+
+### Tone
+${eg.tone?.voice || 'Warm but professional. Trusted advisor, not vendor.'}
+Avoid: ${eg.tone?.avoid || 'internal-sounding language, jargon'}
+
+### Validation Checklist (run mentally before returning any email)
+${checklist}
+
+### Self-Check
+${eg.self_check_instruction_for_chuck || 'Before returning a customer-facing email, verify the validation checklist passes. If any item fails, rewrite.'}
+`.trim();
+}
+
+
 function getCSSystemPrompt(mode, userRole) {
     const roleConfig = CS_ROLES[userRole?.toUpperCase()] || null;
     const roleName = roleConfig ? roleConfig.title : 'CS Team Member';
@@ -456,7 +547,9 @@ Escalation triggers:
 - Health score drop >15 points in single month → CS Manager
 - NPS detractor → immediate outreach within 24 hours
 
-You are currently helping: **${roleName}** (${userRole || 'CS Team Member'})`;
+You are currently helping: **${roleName}** (${userRole || 'CS Team Member'})
+
+${getEmailGuidanceBlock('cs:' + (mode || 'unknown'))}`;
 }
 
 // ──────────────────────────────────────────
@@ -1027,7 +1120,7 @@ function buildContext(intents, repName, message) {
 // ──────────────────────────────────────────
 // SYSTEM PROMPT
 // ──────────────────────────────────────────
-function getSystemPrompt(repName) {
+function getSystemPrompt(repName, mode) {
     // Check if this is a manager profile
     const managerMode = repName && repPerformance && repPerformance.reps &&
         repPerformance.reps[repName] && repPerformance.reps[repName].role === 'manager';
@@ -1196,7 +1289,25 @@ You are coaching a MANAGER. When they ask performance, pipeline, or coaching que
 - **Performance Context**: When pipeline data is available, help managers prioritize coaching.
 ` : ''}
 
-${repName ? `\nThe rep you're coaching is: **${repName}**` : '\nNo rep is currently selected. You can still help with general questions, but for personalized coaching, ask them to select their profile.'}`;
+${repName ? `\nThe rep you're coaching is: **${repName}**` : '\nNo rep is currently selected. You can still help with general questions, but for personalized coaching, ask them to select their profile.'}
+
+${mode === 'competitive_pricing_response' ? `
+
+## ACTIVE MODE: Competitive Pricing Response
+You are drafting a customer-facing response to price-pressure pricing competition (e.g., the prospect is comparing Informativ to Strategic Source, 700Credit, NCC, or another thin-margin credit aggregator). Use the Combatting Low Margin Credit positioning. Core message structure:
+
+1. **Open with respect for their time** — thank them for the bid opportunity but flag upfront that you want to be transparent before either team invests further.
+2. **Establish the bureau-cost reality** — every credit provider buys from the same three bureaus at the same wholesale cost. Bureau data cost is fixed industry-wide. When competitors quote significantly lower pricing, that variation reflects different margin philosophies and what each is willing to cut (service, support, compliance, fraud detection).
+3. **Surface the long-term cycle** — bureaus raise prices annually and every provider passes the increase through. A transactional approach to credit cost is a losing battle over time.
+4. **Position structural cost control** — Credit Guardrails is the only framework in the market designed to actively manage WHEN and HOW credit is pulled — reducing unnecessary bureau usage while protecting compliance and stabilizing costs under a flat-rate model. That's structural cost control, not temporary pricing.
+5. **Be direct about the platform-vs-aggregator distinction** — "We are not built as a thin-margin credit reseller. We are built as a platform partner designed to manage cost, reduce risk, and grow with you."
+6. **Give them an honest exit** — "If the goal is the lowest number today, there will always be a thinner option than Informativ. If the goal is sustainable cost control and a platform built for long-term performance, that's where we differentiate."
+7. **Offer a Credit Guardrails walkthrough** as the next step, but explicitly do NOT pursue if they're shopping pure bureau price.
+
+This is a confident, respectful, declining-to-race-to-the-bottom email. The customer-facing email standards still apply (no margin language, no internal nomenclature, partnership tone). Don't open with the Christina-style "Thank you for your partnership" — this is a NEW prospect bid response, not a check-in. Open with "Thank you for the opportunity to bid on [Customer]'s credit business." Sign off as Sales rep + Informativ.
+` : ''}
+
+${getEmailGuidanceBlock('sales')}`;
 }
 
 // ──────────────────────────────────────────
@@ -1242,7 +1353,7 @@ async function _handler(event) {
     }
 
     // SEC-2026-013: Server-side mode validation — ensure mode is a known value
-    const VALID_SALES_MODES = ['coach', 'pricing', 'coaching', 'performance', 'certifications', 'call_prep', 'follow_up', 'discovery_script'];
+    const VALID_SALES_MODES = ['coach', 'pricing', 'coaching', 'performance', 'certifications', 'call_prep', 'follow_up', 'discovery_script', 'competitive_pricing_response'];
     const VALID_CS_MODES = Object.keys(CS_MODES); // cs_chat, cs_health_check, etc.
     const VALID_DEV_MODES = Object.keys(DEV_MODES); // dev_general, dev_customer_voice, etc.
     const ALL_VALID_MODES = [...VALID_SALES_MODES, ...VALID_CS_MODES, ...VALID_DEV_MODES];
@@ -1380,7 +1491,7 @@ async function _handler(event) {
     const context = buildContext(intents, repName, message);
 
     // Build messages array
-    const systemPrompt = getSystemPrompt(repName);
+    const systemPrompt = getSystemPrompt(repName, mode);
     const contextMessage = context ?
         `\n\n---\nRELEVANT KNOWLEDGE CONTEXT:\n${context}\n---` : '';
 

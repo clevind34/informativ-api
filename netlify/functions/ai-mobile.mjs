@@ -21,7 +21,8 @@ const TEMPERATURE = 0.6;
 const MAX_TOKENS_MAP = {
     call_prep: 1200,
     follow_up: 800,
-    discovery_script: 600
+    discovery_script: 600,
+    competitive_pricing_response: 1000
 };
 
 // Rate limiting
@@ -31,26 +32,57 @@ const RATE_MAX = 10;
 
 // ── KNOWLEDGE BASE ──
 let mobileKB = null;
+let emailGuidance = null;
 
 function loadKB() {
-    if (mobileKB) return;
     const paths = [process.cwd(), join(process.cwd(), '..', '..'), '/var/task'];
-    for (const base of paths) {
-        try {
-            const raw = readFileSync(join(base, 'mobile-knowledge-base.json'), 'utf-8');
-            mobileKB = JSON.parse(raw);
-            return;
-        } catch (e) { continue; }
+    if (!mobileKB) {
+        for (const base of paths) {
+            try {
+                const raw = readFileSync(join(base, 'mobile-knowledge-base.json'), 'utf-8');
+                mobileKB = JSON.parse(raw);
+                break;
+            } catch (e) { continue; }
+        }
+        if (!mobileKB) mobileKB = {};
     }
-    mobileKB = {};
+    if (!emailGuidance) {
+        for (const base of paths) {
+            try {
+                const raw = readFileSync(join(base, 'email-guidance.json'), 'utf-8');
+                emailGuidance = JSON.parse(raw);
+                break;
+            } catch (e) { continue; }
+        }
+    }
+}
+
+// Compact email guidance block for mobile (token-budget aware)
+function getMobileEmailGuidanceBlock() {
+    if (!emailGuidance) return '';
+    const eg = emailGuidance;
+    const prohibits = (eg.prohibitions || []).map(p => `- ${p.rule}`).join('\n');
+    return `
+## CUSTOMER-FACING EMAIL STANDARDS (Marketing-approved, ${eg.last_updated || 'April 2026'})
+SUBJECT: 'Checking in: [Account] & Informativ' (default) or 'Let's ensure the success of [Account] with Informativ' (intervention). No creative variants. Always fill in account name.
+OPENER: For check-ins, lead with thank-you for the partnership. For new-prospect bid responses, 'Thank you for the opportunity to bid on [Customer]'s credit business.'
+PROHIBITIONS:
+${prohibits}
+CTA: '${eg.standard_cta?.wording || ''}'
+The 'link to my calendar' phrasing is intentional — rep's signature carries the actual link. No placeholder URLs or {{tokens}}.
+FORMATTING: 2 blank lines between paragraphs, 1 between bullets, uniform.
+TONE: Warm, professional, trusted advisor. Never vendor or salesperson.
+SELF-CHECK: Before returning, verify ZERO mentions of margin, ZERO tier names, ZERO 'Total Solutions' (plural), ZERO specific products attributed to customer, partnership opener present, standard CTA used. If any check fails, rewrite.
+`.trim();
 }
 
 // ── CONTEXT SELECTION ──
 // Each action gets different KB categories to keep context tight
 const ACTION_CATEGORIES = {
     call_prep: ['products', 'competitive', 'value_selling', 'case_studies'],
-    follow_up: ['products', 'value_selling', 'social_proof'],
-    discovery_script: ['products', 'value_selling', 'objections']
+    follow_up: ['products', 'value_selling', 'social_proof', 'email_standards'],
+    discovery_script: ['products', 'value_selling', 'objections'],
+    competitive_pricing_response: ['competitive', 'objections', 'value_selling', 'email_standards']
 };
 
 function buildContext(action, prospect) {
@@ -123,7 +155,7 @@ Keep it under 300 words total. Use short bullets. This is a mobile screen.`,
 Write a professional, concise follow-up email based on the prospect data and recent activity.
 
 Format:
-**Subject:** [compelling subject line]
+**Subject:** [compelling subject line — follow Marketing-approved subject line standards]
 
 **Body:** [email body — 3-4 short paragraphs max]
 
@@ -132,7 +164,30 @@ Rules:
 - Include one clear next step or CTA
 - Professional but warm tone — not robotic
 - Keep under 150 words
-- No "I hope this email finds you well" or similar filler`,
+- No "I hope this email finds you well" or similar filler
+- ALL Marketing email standards apply (see standards block at end of system prompt)`,
+
+    competitive_pricing_response: `You are Chuck, Informativ's AI sales coach, drafting a customer-facing response to a price-pressure bid (the prospect is comparing Informativ to a thin-margin credit aggregator like Strategic Source, 700Credit, or NCC).
+
+Use the Combatting Low Margin Credit positioning. Core structure:
+
+1. **Open with respect for their time** — thank them for the bid opportunity, flag upfront you want to be transparent before either team invests further. Do NOT use the standard 'Thank you for your partnership' opener — this is a new-prospect bid response.
+
+2. **Establish the bureau-cost reality** — every credit provider buys from the same three bureaus at the same wholesale cost. Bureau data cost is industry-fixed. When competitors quote significantly lower pricing, that variation reflects different margin philosophies and what each is willing to cut (service, support, compliance, fraud detection).
+
+3. **Surface the long-term cycle** — bureaus raise prices annually, every provider passes increases through. Transactional credit pricing is a losing battle.
+
+4. **Position structural cost control** — Credit Guardrails is the only framework actively managing WHEN/HOW credit is pulled. Structural cost control, not temporary pricing.
+
+5. **Be direct about platform-vs-aggregator** — 'We are not built as a thin-margin credit reseller. We are built as a platform partner designed to manage cost, reduce risk, and grow with you.'
+
+6. **Give an honest exit** — 'If the goal is the lowest number today, there will always be a thinner option than Informativ. If the goal is sustainable cost control and a platform built for long-term performance, that's where we differentiate.'
+
+7. **Offer Credit Guardrails walkthrough** as next step. Be explicit if they're shopping pure bureau price, you're declining to bid further. 'We will not be the lowest price option.'
+
+Format: Subject line, '---' separator, full email body. Keep under 250 words.
+
+Marketing email standards apply (see block at end of system prompt). The 'no margin' rule still holds — even when discussing competitive pricing, you discuss bureau cost and pricing philosophy, NEVER margin.`,
 
     discovery_script: `You are Chuck, Informativ's AI sales coach, creating a quick discovery talk track for a cold/warm call.
 
@@ -179,7 +234,7 @@ async function _handler(event) {
         return {
             statusCode: 200,
             headers,
-            body: JSON.stringify({ status: 'ok', actions: ['call_prep', 'follow_up', 'discovery_script'] })
+            body: JSON.stringify({ status: 'ok', actions: ['call_prep', 'follow_up', 'discovery_script', 'competitive_pricing_response'] })
         };
     }
 
@@ -204,7 +259,7 @@ async function _handler(event) {
     const { action, prospect, repName } = body;
 
     if (!action || !SYSTEM_PROMPTS[action]) {
-        return { statusCode: 400, headers, body: JSON.stringify({ error: 'Invalid action. Use: call_prep, follow_up, discovery_script' }) };
+        return { statusCode: 400, headers, body: JSON.stringify({ error: 'Invalid action. Use: call_prep, follow_up, discovery_script, competitive_pricing_response' }) };
     }
 
     // Build context
@@ -227,7 +282,9 @@ Generate the ${action.replace('_', ' ')} now.`;
             model: MODEL,
             max_tokens: MAX_TOKENS_MAP[action] || 800,
             temperature: TEMPERATURE,
-            system: SYSTEM_PROMPTS[action],
+            system: (action === 'follow_up' || action === 'competitive_pricing_response')
+                ? SYSTEM_PROMPTS[action] + '\n\n' + getMobileEmailGuidanceBlock()
+                : SYSTEM_PROMPTS[action],
             messages: [{ role: 'user', content: userMessage }]
         });
 

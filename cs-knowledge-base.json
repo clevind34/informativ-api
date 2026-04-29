@@ -28,7 +28,14 @@
       "payments_knowledge": 1,
       "digital_retail_integrations": 1,
       "cs_assignment_model": 1
-    }
+    },
+    "last_updated": "2026-04-29",
+    "changelog": [
+      {
+        "date": "2026-04-29",
+        "change": "Added email_drafting_standards category with Marketing-approved email rules (Christina Wofford review)"
+      }
+    ]
   },
   "categories": {
     "product_architecture": {
@@ -486,6 +493,23 @@
           "source": "CI Dashboard + CS Feedback",
           "filename": "cs_assignment",
           "char_count": 1217
+        }
+      ]
+    },
+    "email_drafting_standards": {
+      "category_metadata": {
+        "name": "Email Drafting Standards",
+        "purpose": "Marketing-approved standards for every customer-facing email Chuck generates.",
+        "added": "2026-04-29",
+        "owner": "Christina Wofford (Marketing)"
+      },
+      "chunks": [
+        {
+          "id": "cs_033",
+          "category": "email_drafting_standards",
+          "title": "Email Drafting Standards \u2014 Marketing-Approved (Christina Wofford, April 2026)",
+          "role": "both",
+          "content": "Marketing reviewed Chuck-drafted CS outreach in April 2026 and flagged systemic issues. These rules govern every CUSTOMER-FACING email Chuck generates. Internal coaching conversations are unaffected.\n\nSUBJECT LINE STANDARDS\n- Default check-in: 'Checking in: [Account Name] & Informativ'\n- Account at risk / intervention: 'Let's ensure the success of [Account Name] with Informativ'\n- Always fill in the actual account name. Never leave brackets, [X], or Q[X] unfilled.\n- Do NOT generate creative or quirky subject lines (e.g., 'Quick Check-In on...', 'Let's Align on..., \u2014 Q[X] Review').\n\nREQUIRED OPENER\nEvery customer-facing email opens with a thank-you for the partnership BEFORE any other content. Suggested wording: 'Thank you for your partnership! I'm reaching out to check in on your experience with our solutions. We value your feedback and want to ensure everything is meeting your expectations. From our reporting, I can see that your account is performing well overall, and am noticing some areas where we may be able to deliver even more value.'\n\nHARD PROHIBITIONS\n1. NEVER mention margin in any customer-facing email. Margin is internal-only. This includes 'margin %', 'gross margin', 'profitability', 'margin performance', 'margin headwinds'.\n2. NEVER say 'everyone wins' \u2014 implies Informativ wins something from the customer. Use 'we want to make sure you're getting the most value' instead.\n3. Do NOT include tier names (Tier I, Tier II, Tier III, Protect Tier, Enrich Tier, Elevate Tier, Control Tier, Foundation). Tier nomenclature is internal-only.\n4. Do NOT name specific products the customer 'has' or 'is using' \u2014 Marketing's spot-checks find these are frequently inaccurate. Use neutral capability language ('your credit and compliance workflow', 'your current setup') instead of naming SmartPencil, guardrails, Customer Insights, etc.\n5. Do NOT include package names by default. If unavoidable, the correct form is 'Total Solution' (singular). NEVER 'Total Solutions' (plural).\n6. Standard meeting ask is 20 minutes. Don't switch between 15/20/30 minutes across emails.\n\nSTANDARD CTA (use verbatim or as close as possible)\n'I'd love to schedule a brief, 20-minute call in the next two weeks to walk through these together. This will help ensure we're supporting you in the way that works best for your team. Please use the link to my calendar to schedule a time that works best for you, or just reply to this email.'\n\nThe phrase 'the link to my calendar' is intentional \u2014 the rep's email signature carries the actual booking link. Do NOT generate a placeholder URL or {{booking_link}} token.\n\nLANGUAGE REWRITES\n- 'Upcoming priorities' \u2192 'What initiatives or plans for the next quarter where Informativ may be able to assist'\n- 'Over the past few months, we've seen some headwinds on margin performance' \u2192 REWRITE \u2014 strip margin entirely. Use 'I'd like to walk through your current credit pull patterns and identify any quick wins we can unlock together' instead.\n\nFORMATTING\n- Two blank lines between paragraphs\n- One blank line between bullet points\n- Uniform spacing throughout \u2014 no mixed spacing\n- Structure: Subject \u2192 '---' separator \u2192 Greeting \u2192 Partnership opener \u2192 2-3 short body paragraphs \u2192 3 bulleted discussion topics (max 4) \u2192 Standard CTA \u2192 Sign-off (Name, Title, Informativ)\n\nTONE\nWarm but professional. Trusted advisor / partner \u2014 never vendor or salesperson. Lead with customer outcomes (efficiency, value, smoother workflow). Avoid internal-sounding language, jargon, and technical terms unless the customer raised them first.\n\nVALIDATION CHECKLIST\nBefore returning any customer-facing email, verify:\n1. Subject follows 'Checking in: [Account] & Informativ' or 'Let's ensure the success of [Account] with Informativ' \u2014 no creative variants\n2. Subject has no unfilled brackets or Q[X]\n3. Email opens with thank-you for partnership BEFORE any other content\n4. ZERO mentions of margin (any variant)\n5. ZERO tier names\n6. ZERO 'Total Solutions' (plural). Only 'Total Solution' (singular) if package mentioned\n7. ZERO specific product names attributed to customer\n8. ZERO 'everyone wins' or close paraphrase\n9. Standard 20-minute CTA with 'link to my calendar' phrasing\n10. Uniform 2-line paragraph spacing, 1-line bullet spacing\n11. Sign-off includes rep name, title, and 'Informativ' on its own line\n\nIf ANY checklist item fails, rewrite the email. Marketing has flagged that prior Chuck output failed multiple checks at once."
         }
       ]
     }

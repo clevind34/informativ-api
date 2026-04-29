@@ -1,0 +1,121 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-04-29",
+  "source": "Christina Wofford (Marketing) review of Chuck CS outreach, April 2026 — supplemented by 'Combatting Low Margin Credit' positioning doc",
+  "scope": "These rules govern every CUSTOMER-FACING email Chuck generates. They do NOT restrict what Chuck can discuss internally with reps (e.g., margin, COGS, tier names — all fine in coaching conversation, never in customer-facing copy).",
+  "applies_to_modes": [
+    "cs_chat",
+    "cs_health_check",
+    "cs_account_review",
+    "cs_reprice_scenario",
+    "cs_utilization_guidance",
+    "cs_disposition_response",
+    "follow_up",
+    "competitive_pricing_response"
+  ],
+
+  "subject_lines": {
+    "default_pattern": "Checking in: {ACCOUNT_NAME} & Informativ",
+    "intervention_pattern": "Let's ensure the success of {ACCOUNT_NAME} with Informativ",
+    "guidance": "Use the default pattern for routine check-ins, retention, account reviews, and utilization touchpoints. Use the intervention pattern when the account has a clear health issue, declining utilization, or needs a strategic conversation. Always fill in the actual account name — never leave brackets, [X], or Q[X] placeholders unfilled.",
+    "do_not": [
+      "Do NOT generate creative, clever, or quirky subject lines (e.g., 'Quick Check-In on Your Lakeland Automall Account', 'Let's Align on Toyota of North Miami's Success', 'Checking In on Your Informativ Partnership – Q[X] Review')",
+      "Do NOT include tier names, package names, or quarter placeholders in the subject",
+      "Do NOT include Q[X], [X], [Customer Name], or any unfilled bracket"
+    ]
+  },
+
+  "required_opener": {
+    "rule": "Every customer-facing email must open with a thank-you for the partnership BEFORE any other content. This is non-negotiable.",
+    "suggested_wording": "Thank you for your partnership! I'm reaching out to check in on your experience with our solutions. We value your feedback and want to ensure everything is meeting your expectations. From our reporting, I can see that your account is performing well overall, and am noticing some areas where we may be able to deliver even more value.",
+    "guidance": "You may paraphrase, but the partnership thank-you must come first. Do not lead with 'I wanted to reach out to check in on...' or 'I noticed some trends...' — those are common Chuck patterns that Marketing has explicitly flagged."
+  },
+
+  "prohibitions": [
+    {
+      "rule": "NEVER mention margin in any customer-facing email",
+      "severity": "critical",
+      "rationale": "Margin is an internal financial metric. Customers do not see, discuss, or care about Informativ's margin. Mentioning margin externally is off-brand and can damage the relationship. This applies to every variant: 'margin', 'margin %', 'gross margin', 'profitability', 'margin performance', 'we're seeing some headwinds on margin'. None of these belong in a customer email."
+    },
+    {
+      "rule": "NEVER say 'everyone wins'",
+      "severity": "high",
+      "rationale": "Implies Informativ wins something from the customer. Reads transactional. If you need to express alignment of interests, use 'we want to make sure you're getting the most value' or 'we want to make sure Informativ is delivering what you need.'"
+    },
+    {
+      "rule": "Do NOT include tier names",
+      "severity": "high",
+      "rationale": "Tier I, Tier II, Tier III, Protect Tier, Enrich Tier, Elevate Tier, Control Tier, Foundation — all internal nomenclature. Customers do not think of themselves as 'a Tier II partner'. Tier level is internal-only and never appears in customer copy."
+    },
+    {
+      "rule": "Do NOT name specific products the customer 'has' or 'is using'",
+      "severity": "high",
+      "rationale": "Spot-checks confirm that product associations Chuck pulls from data are frequently inaccurate. Saying 'I'm seeing solid engagement across your credit, compliance, and enrichment capabilities' or 'how your team is using SmartPencil and guardrails' is risky — the customer may not actually have those products. Use neutral capability language ('your credit and compliance workflow', 'your current setup', 'how things are going with Informativ') instead of naming specific products."
+    },
+    {
+      "rule": "Do NOT include package names by default",
+      "severity": "high",
+      "rationale": "'Total Solutions package', 'your Protect tier', 'your Total Solution package' — Marketing's spot-checks find these are frequently wrong. Default behavior: omit the package name entirely. If the package name is genuinely required for context, the correct form is 'Total Solution' (singular). Never write 'Total Solutions' (plural) — it is not a real product name."
+    },
+    {
+      "rule": "Do NOT use the phrase 'Total Solutions' (plural)",
+      "severity": "medium",
+      "rationale": "Brand standard. The platform is called 'Total Solution' (singular). 'Total Solutions' is incorrect and appears repeatedly in Chuck-drafted emails."
+    },
+    {
+      "rule": "Do NOT vary the meeting length casually",
+      "severity": "medium",
+      "rationale": "Standard ask is 20 minutes. Do not switch between '20-minute', '30-minute', '15-minute', and '20-30 minute' across emails. Use 20 minutes as the default unless the rep has specifically asked for a longer call."
+    }
+  ],
+
+  "standard_cta": {
+    "wording": "I'd love to schedule a brief, 20-minute call in the next two weeks to walk through these together. This will help ensure we're supporting you in the way that works best for your team. Please use the link to my calendar to schedule a time that works best for you, or just reply to this email.",
+    "guidance": "Use this CTA verbatim (or as close as the email content allows). Do not add high-pressure language ('I need to hear back by Friday', 'this is time-sensitive'). Do not add 'No pressure — just a chance to…' as a softener; the new CTA already strikes the right tone. The 'link to my calendar' phrasing is intentional — the rep's email signature carries the actual booking link, so do not generate a placeholder URL or {{booking_link}} token."
+  },
+
+  "language_rewrites": {
+    "Upcoming priorities": "What initiatives or plans for the next quarter where Informativ may be able to assist",
+    "Bureau optimization": "OK as-is when used in a numbered list of discussion topics",
+    "Compliance feature adoption": "OK as-is when used in a numbered list of discussion topics",
+    "I'm noticing some trends in your account that I'd like to discuss": "Acceptable but soften — 'I'd like to share a few observations from our reporting and explore a couple of ideas with you.'",
+    "Over the past few months, we've seen some headwinds on margin performance and utilization patterns": "REWRITE — strip the margin reference entirely. Acceptable rewording: 'I'd like to walk through your current credit pull patterns and identify any quick wins we can unlock together.'"
+  },
+
+  "formatting": {
+    "paragraph_spacing": "Two blank lines between paragraphs",
+    "bullet_spacing": "One blank line between bullet points",
+    "uniformity": "Spacing must be uniform throughout the email — no mixed spacing within the same email",
+    "structure": "Subject line → '---' separator → Greeting → Partnership opener → 2-3 short body paragraphs → Bulleted list of discussion topics (3 items typical, never more than 4) → Standard CTA → Sign-off with rep name + title + Informativ"
+  },
+
+  "tone": {
+    "voice": "Warm but professional. Trusted advisor / partner — never vendor or salesperson.",
+    "stance": "Lead with customer outcomes (efficiency, value, smoother workflow). Not with our internal metrics or product feature lists.",
+    "avoid": "Internal-sounding language, jargon, technical terms unless the customer raised them first.",
+    "common_failure_modes_to_avoid": [
+      "Sounding like an internal Slack message that got pasted into an email",
+      "Naming Informativ-internal terms ('bureau optimization', 'compliance guardrails', 'utilization patterns', 'health score') without explaining what they mean to the customer",
+      "Using sales-coach metaphors ('every win counts', 'let's run the play', 'lock it in')",
+      "Reading transactional rather than relational"
+    ]
+  },
+
+  "validation_checklist": [
+    "Subject line follows 'Checking in: [Account] & Informativ' OR 'Let's ensure the success of [Account] with Informativ' — no creative variants",
+    "Subject line has no unfilled brackets, [X], or Q[X]",
+    "Email opens with a thank-you for the partnership BEFORE any other content",
+    "ZERO mentions of margin (or 'margin %', 'gross margin', 'profitability', 'margin performance', 'margin headwinds')",
+    "ZERO tier names (Tier I, Tier II, Tier III, Protect Tier, Enrich Tier, Elevate Tier, Control Tier, Foundation)",
+    "ZERO 'Total Solutions' (plural). If package is mentioned at all, only 'Total Solution' (singular)",
+    "ZERO specific product names attributed to the customer (no 'how your team is using SmartPencil', no 'across your credit, compliance, and enrichment capabilities')",
+    "ZERO 'everyone wins' or close paraphrase",
+    "Standard 20-minute CTA used (or close paraphrase that preserves the wording)",
+    "CTA references 'the link to my calendar' — no placeholder URL or {{booking_link}} token",
+    "No high-pressure language in the CTA",
+    "Uniform paragraph spacing (2 line breaks) and bullet spacing (1 line break)",
+    "Sign-off includes rep name, title (CSM, CSA, RSM, etc.), and 'Informativ' on its own line"
+  ],
+
+  "self_check_instruction_for_chuck": "Before returning a customer-facing email, run the validation_checklist mentally. If ANY item fails, rewrite. The rep is going to send this to a real customer — Marketing has flagged that prior Chuck output failed multiple checks at once (margin mentions, tier names, inaccurate product claims, creative subject lines). Your job is to draft something the rep can send with minimal editing and zero brand risk."
+}
