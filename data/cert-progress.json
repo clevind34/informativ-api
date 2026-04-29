@@ -1515,6 +1515,15 @@
         "total": 5,
         "date": "2026-04-17T13:22:12.356Z"
       }
+    },
+    "value_selling_cert": {
+      "1": {
+        "score": 75,
+        "passed": false,
+        "correct": 6,
+        "total": 8,
+        "date": "2026-04-29T11:25:58.151Z"
+      }
     }
   },
   "Robert Rorick": {
