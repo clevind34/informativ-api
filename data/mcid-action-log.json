@@ -15,9 +15,25 @@
         "drift_type": "missing_from_sfdc",
         "likely_test_account": false
       }
+    },
+    {
+      "id": "act_1777473885263_oxgvrmo10",
+      "mcid": 115611,
+      "drift_type": "missing_from_sfdc",
+      "action_type": "wont_fix",
+      "notes": "KIA Valencia went live 3/31/26 but has no MCID in SF. 115611 MCID is not in salesforce",
+      "assigned_to": null,
+      "taken_by": "unknown",
+      "taken_by_name": "unknown",
+      "taken_at": "2026-04-29T14:44:45.264Z",
+      "context": {
+        "snowflake_name": "Kia Valencia",
+        "drift_type": "missing_from_sfdc",
+        "likely_test_account": false
+      }
     }
   ],
   "schema_version": "1.0",
   "created_at": "2026-04-28T00:00:00Z",
-  "last_updated": "2026-04-29T12:24:49.240Z"
+  "last_updated": "2026-04-29T14:44:45.264Z"
 }
