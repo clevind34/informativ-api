@@ -1286,10 +1286,28 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777568469915_db0l28",
+        "rep": "Trish Smith",
+        "prospect_id": "558e9556d8315784",
+        "prospect_type": "nn",
+        "prospect_name": "Toyota of Irving",
+        "city": "Irving",
+        "state": "TX",
+        "due_date": "2026-05-02",
+        "created_date": "2026-04-30T17:01:09.915Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T17:00:53.126Z"
+  "last_modified": "2026-04-30T17:01:09.915Z"
 }
