@@ -56,6 +56,7 @@
     "data/pie-data-aff.json",
     "data/sfdc-rep-summary.json",
     "data/sfdc-pipeline.json",
+    "data/pie-follow-ups.json",
     "data/mcid-audit.json",
     "data/mcid-action-log.json",
   ]
@@ -328,6 +329,11 @@
 [[redirects]]
   from = "/api/data/sfdc-pipeline"
   to = "/.netlify/functions/data-sfdc-pipeline"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/pie-follow-ups"
+  to = "/.netlify/functions/data-pie-follow-ups"
   status = 200
 
 [[redirects]]
