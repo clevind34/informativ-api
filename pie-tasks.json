@@ -1558,10 +1558,28 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777586315022_0hvg9k",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000duxJvIAI",
+        "prospect_type": "nn",
+        "prospect_name": "Sunset Imports",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-01",
+        "created_date": "2026-04-30T21:58:35.022Z",
+        "completed_date": null,
+        "note": "Ready to sign and move forward?",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T21:54:36.767Z"
+  "last_modified": "2026-04-30T21:58:35.022Z"
 }
