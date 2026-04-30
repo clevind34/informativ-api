@@ -58,6 +58,7 @@
     "data/sfdc-pipeline.json",
     "data/pie-follow-ups.json",
     "data/daily-activity-metrics.json",
+    "data/pie-feedback-log.json",
     "data/mcid-audit.json",
     "data/mcid-action-log.json",
   ]
@@ -340,6 +341,11 @@
 [[redirects]]
   from = "/api/data/daily-activity"
   to = "/.netlify/functions/data-daily-activity"
+  status = 200
+
+[[redirects]]
+  from = "/api/refresh/daily-activity"
+  to = "/.netlify/functions/refresh-daily-activity"
   status = 200
 
 [[redirects]]
