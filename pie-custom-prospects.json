@@ -127,6 +127,22 @@
       "assigned_rep": "Brock Hutchinson",
       "created_by": "Brock Hutchinson",
       "created_at": "2026-04-28T17:53:51.159Z"
+    },
+    "custom_1777569650236_9eon43": {
+      "company_name": "Dayton Ford",
+      "city": "Dayton",
+      "state": "TN",
+      "contact_name": "Casey Pendleton",
+      "title": "General Manager",
+      "email": "jcaseypendleton@hotmail.com",
+      "phone": "",
+      "oem": "Ford",
+      "est_vehicles": 0,
+      "group": "",
+      "pipeline": "net_new",
+      "assigned_rep": "Brock Hutchinson",
+      "created_by": "Brock Hutchinson",
+      "created_at": "2026-04-30T17:20:50.432Z"
     }
   },
   "group_associations": {
@@ -499,7 +515,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-29T17:47:09.066Z",
+  "last_modified": "2026-04-30T17:20:50.432Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
