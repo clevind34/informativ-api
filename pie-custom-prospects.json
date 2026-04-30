@@ -512,10 +512,21 @@
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-29T17:47:09.066Z"
       }
+    ],
+    "13eb19bcb620301d": [
+      {
+        "contact_name": "Mandi",
+        "title": "Internet Sales",
+        "email": "",
+        "phone": "",
+        "role": "contact",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-30T18:25:09.447Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-30T17:21:00.667Z",
+  "last_modified": "2026-04-30T18:25:09.447Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -538,6 +549,9 @@
     },
     "custom_1777569650236_9eon43": {
       "primary": "dm_store"
+    },
+    "13eb19bcb620301d": {
+      "0": "contact"
     }
   },
   "contact_role_history": [
