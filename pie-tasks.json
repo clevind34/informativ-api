@@ -299,13 +299,13 @@
         "state": "MS",
         "due_date": "2026-04-30",
         "created_date": "2026-04-28T17:49:48.823Z",
-        "completed_date": null,
+        "completed_date": "2026-04-30T16:00:39.382Z",
         "note": "Left Voicemail — Need to find a DM",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Trying to reach a DM.. emailed Daniel Kim and recognized they're a top group in the South Central Region, want to discuss consolidating vendors and creating a centralized process"
       },
       {
         "id": "task_1777398862759_nahnam",
@@ -1197,5 +1197,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T15:58:59.329Z"
+  "last_modified": "2026-04-30T16:00:39.382Z"
 }
