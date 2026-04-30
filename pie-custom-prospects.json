@@ -523,10 +523,21 @@
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-30T18:25:09.447Z"
       }
+    ],
+    "0b1f82619bb2be92": [
+      {
+        "contact_name": "Matt Hudson",
+        "title": "Finance Manager",
+        "email": "",
+        "phone": "",
+        "role": "contact",
+        "added_by": "Brock Hutchinson",
+        "added_at": "2026-04-30T18:35:59.945Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-30T18:25:09.447Z",
+  "last_modified": "2026-04-30T18:35:59.945Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -551,6 +562,9 @@
       "primary": "dm_store"
     },
     "13eb19bcb620301d": {
+      "0": "contact"
+    },
+    "0b1f82619bb2be92": {
       "0": "contact"
     }
   },
