@@ -1539,9 +1539,29 @@
         "chuck_output": null,
         "completion_note": null
       }
+    ],
+    "Carol Sanford": [
+      {
+        "id": "task_1777586076767_nyl8yz",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000dvAllIAE",
+        "prospect_type": "nn",
+        "prospect_name": "Orem/Bountiful Mazda Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-07",
+        "created_date": "2026-04-30T21:54:36.767Z",
+        "completed_date": null,
+        "note": "When we met back on March 18th he requested NCC share his OOC date. I have checked every couple of weeks and they still havent given him any FYI. I told him to submit a cancel and they will call him....will check next week.",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
+      }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T21:32:33.512Z"
+  "last_modified": "2026-04-30T21:54:36.767Z"
 }
