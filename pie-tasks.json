@@ -1520,10 +1520,28 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777584753512_o0vgmz",
+        "rep": "Trish Smith",
+        "prospect_id": "662aa4a6e5954ebc",
+        "prospect_type": "nn",
+        "prospect_name": "Nissan of Boerne",
+        "city": "Boerne",
+        "state": "TX",
+        "due_date": "2026-05-03",
+        "created_date": "2026-04-30T21:32:33.512Z",
+        "completed_date": null,
+        "note": "Contacted - Follow Up",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T20:30:51.361Z"
+  "last_modified": "2026-04-30T21:32:33.512Z"
 }
