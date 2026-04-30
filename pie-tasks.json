@@ -1430,10 +1430,28 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777573332553_vlhzsf",
+        "rep": "Trish Smith",
+        "prospect_id": "4327cd2441878b9a",
+        "prospect_type": "nn",
+        "prospect_name": "indiGO Auto Group",
+        "city": "Houston",
+        "state": "TX",
+        "due_date": "2026-05-02",
+        "created_date": "2026-04-30T18:22:12.554Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T17:32:48.683Z"
+  "last_modified": "2026-04-30T18:22:12.554Z"
 }
