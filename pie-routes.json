@@ -128,9 +128,28 @@
           "checkOutTime": null
         }
       ]
+    },
+    "Trish Smith": {
+      "monday": [],
+      "tuesday": [],
+      "wednesday": [],
+      "thursday": [
+        {
+          "id": "a8f06e219123c54e",
+          "co": "Toyota of Boerne",
+          "cn": "George Sutherland",
+          "ph": "",
+          "em": "",
+          "city": "",
+          "st": "TX",
+          "type": "net_new",
+          "added_at": "2026-04-30T16:53:29.746Z"
+        }
+      ],
+      "friday": []
     }
   },
   "schema_version": "1.0",
   "created_at": "2026-04-07T16:33:20.467Z",
-  "last_modified": "2026-04-27T17:32:20.089Z"
+  "last_modified": "2026-04-30T16:53:36.646Z"
 }
