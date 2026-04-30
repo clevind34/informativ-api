@@ -227,13 +227,13 @@
         "state": "TN",
         "due_date": "2026-04-30",
         "created_date": "2026-04-28T17:36:38.169Z",
-        "completed_date": null,
+        "completed_date": "2026-04-30T15:49:22.039Z",
         "note": "Left Voicemail — SF meeting has been conducted in the past.. they've ghosted since",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Trying to tap into their remote delivery process.. they move alot of high-ticket trucks through remote deals and want to see how they ensure compliance and fraud prevention"
       },
       {
         "id": "task_1777397955064_ljumzs",
@@ -1179,5 +1179,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T15:47:08.756Z"
+  "last_modified": "2026-04-30T15:49:22.039Z"
 }
