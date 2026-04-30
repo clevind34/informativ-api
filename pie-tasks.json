@@ -1047,9 +1047,29 @@
         "chuck_output": null,
         "completion_note": null
       }
+    ],
+    "Matt Hanaman": [
+      {
+        "id": "task_1777563433995_pdl6ts",
+        "rep": "Matt Hanaman",
+        "prospect_id": "c5766fe461b399f1",
+        "prospect_type": "nn",
+        "prospect_name": "Rosen Hyundai of Kenosha",
+        "city": "Kenosha",
+        "state": "WI",
+        "due_date": "2026-05-03",
+        "created_date": "2026-04-30T15:37:13.996Z",
+        "completed_date": null,
+        "note": "Email Sent",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
+      }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-29T17:48:45.584Z"
+  "last_modified": "2026-04-30T15:37:13.996Z"
 }
