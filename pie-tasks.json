@@ -2170,6 +2170,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777667156250_oyg9zx",
+        "rep": "Carol Sanford",
+        "prospect_id": "240",
+        "prospect_type": "aff",
+        "prospect_name": "Wilcoxson Buick GMC Truck Inc",
+        "city": "Pueblo",
+        "state": "Working",
+        "due_date": "2026-05-05",
+        "created_date": "2026-05-01T20:25:56.250Z",
+        "completed_date": null,
+        "note": "",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -2195,5 +2213,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T20:24:51.366Z"
+  "last_modified": "2026-05-01T20:25:56.250Z"
 }
