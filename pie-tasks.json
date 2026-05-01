@@ -2006,6 +2006,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777661586347_x40pud",
+        "rep": "Trish Smith",
+        "prospect_id": "d92844d59c011c3c",
+        "prospect_type": "nn",
+        "prospect_name": "Classic Chevrolet",
+        "city": "Grapevine",
+        "state": "TX",
+        "due_date": "2026-05-04",
+        "created_date": "2026-05-01T18:53:06.347Z",
+        "completed_date": null,
+        "note": "Contacted - Follow Up",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -2105,5 +2123,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T18:36:37.338Z"
+  "last_modified": "2026-05-01T18:53:06.348Z"
 }
