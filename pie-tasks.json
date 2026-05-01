@@ -425,13 +425,13 @@
         "state": "LA",
         "due_date": "2026-04-28",
         "created_date": "2026-04-28T17:54:37.857Z",
-        "completed_date": null,
+        "completed_date": "2026-05-01T14:36:16.038Z",
         "note": "Daily Focus — high-ICP, no prior activity. Prep with Chuck before first outreach.",
-        "status": "open",
+        "status": "completed",
         "source": "daily_focus",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1777398880432_eew9gr",
@@ -1637,5 +1637,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-04-30T23:12:18.051Z"
+  "last_modified": "2026-05-01T14:36:16.038Z"
 }
