@@ -1350,6 +1350,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777650455240_l2cp0l",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "b217ee98b6d0f19a",
+        "prospect_type": "nn",
+        "prospect_name": "Hixson Autoplex of Alexandria, Inc.",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-03",
+        "created_date": "2026-05-01T15:47:35.240Z",
+        "completed_date": null,
+        "note": "Left Voicemail — Terry Best Finance Manager",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -1925,5 +1943,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T15:47:33.052Z"
+  "last_modified": "2026-05-01T15:47:35.240Z"
 }
