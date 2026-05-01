@@ -2134,6 +2134,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777666795151_gv04j8",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000duxJvIAI",
+        "prospect_type": "nn",
+        "prospect_name": "Sunset Imports",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-05",
+        "created_date": "2026-05-01T20:19:55.151Z",
+        "completed_date": null,
+        "note": "When can we get your signature",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -2159,5 +2177,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T20:19:53.325Z"
+  "last_modified": "2026-05-01T20:19:55.151Z"
 }
