@@ -1368,6 +1368,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777655006204_4bo7fu",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "1dfe41790d346215",
+        "prospect_type": "nn",
+        "prospect_name": "Matt Bowers Auto Group",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-03",
+        "created_date": "2026-05-01T17:03:26.204Z",
+        "completed_date": null,
+        "note": "Left Voicemail — Looking for contact information connected to Brian Twiggs Finance Director.. Corporate",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -1961,5 +1979,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T17:03:24.426Z"
+  "last_modified": "2026-05-01T17:03:26.204Z"
 }
