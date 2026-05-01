@@ -1970,6 +1970,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777660588188_oyjd1v",
+        "rep": "Trish Smith",
+        "prospect_id": "8cb3454e2ccc3bb8",
+        "prospect_type": "nn",
+        "prospect_name": "South Texas Buick GMC",
+        "city": "Mcallen",
+        "state": "TX",
+        "due_date": "2026-05-03",
+        "created_date": "2026-05-01T18:36:28.188Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -2069,5 +2087,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T18:22:12.727Z"
+  "last_modified": "2026-05-01T18:36:28.188Z"
 }
