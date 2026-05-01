@@ -1386,6 +1386,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777655321065_6qw6hj",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "3799f5dfd9a9f55e",
+        "prospect_type": "nn",
+        "prospect_name": "Giles Hyundai",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-03",
+        "created_date": "2026-05-01T17:08:41.065Z",
+        "completed_date": null,
+        "note": "Left Voicemail — Trying to get in contact with Adam McDonald, GM",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -1979,5 +1997,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T17:08:39.318Z"
+  "last_modified": "2026-05-01T17:08:41.065Z"
 }
