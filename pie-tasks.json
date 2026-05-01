@@ -1278,6 +1278,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777648371093_90ccbk",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "06a2c247f5a018c5",
+        "prospect_type": "nn",
+        "prospect_name": "Richards Honda",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-03",
+        "created_date": "2026-05-01T15:12:51.093Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -1853,5 +1871,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T15:12:49.781Z"
+  "last_modified": "2026-05-01T15:12:51.093Z"
 }
