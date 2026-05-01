@@ -1516,6 +1516,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777647974706_ujtsso",
+        "rep": "Matt Hanaman",
+        "prospect_id": "46180950019b4ea0",
+        "prospect_type": "nn",
+        "prospect_name": "Hawk Auto Group",
+        "city": "Joliet",
+        "state": "IL",
+        "due_date": "2026-05-04",
+        "created_date": "2026-05-01T15:06:14.707Z",
+        "completed_date": null,
+        "note": "Email Sent",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -1799,5 +1817,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T15:05:55.992Z"
+  "last_modified": "2026-05-01T15:06:14.707Z"
 }
