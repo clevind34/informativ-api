@@ -2127,13 +2127,13 @@
         "state": "",
         "due_date": "2026-05-01",
         "created_date": "2026-04-30T22:05:49.254Z",
-        "completed_date": null,
+        "completed_date": "2026-05-01T20:24:49.451Z",
         "note": "Follow-up after: Left Voicemail",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Contacted - Follow Up"
       },
       {
         "id": "task_1777666795151_gv04j8",
@@ -2177,5 +2177,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T20:19:55.151Z"
+  "last_modified": "2026-05-01T20:24:49.451Z"
 }
