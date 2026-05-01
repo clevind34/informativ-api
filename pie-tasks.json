@@ -641,13 +641,13 @@
         "state": "LA",
         "due_date": "2026-04-28",
         "created_date": "2026-04-28T17:55:11.677Z",
-        "completed_date": null,
+        "completed_date": "2026-05-01T17:47:04.432Z",
         "note": "Daily Focus — high-ICP, no prior activity. Prep with Chuck before first outreach.",
-        "status": "open",
+        "status": "completed",
         "source": "daily_focus",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Left Voicemail — Tried reaching out to Keith Barker, GM"
       },
       {
         "id": "task_1777398913725_3yroy7",
@@ -2015,5 +2015,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-01T17:40:28.201Z"
+  "last_modified": "2026-05-01T17:47:04.432Z"
 }
