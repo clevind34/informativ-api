@@ -55,6 +55,7 @@
     "data/pie-data-cs.json",
     "data/pie-data-aff.json",
     "data/sfdc-rep-summary.json",
+  "data/sfdc-contacts.json",
     "data/sfdc-pipeline.json",
     "data/pie-follow-ups.json",
     "data/daily-activity-metrics.json",
@@ -363,3 +364,8 @@
   to = "/.netlify/functions/auth-me"
   status = 200
 
+[[redirects]]
+  from = "/api/data/sfdc-contacts"
+  to = "/.netlify/functions/data-sfdc-contacts"
+  status = 200
+  force = true
