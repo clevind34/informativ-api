@@ -205,6 +205,36 @@
     }
   },
   {
+    "name": "Jack Bellinghausen",
+    "team": "Bordenet",
+    "manager": "Teresa Bordenet",
+    "quota": 1725000,
+    "marchQuota": 166670,
+    "q1Quota": 482946,
+    "cwMTD": 0,
+    "cwQTD": 0,
+    "cwYTD": 0,
+    "deals": 0,
+    "pipelineOpps": 0,
+    "sfMeetings": 0,
+    "techDemos": 0,
+    "siteVisits": 0,
+    "totalMeetings": 0,
+    "pipelineValue": 0,
+    "avgDealSize": 0,
+    "newHire": true,
+    "hygiene": {
+      "score": 100,
+      "totalDeals": 0,
+      "flagged": 0,
+      "stuck": 0,
+      "lowMissing": 0,
+      "overdue": 0,
+      "critical": 0,
+      "topIssue": "Pipeline is clean."
+    }
+  },
+  {
     "name": "Tom Meredith",
     "team": "Bordenet",
     "manager": "Teresa Bordenet",
@@ -442,7 +472,7 @@
     }
   },
   {
-    "name": "Great Lakes East (Open)",
+    "name": "Greg Cutlip",
     "team": "Carlucci",
     "manager": "Joel Carlucci",
     "quota": 1454258,
