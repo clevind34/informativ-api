@@ -2980,6 +2980,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777938495451_flzufw",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000eBW8nIAG",
+        "prospect_type": "nn",
+        "prospect_name": "The Faricy Boys Auto Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-04T23:48:15.451Z",
+        "completed_date": null,
+        "note": "**Subject line:** Checking in: The Faricy Boys Auto Group & Informativ  ---  Thank you for taking the time to demo our platform with your team. We really appreciate the partnership opportunity and your openness to exploring how we can support The Faricy Boys Auto Group.  Based on our conversation, I wanted to recap what we discussed and share a couple of resources that might be helpful as you evaluate next steps. We talked about the importance of having consistent compliance guardrails across yo",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -3005,5 +3023,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-04T23:41:32.871Z"
+  "last_modified": "2026-05-04T23:48:15.451Z"
 }
