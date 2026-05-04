@@ -7,7 +7,7 @@
 import { getUser } from './auth.mjs';
 
 // Role hierarchy — higher index = more access
-const ROLE_LEVEL = { rep: 1, cs: 1, manager: 2, elt: 3, admin: 3 };
+const ROLE_LEVEL = { rep: 1, cs: 1, manager: 2, elt: 3, admin: 3, elt_observer: 1 };
 
 // Team membership for data scoping (manager → direct reports)
 const TEAM_MAP = {

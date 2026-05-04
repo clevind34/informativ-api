@@ -45,6 +45,7 @@ const EMAIL_TO_NAME = {
   'ddomm@informativ.com': 'Dave Domm',
   'hbestul@informativ.com': 'Heather Bestul',
   'rtruitt@informativ.com': 'Rebecca Truitt',
+  'lcrabtree@informativ.com': 'Lynn Crabtree',
 };
 
 export async function handler(event) {
@@ -79,6 +80,7 @@ export async function handler(event) {
   let primaryRole = 'unknown';
   if (roles.includes('admin')) primaryRole = 'admin';
   else if (roles.includes('elt')) primaryRole = 'elt';
+  else if (roles.includes('elt_observer')) primaryRole = 'elt_observer';
   else if (roles.includes('manager')) primaryRole = 'manager';
   else if (roles.includes('cs') || roles.includes('csm') || roles.includes('csa')) primaryRole = 'cs';
   else if (roles.includes('rep')) primaryRole = 'rep';
