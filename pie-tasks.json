@@ -1584,6 +1584,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777918840288_cgrsv8",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "fbe4c4a219efff8b",
+        "prospect_type": "nn",
+        "prospect_name": "Royal Buick GMC",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-04T18:20:40.288Z",
+        "completed_date": null,
+        "note": "Email Sent — Terrance Scott GM terrance.scott@royal-buick-gmc.com",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -2609,5 +2627,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-04T18:15:58.844Z"
+  "last_modified": "2026-05-04T18:20:40.288Z"
 }
