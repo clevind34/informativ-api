@@ -1840,6 +1840,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777908779074_z8m8wo",
+        "rep": "Matt Hanaman",
+        "prospect_id": "6c75818b1d4b2900",
+        "prospect_type": "nn",
+        "prospect_name": "DAHL AUTOMOTIVE",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-06",
+        "created_date": "2026-05-04T15:32:59.074Z",
+        "completed_date": null,
+        "note": "Left Voicemail — left vm",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -2501,5 +2519,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-04T15:32:57.639Z"
+  "last_modified": "2026-05-04T15:32:59.074Z"
 }
