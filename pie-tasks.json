@@ -1530,6 +1530,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777917936159_vqclay",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "c737333dbcf46f26",
+        "prospect_type": "nn",
+        "prospect_name": "Jim Taylor Buick GMC",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-06",
+        "created_date": "2026-05-04T18:05:36.159Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -2555,5 +2573,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-04T18:03:43.460Z"
+  "last_modified": "2026-05-04T18:05:36.159Z"
 }
