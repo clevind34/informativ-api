@@ -546,7 +546,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-05-04T23:38:02.903Z",
+  "last_modified": "2026-05-04T23:40:25.837Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -580,6 +580,9 @@
       "1": "dm_group"
     },
     "f139e34d45c4e1d9": {
+      "primary": "dm_group"
+    },
+    "728ac4662e5d1959": {
       "primary": "dm_group"
     }
   },
@@ -626,6 +629,13 @@
       "role": "dm_group",
       "set_by": "Carol Sanford",
       "set_at": "2026-05-04T23:38:02.903Z"
+    },
+    {
+      "record_id": "728ac4662e5d1959",
+      "contact_key": "primary",
+      "role": "dm_group",
+      "set_by": "Carol Sanford",
+      "set_at": "2026-05-04T23:40:25.837Z"
     }
   ]
 }
