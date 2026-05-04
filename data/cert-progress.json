@@ -2742,5 +2742,16 @@
         "date": "2026-03-30T00:42:40.924Z"
       }
     }
+  },
+  "Jack Bellinghausen": {
+    "total_solutions_sales_cert": {
+      "1": {
+        "score": 100,
+        "passed": true,
+        "correct": 8,
+        "total": 8,
+        "date": "2026-05-04T20:29:02.443Z"
+      }
+    }
   }
 }
