@@ -546,7 +546,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-05-04T19:29:53.423Z",
+  "last_modified": "2026-05-04T23:38:02.903Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -578,6 +578,9 @@
     },
     "2d8cada5e03c3263": {
       "1": "dm_group"
+    },
+    "f139e34d45c4e1d9": {
+      "primary": "dm_group"
     }
   },
   "contact_role_history": [
@@ -616,6 +619,13 @@
       "removed_contact_name": "Test Contact",
       "set_by": "Crly Alvarado",
       "set_at": "2026-05-04T19:29:53.423Z"
+    },
+    {
+      "record_id": "f139e34d45c4e1d9",
+      "contact_key": "primary",
+      "role": "dm_group",
+      "set_by": "Carol Sanford",
+      "set_at": "2026-05-04T23:38:02.903Z"
     }
   ]
 }
