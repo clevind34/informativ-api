@@ -78,7 +78,8 @@ async function _handler(event) {
             if (action === 'set_group') return await handleSetGroup(event, token, headers);
             if (action === 'add_contact') return await handleAddContact(event, token, headers);
             if (action === 'set_contact_role') return await handleSetContactRole(event, token, headers);
-            return { statusCode: 400, headers, body: JSON.stringify({ success: false, error: 'Missing or invalid action query param. Use: add_store, set_group, add_contact, set_contact_role' }) };
+            if (action === 'remove_contact') return await handleRemoveContact(event, token, headers);
+            return { statusCode: 400, headers, body: JSON.stringify({ success: false, error: 'Missing or invalid action query param. Use: add_store, set_group, add_contact, set_contact_role, remove_contact' }) };
         }
         return { statusCode: 405, headers, body: JSON.stringify({ error: 'Method not allowed' }) };
     } catch (err) {
@@ -259,6 +260,80 @@ async function handleSetContactRole(event, token, headers) {
     await commitFile(token, content, sha, `Set role: ${record_id.substring(0, 12)} ${key} → ${role}`);
     return { statusCode: 200, headers, body: JSON.stringify({ success: true, record_id, contact_key: key, role }) };
 }
+
+// POST ?action=remove_contact — Remove an additional contact from a record (re-keys remaining contact_roles)
+async function handleRemoveContact(event, token, headers) {
+    let body;
+    try { body = JSON.parse(event.body); } catch { return { statusCode: 400, headers, body: JSON.stringify({ success: false, error: 'Invalid JSON' }) }; }
+
+    const { record_id, contact_index, removed_by } = body;
+    if (!record_id || contact_index === undefined || contact_index === null) {
+        return { statusCode: 400, headers, body: JSON.stringify({ success: false, error: 'record_id and contact_index are required' }) };
+    }
+    const idx = parseInt(contact_index, 10);
+    if (isNaN(idx) || idx < 0) {
+        return { statusCode: 400, headers, body: JSON.stringify({ success: false, error: 'contact_index must be a non-negative integer' }) };
+    }
+
+    const { content, sha } = await fetchFile(token);
+    const additional = (content.additional_contacts || {})[record_id] || [];
+    if (idx >= additional.length) {
+        return { statusCode: 400, headers, body: JSON.stringify({ success: false, error: `contact_index ${idx} out of range (only ${additional.length} additional contacts)` }) };
+    }
+
+    const removedContact = additional[idx];
+
+    // Splice out the contact
+    additional.splice(idx, 1);
+    if (additional.length === 0) {
+        delete content.additional_contacts[record_id];
+    } else {
+        content.additional_contacts[record_id] = additional;
+    }
+
+    // Re-key contact_roles: indices >= idx shift down by 1; index === idx is removed
+    if (content.contact_roles && content.contact_roles[record_id]) {
+        const oldRoles = content.contact_roles[record_id];
+        const newRoles = {};
+        if (oldRoles.primary !== undefined) newRoles.primary = oldRoles.primary;
+        Object.keys(oldRoles).forEach(function(k) {
+            if (k === 'primary') return;
+            const ki = parseInt(k, 10);
+            if (isNaN(ki)) return;
+            if (ki < idx) {
+                newRoles[String(ki)] = oldRoles[k];
+            } else if (ki > idx) {
+                newRoles[String(ki - 1)] = oldRoles[k];
+            }
+            // ki === idx is dropped
+        });
+        if (Object.keys(newRoles).length === 0) {
+            delete content.contact_roles[record_id];
+        } else {
+            content.contact_roles[record_id] = newRoles;
+        }
+    }
+
+    content.last_modified = new Date().toISOString();
+
+    // Audit trail entry
+    if (!content.contact_role_history) content.contact_role_history = [];
+    content.contact_role_history.push({
+        record_id,
+        contact_key: String(idx),
+        role: 'removed',
+        removed_contact_name: (removedContact && removedContact.contact_name) || '',
+        set_by: removed_by || 'unknown',
+        set_at: new Date().toISOString()
+    });
+    if (content.contact_role_history.length > 500) {
+        content.contact_role_history = content.contact_role_history.slice(-500);
+    }
+
+    await commitFile(token, content, sha, `Remove contact: ${record_id.substring(0, 12)} idx ${idx}`);
+    return { statusCode: 200, headers, body: JSON.stringify({ success: true, record_id, removed_index: idx, remaining_count: additional.length }) };
+}
+
 
 // GitHub helpers
 async function fetchFile(token) {
