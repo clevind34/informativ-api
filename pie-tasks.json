@@ -2944,6 +2944,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777937274648_dmq7mv",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000fML7rIAG",
+        "prospect_type": "nn",
+        "prospect_name": "Reno Auto Warehouse",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-06",
+        "created_date": "2026-05-04T23:27:54.648Z",
+        "completed_date": null,
+        "note": "Jesse, Jr. you saw the platform and its’ simplicity to protect the dealership, too. Plus, how it can take those stacks of risky paper within the jacket you work with for every deal and turn everything digital for you. Speeds up the sales process for you and the customer with starting every deal with a mobile app ID scan. It returns a pass (green) or fail (red) copy of the DL straight to your CRM and automatically builds a digital deal jacket, privacy notice, authorization to pull credit, credit ",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -2969,5 +2987,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-04T23:01:53.059Z"
+  "last_modified": "2026-05-04T23:27:54.648Z"
 }
