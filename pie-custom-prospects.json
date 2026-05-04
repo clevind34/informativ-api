@@ -478,6 +478,15 @@
         "phone": "732-650-1550",
         "added_by": "Crly Alvarado",
         "added_at": "2026-04-22T23:05:40.873Z"
+      },
+      {
+        "contact_name": "Steve Sears",
+        "title": "F&I Director",
+        "email": "s.sears@openroadauto.com",
+        "phone": "732-650-1550",
+        "role": "dm_group",
+        "added_by": "Crly Alvarado",
+        "added_at": "2026-05-04T18:41:23.076Z"
       }
     ],
     "custom_1777322739828_ojybhi": [
@@ -537,7 +546,7 @@
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-04-30T18:35:59.945Z",
+  "last_modified": "2026-05-04T18:41:23.076Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -566,6 +575,9 @@
     },
     "0b1f82619bb2be92": {
       "0": "contact"
+    },
+    "2d8cada5e03c3263": {
+      "1": "dm_group"
     }
   },
   "contact_role_history": [
