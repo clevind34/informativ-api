@@ -543,10 +543,21 @@
         "added_by": "Brock Hutchinson",
         "added_at": "2026-04-30T18:35:59.945Z"
       }
+    ],
+    "d34dc3afcfce9e0b": [
+      {
+        "contact_name": "Test Contact",
+        "title": "CE)",
+        "email": "",
+        "phone": "",
+        "role": "dm_group",
+        "added_by": "Crly Alvarado",
+        "added_at": "2026-05-04T19:29:17.070Z"
+      }
     ]
   },
   "schema_version": "1.0",
-  "last_modified": "2026-05-04T18:41:23.076Z",
+  "last_modified": "2026-05-04T19:29:17.070Z",
   "contact_roles": {
     "04a5610b3e72ef78": {
       "2": "contact",
@@ -578,6 +589,9 @@
     },
     "2d8cada5e03c3263": {
       "1": "dm_group"
+    },
+    "d34dc3afcfce9e0b": {
+      "0": "dm_group"
     }
   },
   "contact_role_history": [
