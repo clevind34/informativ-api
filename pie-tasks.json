@@ -2794,6 +2794,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006109953_8m0new",
+        "rep": "Matt Hanaman",
+        "prospect_id": "4c955f87fd0d2d36",
+        "prospect_type": "nn",
+        "prospect_name": "LeadCar Toyota  La Crosse",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T18:35:09.953Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3691,5 +3709,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:34:58.280Z"
+  "last_modified": "2026-05-05T18:35:09.953Z"
 }
