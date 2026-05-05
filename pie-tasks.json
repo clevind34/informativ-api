@@ -1962,6 +1962,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778016298366_nckbze",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "b6c10f8087a9d5b4",
+        "prospect_type": "nn",
+        "prospect_name": "Smart Chevrolet Company",
+        "city": "",
+        "state": "AR",
+        "due_date": "2026-05-08",
+        "created_date": "2026-05-05T21:24:58.366Z",
+        "completed_date": null,
+        "note": "Email Sent — Lm/ems.. need Roger Jr on the horn",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -4051,5 +4069,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T21:24:55.725Z"
+  "last_modified": "2026-05-05T21:24:58.366Z"
 }
