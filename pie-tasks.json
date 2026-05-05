@@ -3064,6 +3064,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006248082_cmjwdy",
+        "rep": "Matt Hanaman",
+        "prospect_id": "b554148ea353e96d",
+        "prospect_type": "nn",
+        "prospect_name": "Holz Motors Inc",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-05T18:37:28.082Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3961,5 +3979,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:37:18.360Z"
+  "last_modified": "2026-05-05T18:37:28.082Z"
 }
