@@ -3010,6 +3010,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006217578_gmzilh",
+        "rep": "Matt Hanaman",
+        "prospect_id": "4ca82e0b9e6a1ca3",
+        "prospect_type": "nn",
+        "prospect_name": "Home Run Auto Group",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-05T18:36:57.578Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3907,5 +3925,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:36:50.201Z"
+  "last_modified": "2026-05-05T18:36:57.578Z"
 }
