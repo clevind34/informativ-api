@@ -3016,6 +3016,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1777939456004_cgc88o",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000e0a7hIAA",
+        "prospect_type": "nn",
+        "prospect_name": "Schomp Automotive Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T00:04:16.005Z",
+        "completed_date": null,
+        "note": "Checking in: Mazda of Salem & Informativ  ---  Thank you for your partnership! I wanted to reach out and check in on how things are progressing on your end. We value your feedback and want to make sure we're supporting your team in the way that works best for you.  Based on our last conversation, I'd like to confirm that Informativ is a good fit for your dealership and walk through what a hands-on tech demo would look like. A demo will give your team a chance to see exactly how the platform work",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -3041,5 +3059,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-04T23:49:15.883Z"
+  "last_modified": "2026-05-05T00:04:16.005Z"
 }
