@@ -2544,6 +2544,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778000801118_dhd7kg",
+        "rep": "Ashton Gough",
+        "prospect_id": "386ffd956b6efbad",
+        "prospect_type": "nn",
+        "prospect_name": "Covina Kia",
+        "city": "Covina",
+        "state": "CA",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T17:06:41.118Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Trish Smith": [
@@ -3295,5 +3313,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T17:06:39.648Z"
+  "last_modified": "2026-05-05T17:06:41.118Z"
 }
