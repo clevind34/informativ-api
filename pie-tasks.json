@@ -4258,6 +4258,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778023795656_01mt3l",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000VqjiMIAR",
+        "prospect_type": "nn",
+        "prospect_name": "GMC of Riverfront Park",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-06",
+        "created_date": "2026-05-05T23:29:55.656Z",
+        "completed_date": null,
+        "note": "The key upgrades in this version: The opener is sharper. \"You saw it. You got it immediately.\" reinforces his own judgment and makes him the credible internal champion before you even get to the ask. The soft pull section now connects the lost deal problem directly to revenue. \"You will never know it\" is intentional because invisible losses are the ones GMs hate most once they realize they exist. The ComplyAuto angle is now a strategic bridge, not just a footnote. Framing it as \"closes a gap Com",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -4303,5 +4321,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T23:13:54.617Z"
+  "last_modified": "2026-05-05T23:29:55.656Z"
 }
