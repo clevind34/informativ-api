@@ -1127,13 +1127,13 @@
         "state": "TN",
         "due_date": "2026-05-03",
         "created_date": "2026-04-30T17:21:38.002Z",
-        "completed_date": null,
+        "completed_date": "2026-05-05T20:41:53.795Z",
         "note": "Contacted - Interested — Casey reached out to me a couple weeks ago asking what bureaus we pull from",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Referenced calls from before.. no answer/email sent"
       },
       {
         "id": "task_1777570368683_nb05sl",
@@ -3997,5 +3997,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T20:37:54.759Z"
+  "last_modified": "2026-05-05T20:41:53.795Z"
 }
