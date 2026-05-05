@@ -2578,6 +2578,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778005981161_g4vjpi",
+        "rep": "Matt Hanaman",
+        "prospect_id": "ab765de560ce7a6f",
+        "prospect_type": "nn",
+        "prospect_name": "Burtness Chevrolet Inc",
+        "city": "Orfordville",
+        "state": "WI",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T18:33:01.161Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3475,5 +3493,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:32:47.949Z"
+  "last_modified": "2026-05-05T18:33:01.161Z"
 }
