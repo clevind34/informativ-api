@@ -2580,6 +2580,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778000811325_lj9glb",
+        "rep": "Ashton Gough",
+        "prospect_id": "19f75a5aa4aca1bc",
+        "prospect_type": "nn",
+        "prospect_name": "Browning Automotive Group",
+        "city": "Cerritos",
+        "state": "CA",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T17:06:51.325Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Trish Smith": [
@@ -3331,5 +3349,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T17:06:50.117Z"
+  "last_modified": "2026-05-05T17:06:51.325Z"
 }
