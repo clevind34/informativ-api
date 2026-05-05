@@ -1908,6 +1908,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778013715235_3lw025",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "custom_1777569650236_9eon43",
+        "prospect_type": "nn",
+        "prospect_name": "Dayton Ford",
+        "city": "Dayton",
+        "state": "TN",
+        "due_date": "2026-05-08",
+        "created_date": "2026-05-05T20:41:55.235Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -3997,5 +4015,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T20:41:53.795Z"
+  "last_modified": "2026-05-05T20:41:55.235Z"
 }
