@@ -2808,6 +2808,22 @@
         "total": 5,
         "date": "2026-05-05T14:59:10.712Z"
       }
+    },
+    "total_solutions_manager_cert": {
+      "1": {
+        "score": 89,
+        "passed": true,
+        "correct": 8,
+        "total": 9,
+        "date": "2026-05-05T15:22:39.758Z"
+      },
+      "2": {
+        "score": 63,
+        "passed": false,
+        "correct": 5,
+        "total": 8,
+        "date": "2026-05-05T16:03:25.539Z"
+      }
     }
   }
 }
