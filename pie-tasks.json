@@ -2632,6 +2632,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006022004_fy6ax6",
+        "rep": "Matt Hanaman",
+        "prospect_id": "d3c97e4a00e534cc",
+        "prospect_type": "nn",
+        "prospect_name": "Len Dudas Motors Inc",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-05T18:33:42.004Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3529,5 +3547,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:33:32.012Z"
+  "last_modified": "2026-05-05T18:33:42.004Z"
 }
