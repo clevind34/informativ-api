@@ -1145,13 +1145,13 @@
         "state": "LA",
         "due_date": "2026-05-02",
         "created_date": "2026-04-30T17:32:48.683Z",
-        "completed_date": null,
+        "completed_date": "2026-05-05T20:52:33.220Z",
         "note": "Left Voicemail — Trying to reschedule SF",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Left Voicemail — Trying to reschedule SF meeting with Glynn Finance Manager"
       },
       {
         "id": "task_1777573543414_ndvk0s",
@@ -4015,5 +4015,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T20:41:55.235Z"
+  "last_modified": "2026-05-05T20:52:33.220Z"
 }
