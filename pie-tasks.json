@@ -3253,9 +3253,29 @@
         "chuck_output": null,
         "completion_note": null
       }
+    ],
+    "Tim Canley": [
+      {
+        "id": "task_1777998498376_xo75uj",
+        "rep": "Tim Canley",
+        "prospect_id": "006Qg00000eCLZWIA4",
+        "prospect_type": "nn",
+        "prospect_name": "PAM AI",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T16:28:18.376Z",
+        "completed_date": null,
+        "note": "Reach out to CEO to get some movement ",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
+      }
     ]
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T15:09:00.058Z"
+  "last_modified": "2026-05-05T16:28:18.376Z"
 }
