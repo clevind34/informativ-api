@@ -2866,6 +2866,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006139229_1ccmpe",
+        "rep": "Matt Hanaman",
+        "prospect_id": "79f5f4387a25dc3c",
+        "prospect_type": "nn",
+        "prospect_name": "Rock County Honda",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T18:35:39.229Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3763,5 +3781,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:35:31.302Z"
+  "last_modified": "2026-05-05T18:35:39.229Z"
 }
