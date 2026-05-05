@@ -2884,6 +2884,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006148794_2i5ove",
+        "rep": "Matt Hanaman",
+        "prospect_id": "7d0db6df773043a9",
+        "prospect_type": "nn",
+        "prospect_name": "Palmen Motors Inc",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-05T18:35:48.794Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3781,5 +3799,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:35:39.229Z"
+  "last_modified": "2026-05-05T18:35:48.794Z"
 }
