@@ -2830,6 +2830,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006122417_ga4d2g",
+        "rep": "Matt Hanaman",
+        "prospect_id": "702e687e51826889",
+        "prospect_type": "nn",
+        "prospect_name": "Markquart Toyota",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T18:35:22.417Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3727,5 +3745,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:35:11.088Z"
+  "last_modified": "2026-05-05T18:35:22.417Z"
 }
