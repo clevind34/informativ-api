@@ -281,13 +281,13 @@
         "state": "TN",
         "due_date": "2026-05-01",
         "created_date": "2026-04-28T17:47:33.296Z",
-        "completed_date": null,
+        "completed_date": "2026-05-05T21:25:55.202Z",
         "note": "Contacted - Interested — Interested in SmartPencil.. need to get in contact w/ Chris",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Contacted - Not Interested — Chris said they weren't interested at the time but I'm going to call back in a couple weeks"
       },
       {
         "id": "task_1777398588823_flupe0",
@@ -4069,5 +4069,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T21:24:58.366Z"
+  "last_modified": "2026-05-05T21:25:55.202Z"
 }
