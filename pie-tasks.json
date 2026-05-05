@@ -2524,6 +2524,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778005939490_lsdp50",
+        "rep": "Matt Hanaman",
+        "prospect_id": "006Qg00000Z0KNZIA3",
+        "prospect_type": "nn",
+        "prospect_name": "Serra Automotive",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-05T18:32:19.490Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3421,5 +3439,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:32:09.290Z"
+  "last_modified": "2026-05-05T18:32:19.490Z"
 }
