@@ -6,6 +6,7 @@
   "type": "module",
   "dependencies": {
     "@anthropic-ai/sdk": "^0.39.0",
-    "docx": "^9.1.0"
+    "docx": "^9.1.0",
+    "pdf-lib": "^1.17.1"
   }
 }

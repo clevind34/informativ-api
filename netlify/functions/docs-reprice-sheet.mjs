@@ -20,6 +20,7 @@ import {
 } from 'docx';
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { buildRepricePdfBytes } from './pdf-pricing-renderer.mjs';
 
 let logoBuffer = null;
 function loadLogo() {
@@ -639,6 +640,23 @@ async function _handler(event) {
             return { statusCode: 400, headers, body: JSON.stringify({ error: 'customer_name, tier_pricing, and selected_tier are required' }) };
         }
 
+        // ── PDF mode: include_tier_descriptions=true → return merged PDF ──
+        if (data.include_tier_descriptions) {
+            const pdfBytes = await buildRepricePdfBytes(data, { includeTierDescriptions: true });
+            const pdfBase64 = Buffer.from(pdfBytes).toString('base64');
+            const pdfFilename = `${data.group_name || data.customer_name} - Pricing Review.pdf`;
+            return {
+                statusCode: 200,
+                headers: { ...headers, 'Content-Type': 'application/json' },
+                body: JSON.stringify({
+                    filename: pdfFilename,
+                    data: pdfBase64,
+                    mime: 'application/pdf'
+                })
+            };
+        }
+
+        // ── Default DOCX mode (unchanged) ──
         const doc = buildRepriceDoc(data);
         const buffer = await Packer.toBuffer(doc);
         const base64 = buffer.toString('base64');
