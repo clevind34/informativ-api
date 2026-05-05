@@ -2722,6 +2722,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778006073337_qohgth",
+        "rep": "Matt Hanaman",
+        "prospect_id": "c7a555c4610f1eea",
+        "prospect_type": "nn",
+        "prospect_name": "Dahl Chrysler Dodge Jeep Ram Rhinelander",
+        "city": "Holmen",
+        "state": "WI",
+        "due_date": "2026-05-07",
+        "created_date": "2026-05-05T18:34:33.337Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -3619,5 +3637,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-05T18:34:31.521Z"
+  "last_modified": "2026-05-05T18:34:33.337Z"
 }
