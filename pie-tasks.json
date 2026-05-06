@@ -263,13 +263,13 @@
         "state": "KY",
         "due_date": "2026-04-30",
         "created_date": "2026-04-28T17:43:56.667Z",
-        "completed_date": null,
+        "completed_date": "2026-05-06T19:29:15.497Z",
         "note": "Left Voicemail — Opportunity from NADA.. keep knocking door",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Reached out to Jason O'Brien about meeting up at NADA in the past"
       },
       {
         "id": "task_1777398453296_nsdlve",
@@ -4807,5 +4807,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T19:02:12.980Z"
+  "last_modified": "2026-05-06T19:29:15.498Z"
 }
