@@ -3550,6 +3550,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778079544045_vje3vj",
+        "rep": "Matt Hanaman",
+        "prospect_id": "9c7b85bdda004e3b",
+        "prospect_type": "nn",
+        "prospect_name": "Bergstrom Lexus of the Fox Valley",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-13",
+        "created_date": "2026-05-06T14:59:04.045Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -4573,5 +4591,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T14:58:46.202Z"
+  "last_modified": "2026-05-06T14:59:04.045Z"
 }
