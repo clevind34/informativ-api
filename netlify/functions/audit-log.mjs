@@ -14,7 +14,7 @@
  *   return response;
  */
 
-const GITHUB_OWNER = 'clevind34';
+const GITHUB_OWNER = 'Informativ-Business';
 const GITHUB_REPO = 'informativ-api';
 const BRANCH = 'main';
 

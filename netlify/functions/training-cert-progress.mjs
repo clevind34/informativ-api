@@ -5,14 +5,14 @@
  * GET  ?rep=Name         → returns { results: { programId: { moduleNum: { score, passed, ... } } } }
  * POST { repName, results } → saves full certModuleResults object for the rep
  *
- * Persistence: cert-progress.json in clevind34/informativ-api repo (data/ directory)
+ * Persistence: cert-progress.json in Informativ-Business/informativ-api repo (data/ directory)
  */
 
 import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
 import { logRequest } from './audit-log.mjs';
 
-const GITHUB_OWNER = 'clevind34';
+const GITHUB_OWNER = 'Informativ-Business';
 const GITHUB_REPO = 'informativ-api';
 const FILE_PATH = 'data/cert-progress.json';
 const BRANCH = 'main';

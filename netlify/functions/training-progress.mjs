@@ -14,7 +14,7 @@ import { handleCors, corsHeaders } from './cors.mjs';
 import { authenticateRequest } from './auth.mjs';
 import { logRequest } from './audit-log.mjs';
 
-const GITHUB_OWNER = 'clevind34';
+const GITHUB_OWNER = 'Informativ-Business';
 const GITHUB_REPO = 'chuck-sales-assistant';
 const FILE_PATH = 'training-progress.json';
 const BRANCH = 'main';

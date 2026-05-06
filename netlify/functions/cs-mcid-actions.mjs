@@ -13,7 +13,7 @@
  *     stays meaningful even after the underlying drift is resolved).
  *
  * Persistence:
- *   - data/mcid-action-log.json in clevind34/informativ-api (gateway repo itself)
+ *   - data/mcid-action-log.json in Informativ-Business/informativ-api (gateway repo itself)
  *   - All entries are append-only; status is encoded in the action_type
  *
  * Endpoints:
@@ -35,7 +35,7 @@ import { logRequest } from './audit-log.mjs';
 import { checkRateLimit } from './rate-limit.mjs';
 import { safeError } from './safe-error.mjs';
 
-const GITHUB_OWNER = 'clevind34';
+const GITHUB_OWNER = 'Informativ-Business';
 const GITHUB_REPO = 'informativ-api';
 const FILE_PATH = 'data/mcid-action-log.json';
 const BRANCH = 'main';

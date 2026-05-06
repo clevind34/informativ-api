@@ -12,7 +12,7 @@ import { readFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const DAILY_TARGET = 50;
-const GH_OWNER = 'clevind34';
+const GH_OWNER = 'Informativ-Business';
 const GH_REPO  = 'informativ-api';
 const GH_DAILY_PATH = 'data/daily-activity-metrics.json';
 

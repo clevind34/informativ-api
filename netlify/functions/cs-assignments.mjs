@@ -24,7 +24,7 @@ import { logRequest } from './audit-log.mjs';
 import { checkRateLimit } from './rate-limit.mjs';
 import { safeError } from './safe-error.mjs';
 
-const GITHUB_OWNER = 'clevind34';
+const GITHUB_OWNER = 'Informativ-Business';
 const GITHUB_REPO = 'chuck-sales-assistant';
 const FILE_PATH = 'assignments.json';
 const BRANCH = 'main';
