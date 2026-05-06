@@ -5016,6 +5016,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": "Email Sent — Email sent 4/30 to Wayne. He's interested in DL scan. "
+      },
+      {
+        "id": "task_1778111455153_xvno0i",
+        "rep": "Crly Alvarado",
+        "prospect_id": "006Qg00000ZRAf3IAH",
+        "prospect_type": "nn",
+        "prospect_name": "Legend Auto Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-09",
+        "created_date": "2026-05-06T23:50:55.153Z",
+        "completed_date": null,
+        "note": "Phone call",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -5041,5 +5059,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T23:50:52.935Z"
+  "last_modified": "2026-05-06T23:50:55.153Z"
 }
