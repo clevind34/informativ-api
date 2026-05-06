@@ -4294,6 +4294,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778027104501_w8b6gw",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000evhVpIAI",
+        "prospect_type": "nn",
+        "prospect_name": "Korum Automotive Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-14",
+        "created_date": "2026-05-06T00:25:04.516Z",
+        "completed_date": null,
+        "note": "Much stronger now. The subject lines alone do more work than the entire previous version. The Direct & Urgent one has a line that tends to stop people mid-scroll: \"You are not being pitched on something new here. You are being shown what you already have access to.\" That reframes the whole ask and takes the defensive posture off the table. The Warmer Re-Engage lands the same punch a little more gently with \"That is not a separate conversation. That is the rest of your account.\" Same idea, slight",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -4339,5 +4357,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T00:01:58.287Z"
+  "last_modified": "2026-05-06T00:25:04.516Z"
 }
