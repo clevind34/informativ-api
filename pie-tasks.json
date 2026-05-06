@@ -173,13 +173,13 @@
         "state": "LA",
         "due_date": "2026-05-01",
         "created_date": "2026-04-28T16:32:29.336Z",
-        "completed_date": null,
+        "completed_date": "2026-05-06T20:41:02.770Z",
         "note": "New ownership, 13 rooftops.. I've sent 3 emails to Donner, might need new contact",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1777394377628_k3dbtr",
@@ -4969,5 +4969,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T20:32:33.848Z"
+  "last_modified": "2026-05-06T20:41:02.788Z"
 }
