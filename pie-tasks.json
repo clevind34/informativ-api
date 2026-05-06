@@ -2592,6 +2592,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778102131077_zhalzi",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "d3ffeac7904ca203",
+        "prospect_type": "nn",
+        "prospect_name": "Orr Nissan South",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-09",
+        "created_date": "2026-05-06T21:15:31.077Z",
+        "completed_date": null,
+        "note": "Email Sent — Reached out to Kyle about webinar in the past told him we got more coming up and wanted him to let me know who makes decisions on credit and compliance processes",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -5005,5 +5023,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T21:15:29.761Z"
+  "last_modified": "2026-05-06T21:15:31.077Z"
 }
