@@ -2502,6 +2502,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778098620475_8rgj2o",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "e9eb39f8364abdfe",
+        "prospect_type": "nn",
+        "prospect_name": "Orr Kia of Shreveport",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-09",
+        "created_date": "2026-05-06T20:17:00.475Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -4915,5 +4933,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T20:16:58.929Z"
+  "last_modified": "2026-05-06T20:17:00.475Z"
 }
