@@ -2178,6 +2178,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778076932911_2uik6x",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "b9f9262a6b8c40eb",
+        "prospect_type": "nn",
+        "prospect_name": "Lee Edwards Mazda",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-08",
+        "created_date": "2026-05-06T14:15:32.912Z",
+        "completed_date": null,
+        "note": "Left Voicemail — Tried to get a hold of Peyton.. new Finance Manager, Jared Miller no longer works there",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -4393,5 +4411,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T14:15:31.574Z"
+  "last_modified": "2026-05-06T14:15:32.912Z"
 }
