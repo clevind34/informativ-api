@@ -2610,6 +2610,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778102132916_9iec31",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "d3ffeac7904ca203",
+        "prospect_type": "nn",
+        "prospect_name": "Orr Nissan South",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-13",
+        "created_date": "2026-05-06T21:15:32.916Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -5023,5 +5041,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T21:15:31.077Z"
+  "last_modified": "2026-05-06T21:15:32.916Z"
 }
