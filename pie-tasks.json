@@ -2466,6 +2466,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778098271243_7u8e66",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "48171576d314a671",
+        "prospect_type": "nn",
+        "prospect_name": "Bohn Toyota",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-09",
+        "created_date": "2026-05-06T20:11:11.243Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -4879,5 +4897,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T20:11:09.702Z"
+  "last_modified": "2026-05-06T20:11:11.253Z"
 }
