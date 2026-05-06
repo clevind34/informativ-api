@@ -2538,6 +2538,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778099553848_l690dx",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "7b94a24129549f6f",
+        "prospect_type": "nn",
+        "prospect_name": "Tameron Kia Westbank",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-13",
+        "created_date": "2026-05-06T20:32:33.848Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -4951,5 +4969,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T20:32:31.788Z"
+  "last_modified": "2026-05-06T20:32:33.848Z"
 }
