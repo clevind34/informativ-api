@@ -83,13 +83,13 @@
         "state": "KY",
         "due_date": "2026-04-30",
         "created_date": "2026-04-27T20:50:23.573Z",
-        "completed_date": null,
+        "completed_date": "2026-05-06T19:02:10.213Z",
         "note": "Contact Jessica and find out how they operate",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Emailing all contacts in SFDC til I get a response"
       },
       {
         "id": "task_1777383353855_oje2sn",
@@ -4789,5 +4789,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T18:30:22.834Z"
+  "last_modified": "2026-05-06T19:02:10.215Z"
 }
