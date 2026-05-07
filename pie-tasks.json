@@ -4616,6 +4616,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778191274969_qkvjet",
+        "rep": "Trish Smith",
+        "prospect_id": "30c08c12130ffeac",
+        "prospect_type": "nn",
+        "prospect_name": "The CAR Group (Norm Reeves Dealerships)",
+        "city": "Ste. 1200",
+        "state": "TX",
+        "due_date": "2026-05-09",
+        "created_date": "2026-05-07T22:01:14.969Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -5221,5 +5239,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-07T22:01:08.661Z"
+  "last_modified": "2026-05-07T22:01:14.969Z"
 }
