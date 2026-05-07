@@ -4562,6 +4562,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778191249222_82xs8i",
+        "rep": "Trish Smith",
+        "prospect_id": "37e0074a9ab552fb",
+        "prospect_type": "nn",
+        "prospect_name": "Friendly Chevrolet Co.",
+        "city": "Dallas",
+        "state": "TX",
+        "due_date": "2026-05-09",
+        "created_date": "2026-05-07T22:00:49.222Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -5167,5 +5185,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-07T21:59:50.002Z"
+  "last_modified": "2026-05-07T22:00:49.222Z"
 }
