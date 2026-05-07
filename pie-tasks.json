@@ -191,13 +191,13 @@
         "state": "FL",
         "due_date": "2026-05-01",
         "created_date": "2026-04-28T16:39:37.628Z",
-        "completed_date": null,
+        "completed_date": "2026-05-07T14:27:35.304Z",
         "note": "Ned to reach out to Kelly Green, any info is good info",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Looking for info from Kelly the lead"
       },
       {
         "id": "task_1777395794165_19evpk",
@@ -5059,5 +5059,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-06T23:50:55.153Z"
+  "last_modified": "2026-05-07T14:27:35.305Z"
 }
