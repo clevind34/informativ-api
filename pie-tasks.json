@@ -4724,6 +4724,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778249693142_umvc8w",
+        "rep": "Trish Smith",
+        "prospect_id": "9a3e78acf86a6617",
+        "prospect_type": "nn",
+        "prospect_name": "Charles Clark Chevrolet Co",
+        "city": "Mcallen",
+        "state": "TX",
+        "due_date": "2026-05-10",
+        "created_date": "2026-05-08T14:14:53.155Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -5365,5 +5383,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-07T22:38:39.149Z"
+  "last_modified": "2026-05-08T14:14:53.155Z"
 }
