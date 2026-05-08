@@ -6472,6 +6472,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778283036483_se37qg",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000ZslLyIAJ",
+        "prospect_type": "nn",
+        "prospect_name": "Ken Garff Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T23:30:36.497Z",
+        "completed_date": null,
+        "note": "LUNCH? And did he talk to Rairdon and Autobahn?",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -6661,5 +6679,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T23:28:52.023Z"
+  "last_modified": "2026-05-08T23:30:36.497Z"
 }
