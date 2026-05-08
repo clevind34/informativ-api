@@ -3042,6 +3042,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778274386456_uzew6n",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "006Qg00000iGBJ7IAO",
+        "prospect_type": "nn",
+        "prospect_name": "Bachman Auto Group Inc",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T21:06:26.456Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -6553,5 +6571,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T21:06:24.972Z"
+  "last_modified": "2026-05-08T21:06:26.456Z"
 }
