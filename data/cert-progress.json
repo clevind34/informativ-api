@@ -2954,6 +2954,15 @@
         "total": 8,
         "date": "2026-05-07T21:42:10.176Z"
       }
+    },
+    "informativ_method_cert": {
+      "1": {
+        "score": 100,
+        "passed": true,
+        "correct": 6,
+        "total": 6,
+        "date": "2026-05-08T16:01:37.950Z"
+      }
     }
   }
 }
