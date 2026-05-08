@@ -3939,13 +3939,13 @@
         "state": "WI",
         "due_date": "2026-05-08",
         "created_date": "2026-05-06T14:58:21.622Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T15:14:25.253Z",
         "note": "Left Voicemail — need drive centric integration for smart pencil",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1778079524948_mktmi1",
@@ -6049,5 +6049,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:14:18.708Z"
+  "last_modified": "2026-05-08T15:14:25.253Z"
 }
