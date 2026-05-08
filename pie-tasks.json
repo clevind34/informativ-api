@@ -6546,6 +6546,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778275355205_qxpxu0",
+        "rep": "Crly Alvarado",
+        "prospect_id": "006Qg00000gViPZIA0",
+        "prospect_type": "nn",
+        "prospect_name": "Wedekind Motors Inc",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-13",
+        "created_date": "2026-05-08T21:22:35.219Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -6571,5 +6589,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T21:07:42.897Z"
+  "last_modified": "2026-05-08T21:22:35.219Z"
 }
