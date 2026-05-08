@@ -1919,13 +1919,13 @@
         "state": "TN",
         "due_date": "2026-05-08",
         "created_date": "2026-05-05T20:41:55.235Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T21:04:19.561Z",
         "note": "Follow-up after: Email Sent",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Tried to see if Casey uses business or personal email more"
       },
       {
         "id": "task_1778014355261_cjd4hg",
@@ -6517,5 +6517,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T21:03:44.836Z"
+  "last_modified": "2026-05-08T21:04:19.561Z"
 }
