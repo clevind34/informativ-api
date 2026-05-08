@@ -1055,13 +1055,13 @@
         "state": "LA",
         "due_date": "2026-05-07",
         "created_date": "2026-04-30T15:45:45.001Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T21:01:54.578Z",
         "note": "Follow-up after: Left Voicemail",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Left Voicemail — Duplicate.. they are Group 1 now"
       },
       {
         "id": "task_1777567351222_lk5pgz",
@@ -6499,5 +6499,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T21:01:16.997Z"
+  "last_modified": "2026-05-08T21:01:54.578Z"
 }
