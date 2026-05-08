@@ -3021,13 +3021,13 @@
         "state": "WI",
         "due_date": "2026-05-06",
         "created_date": "2026-05-04T15:31:57.730Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T14:56:11.848Z",
         "note": "Left Voicemail — vm",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Left Voicemail"
       },
       {
         "id": "task_1777908718840_ooasum",
@@ -5401,5 +5401,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T14:15:01.476Z"
+  "last_modified": "2026-05-08T14:56:11.848Z"
 }
