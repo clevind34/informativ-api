@@ -3183,13 +3183,13 @@
         "state": "IL",
         "due_date": "2026-05-08",
         "created_date": "2026-05-05T15:06:48.931Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T15:14:07.349Z",
         "note": "Contacted - Interested — Call back next week",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1777993610653_np6j5h",
@@ -6031,5 +6031,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:13:51.580Z"
+  "last_modified": "2026-05-08T15:14:07.349Z"
 }
