@@ -1325,13 +1325,13 @@
         "state": "LA",
         "due_date": "2026-05-03",
         "created_date": "2026-05-01T15:21:19.554Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T20:39:18.344Z",
         "note": "Left Voicemail",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Wesley Smith, F&I Manager at the Geaux Chevy West Store in LA wsmith@geauxautomotive.com"
       },
       {
         "id": "task_1777649592202_rpxatp",
@@ -6409,5 +6409,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T20:26:20.014Z"
+  "last_modified": "2026-05-08T20:39:18.344Z"
 }
