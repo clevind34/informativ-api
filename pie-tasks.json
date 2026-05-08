@@ -4864,6 +4864,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778253316253_olr6lv",
+        "rep": "Matt Hanaman",
+        "prospect_id": "4b078472c11f5e35",
+        "prospect_type": "nn",
+        "prospect_name": "Jones Chevrolet Buick",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-10",
+        "created_date": "2026-05-08T15:15:16.253Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -6157,5 +6175,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:15:12.215Z"
+  "last_modified": "2026-05-08T15:15:16.253Z"
 }
