@@ -6582,6 +6582,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778276361507_97ofpz",
+        "rep": "Crly Alvarado",
+        "prospect_id": "006Qg00000dyp1CIAQ",
+        "prospect_type": "nn",
+        "prospect_name": "Car Revolution",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T21:39:21.507Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -6607,5 +6625,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T21:33:12.408Z"
+  "last_modified": "2026-05-08T21:39:21.507Z"
 }
