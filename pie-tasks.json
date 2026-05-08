@@ -6490,6 +6490,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778283120040_h47pf5",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000i9TRHIA2",
+        "prospect_type": "nn",
+        "prospect_name": "LEGEND AUTO SALES  WA Group Parent",
+        "city": "",
+        "state": "",
+        "due_date": "2026-08-11",
+        "created_date": "2026-05-08T23:32:00.040Z",
+        "completed_date": null,
+        "note": "Follow-up after: Contacted - Not Interested",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -6679,5 +6697,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T23:30:36.497Z"
+  "last_modified": "2026-05-08T23:32:00.040Z"
 }
