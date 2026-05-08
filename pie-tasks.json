@@ -4882,6 +4882,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778253321392_n5hwcv",
+        "rep": "Matt Hanaman",
+        "prospect_id": "08a34a6e6dae2c87",
+        "prospect_type": "nn",
+        "prospect_name": "Don Larson Chevrolet Buick Cadillac GMC",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-10",
+        "created_date": "2026-05-08T15:15:21.392Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -6175,5 +6193,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:15:16.253Z"
+  "last_modified": "2026-05-08T15:15:21.392Z"
 }
