@@ -4648,6 +4648,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778253180952_7pbsbs",
+        "rep": "Matt Hanaman",
+        "prospect_id": "7c5d47295c383287",
+        "prospect_type": "nn",
+        "prospect_name": "Quinn Motors of Ellsworth Inc",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-10",
+        "created_date": "2026-05-08T15:13:00.952Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -5941,5 +5959,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:12:59.740Z"
+  "last_modified": "2026-05-08T15:13:00.952Z"
 }
