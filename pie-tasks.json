@@ -1217,13 +1217,13 @@
         "state": "LA",
         "due_date": "2026-05-03",
         "created_date": "2026-04-30T20:30:51.361Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T19:49:20.680Z",
         "note": "",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Will Tabor email referencing one of his finance managers"
       },
       {
         "id": "task_1777646178044_7gdh8q",
@@ -6247,5 +6247,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T19:48:33.326Z"
+  "last_modified": "2026-05-08T19:49:20.680Z"
 }
