@@ -4702,6 +4702,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778253212333_3zo3r6",
+        "rep": "Matt Hanaman",
+        "prospect_id": "ad7f7f1533c1d32a",
+        "prospect_type": "nn",
+        "prospect_name": "Zimbrick, Inc.",
+        "city": "",
+        "state": "WI",
+        "due_date": "2026-05-10",
+        "created_date": "2026-05-08T15:13:32.333Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -5995,5 +6013,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:13:30.514Z"
+  "last_modified": "2026-05-08T15:13:32.333Z"
 }
