@@ -4360,6 +4360,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778252824154_nkpzr9",
+        "rep": "Matt Hanaman",
+        "prospect_id": "f58de6449676dc72",
+        "prospect_type": "nn",
+        "prospect_name": "Summit Automotive",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-20",
+        "created_date": "2026-05-08T15:07:04.154Z",
+        "completed_date": null,
+        "note": "Follow-up after: Left Voicemail",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -5653,5 +5671,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:06:53.294Z"
+  "last_modified": "2026-05-08T15:07:04.154Z"
 }
