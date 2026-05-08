@@ -1973,13 +1973,13 @@
         "state": "AR",
         "due_date": "2026-05-08",
         "created_date": "2026-05-05T21:24:58.366Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T21:07:20.651Z",
         "note": "Email Sent — Lm/ems.. need Roger Jr on the horn",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1778016356845_m8moc8",
@@ -6571,5 +6571,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T21:07:04.721Z"
+  "last_modified": "2026-05-08T21:07:20.652Z"
 }
