@@ -2934,6 +2934,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778272760647_8w3tdc",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "3c9497b099bd8040",
+        "prospect_type": "nn",
+        "prospect_name": "Geaux Automotive Group",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T20:39:20.648Z",
+        "completed_date": null,
+        "note": "Email Sent — Wesley Smith, F&I Manager at the Geaux Chevy West Store in LA wsmith@geauxautomotive.com",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -6409,5 +6427,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T20:39:18.344Z"
+  "last_modified": "2026-05-08T20:39:20.648Z"
 }
