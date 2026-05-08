@@ -2862,6 +2862,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778271067693_96cwrz",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "b6c10f8087a9d5b4",
+        "prospect_type": "nn",
+        "prospect_name": "Smart Chevrolet Company",
+        "city": "",
+        "state": "AR",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T20:11:07.693Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -6337,5 +6355,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T20:11:06.160Z"
+  "last_modified": "2026-05-08T20:11:07.693Z"
 }
