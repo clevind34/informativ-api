@@ -2027,13 +2027,13 @@
         "state": "",
         "due_date": "2026-05-08",
         "created_date": "2026-05-05T21:28:16.210Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T21:06:24.972Z",
         "note": "Follow-up after: Email Sent",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Tried confirming with Steve Turner today"
       },
       {
         "id": "task_1778016508849_lt2j2z",
@@ -6553,5 +6553,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T21:05:59.794Z"
+  "last_modified": "2026-05-08T21:06:24.972Z"
 }
