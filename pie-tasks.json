@@ -2898,6 +2898,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778271775237_gudjoo",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "a7ce9dd3138b32a9",
+        "prospect_type": "nn",
+        "prospect_name": "Geri Lynn Nissan",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T20:22:55.250Z",
+        "completed_date": null,
+        "note": "Contacted - Follow Up — I've had a SF meeting with Byron.. now I'm trying to get Ron hooked on SmartPencil, V Stips, and fraud overall",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -6373,5 +6391,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T20:22:53.993Z"
+  "last_modified": "2026-05-08T20:22:55.250Z"
 }
