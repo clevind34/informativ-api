@@ -1199,13 +1199,13 @@
         "state": "TN",
         "due_date": "2026-05-02",
         "created_date": "2026-04-30T18:36:02.805Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T19:47:47.561Z",
         "note": "Left Voicemail — Saw they don't have any pre qual looking to speak to Matt Hudson about soft pulls",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Left Voicemail — No answer"
       },
       {
         "id": "task_1777581051361_vlnze8",
@@ -6229,5 +6229,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T19:44:46.561Z"
+  "last_modified": "2026-05-08T19:47:47.561Z"
 }
