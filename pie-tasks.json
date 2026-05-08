@@ -137,13 +137,13 @@
         "state": "AR",
         "due_date": "2026-05-05",
         "created_date": "2026-04-28T16:07:53.695Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T20:11:06.160Z",
         "note": "Follow-up after: Left Voicemail",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent — Not in store today.. gotta call back Monday"
       },
       {
         "id": "task_1777392692193_gzc9v2",
@@ -6337,5 +6337,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T20:10:05.997Z"
+  "last_modified": "2026-05-08T20:11:06.160Z"
 }
