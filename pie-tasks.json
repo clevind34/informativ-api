@@ -4774,6 +4774,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778253273284_8j6gf4",
+        "rep": "Matt Hanaman",
+        "prospect_id": "d4c7713188a79434",
+        "prospect_type": "nn",
+        "prospect_name": "Castle Automotive Group",
+        "city": "Oakbrook Terrace",
+        "state": "IL",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T15:14:33.284Z",
+        "completed_date": null,
+        "note": "Email Sent",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Ashton Gough": [
@@ -6067,5 +6085,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:14:31.764Z"
+  "last_modified": "2026-05-08T15:14:33.284Z"
 }
