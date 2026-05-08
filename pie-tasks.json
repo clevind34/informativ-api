@@ -3921,13 +3921,13 @@
         "state": "WI",
         "due_date": "2026-05-08",
         "created_date": "2026-05-06T14:57:53.663Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T15:14:18.708Z",
         "note": "Left Voicemail",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1778079501622_tgle4v",
@@ -6049,5 +6049,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:14:12.612Z"
+  "last_modified": "2026-05-08T15:14:18.708Z"
 }
