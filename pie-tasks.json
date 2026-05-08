@@ -2736,6 +2736,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778269486561_eyd3ep",
+        "rep": "Brock Hutchinson",
+        "prospect_id": "13eb19bcb620301d",
+        "prospect_type": "nn",
+        "prospect_name": "Jacky Jones Ford",
+        "city": "",
+        "state": "TN",
+        "due_date": "2026-05-11",
+        "created_date": "2026-05-08T19:44:46.561Z",
+        "completed_date": null,
+        "note": "Contacted - Follow Up — Terry Mills - fraud system is pretty weak and they've had fraud in the past (video of some sort)",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tami Richter": [
@@ -6211,5 +6229,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T19:44:44.177Z"
+  "last_modified": "2026-05-08T19:44:46.561Z"
 }
