@@ -4029,13 +4029,13 @@
         "state": "WI",
         "due_date": "2026-05-08",
         "created_date": "2026-05-06T14:59:18.563Z",
-        "completed_date": null,
+        "completed_date": "2026-05-08T15:14:50.653Z",
         "note": "Left Voicemail",
-        "status": "open",
+        "status": "completed",
         "source": "disposition_auto",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Left Voicemail"
       },
       {
         "id": "task_1778079559914_kyca5d",
@@ -6103,5 +6103,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-08T15:14:41.362Z"
+  "last_modified": "2026-05-08T15:14:50.653Z"
 }
