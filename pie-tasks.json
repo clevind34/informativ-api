@@ -7050,6 +7050,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778339978135_za17jd",
+        "rep": "Crly Alvarado",
+        "prospect_id": "006Qg00000eeTQtIAM",
+        "prospect_type": "nn",
+        "prospect_name": "Price LeBlanc Auto Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-14",
+        "created_date": "2026-05-09T15:19:38.135Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -7075,5 +7093,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-09T15:04:06.114Z"
+  "last_modified": "2026-05-09T15:19:38.135Z"
 }
