@@ -7014,6 +7014,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778339044871_dumwns",
+        "rep": "Crly Alvarado",
+        "prospect_id": "44080eeddb81250d",
+        "prospect_type": "nn",
+        "prospect_name": "Dan Hecht Chevrolet Toyota",
+        "city": "",
+        "state": "ILLINOIS",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-09T15:04:04.871Z",
+        "completed_date": null,
+        "note": "Email Sent — Sent email to Jim. 3 locations, his brother runs one. Closing opp and re-open. Follow up set.",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -7039,5 +7057,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-09T14:47:46.992Z"
+  "last_modified": "2026-05-09T15:04:04.871Z"
 }
