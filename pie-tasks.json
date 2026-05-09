@@ -7230,6 +7230,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778345141729_r46rhy",
+        "rep": "Crly Alvarado",
+        "prospect_id": "006Qg00000ZQTf1IAH",
+        "prospect_type": "nn",
+        "prospect_name": "Berkshire Hathaway",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-16",
+        "created_date": "2026-05-09T16:45:41.729Z",
+        "completed_date": null,
+        "note": "Follow-up after: Contacted - Follow Up",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -7255,5 +7273,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-09T16:43:37.628Z"
+  "last_modified": "2026-05-09T16:45:41.729Z"
 }
