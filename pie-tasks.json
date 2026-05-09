@@ -7212,6 +7212,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778345017628_pop3up",
+        "rep": "Crly Alvarado",
+        "prospect_id": "1ed8e84c77e7b85f",
+        "prospect_type": "nn",
+        "prospect_name": "Jerseyville Motor Company, Inc.",
+        "city": "",
+        "state": "IL",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-09T16:43:37.628Z",
+        "completed_date": null,
+        "note": "Email Sent — Email sent. Closed opp. Set follow up and if contact is made, I will open a new opp. ",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -7237,5 +7255,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-09T16:43:36.410Z"
+  "last_modified": "2026-05-09T16:43:37.628Z"
 }
