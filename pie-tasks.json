@@ -7194,6 +7194,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778345016410_0c7fjd",
+        "rep": "Crly Alvarado",
+        "prospect_id": "006Qg00000fG8esIAC",
+        "prospect_type": "nn",
+        "prospect_name": "Jerseyville Motor Company, Inc.",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-16",
+        "created_date": "2026-05-09T16:43:36.410Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -7219,5 +7237,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-09T16:36:55.031Z"
+  "last_modified": "2026-05-09T16:43:36.410Z"
 }
