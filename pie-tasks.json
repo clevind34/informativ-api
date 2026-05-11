@@ -6699,13 +6699,13 @@
         "state": "",
         "due_date": "2026-05-11",
         "created_date": "2026-05-08T23:52:25.993Z",
-        "completed_date": null,
+        "completed_date": "2026-05-11T21:56:24.584Z",
         "note": "Follow-up after: Email Sent",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1778284403789_mbtgvh",
@@ -7489,5 +7489,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-11T21:37:44.873Z"
+  "last_modified": "2026-05-11T21:56:24.584Z"
 }
