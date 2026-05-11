@@ -2975,11 +2975,20 @@
         "date": "2026-05-11T13:47:25.672Z"
       },
       "2": {
-        "score": 63,
-        "passed": false,
-        "correct": 5,
+        "score": 88,
+        "passed": true,
+        "correct": 7,
         "total": 8,
-        "date": "2026-05-11T13:48:32.893Z"
+        "date": "2026-05-11T13:49:16.377Z"
+      }
+    },
+    "informativ_method_cert": {
+      "1": {
+        "score": 83,
+        "passed": true,
+        "correct": 5,
+        "total": 6,
+        "date": "2026-05-11T13:51:33.312Z"
       }
     }
   }
