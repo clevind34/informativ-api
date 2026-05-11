@@ -6850,6 +6850,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778537298897_ezde59",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000iKXzQIAW",
+        "prospect_type": "nn",
+        "prospect_name": "VISIONARY AUTOMOTIVE GROUP, LLC - AZ",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-12",
+        "created_date": "2026-05-11T22:08:18.897Z",
+        "completed_date": null,
+        "note": "Follow-up after: Meeting Scheduled",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -7525,5 +7543,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-11T22:08:17.075Z"
+  "last_modified": "2026-05-11T22:08:18.897Z"
 }
