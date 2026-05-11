@@ -6447,13 +6447,13 @@
         "state": "",
         "due_date": "2026-05-12",
         "created_date": "2026-05-06T00:01:58.287Z",
-        "completed_date": null,
+        "completed_date": "2026-05-11T21:37:41.151Z",
         "note": "A few things I leaned into here: The subject line does the heavy lifting by leading with his own team's endorsement. That's social proof before he even opens it. The multi-state regulatory angle is intentional. NV and WA have different compliance landscapes, which is a real pain point for a group owner and gives Melissa a reason to care too. The \"fraud doesn't look like fraud until it's funded\" line is designed to land differently with an owner than it does with a GSM. He's thinking about charge",
-        "status": "open",
+        "status": "completed",
         "source": "manual",
         "disposition_id": null,
         "chuck_output": null,
-        "completion_note": null
+        "completion_note": "Email Sent"
       },
       {
         "id": "task_1778027104501_w8b6gw",
@@ -7471,5 +7471,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-11T21:31:13.795Z"
+  "last_modified": "2026-05-11T21:37:41.151Z"
 }
