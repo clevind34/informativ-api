@@ -5912,6 +5912,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778515755765_ysa045",
+        "rep": "Trish Smith",
+        "prospect_id": "7dec6d03343970e7",
+        "prospect_type": "nn",
+        "prospect_name": "Velocity Mazda",
+        "city": "Tyler, Tx 75703",
+        "state": "TX",
+        "due_date": "2026-05-13",
+        "created_date": "2026-05-11T16:09:15.765Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -7417,5 +7435,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-11T14:37:45.490Z"
+  "last_modified": "2026-05-11T16:09:15.765Z"
 }
