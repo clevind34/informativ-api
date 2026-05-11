@@ -6796,6 +6796,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778535464872_bmb3dq",
+        "rep": "Carol Sanford",
+        "prospect_id": "006Qg00000cr463IAA",
+        "prospect_type": "nn",
+        "prospect_name": "Chris Russell Automotive Group",
+        "city": "",
+        "state": "",
+        "due_date": "2026-05-18",
+        "created_date": "2026-05-11T21:37:44.873Z",
+        "completed_date": null,
+        "note": "Follow-up after: Email Sent",
+        "status": "open",
+        "source": "manual",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Crly Alvarado": [
@@ -7471,5 +7489,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-11T21:37:41.151Z"
+  "last_modified": "2026-05-11T21:37:44.873Z"
 }
