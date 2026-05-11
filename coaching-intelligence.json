@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-11T11:09:38Z",
+  "generated_at": "2026-05-11T11:12:07Z",
   "period": "May 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -30,7 +30,7 @@
         "team_attainment_pct": 20.2,
         "team_pipeline_value": 27283149,
         "team_pipeline_opps": 172,
-        "team_weighted_coverage": 0.3,
+        "team_weighted_coverage": 0.34,
         "team_funnel_meetings": 190,
         "team_deals_per_meeting": 0.91,
         "direct_report_count": 8
@@ -47,9 +47,9 @@
         "top_issue": "Team has 120 flagged deals across 8 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 920161,
-        "team_ninety_day_forecast": 1140232,
-        "team_quarterly_vs_quota_pct": 130
+        "team_monthly_forecast": 984240,
+        "team_ninety_day_forecast": 1264073,
+        "team_quarterly_vs_quota_pct": 132
       },
       "direct_reports": [
         {
@@ -61,7 +61,9 @@
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
-          "top_stuck_deals": []
+          "top_stuck_deals": [],
+          "trajectory_probability": 0.0,
+          "trajectory_risk": "high"
         },
         {
           "name": "Loren Rivera",
@@ -72,7 +74,9 @@
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
-          "top_stuck_deals": []
+          "top_stuck_deals": [],
+          "trajectory_probability": 0.03,
+          "trajectory_risk": "high"
         },
         {
           "name": "Tom Meredith",
@@ -104,14 +108,16 @@
               "flat_rate_product_type": "Protect",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.03,
+          "trajectory_risk": "high"
         },
         {
           "name": "Clarence Romero",
           "composite_score": 24,
           "coaching_archetype": "activity_problem",
           "attainment_pct": 0.0,
-          "pipeline_coverage": 0.05,
+          "pipeline_coverage": 0.12,
           "hygiene_score": 44,
           "top_issue": "22% of deals aged beyond stage threshold. 33% of deals have overdue close dates.",
           "stuck_deals": 2,
@@ -136,7 +142,9 @@
               "flat_rate_product_type": "",
               "rep_certified": true
             }
-          ]
+          ],
+          "trajectory_probability": 0.0,
+          "trajectory_risk": "high"
         },
         {
           "name": "Carol Sanford",
@@ -168,14 +176,16 @@
               "flat_rate_product_type": "",
               "rep_certified": true
             }
-          ]
+          ],
+          "trajectory_probability": 0.69,
+          "trajectory_risk": "medium"
         },
         {
           "name": "Trish Smith",
           "composite_score": 51,
           "coaching_archetype": "deal_velocity",
           "attainment_pct": 30.4,
-          "pipeline_coverage": 0.3,
+          "pipeline_coverage": 0.34,
           "hygiene_score": 23,
           "top_issue": "73% of deals aged beyond stage threshold. 19% of deals have overdue close dates.",
           "stuck_deals": 19,
@@ -200,14 +210,16 @@
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.98,
+          "trajectory_risk": "low"
         },
         {
           "name": "Matt Hanaman",
           "composite_score": 52,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 46.0,
-          "pipeline_coverage": 0.37,
+          "pipeline_coverage": 0.49,
           "hygiene_score": 76,
           "top_issue": "24% of deals aged beyond stage threshold.",
           "stuck_deals": 4,
@@ -232,14 +244,16 @@
               "flat_rate_product_type": "Control",
               "rep_certified": true
             }
-          ]
+          ],
+          "trajectory_probability": 0.98,
+          "trajectory_risk": "low"
         },
         {
           "name": "Tami Richter",
           "composite_score": 69,
           "coaching_archetype": "deal_velocity",
           "attainment_pct": 43.6,
-          "pipeline_coverage": 1.17,
+          "pipeline_coverage": 1.26,
           "hygiene_score": 14,
           "top_issue": "85% of deals aged beyond stage threshold. 2% of deals have overdue close dates.",
           "stuck_deals": 80,
@@ -264,7 +278,9 @@
               "flat_rate_product_type": "Control",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.98,
+          "trajectory_risk": "low"
         }
       ],
       "top_team_stuck_deals": [
@@ -367,6 +383,18 @@
         "avg_composite": 40,
         "avg_conversion_rate": 1.26,
         "avg_deal_size": 185758
+      },
+      "team_trajectory": {
+        "avg_quota_hit_probability": 0.461,
+        "reps_at_risk": 4,
+        "at_risk_names": [
+          "Clarence Romero",
+          "Jackson Bellinghausen",
+          "Tom Meredith",
+          "Loren Rivera"
+        ],
+        "reps_on_track": 4,
+        "team_risk_level": "medium"
       }
     },
     "Trish Smith": {
@@ -390,7 +418,7 @@
         "attainment_pct": 30.4,
         "pipeline_value": 3995449,
         "pipeline_opps": 26,
-        "pipeline_coverage": 0.3,
+        "pipeline_coverage": 0.34,
         "pipeline_coverage_raw": 6.2,
         "avg_deal_size": 153671,
         "sf_meetings": 22,
@@ -407,9 +435,9 @@
       },
       "forecast": {
         "monthly_forecast": 93109,
-        "ninety_day_forecast": 133570,
+        "ninety_day_forecast": 150823,
         "monthly_vs_quota_pct": 43,
-        "quarterly_vs_quota_pct": 145
+        "quarterly_vs_quota_pct": 148
       },
       "top_stuck_deals": [
         {
@@ -463,7 +491,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.98,
+        "risk_level": "low",
+        "confidence": 1.0,
+        "month_1_prob": 0.5,
+        "month_2_prob": 0.83,
+        "month_3_prob": 0.98,
+        "trajectory_direction": "improving",
+        "projected_attainment_pct": 124.4,
+        "intervention_urgency": "on_track",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "positive",
+            "detail": "Running at 124% of target pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "positive",
+            "detail": "10.0x coverage \u2014 strong funnel"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 362% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -525,7 +580,7 @@
         "attainment_pct": 46.0,
         "pipeline_value": 4166860,
         "pipeline_opps": 17,
-        "pipeline_coverage": 0.37,
+        "pipeline_coverage": 0.49,
         "pipeline_coverage_raw": 6.5,
         "avg_deal_size": 245109,
         "sf_meetings": 24,
@@ -542,9 +597,9 @@
       },
       "forecast": {
         "monthly_forecast": 102227,
-        "ninety_day_forecast": 128102,
+        "ninety_day_forecast": 170206,
         "monthly_vs_quota_pct": 47,
-        "quarterly_vs_quota_pct": 149
+        "quarterly_vs_quota_pct": 155
       },
       "top_stuck_deals": [
         {
@@ -588,7 +643,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.98,
+        "risk_level": "low",
+        "confidence": 1.0,
+        "month_1_prob": 0.5,
+        "month_2_prob": 0.83,
+        "month_3_prob": 0.98,
+        "trajectory_direction": "improving",
+        "projected_attainment_pct": 128.8,
+        "intervention_urgency": "on_track",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "positive",
+            "detail": "Running at 129% of target pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "positive",
+            "detail": "10.0x coverage \u2014 strong funnel"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 343% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -693,7 +775,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.14,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.12,
+        "month_3_prob": 0.14,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "positive",
+            "detail": "33239.5x coverage \u2014 strong funnel"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "negative",
+            "detail": "Demo count lagging at 10% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -743,7 +852,7 @@
         "attainment_pct": 43.6,
         "pipeline_value": 10799029,
         "pipeline_opps": 94,
-        "pipeline_coverage": 1.17,
+        "pipeline_coverage": 1.26,
         "pipeline_coverage_raw": 16.8,
         "avg_deal_size": 114883,
         "sf_meetings": 23,
@@ -759,10 +868,10 @@
         "top_issue": "85% of deals aged beyond stage threshold. 2% of deals have overdue close dates."
       },
       "forecast": {
-        "monthly_forecast": 388097,
-        "ninety_day_forecast": 426108,
-        "monthly_vs_quota_pct": 209,
-        "quarterly_vs_quota_pct": 459
+        "monthly_forecast": 419965,
+        "ninety_day_forecast": 457976,
+        "monthly_vs_quota_pct": 224,
+        "quarterly_vs_quota_pct": 464
       },
       "top_stuck_deals": [
         {
@@ -816,7 +925,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.98,
+        "risk_level": "low",
+        "confidence": 1.0,
+        "month_1_prob": 0.5,
+        "month_2_prob": 0.83,
+        "month_3_prob": 0.98,
+        "trajectory_direction": "improving",
+        "projected_attainment_pct": 393.0,
+        "intervention_urgency": "on_track",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "positive",
+            "detail": "Running at 393% of target pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "positive",
+            "detail": "10.0x coverage \u2014 strong funnel"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 314% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -951,7 +1087,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.69,
+        "risk_level": "medium",
+        "confidence": 1.0,
+        "month_1_prob": 0.5,
+        "month_2_prob": 0.59,
+        "month_3_prob": 0.69,
+        "trajectory_direction": "improving",
+        "projected_attainment_pct": 76.5,
+        "intervention_urgency": "monitor",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 76% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "positive",
+            "detail": "2.6x coverage \u2014 strong funnel"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 895% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -1013,7 +1176,7 @@
         "attainment_pct": 0.0,
         "pipeline_value": 609632,
         "pipeline_opps": 9,
-        "pipeline_coverage": 0.05,
+        "pipeline_coverage": 0.12,
         "pipeline_coverage_raw": 1.4,
         "avg_deal_size": 67737,
         "sf_meetings": 4,
@@ -1029,10 +1192,10 @@
         "top_issue": "22% of deals aged beyond stage threshold. 33% of deals have overdue close dates."
       },
       "forecast": {
-        "monthly_forecast": 14087,
-        "ninety_day_forecast": 20520,
-        "monthly_vs_quota_pct": 10,
-        "quarterly_vs_quota_pct": 5
+        "monthly_forecast": 46298,
+        "ninety_day_forecast": 53136,
+        "monthly_vs_quota_pct": 32,
+        "quarterly_vs_quota_pct": 12
       },
       "top_stuck_deals": [
         {
@@ -1086,7 +1249,34 @@
           "rep_certified": true
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.0,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.0,
+        "month_3_prob": 0.0,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.1x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "negative",
+            "detail": "Demo count lagging at 48% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -1170,7 +1360,34 @@
         "quarterly_vs_quota_pct": 0
       },
       "top_stuck_deals": [],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.0,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.0,
+        "month_3_prob": 0.0,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "negative",
+            "detail": "Demo count lagging at 0% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -1285,7 +1502,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.03,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.14,
+        "month_2_prob": 0.02,
+        "month_3_prob": 0.03,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 13.8,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 14% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.1x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 219% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -1357,7 +1601,34 @@
         "quarterly_vs_quota_pct": 37
       },
       "top_stuck_deals": [],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.03,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.37,
+        "month_2_prob": 0.02,
+        "month_3_prob": 0.03,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 37.3,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 37% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 229% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -1414,7 +1685,7 @@
         "team_attainment_pct": 3.7,
         "team_pipeline_value": 6076760,
         "team_pipeline_opps": 65,
-        "team_weighted_coverage": 0.04,
+        "team_weighted_coverage": 0.05,
         "team_funnel_meetings": 115,
         "team_deals_per_meeting": 0.57,
         "direct_report_count": 6
@@ -1431,8 +1702,8 @@
         "top_issue": "Team has 20 flagged deals across 6 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 81441,
-        "team_ninety_day_forecast": 140205,
+        "team_monthly_forecast": 89801,
+        "team_ninety_day_forecast": 151048,
         "team_quarterly_vs_quota_pct": 25
       },
       "direct_reports": [
@@ -1445,7 +1716,9 @@
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
-          "top_stuck_deals": []
+          "top_stuck_deals": [],
+          "trajectory_probability": 0.03,
+          "trajectory_risk": "high"
         },
         {
           "name": "William Fowler",
@@ -1477,7 +1750,9 @@
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.02,
+          "trajectory_risk": "high"
         },
         {
           "name": "Greg Cutlip",
@@ -1509,18 +1784,22 @@
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.0,
+          "trajectory_risk": "high"
         },
         {
           "name": "Ward Carroll",
           "composite_score": 24,
           "coaching_archetype": "conversion_problem",
           "attainment_pct": 2.5,
-          "pipeline_coverage": 0.05,
+          "pipeline_coverage": 0.06,
           "hygiene_score": 100,
           "top_issue": "Pipeline is clean.",
           "stuck_deals": 0,
-          "top_stuck_deals": []
+          "top_stuck_deals": [],
+          "trajectory_probability": 0.05,
+          "trajectory_risk": "high"
         },
         {
           "name": "Brock Hutchinson",
@@ -1552,14 +1831,16 @@
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.05,
+          "trajectory_risk": "high"
         },
         {
           "name": "Ashton Gough",
           "composite_score": 35,
           "coaching_archetype": "deal_velocity",
           "attainment_pct": 16.4,
-          "pipeline_coverage": 0.1,
+          "pipeline_coverage": 0.11,
           "hygiene_score": 37,
           "top_issue": "63% of deals aged beyond stage threshold.",
           "stuck_deals": 12,
@@ -1584,7 +1865,9 @@
               "flat_rate_product_type": "Control",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.76,
+          "trajectory_risk": "low"
         }
       ],
       "top_team_stuck_deals": [
@@ -1687,6 +1970,19 @@
         "avg_composite": 25,
         "avg_conversion_rate": 1.24,
         "avg_deal_size": 84960
+      },
+      "team_trajectory": {
+        "avg_quota_hit_probability": 0.152,
+        "reps_at_risk": 5,
+        "at_risk_names": [
+          "David Castone",
+          "William Fowler",
+          "Ward Carroll",
+          "Brock Hutchinson",
+          "Greg Cutlip"
+        ],
+        "reps_on_track": 1,
+        "team_risk_level": "high"
       }
     },
     "Ashton Gough": {
@@ -1710,7 +2006,7 @@
         "attainment_pct": 16.4,
         "pipeline_value": 1868999,
         "pipeline_opps": 19,
-        "pipeline_coverage": 0.1,
+        "pipeline_coverage": 0.11,
         "pipeline_coverage_raw": 2.9,
         "avg_deal_size": 98368,
         "sf_meetings": 25,
@@ -1726,10 +2022,10 @@
         "top_issue": "63% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 44611,
-        "ninety_day_forecast": 53177,
-        "monthly_vs_quota_pct": 68,
-        "quarterly_vs_quota_pct": 92
+        "monthly_forecast": 52552,
+        "ninety_day_forecast": 61119,
+        "monthly_vs_quota_pct": 72,
+        "quarterly_vs_quota_pct": 94
       },
       "top_stuck_deals": [
         {
@@ -1783,7 +2079,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.76,
+        "risk_level": "low",
+        "confidence": 1.0,
+        "month_1_prob": 0.5,
+        "month_2_prob": 0.64,
+        "month_3_prob": 0.76,
+        "trajectory_direction": "improving",
+        "projected_attainment_pct": 84.1,
+        "intervention_urgency": "on_track",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "neutral",
+            "detail": "On pace for 84% of quota"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.6x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 333% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -1867,7 +2190,34 @@
         "quarterly_vs_quota_pct": 14
       },
       "top_stuck_deals": [],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.03,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.12,
+        "month_2_prob": 0.02,
+        "month_3_prob": 0.03,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 11.6,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 12% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 867% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -1933,8 +2283,8 @@
         "top_issue": "18% of deals aged beyond stage threshold. 1 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 8630,
-        "ninety_day_forecast": 11723,
+        "monthly_forecast": 8970,
+        "ninety_day_forecast": 12063,
         "monthly_vs_quota_pct": 4,
         "quarterly_vs_quota_pct": 6
       },
@@ -1960,7 +2310,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.02,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.04,
+        "month_2_prob": 0.02,
+        "month_3_prob": 0.02,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 4.5,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 4% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 533% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -2022,7 +2399,7 @@
         "attainment_pct": 2.5,
         "pipeline_value": 1246200,
         "pipeline_opps": 16,
-        "pipeline_coverage": 0.05,
+        "pipeline_coverage": 0.06,
         "pipeline_coverage_raw": 1.9,
         "avg_deal_size": 77888,
         "sf_meetings": 20,
@@ -2039,12 +2416,39 @@
       },
       "forecast": {
         "monthly_forecast": 18039,
-        "ninety_day_forecast": 33008,
+        "ninety_day_forecast": 35112,
         "monthly_vs_quota_pct": 16,
         "quarterly_vs_quota_pct": 10
       },
       "top_stuck_deals": [],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.05,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.04,
+        "month_2_prob": 0.04,
+        "month_3_prob": 0.05,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 4.4,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 4% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.1x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 638% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -2122,8 +2526,8 @@
         "top_issue": "31% of deals aged beyond stage threshold."
       },
       "forecast": {
-        "monthly_forecast": 10161,
-        "ninety_day_forecast": 21175,
+        "monthly_forecast": 10240,
+        "ninety_day_forecast": 21588,
         "monthly_vs_quota_pct": 9,
         "quarterly_vs_quota_pct": 12
       },
@@ -2169,7 +2573,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.05,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.05,
+        "month_2_prob": 0.04,
+        "month_3_prob": 0.05,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 5.1,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 5% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.1x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "negative",
+            "detail": "Demo count lagging at 86% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -2248,7 +2679,7 @@
       },
       "forecast": {
         "monthly_forecast": 0,
-        "ninety_day_forecast": 4763,
+        "ninety_day_forecast": 4807,
         "monthly_vs_quota_pct": 0,
         "quarterly_vs_quota_pct": 1
       },
@@ -2274,7 +2705,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.0,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.0,
+        "month_3_prob": 0.0,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "negative",
+            "detail": "Demo count lagging at 10% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -2336,7 +2794,7 @@
         "attainment_pct": 39.3,
         "pipeline_value": 6468702,
         "pipeline_opps": 38,
-        "pipeline_coverage": 0.67,
+        "pipeline_coverage": 0.77,
         "pipeline_coverage_raw": 3.8,
         "avg_deal_size": 170229,
         "sf_meetings": 81,
@@ -2352,10 +2810,10 @@
         "top_issue": "50% of deals aged beyond stage threshold. 3 deals with low or missing amounts."
       },
       "forecast": {
-        "monthly_forecast": 408718,
-        "ninety_day_forecast": 700129,
-        "monthly_vs_quota_pct": 163,
-        "quarterly_vs_quota_pct": 111
+        "monthly_forecast": 417156,
+        "ninety_day_forecast": 799889,
+        "monthly_vs_quota_pct": 164,
+        "quarterly_vs_quota_pct": 116
       },
       "top_stuck_deals": [
         {
@@ -2409,7 +2867,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.39,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.5,
+        "month_2_prob": 0.33,
+        "month_3_prob": 0.39,
+        "trajectory_direction": "improving",
+        "projected_attainment_pct": 69.5,
+        "intervention_urgency": "act_now",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 70% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "neutral",
+            "detail": "1.5x coverage \u2014 on threshold"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 924% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -2524,7 +3009,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.05,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.04,
+        "month_3_prob": 0.05,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.2x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 143% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -2626,7 +3138,34 @@
           "rep_certified": false
         }
       ],
-      "trajectory": null,
+      "trajectory": {
+        "quota_hit_probability": 0.0,
+        "risk_level": "high",
+        "confidence": 1.0,
+        "month_1_prob": 0.0,
+        "month_2_prob": 0.0,
+        "month_3_prob": 0.0,
+        "trajectory_direction": "steady",
+        "projected_attainment_pct": 0.0,
+        "intervention_urgency": "urgent",
+        "key_drivers": [
+          {
+            "factor": "booking_pace",
+            "impact": "negative",
+            "detail": "Only 0% of needed pace"
+          },
+          {
+            "factor": "pipeline_coverage",
+            "impact": "negative",
+            "detail": "Only 0.0x coverage \u2014 gap identified"
+          },
+          {
+            "factor": "activity_velocity",
+            "impact": "positive",
+            "detail": "Demo count at 257% of org pace"
+          }
+        ]
+      },
       "org_benchmarks": {
         "avg_composite": 24,
         "avg_conversion_rate": 0.81,
@@ -2683,7 +3222,7 @@
         "team_attainment_pct": 18.1,
         "team_pipeline_value": 9331202,
         "team_pipeline_opps": 55,
-        "team_weighted_coverage": 0.28,
+        "team_weighted_coverage": 0.31,
         "team_funnel_meetings": 139,
         "team_deals_per_meeting": 0.4,
         "direct_report_count": 3
@@ -2700,9 +3239,9 @@
         "top_issue": "Team has 28 flagged deals across 3 reps."
       },
       "forecast": {
-        "team_monthly_forecast": 536841,
-        "team_ninety_day_forecast": 852015,
-        "team_quarterly_vs_quota_pct": 55
+        "team_monthly_forecast": 545279,
+        "team_ninety_day_forecast": 951775,
+        "team_quarterly_vs_quota_pct": 58
       },
       "direct_reports": [
         {
@@ -2735,7 +3274,9 @@
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.0,
+          "trajectory_risk": "high"
         },
         {
           "name": "Tim Canley",
@@ -2767,14 +3308,16 @@
               "flat_rate_product_type": "",
               "rep_certified": false
             }
-          ]
+          ],
+          "trajectory_probability": 0.05,
+          "trajectory_risk": "high"
         },
         {
           "name": "Crly Alvarado",
           "composite_score": 63,
           "coaching_archetype": "deal_velocity",
           "attainment_pct": 39.3,
-          "pipeline_coverage": 0.67,
+          "pipeline_coverage": 0.77,
           "hygiene_score": 42,
           "top_issue": "50% of deals aged beyond stage threshold. 3 deals with low or missing amounts.",
           "stuck_deals": 19,
@@ -2799,7 +3342,9 @@
               "flat_rate_product_type": "",
               "rep_certified": true
             }
-          ]
+          ],
+          "trajectory_probability": 0.39,
+          "trajectory_risk": "high"
         }
       ],
       "top_team_stuck_deals": [
@@ -2902,6 +3447,17 @@
         "avg_composite": 43,
         "avg_conversion_rate": 0.63,
         "avg_deal_size": 187557
+      },
+      "team_trajectory": {
+        "avg_quota_hit_probability": 0.147,
+        "reps_at_risk": 3,
+        "at_risk_names": [
+          "Crly Alvarado",
+          "Tim Canley",
+          "Nick Moyes"
+        ],
+        "reps_on_track": 0,
+        "team_risk_level": "high"
       }
     }
   }
