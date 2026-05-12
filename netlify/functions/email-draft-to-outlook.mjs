@@ -75,20 +75,20 @@ async function loadDraftsLog() {
   }
 }
 
-function checkCapAndCooldown(log, repEmail, prospectId) {
+function checkCapAndCooldown(log, repEmail, prospectId, overrideCooldown) {
   const now = new Date();
   const today = now.toISOString().slice(0, 10); // YYYY-MM-DD
   const cooldownCutoff = new Date(now.getTime() - COOLDOWN_DAYS * 86400000);
 
   const drafts = log.drafts || [];
 
-  // Today's drafts by this rep
+  // Daily cap is a HARD ceiling — never overridable
   const todayCount = drafts.filter(d => d.rep_email === repEmail && d.date === today).length;
   if (todayCount >= DAILY_CAP) {
     return { allowed: false, reason: 'daily_cap_reached', todayCount, cap: DAILY_CAP };
   }
 
-  // Same-prospect within cooldown
+  // Same-prospect within cooldown (SOFT — rep can override)
   const sameProspect = drafts.find(d =>
     d.rep_email === repEmail &&
     d.prospect_id === prospectId &&
@@ -96,12 +96,23 @@ function checkCapAndCooldown(log, repEmail, prospectId) {
   );
   if (sameProspect) {
     const daysAgo = Math.floor((now - new Date(sameProspect.timestamp)) / 86400000);
+    if (!overrideCooldown) {
+      return {
+        allowed: false,
+        reason: 'cooldown_active',
+        last_drafted: sameProspect.timestamp,
+        days_ago: daysAgo,
+        cooldown_days: COOLDOWN_DAYS,
+        can_override: true
+      };
+    }
+    // Override granted — allow but tag for audit
     return {
-      allowed: false,
-      reason: 'cooldown_active',
-      last_drafted: sameProspect.timestamp,
-      days_ago: daysAgo,
-      cooldown_days: COOLDOWN_DAYS
+      allowed: true,
+      cooldown_overridden: true,
+      previous_draft_days_ago: daysAgo,
+      todayCount,
+      capRemaining: DAILY_CAP - todayCount
     };
   }
 
@@ -241,7 +252,7 @@ async function _handler(event) {
     return { statusCode: 400, headers: _cors, body: JSON.stringify({ error: 'Invalid JSON body' }) };
   }
 
-  const { prospect, rep, template_id_override } = input;
+  const { prospect, rep, template_id_override, override_cooldown } = input;
   if (!prospect || !rep || !prospect.id || !rep.email) {
     return {
       statusCode: 400,
@@ -252,7 +263,7 @@ async function _handler(event) {
 
   // ─── 1. Cap + cooldown check ──────────────────────────────
   const { log, sha } = await loadDraftsLog();
-  const capCheck = checkCapAndCooldown(log, rep.email, prospect.id);
+  const capCheck = checkCapAndCooldown(log, rep.email, prospect.id, !!override_cooldown);
   if (!capCheck.allowed) {
     return {
       statusCode: 429,
@@ -336,7 +347,9 @@ async function _handler(event) {
     personalization_warning: aiOutput.personalization_warning || false,
     subject: aiOutput.subject,
     body_length: aiOutput.body.length,
-    draft_id: draftId
+    draft_id: draftId,
+    cooldown_overridden: capCheck.cooldown_overridden || false,
+    previous_draft_days_ago: capCheck.previous_draft_days_ago || null
   };
 
   try {
@@ -389,7 +402,8 @@ async function _handler(event) {
       personalization_warning: aiOutput.personalization_warning || false,
       personalization_warning_message: aiOutput.personalization_warning_message || null,
       cap_remaining: capCheck.capRemaining - 1,
-      cap_daily: DAILY_CAP
+      cap_daily: DAILY_CAP,
+      cooldown_overridden: capCheck.cooldown_overridden || false
     })
   };
 }
