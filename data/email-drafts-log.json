@@ -73,8 +73,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:21:07.389Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "",
+      "prospect_id": "f273a1913e6a952f",
+      "prospect_company": "Del Grande Dealer Group",
+      "template_id": "e02_compliance_headache",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Compliance doesn't have to be a headache.",
+      "body_length": 821,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:20:59.529Z",
+  "last_updated": "2026-05-12T15:21:07.389Z",
   "schema_version": "1.0.0"
 }
