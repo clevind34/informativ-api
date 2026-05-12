@@ -313,8 +313,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T17:26:37.693Z",
+      "date": "2026-05-12",
+      "rep_email": "jbellinghausen@informativ.com",
+      "rep_name": "jbellinghausen@informativ.com",
+      "prospect_id": "8f4e2361a2ded5b9",
+      "prospect_company": "Eastside Ford",
+      "template_id": "e16_verified_stips_prequal_combo",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Verified Stips + Prequal = Faster, Safer Deals",
+      "body_length": 715,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T17:25:38.088Z",
+  "last_updated": "2026-05-12T17:26:37.693Z",
   "schema_version": "1.0.0"
 }
