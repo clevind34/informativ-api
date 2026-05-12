@@ -105,8 +105,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:26:14.602Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "aa6ba5a7e962450b",
+      "prospect_company": "Liberty Chevrolet",
+      "template_id": "e06_compliance_fraud_savings",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Compliance enforced + fraud detected = confidence (and savings)",
+      "body_length": 551,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:22:08.531Z",
+  "last_updated": "2026-05-12T15:26:14.602Z",
   "schema_version": "1.0.0"
 }
