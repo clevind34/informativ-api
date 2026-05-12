@@ -398,6 +398,7 @@ async function _handler(event) {
       template_id: aiOutput.template_id,
       template_rationale: aiOutput.template_rationale,
       subject: aiOutput.subject,
+      body: aiOutput.body,
       body_preview: aiOutput.body.slice(0, 300) + (aiOutput.body.length > 300 ? '…' : ''),
       personalization_warning: aiOutput.personalization_warning || false,
       personalization_warning_message: aiOutput.personalization_warning_message || null,
