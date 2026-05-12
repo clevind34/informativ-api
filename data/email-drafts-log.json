@@ -41,8 +41,24 @@
       "subject": "Your showroom, but smarter & safer.",
       "body_length": 747,
       "draft_id": null
+    },
+    {
+      "timestamp": "2026-05-12T15:18:16.961Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "",
+      "prospect_id": "b6824cd28d435911",
+      "prospect_company": "Golden Toyota",
+      "template_id": "e01_fraud_secret_weapon",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": true,
+      "subject": "Stop fraud in its tracks. Your dealership's new secret weapon.",
+      "body_length": 846,
+      "draft_id": null,
+      "cooldown_overridden": true,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:15:40.123Z",
+  "last_updated": "2026-05-12T15:18:16.961Z",
   "schema_version": "1.0.0"
 }
