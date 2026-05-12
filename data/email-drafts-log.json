@@ -281,8 +281,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T17:25:24.726Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "67466afa5c19179c",
+      "prospect_company": "Westfield Ford",
+      "template_id": "e06_compliance_fraud_savings",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": true,
+      "subject": "Compliance doesn't have to be a headache.",
+      "body_length": 499,
+      "draft_id": null,
+      "cooldown_overridden": true,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T17:24:48.329Z",
+  "last_updated": "2026-05-12T17:25:24.726Z",
   "schema_version": "1.0.0"
 }
