@@ -153,8 +153,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:29:35.231Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "09999d1545275054",
+      "prospect_company": "Reineke Family Dealerships",
+      "template_id": "e07_compliance_pays",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Compliance that pays for itself",
+      "body_length": 896,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:27:29.804Z",
+  "last_updated": "2026-05-12T15:29:35.231Z",
   "schema_version": "1.0.0"
 }
