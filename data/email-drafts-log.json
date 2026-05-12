@@ -345,8 +345,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T17:28:53.763Z",
+      "date": "2026-05-12",
+      "rep_email": "calvarado@informativ.com",
+      "rep_name": "calvarado@informativ.com",
+      "prospect_id": "c8114735629fd8fb",
+      "prospect_company": "Metro Honda",
+      "template_id": "e02_compliance_headache",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Compliance doesn't have to be a headache.",
+      "body_length": 807,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T17:26:51.660Z",
+  "last_updated": "2026-05-12T17:28:53.763Z",
   "schema_version": "1.0.0"
 }
