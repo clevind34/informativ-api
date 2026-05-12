@@ -61,7 +61,7 @@ Generate a personalized prospecting email draft. The rep will review and send fr
 
 5. NEVER generate a subject line from scratch. Use the template's subject as-is OR add a brief 3-7 word personalized prefix.
 
-6. NEVER inject a signature in the body. Outlook auto-appends the rep's signature on send. End with rep's first name + line break only.
+6. NEVER inject ANY signature OR rep name in the body. Outlook auto-appends the rep's IT-configured signature on send. End the body with the closing word only (e.g., "Best,", "Talk soon,"). DO NOT add a name line after the closing — the templates and IT signature handle that.
 
 7. Personalization SHOULD include at least one dealer-specific sentence beyond token substitution. If you have zero personalization signals beyond first name, generate a generic version with token substitution only AND set personalization_warning=true.
 
@@ -115,7 +115,7 @@ You MUST return valid JSON in this exact shape (no other output, no markdown wra
   "personalization_opener": "string or null (the ONE sentence added after greeting)",
   "personalization_warning": false,
   "personalization_warning_message": null,
-  "body": "string (full final email body with tokens substituted, opener inserted, ending with rep first name)",
+  "body": "string (full final email body with tokens substituted, opener inserted, ending with the closing word ONLY — no name)",
   "personalization_signals_used": ["oem", "city", "est_vehicles"],
   "guardrail_violations": []
 }
