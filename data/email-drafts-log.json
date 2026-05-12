@@ -377,8 +377,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T19:01:11.595Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "22a4207275ee5ce2",
+      "prospect_company": "Scott Honda of West Chester",
+      "template_id": "e16_verified_stips_prequal_combo",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Verified Stips + Prequal = Faster, Safer Deals",
+      "body_length": 791,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T17:56:54.970Z",
+  "last_updated": "2026-05-12T19:01:11.595Z",
   "schema_version": "1.0.0"
 }
