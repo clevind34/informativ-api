@@ -196,13 +196,14 @@ async function createGraphDraft(accessToken, recipientEmail, subject, body) {
 // ─────────────────────────────────────────────────────────────
 
 function buildOutlookWebUrl(recipientEmail, subject, body) {
-  // Outlook on the web compose URL with pre-populated fields
-  const params = new URLSearchParams({
-    to: recipientEmail || '',
-    subject: subject || '',
-    body: body || ''
-  });
-  return `${OUTLOOK_WEB_COMPOSE}?${params.toString()}`;
+  // Outlook on the web compose URL with pre-populated fields.
+  // CRITICAL: use encodeURIComponent (spaces -> %20), NOT URLSearchParams
+  // (which encodes spaces as +). Outlook renders + literally in the body
+  // because the compose deeplink doesn't decode application/x-www-form-urlencoded.
+  const to = encodeURIComponent(recipientEmail || '');
+  const subj = encodeURIComponent(subject || '');
+  const bd = encodeURIComponent(body || '');
+  return `${OUTLOOK_WEB_COMPOSE}?to=${to}&subject=${subj}&body=${bd}`;
 }
 
 // ─────────────────────────────────────────────────────────────
