@@ -25,7 +25,6 @@
   ],
   "tokens": {
     "{{Recipient.FirstName}}": "Prospect contact first name from PIE (prospect.fn). If missing, fall back to 'there'.",
-    "{{{Sender.FirstName}}}": "Rep first name from rep-performance.json (first word of rep.name).",
     "{{{Sender.Calendar_Link__c}}}": "Rep Microsoft Bookings URL from rep-performance.json rep.calendar_link field. If missing, AI substitutes natural language CTA: 'reply with a few times that work for you next week'."
   },
   "selection_priorities": {
@@ -43,11 +42,10 @@
       "id": "e01_fraud_secret_weapon",
       "category": "fraud",
       "subject": "Stop fraud in its tracks. Your dealership's new secret weapon.",
-      "body": "Hi {{Recipient.FirstName}},\n\nFraud is surging at dealerships \u2014 1 in 120 applications in the first half of 2025 included false data, and 5% of transactions were fraudulent.\n\nThat's why Informativ has a multi-layered approach to stopping:\n\u2022 ID fraud\n\u2022 Synthetic fraud\n\u2022 Document fraud\n\u2022 Internal fraud\n\nKia Moritz of Alliance knows the difference our tech makes first-hand. In just one year, our ID fraud tech flagged 30+ IDs for fraud, and \"not one fraud made it through.\"\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/\n\nWant to learn more? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hi {{Recipient.FirstName}},\n\nFraud is surging at dealerships \u2014 1 in 120 applications in the first half of 2025 included false data, and 5% of transactions were fraudulent.\n\nThat's why Informativ has a multi-layered approach to stopping:\n\u2022 ID fraud\n\u2022 Synthetic fraud\n\u2022 Document fraud\n\u2022 Internal fraud\n\nKia Moritz of Alliance knows the difference our tech makes first-hand. In just one year, our ID fraud tech flagged 30+ IDs for fraud, and \"not one fraud made it through.\"\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/\n\nWant to learn more? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -71,11 +69,10 @@
       "id": "e02_compliance_headache",
       "category": "compliance",
       "subject": "Compliance doesn't have to be a headache.",
-      "body": "Hey {{Recipient.FirstName}},\n\nCompliance: it's critical, but complicated.\n\nLuckily, Informativ makes it easy for dealers to\u2026\n\u2022 Enforce the FTC Safeguards Rule, FCRA, and privacy laws with digital and mobile-friendly workflows that create a \"forced march\" for your team\n\u2022 Eliminate paperwork and digitally collect buyer info on in-store and remote deals\n\u2022 Store dead deals securely and stay audit-ready for the FTC-required 5 years\n\nWith Informativ, you cut your compliance burden up to 80%.\n\nDownload our free whitepaper to learn the Top 5 Compliance Violations Putting Your Dealership At Risk.\n\nInterested in a quick call to see more? Select a time that's convenient for you to meet: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nCompliance: it's critical, but complicated.\n\nLuckily, Informativ makes it easy for dealers to\u2026\n\u2022 Enforce the FTC Safeguards Rule, FCRA, and privacy laws with digital and mobile-friendly workflows that create a \"forced march\" for your team\n\u2022 Eliminate paperwork and digitally collect buyer info on in-store and remote deals\n\u2022 Store dead deals securely and stay audit-ready for the FTC-required 5 years\n\nWith Informativ, you cut your compliance burden up to 80%.\n\nDownload our free whitepaper to learn the Top 5 Compliance Violations Putting Your Dealership At Risk.\n\nInterested in a quick call to see more? Select a time that's convenient for you to meet: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -96,11 +93,10 @@
       "id": "e03_speed_wins_deals",
       "category": "speed",
       "subject": "The best dealers know speed wins deals.",
-      "body": "Hi {{Recipient.FirstName}},\n\nTime kills deals \u2014 yet most dealers still run full credit apps after a test drive.\n\nImagine instead:\n\u2022 Soft pull prequals (which don't ding a customer's credit) before the test drive so SmartPencil can help generate a faster, lender-accurate first pencil when a customer returns.\n\nThat's faster deals, less friction, and a smoother path from prequal to payment.\n\nSee it in action at Kia Moritz \u2014 \"It's a great process \u2014 keeps you compliant and speeds up the process between the customer and the desk.\"\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/\n\nI'd love to talk with you! Just choose a time that's convenient: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hi {{Recipient.FirstName}},\n\nTime kills deals \u2014 yet most dealers still run full credit apps after a test drive.\n\nImagine instead:\n\u2022 Soft pull prequals (which don't ding a customer's credit) before the test drive so SmartPencil can help generate a faster, lender-accurate first pencil when a customer returns.\n\nThat's faster deals, less friction, and a smoother path from prequal to payment.\n\nSee it in action at Kia Moritz \u2014 \"It's a great process \u2014 keeps you compliant and speeds up the process between the customer and the desk.\"\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/\n\nI'd love to talk with you! Just choose a time that's convenient: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -123,11 +119,10 @@
       "id": "e04_verified_stips",
       "category": "speed",
       "subject": "Fund faster & prevent document fraud with Verified Stips.",
-      "body": "Hi {{Recipient.FirstName}},\n\nInformativ's new Verified Stips \u2014 get documents needed for a sale \u2014 directly from the source including:\n\u2022 Bank statements\n\u2022 Pay stubs\n\u2022 Proof of insurance\n\u2022 Utility bills\n\nThat means deals get funded faster, you eliminate document fraud, and no longer have to wait hours or days to get the information from the buyer.\n\nWant to see how it works? Choose a time that's convenient: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hi {{Recipient.FirstName}},\n\nInformativ's new Verified Stips \u2014 get documents needed for a sale \u2014 directly from the source including:\n\u2022 Bank statements\n\u2022 Pay stubs\n\u2022 Proof of insurance\n\u2022 Utility bills\n\nThat means deals get funded faster, you eliminate document fraud, and no longer have to wait hours or days to get the information from the buyer.\n\nWant to see how it works? Choose a time that's convenient: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -147,11 +142,10 @@
       "id": "e05_customer_insights_qr",
       "category": "customer_insights",
       "subject": "Don't get left behind. Unlock smarter leads with customer insights.",
-      "body": "Hey {{Recipient.FirstName}},\n\nGeneric leads give you noise. You need qualified, actionable leads.\n\nInformativ's Customer Insights platform supercharges your marketing efforts with trackable QR codes. Your sales team gets:\n\u2022 Leads that have been validated through cellphone carrier data\n\u2022 Prequalified customers so you see their buying ability up front\n\nOur clients report up to 30% higher conversion rates from qualified leads.\n\nLearn how to convert smarter with QR Codes in 2025.\n\nI want to tell you more! Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nGeneric leads give you noise. You need qualified, actionable leads.\n\nInformativ's Customer Insights platform supercharges your marketing efforts with trackable QR codes. Your sales team gets:\n\u2022 Leads that have been validated through cellphone carrier data\n\u2022 Prequalified customers so you see their buying ability up front\n\nOur clients report up to 30% higher conversion rates from qualified leads.\n\nLearn how to convert smarter with QR Codes in 2025.\n\nI want to tell you more! Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -172,11 +166,10 @@
       "id": "e06_compliance_fraud_savings",
       "category": "fraud",
       "subject": "Compliance enforced + fraud detected = confidence (and savings)",
-      "body": "Hi {{Recipient.FirstName}},\n\nSince 2023, Informativ has\u2026\n\n\u2026identified and flagged 13,134+ fake IDs\u2026\n\n\u2026resulting in more than $620 million in savings for dealers and lenders!\n\nThat's huge! Less risk, less loss, more peace of mind.\n\nWith proactive process enforcement and fraud detection working together, you can safeguard deals and sell quickly.\n\nWant to learn more? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hi {{Recipient.FirstName}},\n\nSince 2023, Informativ has\u2026\n\n\u2026identified and flagged 13,134+ fake IDs\u2026\n\n\u2026resulting in more than $620 million in savings for dealers and lenders!\n\nThat's huge! Less risk, less loss, more peace of mind.\n\nWith proactive process enforcement and fraud detection working together, you can safeguard deals and sell quickly.\n\nWant to learn more? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -196,11 +189,10 @@
       "id": "e07_compliance_pays",
       "category": "total_solution",
       "subject": "Compliance that pays for itself",
-      "body": "Hey {{Recipient.FirstName}},\n\nInformativ's one-of-a-kind proactive compliance platform:\n\u2022 Enforces and automates compliance checks and removes paperwork from your sales process\n\u2022 Runs soft pulls earlier, reducing credit app burden and paperwork\n\u2022 Uses SmartPencil payment intelligence to create faster, more accurate pencils\n\u2022 Speeds up funding with Verified Stips while preventing fraud\n\nImagine trimming 80% of your compliance burden \u2014 and cutting dead deal jackets you're required to store for 5 years to nearly zero.\n\nTake our free compliance quiz: https://informativ.com/free-compliance-quiz/ to see where your gaps are.\n\nAnd schedule some time with me so we can talk through your results: {{{Sender.Calendar_Link__c}}}\n\nTalk soon,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nInformativ's one-of-a-kind proactive compliance platform:\n\u2022 Enforces and automates compliance checks and removes paperwork from your sales process\n\u2022 Runs soft pulls earlier, reducing credit app burden and paperwork\n\u2022 Uses SmartPencil payment intelligence to create faster, more accurate pencils\n\u2022 Speeds up funding with Verified Stips while preventing fraud\n\nImagine trimming 80% of your compliance burden \u2014 and cutting dead deal jackets you're required to store for 5 years to nearly zero.\n\nTake our free compliance quiz: https://informativ.com/free-compliance-quiz/ to see where your gaps are.\n\nAnd schedule some time with me so we can talk through your results: {{{Sender.Calendar_Link__c}}}\n\nTalk soon,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -221,11 +213,10 @@
       "id": "e08_synthetic_fraud_webinar",
       "category": "fraud",
       "subject": "Fighting Synthetic Fraud: Are You Covered?",
-      "body": "Hey {{Recipient.FirstName}},\n\nSynthetic identity fraud is growing fast \u2014 auto dealers have experienced a 98% spike since 2023!\n\nOur platform fights it with:\n\u2022 Multi-layered fraud checks \u2014 ID scan, synthetic fraud detection, OFAC checks, out-of-wallet questions.\n\u2022 Hard stop if fraud is flagged \u2014 the deal can't move forward.\n\nInformativ protects your revenue and your reputation.\n\nWatch our free webinar on-demand: https://informativ.com/webinars/the-fraud-surge/ in partnership with NADA about this fraud surge.\n\nLet me help you beat fraud! Schedule some time here: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nSynthetic identity fraud is growing fast \u2014 auto dealers have experienced a 98% spike since 2023!\n\nOur platform fights it with:\n\u2022 Multi-layered fraud checks \u2014 ID scan, synthetic fraud detection, OFAC checks, out-of-wallet questions.\n\u2022 Hard stop if fraud is flagged \u2014 the deal can't move forward.\n\nInformativ protects your revenue and your reputation.\n\nWatch our free webinar on-demand: https://informativ.com/webinars/the-fraud-surge/ in partnership with NADA about this fraud surge.\n\nLet me help you beat fraud! Schedule some time here: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -245,11 +236,10 @@
       "id": "e09_verified_stips_speed",
       "category": "speed",
       "subject": "How verified stips get you funded faster.",
-      "body": "Hey {{Recipient.FirstName}},\n\nThe deal's ready \u2014 but you need stips from buyers.\n\nInformativ's Verified Stips changes that by:\n\u2022 Getting bank statements, pay stubs, and more directly from source, fully verified.\n\u2022 No consumer uploads \u2014 preventing tampering, falsification, and delays.\n\u2022 Potential rebates from banks\n\nFewer funding hiccups mean happier F&I and faster closes.\n\nWant to see it in action? Choose a time that works for you: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nThe deal's ready \u2014 but you need stips from buyers.\n\nInformativ's Verified Stips changes that by:\n\u2022 Getting bank statements, pay stubs, and more directly from source, fully verified.\n\u2022 No consumer uploads \u2014 preventing tampering, falsification, and delays.\n\u2022 Potential rebates from banks\n\nFewer funding hiccups mean happier F&I and faster closes.\n\nWant to see it in action? Choose a time that works for you: {{{Sender.Calendar_Link__c}}}",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -269,11 +259,10 @@
       "id": "e10_case_study_boucher",
       "category": "case_study",
       "subject": "How Boucher Auto Group solved fraud in one package.",
-      "body": "Hey {{Recipient.FirstName}},\n\nBoucher Auto Group leveraged Informativ's Total Solution to:\n\u2022 Flag and stop fraudulent deals.\n\u2022 Boost customer trust in their sales process.\n\u2022 Close deals faster and eliminate paperwork.\n\nThat's compliance, fraud protection, SmartPencil payment intelligence, and speed \u2014 all wrapped together.\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/boucher-auto-group-enhances-fraud-prevention-and-customer-trust-with-informativ/\n\nLet's talk some more! Schedule some time: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nBoucher Auto Group leveraged Informativ's Total Solution to:\n\u2022 Flag and stop fraudulent deals.\n\u2022 Boost customer trust in their sales process.\n\u2022 Close deals faster and eliminate paperwork.\n\nThat's compliance, fraud protection, SmartPencil payment intelligence, and speed \u2014 all wrapped together.\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/boucher-auto-group-enhances-fraud-prevention-and-customer-trust-with-informativ/\n\nLet's talk some more! Schedule some time: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -296,11 +285,10 @@
       "id": "e11_flat_rate_pricing",
       "category": "credit_pricing",
       "subject": "Control credit costs with predictable flat-rate pricing.",
-      "body": "Hey {{Recipient.FirstName}},\n\nTired of an unpredictable credit bill?\n\nInformativ's Total Solution gives dealers:\n\u2022 Flat monthly rate for all credit reports\n\u2022 Control over credit usage\n\nPlus, you get compliance, SmartPencil payment intelligence, fraud detection, insights \u2014 all in one platform.\n\nLearn more about why soft inquiries with Informativ are superior: https://go.informativ.com/5-secrets-of-a-soft-pull\n\nI'd love to chat with you more about how we could optimize your credit pulls: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nTired of an unpredictable credit bill?\n\nInformativ's Total Solution gives dealers:\n\u2022 Flat monthly rate for all credit reports\n\u2022 Control over credit usage\n\nPlus, you get compliance, SmartPencil payment intelligence, fraud detection, insights \u2014 all in one platform.\n\nLearn more about why soft inquiries with Informativ are superior: https://go.informativ.com/5-secrets-of-a-soft-pull\n\nI'd love to chat with you more about how we could optimize your credit pulls: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -323,11 +311,10 @@
       "id": "e12_compliance_mobile_app",
       "category": "compliance",
       "subject": "Compliance without the busy work. It DOES exist!",
-      "body": "Hey {{Recipient.FirstName}},\n\nSalespeople don't love paperwork. That's why Informativ's mobile app:\n\u2022 Forces step-by-step compliance flow, so you can't skip steps.\n\u2022 Encrypts data to prevent personal device risk.\n\u2022 Glues people, policies, and process together.\n\nLearn how Informativ locks down your compliance: https://informativ.com/solutions/dealership-compliance-software/, so you can trust every deal, every day, at every dealership.\n\nInterested in more? I'd love to talk: {{{Sender.Calendar_Link__c}}}\n\nSee you soon!\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nSalespeople don't love paperwork. That's why Informativ's mobile app:\n\u2022 Forces step-by-step compliance flow, so you can't skip steps.\n\u2022 Encrypts data to prevent personal device risk.\n\u2022 Glues people, policies, and process together.\n\nLearn how Informativ locks down your compliance: https://informativ.com/solutions/dealership-compliance-software/, so you can trust every deal, every day, at every dealership.\n\nInterested in more? I'd love to talk: {{{Sender.Calendar_Link__c}}}\n\nSee you soon!",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -348,11 +335,10 @@
       "id": "e13_qr_leads",
       "category": "customer_insights",
       "subject": "Get leads that convert, not just contact info.",
-      "body": "Hey {{Recipient.FirstName}},\n\nLead quality beats volume. Informativ's QR-enabled system gives you:\n\u2022 Consent-driven, prequalified leads\n\u2022 Device-level validation\n\u2022 Source tracking by QR code\n\nWith Informativ's Customer Insights technology: https://informativ.com/solutions/customer-insights/, dealers report 30% bump in conversions from these smarter leads.\n\nWant to learn more? Choose a time that works for you on my calendar: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nLead quality beats volume. Informativ's QR-enabled system gives you:\n\u2022 Consent-driven, prequalified leads\n\u2022 Device-level validation\n\u2022 Source tracking by QR code\n\nWith Informativ's Customer Insights technology: https://informativ.com/solutions/customer-insights/, dealers report 30% bump in conversions from these smarter leads.\n\nWant to learn more? Choose a time that works for you on my calendar: {{{Sender.Calendar_Link__c}}}",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -372,11 +358,10 @@
       "id": "e14_case_study_pohanka",
       "category": "case_study",
       "subject": "\"Fraudulent sales down to zero.\" How?",
-      "body": "Hey {{Recipient.FirstName}},\n\nPohanka Auto Group has 17 dealerships and 11 collision centers in the US. With this size and volume, unsurprisingly, they encountered fraud.\n\nAccording to Jimmy Robinson, Chief Financial Officer for Pohanka, in just one year, they had \"six fraudulent car sales.\"\n\nAfter they implemented Informativ: \"Zero in the next 12 months.\"\n\nWhen compliance and fraud defenses work together, you lose nothing \u2014 and save time and profit.\n\nRead more dealer success stories here: https://informativ.com/case-studies-and-testimonials/\n\nI'd love to chat about how Informativ could make your dealership the next success story. Schedule some time here: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nPohanka Auto Group has 17 dealerships and 11 collision centers in the US. With this size and volume, unsurprisingly, they encountered fraud.\n\nAccording to Jimmy Robinson, Chief Financial Officer for Pohanka, in just one year, they had \"six fraudulent car sales.\"\n\nAfter they implemented Informativ: \"Zero in the next 12 months.\"\n\nWhen compliance and fraud defenses work together, you lose nothing \u2014 and save time and profit.\n\nRead more dealer success stories here: https://informativ.com/case-studies-and-testimonials/\n\nI'd love to chat about how Informativ could make your dealership the next success story. Schedule some time here: {{{Sender.Calendar_Link__c}}}",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -399,11 +384,10 @@
       "id": "e15_compliance_fines",
       "category": "compliance",
       "subject": "Reduce compliance risk and avoid costly fines.",
-      "body": "Hey {{Recipient.FirstName}},\n\nRegulations for auto dealers are unforgiving:\n\u2022 Used Car Rule: $40,000+ per violation\n\u2022 FTC Safeguards Rule: $50,000 per incident\n\nThese fines aren't fun!\n\nInformativ has built a better mousetrap: https://informativ.com/webinars/nada-better-mousetrap/ \u2014 stop risk before it becomes a legal issue.\n\nI'd love to chat about how we can flip your compliance from a cost center to a profit driver. Find some time with me here: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nRegulations for auto dealers are unforgiving:\n\u2022 Used Car Rule: $40,000+ per violation\n\u2022 FTC Safeguards Rule: $50,000 per incident\n\nThese fines aren't fun!\n\nInformativ has built a better mousetrap: https://informativ.com/webinars/nada-better-mousetrap/ \u2014 stop risk before it becomes a legal issue.\n\nI'd love to chat about how we can flip your compliance from a cost center to a profit driver. Find some time with me here: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -423,11 +407,10 @@
       "id": "e16_verified_stips_prequal_combo",
       "category": "total_solution",
       "subject": "Verified Stips + Prequal = Faster, Safer Deals",
-      "body": "Hey {{Recipient.FirstName}},\n\nWith Informativ, your deal flow looks like this:\n\u2022 Customers prequalify via soft-pull and you gain instant credit insights.\n\u2022 SmartPencil turns that prequal into faster, lender-accurate payment scenarios\n\u2022 Stips are verified up front to ensure documents are legit \u2014 no request delays, no fraud.\n\nThat's frictionless efficiency built for speed and security.\n\nInformativ delivers all this and more: https://informativ.com/solutions/total-solution/\n\nWant to learn how? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nTalk soon,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nWith Informativ, your deal flow looks like this:\n\u2022 Customers prequalify via soft-pull and you gain instant credit insights.\n\u2022 SmartPencil turns that prequal into faster, lender-accurate payment scenarios\n\u2022 Stips are verified up front to ensure documents are legit \u2014 no request delays, no fraud.\n\nThat's frictionless efficiency built for speed and security.\n\nInformativ delivers all this and more: https://informativ.com/solutions/total-solution/\n\nWant to learn how? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nTalk soon,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -448,11 +431,10 @@
       "id": "e17_one_platform",
       "category": "total_solution",
       "subject": "One platform, all the tools you need.",
-      "body": "Hey {{Recipient.FirstName}},\n\nTired of piecing together multiple vendors with different contracts, rates, and experience?\n\nInformativ brings together:\n\u2022 Fraud detection\n\u2022 Compliance automation\n\u2022 Hard and soft pull credit reports\n\u2022 Customer insights & lead capture\n\u2022 SmartPencil payment intelligence for faster, more accurate pencils\n\nAll in a single platform \u2014 no vendor juggling, no integration headaches.\n\nSimplify your tech stack, supercharge your process.\n\nRequest a demo to learn how \u2192 https://informativ.com/get-a-demo/\n\nOr just find some time on my calendar! \u2192 {{{Sender.Calendar_Link__c}}}\n\nCan't wait to talk,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nTired of piecing together multiple vendors with different contracts, rates, and experience?\n\nInformativ brings together:\n\u2022 Fraud detection\n\u2022 Compliance automation\n\u2022 Hard and soft pull credit reports\n\u2022 Customer insights & lead capture\n\u2022 SmartPencil payment intelligence for faster, more accurate pencils\n\nAll in a single platform \u2014 no vendor juggling, no integration headaches.\n\nSimplify your tech stack, supercharge your process.\n\nRequest a demo to learn how \u2192 https://informativ.com/get-a-demo/\n\nOr just find some time on my calendar! \u2192 {{{Sender.Calendar_Link__c}}}\n\nCan't wait to talk,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -474,11 +456,10 @@
       "id": "e19_smart_showroom",
       "category": "total_solution",
       "subject": "Your showroom, but smarter & safer.",
-      "body": "Hey {{Recipient.FirstName}},\n\nImagine a showroom that:\n\u2022 Scans IDs and runs fraud checks in seconds\n\u2022 Collects data digitally \u2014 no loose paperwork\n\u2022 Generates prequalification and insights on the spot\n\u2022 Creates faster, lender-accurate payment scenarios with SmartPencil\n\u2022 Enforces a compliant showroom that complements your current process\n\nThat's what Informativ's one-of-a-kind compliance-enabled platform delivers to thousands of dealers throughout the country.\n\nLet's modernize your process together.\n\nSchedule a quick walkthrough with me today: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nImagine a showroom that:\n\u2022 Scans IDs and runs fraud checks in seconds\n\u2022 Collects data digitally \u2014 no loose paperwork\n\u2022 Generates prequalification and insights on the spot\n\u2022 Creates faster, lender-accurate payment scenarios with SmartPencil\n\u2022 Enforces a compliant showroom that complements your current process\n\nThat's what Informativ's one-of-a-kind compliance-enabled platform delivers to thousands of dealers throughout the country.\n\nLet's modernize your process together.\n\nSchedule a quick walkthrough with me today: {{{Sender.Calendar_Link__c}}}",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -498,10 +479,9 @@
       "id": "e20_wipe_out_fraud",
       "category": "total_solution",
       "subject": "Ready to wipe out fraud and boost sales?",
-      "body": "Hey {{Recipient.FirstName}},\n\nInformativ's one-of-a-kind platform gives dealers:\n\u2022 Fraud detection & prevention\n\u2022 Proactive, enforceable and automated compliance\n\u2022 Faster deals with Verified Stips \u2014 directly from the source\n\u2022 High-quality leads & controlled credit usage\n\u2022 SmartPencil payment intelligence for the right car, right payment, right profit\n\nNow \u2014 let's make it real.\n\nBook a demo with us today: https://informativ.com/get-a-demo/\n\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nInformativ's one-of-a-kind platform gives dealers:\n\u2022 Fraud detection & prevention\n\u2022 Proactive, enforceable and automated compliance\n\u2022 Faster deals with Verified Stips \u2014 directly from the source\n\u2022 High-quality leads & controlled credit usage\n\u2022 SmartPencil payment intelligence for the right car, right payment, right profit\n\nNow \u2014 let's make it real.\n\nBook a demo with us today: https://informativ.com/get-a-demo/",
       "tokens_used": [
-        "{{Recipient.FirstName}}",
-        "{{{Sender.FirstName}}}"
+        "{{Recipient.FirstName}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -521,11 +501,10 @@
       "id": "e21_case_study_cavender",
       "category": "case_study",
       "subject": "How Cavender Auto Family cut fraud & sped up deals",
-      "body": "Hi {{Recipient.FirstName}},\n\nCavender Auto Family wanted more speed \u2014 and more safety \u2014 in their sales process. With Informativ, they:\n\u2022 Flagged dozens of fraudulent IDs before they became losses\n\u2022 Shortened deal times with soft pull prequals\n\u2022 Boosted confidence for both F&I and sales\n\nAs Cavender shared: \"Not one fraud made it through after Informativ.\"\n\nRead the full Cavender case study here: https://informativ.com/case-studies-and-testimonials/case-study-cavendar-auto-family/\n\nLet's talk about how we can deliver the same results for you. Pick a time that works: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hi {{Recipient.FirstName}},\n\nCavender Auto Family wanted more speed \u2014 and more safety \u2014 in their sales process. With Informativ, they:\n\u2022 Flagged dozens of fraudulent IDs before they became losses\n\u2022 Shortened deal times with soft pull prequals\n\u2022 Boosted confidence for both F&I and sales\n\nAs Cavender shared: \"Not one fraud made it through after Informativ.\"\n\nRead the full Cavender case study here: https://informativ.com/case-studies-and-testimonials/case-study-cavendar-auto-family/\n\nLet's talk about how we can deliver the same results for you. Pick a time that works: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -549,11 +528,10 @@
       "id": "e22_case_study_kunes",
       "category": "case_study",
       "subject": "From complexity to clarity: Kunes Auto Group's story",
-      "body": "Hey {{Recipient.FirstName}},\n\nKunes Auto Group needed a partner who could streamline compliance while safeguarding against fraud. With Informativ's Total Solution, they:\n\u2022 Centralized compliance across rooftops\n\u2022 Cut paperwork headaches with digital deal workflows\n\u2022 Accelerated funding while reducing fraud risks\n\u2022 Added SmartPencil payment intelligence to speed the path from prequal to pencil\n\nRead the full Kunes case study here: https://informativ.com/case-studies-and-testimonials/case-study-kunes-auto-group/\n\nWant to explore what this could mean for your group? Let's connect: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nKunes Auto Group needed a partner who could streamline compliance while safeguarding against fraud. With Informativ's Total Solution, they:\n\u2022 Centralized compliance across rooftops\n\u2022 Cut paperwork headaches with digital deal workflows\n\u2022 Accelerated funding while reducing fraud risks\n\u2022 Added SmartPencil payment intelligence to speed the path from prequal to pencil\n\nRead the full Kunes case study here: https://informativ.com/case-studies-and-testimonials/case-study-kunes-auto-group/\n\nWant to explore what this could mean for your group? Let's connect: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -577,11 +555,10 @@
       "id": "e23_time_is_money_webinar",
       "category": "speed",
       "subject": "[On-Demand Webinar] Time is Money for Dealers",
-      "body": "Hi {{Recipient.FirstName}},\n\nTime kills deals. Informativ helps you win back nearly an hour per customer.\n\nWatch our on-demand webinar: Time is Money: https://informativ.com/webinars/time-is-money/\n\nYou'll learn:\n\u2022 How top dealers save 50 minutes per customer with digital prequals\n\u2022 Why soft pulls beat hard pulls for speed and compliance\n\u2022 How to cut deal friction while staying audit-ready\n\nGet the insights here, then let's talk about bringing them into your showroom: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hi {{Recipient.FirstName}},\n\nTime kills deals. Informativ helps you win back nearly an hour per customer.\n\nWatch our on-demand webinar: Time is Money: https://informativ.com/webinars/time-is-money/\n\nYou'll learn:\n\u2022 How top dealers save 50 minutes per customer with digital prequals\n\u2022 Why soft pulls beat hard pulls for speed and compliance\n\u2022 How to cut deal friction while staying audit-ready\n\nGet the insights here, then let's talk about bringing them into your showroom: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -601,11 +578,10 @@
       "id": "e24_save_40_minutes",
       "category": "speed",
       "subject": "Save 40+ minutes per deal with digital prequals",
-      "body": "Hey {{Recipient.FirstName}},\n\nAccording to the 2024 Cox Automotive Car Buyer Journey Study, buyers who completed credit applications or paperwork online saved:\n\u2022 42 minutes on average\n\u2022 49 minutes for new-vehicle buyers\n\u2022 40 minutes for used-vehicle buyers\n\nThat's nearly an hour back for every deal. Informativ helps you capture those time savings with soft-pull prequals and digital deal jackets.\n\nWant to see how it works? Let's find a time to talk: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nAccording to the 2024 Cox Automotive Car Buyer Journey Study, buyers who completed credit applications or paperwork online saved:\n\u2022 42 minutes on average\n\u2022 49 minutes for new-vehicle buyers\n\u2022 40 minutes for used-vehicle buyers\n\nThat's nearly an hour back for every deal. Informativ helps you capture those time savings with soft-pull prequals and digital deal jackets.\n\nWant to see how it works? Let's find a time to talk: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -625,11 +601,10 @@
       "id": "e25_20k_pulls_compliance",
       "category": "credit_pricing",
       "subject": "20,000 pulls. 5x compliance risk. One simple fix.",
-      "body": "Hi {{Recipient.FirstName}},\n\nOne large dealership group ran 20,000 hard pulls each month \u2014 but only sold 4,000 cars. That's 5x the compliance burden they needed.\n\nBy shifting to soft pulls on unsold deals, they reduced exposure from 20,000 to 4,000 hard pulls.\n\nWith Informativ, you can control costs and cut compliance risk \u2014 all while keeping sales moving.\n\nLet's connect on how to optimize your credit pulls: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hi {{Recipient.FirstName}},\n\nOne large dealership group ran 20,000 hard pulls each month \u2014 but only sold 4,000 cars. That's 5x the compliance burden they needed.\n\nBy shifting to soft pulls on unsold deals, they reduced exposure from 20,000 to 4,000 hard pulls.\n\nWith Informativ, you can control costs and cut compliance risk \u2014 all while keeping sales moving.\n\nLet's connect on how to optimize your credit pulls: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -652,11 +627,10 @@
       "id": "e26_audit_ready_30_min",
       "category": "compliance",
       "subject": "Audit-ready in 30 minutes (not hours)",
-      "body": "Hey {{Recipient.FirstName}},\n\nA dealer using digital deal jackets satisfied 90% of an audit in under 30 minutes. Paper-based audits take hours.\n\nWith Informativ, every deal is digital, secure, and instantly searchable \u2014 so you're always audit-ready.\n\nWant to see how much time and stress this could save your dealership? Let's talk: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "body": "Hey {{Recipient.FirstName}},\n\nA dealer using digital deal jackets satisfied 90% of an audit in under 30 minutes. Paper-based audits take hours.\n\nWith Informativ, every deal is digital, secure, and instantly searchable \u2014 so you're always audit-ready.\n\nWant to see how much time and stress this could save your dealership? Let's talk: {{{Sender.Calendar_Link__c}}}\n\nBest,",
       "tokens_used": [
         "{{Recipient.FirstName}}",
-        "{{{Sender.Calendar_Link__c}}}",
-        "{{{Sender.FirstName}}}"
+        "{{{Sender.Calendar_Link__c}}}"
       ],
       "best_for": [
         "cold_first_touch",
@@ -679,7 +653,7 @@
     "template_rotation_window_days": 30,
     "minimum_personalization_requirement": "AI must inject at least one dealer-specific sentence beyond token substitution (e.g., reference to dealer name, OEM, location, vehicle volume, or known dealer-intel data point from PIE Mobile activity log).",
     "subject_line_modification": "Use template subject line as-is unless prospect-specific context warrants a 3-7 word personalized prefix. AI is forbidden from generating subject lines from scratch \u2014 must use template subject as the base.",
-    "signature_handling": "Do NOT inject a signature in the email body. Outlook auto-appends the rep's configured signature on send. Body ends with rep first name + line break only."
+    "signature_handling": "Do NOT inject a signature OR rep name in the email body. Outlook auto-appends the rep's IT-configured signature on send. End body with the closing word only (e.g., 'Best,', 'Talk soon,') \u2014 no rep name on the next line."
   },
   "strategic_positioning_rules": {
     "source_doc": "10-Informativ-Reference/Email Guidance/Combatting Low Margin Credit.docx",

@@ -85,7 +85,6 @@ ${JSON.stringify(templateSummaries, null, 2)}
 ## TOKEN SUBSTITUTION
 
 - {{Recipient.FirstName}} → prospect.fn (or "there" if missing)
-- {{{Sender.FirstName}}} → rep.first_name
 - {{{Sender.Calendar_Link__c}}} → rep.calendar_link (if empty, replace the calendar line with: "Reply with a few times that work for you next week and I'll send an invite.")
 
 ## TEMPLATE SELECTION LOGIC (when no template_id_override provided)
