@@ -185,8 +185,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:30:58.231Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "37985d67eaffefa1",
+      "prospect_company": "Vin Devers Autohaus of Sylvania",
+      "template_id": "e15_compliance_fines",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Reduce compliance risk and avoid costly fines.",
+      "body_length": 642,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:29:42.009Z",
+  "last_updated": "2026-05-12T15:30:58.231Z",
   "schema_version": "1.0.0"
 }
