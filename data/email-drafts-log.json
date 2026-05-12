@@ -441,8 +441,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T20:14:32.719Z",
+      "date": "2026-05-12",
+      "rep_email": "jbellinghausen@informativ.com",
+      "rep_name": "jbellinghausen@informativ.com",
+      "prospect_id": "67d4d1e9f5bdc052",
+      "prospect_company": "Northgate Toyota",
+      "template_id": "e20_wipe_out_fraud",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": true,
+      "subject": "Ready to wipe out fraud and boost sales?",
+      "body_length": 424,
+      "draft_id": null,
+      "cooldown_overridden": true,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T20:14:01.299Z",
+  "last_updated": "2026-05-12T20:14:32.719Z",
   "schema_version": "1.0.0"
 }
