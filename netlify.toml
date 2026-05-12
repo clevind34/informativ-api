@@ -63,6 +63,8 @@
     "data/pie-feedback-log.json",
     "data/mcid-audit.json",
     "data/mcid-action-log.json",
+    "data/marketing-prospecting-templates.json",
+    "data/email-drafts-log.json",
   ]
 
 # === Route Rewrites ===
@@ -370,3 +372,20 @@
   to = "/.netlify/functions/data-sfdc-contacts"
   status = 200
   force = true
+
+# Email Drafting (Phase 1 — Draft to Outlook)
+[[redirects]]
+  from = "/api/ai/prospecting-draft"
+  to = "/.netlify/functions/ai-prospecting-draft"
+  status = 200
+
+[[redirects]]
+  from = "/api/email/draft-to-outlook"
+  to = "/.netlify/functions/email-draft-to-outlook"
+  status = 200
+
+[[redirects]]
+  from = "/api/data/marketing-prospecting-templates"
+  to = "/.netlify/functions/data-marketing-prospecting-templates"
+  status = 200
+

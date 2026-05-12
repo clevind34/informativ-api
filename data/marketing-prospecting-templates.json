@@ -1,0 +1,723 @@
+{
+  "schema_version": "1.0.0",
+  "last_updated": "2026-05-12",
+  "source": "Email Templates/Email templates for Chuck.docx (marketing-provided)",
+  "purpose": "AI-consumable structured templates for PIE Dashboard Draft Email feature. Consumed by /api/ai/chat draft_prospecting_email mode and /api/email/draft-to-outlook gateway endpoint.",
+  "total_templates": 25,
+  "excluded_from_v1_rotation": {
+    "note": "The following template categories from the source .docx are excluded from the AI rotation pool in v1. They require campaign-specific date adjustments and active marketing event coordination.",
+    "excluded_templates": [
+      "E18 (Free Webinar: Navigating the Fraud Surge) \u2014 Available for manual override via Choose Different modal; not in auto-rotation.",
+      "Death/Taxes/Fraud webinar invites (Email #1, Email #2) \u2014 Date-locked to past event.",
+      "10 Compliance Mistakes webinar invites (Email #1-4) \u2014 Date-locked to past event.",
+      "NADA Fraud Factor webinar invite \u2014 Date-locked to past event."
+    ],
+    "policy": "When marketing has a new active webinar, add a new template entry with category=webinar and active_until date. AI will only select it during the active window."
+  },
+  "categories": [
+    "fraud",
+    "compliance",
+    "speed",
+    "total_solution",
+    "credit_pricing",
+    "customer_insights",
+    "case_study"
+  ],
+  "tokens": {
+    "{{Recipient.FirstName}}": "Prospect contact first name from PIE (prospect.fn). If missing, fall back to 'there'.",
+    "{{{Sender.FirstName}}}": "Rep first name from rep-performance.json (first word of rep.name).",
+    "{{{Sender.Calendar_Link__c}}}": "Rep Microsoft Bookings URL from rep-performance.json rep.calendar_link field. If missing, AI substitutes natural language CTA: 'reply with a few times that work for you next week'."
+  },
+  "selection_priorities": {
+    "ordering": [
+      "Match prospect's known pain signal first (logged in dealer intel via PIE Mobile: high_credit_cost \u2192 credit_pricing | fraud_concern \u2192 fraud | compliance_audit_recent \u2192 compliance)",
+      "Then prospect ICP score profile (high_icp + multi_store \u2192 case_study; high_icp + single_store \u2192 total_solution)",
+      "Then OEM match (volume OEMs Honda/Toyota/Stellantis \u2192 speed; luxury \u2192 compliance/fraud)",
+      "Then dealer size (single store \u2192 focused product hook; multi-store group \u2192 case study or total solution)",
+      "Then template rotation (deprioritize templates rep has used in last 30 days)"
+    ],
+    "fallback_default": "e17_one_platform"
+  },
+  "templates": [
+    {
+      "id": "e01_fraud_secret_weapon",
+      "category": "fraud",
+      "subject": "Stop fraud in its tracks. Your dealership's new secret weapon.",
+      "body": "Hi {{Recipient.FirstName}},\n\nFraud is surging at dealerships \u2014 1 in 120 applications in the first half of 2025 included false data, and 5% of transactions were fraudulent.\n\nThat's why Informativ has a multi-layered approach to stopping:\n\u2022 ID fraud\n\u2022 Synthetic fraud\n\u2022 Document fraud\n\u2022 Internal fraud\n\nKia Moritz of Alliance knows the difference our tech makes first-hand. In just one year, our ID fraud tech flagged 30+ IDs for fraud, and \"not one fraud made it through.\"\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/\n\nWant to learn more? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "fraud_concern",
+        "id_fraud_risk",
+        "synthetic_fraud_concern"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "credit_only_prospect",
+        "post_meeting_followup"
+      ],
+      "dealer_profile": "Any dealer at risk for ID/synthetic fraud; data-led opening lands well with security-aware buyers",
+      "case_study_link": "https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/",
+      "case_study_subject": "Kia Moritz of Alliance",
+      "primary_hook": "Multi-layered fraud prevention",
+      "tone": "data_led_value",
+      "personalization_priority": "high"
+    },
+    {
+      "id": "e02_compliance_headache",
+      "category": "compliance",
+      "subject": "Compliance doesn't have to be a headache.",
+      "body": "Hey {{Recipient.FirstName}},\n\nCompliance: it's critical, but complicated.\n\nLuckily, Informativ makes it easy for dealers to\u2026\n\u2022 Enforce the FTC Safeguards Rule, FCRA, and privacy laws with digital and mobile-friendly workflows that create a \"forced march\" for your team\n\u2022 Eliminate paperwork and digitally collect buyer info on in-store and remote deals\n\u2022 Store dead deals securely and stay audit-ready for the FTC-required 5 years\n\nWith Informativ, you cut your compliance burden up to 80%.\n\nDownload our free whitepaper to learn the Top 5 Compliance Violations Putting Your Dealership At Risk.\n\nInterested in a quick call to see more? Select a time that's convenient for you to meet: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "compliance_focus",
+        "multi_store_group",
+        "audit_exposure"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "credit_only_prospect"
+      ],
+      "dealer_profile": "Multi-store groups with audit exposure; compliance-officer-aware buyers; dealers facing FTC Safeguards/FCRA scrutiny",
+      "primary_hook": "Cut compliance burden 80%",
+      "tone": "pain_solver",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e03_speed_wins_deals",
+      "category": "speed",
+      "subject": "The best dealers know speed wins deals.",
+      "body": "Hi {{Recipient.FirstName}},\n\nTime kills deals \u2014 yet most dealers still run full credit apps after a test drive.\n\nImagine instead:\n\u2022 Soft pull prequals (which don't ding a customer's credit) before the test drive so SmartPencil can help generate a faster, lender-accurate first pencil when a customer returns.\n\nThat's faster deals, less friction, and a smoother path from prequal to payment.\n\nSee it in action at Kia Moritz \u2014 \"It's a great process \u2014 keeps you compliant and speeds up the process between the customer and the desk.\"\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/\n\nI'd love to talk with you! Just choose a time that's convenient: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "speed_focus",
+        "f_and_i_focused",
+        "volume_dealer"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "low_volume_dealer"
+      ],
+      "dealer_profile": "High-volume stores measuring time-to-close; F&I managers who track deal cycle time",
+      "case_study_link": "https://informativ.com/case-studies-and-testimonials/kia-moritz-of-alliance-prevents-fraud-builds-customer-trust-and-accelerates-deal-speed-with-informativs-total-solution/",
+      "case_study_subject": "Kia Moritz of Alliance",
+      "primary_hook": "Soft pull prequal + SmartPencil for faster deals",
+      "tone": "value_led_case_study",
+      "personalization_priority": "high"
+    },
+    {
+      "id": "e04_verified_stips",
+      "category": "speed",
+      "subject": "Fund faster & prevent document fraud with Verified Stips.",
+      "body": "Hi {{Recipient.FirstName}},\n\nInformativ's new Verified Stips \u2014 get documents needed for a sale \u2014 directly from the source including:\n\u2022 Bank statements\n\u2022 Pay stubs\n\u2022 Proof of insurance\n\u2022 Utility bills\n\nThat means deals get funded faster, you eliminate document fraud, and no longer have to wait hours or days to get the information from the buyer.\n\nWant to see how it works? Choose a time that's convenient: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "speed_focus",
+        "document_fraud_concern",
+        "funding_delays"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "F&I-heavy dealers, BHPH operators, dealers with stip-collection friction",
+      "primary_hook": "Verified Stips \u2014 direct from source",
+      "tone": "short_punchy",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e05_customer_insights_qr",
+      "category": "customer_insights",
+      "subject": "Don't get left behind. Unlock smarter leads with customer insights.",
+      "body": "Hey {{Recipient.FirstName}},\n\nGeneric leads give you noise. You need qualified, actionable leads.\n\nInformativ's Customer Insights platform supercharges your marketing efforts with trackable QR codes. Your sales team gets:\n\u2022 Leads that have been validated through cellphone carrier data\n\u2022 Prequalified customers so you see their buying ability up front\n\nOur clients report up to 30% higher conversion rates from qualified leads.\n\nLearn how to convert smarter with QR Codes in 2025.\n\nI want to tell you more! Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "marketing_focus",
+        "lead_quality_concern",
+        "single_store_or_group"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "compliance_only_focus"
+      ],
+      "dealer_profile": "Marketing-conscious dealers; GMs frustrated with lead quality; dealers running heavy digital ad spend",
+      "primary_hook": "30% conversion rate lift via QR-validated leads",
+      "tone": "outcome_led",
+      "personalization_priority": "high"
+    },
+    {
+      "id": "e06_compliance_fraud_savings",
+      "category": "fraud",
+      "subject": "Compliance enforced + fraud detected = confidence (and savings)",
+      "body": "Hi {{Recipient.FirstName}},\n\nSince 2023, Informativ has\u2026\n\n\u2026identified and flagged 13,134+ fake IDs\u2026\n\n\u2026resulting in more than $620 million in savings for dealers and lenders!\n\nThat's huge! Less risk, less loss, more peace of mind.\n\nWith proactive process enforcement and fraud detection working together, you can safeguard deals and sell quickly.\n\nWant to learn more? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "fraud_concern",
+        "data_driven_buyer"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "soft_intro_needed"
+      ],
+      "dealer_profile": "Data-driven CFOs and Dealer Principals; ROI-focused buyers who respond to hard numbers",
+      "primary_hook": "13,134 fake IDs flagged / $620M saved",
+      "tone": "stats_led",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e07_compliance_pays",
+      "category": "total_solution",
+      "subject": "Compliance that pays for itself",
+      "body": "Hey {{Recipient.FirstName}},\n\nInformativ's one-of-a-kind proactive compliance platform:\n\u2022 Enforces and automates compliance checks and removes paperwork from your sales process\n\u2022 Runs soft pulls earlier, reducing credit app burden and paperwork\n\u2022 Uses SmartPencil payment intelligence to create faster, more accurate pencils\n\u2022 Speeds up funding with Verified Stips while preventing fraud\n\nImagine trimming 80% of your compliance burden \u2014 and cutting dead deal jackets you're required to store for 5 years to nearly zero.\n\nTake our free compliance quiz: https://informativ.com/free-compliance-quiz/ to see where your gaps are.\n\nAnd schedule some time with me so we can talk through your results: {{{Sender.Calendar_Link__c}}}\n\nTalk soon,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "total_solution_pitch",
+        "compliance_focus",
+        "interactive_engagement"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "credit_only_prospect"
+      ],
+      "dealer_profile": "Compliance-aware groups; dealers who appreciate interactive content (quiz hook)",
+      "primary_hook": "Total Solution + free compliance quiz lead magnet",
+      "tone": "platform_pitch_interactive",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e08_synthetic_fraud_webinar",
+      "category": "fraud",
+      "subject": "Fighting Synthetic Fraud: Are You Covered?",
+      "body": "Hey {{Recipient.FirstName}},\n\nSynthetic identity fraud is growing fast \u2014 auto dealers have experienced a 98% spike since 2023!\n\nOur platform fights it with:\n\u2022 Multi-layered fraud checks \u2014 ID scan, synthetic fraud detection, OFAC checks, out-of-wallet questions.\n\u2022 Hard stop if fraud is flagged \u2014 the deal can't move forward.\n\nInformativ protects your revenue and your reputation.\n\nWatch our free webinar on-demand: https://informativ.com/webinars/the-fraud-surge/ in partnership with NADA about this fraud surge.\n\nLet me help you beat fraud! Schedule some time here: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "fraud_concern",
+        "synthetic_fraud_concern",
+        "nada_member"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "NADA member dealerships; dealers concerned about synthetic identity fraud specifically",
+      "primary_hook": "98% spike in synthetic fraud + NADA webinar",
+      "tone": "alarm_then_solution",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e09_verified_stips_speed",
+      "category": "speed",
+      "subject": "How verified stips get you funded faster.",
+      "body": "Hey {{Recipient.FirstName}},\n\nThe deal's ready \u2014 but you need stips from buyers.\n\nInformativ's Verified Stips changes that by:\n\u2022 Getting bank statements, pay stubs, and more directly from source, fully verified.\n\u2022 No consumer uploads \u2014 preventing tampering, falsification, and delays.\n\u2022 Potential rebates from banks\n\nFewer funding hiccups mean happier F&I and faster closes.\n\nWant to see it in action? Choose a time that works for you: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "speed_focus",
+        "f_and_i_focused",
+        "funding_delays"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "F&I directors at high-volume stores; subprime-heavy lenders",
+      "primary_hook": "Verified Stips eliminate tampering and speed funding",
+      "tone": "short_punchy",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e10_case_study_boucher",
+      "category": "case_study",
+      "subject": "How Boucher Auto Group solved fraud in one package.",
+      "body": "Hey {{Recipient.FirstName}},\n\nBoucher Auto Group leveraged Informativ's Total Solution to:\n\u2022 Flag and stop fraudulent deals.\n\u2022 Boost customer trust in their sales process.\n\u2022 Close deals faster and eliminate paperwork.\n\nThat's compliance, fraud protection, SmartPencil payment intelligence, and speed \u2014 all wrapped together.\n\nRead the full case study here: https://informativ.com/case-studies-and-testimonials/boucher-auto-group-enhances-fraud-prevention-and-customer-trust-with-informativ/\n\nLet's talk some more! Schedule some time: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "multi_store_group",
+        "total_solution_pitch",
+        "case_study_proof"
+      ],
+      "avoid_when": [
+        "single_store",
+        "existing_customer"
+      ],
+      "dealer_profile": "Multi-store auto groups (10+ rooftops) \u2014 Boucher is a comparable peer",
+      "case_study_link": "https://informativ.com/case-studies-and-testimonials/boucher-auto-group-enhances-fraud-prevention-and-customer-trust-with-informativ/",
+      "case_study_subject": "Boucher Auto Group",
+      "primary_hook": "Boucher used Total Solution to solve fraud + speed in one platform",
+      "tone": "peer_proof",
+      "personalization_priority": "high"
+    },
+    {
+      "id": "e11_flat_rate_pricing",
+      "category": "credit_pricing",
+      "subject": "Control credit costs with predictable flat-rate pricing.",
+      "body": "Hey {{Recipient.FirstName}},\n\nTired of an unpredictable credit bill?\n\nInformativ's Total Solution gives dealers:\n\u2022 Flat monthly rate for all credit reports\n\u2022 Control over credit usage\n\nPlus, you get compliance, SmartPencil payment intelligence, fraud detection, insights \u2014 all in one platform.\n\nLearn more about why soft inquiries with Informativ are superior: https://go.informativ.com/5-secrets-of-a-soft-pull\n\nI'd love to chat with you more about how we could optimize your credit pulls: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "credit_cost_concern",
+        "flat_rate_pitch",
+        "total_solution_upsell"
+      ],
+      "avoid_when": [
+        "price_shopping_only",
+        "rfp_credit_only",
+        "competitive_displacement_battle"
+      ],
+      "dealer_profile": "Dealers frustrated with variable bureau billing; ideal for credit-only prospects we want to migrate to Total Solution",
+      "primary_hook": "Flat-rate credit + Total Solution bundling (NEVER lead with price competition)",
+      "tone": "value_repositioning",
+      "personalization_priority": "high",
+      "guardrail_note": "This template references credit pricing. AI must NEVER personalize this into a price-competitive pitch. Always frame as Total Solution value with credit cost predictability as one benefit among many. If prospect intel signals they are shopping credit price specifically (RFP, Strategic Source negotiation, comparing per-pull rates), DO NOT use this template \u2014 use e17_one_platform or e16_verified_stips_prequal instead, and let the AI know we explicitly position against price-only competition per Combatting Low Margin Credit guidance."
+    },
+    {
+      "id": "e12_compliance_mobile_app",
+      "category": "compliance",
+      "subject": "Compliance without the busy work. It DOES exist!",
+      "body": "Hey {{Recipient.FirstName}},\n\nSalespeople don't love paperwork. That's why Informativ's mobile app:\n\u2022 Forces step-by-step compliance flow, so you can't skip steps.\n\u2022 Encrypts data to prevent personal device risk.\n\u2022 Glues people, policies, and process together.\n\nLearn how Informativ locks down your compliance: https://informativ.com/solutions/dealership-compliance-software/, so you can trust every deal, every day, at every dealership.\n\nInterested in more? I'd love to talk: {{{Sender.Calendar_Link__c}}}\n\nSee you soon!\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "compliance_focus",
+        "mobile_workflow_focus",
+        "sales_team_adoption"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "credit_only_prospect"
+      ],
+      "dealer_profile": "Dealers concerned about reps using personal devices; sales-team-adoption pain",
+      "primary_hook": "Mobile-first forced compliance flow",
+      "tone": "process_pain_solver",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e13_qr_leads",
+      "category": "customer_insights",
+      "subject": "Get leads that convert, not just contact info.",
+      "body": "Hey {{Recipient.FirstName}},\n\nLead quality beats volume. Informativ's QR-enabled system gives you:\n\u2022 Consent-driven, prequalified leads\n\u2022 Device-level validation\n\u2022 Source tracking by QR code\n\nWith Informativ's Customer Insights technology: https://informativ.com/solutions/customer-insights/, dealers report 30% bump in conversions from these smarter leads.\n\nWant to learn more? Choose a time that works for you on my calendar: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "marketing_focus",
+        "lead_quality_concern"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "no_marketing_budget"
+      ],
+      "dealer_profile": "Marketing-driven groups; dealers running QR-based campaigns",
+      "primary_hook": "30% conversion lift via QR + Customer Insights",
+      "tone": "short_outcome_led",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e14_case_study_pohanka",
+      "category": "case_study",
+      "subject": "\"Fraudulent sales down to zero.\" How?",
+      "body": "Hey {{Recipient.FirstName}},\n\nPohanka Auto Group has 17 dealerships and 11 collision centers in the US. With this size and volume, unsurprisingly, they encountered fraud.\n\nAccording to Jimmy Robinson, Chief Financial Officer for Pohanka, in just one year, they had \"six fraudulent car sales.\"\n\nAfter they implemented Informativ: \"Zero in the next 12 months.\"\n\nWhen compliance and fraud defenses work together, you lose nothing \u2014 and save time and profit.\n\nRead more dealer success stories here: https://informativ.com/case-studies-and-testimonials/\n\nI'd love to chat about how Informativ could make your dealership the next success story. Schedule some time here: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "large_multi_store_group",
+        "fraud_concern",
+        "cfo_focused"
+      ],
+      "avoid_when": [
+        "single_store",
+        "existing_customer"
+      ],
+      "dealer_profile": "Large multi-store groups (10+ rooftops); CFO/CFO-equivalent buyers focused on loss prevention",
+      "case_study_link": "https://informativ.com/case-studies-and-testimonials/",
+      "case_study_subject": "Pohanka Auto Group",
+      "primary_hook": "Pohanka: 6 fraudulent sales \u2192 0 in 12 months",
+      "tone": "peer_proof_quote",
+      "personalization_priority": "high"
+    },
+    {
+      "id": "e15_compliance_fines",
+      "category": "compliance",
+      "subject": "Reduce compliance risk and avoid costly fines.",
+      "body": "Hey {{Recipient.FirstName}},\n\nRegulations for auto dealers are unforgiving:\n\u2022 Used Car Rule: $40,000+ per violation\n\u2022 FTC Safeguards Rule: $50,000 per incident\n\nThese fines aren't fun!\n\nInformativ has built a better mousetrap: https://informativ.com/webinars/nada-better-mousetrap/ \u2014 stop risk before it becomes a legal issue.\n\nI'd love to chat about how we can flip your compliance from a cost center to a profit driver. Find some time with me here: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "compliance_focus",
+        "risk_averse_buyer",
+        "post_audit_pain"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "Risk-aware Dealer Principals; dealers recently audited or fined",
+      "primary_hook": "$40K + $50K fine exposure",
+      "tone": "fear_then_solution",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e16_verified_stips_prequal_combo",
+      "category": "total_solution",
+      "subject": "Verified Stips + Prequal = Faster, Safer Deals",
+      "body": "Hey {{Recipient.FirstName}},\n\nWith Informativ, your deal flow looks like this:\n\u2022 Customers prequalify via soft-pull and you gain instant credit insights.\n\u2022 SmartPencil turns that prequal into faster, lender-accurate payment scenarios\n\u2022 Stips are verified up front to ensure documents are legit \u2014 no request delays, no fraud.\n\nThat's frictionless efficiency built for speed and security.\n\nInformativ delivers all this and more: https://informativ.com/solutions/total-solution/\n\nWant to learn how? Here's my calendar link to select a time that's convenient for you: {{{Sender.Calendar_Link__c}}}\n\nTalk soon,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "total_solution_pitch",
+        "f_and_i_focused",
+        "workflow_modernization"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "credit_only_prospect"
+      ],
+      "dealer_profile": "Dealers modernizing F&I workflow; full-platform buyers",
+      "primary_hook": "Prequal \u2192 SmartPencil \u2192 Verified Stips = full workflow",
+      "tone": "workflow_pitch",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e17_one_platform",
+      "category": "total_solution",
+      "subject": "One platform, all the tools you need.",
+      "body": "Hey {{Recipient.FirstName}},\n\nTired of piecing together multiple vendors with different contracts, rates, and experience?\n\nInformativ brings together:\n\u2022 Fraud detection\n\u2022 Compliance automation\n\u2022 Hard and soft pull credit reports\n\u2022 Customer insights & lead capture\n\u2022 SmartPencil payment intelligence for faster, more accurate pencils\n\nAll in a single platform \u2014 no vendor juggling, no integration headaches.\n\nSimplify your tech stack, supercharge your process.\n\nRequest a demo to learn how \u2192 https://informativ.com/get-a-demo/\n\nOr just find some time on my calendar! \u2192 {{{Sender.Calendar_Link__c}}}\n\nCan't wait to talk,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "total_solution_pitch",
+        "vendor_fatigue",
+        "anti_aggregator",
+        "generic_fallback"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "Dealers with vendor fatigue or aggregator-tool fatigue; best generic fallback when no other signal matches",
+      "primary_hook": "Informativ as innovator-not-aggregator \u2014 single platform",
+      "tone": "consolidation_pitch",
+      "personalization_priority": "medium",
+      "is_default_fallback": true
+    },
+    {
+      "id": "e19_smart_showroom",
+      "category": "total_solution",
+      "subject": "Your showroom, but smarter & safer.",
+      "body": "Hey {{Recipient.FirstName}},\n\nImagine a showroom that:\n\u2022 Scans IDs and runs fraud checks in seconds\n\u2022 Collects data digitally \u2014 no loose paperwork\n\u2022 Generates prequalification and insights on the spot\n\u2022 Creates faster, lender-accurate payment scenarios with SmartPencil\n\u2022 Enforces a compliant showroom that complements your current process\n\nThat's what Informativ's one-of-a-kind compliance-enabled platform delivers to thousands of dealers throughout the country.\n\nLet's modernize your process together.\n\nSchedule a quick walkthrough with me today: {{{Sender.Calendar_Link__c}}}\n\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "showroom_modernization",
+        "total_solution_pitch",
+        "vision_pitch"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "Dealers thinking strategically about showroom modernization; GMs/DPs with a vision orientation",
+      "primary_hook": "Showroom-of-the-future vision pitch",
+      "tone": "aspirational_vision",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e20_wipe_out_fraud",
+      "category": "total_solution",
+      "subject": "Ready to wipe out fraud and boost sales?",
+      "body": "Hey {{Recipient.FirstName}},\n\nInformativ's one-of-a-kind platform gives dealers:\n\u2022 Fraud detection & prevention\n\u2022 Proactive, enforceable and automated compliance\n\u2022 Faster deals with Verified Stips \u2014 directly from the source\n\u2022 High-quality leads & controlled credit usage\n\u2022 SmartPencil payment intelligence for the right car, right payment, right profit\n\nNow \u2014 let's make it real.\n\nBook a demo with us today: https://informativ.com/get-a-demo/\n\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "total_solution_pitch",
+        "direct_close"
+      ],
+      "avoid_when": [
+        "existing_customer",
+        "long_relationship_build_needed"
+      ],
+      "dealer_profile": "Decisive Dealer Principals who appreciate a direct CTA; short-form preference",
+      "primary_hook": "Direct demo-CTA close",
+      "tone": "short_direct_close",
+      "personalization_priority": "low"
+    },
+    {
+      "id": "e21_case_study_cavender",
+      "category": "case_study",
+      "subject": "How Cavender Auto Family cut fraud & sped up deals",
+      "body": "Hi {{Recipient.FirstName}},\n\nCavender Auto Family wanted more speed \u2014 and more safety \u2014 in their sales process. With Informativ, they:\n\u2022 Flagged dozens of fraudulent IDs before they became losses\n\u2022 Shortened deal times with soft pull prequals\n\u2022 Boosted confidence for both F&I and sales\n\nAs Cavender shared: \"Not one fraud made it through after Informativ.\"\n\nRead the full Cavender case study here: https://informativ.com/case-studies-and-testimonials/case-study-cavendar-auto-family/\n\nLet's talk about how we can deliver the same results for you. Pick a time that works: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "multi_store_group",
+        "case_study_proof",
+        "south_texas_market",
+        "fraud_concern"
+      ],
+      "avoid_when": [
+        "single_store",
+        "existing_customer"
+      ],
+      "dealer_profile": "Multi-store auto groups, especially Texas/Southwest market; comparable to Cavender",
+      "case_study_link": "https://informativ.com/case-studies-and-testimonials/case-study-cavendar-auto-family/",
+      "case_study_subject": "Cavender Auto Family",
+      "primary_hook": "Cavender peer proof \u2014 fraud + speed combo",
+      "tone": "peer_proof_quote",
+      "personalization_priority": "high"
+    },
+    {
+      "id": "e22_case_study_kunes",
+      "category": "case_study",
+      "subject": "From complexity to clarity: Kunes Auto Group's story",
+      "body": "Hey {{Recipient.FirstName}},\n\nKunes Auto Group needed a partner who could streamline compliance while safeguarding against fraud. With Informativ's Total Solution, they:\n\u2022 Centralized compliance across rooftops\n\u2022 Cut paperwork headaches with digital deal workflows\n\u2022 Accelerated funding while reducing fraud risks\n\u2022 Added SmartPencil payment intelligence to speed the path from prequal to pencil\n\nRead the full Kunes case study here: https://informativ.com/case-studies-and-testimonials/case-study-kunes-auto-group/\n\nWant to explore what this could mean for your group? Let's connect: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "multi_store_group",
+        "midwest_market",
+        "compliance_focus",
+        "case_study_proof"
+      ],
+      "avoid_when": [
+        "single_store",
+        "existing_customer"
+      ],
+      "dealer_profile": "Multi-rooftop auto groups, especially Midwest market; comparable to Kunes' centralization need",
+      "case_study_link": "https://informativ.com/case-studies-and-testimonials/case-study-kunes-auto-group/",
+      "case_study_subject": "Kunes Auto Group",
+      "primary_hook": "Kunes peer proof \u2014 centralized compliance across rooftops",
+      "tone": "peer_proof_strategic",
+      "personalization_priority": "high"
+    },
+    {
+      "id": "e23_time_is_money_webinar",
+      "category": "speed",
+      "subject": "[On-Demand Webinar] Time is Money for Dealers",
+      "body": "Hi {{Recipient.FirstName}},\n\nTime kills deals. Informativ helps you win back nearly an hour per customer.\n\nWatch our on-demand webinar: Time is Money: https://informativ.com/webinars/time-is-money/\n\nYou'll learn:\n\u2022 How top dealers save 50 minutes per customer with digital prequals\n\u2022 Why soft pulls beat hard pulls for speed and compliance\n\u2022 How to cut deal friction while staying audit-ready\n\nGet the insights here, then let's talk about bringing them into your showroom: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "speed_focus",
+        "warm_lead_education",
+        "low_pressure_value_send"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "Education-first buyers; dealers who consume content before booking calls",
+      "primary_hook": "On-demand webinar value-content",
+      "tone": "value_content_lead_magnet",
+      "personalization_priority": "low"
+    },
+    {
+      "id": "e24_save_40_minutes",
+      "category": "speed",
+      "subject": "Save 40+ minutes per deal with digital prequals",
+      "body": "Hey {{Recipient.FirstName}},\n\nAccording to the 2024 Cox Automotive Car Buyer Journey Study, buyers who completed credit applications or paperwork online saved:\n\u2022 42 minutes on average\n\u2022 49 minutes for new-vehicle buyers\n\u2022 40 minutes for used-vehicle buyers\n\nThat's nearly an hour back for every deal. Informativ helps you capture those time savings with soft-pull prequals and digital deal jackets.\n\nWant to see how it works? Let's find a time to talk: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "speed_focus",
+        "data_driven_buyer",
+        "industry_research_cite"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "Data-driven GMs who respond to third-party research citations (Cox Automotive)",
+      "primary_hook": "Cox Automotive 2024 \u2014 42 minutes saved per deal",
+      "tone": "third_party_research",
+      "personalization_priority": "medium"
+    },
+    {
+      "id": "e25_20k_pulls_compliance",
+      "category": "credit_pricing",
+      "subject": "20,000 pulls. 5x compliance risk. One simple fix.",
+      "body": "Hi {{Recipient.FirstName}},\n\nOne large dealership group ran 20,000 hard pulls each month \u2014 but only sold 4,000 cars. That's 5x the compliance burden they needed.\n\nBy shifting to soft pulls on unsold deals, they reduced exposure from 20,000 to 4,000 hard pulls.\n\nWith Informativ, you can control costs and cut compliance risk \u2014 all while keeping sales moving.\n\nLet's connect on how to optimize your credit pulls: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "high_volume_dealer",
+        "credit_utilization_concern",
+        "compliance_focus"
+      ],
+      "avoid_when": [
+        "low_volume_dealer",
+        "price_shopping_only",
+        "existing_customer"
+      ],
+      "dealer_profile": "High-volume hard-pull-heavy dealers; Credit Guardrails / utilization governance buyers",
+      "primary_hook": "20,000 pulls \u2192 4,000 via soft-pull shift (Credit Guardrails framing)",
+      "tone": "data_driven_problem_solution",
+      "personalization_priority": "high",
+      "guardrail_note": "References credit utilization. Frame as utilization governance / Credit Guardrails (per Combatting Low Margin Credit doc), NOT as price competition. The fix is structural, not transactional."
+    },
+    {
+      "id": "e26_audit_ready_30_min",
+      "category": "compliance",
+      "subject": "Audit-ready in 30 minutes (not hours)",
+      "body": "Hey {{Recipient.FirstName}},\n\nA dealer using digital deal jackets satisfied 90% of an audit in under 30 minutes. Paper-based audits take hours.\n\nWith Informativ, every deal is digital, secure, and instantly searchable \u2014 so you're always audit-ready.\n\nWant to see how much time and stress this could save your dealership? Let's talk: {{{Sender.Calendar_Link__c}}}\n\nBest,\n{{{Sender.FirstName}}}",
+      "tokens_used": [
+        "{{Recipient.FirstName}}",
+        "{{{Sender.Calendar_Link__c}}}",
+        "{{{Sender.FirstName}}}"
+      ],
+      "best_for": [
+        "cold_first_touch",
+        "compliance_focus",
+        "post_audit_pain",
+        "short_form_preferred"
+      ],
+      "avoid_when": [
+        "existing_customer"
+      ],
+      "dealer_profile": "Dealers post-audit or facing audit anxiety; short-form-preferred buyers",
+      "primary_hook": "30-minute audit vs hours",
+      "tone": "short_outcome_stat",
+      "personalization_priority": "low"
+    }
+  ],
+  "deliverability_rules": {
+    "daily_cap_per_rep": 25,
+    "cooldown_days_same_prospect": 7,
+    "template_rotation_window_days": 30,
+    "minimum_personalization_requirement": "AI must inject at least one dealer-specific sentence beyond token substitution (e.g., reference to dealer name, OEM, location, vehicle volume, or known dealer-intel data point from PIE Mobile activity log).",
+    "subject_line_modification": "Use template subject line as-is unless prospect-specific context warrants a 3-7 word personalized prefix. AI is forbidden from generating subject lines from scratch \u2014 must use template subject as the base.",
+    "signature_handling": "Do NOT inject a signature in the email body. Outlook auto-appends the rep's configured signature on send. Body ends with rep first name + line break only."
+  },
+  "strategic_positioning_rules": {
+    "source_doc": "10-Informativ-Reference/Email Guidance/Combatting Low Margin Credit.docx",
+    "canonical_framing": "Structural cost control (Credit Guardrails) vs. transactional cost control (per-pull price negotiation). The Camping World bid response in the source doc is the canonical language template \u2014 reference it directly when prospect signals price shopping.",
+    "canonical_language_to_paraphrase": [
+      "Every credit provider in the automotive space draws from the same bureau infrastructure. Our underlying data costs are the same. So, when you see significant price variation in competing bids, you're not looking at different data, you're looking at different margin philosophies.",
+      "Credit bureaus raise prices every year. Every provider receives the same increases and passes them through. That cycle repeats. A transactional approach to credit cost is a losing battle over time.",
+      "The only real way to control credit cost long term is utilization governance. Credit Guardrails is the only framework in the market designed to actively manage when and how credit is pulled \u2014 reducing unnecessary bureau usage while protecting compliance and stabilizing costs under a flat-rate model. That's structural cost control, not temporary pricing.",
+      "We are not built as a thin-margin credit reseller. We are built as a platform partner designed to manage cost, reduce risk, and grow with you.",
+      "If the goal is the lowest number today, there will always be a thinner option than Informativ. If the goal is sustainable cost control and a platform built for long-term performance, that's where we differentiate.",
+      "Dealers who trust us aren't with us because we're the cheapest. They're with us because we protect every deal and they make more money doing it."
+    ],
+    "hard_rules": [
+      "NEVER lead with credit price competition. Bureau data costs are fixed and standardized across all providers \u2014 competing on the data-cost line is a losing game.",
+      "ALWAYS frame Informativ as an innovator, not an aggregator. We build, own, and extend the platform (SmartPencil is the latest proof). Aggregators stitch third-party tools and inherit their integration debt.",
+      "When a prospect signals credit-price shopping (RFP, Strategic Source involvement, head-to-head per-pull rate comparison), DO NOT use price-competitive language. Pivot to Credit Guardrails for utilization governance \u2014 the framework for STRUCTURAL cost control, not transactional cost control.",
+      "Credit Guardrails is a named, proprietary framework. Use the name. It is the ONLY framework in the market designed to actively manage when and how credit is pulled \u2014 reducing unnecessary bureau usage while protecting compliance and stabilizing costs under a flat-rate model.",
+      "If the prospect's primary buying motivation is lowest-bureau-price, acknowledge upfront we are not the lowest price option. Be willing to disqualify: 'If you are just looking for a credit bid, we would not want to burn up any more of your time.' Walk away from price-only deals \u2014 chasing them is a losing battle.",
+      "Frame Informativ as a platform partner, not a credit reseller. Cost control comes from utilization governance, not bureau price negotiation."
+    ],
+    "approved_value_anchors": [
+      "Total Solution platform (credit + compliance + fraud + SmartPencil + Customer Insights)",
+      "Credit Guardrails \u2014 utilization governance to control credit cost long-term",
+      "SmartPencil pre-deal credit and deal structuring (proprietary)",
+      "Verified Stips \u2014 direct-from-source document collection",
+      "Multi-layered fraud detection (ID, synthetic, document, internal)",
+      "13,134+ fake IDs flagged / $620M saved since 2023",
+      "Cut compliance burden up to 80% / Audit-ready in 30 minutes",
+      "30% lead conversion lift via Customer Insights QR codes"
+    ],
+    "language_to_avoid": [
+      "lowest price",
+      "cheapest",
+      "beat their rate",
+      "we'll match",
+      "discount",
+      "save on bureau cost",
+      "lower per-pull rate"
+    ]
+  }
+}
