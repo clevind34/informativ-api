@@ -57,8 +57,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:20:59.529Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "",
+      "prospect_id": "b6824cd28d435911",
+      "prospect_company": "Golden Toyota",
+      "template_id": "e24_save_40_minutes",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": true,
+      "subject": "Save 40+ minutes per deal with digital prequals",
+      "body_length": 523,
+      "draft_id": null,
+      "cooldown_overridden": true,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:18:16.961Z",
+  "last_updated": "2026-05-12T15:20:59.529Z",
   "schema_version": "1.0.0"
 }
