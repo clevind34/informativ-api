@@ -13,8 +13,22 @@
       "subject": "One platform, all the tools you need.",
       "body_length": 614,
       "draft_id": null
+    },
+    {
+      "timestamp": "2026-05-12T15:11:38.975Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "",
+      "prospect_id": "386ffd956b6efbad",
+      "prospect_company": "Covina Kia",
+      "template_id": "e03_speed_wins_deals",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "The best dealers know speed wins deals.",
+      "body_length": 953,
+      "draft_id": null
     }
   ],
-  "last_updated": "2026-05-12T15:10:23.998Z",
+  "last_updated": "2026-05-12T15:11:38.975Z",
   "schema_version": "1.0.0"
 }
