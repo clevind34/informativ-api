@@ -425,8 +425,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T20:14:01.299Z",
+      "date": "2026-05-12",
+      "rep_email": "jbellinghausen@informativ.com",
+      "rep_name": "jbellinghausen@informativ.com",
+      "prospect_id": "a90ab2582631bb3e",
+      "prospect_company": "Patriot Honda",
+      "template_id": "e19_smart_showroom",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Your showroom, but smarter & safer.",
+      "body_length": 707,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T20:13:18.331Z",
+  "last_updated": "2026-05-12T20:14:01.299Z",
   "schema_version": "1.0.0"
 }
