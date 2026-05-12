@@ -201,8 +201,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:32:00.971Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "0b7f118669708e5e",
+      "prospect_company": "Performance Toyota",
+      "template_id": "e20_wipe_out_fraud",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Ready to wipe out fraud and boost sales?",
+      "body_length": 644,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:30:58.231Z",
+  "last_updated": "2026-05-12T15:32:00.971Z",
   "schema_version": "1.0.0"
 }
