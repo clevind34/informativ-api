@@ -233,8 +233,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:34:29.503Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "63716b61465fd21b",
+      "prospect_company": "Dublin Honda",
+      "template_id": "e01_fraud_secret_weapon",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Stop fraud in its tracks. Your dealership's new secret weapon.",
+      "body_length": 943,
+      "draft_id": null,
+      "cooldown_overridden": true,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:34:10.445Z",
+  "last_updated": "2026-05-12T15:34:29.503Z",
   "schema_version": "1.0.0"
 }
