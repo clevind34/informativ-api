@@ -137,8 +137,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:27:29.804Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "aa6ba5a7e962450b",
+      "prospect_company": "Liberty Chevrolet",
+      "template_id": "e24_save_40_minutes",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Save 40+ minutes per deal with digital prequals",
+      "body_length": 649,
+      "draft_id": null,
+      "cooldown_overridden": true,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:27:13.472Z",
+  "last_updated": "2026-05-12T15:27:29.804Z",
   "schema_version": "1.0.0"
 }
