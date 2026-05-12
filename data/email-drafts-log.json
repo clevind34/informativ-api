@@ -27,8 +27,22 @@
       "subject": "The best dealers know speed wins deals.",
       "body_length": 953,
       "draft_id": null
+    },
+    {
+      "timestamp": "2026-05-12T15:15:40.122Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "",
+      "prospect_id": "be9c06634b2c73c6",
+      "prospect_company": "Nissan Of Redlands",
+      "template_id": "e19_smart_showroom",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Your showroom, but smarter & safer.",
+      "body_length": 747,
+      "draft_id": null
     }
   ],
-  "last_updated": "2026-05-12T15:11:38.975Z",
+  "last_updated": "2026-05-12T15:15:40.123Z",
   "schema_version": "1.0.0"
 }
