@@ -169,8 +169,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T15:29:42.009Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "69ad5da5a75edde0",
+      "prospect_company": "Sauers GMC",
+      "template_id": "e12_compliance_mobile_app",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Compliance without the busy work. It DOES exist!",
+      "body_length": 676,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:29:35.231Z",
+  "last_updated": "2026-05-12T15:29:42.009Z",
   "schema_version": "1.0.0"
 }
