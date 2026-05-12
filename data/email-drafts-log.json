@@ -1,1 +1,20 @@
-{"drafts": [], "last_updated": "2026-05-12T00:00:00Z", "schema_version": "1.0.0"}
+{
+  "drafts": [
+    {
+      "timestamp": "2026-05-12T15:10:23.998Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "",
+      "prospect_id": "b6824cd28d435911",
+      "prospect_company": "Golden Toyota",
+      "template_id": "e17_one_platform",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": true,
+      "subject": "One platform, all the tools you need.",
+      "body_length": 614,
+      "draft_id": null
+    }
+  ],
+  "last_updated": "2026-05-12T15:10:23.998Z",
+  "schema_version": "1.0.0"
+}
