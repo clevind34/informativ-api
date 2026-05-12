@@ -361,8 +361,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T17:56:54.970Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "558e9556d8315784",
+      "prospect_company": "Toyota of Irving",
+      "template_id": "e21_case_study_cavender",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "How Cavender Auto Family cut fraud & sped up deals",
+      "body_length": 749,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T17:28:53.763Z",
+  "last_updated": "2026-05-12T17:56:54.970Z",
   "schema_version": "1.0.0"
 }
