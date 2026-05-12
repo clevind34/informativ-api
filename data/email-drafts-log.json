@@ -393,8 +393,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T19:05:35.180Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "3799f5dfd9a9f55e",
+      "prospect_company": "Giles Hyundai",
+      "template_id": "e05_customer_insights_qr",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Don't get left behind. Unlock smarter leads with customer insights.",
+      "body_length": 698,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T19:01:11.595Z",
+  "last_updated": "2026-05-12T19:05:35.180Z",
   "schema_version": "1.0.0"
 }
