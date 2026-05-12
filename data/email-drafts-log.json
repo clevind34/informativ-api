@@ -249,8 +249,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T17:24:38.576Z",
+      "date": "2026-05-12",
+      "rep_email": "mbyrd@informativ.com",
+      "rep_name": "mbyrd@informativ.com",
+      "prospect_id": "fe35a61b7e6546cd",
+      "prospect_company": "Summit Automotive",
+      "template_id": "e22_case_study_kunes",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "From complexity to clarity: Kunes Auto Group's story",
+      "body_length": 774,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T15:34:29.503Z",
+  "last_updated": "2026-05-12T17:24:38.576Z",
   "schema_version": "1.0.0"
 }
