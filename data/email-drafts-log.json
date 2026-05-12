@@ -409,8 +409,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-12T20:13:18.331Z",
+      "date": "2026-05-12",
+      "rep_email": "jbellinghausen@informativ.com",
+      "rep_name": "jbellinghausen@informativ.com",
+      "prospect_id": "67d4d1e9f5bdc052",
+      "prospect_company": "Northgate Toyota",
+      "template_id": "e17_one_platform",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": true,
+      "subject": "One platform, all the tools you need.",
+      "body_length": 608,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T19:05:35.180Z",
+  "last_updated": "2026-05-12T20:13:18.331Z",
   "schema_version": "1.0.0"
 }
