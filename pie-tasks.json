@@ -6092,6 +6092,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778678795338_3oerlt",
+        "rep": "Trish Smith",
+        "prospect_id": "8ef6ea5bbcf20c69",
+        "prospect_type": "nn",
+        "prospect_name": "Crenwelge Motors - Kerrville",
+        "city": "",
+        "state": "TX",
+        "due_date": "2026-05-15",
+        "created_date": "2026-05-13T13:26:35.338Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -7795,5 +7813,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-13T13:25:00.657Z"
+  "last_modified": "2026-05-13T13:26:35.338Z"
 }
