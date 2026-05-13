@@ -199,7 +199,6 @@
     .role-manager { background: rgba(102,39,232,0.15); color: var(--purple-lt); }
     .role-rep   { background: rgba(29,184,123,0.12); color: #34D399; }
     .role-cs    { background: rgba(59,130,246,0.12); color: #60A5FA; }
-    .role-elt_observer { background: rgba(196,154,60,0.10); color: var(--gold-lt); }
 
     .btn-logout {
       padding: 6px 14px;
@@ -503,7 +502,7 @@
       name: 'ELT KPI Dashboard',
       url: 'https://informativ-elt-kpi.netlify.app',
       desc: 'Board-level KPIs across all 8 business functions — Sales, Finance, Operations & more',
-      roles: ['admin', 'elt', 'elt_observer'],
+      roles: ['admin', 'elt'],
       badge: 'executive', badgeLabel: 'Executive',
       color: '#C49A3C', colorBg: 'rgba(196,154,60,0.12)',
       icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="3"/><line x1="12" y1="2" x2="12" y2="5"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="2" y1="12" x2="5" y2="12"/><line x1="19" y1="12" x2="22" y2="12"/></svg>'
@@ -549,18 +548,8 @@
       icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>'
     },
     {
-      id: 'chuck-cs',
-      name: 'CS Assistant',
-      url: 'https://chuck-cs-assistant.netlify.app',
-      desc: 'AI-powered CS coaching, certification tracking, health reviews & retention playbooks',
-      roles: ['admin', 'elt', 'manager', 'cs'],
-      badge: 'ai', badgeLabel: 'AI Assistant',
-      color: '#A78BFA', colorBg: 'rgba(167,139,250,0.10)',
-      icon: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><circle cx="9" cy="10" r="1"/><circle cx="15" cy="10" r="1"/></svg>'
-    },
-    {
       id: 'ci',
-      name: 'Customer Intelligence',
+      name: 'Client Intelligence',
       url: 'https://customer-intelligence-dashboard.netlify.app',
       desc: 'Portfolio health scoring, margin analysis, guardrail impact, CPQ trend alerts & repricing',
       roles: ['admin', 'elt', 'manager', 'cs'],
@@ -571,7 +560,7 @@
   ];
 
   /* ── ROLE LABELS ─────────────────────────────── */
-  var ROLE_LABELS = { admin: 'Admin', elt: 'ELT', elt_observer: 'ELT Observer', manager: 'Manager', rep: 'Sales Rep', cs: 'Customer Success' };
+  var ROLE_LABELS = { admin: 'Admin', elt: 'ELT', manager: 'Director', rep: 'Sales Rep', cs: 'Customer Success' };
 
   /* ── EMAIL → ROLE fallback (when JWT app_metadata.roles is empty) ── */
   var EMAIL_TO_ROLE = {
@@ -589,9 +578,7 @@
     'trichter@informativ.com':   'rep',
     'tsmith@informativ.com':     'rep',
     'cromero@informativ.com':    'rep',
-    'jbellinghausen@informativ.com': 'rep',
     'agough@informativ.com':     'rep',
-    'gcutlip@informativ.com':    'rep',
     'wcarroll@informativ.com':   'rep',
     'wfowler@informativ.com':    'rep',
     'bhutchinson@informativ.com':'rep',
@@ -613,10 +600,7 @@
     'ddomm@informativ.com':      'elt',
     'hbestul@informativ.com':    'elt',
     'rtruitt@informativ.com':    'elt',
-    'khensley@informativ.com':   'elt',
     'rrorick@informativ.com':    'cs',
-    'sbenhammou@informativ.com': 'manager',
-    'lcrabtree@informativ.com': 'elt_observer',
   };
 
   /* ── EMAIL → FIRST NAME fallback ── */
@@ -635,9 +619,7 @@
     'trichter@informativ.com':   'Tami',
     'tsmith@informativ.com':     'Trish',
     'cromero@informativ.com':    'Clarence',
-    'jbellinghausen@informativ.com': 'Jack',
     'agough@informativ.com':     'Ashton',
-    'gcutlip@informativ.com':    'Greg',
     'wcarroll@informativ.com':   'Ward',
     'wfowler@informativ.com':    'William',
     'bhutchinson@informativ.com':'Brock',
@@ -659,10 +641,7 @@
     'ddomm@informativ.com':      'Dave',
     'hbestul@informativ.com':    'Heather',
     'rtruitt@informativ.com':    'Rebecca',
-    'khensley@informativ.com':   'Kent',
     'rrorick@informativ.com':    'Robert',
-    'sbenhammou@informativ.com': 'Samir',
-    'lcrabtree@informativ.com': 'Lynn',
   };
 
   /* ── HELPER: show/hide views ─────────────────── */
@@ -701,7 +680,6 @@
     if (!roles || !roles.length) return 'rep';
     if (roles.includes('admin')) return 'admin';
     if (roles.includes('elt')) return 'elt';
-    if (roles.includes('elt_observer')) return 'elt_observer';
     if (roles.includes('manager')) return 'manager';
     if (roles.includes('cs')) return 'cs';
     return 'rep';
