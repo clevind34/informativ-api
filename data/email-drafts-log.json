@@ -473,8 +473,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-13T16:20:58.290Z",
+      "date": "2026-05-13",
+      "rep_email": "jbellinghausen@informativ.com",
+      "rep_name": "jbellinghausen@informativ.com",
+      "prospect_id": "2969455adbfc111a",
+      "prospect_company": "Sentry Auto Group",
+      "template_id": "e02_compliance_headache",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "Compliance doesn't have to be a headache.",
+      "body_length": 865,
+      "draft_id": null,
+      "cooldown_overridden": true,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-13T16:15:01.353Z",
+  "last_updated": "2026-05-13T16:20:58.290Z",
   "schema_version": "1.0.0"
 }
