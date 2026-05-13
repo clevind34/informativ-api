@@ -457,8 +457,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-13T16:15:01.353Z",
+      "date": "2026-05-13",
+      "rep_email": "jbellinghausen@informativ.com",
+      "rep_name": "jbellinghausen@informativ.com",
+      "prospect_id": "2969455adbfc111a",
+      "prospect_company": "Sentry Auto Group",
+      "template_id": "e03_speed_wins_deals",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "The best dealers know speed wins deals.",
+      "body_length": 966,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-12T20:14:32.719Z",
+  "last_updated": "2026-05-13T16:15:01.353Z",
   "schema_version": "1.0.0"
 }
