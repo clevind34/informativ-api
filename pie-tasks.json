@@ -6128,6 +6128,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778678925639_abtzf6",
+        "rep": "Trish Smith",
+        "prospect_id": "ae1475630fd8bca1",
+        "prospect_type": "nn",
+        "prospect_name": "McCombs Enterprises",
+        "city": "",
+        "state": "TX",
+        "due_date": "2026-05-15",
+        "created_date": "2026-05-13T13:28:45.639Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -7831,5 +7849,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-13T13:28:35.400Z"
+  "last_modified": "2026-05-13T13:28:45.639Z"
 }
