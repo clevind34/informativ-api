@@ -6020,6 +6020,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778678119956_zy1o52",
+        "rep": "Trish Smith",
+        "prospect_id": "44d6526eb9cc183d",
+        "prospect_type": "nn",
+        "prospect_name": "Four Wheels Auto Group",
+        "city": "",
+        "state": "TX",
+        "due_date": "2026-05-15",
+        "created_date": "2026-05-13T13:15:19.956Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -7723,5 +7741,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-13T13:15:09.334Z"
+  "last_modified": "2026-05-13T13:15:19.956Z"
 }
