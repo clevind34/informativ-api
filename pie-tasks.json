@@ -6110,6 +6110,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778678915400_tbqr37",
+        "rep": "Trish Smith",
+        "prospect_id": "225f4abbb2c55749",
+        "prospect_type": "nn",
+        "prospect_name": "Smith Auto Family Levelland",
+        "city": "",
+        "state": "TX",
+        "due_date": "2026-05-15",
+        "created_date": "2026-05-13T13:28:35.400Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -7813,5 +7831,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-13T13:26:35.338Z"
+  "last_modified": "2026-05-13T13:28:35.400Z"
 }
