@@ -7950,6 +7950,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778880372933_hpm5um",
+        "rep": "Crly Alvarado",
+        "prospect_id": "60c032fdc2f62c40",
+        "prospect_type": "nn",
+        "prospect_name": "Metro Honda",
+        "city": "New York",
+        "state": "NY",
+        "due_date": "2026-05-17",
+        "created_date": "2026-05-15T21:26:12.934Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -7995,5 +8013,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-15T21:25:29.714Z"
+  "last_modified": "2026-05-15T21:26:12.934Z"
 }
