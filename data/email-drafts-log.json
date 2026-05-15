@@ -521,8 +521,24 @@
       "draft_id": null,
       "cooldown_overridden": false,
       "previous_draft_days_ago": null
+    },
+    {
+      "timestamp": "2026-05-15T21:29:28.492Z",
+      "date": "2026-05-15",
+      "rep_email": "calvarado@informativ.com",
+      "rep_name": "calvarado@informativ.com",
+      "prospect_id": "54c03bbc2f2250e5",
+      "prospect_company": "Banner Chevrolet",
+      "template_id": "e03_speed_wins_deals",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": false,
+      "subject": "The best dealers know speed wins deals.",
+      "body_length": 944,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-15T21:28:06.729Z",
+  "last_updated": "2026-05-15T21:29:28.492Z",
   "schema_version": "1.0.0"
 }
