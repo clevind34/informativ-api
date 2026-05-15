@@ -505,8 +505,24 @@
       "draft_id": null,
       "cooldown_overridden": true,
       "previous_draft_days_ago": 1
+    },
+    {
+      "timestamp": "2026-05-15T21:28:06.729Z",
+      "date": "2026-05-15",
+      "rep_email": "calvarado@informativ.com",
+      "rep_name": "calvarado@informativ.com",
+      "prospect_id": "d34dc3afcfce9e0b",
+      "prospect_company": "Banner Ford",
+      "template_id": "e17_one_platform",
+      "delivery_mode": "outlook_web_compose",
+      "personalization_warning": true,
+      "subject": "One platform, all the tools you need.",
+      "body_length": 610,
+      "draft_id": null,
+      "cooldown_overridden": false,
+      "previous_draft_days_ago": null
     }
   ],
-  "last_updated": "2026-05-13T20:53:48.349Z",
+  "last_updated": "2026-05-15T21:28:06.729Z",
   "schema_version": "1.0.0"
 }
