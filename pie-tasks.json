@@ -7986,6 +7986,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1778880548921_s2gi4k",
+        "rep": "Crly Alvarado",
+        "prospect_id": "d34dc3afcfce9e0b",
+        "prospect_type": "nn",
+        "prospect_name": "Banner Ford",
+        "city": "",
+        "state": "LA",
+        "due_date": "2026-05-18",
+        "created_date": "2026-05-15T21:29:08.921Z",
+        "completed_date": null,
+        "note": "Email Sent",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Tim Canley": [
@@ -8031,5 +8049,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-15T21:26:14.699Z"
+  "last_modified": "2026-05-15T21:29:08.921Z"
 }
