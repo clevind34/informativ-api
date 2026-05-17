@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-17T22:02:35Z",
+  "generated_at": "2026-05-17T22:03:05Z",
   "period": "May 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -380,7 +380,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 49,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 35,
         "quota_attainment": 30,
@@ -550,7 +550,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 54,
-      "composite_trend": "+2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 57,
         "quota_attainment": 50,
@@ -720,7 +720,7 @@
       "team": "CS",
       "manager": "Michael Byrd",
       "composite_score": 17,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -837,7 +837,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 76,
-      "composite_trend": "+7",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 68,
         "quota_attainment": 59,
@@ -1006,7 +1006,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 42,
-      "composite_trend": "+1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 33,
         "quota_attainment": 29,
@@ -1463,7 +1463,7 @@
       "team": "Bordenet",
       "manager": "Teresa Bordenet",
       "composite_score": 0,
-      "composite_trend": "-9",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 1,
         "quota_attainment": 0,
@@ -1677,7 +1677,7 @@
       "manager": "Michael Byrd",
       "isHidden": true,
       "composite_score": 21,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 4,
         "quota_attainment": 3,
@@ -2045,7 +2045,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 33,
-      "composite_trend": "-2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 19,
         "quota_attainment": 16,
@@ -2215,7 +2215,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 3,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2342,7 +2342,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 16,
-      "composite_trend": "-1",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
@@ -2812,7 +2812,7 @@
       "team": "Carlucci",
       "manager": "Joel Carlucci",
       "composite_score": 25,
-      "composite_trend": "+2",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 2,
         "quota_attainment": 2,
@@ -2948,7 +2948,7 @@
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 66,
-      "composite_trend": "+3",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 85,
         "quota_attainment": 47,
@@ -3116,7 +3116,7 @@
       "team": "Knievel",
       "manager": "Curtis Knievel",
       "composite_score": 19,
-      "composite_trend": "-4",
+      "composite_trend": "0",
       "dimension_scores": {
         "cw_bookings": 0,
         "quota_attainment": 0,
