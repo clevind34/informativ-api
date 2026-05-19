@@ -459,14 +459,14 @@
       "programs_certified_count": 2,
       "applicable_program_count": 7,
       "program_progress": {
-        "smartpencil_cert": {
+        "payments_channel_cert": {
           "passed_modules": 6,
           "total_modules": 6,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
         },
-        "payments_channel_cert": {
+        "smartpencil_cert": {
           "passed_modules": 6,
           "total_modules": 6,
           "status": "certified",
@@ -674,6 +674,13 @@
           "last_quiz_date": "2026-04-24T13:40:47.580Z",
           "source": "gateway"
         },
+        "value_selling_cert": {
+          "passed_modules": 6,
+          "total_modules": 6,
+          "status": "certified",
+          "last_quiz_date": null,
+          "source": "legacy"
+        },
         "tier_cert": {
           "passed_modules": 4,
           "total_modules": 4,
@@ -682,13 +689,6 @@
           "source": "legacy"
         },
         "smartpencil_cert": {
-          "passed_modules": 6,
-          "total_modules": 6,
-          "status": "certified",
-          "last_quiz_date": null,
-          "source": "legacy"
-        },
-        "value_selling_cert": {
           "passed_modules": 6,
           "total_modules": 6,
           "status": "certified",
@@ -1336,20 +1336,6 @@
       "programs_certified_count": 5,
       "applicable_program_count": 6,
       "program_progress": {
-        "value_selling_cert": {
-          "passed_modules": 6,
-          "total_modules": 6,
-          "status": "certified",
-          "last_quiz_date": null,
-          "source": "legacy"
-        },
-        "total_solutions_sales_cert": {
-          "passed_modules": 9,
-          "total_modules": 9,
-          "status": "certified",
-          "last_quiz_date": null,
-          "source": "legacy"
-        },
         "total_solutions_manager_cert": {
           "passed_modules": 8,
           "total_modules": 8,
@@ -1371,9 +1357,23 @@
           "last_quiz_date": null,
           "source": "legacy"
         },
+        "total_solutions_sales_cert": {
+          "passed_modules": 9,
+          "total_modules": 9,
+          "status": "certified",
+          "last_quiz_date": null,
+          "source": "legacy"
+        },
         "informativ_method_cert": {
           "passed_modules": 12,
           "total_modules": 12,
+          "status": "certified",
+          "last_quiz_date": null,
+          "source": "legacy"
+        },
+        "value_selling_cert": {
+          "passed_modules": 6,
+          "total_modules": 6,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
@@ -1765,6 +1765,6 @@
     ],
     "cs_method_cert": []
   },
-  "last_synced": "2026-05-19T12:32:28.029719+00:00",
+  "last_synced": "2026-05-19T12:33:54.033977+00:00",
   "sync_source": "gateway:cert-progress.json"
 }
