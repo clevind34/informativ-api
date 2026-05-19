@@ -6326,6 +6326,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1779211059867_5i6n32",
+        "rep": "Trish Smith",
+        "prospect_id": "7f1cf9efb7ebb78e",
+        "prospect_type": "nn",
+        "prospect_name": "Allen Samuels Auto Group",
+        "city": "",
+        "state": "TX",
+        "due_date": "2026-05-22",
+        "created_date": "2026-05-19T17:17:39.867Z",
+        "completed_date": null,
+        "note": "Contacted - Follow Up",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -8139,5 +8157,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-19T17:17:15.127Z"
+  "last_modified": "2026-05-19T17:17:39.867Z"
 }
