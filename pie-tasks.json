@@ -6308,6 +6308,24 @@
         "disposition_id": null,
         "chuck_output": null,
         "completion_note": null
+      },
+      {
+        "id": "task_1779211035127_oyahh0",
+        "rep": "Trish Smith",
+        "prospect_id": "76ef1830c46ae614",
+        "prospect_type": "nn",
+        "prospect_name": "Bruner Auto Group - Early",
+        "city": "",
+        "state": "TX",
+        "due_date": "2026-05-21",
+        "created_date": "2026-05-19T17:17:15.127Z",
+        "completed_date": null,
+        "note": "Left Voicemail",
+        "status": "open",
+        "source": "disposition_auto",
+        "disposition_id": null,
+        "chuck_output": null,
+        "completion_note": null
       }
     ],
     "Carol Sanford": [
@@ -8121,5 +8139,5 @@
   },
   "schema_version": "1.0",
   "created_at": "2026-04-24T13:45:08.552Z",
-  "last_modified": "2026-05-19T17:16:56.171Z"
+  "last_modified": "2026-05-19T17:17:15.127Z"
 }
