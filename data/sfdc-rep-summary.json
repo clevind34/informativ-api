@@ -1,1 +1,1793 @@
-{"computed_at":"2026-05-19T10:39:19.748182+00:00","data_source":"salesforce_mcp_cache","org_summary":{"reps_total":14,"reps_active_today":9,"reps_active_yesterday":9,"reps_active_week":11,"reps_active_month":12,"total_today":54,"total_yesterday":40,"total_week":161,"total_month":887,"total_90d":3756,"stage_changes_today":0,"stage_changes_yesterday":25,"stage_changes_week":25,"stage_changes_month":367,"stage_changes_90d":3013,"pipeline_count":313,"pipeline_amount":47475662.14,"stale_opps":232},"team_summaries":{"Teresa Bordenet":{"team":"Bordenet","reps":8,"active_reps_week":6,"active_reps_month":6,"total_today":46,"total_yesterday":21,"total_week":116,"total_month":559,"total_90d":2333,"stage_changes_today":0,"stage_changes_yesterday":10,"stage_changes_week":10,"stage_changes_month":166,"stage_changes_90d":1845,"pipeline_count":181,"pipeline_amount":30634251.73,"stale_opps":142},"Joel Carlucci":{"team":"Carlucci","reps":6,"active_reps_week":4,"active_reps_month":4,"total_today":3,"total_yesterday":15,"total_week":32,"total_month":334,"total_90d":1864,"stage_changes_today":0,"stage_changes_yesterday":3,"stage_changes_week":3,"stage_changes_month":65,"stage_changes_90d":917,"pipeline_count":61,"pipeline_amount":5765105.92,"stale_opps":17},"Curtis Knievel":{"team":"Knievel","reps":3,"active_reps_week":2,"active_reps_month":2,"total_today":5,"total_yesterday":5,"total_week":15,"total_month":73,"total_90d":429,"stage_changes_today":0,"stage_changes_yesterday":12,"stage_changes_week":12,"stage_changes_month":141,"stage_changes_90d":718,"pipeline_count":96,"pipeline_amount":13141383.83,"stale_opps":87}},"rep_summaries":[{"rep":"Ashton Gough","team":"Carlucci","manager":"Joel Carlucci","is_hidden":false,"is_departed":false,"pattern":"task_driven","pattern_focus":"Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?","hygiene_flag":"critical","top_stale_opps":[{"account":"Harper Autos Group","stage":"Tech Demo","amount":360000.0,"days_since_activity":84,"days_in_stage":103,"close_date":"2026-06-30"},{"account":"Walnut Creek Chrysler Jeep Dodge Ram","stage":"Solution Fit","amount":215000.0,"days_since_activity":35,"days_in_stage":96,"close_date":"2026-05-31"},{"account":"Ford Lincoln Fairfield","stage":"Solution Fit","amount":180000.0,"days_since_activity":null,"days_in_stage":35,"close_date":"2026-06-30"},{"account":"Nelson Group Automotive","stage":"Tech Demo","amount":136456.04,"days_since_activity":57,"days_in_stage":277,"close_date":"2026-06-30"},{"account":"Simpson Family Dealerships","stage":"Solution Fit","amount":105000.0,"days_since_activity":35,"days_in_stage":165,"close_date":"2026-06-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":14,"tasks_90d":383,"events_today":1,"events_yesterday":0,"events_week":4,"events_month":22,"events_90d":103,"total_today":1,"total_yesterday":0,"total_week":4,"total_month":36,"total_90d":486},"activity_breakdown_90d":{"calls":379,"emails":0,"meetings_logged":0,"events_calendar":103,"meetings_combined":103,"site_visits":1,"voicemails":0,"texts":2,"other":1},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":34,"changes_90d":258,"stage_progressions_30d":1,"stage_progressions_90d":0},"pipeline":{"open_opp_count":20,"open_opp_amount":1913184.96,"stale_opp_count":14,"opps_with_recent_activity":1,"opps_no_activity_ever":4,"engagement_pct":5.0}},{"rep":"Brock Hutchinson","team":"Carlucci","manager":"Joel Carlucci","is_hidden":false,"is_departed":false,"pattern":"low_engagement","pattern_focus":"Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.","hygiene_flag":"healthy","top_stale_opps":[{"account":"Bachman Auto Group Inc","stage":"Solution Fit","amount":160000.0,"days_since_activity":null,"days_in_stage":22,"close_date":"2026-05-31"}],"activity":{"tasks_today":0,"tasks_yesterday":10,"tasks_week":14,"tasks_month":103,"tasks_90d":178,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":4,"events_90d":8,"total_today":0,"total_yesterday":10,"total_week":14,"total_month":107,"total_90d":186},"activity_breakdown_90d":{"calls":154,"emails":23,"meetings_logged":0,"events_calendar":8,"meetings_combined":8,"site_visits":1,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":2,"changes_week":2,"changes_month":13,"changes_90d":74,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":11,"open_opp_amount":1579800.0,"stale_opp_count":1,"opps_with_recent_activity":0,"opps_no_activity_ever":1,"engagement_pct":0.0}},{"rep":"Carol Sanford","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":false,"is_departed":false,"pattern":"task_driven","pattern_focus":"Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?","hygiene_flag":"critical","top_stale_opps":[{"account":"Findlay Automotive Group","stage":"Tech Demo","amount":1949832.0,"days_since_activity":35,"days_in_stage":166,"close_date":"2026-07-31"},{"account":"GMC of Riverfront Park","stage":"Solution Fit","amount":185999.0,"days_since_activity":77,"days_in_stage":272,"close_date":"2026-05-29"},{"account":"Sunset Imports","stage":"Tech Demo","amount":155346.32,"days_since_activity":57,"days_in_stage":78,"close_date":"2026-05-15"},{"account":"Jerry V's Auto Group","stage":"Tech Demo","amount":120000.0,"days_since_activity":77,"days_in_stage":102,"close_date":"2026-05-29"},{"account":"Korum Automotive Group","stage":"Solution Fit","amount":116119.0,"days_since_activity":55,"days_in_stage":77,"close_date":"2026-05-29"}],"activity":{"tasks_today":2,"tasks_yesterday":6,"tasks_week":9,"tasks_month":70,"tasks_90d":316,"events_today":3,"events_yesterday":2,"events_week":12,"events_month":40,"events_90d":184,"total_today":5,"total_yesterday":8,"total_week":21,"total_month":110,"total_90d":500},"activity_breakdown_90d":{"calls":185,"emails":31,"meetings_logged":7,"events_calendar":184,"meetings_combined":191,"site_visits":39,"voicemails":23,"texts":28,"other":3},"pipeline_movement":{"changes_today":0,"changes_yesterday":5,"changes_week":5,"changes_month":61,"changes_90d":447,"stage_progressions_30d":3,"stage_progressions_90d":0},"pipeline":{"open_opp_count":24,"open_opp_amount":8560890.78,"stale_opp_count":13,"opps_with_recent_activity":3,"opps_no_activity_ever":3,"engagement_pct":12.5}},{"rep":"Clarence Romero","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":false,"is_departed":false,"pattern":"low_engagement","pattern_focus":"Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.","hygiene_flag":"critical","top_stale_opps":[{"account":"DePaula Auto Group Parent","stage":"Solution Fit","amount":72000.0,"days_since_activity":47,"days_in_stage":77,"close_date":"2026-06-30"},{"account":"Ciocca Dealerships","stage":"Tech Demo","amount":63831.72,"days_since_activity":33,"days_in_stage":70,"close_date":"2026-04-30"},{"account":"Otto Cadillac Inc.","stage":"Solution Fit","amount":40000.0,"days_since_activity":35,"days_in_stage":40,"close_date":"2026-06-30"},{"account":"GPB Cars LLC","stage":"Solution Fit","amount":39000.0,"days_since_activity":null,"days_in_stage":74,"close_date":"2026-07-31"},{"account":"Jeff Kies Auto Sales Inc","stage":"Solution Fit","amount":0.0,"days_since_activity":null,"days_in_stage":22,"close_date":"2026-06-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":2,"tasks_90d":113,"events_today":1,"events_yesterday":0,"events_week":4,"events_month":33,"events_90d":71,"total_today":1,"total_yesterday":0,"total_week":4,"total_month":35,"total_90d":184},"activity_breakdown_90d":{"calls":65,"emails":48,"meetings_logged":0,"events_calendar":71,"meetings_combined":71,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":1,"changes_week":1,"changes_month":2,"changes_90d":40,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":7,"open_opp_amount":261631.72,"stale_opp_count":5,"opps_with_recent_activity":0,"opps_no_activity_ever":2,"engagement_pct":0.0}},{"rep":"Crly Alvarado","team":"Knievel","manager":"Curtis Knievel","is_hidden":false,"is_departed":false,"pattern":"low_engagement","pattern_focus":"Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.","hygiene_flag":"critical","top_stale_opps":[{"account":"Penske Automotive Group","stage":"Tech Demo","amount":1400000.0,"days_since_activity":null,"days_in_stage":50,"close_date":"2026-06-30"},{"account":"Auto Lenders","stage":"Committed","amount":635651.68,"days_since_activity":84,"days_in_stage":94,"close_date":"2026-04-30"},{"account":"Ratio Tech_Group Parent","stage":"Solution Fit","amount":565384.4,"days_since_activity":null,"days_in_stage":42,"close_date":"2026-06-30"},{"account":"Victory Home Remodeling_Group Parent","stage":"Solution Fit","amount":497463.52,"days_since_activity":null,"days_in_stage":68,"close_date":"2026-05-15"},{"account":"NXTMOVES Inc_Group Parent","stage":"Proposal","amount":442869.4,"days_since_activity":48,"days_in_stage":61,"close_date":"2026-05-15"}],"activity":{"tasks_today":1,"tasks_yesterday":1,"tasks_week":3,"tasks_month":9,"tasks_90d":54,"events_today":1,"events_yesterday":3,"events_week":6,"events_month":35,"events_90d":152,"total_today":2,"total_yesterday":4,"total_week":9,"total_month":44,"total_90d":206},"activity_breakdown_90d":{"calls":34,"emails":13,"meetings_logged":3,"events_calendar":152,"meetings_combined":155,"site_visits":0,"voicemails":0,"texts":0,"other":4},"pipeline_movement":{"changes_today":0,"changes_yesterday":12,"changes_week":12,"changes_month":130,"changes_90d":590,"stage_progressions_30d":5,"stage_progressions_90d":0},"pipeline":{"open_opp_count":68,"open_opp_amount":8844883.83,"stale_opp_count":63,"opps_with_recent_activity":5,"opps_no_activity_ever":41,"engagement_pct":7.4}},{"rep":"Curtis Knievel","team":"Knievel","manager":"Michael Byrd","is_hidden":true,"is_departed":false,"pattern":"manager","pattern_focus":"Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.","hygiene_flag":"critical","top_stale_opps":[{"account":"Epsilon","stage":"Solution Fit","amount":1200000.0,"days_since_activity":null,"days_in_stage":35,"close_date":"2026-06-30"},{"account":"AutoSmart by CUDL Group Parent","stage":"Solution Fit","amount":607500.0,"days_since_activity":null,"days_in_stage":189,"close_date":"2026-08-31"},{"account":"Tecobi","stage":"Solution Fit","amount":607500.0,"days_since_activity":null,"days_in_stage":157,"close_date":"2026-06-30"},{"account":"Cars Commerce","stage":"Solution Fit","amount":607500.0,"days_since_activity":null,"days_in_stage":98,"close_date":"2026-06-30"},{"account":"DriveCentric","stage":"Solution Fit","amount":607500.0,"days_since_activity":null,"days_in_stage":98,"close_date":"2026-09-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":0,"events_today":1,"events_yesterday":1,"events_week":2,"events_month":7,"events_90d":25,"total_today":1,"total_yesterday":1,"total_week":2,"total_month":7,"total_90d":25},"activity_breakdown_90d":{"calls":0,"emails":0,"meetings_logged":0,"events_calendar":25,"meetings_combined":25,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":0,"changes_90d":31,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":23,"open_opp_amount":5102500.0,"stale_opp_count":23,"opps_with_recent_activity":0,"opps_no_activity_ever":18,"engagement_pct":0.0}},{"rep":"David Castone","team":"Carlucci","manager":"Joel Carlucci","is_hidden":true,"is_departed":true,"pattern":"low_engagement","pattern_focus":"Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.","hygiene_flag":"healthy","top_stale_opps":[],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":177,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":0,"events_90d":46,"total_today":0,"total_yesterday":0,"total_week":0,"total_month":0,"total_90d":223},"activity_breakdown_90d":{"calls":144,"emails":1,"meetings_logged":0,"events_calendar":46,"meetings_combined":46,"site_visits":31,"voicemails":1,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":2,"changes_90d":242,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":3,"open_opp_amount":707800.0,"stale_opp_count":0,"opps_with_recent_activity":0,"opps_no_activity_ever":0,"engagement_pct":0.0}},{"rep":"Greg Cutlip","team":"Carlucci","manager":"Joel Carlucci","is_hidden":false,"is_departed":false,"pattern":"stalled","pattern_focus":"Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.","hygiene_flag":"na","top_stale_opps":[],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":0,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":0,"events_90d":0,"total_today":0,"total_yesterday":0,"total_week":0,"total_month":0,"total_90d":0},"activity_breakdown_90d":{"calls":0,"emails":0,"meetings_logged":0,"events_calendar":0,"meetings_combined":0,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":0,"changes_90d":0,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":0,"open_opp_amount":0,"stale_opp_count":0,"opps_with_recent_activity":0,"opps_no_activity_ever":0,"engagement_pct":0.0}},{"rep":"Jackson Bellinghausen","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":false,"is_departed":false,"pattern":"stalled","pattern_focus":"Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.","hygiene_flag":"na","top_stale_opps":[],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":0,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":0,"events_90d":0,"total_today":0,"total_yesterday":0,"total_week":0,"total_month":0,"total_90d":0},"activity_breakdown_90d":{"calls":0,"emails":0,"meetings_logged":0,"events_calendar":0,"meetings_combined":0,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":0,"changes_90d":0,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":0,"open_opp_amount":0,"stale_opp_count":0,"opps_with_recent_activity":0,"opps_no_activity_ever":0,"engagement_pct":0.0}},{"rep":"Joel Carlucci","team":"Carlucci","manager":"Michael Byrd","is_hidden":true,"is_departed":false,"pattern":"manager","pattern_focus":"Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.","hygiene_flag":"healthy","top_stale_opps":[],"activity":{"tasks_today":1,"tasks_yesterday":8,"tasks_week":16,"tasks_month":67,"tasks_90d":437,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":6,"events_90d":62,"total_today":1,"total_yesterday":8,"total_week":16,"total_month":73,"total_90d":499},"activity_breakdown_90d":{"calls":381,"emails":45,"meetings_logged":5,"events_calendar":62,"meetings_combined":67,"site_visits":0,"voicemails":0,"texts":6,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":0,"changes_90d":148,"stage_progressions_30d":2,"stage_progressions_90d":0},"pipeline":{"open_opp_count":10,"open_opp_amount":712460.92,"stale_opp_count":0,"opps_with_recent_activity":2,"opps_no_activity_ever":0,"engagement_pct":20.0}},{"rep":"Kiristen Sandoval","team":"CS","manager":"Michael Byrd","is_hidden":true,"is_departed":false,"pattern":"manager","pattern_focus":"Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.","hygiene_flag":"critical","top_stale_opps":[{"account":"Ed Voyles Automotive Group","stage":"Proposal","amount":274844.4,"days_since_activity":47,"days_in_stage":83,"close_date":"2026-04-30"},{"account":"Mossy Automotive Group","stage":"Tech Demo","amount":140638.2,"days_since_activity":null,"days_in_stage":60,"close_date":"2026-04-30"},{"account":"RML Automotive (TX)","stage":"Committed","amount":76032.0,"days_since_activity":null,"days_in_stage":109,"close_date":"2026-04-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":1,"tasks_90d":6,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":0,"events_90d":0,"total_today":0,"total_yesterday":0,"total_week":0,"total_month":1,"total_90d":6},"activity_breakdown_90d":{"calls":2,"emails":4,"meetings_logged":0,"events_calendar":0,"meetings_combined":0,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":3,"changes_90d":240,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":3,"open_opp_amount":491514.6,"stale_opp_count":3,"opps_with_recent_activity":0,"opps_no_activity_ever":2,"engagement_pct":0.0}},{"rep":"Loren Rivera","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":true,"is_departed":true,"pattern":"stalled","pattern_focus":"Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.","hygiene_flag":"na","top_stale_opps":[],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":28,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":0,"events_90d":70,"total_today":0,"total_yesterday":0,"total_week":0,"total_month":0,"total_90d":98},"activity_breakdown_90d":{"calls":28,"emails":0,"meetings_logged":0,"events_calendar":70,"meetings_combined":70,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":0,"changes_90d":80,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":0,"open_opp_amount":0,"stale_opp_count":0,"opps_with_recent_activity":0,"opps_no_activity_ever":0,"engagement_pct":0.0}},{"rep":"Matt Hanaman","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":false,"is_departed":false,"pattern":"task_driven","pattern_focus":"Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?","hygiene_flag":"critical","top_stale_opps":[{"account":"Luther Automotive Group","stage":"Solution Fit","amount":1160000.0,"days_since_activity":39,"days_in_stage":39,"close_date":"2026-08-31"},{"account":"Victory Automotive Group","stage":"Solution Fit","amount":670000.0,"days_since_activity":null,"days_in_stage":74,"close_date":"2026-07-31"},{"account":"Morrie's Automotive Group","stage":"Solution Fit","amount":655000.0,"days_since_activity":null,"days_in_stage":74,"close_date":"2026-06-30"},{"account":"Van Horn Automotive Group","stage":"Solution Fit","amount":475000.0,"days_since_activity":33,"days_in_stage":76,"close_date":"2026-06-30"},{"account":"Leman Auto Group","stage":"Solution Fit","amount":440000.0,"days_since_activity":null,"days_in_stage":96,"close_date":"2026-05-31"}],"activity":{"tasks_today":36,"tasks_yesterday":0,"tasks_week":67,"tasks_month":194,"tasks_90d":363,"events_today":1,"events_yesterday":4,"events_week":6,"events_month":33,"events_90d":180,"total_today":37,"total_yesterday":4,"total_week":73,"total_month":227,"total_90d":543},"activity_breakdown_90d":{"calls":362,"emails":0,"meetings_logged":1,"events_calendar":180,"meetings_combined":181,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":4,"changes_week":4,"changes_month":47,"changes_90d":381,"stage_progressions_30d":3,"stage_progressions_90d":0},"pipeline":{"open_opp_count":21,"open_opp_amount":6085440.44,"stale_opp_count":12,"opps_with_recent_activity":3,"opps_no_activity_ever":9,"engagement_pct":14.3}},{"rep":"Michael Byrd","team":"Executive","manager":null,"is_hidden":false,"is_departed":false,"pattern":"low_engagement","pattern_focus":"Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.","hygiene_flag":"na","top_stale_opps":[],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":22,"tasks_90d":127,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":0,"events_90d":6,"total_today":0,"total_yesterday":0,"total_week":0,"total_month":22,"total_90d":133},"activity_breakdown_90d":{"calls":127,"emails":0,"meetings_logged":0,"events_calendar":6,"meetings_combined":6,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":0,"changes_90d":0,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":0,"open_opp_amount":0,"stale_opp_count":0,"opps_with_recent_activity":0,"opps_no_activity_ever":0,"engagement_pct":0.0}},{"rep":"Nick Moyes","team":"Knievel","manager":"Curtis Knievel","is_hidden":true,"is_departed":true,"pattern":"low_engagement","pattern_focus":"Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.","hygiene_flag":"critical","top_stale_opps":[{"account":"Matthews Auto Group","stage":"Solution Fit","amount":150000.0,"days_since_activity":99,"days_in_stage":89,"close_date":"2026-05-31"},{"account":"Acadiana Automotive Group","stage":"Tech Demo","amount":25000.0,"days_since_activity":111,"days_in_stage":89,"close_date":"2026-05-31"},{"account":"Star Ford Lincoln, Inc.","stage":"Solution Fit","amount":24000.0,"days_since_activity":null,"days_in_stage":97,"close_date":"2026-06-30"},{"account":"South Dakota Auto Dealers Association","stage":"NDA","amount":0.0,"days_since_activity":148,"days_in_stage":147,"close_date":"2025-12-31"},{"account":"Montana Automobile Dealers Association","stage":"Proposal","amount":0.0,"days_since_activity":118,"days_in_stage":158,"close_date":"2025-12-31"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":31,"events_today":0,"events_yesterday":0,"events_week":0,"events_month":0,"events_90d":68,"total_today":0,"total_yesterday":0,"total_week":0,"total_month":0,"total_90d":99},"activity_breakdown_90d":{"calls":10,"emails":17,"meetings_logged":0,"events_calendar":68,"meetings_combined":68,"site_visits":0,"voicemails":4,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":0,"changes_90d":45,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":12,"open_opp_amount":199000.0,"stale_opp_count":12,"opps_with_recent_activity":0,"opps_no_activity_ever":7,"engagement_pct":0.0}},{"rep":"Tami Richter","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":false,"is_departed":false,"pattern":"stalled","pattern_focus":"Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.","hygiene_flag":"critical","top_stale_opps":[{"account":"Rick Case Automotive Group","stage":"Solution Fit","amount":1330611.96,"days_since_activity":null,"days_in_stage":98,"close_date":"2026-05-30"},{"account":"Krause Auto Group","stage":"Committed","amount":894318.0,"days_since_activity":null,"days_in_stage":230,"close_date":"2026-05-30"},{"account":"Gettel Automotive Group","stage":"Tech Demo","amount":700000.0,"days_since_activity":null,"days_in_stage":412,"close_date":"2026-04-30"},{"account":"Morgan Auto Group","stage":"Proposal","amount":584307.64,"days_since_activity":517,"days_in_stage":560,"close_date":"2026-05-30"},{"account":"Potamkin Automotive Group","stage":"Proposal","amount":520736.28,"days_since_activity":null,"days_in_stage":411,"close_date":"2026-05-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":2,"events_today":2,"events_yesterday":1,"events_week":4,"events_month":30,"events_90d":132,"total_today":2,"total_yesterday":1,"total_week":4,"total_month":30,"total_90d":134},"activity_breakdown_90d":{"calls":2,"emails":0,"meetings_logged":0,"events_calendar":132,"meetings_combined":132,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":41,"changes_90d":611,"stage_progressions_30d":2,"stage_progressions_90d":0},"pipeline":{"open_opp_count":94,"open_opp_amount":10672560.73,"stale_opp_count":90,"opps_with_recent_activity":2,"opps_no_activity_ever":68,"engagement_pct":2.1}},{"rep":"Teresa Bordenet","team":"Bordenet","manager":"Michael Byrd","is_hidden":true,"is_departed":false,"pattern":"manager","pattern_focus":"Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.","hygiene_flag":"critical","top_stale_opps":[{"account":"SCS Cloud Test Account","stage":"Solution Fit","amount":0.0,"days_since_activity":null,"days_in_stage":26,"close_date":"2026-04-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":0,"tasks_90d":0,"events_today":1,"events_yesterday":0,"events_week":1,"events_month":10,"events_90d":28,"total_today":1,"total_yesterday":0,"total_week":1,"total_month":10,"total_90d":28},"activity_breakdown_90d":{"calls":0,"emails":0,"meetings_logged":0,"events_calendar":28,"meetings_combined":28,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":4,"changes_week":4,"changes_month":5,"changes_90d":16,"stage_progressions_30d":0,"stage_progressions_90d":0},"pipeline":{"open_opp_count":1,"open_opp_amount":0.0,"stale_opp_count":1,"opps_with_recent_activity":0,"opps_no_activity_ever":1,"engagement_pct":0.0}},{"rep":"Tim Canley","team":"Knievel","manager":"Curtis Knievel","is_hidden":false,"is_departed":false,"pattern":"low_engagement","pattern_focus":"Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.","hygiene_flag":"critical","top_stale_opps":[{"account":"TrueCar, Inc.","stage":"Solution Fit","amount":605000.0,"days_since_activity":null,"days_in_stage":34,"close_date":"2026-06-30"},{"account":"C-4 Analytics","stage":"Tech Demo","amount":350000.0,"days_since_activity":81,"days_in_stage":42,"close_date":"2026-05-31"},{"account":"Amazon Autos","stage":"Solution Fit","amount":350000.0,"days_since_activity":null,"days_in_stage":32,"close_date":"2026-10-31"},{"account":"Pureinfluencer","stage":"Solution Fit","amount":315000.0,"days_since_activity":837,"days_in_stage":32,"close_date":"2026-08-31"},{"account":"Controlled Logic","stage":"Solution Fit","amount":157500.0,"days_since_activity":42,"days_in_stage":42,"close_date":"2026-06-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":8,"tasks_90d":37,"events_today":3,"events_yesterday":1,"events_week":6,"events_month":21,"events_90d":87,"total_today":3,"total_yesterday":1,"total_week":6,"total_month":29,"total_90d":124},"activity_breakdown_90d":{"calls":6,"emails":31,"meetings_logged":0,"events_calendar":87,"meetings_combined":87,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":11,"changes_90d":83,"stage_progressions_30d":3,"stage_progressions_90d":0},"pipeline":{"open_opp_count":16,"open_opp_amount":4097500.0,"stale_opp_count":12,"opps_with_recent_activity":3,"opps_no_activity_ever":9,"engagement_pct":18.8}},{"rep":"Tom Meredith","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":true,"is_departed":true,"pattern":"task_driven","pattern_focus":"Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?","hygiene_flag":"healthy","top_stale_opps":[{"account":"Ruges Auto Group Parent","stage":"Proposal","amount":33920.8,"days_since_activity":34,"days_in_stage":50,"close_date":"2026-05-15"},{"account":"Dansville Chrysler Dodge Jeep","stage":"Solution Fit","amount":15000.0,"days_since_activity":null,"days_in_stage":33,"close_date":"2026-06-30"}],"activity":{"tasks_today":0,"tasks_yesterday":0,"tasks_week":0,"tasks_month":56,"tasks_90d":388,"events_today":0,"events_yesterday":1,"events_week":2,"events_month":45,"events_90d":195,"total_today":0,"total_yesterday":1,"total_week":2,"total_month":101,"total_90d":583},"activity_breakdown_90d":{"calls":386,"emails":0,"meetings_logged":2,"events_calendar":195,"meetings_combined":197,"site_visits":0,"voicemails":0,"texts":0,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":3,"changes_90d":100,"stage_progressions_30d":1,"stage_progressions_90d":0},"pipeline":{"open_opp_count":10,"open_opp_amount":1158279.34,"stale_opp_count":2,"opps_with_recent_activity":1,"opps_no_activity_ever":1,"engagement_pct":10.0}},{"rep":"Trish Smith","team":"Bordenet","manager":"Teresa Bordenet","is_hidden":false,"is_departed":false,"pattern":"task_driven","pattern_focus":"Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?","hygiene_flag":"critical","top_stale_opps":[{"account":"Kahlig Auto Group","stage":"Tech Demo","amount":800000.0,"days_since_activity":null,"days_in_stage":102,"close_date":"2026-05-29"},{"account":"Auto Inc","stage":"Solution Fit","amount":474000.0,"days_since_activity":40,"days_in_stage":424,"close_date":"2026-05-08"},{"account":"Hiley Auto Group","stage":"Solution Fit","amount":300000.0,"days_since_activity":40,"days_in_stage":196,"close_date":"2026-06-05"},{"account":"Continental Automotive Group","stage":"Solution Fit","amount":280000.0,"days_since_activity":40,"days_in_stage":102,"close_date":"2026-05-08"},{"account":"RML Automotive (TX)","stage":"Tech Demo","amount":195963.12,"days_since_activity":40,"days_in_stage":99,"close_date":"2026-04-30"}],"activity":{"tasks_today":0,"tasks_yesterday":7,"tasks_week":7,"tasks_month":33,"tasks_90d":205,"events_today":1,"events_yesterday":0,"events_week":5,"events_month":23,"events_90d":86,"total_today":1,"total_yesterday":7,"total_week":12,"total_month":56,"total_90d":291},"activity_breakdown_90d":{"calls":199,"emails":0,"meetings_logged":0,"events_calendar":86,"meetings_combined":86,"site_visits":4,"voicemails":0,"texts":2,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":12,"changes_90d":186,"stage_progressions_30d":1,"stage_progressions_90d":0},"pipeline":{"open_opp_count":25,"open_opp_amount":3895448.72,"stale_opp_count":20,"opps_with_recent_activity":1,"opps_no_activity_ever":2,"engagement_pct":4.0}},{"rep":"Ward Carroll","team":"Carlucci","manager":"Joel Carlucci","is_hidden":false,"is_departed":false,"pattern":"task_driven","pattern_focus":"Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?","hygiene_flag":"healthy","top_stale_opps":[{"account":"Import Performance","stage":"Solution Fit","amount":45000.0,"days_since_activity":40,"days_in_stage":42,"close_date":"2026-06-30"},{"account":"Glorious Motorsports","stage":"Solution Fit","amount":40000.0,"days_since_activity":null,"days_in_stage":41,"close_date":"2026-06-30"}],"activity":{"tasks_today":0,"tasks_yesterday":1,"tasks_week":2,"tasks_month":15,"tasks_90d":322,"events_today":2,"events_yesterday":2,"events_week":7,"events_month":21,"events_90d":102,"total_today":2,"total_yesterday":3,"total_week":9,"total_month":36,"total_90d":424},"activity_breakdown_90d":{"calls":279,"emails":2,"meetings_logged":0,"events_calendar":102,"meetings_combined":102,"site_visits":18,"voicemails":14,"texts":9,"other":0},"pipeline_movement":{"changes_today":0,"changes_yesterday":1,"changes_week":1,"changes_month":15,"changes_90d":157,"stage_progressions_30d":2,"stage_progressions_90d":0},"pipeline":{"open_opp_count":16,"open_opp_amount":1246200.0,"stale_opp_count":2,"opps_with_recent_activity":2,"opps_no_activity_ever":2,"engagement_pct":12.5}},{"rep":"William Fowler","team":"Carlucci","manager":"Joel Carlucci","is_hidden":false,"is_departed":false,"pattern":"task_driven","pattern_focus":"Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?","hygiene_flag":"healthy","top_stale_opps":[],"activity":{"tasks_today":0,"tasks_yesterday":1,"tasks_week":2,"tasks_month":144,"tasks_90d":490,"events_today":0,"events_yesterday":1,"events_week":3,"events_month":11,"events_90d":55,"total_today":0,"total_yesterday":2,"total_week":5,"total_month":155,"total_90d":545},"activity_breakdown_90d":{"calls":396,"emails":11,"meetings_logged":0,"events_calendar":55,"meetings_combined":55,"site_visits":41,"voicemails":1,"texts":0,"other":41},"pipeline_movement":{"changes_today":0,"changes_yesterday":0,"changes_week":0,"changes_month":1,"changes_90d":186,"stage_progressions_30d":1,"stage_progressions_90d":0},"pipeline":{"open_opp_count":11,"open_opp_amount":318120.96,"stale_opp_count":0,"opps_with_recent_activity":1,"opps_no_activity_ever":0,"engagement_pct":9.1}}],"config":{"stale_threshold_days":30,"stale_movement_days":30,"recent_activity_days":14,"stale_rule":"No Tasks/Events in 30d AND no stage/amount movement in 30d","window_definitions":{"today":"TODAY (calendar)","week":"THIS_WEEK (Sun-Sat)","month":"THIS_MONTH (calendar)","90d":"LAST_N_DAYS:90 (rolling)"}}}
+{
+  "computed_at": "2026-05-19T16:19:39.551319+00:00",
+  "data_source": "salesforce_mcp_cache_patched_2026-05-19",
+  "org_summary": {
+    "reps_total": 14,
+    "reps_active_today": 9,
+    "reps_active_yesterday": 9,
+    "reps_active_week": 11,
+    "reps_active_month": 12,
+    "total_today": 54,
+    "total_yesterday": 40,
+    "total_week": 161,
+    "total_month": 887,
+    "total_90d": 3756,
+    "stage_changes_today": 0,
+    "stage_changes_yesterday": 25,
+    "stage_changes_week": 25,
+    "stage_changes_month": 367,
+    "stage_changes_90d": 3013,
+    "pipeline_count": 313,
+    "pipeline_amount": 47475662.14,
+    "stale_opps": 232
+  },
+  "team_summaries": {
+    "Teresa Bordenet": {
+      "team": "Bordenet",
+      "reps": 8,
+      "active_reps_week": 6,
+      "active_reps_month": 6,
+      "total_today": 46,
+      "total_yesterday": 21,
+      "total_week": 116,
+      "total_month": 559,
+      "total_90d": 2333,
+      "stage_changes_today": 0,
+      "stage_changes_yesterday": 10,
+      "stage_changes_week": 10,
+      "stage_changes_month": 166,
+      "stage_changes_90d": 1845,
+      "pipeline_count": 181,
+      "pipeline_amount": 30634251.73,
+      "stale_opps": 142
+    },
+    "Joel Carlucci": {
+      "team": "Carlucci",
+      "reps": 6,
+      "active_reps_week": 4,
+      "active_reps_month": 4,
+      "total_today": 3,
+      "total_yesterday": 15,
+      "total_week": 32,
+      "total_month": 334,
+      "total_90d": 1864,
+      "stage_changes_today": 0,
+      "stage_changes_yesterday": 3,
+      "stage_changes_week": 3,
+      "stage_changes_month": 65,
+      "stage_changes_90d": 917,
+      "pipeline_count": 61,
+      "pipeline_amount": 5765105.92,
+      "stale_opps": 17
+    },
+    "Curtis Knievel": {
+      "team": "Knievel",
+      "reps": 3,
+      "active_reps_week": 2,
+      "active_reps_month": 2,
+      "total_today": 5,
+      "total_yesterday": 5,
+      "total_week": 15,
+      "total_month": 73,
+      "total_90d": 429,
+      "stage_changes_today": 0,
+      "stage_changes_yesterday": 12,
+      "stage_changes_week": 12,
+      "stage_changes_month": 141,
+      "stage_changes_90d": 718,
+      "pipeline_count": 96,
+      "pipeline_amount": 13141383.83,
+      "stale_opps": 87
+    }
+  },
+  "rep_summaries": [
+    {
+      "rep": "Ashton Gough",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Harper Autos Group",
+          "stage": "Tech Demo",
+          "amount": 360000.0,
+          "days_since_activity": 84,
+          "days_in_stage": 103,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Walnut Creek Chrysler Jeep Dodge Ram",
+          "stage": "Solution Fit",
+          "amount": 215000.0,
+          "days_since_activity": 35,
+          "days_in_stage": 96,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "Ford Lincoln Fairfield",
+          "stage": "Solution Fit",
+          "amount": 180000.0,
+          "days_since_activity": null,
+          "days_in_stage": 35,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Nelson Group Automotive",
+          "stage": "Tech Demo",
+          "amount": 136456.04,
+          "days_since_activity": 57,
+          "days_in_stage": 277,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Simpson Family Dealerships",
+          "stage": "Solution Fit",
+          "amount": 105000.0,
+          "days_since_activity": 35,
+          "days_in_stage": 165,
+          "close_date": "2026-06-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 14,
+        "tasks_90d": 383,
+        "events_today": 1,
+        "events_yesterday": 0,
+        "events_week": 4,
+        "events_month": 22,
+        "events_90d": 103,
+        "total_today": 1,
+        "total_yesterday": 0,
+        "total_week": 4,
+        "total_month": 36,
+        "total_90d": 486
+      },
+      "activity_breakdown_90d": {
+        "calls": 379,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 103,
+        "meetings_combined": 103,
+        "site_visits": 1,
+        "voicemails": 0,
+        "texts": 2,
+        "other": 1
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 34,
+        "changes_90d": 258,
+        "stage_progressions_30d": 1,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 19,
+        "open_opp_amount": 1905385.92,
+        "stale_opp_count": 13,
+        "opps_with_recent_activity": 1,
+        "opps_no_activity_ever": 3,
+        "engagement_pct": 5.3
+      }
+    },
+    {
+      "rep": "Brock Hutchinson",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Bachman Auto Group Inc",
+          "stage": "Solution Fit",
+          "amount": 160000.0,
+          "days_since_activity": null,
+          "days_in_stage": 22,
+          "close_date": "2026-05-31"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 10,
+        "tasks_week": 14,
+        "tasks_month": 103,
+        "tasks_90d": 178,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 4,
+        "events_90d": 8,
+        "total_today": 0,
+        "total_yesterday": 10,
+        "total_week": 14,
+        "total_month": 107,
+        "total_90d": 186
+      },
+      "activity_breakdown_90d": {
+        "calls": 154,
+        "emails": 23,
+        "meetings_logged": 0,
+        "events_calendar": 8,
+        "meetings_combined": 8,
+        "site_visits": 1,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 2,
+        "changes_week": 2,
+        "changes_month": 13,
+        "changes_90d": 74,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 10,
+        "open_opp_amount": 1572000.0,
+        "stale_opp_count": 1,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 1,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Carol Sanford",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Findlay Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 1949832.0,
+          "days_since_activity": 35,
+          "days_in_stage": 166,
+          "close_date": "2026-07-31"
+        },
+        {
+          "account": "Sunset Imports",
+          "stage": "Tech Demo",
+          "amount": 155346.32,
+          "days_since_activity": 57,
+          "days_in_stage": 78,
+          "close_date": "2026-05-15"
+        },
+        {
+          "account": "Korum Automotive Group",
+          "stage": "Solution Fit",
+          "amount": 116119.0,
+          "days_since_activity": 55,
+          "days_in_stage": 77,
+          "close_date": "2026-05-29"
+        },
+        {
+          "account": "Schomp Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 84000.0,
+          "days_since_activity": null,
+          "days_in_stage": 102,
+          "close_date": "2026-05-29"
+        },
+        {
+          "account": "Muscle Motors Auto Sales, Inc.",
+          "stage": "Solution Fit",
+          "amount": 79720.0,
+          "days_since_activity": 56,
+          "days_in_stage": 75,
+          "close_date": "2026-05-29"
+        }
+      ],
+      "activity": {
+        "tasks_today": 2,
+        "tasks_yesterday": 6,
+        "tasks_week": 9,
+        "tasks_month": 70,
+        "tasks_90d": 316,
+        "events_today": 3,
+        "events_yesterday": 2,
+        "events_week": 12,
+        "events_month": 40,
+        "events_90d": 184,
+        "total_today": 5,
+        "total_yesterday": 8,
+        "total_week": 21,
+        "total_month": 110,
+        "total_90d": 500
+      },
+      "activity_breakdown_90d": {
+        "calls": 185,
+        "emails": 31,
+        "meetings_logged": 7,
+        "events_calendar": 184,
+        "meetings_combined": 191,
+        "site_visits": 39,
+        "voicemails": 23,
+        "texts": 28,
+        "other": 3
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 5,
+        "changes_week": 5,
+        "changes_month": 61,
+        "changes_90d": 447,
+        "stage_progressions_30d": 3,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 20,
+        "open_opp_amount": 8233693.78,
+        "stale_opp_count": 9,
+        "opps_with_recent_activity": 3,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 15.0
+      }
+    },
+    {
+      "rep": "Clarence Romero",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "DePaula Auto Group Parent",
+          "stage": "Solution Fit",
+          "amount": 72000.0,
+          "days_since_activity": 47,
+          "days_in_stage": 77,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Ciocca Dealerships",
+          "stage": "Tech Demo",
+          "amount": 63831.72,
+          "days_since_activity": 33,
+          "days_in_stage": 70,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "Otto Cadillac Inc.",
+          "stage": "Solution Fit",
+          "amount": 40000.0,
+          "days_since_activity": 35,
+          "days_in_stage": 40,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "GPB Cars LLC",
+          "stage": "Solution Fit",
+          "amount": 39000.0,
+          "days_since_activity": null,
+          "days_in_stage": 74,
+          "close_date": "2026-07-31"
+        },
+        {
+          "account": "Jeff Kies Auto Sales Inc",
+          "stage": "Solution Fit",
+          "amount": 0.0,
+          "days_since_activity": null,
+          "days_in_stage": 22,
+          "close_date": "2026-06-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 2,
+        "tasks_90d": 113,
+        "events_today": 1,
+        "events_yesterday": 0,
+        "events_week": 4,
+        "events_month": 33,
+        "events_90d": 71,
+        "total_today": 1,
+        "total_yesterday": 0,
+        "total_week": 4,
+        "total_month": 35,
+        "total_90d": 184
+      },
+      "activity_breakdown_90d": {
+        "calls": 65,
+        "emails": 48,
+        "meetings_logged": 0,
+        "events_calendar": 71,
+        "meetings_combined": 71,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 1,
+        "changes_week": 1,
+        "changes_month": 2,
+        "changes_90d": 40,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 7,
+        "open_opp_amount": 261631.72,
+        "stale_opp_count": 5,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Crly Alvarado",
+      "team": "Knievel",
+      "manager": "Curtis Knievel",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Penske Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 1400000.0,
+          "days_since_activity": null,
+          "days_in_stage": 50,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Auto Lenders",
+          "stage": "Committed",
+          "amount": 635651.68,
+          "days_since_activity": 84,
+          "days_in_stage": 94,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "Ratio Tech_Group Parent",
+          "stage": "Solution Fit",
+          "amount": 565384.4,
+          "days_since_activity": null,
+          "days_in_stage": 42,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Berkshire Hathaway",
+          "stage": "Proposal",
+          "amount": 440149.2,
+          "days_since_activity": null,
+          "days_in_stage": 161,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "BayWatch Technologies_Group Parent",
+          "stage": "Solution Fit",
+          "amount": 336002.4,
+          "days_since_activity": 49,
+          "days_in_stage": 81,
+          "close_date": "2026-05-29"
+        }
+      ],
+      "activity": {
+        "tasks_today": 1,
+        "tasks_yesterday": 1,
+        "tasks_week": 3,
+        "tasks_month": 9,
+        "tasks_90d": 54,
+        "events_today": 1,
+        "events_yesterday": 3,
+        "events_week": 6,
+        "events_month": 35,
+        "events_90d": 152,
+        "total_today": 2,
+        "total_yesterday": 4,
+        "total_week": 9,
+        "total_month": 44,
+        "total_90d": 206
+      },
+      "activity_breakdown_90d": {
+        "calls": 34,
+        "emails": 13,
+        "meetings_logged": 3,
+        "events_calendar": 152,
+        "meetings_combined": 155,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 4
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 12,
+        "changes_week": 12,
+        "changes_month": 130,
+        "changes_90d": 590,
+        "stage_progressions_30d": 5,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 32,
+        "open_opp_amount": 6228262.88,
+        "stale_opp_count": 27,
+        "opps_with_recent_activity": 5,
+        "opps_no_activity_ever": 19,
+        "engagement_pct": 15.6
+      }
+    },
+    {
+      "rep": "Curtis Knievel",
+      "team": "Knievel",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Epsilon",
+          "stage": "Solution Fit",
+          "amount": 1200000.0,
+          "days_since_activity": null,
+          "days_in_stage": 35,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "AutoSmart by CUDL Group Parent",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 189,
+          "close_date": "2026-08-31"
+        },
+        {
+          "account": "Tecobi",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 157,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Cars Commerce",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 98,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "DriveCentric",
+          "stage": "Solution Fit",
+          "amount": 607500.0,
+          "days_since_activity": null,
+          "days_in_stage": 98,
+          "close_date": "2026-09-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 0,
+        "events_today": 1,
+        "events_yesterday": 1,
+        "events_week": 2,
+        "events_month": 7,
+        "events_90d": 25,
+        "total_today": 1,
+        "total_yesterday": 1,
+        "total_week": 2,
+        "total_month": 7,
+        "total_90d": 25
+      },
+      "activity_breakdown_90d": {
+        "calls": 0,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 25,
+        "meetings_combined": 25,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 31,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 22,
+        "open_opp_amount": 5052500.0,
+        "stale_opp_count": 22,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 17,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "David Castone",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": true,
+      "is_departed": true,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 177,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 46,
+        "total_today": 0,
+        "total_yesterday": 0,
+        "total_week": 0,
+        "total_month": 0,
+        "total_90d": 223
+      },
+      "activity_breakdown_90d": {
+        "calls": 144,
+        "emails": 1,
+        "meetings_logged": 0,
+        "events_calendar": 46,
+        "meetings_combined": 46,
+        "site_visits": 31,
+        "voicemails": 1,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 2,
+        "changes_90d": 242,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 3,
+        "open_opp_amount": 707800.0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Greg Cutlip",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "stalled",
+      "pattern_focus": "Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.",
+      "hygiene_flag": "na",
+      "top_stale_opps": [],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 0,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 0,
+        "total_today": 0,
+        "total_yesterday": 0,
+        "total_week": 0,
+        "total_month": 0,
+        "total_90d": 0
+      },
+      "activity_breakdown_90d": {
+        "calls": 0,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 0,
+        "meetings_combined": 0,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 0,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 0,
+        "open_opp_amount": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Jackson Bellinghausen",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "stalled",
+      "pattern_focus": "Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.",
+      "hygiene_flag": "na",
+      "top_stale_opps": [],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 0,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 0,
+        "total_today": 0,
+        "total_yesterday": 0,
+        "total_week": 0,
+        "total_month": 0,
+        "total_90d": 0
+      },
+      "activity_breakdown_90d": {
+        "calls": 0,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 0,
+        "meetings_combined": 0,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 0,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 0,
+        "open_opp_amount": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Joel Carlucci",
+      "team": "Carlucci",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
+      "activity": {
+        "tasks_today": 1,
+        "tasks_yesterday": 8,
+        "tasks_week": 16,
+        "tasks_month": 67,
+        "tasks_90d": 437,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 6,
+        "events_90d": 62,
+        "total_today": 1,
+        "total_yesterday": 8,
+        "total_week": 16,
+        "total_month": 73,
+        "total_90d": 499
+      },
+      "activity_breakdown_90d": {
+        "calls": 381,
+        "emails": 45,
+        "meetings_logged": 5,
+        "events_calendar": 62,
+        "meetings_combined": 67,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 6,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 148,
+        "stage_progressions_30d": 2,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 10,
+        "open_opp_amount": 712460.92,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 2,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 20.0
+      }
+    },
+    {
+      "rep": "Kiristen Sandoval",
+      "team": "CS",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Ed Voyles Automotive Group",
+          "stage": "Proposal",
+          "amount": 274844.4,
+          "days_since_activity": 47,
+          "days_in_stage": 83,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "Mossy Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 140638.2,
+          "days_since_activity": null,
+          "days_in_stage": 60,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "RML Automotive (TX)",
+          "stage": "Committed",
+          "amount": 76032.0,
+          "days_since_activity": null,
+          "days_in_stage": 109,
+          "close_date": "2026-04-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 1,
+        "tasks_90d": 6,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 0,
+        "total_today": 0,
+        "total_yesterday": 0,
+        "total_week": 0,
+        "total_month": 1,
+        "total_90d": 6
+      },
+      "activity_breakdown_90d": {
+        "calls": 2,
+        "emails": 4,
+        "meetings_logged": 0,
+        "events_calendar": 0,
+        "meetings_combined": 0,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 3,
+        "changes_90d": 240,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 3,
+        "open_opp_amount": 491514.6,
+        "stale_opp_count": 3,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Loren Rivera",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": true,
+      "is_departed": true,
+      "pattern": "stalled",
+      "pattern_focus": "Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.",
+      "hygiene_flag": "na",
+      "top_stale_opps": [],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 28,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 70,
+        "total_today": 0,
+        "total_yesterday": 0,
+        "total_week": 0,
+        "total_month": 0,
+        "total_90d": 98
+      },
+      "activity_breakdown_90d": {
+        "calls": 28,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 70,
+        "meetings_combined": 70,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 80,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 0,
+        "open_opp_amount": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Matt Hanaman",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Van Horn Automotive Group",
+          "stage": "Solution Fit",
+          "amount": 475000.0,
+          "days_since_activity": 33,
+          "days_in_stage": 76,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Galesburg Ford Group Parent",
+          "stage": "Proposal",
+          "amount": 24168.6,
+          "days_since_activity": null,
+          "days_in_stage": 21,
+          "close_date": "2026-04-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 36,
+        "tasks_yesterday": 0,
+        "tasks_week": 67,
+        "tasks_month": 194,
+        "tasks_90d": 363,
+        "events_today": 1,
+        "events_yesterday": 4,
+        "events_week": 6,
+        "events_month": 33,
+        "events_90d": 180,
+        "total_today": 37,
+        "total_yesterday": 4,
+        "total_week": 73,
+        "total_month": 227,
+        "total_90d": 543
+      },
+      "activity_breakdown_90d": {
+        "calls": 362,
+        "emails": 0,
+        "meetings_logged": 1,
+        "events_calendar": 180,
+        "meetings_combined": 181,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 4,
+        "changes_week": 4,
+        "changes_month": 47,
+        "changes_90d": 381,
+        "stage_progressions_30d": 3,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 13,
+        "open_opp_amount": 3065565.88,
+        "stale_opp_count": 2,
+        "opps_with_recent_activity": 11,
+        "opps_no_activity_ever": 1,
+        "engagement_pct": 84.6
+      }
+    },
+    {
+      "rep": "Michael Byrd",
+      "team": "Executive",
+      "manager": null,
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "na",
+      "top_stale_opps": [],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 22,
+        "tasks_90d": 127,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 6,
+        "total_today": 0,
+        "total_yesterday": 0,
+        "total_week": 0,
+        "total_month": 22,
+        "total_90d": 133
+      },
+      "activity_breakdown_90d": {
+        "calls": 127,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 6,
+        "meetings_combined": 6,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 0,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 0,
+        "open_opp_amount": 0,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Nick Moyes",
+      "team": "Knievel",
+      "manager": "Curtis Knievel",
+      "is_hidden": true,
+      "is_departed": true,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Matthews Auto Group",
+          "stage": "Solution Fit",
+          "amount": 150000.0,
+          "days_since_activity": 99,
+          "days_in_stage": 89,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "Acadiana Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 25000.0,
+          "days_since_activity": 111,
+          "days_in_stage": 89,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "Star Ford Lincoln, Inc.",
+          "stage": "Solution Fit",
+          "amount": 24000.0,
+          "days_since_activity": null,
+          "days_in_stage": 97,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "South Dakota Auto Dealers Association",
+          "stage": "NDA",
+          "amount": 0.0,
+          "days_since_activity": 148,
+          "days_in_stage": 147,
+          "close_date": "2025-12-31"
+        },
+        {
+          "account": "Montana Automobile Dealers Association",
+          "stage": "Proposal",
+          "amount": 0.0,
+          "days_since_activity": 118,
+          "days_in_stage": 158,
+          "close_date": "2025-12-31"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 31,
+        "events_today": 0,
+        "events_yesterday": 0,
+        "events_week": 0,
+        "events_month": 0,
+        "events_90d": 68,
+        "total_today": 0,
+        "total_yesterday": 0,
+        "total_week": 0,
+        "total_month": 0,
+        "total_90d": 99
+      },
+      "activity_breakdown_90d": {
+        "calls": 10,
+        "emails": 17,
+        "meetings_logged": 0,
+        "events_calendar": 68,
+        "meetings_combined": 68,
+        "site_visits": 0,
+        "voicemails": 4,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 0,
+        "changes_90d": 45,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 12,
+        "open_opp_amount": 199000.0,
+        "stale_opp_count": 12,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 7,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Tami Richter",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "stalled",
+      "pattern_focus": "Both activity and movement are low. Likely indicators: confidence issue, territory issue, or personal blocker. Lead with curiosity, not pressure.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Rick Case Automotive Group",
+          "stage": "Solution Fit",
+          "amount": 1330611.96,
+          "days_since_activity": null,
+          "days_in_stage": 98,
+          "close_date": "2026-05-30"
+        },
+        {
+          "account": "Krause Auto Group",
+          "stage": "Committed",
+          "amount": 894318.0,
+          "days_since_activity": null,
+          "days_in_stage": 230,
+          "close_date": "2026-05-30"
+        },
+        {
+          "account": "Gettel Automotive Group",
+          "stage": "Tech Demo",
+          "amount": 700000.0,
+          "days_since_activity": null,
+          "days_in_stage": 412,
+          "close_date": "2026-04-30"
+        },
+        {
+          "account": "Morgan Auto Group",
+          "stage": "Proposal",
+          "amount": 584307.64,
+          "days_since_activity": 517,
+          "days_in_stage": 560,
+          "close_date": "2026-05-30"
+        },
+        {
+          "account": "Potamkin Automotive Group",
+          "stage": "Proposal",
+          "amount": 520736.28,
+          "days_since_activity": null,
+          "days_in_stage": 411,
+          "close_date": "2026-05-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 2,
+        "events_today": 2,
+        "events_yesterday": 1,
+        "events_week": 4,
+        "events_month": 30,
+        "events_90d": 132,
+        "total_today": 2,
+        "total_yesterday": 1,
+        "total_week": 4,
+        "total_month": 30,
+        "total_90d": 134
+      },
+      "activity_breakdown_90d": {
+        "calls": 2,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 132,
+        "meetings_combined": 132,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 41,
+        "changes_90d": 611,
+        "stage_progressions_30d": 2,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 94,
+        "open_opp_amount": 10672560.73,
+        "stale_opp_count": 90,
+        "opps_with_recent_activity": 2,
+        "opps_no_activity_ever": 68,
+        "engagement_pct": 2.1
+      }
+    },
+    {
+      "rep": "Teresa Bordenet",
+      "team": "Bordenet",
+      "manager": "Michael Byrd",
+      "is_hidden": true,
+      "is_departed": false,
+      "pattern": "manager",
+      "pattern_focus": "Manager-level activity is naturally low \u2014 focus coaching on team rhythm, deal reviews, and pipeline hygiene across direct reports.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "SCS Cloud Test Account",
+          "stage": "Solution Fit",
+          "amount": 0.0,
+          "days_since_activity": null,
+          "days_in_stage": 26,
+          "close_date": "2026-04-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 0,
+        "tasks_90d": 0,
+        "events_today": 1,
+        "events_yesterday": 0,
+        "events_week": 1,
+        "events_month": 10,
+        "events_90d": 28,
+        "total_today": 1,
+        "total_yesterday": 0,
+        "total_week": 1,
+        "total_month": 10,
+        "total_90d": 28
+      },
+      "activity_breakdown_90d": {
+        "calls": 0,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 28,
+        "meetings_combined": 28,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 4,
+        "changes_week": 4,
+        "changes_month": 5,
+        "changes_90d": 16,
+        "stage_progressions_30d": 0,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 1,
+        "open_opp_amount": 0.0,
+        "stale_opp_count": 1,
+        "opps_with_recent_activity": 0,
+        "opps_no_activity_ever": 1,
+        "engagement_pct": 0.0
+      }
+    },
+    {
+      "rep": "Tim Canley",
+      "team": "Knievel",
+      "manager": "Curtis Knievel",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "low_engagement",
+      "pattern_focus": "Pipeline is being neglected. Triage the top 5 stalest deals together; commit to specific re-engagement actions.",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "TrueCar, Inc.",
+          "stage": "Solution Fit",
+          "amount": 605000.0,
+          "days_since_activity": null,
+          "days_in_stage": 34,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "C-4 Analytics",
+          "stage": "Tech Demo",
+          "amount": 350000.0,
+          "days_since_activity": 81,
+          "days_in_stage": 42,
+          "close_date": "2026-05-31"
+        },
+        {
+          "account": "Amazon Autos",
+          "stage": "Solution Fit",
+          "amount": 350000.0,
+          "days_since_activity": null,
+          "days_in_stage": 32,
+          "close_date": "2026-10-31"
+        },
+        {
+          "account": "Pureinfluencer",
+          "stage": "Solution Fit",
+          "amount": 315000.0,
+          "days_since_activity": 837,
+          "days_in_stage": 32,
+          "close_date": "2026-08-31"
+        },
+        {
+          "account": "Controlled Logic",
+          "stage": "Solution Fit",
+          "amount": 157500.0,
+          "days_since_activity": 42,
+          "days_in_stage": 42,
+          "close_date": "2026-06-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 8,
+        "tasks_90d": 37,
+        "events_today": 3,
+        "events_yesterday": 1,
+        "events_week": 6,
+        "events_month": 21,
+        "events_90d": 87,
+        "total_today": 3,
+        "total_yesterday": 1,
+        "total_week": 6,
+        "total_month": 29,
+        "total_90d": 124
+      },
+      "activity_breakdown_90d": {
+        "calls": 6,
+        "emails": 31,
+        "meetings_logged": 0,
+        "events_calendar": 87,
+        "meetings_combined": 87,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 11,
+        "changes_90d": 83,
+        "stage_progressions_30d": 3,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 15,
+        "open_opp_amount": 4047500.0,
+        "stale_opp_count": 11,
+        "opps_with_recent_activity": 3,
+        "opps_no_activity_ever": 9,
+        "engagement_pct": 20.0
+      }
+    },
+    {
+      "rep": "Tom Meredith",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": true,
+      "is_departed": true,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Ruges Auto Group Parent",
+          "stage": "Proposal",
+          "amount": 33920.8,
+          "days_since_activity": 34,
+          "days_in_stage": 50,
+          "close_date": "2026-05-15"
+        },
+        {
+          "account": "Dansville Chrysler Dodge Jeep",
+          "stage": "Solution Fit",
+          "amount": 15000.0,
+          "days_since_activity": null,
+          "days_in_stage": 33,
+          "close_date": "2026-06-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 0,
+        "tasks_week": 0,
+        "tasks_month": 56,
+        "tasks_90d": 388,
+        "events_today": 0,
+        "events_yesterday": 1,
+        "events_week": 2,
+        "events_month": 45,
+        "events_90d": 195,
+        "total_today": 0,
+        "total_yesterday": 1,
+        "total_week": 2,
+        "total_month": 101,
+        "total_90d": 583
+      },
+      "activity_breakdown_90d": {
+        "calls": 386,
+        "emails": 0,
+        "meetings_logged": 2,
+        "events_calendar": 195,
+        "meetings_combined": 197,
+        "site_visits": 0,
+        "voicemails": 0,
+        "texts": 0,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 3,
+        "changes_90d": 100,
+        "stage_progressions_30d": 1,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 10,
+        "open_opp_amount": 1158279.34,
+        "stale_opp_count": 2,
+        "opps_with_recent_activity": 1,
+        "opps_no_activity_ever": 1,
+        "engagement_pct": 10.0
+      }
+    },
+    {
+      "rep": "Trish Smith",
+      "team": "Bordenet",
+      "manager": "Teresa Bordenet",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "critical",
+      "top_stale_opps": [
+        {
+          "account": "Kahlig Auto Group",
+          "stage": "Tech Demo",
+          "amount": 800000.0,
+          "days_since_activity": null,
+          "days_in_stage": 102,
+          "close_date": "2026-05-29"
+        },
+        {
+          "account": "Auto Inc",
+          "stage": "Solution Fit",
+          "amount": 474000.0,
+          "days_since_activity": 40,
+          "days_in_stage": 424,
+          "close_date": "2026-05-08"
+        },
+        {
+          "account": "Hiley Auto Group",
+          "stage": "Solution Fit",
+          "amount": 300000.0,
+          "days_since_activity": 40,
+          "days_in_stage": 196,
+          "close_date": "2026-06-05"
+        },
+        {
+          "account": "Continental Automotive Group",
+          "stage": "Solution Fit",
+          "amount": 280000.0,
+          "days_since_activity": 40,
+          "days_in_stage": 102,
+          "close_date": "2026-05-08"
+        },
+        {
+          "account": "RML Automotive (TX)",
+          "stage": "Tech Demo",
+          "amount": 195963.12,
+          "days_since_activity": 40,
+          "days_in_stage": 99,
+          "close_date": "2026-04-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 7,
+        "tasks_week": 7,
+        "tasks_month": 33,
+        "tasks_90d": 205,
+        "events_today": 1,
+        "events_yesterday": 0,
+        "events_week": 5,
+        "events_month": 23,
+        "events_90d": 86,
+        "total_today": 1,
+        "total_yesterday": 7,
+        "total_week": 12,
+        "total_month": 56,
+        "total_90d": 291
+      },
+      "activity_breakdown_90d": {
+        "calls": 199,
+        "emails": 0,
+        "meetings_logged": 0,
+        "events_calendar": 86,
+        "meetings_combined": 86,
+        "site_visits": 4,
+        "voicemails": 0,
+        "texts": 2,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 12,
+        "changes_90d": 186,
+        "stage_progressions_30d": 1,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 24,
+        "open_opp_amount": 3870448.72,
+        "stale_opp_count": 19,
+        "opps_with_recent_activity": 1,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 4.2
+      }
+    },
+    {
+      "rep": "Ward Carroll",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [
+        {
+          "account": "Import Performance",
+          "stage": "Solution Fit",
+          "amount": 45000.0,
+          "days_since_activity": 40,
+          "days_in_stage": 42,
+          "close_date": "2026-06-30"
+        },
+        {
+          "account": "Glorious Motorsports",
+          "stage": "Solution Fit",
+          "amount": 40000.0,
+          "days_since_activity": null,
+          "days_in_stage": 41,
+          "close_date": "2026-06-30"
+        }
+      ],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 1,
+        "tasks_week": 2,
+        "tasks_month": 15,
+        "tasks_90d": 322,
+        "events_today": 2,
+        "events_yesterday": 2,
+        "events_week": 7,
+        "events_month": 21,
+        "events_90d": 102,
+        "total_today": 2,
+        "total_yesterday": 3,
+        "total_week": 9,
+        "total_month": 36,
+        "total_90d": 424
+      },
+      "activity_breakdown_90d": {
+        "calls": 279,
+        "emails": 2,
+        "meetings_logged": 0,
+        "events_calendar": 102,
+        "meetings_combined": 102,
+        "site_visits": 18,
+        "voicemails": 14,
+        "texts": 9,
+        "other": 0
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 1,
+        "changes_week": 1,
+        "changes_month": 15,
+        "changes_90d": 157,
+        "stage_progressions_30d": 2,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 16,
+        "open_opp_amount": 1246200.0,
+        "stale_opp_count": 2,
+        "opps_with_recent_activity": 2,
+        "opps_no_activity_ever": 2,
+        "engagement_pct": 12.5
+      }
+    },
+    {
+      "rep": "William Fowler",
+      "team": "Carlucci",
+      "manager": "Joel Carlucci",
+      "is_hidden": false,
+      "is_departed": false,
+      "pattern": "task_driven",
+      "pattern_focus": "Activity volume is strong. Examine call/email conversion \u2014 is the rep talking to the right buyer? Are calls progressing the deal or churning?",
+      "hygiene_flag": "healthy",
+      "top_stale_opps": [],
+      "activity": {
+        "tasks_today": 0,
+        "tasks_yesterday": 1,
+        "tasks_week": 2,
+        "tasks_month": 144,
+        "tasks_90d": 490,
+        "events_today": 0,
+        "events_yesterday": 1,
+        "events_week": 3,
+        "events_month": 11,
+        "events_90d": 55,
+        "total_today": 0,
+        "total_yesterday": 2,
+        "total_week": 5,
+        "total_month": 155,
+        "total_90d": 545
+      },
+      "activity_breakdown_90d": {
+        "calls": 396,
+        "emails": 11,
+        "meetings_logged": 0,
+        "events_calendar": 55,
+        "meetings_combined": 55,
+        "site_visits": 41,
+        "voicemails": 1,
+        "texts": 0,
+        "other": 41
+      },
+      "pipeline_movement": {
+        "changes_today": 0,
+        "changes_yesterday": 0,
+        "changes_week": 0,
+        "changes_month": 1,
+        "changes_90d": 186,
+        "stage_progressions_30d": 1,
+        "stage_progressions_90d": 0
+      },
+      "pipeline": {
+        "open_opp_count": 11,
+        "open_opp_amount": 318120.96,
+        "stale_opp_count": 0,
+        "opps_with_recent_activity": 1,
+        "opps_no_activity_ever": 0,
+        "engagement_pct": 9.1
+      }
+    }
+  ],
+  "config": {
+    "stale_threshold_days": 30,
+    "stale_movement_days": 30,
+    "recent_activity_days": 14,
+    "stale_rule": "No Tasks/Events in 30d AND no stage/amount movement in 30d",
+    "window_definitions": {
+      "today": "TODAY (calendar)",
+      "week": "THIS_WEEK (Sun-Sat)",
+      "month": "THIS_MONTH (calendar)",
+      "90d": "LAST_N_DAYS:90 (rolling)"
+    }
+  },
+  "_patch_note": "v2 patch: closed-lost removal + Matt Hanaman activity-date refresh. Reps with refreshed activity: Matt Hanaman. Others retain cached activity dates but had closed-lost opps removed."
+}
