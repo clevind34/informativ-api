@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T12:33:54Z",
+  "generated_at": "2026-05-19T13:10:26Z",
   "period": "May 2026",
   "reps": {
     "Teresa Bordenet": {
@@ -24,7 +24,7 @@
         "attainment_pct": 0.0
       },
       "key_metrics": {
-        "team_cw_ytd": 5115464,
+        "team_cw_ytd": 5121683,
         "team_cw_mtd": 196716,
         "team_q1_quota": 4722146,
         "team_attainment_pct": 23.0,
@@ -859,7 +859,7 @@
       "coaching_archetype": "deal_velocity",
       "archetype_sub_type": "",
       "key_metrics": {
-        "cwYTD": 2630496,
+        "cwYTD": 2636715,
         "cwQTD": 381043,
         "cwMTD": 163746,
         "quota_q1": 643929,
@@ -885,7 +885,7 @@
         "monthly_forecast": 348592,
         "ninety_day_forecast": 387651,
         "monthly_vs_quota_pct": 237,
-        "quarterly_vs_quota_pct": 469
+        "quarterly_vs_quota_pct": 470
       },
       "top_stuck_deals": [
         {
@@ -947,7 +947,7 @@
         "month_2_prob": 0.83,
         "month_3_prob": 0.98,
         "trajectory_direction": "improving",
-        "projected_attainment_pct": 408.5,
+        "projected_attainment_pct": 409.5,
         "intervention_urgency": "on_track",
         "key_drivers": [
           {
@@ -1729,7 +1729,7 @@
         "attainment_pct": 0.0
       },
       "key_metrics": {
-        "team_cw_ytd": 698918,
+        "team_cw_ytd": 689131,
         "team_cw_mtd": 127502,
         "team_q1_quota": 3299795,
         "team_attainment_pct": 4.0,
@@ -2396,7 +2396,7 @@
       "coaching_archetype": "coverage_gap",
       "archetype_sub_type": "",
       "key_metrics": {
-        "cwYTD": 28970,
+        "cwYTD": 19183,
         "cwQTD": 0,
         "cwMTD": 0,
         "quota_q1": 643929,
@@ -2422,7 +2422,7 @@
         "monthly_forecast": 5060,
         "ninety_day_forecast": 8170,
         "monthly_vs_quota_pct": 2,
-        "quarterly_vs_quota_pct": 6
+        "quarterly_vs_quota_pct": 4
       },
       "top_stuck_deals": [
         {
@@ -2470,17 +2470,17 @@
         "quota_hit_probability": 0.02,
         "risk_level": "high",
         "confidence": 1.0,
-        "month_1_prob": 0.04,
+        "month_1_prob": 0.03,
         "month_2_prob": 0.02,
         "month_3_prob": 0.02,
         "trajectory_direction": "steady",
-        "projected_attainment_pct": 4.5,
+        "projected_attainment_pct": 3.0,
         "intervention_urgency": "urgent",
         "key_drivers": [
           {
             "factor": "booking_pace",
             "impact": "negative",
-            "detail": "Only 4% of needed pace"
+            "detail": "Only 3% of needed pace"
           },
           {
             "factor": "pipeline_coverage",
@@ -3018,11 +3018,11 @@
       "coaching_archetype": "deal_velocity",
       "archetype_sub_type": "",
       "key_metrics": {
-        "cwYTD": 1313584,
-        "cwQTD": 796664,
-        "cwMTD": 651338,
+        "cwYTD": 1311750,
+        "cwQTD": 794829,
+        "cwMTD": 649504,
         "quota_q1": 1707811,
-        "attainment_pct": 46.6,
+        "attainment_pct": 46.5,
         "pipeline_value": 5931295,
         "pipeline_opps": 38,
         "pipeline_coverage": 0.76,
@@ -3106,7 +3106,7 @@
         "month_2_prob": 0.59,
         "month_3_prob": 0.69,
         "trajectory_direction": "improving",
-        "projected_attainment_pct": 76.9,
+        "projected_attainment_pct": 76.8,
         "intervention_urgency": "monitor",
         "key_drivers": [
           {
@@ -3495,10 +3495,10 @@
         "attainment_pct": 0.0
       },
       "key_metrics": {
-        "team_cw_ytd": 1313584,
-        "team_cw_mtd": 651338,
+        "team_cw_ytd": 1311750,
+        "team_cw_mtd": 649504,
         "team_q1_quota": 3705990,
-        "team_attainment_pct": 21.5,
+        "team_attainment_pct": 21.4,
         "team_pipeline_value": 8743795,
         "team_pipeline_opps": 54,
         "team_weighted_coverage": 0.29,
@@ -3595,7 +3595,7 @@
           "name": "Crly Alvarado",
           "composite_score": 66,
           "coaching_archetype": "deal_velocity",
-          "attainment_pct": 46.6,
+          "attainment_pct": 46.5,
           "pipeline_coverage": 0.76,
           "hygiene_score": 45,
           "top_issue": "50% of deals aged beyond stage threshold. 2 deals with low or missing amounts.",
