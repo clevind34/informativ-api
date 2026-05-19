@@ -51,13 +51,13 @@
       "certified_products": [
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         },
         {
           "product": "Value Selling",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "methodology_quiz",
           "program_id": "value_selling_cert"
         }
@@ -104,13 +104,13 @@
       "certified_products": [
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         },
         {
           "product": "Value Selling",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "methodology_quiz",
           "program_id": "value_selling_cert"
         }
@@ -459,14 +459,14 @@
       "programs_certified_count": 2,
       "applicable_program_count": 7,
       "program_progress": {
-        "payments_channel_cert": {
+        "smartpencil_cert": {
           "passed_modules": 6,
           "total_modules": 6,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
         },
-        "smartpencil_cert": {
+        "payments_channel_cert": {
           "passed_modules": 6,
           "total_modules": 6,
           "status": "certified",
@@ -477,13 +477,13 @@
       "certified_products": [
         {
           "product": "Informativ Payments",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "payments_channel_cert"
         },
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         }
@@ -522,13 +522,13 @@
       "certified_products": [
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         },
         {
           "product": "Value Selling",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "methodology_quiz",
           "program_id": "value_selling_cert"
         }
@@ -681,14 +681,14 @@
           "last_quiz_date": null,
           "source": "legacy"
         },
-        "value_selling_cert": {
+        "smartpencil_cert": {
           "passed_modules": 6,
           "total_modules": 6,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
         },
-        "smartpencil_cert": {
+        "value_selling_cert": {
           "passed_modules": 6,
           "total_modules": 6,
           "status": "certified",
@@ -699,19 +699,19 @@
       "certified_products": [
         {
           "product": "Compliance",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "tier_cert"
         },
         {
           "product": "Credit",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "tier_cert"
         },
         {
           "product": "Customer Insights",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "tier_cert"
         },
@@ -723,13 +723,13 @@
         },
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         },
         {
           "product": "Value Selling",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "methodology_quiz",
           "program_id": "value_selling_cert"
         }
@@ -774,7 +774,7 @@
       "certified_products": [
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         }
@@ -979,16 +979,16 @@
       "programs_certified_count": 2,
       "applicable_program_count": 6,
       "program_progress": {
-        "total_solutions_sales_cert": {
-          "passed_modules": 9,
-          "total_modules": 9,
+        "smartpencil_cert": {
+          "passed_modules": 6,
+          "total_modules": 6,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
         },
-        "smartpencil_cert": {
-          "passed_modules": 6,
-          "total_modules": 6,
+        "total_solutions_sales_cert": {
+          "passed_modules": 9,
+          "total_modules": 9,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
@@ -997,25 +997,25 @@
       "certified_products": [
         {
           "product": "Compliance",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "total_solutions_sales_cert"
         },
         {
           "product": "Credit",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "total_solutions_sales_cert"
         },
         {
           "product": "Customer Insights",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "total_solutions_sales_cert"
         },
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         }
@@ -1336,9 +1336,9 @@
       "programs_certified_count": 5,
       "applicable_program_count": 6,
       "program_progress": {
-        "total_solutions_manager_cert": {
-          "passed_modules": 8,
-          "total_modules": 8,
+        "value_selling_cert": {
+          "passed_modules": 6,
+          "total_modules": 6,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
@@ -1350,9 +1350,16 @@
           "last_quiz_date": null,
           "source": "legacy"
         },
-        "value_selling_cert": {
-          "passed_modules": 6,
-          "total_modules": 6,
+        "total_solutions_manager_cert": {
+          "passed_modules": 8,
+          "total_modules": 8,
+          "status": "certified",
+          "last_quiz_date": null,
+          "source": "legacy"
+        },
+        "tier_cert": {
+          "passed_modules": 4,
+          "total_modules": 4,
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
@@ -1370,49 +1377,42 @@
           "status": "certified",
           "last_quiz_date": null,
           "source": "legacy"
-        },
-        "tier_cert": {
-          "passed_modules": 4,
-          "total_modules": 4,
-          "status": "certified",
-          "last_quiz_date": null,
-          "source": "legacy"
         }
       },
       "certified_products": [
         {
           "product": "Compliance",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "tier_cert"
         },
         {
           "product": "Credit",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "tier_cert"
         },
         {
           "product": "Customer Insights",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "tier_cert"
         },
         {
           "product": "Informativ Method",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "methodology_quiz",
           "program_id": "informativ_method_cert"
         },
         {
           "product": "SmartPencil",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "quiz_completion",
           "program_id": "smartpencil_cert"
         },
         {
           "product": "Value Selling",
-          "certified_date": "2026-05-17",
+          "certified_date": "2026-05-19",
           "certification_type": "methodology_quiz",
           "program_id": "value_selling_cert"
         }
@@ -1648,7 +1648,7 @@
     "Informativ Payments",
     "Verified STIPs"
   ],
-  "last_updated": "2026-05-17",
+  "last_updated": "2026-05-19",
   "certification_programs": {
     "smartpencil_cert": {
       "name": "SmartPencil Product Certification",
@@ -1765,6 +1765,6 @@
     ],
     "cs_method_cert": []
   },
-  "last_synced": "2026-05-17T22:03:05.320108+00:00",
+  "last_synced": "2026-05-19T12:32:28.029719+00:00",
   "sync_source": "gateway:cert-progress.json"
 }
